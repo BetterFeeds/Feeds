@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info">
   <title>BSD Now</title>
-  <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="self"/>
+  <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="self" title="MP3 Audio"/>
   <link href="http://www.bsdnow.tv/"/>
   <id>http://www.bsdnow.tv/</id>
   <updated>2016-04-25T09:30:02Z</updated>
@@ -12,6 +12,7 @@
     <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
     <id>http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd</id>
     <updated>2016-05-04T16:30:02Z</updated>
+    <enclosure url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0140.mp3" length="43882256" type="audio/mpeg" />
     <author>
       <name>Kris Moore</name>
       <email>kris@pcbsd.org</email>
