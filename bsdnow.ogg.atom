@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info">
+  <title>BSD Now</title>
+  <link
+    href="https://feeds.betterfeeds.org/bsdnow.ogg.atom"
+    rel="self"
+    type="application/atom+xml"
+    title="OGG Audio" />
+  <link
+    href="https://feeds.betterfeeds.org/bsdnow.mp3.atom"
+    rel="alternate"
+    type="application/atom+xml"
+    title="MP3 Audio" />
+  <link href="http://www.bsdnow.tv/"/>
+  <id>http://www.bsdnow.tv/</id>
+  <updated>2016-04-25T09:30:02Z</updated>
+  <entry>
+    <title>Tracing it back to BSD</title>
+    <smi:episode>140</smi:episode>
+    <link href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
+    <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
+    <id>http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd</id>
+    <updated>2016-05-04T16:30:02Z</updated>
+    <enclosure url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.ogg" length="82221087" type="audio/ogg" />
+    <contributor>
+      <name>Kris Moore</name>
+      <email>kris@pcbsd.org</email>
+      <uri>https://twitter.com/pcbsdkris</uri>
+    </contributor>
+    <contributor>
+      <name>Allan Jude</name>
+      <email>allan@jupiterbroadcasting.com</email>
+      <uri>https://twitter.com/allanjude</uri>
+    </contributor>
+    <contributor>
+      <name>JT</name>
+      <uri>https://twitter.com/q5sys</uri>
+    </contributor>
+    <content type="html">
+      &lt;h1&gt;Episode 140: Tracing it back to 
+BSD&lt;/h1&gt;
+      &lt;p class=&quot;newsDate&quot;&gt;2016-05-04&lt;/p&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;Headlines&lt;/h2&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;http://www.freebsd.org/news/status/report-2016-01-2016-03.html&quot;&gt;FreeBSD 
+Quarterly Report&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;This quarterly status report starts with a rather 
+interesting introduction by Warren Block&lt;/li&gt;
+        &lt;li&gt;ASLR&lt;/li&gt;
+        &lt;li&gt;Porting CEPH to FreeBSD&lt;/li&gt;
+        &lt;li&gt;RCTL I/O Rate Limiting&lt;/li&gt;
+        &lt;li&gt;The Graphics Stack on FreeBSD (Haswell is in, work 
+is progressing on the next update)&lt;/li&gt;
+        &lt;li&gt;CAM I/O Scheduler&lt;/li&gt;
+        &lt;li&gt;NFS Server updates, working around the 16 group 
+limit, and implementing pNFS, allowing NFS to scale 
+beyond a single server&lt;/li&gt;
+        &lt;li&gt;Static Analysis of the FreeBSD Kernel with PVS 
+Studio&lt;/li&gt;
+        &lt;li&gt;PCI-express HotPlug&lt;/li&gt;
+        &lt;li&gt;GitLab Port committed!&lt;/li&gt;
+        &lt;li&gt;WITH&lt;em&gt;FAST&lt;/em&gt;DEPEND and other improvements to 
+the FreeBSD build system&lt;/li&gt;
+        &lt;li&gt;Lots of other interesting stuff&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;http://www.tedunangst.com/flak/post/a-prog-by-any-other-name&quot;&gt;A 
+Prog By Any Other Name&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Ted Unangst looks at what goes into the name of a 
+program&lt;/li&gt;
+        &lt;li&gt;“Sometimes two similar programs are really the same 
+program with two names. For example, grep and egrep are 
+two commands that perform very similar functions and are 
+therefore implemented as a single program. Running ls -i 
+and observing the inode number of each file will reveal 
+that there is only one file. Calling the program egrep 
+is a shorthand for -E and does the same thing.”&lt;/li&gt;
+        &lt;li&gt;So BSD provides __progname in libc, so a program can 
+tell what its name is&lt;/li&gt;
+        &lt;li&gt;But, what if it has more than one name?&lt;/li&gt;
+        &lt;li&gt;“In fact, every program has three names: its name in 
+the filesystem, the name it has been invoked with, and 
+whatever it believes its own name to be.”&lt;/li&gt;
+        &lt;li&gt;Of course it is not that easy. &lt;/li&gt;
+        &lt;li&gt;“there’s another set of choices for each name, the 
+full path and the basename”&lt;/li&gt;
+        &lt;li&gt;“It’s even possible on some systems for argv[0] to 
+be NULL.”&lt;/li&gt;
+        &lt;li&gt;He then goes on to rename doas (the OpenBSD light 
+replacement for sudo) to banana and discuss what 
+happens&lt;/li&gt;
+        &lt;li&gt;“On that note, another possible bug is to realize 
+that syslog by default uses progname. A user may be able 
+to evade log monitoring by invoking doas with a 
+different name. (Just fixed.)”&lt;/li&gt;
+        &lt;li&gt;Another interesting article from our friend Ted&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;&lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/4892834293350400/&quot;&gt;FreeBSD&lt;/a&gt; 
+and &lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/6246531984261120/&quot;&gt;NetBSD&lt;/a&gt; 
+  Google Summer of Code projects have been 
+announced&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Some FreeBSD highlights:
+
+&lt;ul&gt;&lt;li&gt;Add SCSI passthrough to CTL (share an optical drive 
+via iSCSI)&lt;/li&gt;&lt;li&gt;Add USB target mode driver based on CTL (share a USB 
+device via iSCSI)&lt;/li&gt;&lt;li&gt;API to link created /dev entries to sysctl 
+nodes&lt;/li&gt;&lt;li&gt;Implement Ethernet Ring Protection Switching 
+(ERPS)&lt;/li&gt;&lt;li&gt;HD Audio device model in userspace for bhyve&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+        &lt;li&gt;Some NetBSD highlights:
+
+&lt;ul&gt;&lt;li&gt;Implement Ext4fs support in ReadOnly mode&lt;/li&gt;&lt;li&gt;NPF and blacklistd web interface&lt;/li&gt;&lt;li&gt;Port U-Boot so it can be compiled on NetBSD&lt;/li&gt;&lt;li&gt;Split debug symbols for pkgsrc builds&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;http://www.tedunangst.com/flak/post/libressl-more-vague-promises&quot;&gt;libressl 
+- more vague priomises&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;We haven’t had a Ted U article on the show as of 
+late, however this week we get several! In his next 
+entry “LibreSSL, more vague promises”&lt;/li&gt;
+        &lt;li&gt;He then goes into some detail on what has happened 
+with LibreSSL in the past while, as well as future plans 
+going forward. &lt;/li&gt;
+        &lt;li&gt;“With an eye to the future, what new promises can we 
+make? Some time ago I joked that we only promised to 
+make a better TLS implementation, not a better TLS. 
+Remains true, but fortunately there are people working 
+on that, too. TLS 1.3 support is on the short term 
+watchlist. The good news is we may be ahead of the game, 
+having already removed compression. How much more work 
+can there be?”&lt;/li&gt;
+        &lt;li&gt;“LibreSSL integrated the draft chacha20-poly1305 
+construction from BoringSSL. The IETF has since 
+standardized a slightly different version because if it 
+were the same it wouldn’t be different. Support for 
+standard variant, and the beginning of deprecation for 
+the existing code, should be landing very shortly. 
+Incidentally, some people got bent out of shape because 
+shipping chacha20 meant exposing non IANA approved 
+numbers to Internet. No promises that won’t happen 
+again.”&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;Interview - Samy Al Bahra - &lt;a href=&quot;https://twitter.com/0xF390&quot;&gt;@0xF390&lt;/a&gt;&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Backtrace&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;News Roundup&lt;/h2&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;http://marc.info/?l=openbsd-cvs&amp;amp;m=146161167911029&amp;amp;w=2&quot;&gt;systrace(1) 
+is removed for OpenBSD 6.0&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;OpenBSD has removed systrace, an older mechanism for 
+limiting what syscalls an application can make&lt;/li&gt;
+        &lt;li&gt;It is mostly replaced by the pledge() system&lt;/li&gt;
+        &lt;li&gt;OpenBSD was the first implementation, most others 
+have been unmaintained for some time&lt;/li&gt;
+        &lt;li&gt;The last reported Linux version was for kernel 
+2.6.1&lt;/li&gt;
+        &lt;li&gt;NetBSD removed systrace in 2007&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE726R7YUJTePGvo0Zga2juUBxxFTH4Bk&quot;&gt;pfSense 
+Video Series: Comprehensive Guide To pfSense 
+2.3&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;A series of videos (11 so far), about pfSense&lt;/li&gt;
+        &lt;li&gt;Covers Why you would use it, how to pick your 
+hardware, and installation&lt;/li&gt;
+        &lt;li&gt;Then the series covers some networking basics, to 
+make sure you are up to speed before configuring your 
+pfSense&lt;/li&gt;
+        &lt;li&gt;Then a comprehensive tour of the WebUI&lt;/li&gt;
+        &lt;li&gt;Then goes on to cover graphing, backing up and 
+restoring configuration&lt;/li&gt;
+        &lt;li&gt;There are also videos on running DHCP, NTP, and DNS 
+servers&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;https://duck.co/blog/post/303/2016-foss-donations-announcement&quot;&gt;DuckDuckGo 
+announces its 2016 FOSS Donations &lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;The theme is “raising the standard of trust 
+online”&lt;/li&gt;
+        &lt;li&gt;Supported projects include:&lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160503085227&amp;amp;mode=expanded&quot;&gt;OpenBSD 
+Foundation announces DuckDuckGo as a Gold 
+Sponsor&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;the Freedom of the Press Foundation for 
+SecureDrop&lt;/li&gt;
+        &lt;li&gt;the Freenet Project&lt;/li&gt;
+        &lt;li&gt;the CrypTech Project&lt;/li&gt;
+        &lt;li&gt;the Tor Project&lt;/li&gt;
+        &lt;li&gt;Fight for the Future for Save Security&lt;/li&gt;
+        &lt;li&gt;Open Source Technology Improvement Fund for 
+VeraCrypt (based on TrueCrypt)&lt;/li&gt;
+        &lt;li&gt;Riseup Labs for LEAP (LEAP Encryption Access 
+Project)&lt;/li&gt;
+        &lt;li&gt;GPGTools for GPGMail&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h3&gt;
+        &lt;a href=&quot;http://fossforce.com/2016/04/bsd-linuxfest-northwest/&quot;&gt;Larry 
+the BSD Guy hangs up his hat at FOSS Force&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;After 15 years, Larry the BSD Guy has decided to 
+hang it up, and walk into the sunset! (Figuratively of 
+course)&lt;/li&gt;
+        &lt;li&gt;After wrapping up coverage of recent LinuxFest 
+NorthWest (Which he didn’t attend), Larry has decided 
+it’s time for a change and is giving up his column over 
+at FOSS Force, as well as stepping away from all things 
+technical. &lt;/li&gt;
+        &lt;li&gt;His last write-up is a good one, and he has some 
+nice plugs for both Dru Lavigne and Michael Dexter of 
+the BSD community. &lt;/li&gt;
+        &lt;li&gt;He will be missed, but we wish him all the luck with 
+the future! He also puts out the plug that FOSS Force 
+will be needing a new columnist in the near future, so 
+if you are interested please let them know!&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://blather.michaelwlucas.com/archives/2648&quot;&gt;If 
+you sponsored “FreeBSD Mastery: Advanced ZFS”, check 
+your mail box &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://marc.info/?l=freebsd-ports&amp;amp;m=146001143408868&amp;amp;w=2&quot;&gt;pkg-1.7.0 
+is an order of magnitude slower than pkg-1.6.4&lt;/a&gt; -- 
+Caused by a problem not in pkg&lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.ixsystems.com/blog/linuxfest-northwest-2016/&quot;&gt;LinuxFest 
+Northwest 2016 Recap&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.linuxfestnorthwest.org/2016/sessions/doc-egyptian&quot;&gt;Dru 
+Lavigne&#39;s &#39;Doc like an Egyption&#39; talk from LFNW&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.linuxfestnorthwest.org/2016/sessions/devil-details-switching-bsd-linux&quot;&gt;Michael 
+Dexters&#39; &#39;Switching to BSD from Linux&#39; talk from 
+LFNW&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.linuxfestnorthwest.org/2016/sessions/20-year-and-counting-secrets-enduring-user-groups&quot;&gt;Michael 
+Dexters&#39; &#39;Secrets to enduring user groups&#39; talk from 
+LFNW&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.freebsdfoundation.org/journal/&quot;&gt;January 
+issue of Freebsd Journal online for free&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://ghostbsd.org/10.3_alpha1&quot;&gt;Ghost BSD 
+releases 10.3 Alpha1 for testing&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.freebsdnews.com/2016/04/15/eurobsdcon-2016-call-for-papers/&quot;&gt;EuroBSDcon 
+2016 - Call for Papers - Dealine: May 8th&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://www.knoxbug.org/content/knoxbug-maiden-voyage&quot;&gt;KnoxBUG 
+Initial Meeting&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;https://www.netways.de/en/events_trainings/osdc/archive/osdc2016/&quot;&gt;Photos, 
+slides, and videos from the Open Source Data Center 
+Conference &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://pastebin.com/KDnyWf6Y&quot;&gt; Mohammad - 
+Replication&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://pastebin.com/mAbRwbEF&quot;&gt; John - 
+Rolling new packages&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://pastebin.com/BNa6pyir&quot;&gt;Clint - 
+Unicast&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://pastebin.com/KDjS2Hxa&quot;&gt; Bill - 
+GhostBSD&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;a href=&quot;http://pastebin.com/ABUUtzWM&quot;&gt; Charles - 
+BSD Videos&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Send questions, comments, show ideas/topics, or 
+stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+
+    </content>
+  </entry>
+</feed>
