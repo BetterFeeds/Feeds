@@ -14,6 +14,10 @@
   <link href="http://www.bsdnow.tv/"/>
   <id>http://www.bsdnow.tv/</id>
   <updated>2016-04-25T09:30:02Z</updated>
+  <author>
+    <name>Jupiter Broadcasting</name>
+    <uri>www.jupiterbroadcasting.com</uri>
+  </author>
   <entry>
     <title>Tracing it back to BSD</title>
     <smi:episode>140</smi:episode>
