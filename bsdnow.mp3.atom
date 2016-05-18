@@ -5,12 +5,12 @@
     href="https://feeds.betterfeeds.org/bsdnow.mp3.atom"
     rel="self"
     type="application/atom+xml"
-    title="MP3 Audio" />
+    title="BSD Now - MP3 Audio" />
   <link
     href="https://feeds.betterfeeds.org/bsdnow.ogg.atom"
     rel="alternate"
     type="application/atom+xml"
-    title="OGG Audio" />
+    title="BSD Now - OGG Audio" />
   <link href="http://www.bsdnow.tv/"/>
   <id>http://www.bsdnow.tv/</id>
   <updated>2016-04-25T09:30:02Z</updated>
