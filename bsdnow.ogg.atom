@@ -21,7 +21,11 @@
     <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
     <id>http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd</id>
     <updated>2016-05-04T16:30:02Z</updated>
-    <enclosure url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.ogg" length="82221087" type="audio/ogg" />
+    <link
+      href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.mp3"
+      rel="enclosure"
+      length="82221087"
+      type="audio/mpeg" />
     <contributor>
       <name>Kris Moore</name>
       <email>kris@pcbsd.org</email>
