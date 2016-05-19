@@ -51,6 +51,8 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
+    <media:thumbnail
+      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0141-v.jpg" />
     <content type="html">
 &lt;h1&gt;Episode 141: BSD Likes Ike!&lt;/h1&gt;
 
@@ -262,6 +264,8 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
+    <media:thumbnail
+      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0140-v.jpg" />
     <content type="html">
       &lt;h1&gt;Episode 140: Tracing it back to 
 BSD&lt;/h1&gt;
