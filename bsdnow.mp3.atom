@@ -21,11 +21,217 @@
     title="BSD Now - OGG Audio" />
   <link href="http://www.bsdnow.tv/" />
   <id>http://www.bsdnow.tv/</id>
-  <updated>2016-05-12T11:15:34Z</updated>
+  <updated>2016-05-20T08:38:00Z</updated>
   <author>
     <name>Jupiter Broadcasting</name>
     <uri>www.jupiterbroadcasting.com</uri>
   </author>
+  <entry>
+    <title>Diving for BSD Perls</title>
+    <smi:episode>142</smi:episode>
+    <link
+      href="http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls" />
+    <link
+      rel="alternate"
+      type="text/html"
+      href="http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls" />
+    <id>http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls</id>
+    <updated>2016-05-20T08:38:00Z</updated>
+    <link
+      href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0142.mp3"
+      rel="enclosure"
+      length="46681538"
+      type="audio/mpeg" />
+    <contributor>
+      <name>Kris Moore</name>
+      <email>kris@pcbsd.org</email>
+      <uri>https://twitter.com/pcbsdkris</uri>
+    </contributor>
+    <contributor>
+      <name>Allan Jude</name>
+      <email>allan@jupiterbroadcasting.com</email>
+      <uri>https://twitter.com/allanjude</uri>
+    </contributor>
+    <contributor>
+      <name>JT</name>
+      <uri>https://twitter.com/q5sys</uri>
+    </contributor>
+    <media:thumbnail
+      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0142-v.jpg" />
+    <content type="html">
+&lt;h1&gt;Episode 142: Diving for BSD Perls&lt;/h1&gt;
+
+&lt;h2&gt;Headlines&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://bsdmag.org/download/reusing_openbsd/&quot;&gt;The May issus of BSDMag is now out&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GhostBSD&lt;/li&gt;
+&lt;li&gt;Reusing OpenBSD&#39;s arc4random in multi-threaded user space programs&lt;/li&gt;
+&lt;li&gt;Securing VPN&#39;s with GRE / Strongswan&lt;/li&gt;
+&lt;li&gt;Installing XFCE 4.12 on NetBSD 7&lt;/li&gt;
+&lt;li&gt;Interview with Fernando Rodriguez, the co-founder of KeepCoding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.acumensecurity.net/fpt_wx_ext-1-a-rundown/&quot;&gt;A rundown of the FPT&lt;em&gt;W^X&lt;/em&gt;EXT.1 security reqiurement for General Purpose Operating Systems by the NSA&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.commoncriteriaportal.org/files/ppfiles/pp_os_v4.1-vr.pdf&quot;&gt;NIST/NSA Validation Scheme Report&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;The SFR or Security Functional Requirement requires that; &quot;The OS shall prevent allocation of any memory region with both write and execute permissions except for [assignment: list of exceptions].&quot;&lt;/li&gt;
+&lt;li&gt;While nearly all operating systems currently support the use of the NX bit, or the equivalent on processors such as SPARC and ARM, and will correctly mark the stack as non-executable, the fact remains that this in and of itself is deemed insufficient by NIST and NSA.&lt;/li&gt;
+&lt;li&gt;OpenBSD 5.8, FreeBSD, Solaris, RHEL, and most other Linux distro have failed.&lt;/li&gt;
+&lt;li&gt;HardenedBSD passes all three tests out of the box.&lt;/li&gt;
+&lt;li&gt;NetBSD will do so with a single sysctl tweak. Since they are using the PaX model, anything else using PaX, such as a grsecurity-enabled Linux distribution pass these assurance activities as well.&lt;/li&gt;
+&lt;li&gt;OpenBSD 5.9 does not allow memory mapping due to W^X being enforced by the kernel, however the kernel will panic if there are any attempts to create such mappings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://distrowatch.com/weekly.php?issue=20160516#freebsd&quot;&gt;DistroWatch reviews new features in FreeBSD 10.3&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DistroWatch did a review of FreeBSD 10.3&lt;/li&gt;
+&lt;li&gt;They ran into a few problems, but hopefully those can be fixed&lt;/li&gt;
+&lt;li&gt;An issue with beadm setting the canmount property incorrectly causing the ZFS BE menu to not work as expected should be resolved in the next version, thanks to a patch from kmoore&lt;/li&gt;
+&lt;li&gt;The limitations of the Linux 64 support are what they are, CentOS 6 is still fairly popular with enterprise software, but hopefully some folks are interested in working on bringing the syscall emulation forward&lt;/li&gt;
+&lt;li&gt;In a third issue, the reviewer seemed to have issues SSHing from inside the jail. This likely has to do with how they got a console in the jail. I remember having problems with this in the past, something about a secure console.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://www.salon.com/2000/05/16/chapter_2_part_one/&quot;&gt;BSD Unix: Power to the people, from the code&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Salon.com has a very long article, chronicling much of the history behind BSD UNIX.&lt;/li&gt;
+&lt;li&gt;It starts with detailing the humble origins of BSD, starting with Bill Joy in the mid-70’s, and then goes through details on how it rapidly grew, and the influence that the University of Berkeley had on open-source. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But too much focus on Joy, a favorite target for business magazine hagiography, obscures the larger picture. Berkeley’s most important contribution was not software; it was the way Berkeley created software. At Berkeley, a small core group — never more than four people at any one time — coordinated the contributions of an ever-growing network of far-flung, mostly volunteer programmers into progressive releases of steadily improving software. In so doing, they codified a template for what is now referred to as the “open-source software development methodology.” Put more simply, the Berkeley hackers set up a system for creating free software.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The article goes on to talk about some of the back and forth between Linux and BSD, and why Linux has captured more of the market in recent years, but BSD is far from throwing in the towel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“BSD patriots argue that the battle is far from over, that BSD is technically superior and will therefore win in the end. That’s for the future to determine. What’s indisputable is BSD’s contribution in the past. Even if, by 1975, Berkeley’s Free Speech Movement was a relic belonging to a fast-fading generation, on the fourth floor of Evans Hall, where Joy shared an office, the free-software movement was just beginning.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An excellent article (If a bit long), but well worth your time to understand the origins of what we consider modern day BSD, and how the University of Berkley helped shape it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://ixsystems.com&quot;&gt;iXsystems&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ixsystems.com/blog/serverenvy-10000-terabytes/&quot;&gt;#ServerEnvy: It&#39;s over 10,000 Terabytes!&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Interview - Alfred Perlstein - &lt;a href=&quot;mailto:alfred@freebsd.org&quot;&gt;alfred@freebsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/splbio&quot;&gt;@splbio&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using BSD for projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;News Roundup&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/dotnet/coreclr/pull/4504/files&quot;&gt;.NET framework ported to NetBSD&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This pull request adds basic support for the .NET framework on NetBSD 7.x amd64&lt;/li&gt;
+&lt;li&gt;It includes documentation on how to get the .NET framework installed&lt;/li&gt;
+&lt;li&gt;It uses pkgsrc to bootstrap the required tools&lt;/li&gt;
+&lt;li&gt;pkgsrc-wip is used to get the actual .NET framework, as porting is still in progress&lt;/li&gt;
+&lt;li&gt;The .NET Core-CLR is now available for: FreeBSD, Linux, NetBSD, and OS X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://marc.info/?l=openbsd-tech&amp;amp;m=146281531025185&amp;amp;w=2&quot;&gt;OpenBSD SROP mitigation – call for testing&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A new technique for exploiting flaws in applications and operating systems has been developed, called SROP&lt;/li&gt;
+&lt;li&gt;“we describe Sigreturn Oriented Programming (SROP), a novel technique for exploits and   backdoors in UNIX-like systems. Like return-oriented programming (ROP), sigreturn  oriented  programming  constructs  what  is  known  as a  ‘weird  machine’  that  can  be  programmed  by  attackers  to change  the  behavior  of  a  process.  To  program  the  machine, attackers  set  up  fake  signal  frames  and  initiate  returns  from signals that the kernel never really delivered. This is possible, because  UNIX  stores  signal  frames  on  the  process’  stack.”&lt;/li&gt;
+&lt;li&gt;“Sigreturn oriented programming is interesting for attackers, OS  developers  and  academics.  For  attackers,  the  technique is  very  versatile,  with  pre-conditions  that  are  different  from those  of  existing  exploitation  techniques  like  ROP.  Moreover, unlike  ROP,  sigreturn  oriented  programming  programs  are portable. For OS developers, the technique presents a problem that has been present in one of the two main operating system families  from  its  inception,  while  the  fixes  (which  we  also present)  are  non-trivial.  From  a  more  academic  viewpoint,  it is  also  interesting  because  we  show  that  sigreturn  oriented programming  is  Turing  complete.”&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cs.vu.nl/~herbertb/papers/srop_sp14.pdf&quot;&gt;Paper describing SROP &lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;OpenBSD has developed a mitigation against SROP&lt;/li&gt;
+&lt;li&gt;“Utilizing a trick from kbind(2), the kernel now only accepts signal returns from the PC address of the sigreturn(2) syscall in the signal trampoline.  Since the signal trampoline page is randomized placed per process, it is only known by directly returning from a signal handler.”&lt;/li&gt;
+&lt;li&gt;“As well, the sigcontext provided to sigreturn(2) now contains a magic cookie constructed from a per-process cookie XOR&#39;d against the address of the signal context.”&lt;/li&gt;
+&lt;li&gt;This is just a draft of the patch, not yet considered production quality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/supradix/rumprun-packages/tree/33d9cc3a65a39e32b4bc8034c151a5d7e0b89f66/tor&quot;&gt;Running Tor in a NetBSD rump unikernel&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We’ve talked about “rump” kernels before, and also Tor pretty frequently, but this new github project combines the two!&lt;/li&gt;
+&lt;li&gt;Specifically, this set of Makefile and scripts will prep a system to run Tor via the Unikernel through Qemu.&lt;/li&gt;
+&lt;li&gt;The script mainly describes how to do the initial setup on Linux, using iptables, but could easily be adapted to a BSD if somebody wants to do so. (Send them a pull request with the instructions!)&lt;/li&gt;
+&lt;li&gt;All in all, this is a fascinating way to run a Tor node or relay, in the most minimal operating environment possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://lists.mindrot.org/pipermail/openssh-unix-dev/2016-May/035069.html&quot;&gt;An update on SSH protocol 1 (&quot;we&#39;re most of the way towards fully deprecating SSH protocol 1&quot;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Damien Miller has given us an update on the status of the “SSH protocol 1”, and the current plans to deprecate it in an upcoming version of openssh.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We&#39;ve had this old protocol in various stages of deprecation for almost 10 years and it has been compile-time disabled for about a year.
+  Downstream vendors, to their credit, have included this change in recent OS releases by shipping OpenSSH packages that disable protocol 1 by default and/or offering separate, non-default packages to enable it.&lt;/p&gt;
+  
+  &lt;p&gt;This seems to have proceeded far more smoothly than even my most optimistic hopes, so this gives us greater confidence that we can complete the removal of protocol 1 soon. We want to do this partly to hasten the demise of this cryptographic trainwreck, but also because doing so removes a lot of legacy code from OpenSSH that inflates our attack surface. Having it gone will make our jobs quite a bit easier as we maintain and refactor.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The current time-line looks like removing server-size protocol 1 support this August after OpenSSH 7.4 is released, leaving client-side disabled.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Then a year from now (June 2017) all protocol 1 code will be removed.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Beastie Bits&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://teespring.com/bsdnow&quot;&gt;Last day to get your BSDNow Shirts! Order now, wear at BSDCan!&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/atxhack4change/2016-project-proposals/issues/15&quot;&gt;Move local government (Austin TX) from Microsoft Windows (incl. Office) to Linux and/or PC-BSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2016-May/016642.html&quot;&gt;Plan9 boot camp is back... and already at capacity. Another opportunity may come in September&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/04/22/smaller-is-better/&quot;&gt;Smaller is better - building an openbsd based router&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://i.redditmedia.com/KAjSscL9XOUdpIEWBQF1qi3QMr7zWgeETzQM6m3B4mY.jpg?w=1024&amp;amp;s=e8c08a7d4c4cea0256adb69b1e7c1887&quot;&gt;Baby Unix&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://security.freebsd.org/advisories/FreeBSD-SA-16:19.sendmsg.asc&quot;&gt;Security Update for FreeBSD&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://security.freebsd.org/advisories/FreeBSD-SA-16:18.atkbd.asc&quot;&gt;Another security update for FreeBSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/ZknTuKGv&quot;&gt; Eric - The iX experience&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/M760ZmHQ&quot;&gt; Mike - Building Ports&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/Pi0AFghV&quot;&gt; David - ZFS Backups&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/EQ7envez&quot;&gt; James - BSD VPS&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/p0HPDisH&quot;&gt; Rich - ZFS Followup&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>BSD Likes Ike!</title>
     <smi:episode>141</smi:episode>
