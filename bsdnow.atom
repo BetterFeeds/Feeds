@@ -11,15 +11,10 @@
   <media:thumbnail
     url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg" />
   <link
-    href="https://feeds.betterfeeds.org/bsdnow.ogg.atom"
+    href="https://feeds.betterfeeds.org/bsdnow.atom"
     rel="self"
     type="application/atom+xml"
-    title="BSD Now - OGG Audio" />
-  <link
-    href="https://feeds.betterfeeds.org/bsdnow.mp3.atom"
-    rel="alternate"
-    type="application/atom+xml"
-    title="BSD Now - MP3 Audio" />
+    title="BSD Now" />
   <link href="http://www.bsdnow.tv/" />
   <id>http://www.bsdnow.tv/</id>
   <updated>2016-05-20T08:38:00Z</updated>
@@ -43,6 +38,18 @@
       rel="enclosure"
       length="73255502"
       type="audio/ogg" />
+    <media:group>
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0142.ogg"
+        fileSize="73255502"
+        type="audio/ogg"
+        isDefault="true" />
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0142.mp3"
+        fileSize="46681538"
+        type="audio/mpeg"
+        isDefault="false" />
+    </media:group>
     <contributor>
       <name>Kris Moore</name>
       <email>kris@pcbsd.org</email>
@@ -250,6 +257,18 @@
       rel="enclosure"
       length="82221087"
       type="audio/ogg" />
+    <media:group>
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0141.ogg"
+        fileSize="82221087"
+        type="audio/ogg"
+        isDefault="true" />
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0141.mp3"
+        fileSize="48730165"
+        type="audio/mpeg"
+        isDefault="false" />
+    </media:group>
     <contributor>
       <name>Kris Moore</name>
       <email>kris@pcbsd.org</email>
@@ -468,6 +487,18 @@
       rel="enclosure"
       length="71343798"
       type="audio/ogg" />
+    <media:group>
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.mp3"
+        fileSize="71343798"
+        type="audio/ogg"
+        isDefault="true" />
+      <media:content
+        url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0140.mp3"
+        fileSize="43882256"
+        type="audio/mpeg"
+        isDefault="false" />
+    </media:group>
     <contributor>
       <name>Kris Moore</name>
       <email>kris@pcbsd.org</email>
