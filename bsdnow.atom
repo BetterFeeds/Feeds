@@ -50,6 +50,8 @@
         fileSize="57557672"
         type="audio/mpeg"
         isDefault="false" />
+      <media:thumbnail
+        url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0143-v.jpg" />
     </media:group>
     <contributor>
       <name>Kris Moore</name>
@@ -65,8 +67,6 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
-    <media:thumbnail
-      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0143-v.jpg" />
     <summary>This week on BSDNow, we have an interview with Matthew Macy, who has some exciting news to share with us regarding the state of graphics on FreeBSD. That plus all the latest news on BSDNow, the place to B...SD!</summary>
     <content type="html">&lt;h1&gt;Episode 143: One small step for DRM, one giant leap for BSD&lt;/h1&gt;
 &lt;h2&gt;Headlines&lt;/h2&gt;
@@ -277,6 +277,8 @@
         fileSize="46681538"
         type="audio/mpeg"
         isDefault="false" />
+      <media:thumbnail
+        url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0142-v.jpg" />
     </media:group>
     <contributor>
       <name>Kris Moore</name>
@@ -292,8 +294,6 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
-    <media:thumbnail
-      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0142-v.jpg" />
     <summary>This week on the show, we have all the latest news and stories! Plus an interview with BSD developer Alfred Perlstein, that you won’t want to miss. Sit tight, the show starts now on your place to B...SD!</summary>
     <content type="html">
 &lt;h1&gt;Episode 142: Diving for BSD Perls&lt;/h1&gt;
@@ -496,6 +496,8 @@
         fileSize="48730165"
         type="audio/mpeg"
         isDefault="false" />
+      <media:thumbnail
+        url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0141-v.jpg" />
     </media:group>
     <contributor>
       <name>Kris Moore</name>
@@ -511,8 +513,6 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
-    <media:thumbnail
-      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0141-v.jpg" />
     <summary>This week on the show, we have all the latest news &amp; stories! Plus we’ll be hearing more about OpnSense from the man himself, Ike! Sit tight, the show starts now on your place to B…SD!</summary>
     <content type="html">
 &lt;h1&gt;Episode 141: BSD Likes Ike!&lt;/h1&gt;
@@ -726,6 +726,8 @@
         fileSize="43882256"
         type="audio/mpeg"
         isDefault="false" />
+      <media:thumbnail
+        url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0140-v.jpg" />
     </media:group>
     <contributor>
       <name>Kris Moore</name>
@@ -741,8 +743,6 @@
       <name>JT</name>
       <uri>https://twitter.com/q5sys</uri>
     </contributor>
-    <media:thumbnail
-      url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/05/bsd-0140-v.jpg" />
     <summary>This week on BSDNow, Allan is back in down from Europe! We’ll get to hear some of his wrap-up and get caught up on the latest BSD news. That plus our interview about Backtrace.io! Keep it tuned to BSDNow, the place to B….SD!</summary>
     <content type="html">&lt;h1&gt;Episode 140: Tracing it back to BSD&lt;/h1&gt;
 &lt;h2&gt;Headlines&lt;/h2&gt;
