@@ -22,6 +22,7 @@
     <name>Jupiter Broadcasting</name>
     <uri>www.jupiterbroadcasting.com</uri>
   </author>
+  <smi:serial>false</smi:serial>
   <entry>
     <title>One small step for DRM, one giant leap for BSD</title>
     <smi:episode>143</smi:episode>
