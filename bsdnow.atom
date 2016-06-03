@@ -310,10 +310,10 @@
             &lt;li&gt;It will not modify your installed system, it runs entirely off of the USB drive&lt;/li&gt;
             &lt;li&gt;Allows you to test the updated drivers without having to install the development branch on your
             device&lt;/li&gt;
-            &lt;li&gt;&lt;mmacy&gt; you can tell them that ATI/AMD support will be coming shortly&lt;/mmacy&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;mmacy&gt; and that stability has been steadily improving&lt;/mmacy&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;mmacy&gt; and that I&#39;ll do another announcement as soon as I&#39;ve had a chance to test
-            the newest Xorg bits&lt;/mmacy&gt;&lt;/li&gt;
+            &lt;li&gt;ATI/AMD support will be coming shortly&lt;/li&gt;
+            &lt;li&gt;Stability has been steadily improving&lt;/li&gt;
+            &lt;li&gt;Matt Macy will do another announcement as soon as he&#39;s had a chance to test the newest Xorg
+            bits&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
