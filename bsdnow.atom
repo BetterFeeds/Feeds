@@ -24,7 +24,7 @@
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
-    <smi:serial>false</smi:serial>
+    <smi:sequential>false</smi:sequential>
     <entry>
         <title>The PF life</title>
         <smi:episode>144</smi:episode>
