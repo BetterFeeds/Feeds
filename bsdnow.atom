@@ -61,7 +61,7 @@
                 type="text/html"
                 href="www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all</id>
-        <published>2016-06-09T10:37:18-0700</published>
+        <published>2016-06-09T10:37:18-07:00</published>
         <updated>2016-06-10T11:13:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0145.ogg"
@@ -150,7 +150,7 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_06_01-the_pf_life"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_01-the_pf_life</id>
-        <published>2016-06-02T05:50:08-0700</published>
+        <published>2016-06-02T05:50:08-07:00</published>
         <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0144.ogg"
@@ -468,7 +468,7 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd</id>
-        <published>2016-05-26T12:14:30-0700</published>
+        <published>2016-05-26T12:14:30-07:00</published>
         <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0143.ogg"
@@ -756,7 +756,7 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls</id>
-        <published>2016-05-19T11:42:36-0700</published>
+        <published>2016-05-19T11:42:36-07:00</published>
         <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0142.ogg"
@@ -1051,7 +1051,7 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_11-bsd_likes_ike"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_11-bsd_likes_ike</id>
-        <published>2016-05-12T11:15:34-0700</published>
+        <published>2016-05-12T11:15:34-07:00</published>
         <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0141.ogg"
@@ -1351,7 +1351,7 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd</id>
-        <published>2016-05-05T11:43:20-0700</published>
+        <published>2016-05-05T11:43:20-07:00</published>
         <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.mp3"
