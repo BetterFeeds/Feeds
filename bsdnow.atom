@@ -3,13 +3,13 @@
         xml:lang="en"
         xmlns="http://www.w3.org/2005/Atom"
         xmlns:smi="https://www.betterfeeds.org/series-media-info"
-        xmlns:media="http://search.yahoo.com/mrss/">
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:psc="http://podlove.org/simple-chapters/">
     <title>BSD Now</title>
     <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
         Tutorials and Interviews for new users and long time developers alike.
     </subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
-    <logo>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</logo>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
@@ -17,25 +17,141 @@
             rel="self"
             type="application/atom+xml"
             title="BSD Now"/>
-    <link href="http://www.bsdnow.tv/"/>
+    <link
+            href="http://www.bsdnow.tv/"
+            rel="alternate"
+            type="text/html"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMp3"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now MP3 Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowOgg"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now OGG Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMobile"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now SD Video"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowHd"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video"/>
+    <link
+            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video (BitTorrent)"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-03T07:33:00Z</updated>
+    <updated>2016-06-10T11:13:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
     <entry>
+        <title>At the Core of it all</title>
+        <smi:episode>145</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all"/>
+        <id>http://www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all</id>
+        <published>2016-06-09T10:37:18-0700</published>
+        <updated>2016-06-10T11:13:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0145.ogg"
+                rel="enclosure"
+                length="55931989"
+                type="audio/ogg"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:02:21" title="AD: DigitalOcean"
+                         href="https://www.digitalocean.com/?utm_source=BSDNow%26utm_medium=Podcast%26utm_campaign=BSD+Now+Podcast"
+                         image="http://jb5.cdn.scaleengine.net/wp-content/uploads/2015/01/do-bsd-freebsdnow.jpg"/>
+            <psc:chapter start="00:04:31" title="Interview"/>
+            <psc:chapter start="00:29:44" title="AD: iXsystems" href="http://www.ixsystems.com/bsdnow/"
+                         image="http://jb6.cdn.scaleengine.net/wp-content/uploads/2015/07/iXsystems-Banner-bsd-2015.jpg"/>
+            <psc:chapter start="00:33:24" title="Beastie Bits" href=""/>
+            <psc:chapter start="00:33:28" title="file considered harmful"
+                         href="http://www.tedunangst.com/flak/post/file-considered-harmful"/>
+            <psc:chapter start="00:36:41" title="An open source talk on ZFS"
+                         href="https://github.com/problame/talkintrozfs2016"/>
+            <psc:chapter start="00:38:08" title="ARMv7 now has a bootloader"
+                         href="http://undeadly.org/cgi?action=article%26sid=20160529145411"/>
+            <psc:chapter start="00:39:03" title="SHA256/512 speed improvements in FreeBSD 11"
+                         href="https://svnweb.freebsd.org/base?view=revision%26revision=300966"/>
+            <psc:chapter start="00:41:20" title="pkgsrc 50th release interviews – Joerg Sonnenberg"
+                         href="http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interview_with"/>
+            <psc:chapter start="00:44:22" title="DFly versus PC-BSD on a Laptop"
+                         href="http://lists.dragonflybsd.org/pipermail/users/2016-May/249636.html"/>
+            <psc:chapter start="00:46:24"
+                         title="FreeBSD ifconfig can print subnet masks in CIDR or dotted-quad, finally"
+                         href="https://svnweb.freebsd.org/base?view=revision%26revision=301059"/>
+            <psc:chapter start="00:49:19" title="AD: Tarsnap" href="http://www.tarsnap.com/bsdnow"
+                         image="http://jb6.cdn.scaleengine.net/wp-content/uploads/2014/05/Tarsnap-bsd-banner.jpg"/>
+            <psc:chapter start="00:50:52" title="Feedback/Questions"/>
+            <psc:chapter start="00:50:56" title="Eli – Getting rid of ports?" href="http://pastebin.com/4Y6VYSyN"/>
+            <psc:chapter start="00:52:08" title="Morgan – Best way to admin jails?"
+                         href="http://pastebin.com/w8hsMtbc"/>
+            <psc:chapter start="00:55:18" title="Simon – Use existing pkgs in poudriere"
+                         href="http://pastebin.com/mqSJk0pP"/>
+            <psc:chapter start="00:58:38" title="Pete – Lots of Q’s" href="http://pastebin.com/1M7HLAXs"/>
+            <psc:chapter start="01:02:22" title="Van – Made the switch" href="http://pastebin.com/NTVBvtC5"/>
+        </psc:chapters>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0145.ogg"
+                    fileSize="55931989"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0145.mp3"
+                    fileSize="34514955"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0145-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Benno Rice</name>
+            <email>benno@freebsd.org</email>
+            <uri>https://twitter.com/jeamland</uri>
+        </contributor>
+        <summary>It’s BSDCan time! Allan &amp; I are both enjoying what is sure to be a super-busy week, but don’t think
+            we’ve forgotten about you. We have an interview with Benno Rice to help get you through until the next
+            live-episode. So stick around, the show is coming your way right now.
+        </summary>
+        <content type="html">
+        </content>
+    </entry>
+    <entry>
         <title>The PF life</title>
         <smi:episode>144</smi:episode>
-        <link
-                href="http://www.bsdnow.tv/episodes/2016_06_01-the_pf_life"/>
         <link
                 rel="alternate"
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_06_01-the_pf_life"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_01-the_pf_life</id>
-        <updated>2016-06-03T07:33:00Z</updated>
+        <published>2016-06-02T05:50:08-0700</published>
+        <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0144.ogg"
                 rel="enclosure"
@@ -68,6 +184,11 @@
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Kristof Provost</name>
+            <email>kp@freebsd.org</email>
+            <uri>https://twitter.com/kprovst</uri>
         </contributor>
         <summary>It’s only one-week away from BSDCan, both Allan &amp; I are excited to meet some of you in person!
             However, the show keeps on chugging &amp; this week we have an interview with Kristof Provost, to tell us
@@ -343,13 +464,12 @@
         <title>One small step for DRM, one giant leap for BSD</title>
         <smi:episode>143</smi:episode>
         <link
-                href="http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd"/>
-        <link
                 rel="alternate"
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd</id>
-        <updated>2016-05-27T13:54:00Z</updated>
+        <published>2016-05-26T12:14:30-0700</published>
+        <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0143.ogg"
                 rel="enclosure"
@@ -382,6 +502,10 @@
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Matt Macy</name>
+            <email>mmacy@nextbsd.org</email>
         </contributor>
         <summary>This week on BSDNow, we have an interview with Matthew Macy, who has some exciting news to share with
             us regarding the state of graphics on FreeBSD. That plus all the latest news on BSDNow, the place to B...SD!
@@ -628,13 +752,12 @@
         <title>Diving for BSD Perls</title>
         <smi:episode>142</smi:episode>
         <link
-                href="http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls"/>
-        <link
                 rel="alternate"
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_18-diving_for_bsd_pearls</id>
-        <updated>2016-05-20T08:38:00Z</updated>
+        <published>2016-05-19T11:42:36-0700</published>
+        <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0142.ogg"
                 rel="enclosure"
@@ -667,6 +790,11 @@
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Alfred Perlstein</name>
+            <email>alfred@freebsd.org</email>
+            <uri>https://twitter.com/splbio</uri>
         </contributor>
         <summary>This week on the show, we have all the latest news and stories! Plus an interview with BSD developer
             Alfred Perlstein, that you won’t want to miss. Sit tight, the show starts now on your place to B...SD!
@@ -919,13 +1047,12 @@
         <title>BSD Likes Ike!</title>
         <smi:episode>141</smi:episode>
         <link
-                href="http://www.bsdnow.tv/episodes/2016_05_11-bsd_likes_ike"/>
-        <link
                 rel="alternate"
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_11-bsd_likes_ike"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_11-bsd_likes_ike</id>
-        <updated>2016-05-12T11:15:34Z</updated>
+        <published>2016-05-12T11:15:34-0700</published>
+        <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0141.ogg"
                 rel="enclosure"
@@ -958,6 +1085,9 @@
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Isaac (.Ike) Levy</name>
         </contributor>
         <summary>This week on the show, we have all the latest news &amp; stories! Plus we’ll be hearing more about
             OpnSense from the man himself, Ike! Sit tight, the show starts now on your place to B…SD!
@@ -1217,13 +1347,12 @@
         <title>Tracing it back to BSD</title>
         <smi:episode>140</smi:episode>
         <link
-                href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
-        <link
                 rel="alternate"
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd"/>
         <id>http://www.bsdnow.tv/episodes/2016_05_04-tracing_it_back_to_bsd</id>
-        <updated>2016-05-04T16:30:02Z</updated>
+        <published>2016-05-05T11:43:20-0700</published>
+        <updated>2016-06-10T08:21:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0140.mp3"
                 rel="enclosure"
@@ -1256,6 +1385,10 @@
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Samy Al Bahra</name>
+            <uri>https://twitter.com/0xF390</uri>
         </contributor>
         <summary>This week on BSDNow, Allan is back in down from Europe! We’ll get to hear some of his wrap-up and get
             caught up on the latest BSD news. That plus our interview about Backtrace.io! Keep it tuned to BSDNow, the
