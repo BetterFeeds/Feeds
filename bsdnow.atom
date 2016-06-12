@@ -47,7 +47,7 @@
             type="application/rss+xml"
             title="BSD Now HD Video (BitTorrent)"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-10T11:13:00Z</updated>
+    <updated>2016-06-12T08:41:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -62,20 +62,21 @@
                 href="www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all</id>
         <published>2016-06-09T10:37:18-07:00</published>
-        <updated>2016-06-10T11:13:00Z</updated>
+        <updated>2016-06-12T08:41:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0145.ogg"
                 rel="enclosure"
                 length="55931989"
                 type="audio/ogg"/>
         <psc:chapters version="1.1">
-            <psc:chapter start="00:02:21" title="AD: DigitalOcean"
-                         href="https://www.digitalocean.com/?utm_source=BSDNow&amp;utm_medium=Podcast&amp;utm_campaign=BSD+Now+Podcast"
-                         image="http://jb5.cdn.scaleengine.net/wp-content/uploads/2015/01/do-bsd-freebsdnow.jpg"/>
+            <psc:chapter start="00:02:21" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/"
+                         image="http://www.bsdnow.tv/images/2.png"/>
             <psc:chapter start="00:04:31" title="Interview"/>
-            <psc:chapter start="00:29:44" title="AD: iXsystems" href="http://www.ixsystems.com/bsdnow/"
-                         image="http://jb6.cdn.scaleengine.net/wp-content/uploads/2015/07/iXsystems-Banner-bsd-2015.jpg"/>
-            <psc:chapter start="00:33:24" title="Beastie Bits" href=""/>
+            <psc:chapter start="00:29:44" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/"
+                         image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:33:24" title="Beastie Bits"/>
             <psc:chapter start="00:33:28" title="file considered harmful"
                          href="http://www.tedunangst.com/flak/post/file-considered-harmful"/>
             <psc:chapter start="00:36:41" title="An open source talk on ZFS"
@@ -91,8 +92,9 @@
             <psc:chapter start="00:46:24"
                          title="FreeBSD ifconfig can print subnet masks in CIDR or dotted-quad, finally"
                          href="https://svnweb.freebsd.org/base?view=revision&amp;revision=301059"/>
-            <psc:chapter start="00:49:19" title="AD: Tarsnap" href="http://www.tarsnap.com/bsdnow"
-                         image="http://jb6.cdn.scaleengine.net/wp-content/uploads/2014/05/Tarsnap-bsd-banner.jpg"/>
+            <psc:chapter start="00:49:19" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow"
+                         image="http://www.bsdnow.tv/images/3.png"/>
             <psc:chapter start="00:50:52" title="Feedback/Questions"/>
             <psc:chapter start="00:50:56" title="Eli – Getting rid of ports?" href="http://pastebin.com/4Y6VYSyN"/>
             <psc:chapter start="00:52:08" title="Morgan – Best way to admin jails?"
@@ -139,7 +141,70 @@
             we’ve forgotten about you. We have an interview with Benno Rice to help get you through until the next
             live-episode. So stick around, the show is coming your way right now.
         </summary>
-        <content type="html">
+        <content type="html">&lt;h1&gt;Episode 145: At the Core of it all&lt;/h1&gt;
+
+            &lt;h2&gt;Interview - Benno Rice - &lt;a href=&quot;mailto:benno@freebsd.org&quot;&gt;benno@freebsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/jeamland&quot;&gt;@jeamland&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;Manager, OS &amp;amp; Networking at EMC Isilon&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dIageYT0Vgg&quot;&gt;Emily Dunham:
+            Community Automation &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;iXsystems&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;1U Rackmount Server - 4 Bay Hot-Swap SAS/SATA Drive Bays 400W Redundant Power Supply -
+            Single Socket Embedded CPU (48 cores) - 8 DIMM Slots with
+            16GB DIMMs for a total of 128GB RAM – Dual Gigabit LAN, Dual 10GbE SFP+ and 1 x 40Gb QSFP+ port, (1) PCI-E
+            Expansion Slots + IPMI Dedicated LAN -
+            Cavium ThunderX ARM CN8890 48 Core ThunderX CPU - 2.5GHz per core&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;System has 128GB RAM, 4 x 2TB SATA HDD, Additional Intel i350 (2 x 1GbE) &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/file-considered-harmful&quot;&gt;file
+            considered harmful&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/problame/talkintrozfs2016&quot;&gt;An open source
+            talk on ZFS. “Intro to ZFS” as a set of open source slides for the community to build on, and to reuse. Go
+            give this talk at your local conference. &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160529145411&quot;&gt;ARMv7
+            now has a bootloader&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=300966&quot;&gt;SHA256/512
+            speed improvements in FreeBSD 11 &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interview_with&quot;&gt;pkgsrc
+            50th release interviews - Joerg Sonnenberg&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2016-May/249636.html&quot;&gt;DFly
+            versus PC-BSD on a Laptop&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=301059&quot;&gt;FreeBSD
+            ifconfig can print subnet masks in CIDR or dotted-quad, finally &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/4Y6VYSyN&quot;&gt; Eli - Getting rid of ports?&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/w8hsMtbc&quot;&gt; Morgan - Best way to admin jails?&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/mqSJk0pP&quot;&gt; Simon - Use existing pkgs in poudriere&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/1M7HLAXs&quot;&gt; Pete - Lots of Q’s&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/NTVBvtC5&quot;&gt; Van - Made the switch&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
         </content>
     </entry>
     <entry>
