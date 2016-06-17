@@ -51,19 +51,226 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-12T08:41:00Z</updated>
+    <updated>2016-06-17T05:45:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
     <entry>
+        <title>Music to Beastie’s ears</title>
+        <smi:episode>146</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_06_16-music_to_beasties_ears"/>
+        <id>http://www.bsdnow.tv/episodes/2016_06_16-music_to_beasties_ears</id>
+        <published>2016-06-16T11:35:48-07:00</published>
+        <updated>2016-06-17T05:45:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0146.ogg"
+                rel="enclosure"
+                length="55931989"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0146.ogg"
+                    fileSize="55931989"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0146.mp3"
+                    fileSize="30941613"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0146-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Hans Petter Selasky</name>
+            <email>hps@freebsd.org</email>
+        </contributor>
+        <summary>Kris is on vacation this week, so allan flies solo, provides a recap of BSDCan &amp; covers a boatload
+            of news including Microsoft providing support &amp; SLAs for BSD, how terrible select() may be, an interview
+            with Hans Petter Selasky about designing the USB drivers for FreeBSD &amp; more!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 146: Music to Beastie’s ears&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdcan.org/2016/&quot;&gt;BSDCan Recap and Live Stream Videos&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.openbsd.org/papers&quot;&gt;OpenBSD BSDCan 2016 papers now available&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://allanjude.com/bsd/BSDCan2016_-_GELIBoot.pdf&quot;&gt;Allan’s slides &lt;/a&gt;
+            &lt;a href=&quot;http://allanjude.com/bsd/AsiaBSDCon2016_geliboot_pdf1a.pdf&quot;&gt;and Paper &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LFgxAHkrSTg&quot;&gt;Michael W Lucas presents
+            Allan with a gift &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2698&quot;&gt;“FreeBSD Mastery:
+            Advanced ZedFS” &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Highlighted Tweets:
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/Keltounet/status/740344735194320896&quot;&gt;Groff Arrives at
+            BSDCan &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/freebsdfndation/status/742456950676393984&quot;&gt;FreeBSD
+            Foundation recognizes the contributions of Bryan Drewery, Rod Grimes, Warren Block, &amp;amp; Gleb Smirnoff
+            &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/__briancallahan/status/741854476340858880&quot;&gt;A moment
+            of silence and shots in memory in Benjamin Perrault @creepingfur &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/Keltounet/status/741763867471155201&quot;&gt;@gvnn3 sells the
+            FreeBSD Foundation shirt off of his back for Charity &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/cperciva/status/741375414967410688&quot;&gt;Michael W. Lucas
+            asks Matt Ahrens how to pronounce ZFS, “You can pronounce ZFS however you like, but if you pronounce it
+            &#39;reiserfs&#39;, people might be confused.” &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/BSDCan/status/741420633007874050&quot;&gt;Sysadmin T-Shirt
+            &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/SeanChittenden/status/740904105388978176&quot;&gt;FreeBSD Dev
+            Summit ran out of room on the chalkboards listing accomplishments of 11.0 &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/Keltounet/status/740928627471159296&quot;&gt;List of things
+            people have or want for FreeBSD 12 &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/kprovst/status/741322268480049152?cn=bWVudGlvbg%3D%3D&amp;amp;refsrc=email&quot;&gt;Matt
+            Ahrens signing Allan’s ZFS book &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/cperciva/status/741707948469157889&quot;&gt;FreeBSD’s new
+            marketing strategy &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/HippyWizard/status/741768670704066560&quot;&gt;Charity
+            Auction: systemd whoopie cushion &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/juliefriday/status/741948048788586496&quot;&gt;Embarass
+            OpenBSD’s @HenningBrauer by donating $10 to charity for a selfie with him wearing a Linux t-shirt &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/GroffTheBSDGoat/status/742415390798716928&quot;&gt;@GroffTheBSDGoat
+            changes handlers, from @HenningBrauer to @GavinAtkinson &lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AOidjSS7Hsg&quot;&gt;Day 1 Video &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=z7pDnBO5wSM&quot;&gt;Day 2 Video &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=z7pDnBO5wSM&amp;amp;feature=youtu.be&amp;amp;list=PLeF8ZihVdpFfoEV67dBSrKfA8ifpUr6qC&amp;amp;t=4440&quot;&gt;Allan’s
+            GELIBoot talk (day 2) &lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/freebsd-now-available-in-azure-marketplace/&quot;&gt;Media
+            Coverage of Microsoft + FreeBSD story&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Microsoft has released their own custom image of FreeBSD 10.3 for the Azure Cloud&lt;/li&gt;
+            &lt;li&gt;“This means that not only can you quickly bring-up a FreeBSD VM in Azure, but also that in the
+            event you need technical support, Microsoft support engineers can assist.”&lt;/li&gt;
+            &lt;li&gt;“Microsoft is the publisher of the FreeBSD image in the marketplace rather than the FreeBSD
+            Foundation. The FreeBSD Foundation is supported by donations from the FreeBSD community, including companies
+            that build their solutions on FreeBSD. They are not a solution provider or an ISV with a support
+            organization but rather rely on a very active community that support one another. In order to ensure our
+            customers have an enterprise SLA for their FreeBSD VMs running in Azure, we took on the work of building,
+            testing, releasing and maintaining the image in order to remove that burden from the Foundation. We will
+            continue to partner closely with the Foundation as we make further investments in FreeBSD on Hyper-V and in
+            Azure.”&lt;/li&gt;
+            &lt;li&gt;&quot;It&#39;s quite a significant milestone for FreeBSD community and for Microsoft to publish a
+            supported FreeBSD image on Azure Marketplace. We really appreciate Microsoft&#39;s commitment and investment
+            in FreeBSD project&quot;. - Justin T. Gibbs, President of FreeBSD Foundation&lt;/li&gt;
+            &lt;li&gt;Microsoft took a FreeBSD 10.3-RELEASE image and added additional patches, most of which they have
+            upstreamed but that were too late for the regular 10.3 release cycle.&lt;/li&gt;
+            &lt;li&gt;Rather than requiring users to use a snapshot of the stable/10 branch, which would complicate the
+            user experience, and complicate the job of the Microsoft support engineers, they created their own
+            “certified” release&lt;/li&gt;
+            &lt;li&gt;This allows Microsoft to selectively deploy errata fixes to the image as well&lt;/li&gt;
+            &lt;li&gt;It is not clear how this affects update mechanisms like freebsd-update(8)&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.theregister.co.uk/2016/06/09/microsoft_freebsd/&quot;&gt;The Register
+            &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.theinquirer.net/inquirer/news/2461070/microsoft-creates-own-distribution-of-freebsd-for-azure-developers&quot;&gt;The
+            Inquirer &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.infoworld.com/article/3082090/open-source-tools/is-microsoft-publishing-its-own-freebsd-yes-and-no.html&quot;&gt;Infoworld
+            &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://thehackernews.com/2016/06/microsoft-azure-freebsd.html&quot;&gt;The Hacker
+            News &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://windowsreport.com/microsoft-freebsd-10-3-ready-made-vm-image-azure/&quot;&gt;Windows
+            Report &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://news.thewindowsclub.com/microsoft-freebsd-operating-system-84375/&quot;&gt;Windows
+            Club &lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/select-works-poorly&quot;&gt;Select works
+            poorly&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;“At the bottom of the OpenBSD man page for select is a little note. “Internally to the kernel,
+            select() and pselect() work poorly if multiple processes wait on the same file descriptor.” There’s a
+            similar warning in the poll man page. Where does this warning come from and what does it mean?”&lt;/li&gt;
+            &lt;li&gt;Ted found that at first glance, OpenBSD’s select() appears to be quite bad:&lt;/li&gt;
+            &lt;li&gt;“whenever some data gets written, we call wakeup(&amp;amp;selwait);. Based on what we’ve seen so
+            far, one can conclude that this is likely to be inefficient. Every time any socket has some data available,
+            we wake up every selecting process in the system. Works poorly indeed.”&lt;/li&gt;
+            &lt;li&gt;After further investigation, it turns out to not be quite as bad&lt;/li&gt;
+            &lt;li&gt;When the select() is first setup, the PID of the process that cares about the FD is recorded in
+            the selinfo struct&lt;/li&gt;
+            &lt;li&gt;If a second process runs select() on the same FD, the SI_COLL (Select Collision) flag is set on
+            the selinfo struct&lt;/li&gt;
+            &lt;li&gt;When selwakeup() is called, if SI_COLL is set, all select()ing processes are woken up, and the
+            sysctl kern.nselcoll is incremented. If the flag is not set, and only a single PID is waiting for activity
+            on that FD, only that process is woken up&lt;/li&gt;
+            &lt;li&gt;“This is not an intractable problem. kevent avoids it entirely. Other implementations may too. But
+            practically, does it need to be solved? My laptop says it’s happened 43 times. A server with substantially
+            more uptime says 0. Doesn’t seem so bad.”&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Hans Petter Selasky - &lt;a href=&quot;mailto:hps@freebsd.org&quot;&gt;hps@freebsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/user&quot;&gt;@twitter&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Designing FreeBSD’s USB drivers, hooking up a piano to FreeBSD &amp;amp; more!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/timeline-of-libexpat-random-vulnerability&quot;&gt;Timeline
+            of libexpat random vulnerability&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=11804565&quot;&gt;Do you use
+            FreeBSD as web server? Why or why not?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kristerw.blogspot.sg/2016/05/20-years-of-netbsd-code-bloat.html&quot;&gt;20
+            years of NetBSD code Bloat&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://jcs.org/statuses/2016/06/08/740606952149942272/&quot;&gt;HP
+            Chromebook 13 now booting OpenBSD&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://web.stanford.edu/class/cs124/lec/124-UnixForPoets.pdf&quot;&gt;UNIX
+            for Poets &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://distrowatch.com/weekly.php?issue=20160530#upgrades&quot;&gt;Comparing
+            live version upgrade methods&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/BSD/comments/4n3flx/my_life_with_freebsd_on_a_thinkpad_x220/&quot;&gt;My
+            life with FreeBSD on a Thinkpad X220&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
         <title>At the Core of it all</title>
         <smi:episode>145</smi:episode>
         <link
                 rel="alternate"
                 type="text/html"
-                href="www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all"/>
+                href="https://www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_08-at_the_core_of_it_all</id>
         <published>2016-06-09T10:37:18-07:00</published>
         <updated>2016-06-12T08:41:00Z</updated>
