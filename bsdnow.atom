@@ -51,7 +51,7 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-17T05:45:00Z</updated>
+    <updated>2016-06-17T08:25:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -66,7 +66,7 @@
                 href="http://www.bsdnow.tv/episodes/2016_06_16-music_to_beasties_ears"/>
         <id>http://www.bsdnow.tv/episodes/2016_06_16-music_to_beasties_ears</id>
         <published>2016-06-16T11:35:48-07:00</published>
-        <updated>2016-06-17T05:45:00Z</updated>
+        <updated>2016-06-17T08:25:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0146.ogg"
                 rel="enclosure"
@@ -86,6 +86,40 @@
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0146-v.jpg"/>
         </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:07" title="Headlines"/>
+            <psc:chapter start="00:01:07" title="BSDCan Recap and Live Stream Videos"
+                         href="http://www.bsdcan.org/2016/"/>
+            <psc:chapter start="00:10:48" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/"
+                         image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:12:48" title="Media Coverage of Microsoft + FreeBSD story"
+                         href="https://azure.microsoft.com/en-us/blog/freebsd-now-available-in-azure-marketplace/"/>
+            <psc:chapter start="00:16:20" title="Select works poorly"
+                         href="http://www.tedunangst.com/flak/post/select-works-poorly"/>
+            <psc:chapter start="00:19:39" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/"
+                         image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:21:48" title="Interview"/>
+            <psc:chapter start="00:52:15" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow"
+                         image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:54:05" title="News Roundup"/>
+            <psc:chapter start="00:54:05" title="Timeline of libexpat random vulnerability"
+                         href="http://www.tedunangst.com/flak/post/timeline-of-libexpat-random-vulnerability"/>
+            <psc:chapter start="00:55:58" title="Do you use FreeBSD as web server? Why or why not?"
+                         href="https://news.ycombinator.com/item?id=11804565"/>
+            <psc:chapter start="00:56:20" title="20 years of NetBSD code Bloat"
+                         href="http://kristerw.blogspot.sg/2016/05/20-years-of-netbsd-code-bloat.html"/>
+            <psc:chapter start="00:58:00" title="HP Chromebook 13 now booting OpenBSD"
+                         href="https://jcs.org/statuses/2016/06/08/740606952149942272/"/>
+            <psc:chapter start="00:58:26" title="UNIX for Poets"
+                         href="https://web.stanford.edu/class/cs124/lec/124-UnixForPoets.pdf"/>
+            <psc:chapter start="01:01:34" title="Comparing live version upgrade methods"
+                         href="https://distrowatch.com/weekly.php?issue=20160530#upgrades"/>
+            <psc:chapter start="01:02:35" title="My life with FreeBSD on a Thinkpad X220"
+                         href="https://www.reddit.com/r/BSD/comments/4n3flx/my_life_with_freebsd_on_a_thinkpad_x220/"/>
+        </psc:chapters>
         <contributor>
             <name>Kris Moore</name>
             <email>kris@pcbsd.org</email>
