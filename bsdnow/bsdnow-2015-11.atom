@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed
+        xml:lang="en"
+        xmlns="http://www.w3.org/2005/Atom"
+        xmlns:smi="https://www.betterfeeds.org/series-media-info"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:psc="http://podlove.org/simple-chapters">
+    <title>BSD Now</title>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
+        Tutorials and Interviews for new users and long time developers alike.
+    </subtitle>
+    <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
+    <media:thumbnail
+            url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-11.atom"
+            rel="self"
+            type="application/atom+xml"
+            title="BSD Now"/>
+    <link
+            href="http://www.bsdnow.tv/"
+            rel="alternate"
+            type="text/html"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMp3"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now MP3 Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowOgg"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now OGG Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMobile"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now SD Video"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowHd"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video"/>
+    <link
+            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video (BitTorrent)"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-12.atom"
+            rel="previous"
+            type="application/atom+xml"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-10.atom"
+            rel="next"
+            type="application/atom+xml"/>
+    <id>http://www.bsdnow.tv/</id>
+    <updated>2016-06-30T07:45:00Z</updated>
+    <author>
+        <name>Jupiter Broadcasting</name>
+        <uri>www.jupiterbroadcasting.com</uri>
+    </author>
+    <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>The Cantrill Strikes Back</title>
+        <smi:episode>117</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2015_11_23-the_cantrill_strikes_back"/>
+        <id>http://www.bsdnow.tv/episodes/2015_11_23-the_cantrill_strikes_back</id>
+        <published>2015-11-26T08:50:29-08:00</published>
+        <updated>2016-06-20T07:29:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0117.ogg"
+                rel="enclosure"
+                length="97597429"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0117.ogg"
+                    fileSize="97597429"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0117.mp3"
+                    fileSize="64281799"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/11/bsd-0117-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Bryan Cantrill</name>
+            <uri>https://twitter.com/bcantrill</uri>
+        </contributor>
+        <summary>As we get ready for the Holiday season, we wanted to give you a special present early! Back by popular
+            demand, Brian Cantrill is here to give us his latest rants, specifically on Linux Interfaces! All this and
+            the weeks headlines, coming right up on BSDNow!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 117: The Cantrill Strikes Back: ...&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://bsdmag.org/siju_george/&quot;&gt;Why did I choose the DragonFlyBSD
+            Operating System by Siju George&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a new article this week by Siju George posted over at BSDMag, talking about his reasons
+            for using DragonFlyBSD in production. &lt;/li&gt;
+            &lt;li&gt;He ran through periods of using both Free/OpenBSD, but different reasons led him away from each.
+            Specifically problems doing port upgrades on FreeBSD, and the time required to do fsck / raid parity checks
+            on OpenBSD. &lt;/li&gt;
+            &lt;li&gt;During his research, he had heard about the HAMMER file-system, but didn’t know of anybody running
+            it in production. After some mailing list conversions, and pointers from Matthew Dillon, he took the plunge
+            and switched. &lt;/li&gt;
+            &lt;li&gt;Now he has fallen in love with the operating system, some of the key strengths he notes at:&lt;/li&gt;
+            &lt;li&gt;Rolling-Release model, which can be upgraded every few weeks or whenever he has the time
+
+            &lt;ul&gt;
+            &lt;li&gt;No time-consuming fsck after a unclean shutdown&lt;/li&gt;
+            &lt;li&gt;No RAID parity checks while still having redundancy&lt;/li&gt;
+            &lt;li&gt;Able to add volumes to HAMMER on the fly&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;He also mentions looking forward to HAMMER2, and its potential for easy clustering support, along
+            with eventual CARP implementation so he can run two systems on the same IP. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://fossforce.com/2015/11/devil-bsd-leaving-linux-behind/&quot;&gt;The Devil
+            &amp;amp; BSD - Larry Cafiero&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A story that has been making the rounds on social media is by Larry Cafiero, on his reasons for
+            deciding to switch from Linux over to the BSD side of things.&lt;/li&gt;
+            &lt;li&gt;While most of the reasons are over the conflicts surrounding behavior by Linux leaders towards
+            those in the community, he does mention that he has converted his main workstation over to PC-BSD. &lt;/li&gt;
+            &lt;li&gt;According to Larry, “With a couple of hours of adding backup files and tweaking (augmented by a
+            variety of “oh, look” moments which could easily make me the ADHD Foundation Poster Boy), it looks exactly
+            like my personally modified Korora 22 Xfce which graced the machine earlier. “&lt;/li&gt;
+            &lt;li&gt;He also gave a great compliment to the quality of the docs / applications in PC-BSD: “In addition,
+            you have to like a operating system which gives you a book — in this case, the PC-BSD Handbook — which
+            should be the gold standard of documentation. It’s enviable, as in, “man, I wish I had written that.” Also
+            programs like AppCafe provide a plethora of FOSS software, so there’s no shortage of programs. Side by side,
+            there’s nothing on the Linux side of things that is lacking on the BSD side of things.”&lt;/li&gt;
+            &lt;li&gt;Regardless the initial reason for the switch, we are glad to have him and any other switchers join
+            us on the BSD side of FOSS.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://teachbsd.org/&quot;&gt;New resource for BSD-schoolin’&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;“The &lt;a href=&quot;https://github.com/teachbsd/course&quot;&gt;initial repository&lt;/a&gt;
+            contains all of the material for the practitioner and masters style courses as well as a PDF for the
+            teaching guide. All of the material is licensed under a BSD doc team license, also visible in the repo and
+            on the github site.”&lt;/li&gt;
+            &lt;li&gt;“we expect all other work, including the extension of the practitioner course to 5 days, and the
+            adaptation of the graduate course to undergraduates will be in the github repo”&lt;/li&gt;
+            &lt;li&gt;“Our goal now is to recruit a small number of universities to partner with us to teach this
+            material. We will keep you posted on our progress.”&lt;/li&gt;
+            &lt;li&gt;We are working on getting an interview lined up to talk more about this project&lt;/li&gt;
+            &lt;li&gt;If I somehow find the time, I am try to contribute towards a sysadmin course similar to what I
+            used to teach at an Arts&amp;amp;Tech College here in Canada&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lippard.blogspot.co.uk/2015/11/a-few-thoughts-on-openbsd-58.html&quot;&gt;A
+            Few thoughts on OpenBSD 5.8&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A user details their thoughts, reactions, and concerns after upgrading to OpenBSD 5.8&lt;/li&gt;
+            &lt;li&gt;Among the changes: &lt;/li&gt;
+            &lt;li&gt;sudo was removed and replaced as doas. The user decided to make the switch, but ran into a bug
+            with line continuation (\ to escape newline to continue a long line)&lt;/li&gt;
+            &lt;li&gt;The removal of TCP Wrappers support from ssh - this caused a number of rules in hosts.allow to no
+            longer be respected. &lt;/li&gt;
+            &lt;li&gt;The FreeBSD port of openssh-portable has a patch to readd TCP wrappers because many people find it
+            useful, including myself, when the ssh is in a jail and cannot run a firewall&lt;/li&gt;
+            &lt;li&gt;The removal of the pf&lt;em&gt;rules= rc.conf variable. “I used to just put the default pf.conf
+            rules file in place with each release and upgrade, and keep my changes in a pf.conf.local file that was
+            specified in the pf&lt;/em&gt;rules variable. The effect was that from the period after the upgrade until I
+            noticed the change, my systems were using the default rules and thus more exposed than they were supposed to
+            be”&lt;/li&gt;
+            &lt;li&gt;This is what is often called a “POLA Violation”, Policy of Least Astonishment. When deciding what
+            the system should do after some change or new feature is introduced, it should be the thing that will be the
+            least “surprising” to the user. Having your firewall rules suddenly not apply, is surprising.&lt;/li&gt;
+            &lt;li&gt;“A minor annoying change that was made in 5.8 was putting the file /var/unbound/db/root.key into
+            /etc/changelist, so that the file gets checked daily by the security script. The issue with this is that if
+            you are actually using unbound with DNSSEC, this file changes daily, though only in the comments”&lt;/li&gt;
+            &lt;li&gt;It is very helpful to see a list of feedback like this after a release, so that the next release
+            can be better&lt;/li&gt;
+            &lt;li&gt;I would be interested in seeing similar feedback for the other BSDs&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Bryan Cantrill - &lt;a href=&quot;https://twitter.com/bcantrill&quot;&gt;@bcantrill&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;Linux Interface Rants&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.daemonology.net/blog/2015-11-21-FreeBSD-AMI-builder-AMI.html&quot;&gt;FreeBSD
+            AMI building AMI - Colin’s Corner&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Colin Percival (Of TarSnap Fame) has brought us a new article this week on how to create your own
+            custom EC2 AMI builds.&lt;/li&gt;
+            &lt;li&gt;This new tool and instructions allows the creation of AMI files, without needing to go through the
+            hassle of doing a fresh FreeBSD release build each time.&lt;/li&gt;
+            &lt;li&gt;Essentially it works similar to Colin’s previous “de-penguinator” utility, by running a FreeBSD in
+            a memory instance, allowing the disk to be unmounted and prepped for becoming an AMI.&lt;/li&gt;
+            &lt;li&gt;The hope is that this new work allows easier creation of a new variety of “customized” FreeBSD
+            instances, for end users to download and deploy at will. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://ripe71.ripe.net/archives/video/1200/&quot;&gt;Peter Hessler on OpenBSD /
+            OpenBGPd&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Last week a new video landed of Peter Hessler giving us a status update on OpenBSD tech, and
+            OpenBGPd specifically&lt;/li&gt;
+            &lt;li&gt;Of interest, he notes that LibreSSL is being used in iOS / OSX, and of course PF is used all over,
+            Apple, BSD, Solaris and even a Windows port!&lt;/li&gt;
+            &lt;li&gt;OpenNTPD gets a mention as well, still ZERO CVEs for the lifetime of the project&lt;/li&gt;
+            &lt;li&gt;On the OpenBGPd side, it is considered production ready, so no reason to hold back deployment&lt;/li&gt;
+            &lt;li&gt;Very “feature-complete”, able to handle Edge Router, Route server, Multi-RIB. Slew of optional
+            features like route reflector, looking glass, mrt dumps, mpls / mpls vpn. &lt;/li&gt;
+            &lt;li&gt;Bugs fixed, crashers, memory constraints and performance has been improved&lt;/li&gt;
+            &lt;li&gt;Filtering Performance, in example provided, importing 561K rules / 60K prefixes, went from 35
+            minutes down to 30 seconds. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/freebsd/freebsd-wifi-build/wiki/Onion-Omega&quot;&gt;Onion
+            Omega Updates&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;I have a newer kernel config that will be committed soon that hooks up the system LED, and the
+            three LEDs on the expansion dock via /dev/led&lt;/li&gt;
+            &lt;li&gt;I also have the I2C interface working to talk to the Relay and Servo expansions&lt;/li&gt;
+            &lt;li&gt;I have not determined the exact protocol for the Servo expansions, but the relay expansion is
+            fairly simple to operate&lt;/li&gt;
+            &lt;li&gt;Instructions have been added to the wiki&lt;/li&gt;
+            &lt;li&gt;I have managed to use the GPIO to toggle external LEDs and to read the value from a switch&lt;/li&gt;
+            &lt;li&gt;I have also used the Servo PWM controller to dim an LED and control the speed of a PWM computer
+            case fan&lt;/li&gt;
+            &lt;li&gt;My plan is to operate a 32x32 multi colour LED matrix from the device for an interactive christmas
+            display&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.cyberciti.biz/datacenter/book-review-freebsd-mastery-zfs/&quot;&gt;FreeBSD
+            Mastery: ZFS Book review&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Book can be &lt;a href=&quot;http://smile.amazon.com/FreeBSD-Mastery-ZFS-7/dp/0692452354/&quot;&gt;purchased
+            here&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;or &lt;a href=&quot;http://www.zfsbook.com/&quot;&gt;from the list of vendors including directly
+            from the author here&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://www.computerhistory.org/artifactdonation/&quot;&gt;Computer History Museum
+            is looking for Bell Labs UNIX&lt;/a&gt; &lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://youtu.be/rA_5Cz99z28&quot;&gt;ACM Queue Portrait: Robert Watson &lt;/a&gt;
+            &lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://www.freebsdnews.com/2015/11/12/bsd-videos/&quot;&gt;Video Collection about
+            BSD History, put together by FreeBSDNews&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://www.minix3.org/conference/2016/&quot;&gt;Minix announces its 2016
+            conference&lt;/a&gt; &lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://bsdtalk.blogspot.com/2015/10/bsdtalk258-chris-henschen-from-fp.html&quot;&gt;Chris
+            Henschen from fP Technologies&#39; talk about BSD is now online&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151123161651&amp;amp;mode=expanded&quot;&gt;Mike
+            Larkin and Theo de Raadt&#39;s talks from Hackfest this year in Quebec are online&lt;/a&gt; &lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://kernelnomicon.org/?p=534&quot;&gt;FreeBSD on a BeagleBoneBlack with a
+            Touchscreen Display&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://www.cinlug.org/meetings/2015/December&quot;&gt;Dan Langille will be talking
+            at CINLUG&lt;/a&gt;&lt;/p&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2Gm06eC0Y&quot;&gt;John - Rpi2 and BSD&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2Kf2FG84H&quot;&gt;Roger - Win10 + FreeBSD&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21bOG5UhS&quot;&gt; Anonymous - Sharing Socket&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20bKjCNXW&quot;&gt; Brad - Scrub Repaired&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2qb07BC2G&quot;&gt; Kelly - Automated Provisioning&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Arcing ZFS</title>
+        <smi:episode>116</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2015_11_18-arcing_zfs"/>
+        <id>http://www.bsdnow.tv/episodes/2015_11_18-arcing_zfs</id>
+        <published>2015-11-19T10:16:13-08:00</published>
+        <updated>2016-06-20T07:34:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0116.ogg"
+                rel="enclosure"
+                length="87784673"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0116.ogg"
+                    fileSize="87784673"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0116.mp3"
+                    fileSize="56718619"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/11/bsd-0116-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>George Wilson</name>
+            <email>wilzun@gmail.com</email>
+            <uri>https://twitter.com/zfsdude</uri>
+        </contributor>
+        <summary>This week on BSDNow, we are going to be talking to George Wilson AKA ‘zfsdude’ about some exciting
+            changes coming to ZFS’s ARC. Also, the latest news &amp; a whole slew of your questions!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 116: Arcing ZFS&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://functionallyparanoid.com/2015/11/06/where-do-binary-packages-come-from/&quot;&gt;How
+            to create new binary packages in the Ports system on OpenBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Creating a port is often a great first step you can take to get involved in your favorite BSD of
+            choice, and (often) doesn’t require any actual programming to do so.&lt;/li&gt;
+            &lt;li&gt;In this article we have a great walkthrough for users on creating a new ported application, and
+            eventually binary package, on OpenBSD&lt;/li&gt;
+            &lt;li&gt;As mentioned in the tutorial, a good starting place is always an existing port, which can you use
+            as a template for your new creation. Tip: Try to pick something similar, I.E. python for a python app, Qt
+            for Qt, etc.&lt;/li&gt;
+            &lt;li&gt;This tutorial will first walk you through the process of creating your Makefile and related
+            description about the new port. &lt;/li&gt;
+            &lt;li&gt;Once you’ve created the initial Makefile, there are a bunch of new “make” targets you can begin to
+            run to try building your port, everything from “make fetch” to “make makesum” and “make package”. Using
+            these tests you can verify that your port is correct and results in the installable package/app you wanted.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151116152318&quot;&gt;Status
+            update on pledge(2)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenBSD has been working very aggressively to convert much of their base system applications to
+            using pledge(2) “Formerly Tame(2))&lt;/li&gt;
+            &lt;li&gt;Theo has provided a great status update on where that stands as of right now and the numbers look
+            like the following:&lt;/li&gt;
+            &lt;li&gt;Out of 600 ELF binaries, 368 of them have been updated to utilize pledge(2) in some manner&lt;/li&gt;
+            &lt;li&gt;This is quite a few, and includes everything from openssl, ping, sftp, grep, gzip and much more&lt;/li&gt;
+            &lt;li&gt;There are still a number of “pledge-able” commands waiting for conversion, such as login, sysctl,
+            nfsd, ssh and others.&lt;/li&gt;
+            &lt;li&gt;He also mentions that there does exist some subset of commands which aren’t viable pledge(2)
+            candidates, such as simple things like “true”, or commands like reboot/mount or even perl itself. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://onion.io/omega/&quot;&gt;FreeBSD booting on the Onion Omega&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Tiny $19 MIPS SoC ($25 with dock that provides built in mini-USB Serial interface, power supply,
+            LED lights, GPIO expansion, USB port, etc)&lt;/li&gt;
+            &lt;li&gt;A number of pluggable ‘expansions’ are available, including:
+
+            &lt;ul&gt;
+            &lt;li&gt;Arduino Dock (connect the Omega device to your existing Arduino components)&lt;/li&gt;
+            &lt;li&gt;Blue Tooth Lower Energy&lt;/li&gt;
+            &lt;li&gt;10/100 Ethernet Port&lt;/li&gt;
+            &lt;li&gt;Relay expansion (2 relays each, can stack up to 8 expansions to control 16 relays)&lt;/li&gt;
+            &lt;li&gt;Servo expansion (control up to 16 PWM servos, like robotic arms or camera mounts)&lt;/li&gt;
+            &lt;li&gt;OLED expansion (1&quot; monochrome 128x64 OLED display)&lt;/li&gt;
+            &lt;li&gt;Thermal Printer Kit (includes all wiring and other components)&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;The device is the product of a successful &lt;a href=&quot;https://www.kickstarter.com/projects/onion/onion-omega-invention-platform-for-the-internet-of/description&quot;&gt;Kick
+            Starter campaign&lt;/a&gt; from March of this year&lt;/li&gt;
+            &lt;li&gt;Specs:&lt;/li&gt;
+            &lt;li&gt;Atheros AR9330 rev1 400MHZ MIPS 24K&lt;/li&gt;
+            &lt;li&gt;64MB DDR2 400MHz&lt;/li&gt;
+            &lt;li&gt;16MB Flash &lt;/li&gt;
+            &lt;li&gt;802.11b/g/n 150Mbps Atheros Wifi + 100mbps Atheros Wired Ethernet&lt;/li&gt;
+            &lt;li&gt;18 GPIO Pins&lt;/li&gt;
+            &lt;li&gt;USB Controller&lt;/li&gt;
+            &lt;li&gt;Using the &lt;a href=&quot;https://github.com/freebsd/freebsd-wifi-build/wiki&quot;&gt;freebsd-wifi-build&lt;/a&gt;
+            tool, I was able to build a new firmware for the device based on a profile for a similar device based on the
+            same Atheros chip. I hope to have time to validate some of the settings and get them posted up into the wiki
+            and get the kernel configuration committed to FreeBSD in the next week or two&lt;/li&gt;
+            &lt;li&gt;It is an interesting device compared to the TP-Link WDR3600’s we did at BSDCan, as it has twice as
+            much flash, leaving more room for the system image, but only half as much ram, and a slower CPU&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://wiki.freebsd.org/SSHPerf&quot;&gt;SSH Performance testing&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There has &lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-November/058244.html&quot;&gt;been
+            a discussion&lt;/a&gt; about the value of upkeeping the HPN (High Performance Networking) patch to OpenSSH
+            in the base system of FreeBSD&lt;/li&gt;
+            &lt;li&gt;As part of this, I did some fresh benchmarks on my pair of new high end servers&lt;/li&gt;
+            &lt;li&gt;The remaining part to be done is testing different levels of latency&lt;/li&gt;
+            &lt;li&gt;By tweaking the socket buffer sizes, I was able to saturate the full 10 gigabit with netcat,
+            iperf, etc&lt;/li&gt;
+            &lt;li&gt;From the tests that have been done so far, it doesn’t look like even the NONE cipher can reach
+            that level of performance because of the MAC (Message Authentication Code)&lt;/li&gt;
+            &lt;li&gt;It does appear that some of the auto-tuning in HPN is not worked as expected&lt;/li&gt;
+            &lt;li&gt;Explicitly setting -oTcpRcvBuf=7168 (KB) is enough to saturate a gigabit with 50ms RTT (round trip
+            time)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;iXsystems&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.ixsystems.com/whats-new/seagl-2015/&quot;&gt;iX gives an overview of
+            FreeBSD at SeaGl 2015&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.freenas.org/whats-new/2015/11/zfs-zil-and-slog-demystified.html&quot;&gt;On
+            the FreeNAS Blog, Michael Dexter explains the ZFS Intent Log and SLOG &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2&gt;Interview - George Wilson - &lt;a href=&quot;mailto:wilzun@gmail.com&quot;&gt;wilzun@gmail.com&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/zfsdude&quot;&gt;@zfsdude&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenZFS and Delphix&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151105223808&quot;&gt;Nicholas
+            Marriott has replaced the aging version of less(1) in OpenBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Sometimes less isn’t more, it’s just less&lt;/li&gt;
+            &lt;li&gt;In this story, we have news that the old version of less(1) in OpenBSD has now been ripped out in
+            favor of the more modern fork from illumos founder Garrett D’Amore.&lt;/li&gt;
+            &lt;li&gt;In addition to being a “more” modern version, it also includes far “less” of the portability code,
+            uses terminfo, replacing termcap and is more POSIX compliant. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-November/058522.html&quot;&gt;FreeBSD
+            gets initial support for advanced SMR drives &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Kenneth D. Merry ken@freebsd.org has developed initial support for Host Managed, and Host Aware
+            Shingled Magnetic Recording drives in FreeBSD, available as a patch against both -current and 10-stable&lt;/li&gt;
+            &lt;li&gt;“This includes support for Host Managed, Host Aware and Drive Managed SMRdrives that are either
+            SCSI (ZBC) or ATA (ZAC) attached via a SAScontroller. This does not include support for SMR ATA drives
+            attached viaan ATA controller. Also, I have not yet figured out how to properly detecta Host Managed ATA
+            drive, so this code won&#39;t do that.”&lt;/li&gt;
+            &lt;li&gt;SMR drives have overlapping tracks, because the read head can be much smaller than the write head&lt;/li&gt;
+            &lt;li&gt;The drawback to this approach is that writes to the disk must take place in 256 MB “zones” that
+            must be written from the beginning&lt;/li&gt;
+            &lt;li&gt;New features in the patch:&lt;/li&gt;
+            &lt;li&gt;A new &#39;camcontrol zone&#39; command that allows displaying and managing drive zones via
+            SCSI/ATA passthrough.
+
+            &lt;ul&gt;
+            &lt;li&gt;A new zonectl(8) utility that uses the new DIOCZONECMD ioctl to display and manage zones via the
+            da(4) (and later ada(4)) driver.&lt;/li&gt;
+            &lt;li&gt;Changes to diskinfo -v to display the zone mode of a drive.&lt;/li&gt;
+            &lt;li&gt;A new disk zone API, sys/sys/disk_zone.h.&lt;/li&gt;
+            &lt;li&gt;A new bio type, BIO_ZONE, and modifications to GEOM to support it. This new bio will allow
+            filesystems to query zone support in a drive and manage zoned drives.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Extensive modifications to the da(4) driver to handle probing SCSI and SATA behind SAS SMR drives.
+
+            &lt;ul&gt;
+            &lt;li&gt;Additional CAM CDB building functions for zone commands.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;“We (Spectra Logic) are working on ZFS changes that will use this CAM and GEOM infrastructure to
+            make ZFS play well with SMR drives. Those changes aren&#39;t yet done.”&lt;/li&gt;
+            &lt;li&gt;It is good to see active development in this area, especially from experts in archival storage&lt;/li&gt;
+            &lt;li&gt;A &lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-November/058521.html&quot;&gt;second
+            patch&lt;/a&gt; is also offered, that improves the pass(4) passthrough interface for disks, and introduces a
+            new camdd(8) command, a version of dd that uses the pass(4) interface, kqueue, and separate reader/writer
+            threads for improved performance&lt;/li&gt;
+            &lt;li&gt;He also presents a feature wishlist that includes some interesting benchmarking features,
+            including a ‘sink’ mode, where reads from the device are just thrown away, rather than having to write then
+            to /dev/null&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151112212739&quot;&gt;Initial
+            implemtnation of 802.11n now in iwm(4)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenBSD laptop users rejoice! 802.11n has landed!&lt;/li&gt;
+            &lt;li&gt;Initially only for the iwm(4) driver, support is planned for other devices in the future&lt;/li&gt;
+            &lt;li&gt;Includes support for all the required (non-optional) bits to make 802.11N functional&lt;/li&gt;
+            &lt;li&gt;Adds a new 11n mode to ifmedia, and MCS (modulation coding scheme) that sits alongside the
+            ieee80211_rateset structure. &lt;/li&gt;
+            &lt;li&gt;No support for MIMO / SGI (Short Guard Interval) or 40 MHz wide-channels, but perhaps we will see
+            those in a future update.&lt;/li&gt;
+            &lt;li&gt;They are asking users for testing against a wide variety of any/all APs!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=290038&quot;&gt;Freebsd
+            adds support for Bluetooth LE Security Management&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;FreeBSD + BlueTooth, not something we discuss a lot about, but it is still under active
+            development.&lt;/li&gt;
+            &lt;li&gt;The most recently added features come from Takanori Watanabe, and adds new LE Security Management.
+            &lt;/li&gt;
+            &lt;li&gt;Specifically, it enables support for BLE Security Manager Protocol(SMP), and enables a userland
+            tool to wait for the underlying HCI connection to be encrypted.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://0xfeedface.org/2015/11/07/hbsd-opnsense.html&quot;&gt;Building OpnSense on
+            HardenedBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Looking for a way to further Harden your router? We have a tutorial from the HardenedBSD
+            developer, Shawn Webb, about how to build OpnSense on HBSD 10-STABLE.&lt;/li&gt;
+            &lt;li&gt;You’ll need to first be running HBSD 10-STABLE somewhere, in this article he is using bhyve for
+            the builder VM.&lt;/li&gt;
+            &lt;li&gt;The build process itself is mostly pretty straight-forward, but there are a number of different
+            repos that all have to be checked out, so pay attention to which goes where.
+            +In this example he does a targeted build for a Netgate RCC-VE-4860, but you can pick your particular build.
+            &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://github.com/gliaskos/freebsd-chromium/issues/40&quot;&gt;1 BTC bounty for
+            chromium bug!&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://www.desktopbsd.net/forums/threads/desktopbsd-2-0-m1-released.806/&quot;&gt;DesktopBSD
+            2.0 M1 released&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-October/458500.html&quot;&gt;By
+            implementing asynchronous pru_attach for UDP, Sepherosa Ziehau has increased connect rate by around 15K
+            connections per second&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2015-October/016384.html&quot;&gt;Stephen
+            Bourne, known for the Bourne Shell, will be giving a talk at NYCBUG this week&lt;/a&gt; &lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2015-October/016390.html&quot;&gt;Tor
+            Browser 5.0.3 for OpenBSD released&lt;/a&gt;&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://torbsd.github.io/&quot;&gt;The Tor BSD Diversity Project&lt;/a&gt; aim to
+
+            &lt;ul&gt;
+            &lt;li&gt;Increase the number of Tor relays running BSDs. We envision this happening by increasing the total
+            number of relays, with the addition of more BSD users running relays;&lt;/li&gt;
+            &lt;li&gt;Make the Tor Browser available under BSD operating systems using native packaging mechanisms. Our
+            first target is OpenBSD;&lt;/li&gt;
+            &lt;li&gt;Engage the broader BSD community about the Tor anonymity network and the place that BSD Unix
+            should occupy in the privacy community at large.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://anders.unix.se/2015/10/28/screenshots-from-developers--unix-people-2002/&quot;&gt;Screenshots
+            from Unix People circa 2002&lt;/a&gt; &lt;/p&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21xTyirkO&quot;&gt;Dominik - Bhyve Setup&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2YVi7ULlJ&quot;&gt; John - beadm + GELI &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20lRTaZSy&quot;&gt; Darrall - ZFS + RAID = Problems&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2omNWdTBU&quot;&gt; Hamza - Which shell?&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21Y8bPbnm&quot;&gt; Amenia - FreeBSD routing&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the
+            show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Controlling the Transmissions</title>
+        <smi:episode>115</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2015_11_11-controlling_the_transmissions"/>
+        <id>http://www.bsdnow.tv/episodes/2015_11_11-controlling_the_transmissions</id>
+        <published>2015-11-12T09:58:49-08:00</published>
+        <updated>2016-06-20T07:39:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0115.ogg"
+                rel="enclosure"
+                length="70307831"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0115.ogg"
+                    fileSize="70307831"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0115.mp3"
+                    fileSize="45842067"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/11/bsd-0115-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Hiren Panchasara</name>
+            <email>hiren@freebsd.org</email>
+            <uri>https://twitter.com/hirenpanchasara</uri>
+        </contributor>
+        <summary>Allan is back from the latest FreeBSD Dev Summit &amp; we’ll get to hear his recap of the event. We
+            also
+            have an interview with Hiren, who will be telling us about the ongoing work of improving the TCP stack in
+            FreeBSD.
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 115: Controlling the Transmissions&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://wiki.freebsd.org/201511VendorDevSummit&quot;&gt;FreeBSD 2015 Vendor Dev
+            Summit&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsd.org/news/status/report-2015-07-2015-09.html&quot;&gt;FreeBSD
+            Quarterly Status Report - Third Quarter 2015&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a fresh quarterly status report from the FreeBSD project. Once again it almost merits an
+            entire show, but we will try to hit all the highlights. &lt;/li&gt;
+            &lt;li&gt;Bhyve - Porting of the Intel edk2 UEFI firmware, allowing Windows in headless mode, and Illumos
+            support. Also porting to ARM has begun!&lt;/li&gt;
+            &lt;li&gt;Improved Support for Acer C720 ChromeBooks&lt;/li&gt;
+            &lt;li&gt;High Availability Clustering in CTL (Cam Target Layer)&lt;/li&gt;
+            &lt;li&gt;Root Remounting (Similar to pivot_root in Linux). This work allows using “reboot -r” to do a
+            fast-reboot, with a partial shutdown, kill all processes, and re-mount rootfs and boot. Especially useful
+            for booting from mfs or similar then transitioning to iscsi or some other backing storage&lt;/li&gt;
+            &lt;li&gt;OpenCL Support in Mesa, as well as kernel progress on the i915 driver&lt;/li&gt;
+            &lt;li&gt;Improved support for UEFI FrameBuffer on a bunch of recent MacBook Pro and other Macs, in addition
+            to improvements to “vt” framebuffer driver for high resolution displays. &lt;/li&gt;
+            &lt;li&gt;ZFS support for UEFI Boot (Needs testing, but used in PC-BSD for a couple months now), and
+            importing new features from IllumOS (resumable send, receive prefetch, replication checksumming, 50% less
+            ram required for L2ARC, better prefetch)&lt;/li&gt;
+            &lt;li&gt;DTrace SDT probes added to TCP code, to replace the old TCPDEBUG kernel option. Recompiling the
+            kernel is no longer required to debug TCP, just use DTrace&lt;/li&gt;
+            &lt;li&gt;Ongoing work to bring us a native port/package of GitLab&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://forums.meteor.com/t/freebsd-testers-please/12919/10&quot;&gt;Meteor, the
+            popular javascript web application framework has been forked to run on FreeBSD, OpenBSD and NetBSD - FreeBSD
+            testers requested&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a public call for testing for FreeBSD users of Meteor by Tom Freudenberg&lt;/li&gt;
+            &lt;li&gt;The included link includes all the details on how to currently get meteor boot-strapped on your
+            box and bring up the server&lt;/li&gt;
+            &lt;li&gt;So far the reports are positive, many users reporting that it is running on their 10.2 systems /
+            jails just fine. &lt;/li&gt;
+            &lt;li&gt;Just a day ago the original porter mentioned that OpenBSD is ready to go for testing using the
+            prepared dev bundle. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151101223132&quot;&gt;Mike
+            Larkin work continues on an native OpenBSD hypervisor, which he has announced is now booting&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Speaking of OpenBSD, we have an update from Mike Larkin about the status of the OpenBSD native
+            hypervisor vmm(4). &lt;/li&gt;
+            &lt;li&gt;His twitter post included the output from a successful VM bootup of OpenBSD 5.8-current, all the
+            way to multi-user&lt;/li&gt;
+            &lt;li&gt;While the code hasn’t been committed (yet) we will keep you informed when it lands so you too can
+            begin playing with it. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.etoilebsd.net/post/This_is_how_I_like_opensource&quot;&gt;This is how
+            I like open source&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A blog post by FreeBSD Core Team member, and one of the lead developers of pkg, Baptiste Daroussin&lt;/li&gt;
+            &lt;li&gt;One project he has been working on is string collation&lt;/li&gt;
+            &lt;li&gt;Garrett d&#39;Amore (of IllumOS) implemented unicode string collation while working for Nexenta
+            and made it BSD license&lt;/li&gt;
+            &lt;li&gt;John Marino (from Dragonfly) imported the work done on Illumos into Dragonfly, while he was doing
+            that he decided, it was probably a good idea to rework how locales are handled&lt;/li&gt;
+            &lt;li&gt;He discovered that Edwin Groothuis (from FreeBSD) had long ago started a project to simplify
+            locales handling on FreeBSD&lt;/li&gt;
+            &lt;li&gt;He extended the tools written by Edwin and has been able to update Dragonfly to the latest (v27 so
+            far) unicode definitions&lt;/li&gt;
+            &lt;li&gt;John Marino has worked with Bapt many times on various projects (including bringing pkg and ports
+            to Dragonfly)&lt;/li&gt;
+            &lt;li&gt;Bapt decided it was time that FreeBSD got proper string collation support as well, and worked with
+            John to import the support to FreeBSD&lt;/li&gt;
+            &lt;li&gt;Bapt spotted a couple of bugs and worked with John on fixing them: issues with eucJP encoding,
+            issues with Russian encoding (John did most of the work on tracking down and fixing the bugs), Bapt also
+            converted localedef (the tool to generate the locales) into using BSD license only code (original version
+            used the CDDL libavl library which I modified to use tree(3)), fixed issues. I also took the locale
+            generation from Edwin (extended by John)&lt;/li&gt;
+            &lt;li&gt;This work resulted in a nice flow of patches going from Dragonfly to FreeBSD and from FreeBSD to
+            Dragonfly.&lt;/li&gt;
+            &lt;li&gt;And now Garrett is interested in grabbing back our patches into Illumos!&lt;/li&gt;
+            &lt;li&gt;The result of this collaboration is that now 3 OS share the same implementation for collation
+            support! This is very good because when one discovers a bug the 3 of them benefit the fix!&lt;/li&gt;
+            &lt;li&gt;The biggest win here is that this was a lot of work, and not an area that many people are
+            interested in working on, so it was especially important to share the work rather than reimplement it
+            separately.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Hiren Panchasara - &lt;a href=&quot;mailto:hiren@freebsd.org&quot;&gt;hiren@freebsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/hirenpanchasara&quot;&gt;@hirenpanchasara&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Improving TCP&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;iXsystems&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.ixsystems.com/whats-new/october-missioncomplete-winners/&quot;&gt;MissonComplete
+            winners&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-2.3.1-relnotes.txt&quot;&gt;LibreSSL
+            2.3.1 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;LibreSSl keeps on chugging, the latest release has landed, 2.3.1, which is the second snapshot
+            based upon the OpenBSD 5.9 development branch.&lt;/li&gt;
+            &lt;li&gt;Currently they are targeting a stable ABI/API sometime around March 2016 for the 2.3.X series.&lt;/li&gt;
+            &lt;li&gt;Included in this update are ASN. 1 cleanups and some compliance fixes for RFC5280&lt;/li&gt;
+            &lt;li&gt;Switched internally to time&lt;em&gt;t, with a check that the host OS supports 64bit time&lt;/em&gt;t&lt;/li&gt;
+            &lt;li&gt;Various TLS fixes, including the ability to check cert validity times with tls&lt;em&gt;peer&lt;/em&gt;cert_not{before|after}&lt;/li&gt;
+            &lt;li&gt;Fixed a reported memory leak in OBJ_obj2txt&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/install-ghost-nginx-freebsd-10-2/&quot;&gt;Guide
+            for Installing Ghost w/ Nginx on FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A nice walkthrough for the week, we’ve found an article about how to install the Ghost blogging
+            platform on FreeBSD 10.2. &lt;/li&gt;
+            &lt;li&gt;For those who don’t know, Ghost is a MIT licensed blogging tool, started in 2012 by a former
+            WordPress UI developer and is entirely coded in Node.js&lt;/li&gt;
+            &lt;li&gt;While a port for FreeBSD does not yet exist (somebody get on that please), this tutorial can walk
+            you through the process of getting it deployed manually&lt;/li&gt;
+            &lt;li&gt;Most of the requirements are simple, www/node, www/npm and sqlite3. &lt;/li&gt;
+            &lt;li&gt;With those installed, most of the steps are simply creating the username / home for ghost, and
+            some “npm” setup. &lt;/li&gt;
+            &lt;li&gt;The walkthrough even includes a handy rc.d script, making the possibility of a port seem much more
+            likely&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://adrianchadd.blogspot.com/2015/10/fixing-up-qca9558-performance-on.html&quot;&gt;Adrian
+            Chadd on &#39;Why attention to detail matters when you&#39;re a kernel developer&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Adrian was correctly trolled in the FreeBSD embedded IRC chatroom and started looking at why the
+            bridging performance in MIPS boards was so bad&lt;/li&gt;
+            &lt;li&gt;120-150 mbit/sec is not really enough anymore&lt;/li&gt;
+            &lt;li&gt;Using previous MIPS24k support as a starting point, Adrian managed to get HWPMC (Hardware
+            Performance Monitoring Counters) working on MIPS74k&lt;/li&gt;
+            &lt;li&gt;Using the data collected from the performance counters Adrian was able to figure out that packets
+            were being copied in order to meet alignment requirements of the NIC and the FreeBSD networking stack. It
+            turns out this is no longer a requirement for most modern Atheros NICs, so the workaround could be removed&lt;/li&gt;
+            &lt;li&gt;Now performance was 180 mbit/sec&lt;/li&gt;
+            &lt;li&gt;Next, on the receive side, only the TCP stack requires strict alignment, the ethernet stack does
+            not, so offset the start point by 2 bytes so that TCP ends up aligned, and problem solved. Or not, no
+            performance difference...&lt;/li&gt;
+            &lt;li&gt;The problem appeared to be busdma, Ian Lepore had recently made improves in this area on armv6 and
+            helpfully ported these over to MIPS&lt;/li&gt;
+            &lt;li&gt;Now 420 mbit/sec. Getting better, but not as fast as Linux&lt;/li&gt;
+            &lt;li&gt;After some further investigation, a missing ‘sync’ operation was added, and the memory caching was
+            changed from writethrough to writeback&lt;/li&gt;
+            &lt;li&gt;Things were so fast now, that the descriptor ring was being run through the ring so quickly as to
+            hit the next descriptor that is still being setup. The first was to mark the first descriptor of a
+            multi-descriptor packet as ‘empty’ until the entire chain was setup, so it would not be processed before the
+            latter bits were done being added to the ring.&lt;/li&gt;
+            &lt;li&gt;So now MIPS can bridge at 720 mbit/sec, and route 320 mbit/sec&lt;/li&gt;
+            &lt;li&gt;Adrian wants to improve the routing speed and get it caught up to the bridging speed, but as
+            always, free time is scarce.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://mirrorshades.net/post/132753032310&quot;&gt;Switching from OS X to FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The story of a user who had used OS X since its beta, but 10.9 and 10.10, became more and more
+            dissatisfied&lt;/li&gt;
+            &lt;li&gt;They found they were spending too much time fighting with the system, rather than getting work
+            done&lt;/li&gt;
+            &lt;li&gt;They cover the new workstation they bought, and the process of getting FreeBSD going on it,
+            including why they chose FreeBSD rather than PCBSD&lt;/li&gt;
+            &lt;li&gt;Also covered it setting up a Lenovo X220 laptop&lt;/li&gt;
+            &lt;li&gt;They setup the i3wm and mutt&lt;/li&gt;
+            &lt;li&gt;The blog is very detailed and goes so far as to share a github repo of dotfiles and configuration
+            files to ease the transition from OS X.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;BeastieBits&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.scalescale.com/the-stack-behind-netflix-scaling/&quot;&gt;The Stack
+            behind Netflix&#39;s scaling&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://mail-index.netbsd.org/source-changes/2015/11/04/msg069873.html&quot;&gt;The
+            Amiga port of NetBSD now has xorg support&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/end_of_life_for_netbsd&quot;&gt;NetBSD has
+            announced EOL for v5.x to be November 9th&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-November/058266.html&quot;&gt;RetroArch
+            ports allow playing PlayStation, Sega, Atari, etc., games on FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://gfycat.com/InnocentSneakyEwe&quot;&gt;OpenBSD booting on a 75mhz Cyrex
+            system with 32MB RAM&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://mail-index.netbsd.org/source-changes/2015/10/29/msg069729.html&quot;&gt;Matthew
+            Green reports Nouveau Nvidia can support GL with his latest commit&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Releases!&lt;/h3&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://opnsense.org/opnsense-15-7-18-released/&quot;&gt;OPNsense releases 15.7.18&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://blog.pfsense.org/?p=1925&quot;&gt;pfSense releases 2.2.5&lt;/a&gt;&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2ogdURldm&quot;&gt; Eric&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s22bK2LZLm&quot;&gt; Andrew&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2to6ZpBTc&quot;&gt; Joseph&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2oLU0KM7Y&quot;&gt; Sean&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21k6oKvle&quot;&gt; Dustin&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;For those of you curious about Kris&#39; new lighting here are the links to what he is using.&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://smile.amazon.com/gp/product/B00OTG6474?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_detailpage_o01_s00&amp;amp;pldnSite=1&quot;&gt;Softbox
+            Light Diffuser&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://smile.amazon.com/gp/product/B00198U6U6?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_detailpage_o06_s00&quot;&gt;Full
+            Spectrum 5500K CFL Bulb&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>BSD-Schooling</title>
+        <smi:episode>114</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2015_11_5-BSD-Schooling"/>
+        <id>http://www.bsdnow.tv/episodes/2015_11_5-BSD-Schooling</id>
+        <published>2015-11-05T07:36:29-08:00</published>
+        <updated>2016-06-30T07:45:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0114.ogg"
+                rel="enclosure"
+                length="65737557"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0114.ogg"
+                    fileSize="65737557"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0114.mp3"
+                    fileSize="43078521"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/11/bsd-0114-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Brian Callahan</name>
+            <email>bcallah@devio.us</email>
+            <uri>https://twitter.com/__briancallahan</uri>
+        </contributor>
+        <summary>Allan is out of town this week at another Developer Summit but we have a great episode coming up with
+            Brian Callahan where we discuss BSD in education. Also, news &amp; a lot of user feedback to get to, so sit
+            back &amp; relax, more BSD is coming your way right now!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 114: BSD-Schooling&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.wired.com/2015/10/whatsapps-co-founder-on-how-the-iconoclastic-app-got-huge/&quot;&gt;WhatsApp founder, on how it got so HUGE&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Wired has interviewed WhatsApp co-founder Brian Acton, about the infrastructure behind WhatsApp&lt;/li&gt;
+            &lt;li&gt;WhatsApp manages 900 million users with a team of 50, while Twitter needs around 4,000 employees to manage 300 million users.&lt;/li&gt;
+            &lt;li&gt;“FreeBSD has a nicely tuned network stack and extremely good reliability. We find managing FreeBSD installations to be quite straightforward.”&lt;/li&gt;
+            &lt;li&gt;“Linux is a beast of complexity. FreeBSD has the advantage of being a single distribution with an extraordinarily good ports collection.”&lt;/li&gt;
+            &lt;li&gt;“To us, it has been an advantage as we have had very few problems that have occurred at the OS level. With Linux, you tend to have to wrangle more and you want to avoid that if you can.”&lt;/li&gt;
+            &lt;li&gt;“FreeBSD happened because both Jan and I have experience with FreeBSD from Yahoo!.”&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://uk.businessinsider.com/whatsapp-built-using-erlang-and-freebsd-2015-10&quot;&gt;Additional Coverage &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/&quot;&gt;User feedback in the SystemD vs BSD init&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a very detailed blog post this week from Randy Westlund, about his experiences on Linux and BSD, contrasting the init systems.&lt;/li&gt;
+            &lt;li&gt;What he finds is that while, it does make some things easier, such as writing a service file once, and having it run everywhere, the tradeoff comes in the complexity and lack of transparency. &lt;/li&gt;
+            &lt;li&gt;Another area of concern was the reproducibility of boots, how in his examples on servers, there can often be times when services start in different orders, to save a few moments of boot-time.&lt;/li&gt;
+            &lt;li&gt;His take on the simplicity of BSD’s startup scripts is that they are very easy to hack on and monitor, while not introducing the feature creep we have seen in sysd. &lt;/li&gt;
+            &lt;li&gt;It will be interesting to see NextBSD / LaunchD and how it compares in the future!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://opensource.com/business/15/10/ato-interview-jim-salter&quot;&gt;Learn to embrace open source, or get buried&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;At the recent “All Things Open” conference, opensource.com interviewed Jim Salter&lt;/li&gt;
+            &lt;li&gt;He describes how he first got started using FreeBSD to host his personal website&lt;/li&gt;
+            &lt;li&gt;He then goes on to talk about starting FreeBSDWiki.net and what its goals were&lt;/li&gt;
+            &lt;li&gt;The interview then talks about using Open Source at solve customers’ problems at his consulting firm&lt;/li&gt;
+            &lt;li&gt;Finally, the talks about his presentation at AllThingsOpen: &lt;a href=&quot;http://allthingsopen.org/talks/move-over-rsync/&quot;&gt;Move Over, Rsync
+            &lt;/a&gt; about switching to ZFS replication&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lwn.net/Articles/660428/&quot;&gt;HP’s CTO Urges businesses to avoid permissive licenses &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Martin Fink went on a rant about the negative effects of license proliferation&lt;/li&gt;
+            &lt;li&gt;While I agree that having too many new licenses is confusing and adds difficulty, I didn’t agree with his closing point&lt;/li&gt;
+            &lt;li&gt;“He then ended the session with an extended appeal to move the open-source software industry away from permissive licenses like Apache 2.0 and toward copyleft licenses like the GPL”&lt;/li&gt;
+            &lt;li&gt;“The Apache 2.0 license is currently the most widely used &quot;permissive&quot; license. But the thing that developers overlook when adopting it, he said, is that by using Apache they are also making a choice about how much work they will have to put into building any sort of community around the project. If you look at Apache-licensed projects, he noted, &quot;you&#39;ll find that they are very top-heavy with &#39;governance&#39; structures.&quot; Technical committees, working groups, and various boards, he said, are needed to make such projects function. But if you look at copyleft projects, he added, you find that those structures simply are not needed.”&lt;/li&gt;
+            &lt;li&gt;There are plenty of smaller permissively licensed projects that do not have this sort of structure, infact, most of this structure comes from being an Apache run project, rather than from using the Apache or any other permissive license&lt;/li&gt;
+            &lt;li&gt;Luckily, he goes on to state that the “OpenSwitch code is released under the Apache 2.0 license, he said, because the other partner companies viewed that as a requirement.”&lt;/li&gt;
+            &lt;li&gt;“HP wanted to get networking companies and hardware suppliers on board. In order to get all of the legal departments at all of the partners to sign on to the project, he said, HP was forced to go with a permissive license”&lt;/li&gt;
+            &lt;li&gt;Hopefully the trend towards permissive licenses continues&lt;/li&gt;
+            &lt;li&gt;Additionally, in a separate LWN post:&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lwn.net/Articles/659757/&quot;&gt;RMS Says: “I am not saying that competitors to a GNU package are unjust or bad -- that isn&#39;t necessarily so. The pertinent point is that they are &lt;em&gt;competitors&lt;/em&gt;. The goal of the GNU Project is for GNU to win the competition. Each GNU package is a part of the GNU system, and should contribute to the success of the GNU Project. Thus, each GNU package should encourage people to run other GNU packages rather than their competitors -- even competitors which are free software.” &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;Never thought I’d see RMS espousing vendor lock-in&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Brian Callahan - &lt;a href=&quot;mailto:bcallah@devio.us&quot;&gt;bcallah@devio.us&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/__briancallahan&quot;&gt;@twitter&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The BSDs in Education&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2015-October/228403.html&quot;&gt;Digital Libraries in Africa making use of DragonflyBSD and HAMMER&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;In the international development context, we have an interesting post from Michael Wilson of the PeerCorps Trust Fund.&lt;/li&gt;
+            &lt;li&gt;They are using DragonFlyBSD and FreeBSD to support the Tanzanian Digital Library Initiative in very resource-limited settings.  &lt;/li&gt;
+            &lt;li&gt;They cite among the most important reasons for using BSD as the availability and quality of the documentation, as well as the robustness of the filesystems, both ZFS and HAMMER.&lt;/li&gt;
+            &lt;li&gt;Their website is now online over at (http://www.tandli.com/) , check it out to see exactly how BSD is being used in the field&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://twitter.com/ed_maste/status/655120086248763396&quot;&gt;netflix hits &amp;gt; 65gbps from a single freebsd box&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A single socket server, with a high end Xeon E5 processor and a dual ported Chelsio T580 (2x 40 Gbps ports) set a netflix record pushing over 65 Gbps of traffic from a single machine&lt;/li&gt;
+            &lt;li&gt;The videos were being pushed from SSDs and some new high end NVMe devices&lt;/li&gt;
+            &lt;li&gt;The previous record at Netflix was 52 Gbps from a single machine, but only with very experimental settings. The current work is under much more typical settings&lt;/li&gt;
+            &lt;li&gt;By the end of that night, traffic surged to over 70 Gbps&lt;/li&gt;
+            &lt;li&gt;Only about 10-15% of that traffic was encrypted with the in-kernel TLS engine that Netflix has been working on with John-Mark Gurney&lt;/li&gt;
+            &lt;li&gt;It was reported that the machine was only using about 65% cpu, and had plenty of head room&lt;/li&gt;
+            &lt;li&gt;If I remember the discussion correctly, there were about 60,000 streams running off the machine&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lumina-desktop.org/lumina-desktop-0-8-7-released/&quot;&gt;Lumina Desktop 0.8.7 has been released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A very large update has landed for PC-BSD’s Lumina desktop&lt;/li&gt;
+            &lt;li&gt;A brand new “Start” menu has been added, which enables quick launch of favorite apps, pinning to desktop / favorites and more.&lt;/li&gt;
+            &lt;li&gt;Desktop icons have been overhauled, with better font support, and a new Grid system for placement of icons.&lt;/li&gt;
+            &lt;li&gt;Support for other BSD’s such as DragonFly has been improved, along with TONS of internal changes to functionality and backends.&lt;/li&gt;
+            &lt;li&gt;Almost too many things to list here, but the link above will have full details, along with screenshots.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.jibbed.org/&quot;&gt;A LiveUSB for NetBSD has been released by Jibbed&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;After a three year absence, the Jibbed project has come back with a Live USB image for NetBSD!&lt;/li&gt;
+            &lt;li&gt;The image contains NetBSD 7.0, and is fully R/W, allowing you to run the entire system from a single USB drive.&lt;/li&gt;
+            &lt;li&gt;Images are available for 8Gb and 4Gb sticks (64bit and 32bit respectively), along with VirtualBox images as well&lt;/li&gt;
+            &lt;li&gt;For those wanting X, it includes both X and TWM, although ‘pkgin’ is available, so you can quickly add other desktops to the image&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Beastie Bits&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151021191401&amp;amp;mode=expanded&quot;&gt;After recent discussions of revisiting W^X support in Mozilla Firefox, David Coppa has flipped the switch to enable it for OpenBSD users running -current.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lme.postach.io/post/changing-console-resolution-in-freebsd-10-with-vt-4&quot;&gt;Using the vt(4) driver to change console resolution&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/10/conference-recap-grace-hopper.html&quot;&gt;The FreeBSD Foundation gives a great final overview of the Grace Hopper Conference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/@jmmv/compilers-in-the-bsd-base-system-1c4515a18c49&quot;&gt;A dialog about Compilers in the (BSD) base system&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1q5aDEt18mw&quot;&gt;One upping their 48-core work from July, The Semihalf team shows off their the 96-core SMP support for FreeBSD on Cavium ThunderX (ARMv8 architecture&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2015-October/016384.html&quot;&gt;NYC Bug&#39;s November meeting will be featuring a talk by Stephen R. Bourne&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://garbage.fm/&quot;&gt;New not-just-BSD postcast, hosted by two OpenBSD devs Brandon Mercer and Joshua Stein&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21wjbhCJ4&quot;&gt; Stefan &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21TbKS5t0&quot;&gt; Zach &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20AkO1i1R&quot;&gt; Jake &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2nrUMatU5&quot;&gt; Corey &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2pZsC7arX&quot;&gt; Robroy &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to
+            &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+</feed>
