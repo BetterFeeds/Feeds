@@ -69,8 +69,8 @@
                 type="text/html"
                 href="http://www.bsdnow.tv/episodes/2015_12_30-the_bsd_black_box"/>
         <id>http://www.bsdnow.tv/episodes/2015_12_30-the_bsd_black_box</id>
-        <published>2015-01-31T08:07:42-08:00</published>
-        <updated>2016-06-19T07:50:00Z</updated>
+        <published>2015-12-31T08:07:42-08:00</published>
+        <updated>2016-06-20T07:53:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0122.ogg"
                 rel="enclosure"
