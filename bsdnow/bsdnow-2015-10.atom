@@ -55,7 +55,7 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-22T07:34:00Z</updated>
+    <updated>2016-06-23T07:16:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -747,79 +747,110 @@
 
             &lt;ul&gt;
             &lt;li&gt;EuroBSDCon has started posting videos of the talks online already.&lt;/li&gt;
-            &lt;li&gt;The videos posted online are archives of the live stream, so some of the videos contain multiple talks&lt;/li&gt;
+            &lt;li&gt;The videos posted online are archives of the live stream, so some of the videos contain multiple
+            talks&lt;/li&gt;
             &lt;li&gt;Due to a technical complication, some videos only have 1 channel of audio&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://2015.eurobsdcon.org/talks-and-schedule/talk-schedule/&quot;&gt;EuroBSDCon Talk Schedule&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://2015.eurobsdcon.org/talks-and-schedule/talk-schedule/&quot;&gt;EuroBSDCon
+            Talk Schedule&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCBPvcqZrNuKZuP1LQhlCp-A&quot;&gt;Red Room Videos&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCJk8Kls9LT-Txu-Jhv7csfw&quot;&gt;Yellow Room Videos&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC-3DOxIOI5oHXE1H57g3FzQ&quot;&gt;Blue Room Videos&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://assets.keltia.net/photos/EuroBSDCon-2015/&quot;&gt;Photos of the conference courtersy of Ollivier Robert&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCJk8Kls9LT-Txu-Jhv7csfw&quot;&gt;Yellow Room
+            Videos&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC-3DOxIOI5oHXE1H57g3FzQ&quot;&gt;Blue Room
+            Videos&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://assets.keltia.net/photos/EuroBSDCon-2015/&quot;&gt;Photos of the
+            conference courtersy of Ollivier Robert&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151005200020&quot;&gt;A series of OpenSMTPd patches fix multiple vulnerabilities&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151005200020&quot;&gt;A
+            series of OpenSMTPd patches fix multiple vulnerabilities&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Qualys recently published an &lt;a href=&quot;https://www.qualys.com/2015/10/02/opensmtpd-audit-report.txt&quot;&gt;audit of the OpenSNMPd source code&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Qualys recently published an &lt;a href=&quot;https://www.qualys.com/2015/10/02/opensmtpd-audit-report.txt&quot;&gt;audit
+            of the OpenSNMPd source code&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;The fixes for these vulnerabilities were released as 5.7.2&lt;/li&gt;
-            &lt;li&gt;After its release, two &lt;a href=&quot;http://www.openwall.com/lists/oss-security/2015/10/04/2&quot;&gt;additional vulnerabilities&lt;/a&gt; were found. One, in the portable version, newer code that was added after the audit started&lt;/li&gt;
+            &lt;li&gt;After its release, two &lt;a href=&quot;http://www.openwall.com/lists/oss-security/2015/10/04/2&quot;&gt;additional
+            vulnerabilities&lt;/a&gt; were found. One, in the portable version, newer code that was added after the
+            audit started&lt;/li&gt;
             &lt;li&gt;All users are strongly encouraged to upgrade to 5.7.3&lt;/li&gt;
             &lt;li&gt;OpenBSD users should apply the latest errata or upgrade to the newest snapshot&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=288917&quot;&gt;FreeBSD updates in -CURRENT&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=288917&quot;&gt;FreeBSD
+            updates in -CURRENT&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Looks like Xen header support has been bumped in FreeBSD from 4.2 -&amp;gt; 4.6&lt;/li&gt;
             &lt;li&gt;It also enables support for ARM&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-October/057691.html&quot;&gt;Update to Clang / LLVM  to 3.7.0&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-October/057691.html&quot;&gt;Update
+            to Clang / LLVM to 3.7.0&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;http://llvm.org/releases/3.7.0/docs/ReleaseNotes.html&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=287745&quot;&gt;ZFS gets FRU (field replaceable unit) tracking&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/ports?view=revision&amp;amp;revision=397198&quot;&gt;OpenCL makes it way into the ports tree&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=287745&quot;&gt;ZFS
+            gets FRU (field replaceable unit) tracking&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/ports?view=revision&amp;amp;revision=397198&quot;&gt;OpenCL
+            makes it way into the ports tree&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;bhyve has grown UEFI support, plus a CSM module&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-virtualization/2015-October/003832.html&quot;&gt;bhyve can now boot Windows &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Currently there is still only a serial console, so the post includes an unattended install .xml file and instructions on how to repack the ISO. Once Windows is installed, you can RDP into the machine&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-virtualization/2015-October/003833.html&quot;&gt;bhyve can also now run IllumOS &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-virtualization/2015-October/003832.html&quot;&gt;bhyve
+            can now boot Windows &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Currently there is still only a serial console, so the post includes an unattended install .xml
+            file and instructions on how to repack the ISO. Once Windows is installed, you can RDP into the machine&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-virtualization/2015-October/003833.html&quot;&gt;bhyve
+            can also now run IllumOS &lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openbsd-cvs&amp;amp;m=144304997800589&amp;amp;w=2&quot;&gt;OpenBSD Initial Support for Broadwell Graphics&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openbsd-cvs&amp;amp;m=144304997800589&amp;amp;w=2&quot;&gt;OpenBSD
+            Initial Support for Broadwell Graphics&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;OpenBSD joins DragonFly now with initial support for broadwell GPUs landing in their development branch&lt;/li&gt;
-            &lt;li&gt;This brings Open up to Linux 3.14.52 DRM, and Mark Kettenis mentions that it isn.t perfect yet, and may cause some issues with older hardware, although no major regressions yet&lt;/li&gt;
+            &lt;li&gt;OpenBSD joins DragonFly now with initial support for broadwell GPUs landing in their development
+            branch&lt;/li&gt;
+            &lt;li&gt;This brings Open up to Linux 3.14.52 DRM, and Mark Kettenis mentions that it isn.t perfect yet,
+            and may cause some issues with older hardware, although no major regressions yet&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;OpenBSD Slides for &lt;a href=&quot;http://www.openbsd.org/papers/tame-fsec2015/&quot;&gt;TAME&lt;/a&gt; and &lt;a href=&quot;http://www.openbsd.org/papers/libtls-fsec-2015/&quot;&gt;libTLS APIs&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;OpenBSD Slides for &lt;a href=&quot;http://www.openbsd.org/papers/tame-fsec2015/&quot;&gt;TAME&lt;/a&gt;
+            and &lt;a href=&quot;http://www.openbsd.org/papers/libtls-fsec-2015/&quot;&gt;libTLS APIs&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The first set of slides are from a talk Theo de Raadt gave in Croatia, they describe the history and impetus for tame&lt;/li&gt;
-            &lt;li&gt;Theo specifically avoids comparisons to other sandboxing techniques like capsicum and seccomp, because he is not impartial&lt;/li&gt;
+            &lt;li&gt;The first set of slides are from a talk Theo de Raadt gave in Croatia, they describe the history
+            and impetus for tame&lt;/li&gt;
+            &lt;li&gt;Theo specifically avoids comparisons to other sandboxing techniques like capsicum and seccomp,
+            because he is not impartial&lt;/li&gt;
             &lt;li&gt;tame() itself is only about 1200 lines of code&lt;/li&gt;
             &lt;li&gt;Sandboxing the file(1) command with systrace: 300 lines of code, with tame: 4 lines&lt;/li&gt;
-            &lt;li&gt;Theo makes the point that .optional security. is irrelevant. If a mitigation feature has a knob to turn it off, some program will break and advise users to turn the feature off. Eventually, no one uses the feature, and it dies&lt;/li&gt;
-            &lt;li&gt;This has lead to OpenBSD.s policy: .Once working, these features cannot be disabled. Application bugs must be fixed.&lt;/li&gt;
+            &lt;li&gt;Theo makes the point that .optional security. is irrelevant. If a mitigation feature has a knob to
+            turn it off, some program will break and advise users to turn the feature off. Eventually, no one uses the
+            feature, and it dies&lt;/li&gt;
+            &lt;li&gt;This has lead to OpenBSD.s policy: .Once working, these features cannot be disabled. Application
+            bugs must be fixed.&lt;/li&gt;
             &lt;li&gt;The second talk is by Bob Beck, about LibreSSL&lt;/li&gt;
             &lt;li&gt;when LibreSSL was forked from OpenSSL 1.0.1g, it contained 388,000 lines of C code&lt;/li&gt;
             &lt;li&gt;30 days in LibreSSL, they had deleted 90,000 lines of C&lt;/li&gt;
-            &lt;li&gt;OpenSSL 1.0.2d has 432,000 lines of C (728k total), and OpenSSL Current has 411,000 lines of C (over 1 million total)&lt;/li&gt;
+            &lt;li&gt;OpenSSL 1.0.2d has 432,000 lines of C (728k total), and OpenSSL Current has 411,000 lines of C
+            (over 1 million total)&lt;/li&gt;
             &lt;li&gt;LibreSSL today, contains 297,000 lines of C (511k total)&lt;/li&gt;
-            &lt;li&gt;None of the high risk CVEs against OpenSSL (there have been 5) have affected LibreSSL. It turns out removing old code and unneeded features is good for security.&lt;/li&gt;
-            &lt;li&gt;The talk focuses on libtls, an alternative to the OpenSSL API, designed to be easier to use and less error prone&lt;/li&gt;
-            &lt;li&gt;In the libtls api, if -1 is returned, it is always an error. In OpenSSL, it might not be an error, needs additional code to check errno&lt;/li&gt;
+            &lt;li&gt;None of the high risk CVEs against OpenSSL (there have been 5) have affected LibreSSL. It turns
+            out removing old code and unneeded features is good for security.&lt;/li&gt;
+            &lt;li&gt;The talk focuses on libtls, an alternative to the OpenSSL API, designed to be easier to use and
+            less error prone&lt;/li&gt;
+            &lt;li&gt;In the libtls api, if -1 is returned, it is always an error. In OpenSSL, it might not be an error,
+            needs additional code to check errno&lt;/li&gt;
             &lt;li&gt;In OpenBSD: ftp, nc, ntpd, httpd, spamd, syslog have been converted to the new API&lt;/li&gt;
-            &lt;li&gt;The OpenBSD Foundation is looking for donations in order to sponsor 2-3 developers to spend 6 months dedicated to LibreSSL&lt;/li&gt;
+            &lt;li&gt;The OpenBSD Foundation is looking for donations in order to sponsor 2-3 developers to spend 6
+            months dedicated to LibreSSL&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h2&gt;Interview - Benno Rice - &lt;a href=&quot;mailto:benno@FreeBSD.org&quot;&gt;benno@FreeBSD.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/jeamland&quot;&gt;@jeamland&lt;/a&gt;&lt;/h2&gt;
+            &lt;h2&gt;Interview - Benno Rice - &lt;a href=&quot;mailto:benno@FreeBSD.org&quot;&gt;benno@FreeBSD.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/jeamland&quot;&gt;@jeamland&lt;/a&gt;&lt;/h2&gt;
 
             &lt;p&gt;Isilon and building products on top of FreeBSD&lt;/p&gt;
 
@@ -831,19 +862,26 @@
 
             &lt;ul&gt;
             &lt;li&gt;This past week we got a heads up about another init/launchd replacement, this time .Relaunchd.&lt;/li&gt;
-            &lt;li&gt;The goals of this project appear to be keeping launchd functionality, while being portable enough to run on FreeBSD / Linux, etc. &lt;/li&gt;
-            &lt;li&gt;It also has aspirations of being .container-aware. with support for jailed services, ala-docker, as well as cluster awareness. &lt;/li&gt;
-            &lt;li&gt;Written in ruby :(, it also maintains that it wishes to NOT take over PID1 or replace the initial system boot scripts, but extend / leverage them in new ways. &lt;/li&gt;
+            &lt;li&gt;The goals of this project appear to be keeping launchd functionality, while being portable enough
+            to run on FreeBSD / Linux, etc. &lt;/li&gt;
+            &lt;li&gt;It also has aspirations of being .container-aware. with support for jailed services, ala-docker,
+            as well as cluster awareness. &lt;/li&gt;
+            &lt;li&gt;Written in ruby :(, it also maintains that it wishes to NOT take over PID1 or replace the initial
+            system boot scripts, but extend / leverage them in new ways. &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://mail-index.netbsd.org/source-changes/2015/09/24/msg069028.html&quot;&gt;Static Intrusion Detection in NetBSD&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://mail-index.netbsd.org/source-changes/2015/09/24/msg069028.html&quot;&gt;Static
+            Intrusion Detection in NetBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Alistar Crooks has committed a new .sid. utility to NetBSD, which allows intrusion detection by comparing the file-system contents to a database of known good values&lt;/li&gt;
+            &lt;li&gt;Alistar Crooks has committed a new .sid. utility to NetBSD, which allows intrusion detection by
+            comparing the file-system contents to a database of known good values&lt;/li&gt;
             &lt;li&gt;The utility can compare the entire root file system of a modest NetBSD machine in about 15 seconds&lt;/li&gt;
-            &lt;li&gt;The following parameters of each file can be checked: atime, block count, ctime, file type, flags, group, inode, link target, mtime, number of links, permissions, size, user, crc32c checksum, sha256 checksum, sha512 checksum&lt;/li&gt;
+            &lt;li&gt;The following parameters of each file can be checked: atime, block count, ctime, file type, flags,
+            group, inode, link target, mtime, number of links, permissions, size, user, crc32c checksum, sha256
+            checksum, sha512 checksum&lt;/li&gt;
             &lt;li&gt;A JSON report is issued at the end, for any detected variances&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -853,32 +891,46 @@
 
             &lt;ul&gt;
             &lt;li&gt;If you.re running PC-BSD 10.2-EDGE or October&#39;s -CURRENT image, LibreSSL 2.3.0 is now a thing&lt;/li&gt;
-            &lt;li&gt;Thanks to the hard work of Bernard Spil and others, we have merged in the latest LibreSSL which actually removes SSL support in favor of TLS&lt;/li&gt;
-            &lt;li&gt;Quite a number of bugs have been fixed, as well as patches brought over from OpenBSD to fix numerous ports.&lt;/li&gt;
-            &lt;li&gt;Allan has started a patchset that sets the &lt;a href=&quot;http://allanjude.com/bsd/privatessl_2015-10-07.patch&quot;&gt;OpenSSL in base to &quot;private&quot;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;This hides the library so that applications and ports cannot find it, so only tools in the base system, like fetch, will be able to use it. This makes OpenSSL no longer part of the base system ABI, meaning the version can be upgraded without breaking the stable ABI promise. This feature may be important in the future as OpenSSL versions now have EoL dates, that may be sooner than the EoL on the FreeBSD stable branches.&lt;/li&gt;
+            &lt;li&gt;Thanks to the hard work of Bernard Spil and others, we have merged in the latest LibreSSL which
+            actually removes SSL support in favor of TLS&lt;/li&gt;
+            &lt;li&gt;Quite a number of bugs have been fixed, as well as patches brought over from OpenBSD to fix
+            numerous ports.&lt;/li&gt;
+            &lt;li&gt;Allan has started a patchset that sets the &lt;a href=&quot;http://allanjude.com/bsd/privatessl_2015-10-07.patch&quot;&gt;OpenSSL
+            in base to &quot;private&quot;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;This hides the library so that applications and ports cannot find it, so only tools in the base
+            system, like fetch, will be able to use it. This makes OpenSSL no longer part of the base system ABI,
+            meaning the version can be upgraded without breaking the stable ABI promise. This feature may be important
+            in the future as OpenSSL versions now have EoL dates, that may be sooner than the EoL on the FreeBSD stable
+            branches.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lists.pcbsd.org/pipermail/testing/2015-October/010173.html&quot;&gt;PC-BSD and boot-environments without GRUB&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lists.pcbsd.org/pipermail/testing/2015-October/010173.html&quot;&gt;PC-BSD
+            and boot-environments without GRUB&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;In this month.s -CURRENT image of PC-BSD, we began the process of moving back from the GRUB boot-loader, in favor of FreeBSD.s&lt;/li&gt;
-            &lt;li&gt;A couple of patches have been included, which enables boot-environment support via the 4th menus (Thanks Allan) and support for booting ZFS on root via UEFI&lt;/li&gt;
+            &lt;li&gt;In this month.s -CURRENT image of PC-BSD, we began the process of moving back from the GRUB
+            boot-loader, in favor of FreeBSD.s&lt;/li&gt;
+            &lt;li&gt;A couple of patches have been included, which enables boot-environment support via the 4th menus
+            (Thanks Allan) and support for booting ZFS on root via UEFI&lt;/li&gt;
             &lt;li&gt;&quot;beadm&quot; has also been updated to seamlessly support both boot-loaders&lt;/li&gt;
-            &lt;li&gt;No full-disk encryption support yet (hopefully soon), but GRUB is still available on installer for those who need it&lt;/li&gt;
+            &lt;li&gt;No full-disk encryption support yet (hopefully soon), but GRUB is still available on installer for
+            those who need it&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/24a8d46a22f9106b0c1466c41ba73460d7d22262&quot;&gt;Import of IWM wireless to DragonFly&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/24a8d46a22f9106b0c1466c41ba73460d7d22262&quot;&gt;Import
+            of IWM wireless to DragonFly&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Matthew Dillon has recently imported the newer if_iwm driver from FreeBSD -&amp;gt; DragonFly&lt;/li&gt;
             &lt;li&gt;Across the internet, users with newer Intel chipsets rejoiced!&lt;/li&gt;
-            &lt;li&gt;Coupled with the latest Broadwell DRM improvements, DragonFly sounds very ready for the latest laptop chipsets&lt;/li&gt;
-            &lt;li&gt;Also, looks like progress is being made on &lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/cf37dc2040cea9f384bd7d3dcaf24014f441b8a6&quot;&gt;i386 removal&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Coupled with the latest Broadwell DRM improvements, DragonFly sounds very ready for the latest
+            laptop chipsets&lt;/li&gt;
+            &lt;li&gt;Also, looks like progress is being made on &lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/cf37dc2040cea9f384bd7d3dcaf24014f441b8a6&quot;&gt;i386
+            removal&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -888,13 +940,80 @@
             &lt;ul&gt;
             &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s27ZeOiM4t&quot;&gt;Dan writes in about PCBSD&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s219J3ebx5&quot;&gt;Matt writes in about ZFS&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21uuMAmZb&quot;&gt;Anonymous writes in about problems booting&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21uuMAmZb&quot;&gt;Anonymous writes in about problems
+            booting&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Impish BSD</title>
+        <smi:episode>109</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2015_09_30_Impish_BSD"/>
+        <id>http://www.bsdnow.tv/episodes/2015_09_30_Impish_BSD</id>
+        <published>2015-10-01T09:33:26-07:00</published>
+        <updated>2016-06-23T07:16:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0109.ogg"
+                rel="enclosure"
+                length="38634543"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0109.ogg"
+                    fileSize="38634543"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0109.mp3"
+                    fileSize="26687207"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/10/bsd-0109-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>TJ</name>
+            <uri>https://twitter.com/blakkheim</uri>
+        </contributor>
+        <contributor>
+            <name>Warner Losh</name>
+            <email>imp@bsdimp.com</email>
+            <uri>https://twitter.com/bsdimp</uri>
+        </contributor>
+        <summary>This week, we have a great interview with Warner Losh of the FreeBSD project! We will be discussing
+            everything from automatic kernel module loading, IO scheduling &amp; of course NanoBSD.
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 109: Impish BSD&lt;/h1&gt;
+            &lt;h2&gt;Interview - Warner Losh - &lt;a href=&quot;imp@bsdimp.com&quot;&gt;imp@bsdimp.com&lt;/a&gt; / &lt;a
+            href=&quot;https://twitter.com/bsdimp&quot;&gt;@bsdimp&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;SSD performance and driver auto-loader&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         </content>
     </entry>
