@@ -51,12 +51,275 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-17T08:25:00Z</updated>
+    <updated>2016-06-27T21:53:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>Release all the things!</title>
+        <smi:episode>147</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_06_22-release_all_the_things"/>
+        <id>http://www.bsdnow.tv/episodes/2016_06_22-release_all_the_things</id>
+        <published>2016-06-23T11:27:52-07:00</published>
+        <updated>2016-06-27T21:53:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0147.ogg"
+                rel="enclosure"
+                length="71775779"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0147.ogg"
+                    fileSize="71775779"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0147.mp3"
+                    fileSize="48310952"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0147-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:02:35" title="Headlines"/>
+            <psc:chapter start="00:02:35" title="2016 FreeBSD Community Survey"
+                         href="https://www.surveymonkey.com/r/freebsd2016"/>
+            <psc:chapter start="00:07:15" title="ART, OpenBSDs new routing table, single thread performances"
+                         href="http://www.grenadille.net/post/2016/06/17/ART-single-thread-performances"/>
+            <psc:chapter start="00:14:50" title="BSDCan 2016 Playlist"
+                         href="https://www.youtube.com/playlist?list=PLeF8ZihVdpFfoEV67dBSrKfA8ifpUr6qC"/>
+            <psc:chapter start="00:19:57" title="Should you be scared of Unix signals?"
+                         href="http://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/"/>
+            <psc:chapter start="00:25:45" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/"
+                         image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:28:30" title="Interview"/>
+            <psc:chapter start="00:53:15" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/"
+                         image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="01:02:28" title="News Roundup"/>
+            <psc:chapter start="01:02:28"
+                         title="Unik – The Unikernel Compilation and Deployment Platform (uses NetBSD’s Rump)"
+                         href="https://github.com/emc-advanced-dev/unik"/>
+            <psc:chapter start="01:04:20" title="PkgSrc 50th Release Highlights"
+                         href="http://www.jupiterbroadcasting.com/100641/release-all-the-things-bsd-now-147/"/>
+            <psc:chapter start="01:06:20" title="Migrating to FreeBSD from Solaris 11"
+                         href="http://justinholcomb.me/blog/2016/02/28/migration-to-freebsd-part1.html"/>
+            <psc:chapter start="01:10:43" title="How to chroot www/firefox on NetBSD"
+                         href="https://github.com/alnsn/localpkgsrc/tree/master/firefox-chroot"/>
+            <psc:chapter start="01:13:14" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow"
+                         image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:15:14" title="Beastie Bits"/>
+            <psc:chapter start="01:15:14" title="Tredly – V1 Release Candidate"
+                         href="https://github.com/tredly/tredly/releases/tag/v1.0.0-rc.1"/>
+            <psc:chapter start="01:16:45"
+                         title="Call for Testing – ypldap testing against OpenLDAP and Microsoft Active Directory"
+                         href="http://lists.freebsd.org/pipermail/freebsd-current/2016-June/061775.html"/>
+            <psc:chapter start="01:18:18" title="BSD Magazine, June 2016 Out Now"
+                         href="https://bsdmag.org/"/>
+            <psc:chapter start="01:19:08"
+                         title="Hammer2 – Add xxhash to H2 and throw in debug stuff for performance testing"
+                         href="http://lists.dragonflybsd.org/pipermail/commits/2016-June/500610.html"/>
+            <psc:chapter start="01:20:24" title="chyves pre-announcement"
+                         href="http://justinholcomb.me/blog/2016/06/14/chyves-project-preannouncement.html"/>
+            <psc:chapter start="01:21:05" title="Feedback/Questions"/>
+            <psc:chapter start="01:22:15" title="Michael – Versioning"
+                         href="http://pastebin.com/1hpGrmuL"/>
+            <psc:chapter start="01:27:25" title="Michael – Removing Encryption"
+                         href="http://pastebin.com/2PkrMGGx"/>
+            <psc:chapter start="01:28:57" title="Bostjan – PC-BSD Questions"
+                         href="http://pastebin.com/q5VdmNxG"/>
+            <psc:chapter start="01:34:47" title="Fong – ZFS Rollback"
+                         href="http://pastebin.com/2aedLV7d"/>
+            <psc:chapter start="01:37:25" title="Jochen – Docker on FBSD"
+                         href="http://pastebin.com/dneVZkXc"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Glen Barber</name>
+        </contributor>
+        <contributor>
+            <name>Peter Wemm</name>
+            <uri>https://www.wemm.org/</uri>
+        </contributor>
+        <summary>On this episode of BSDNow, we will be talking to Glen Barber &amp; Peter Wemm of the FreeBSD RE and
+            Cluster Admin teams! That plus our re-cap of BSDCan and the latest news, all on your place to B...SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 147: Release all the things!&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.surveymonkey.com/r/freebsd2016&quot;&gt;2016 FreeBSD Community Survey&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We often get comments from our listeners, “I’m not a developer, how can I help out”?&lt;/li&gt;
+            &lt;li&gt;Well today is your chance to do something. The FreeBSD Foundation has its 2016 Community Survey online, where they are asking for feedback from
+            you!&lt;/li&gt;
+            &lt;li&gt;I just did the survey, it’ll take you about 5 minutes, but gives you a chance to provide valuable feedback to the foundation about things that
+            are important to you.&lt;/li&gt;
+            &lt;li&gt;Be sure to answer in as much detail as possible and the foundation will review and use this feedback for its operations going forward.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.grenadille.net/post/2016/06/17/ART-single-thread-performances&quot;&gt;ART, OpenBSDs new routing table, single thread performances&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenBSD has changed the way routes are looked up in the kernel as part of their path to an SMP networking stack&lt;/li&gt;
+            &lt;li&gt;The “Allotment Routing Table” (ART) is a performance tradeoff, where more memory is used to store the routing table, in exchange for faster
+            lookups&lt;/li&gt;
+            &lt;li&gt;With this new arrangement, a full BGP routing table will grow from 130MB to 180MB of memory&lt;/li&gt;
+            &lt;li&gt;“ART is a free multibit trie based routing table. To keep it simple, it can be seen as using more memory for fewer CPU cycles. In other words,
+            we get a faster lookup by wasting memory. The &lt;a href=&quot;http://www.hariguchi.org/art/art.pdf&quot;&gt;original paper&lt;/a&gt; presents some performance comparisons between
+            two ART configurations and the BSD Radix. But how does this apply to OpenBSD?”&lt;/li&gt;
+            &lt;li&gt;“I asked Hrvoje Popovski to run his packet forwarding test on his Xeon box (E5-2620 v2 @ 2.10GHz, 2400.34 MHz) with ix(4) (82599) interfaces.
+            The test setup consist of three machines with the OpenBSD box in the middle”&lt;/li&gt;
+            &lt;li&gt;“The simulations have been performed with an OpenBSD -current from June 9th. The machine is configured with pf(4) disabled in order to force a
+            single route lookup for every IPv4 packet. Based on the result of the lookup the kernel decide if it should forward, deliver or drop the packet”&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLeF8ZihVdpFfoEV67dBSrKfA8ifpUr6qC&quot;&gt;BSDCan 2016 Playlist&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The complete set of videos from BSDCan is online and ready to be consumed&lt;/li&gt;
+            &lt;li&gt;Remember the good-ole days where we would wait months (or years) to get videos posted from conferences?&lt;/li&gt;
+            &lt;li&gt;Well, who are we kidding, some conferences STILL do that, but we can’t count BSDCan among them. &lt;/li&gt;
+            &lt;li&gt;Only two weeks out from this years exciting BSDCan, and &lt;em&gt;all&lt;/em&gt; the videos have now landed on YouTube.&lt;/li&gt;
+            &lt;li&gt;Granted, this is no substitute for actually being at the conference, but even if you attended you probably missed quite a few of the talks.&lt;/li&gt;
+            &lt;li&gt;There are no videos of the hallway track, which is the best part of the conference&lt;/li&gt;
+            &lt;li&gt;Except the dinner discussion of course.&lt;/li&gt;
+            &lt;li&gt;and don’t forget the hacker lounge&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/&quot;&gt;Should you be scared of Unix signals?&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Do you know much about UNIX Signals?&lt;/li&gt;
+            &lt;li&gt;Are you afraid of their complexity? &lt;/li&gt;
+            &lt;li&gt;Do you know there are signals other than SIGKILL?&lt;/li&gt;
+            &lt;li&gt;This article talks about the practical implications of signals from a programming perspective&lt;/li&gt;
+            &lt;li&gt;The things you need to consider when dealing with signals&lt;/li&gt;
+            &lt;li&gt;Basically, you register a “signal handler”, the function that will be run when a signal arrives&lt;/li&gt;
+            &lt;li&gt;As you program is running, if a signal arrives, your program will be interrupted. Its current state will be saved and any system calls in progress
+            will return EINTR (Error, Interrupted), then your signal handler will be run.&lt;/li&gt;
+            &lt;li&gt;Once the signal handler is complete, the state of your application will be restored, and execution will resume&lt;/li&gt;
+            &lt;li&gt;As long as your program properly handles this interruption, and errors that might result from it (getting EINTR from a read() call, instead of the
+            data you expected), then everything should be fine.&lt;/li&gt;
+            &lt;li&gt;Of course, you need to be careful what you do inside your signal handler, as if you modify any variables or state in your application, it might be
+            very confused when it resumes.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Glen and Peter-&lt;/h2&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/emc-advanced-dev/unik&quot;&gt;Unik - The Unikernel Compilation and Deployment Platform (uses NetBSD&#39;s Rump)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We’ve talked a bit about NetBSD’s RUMP (unikernel) in the past, including articles on how to deploy services using it.&lt;/li&gt;
+            &lt;li&gt;Now we have an interesting project which makes the process super-easy, and dare-we-say almost “Docker-Like?”&lt;/li&gt;
+            &lt;li&gt;The Unik project has a fairly complete walkthrough right on their GitHub project page, including details on installation and creating your own
+            unikernel containers. &lt;/li&gt;
+            &lt;li&gt;In addition, it provides instructions on boot-strapping your own Go/Node.js/Python/Java applications, and supports out of Box VCenter / AWS / Qemu
+            / VirtualBox providers.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;&quot;&gt;PkgSrc 50th Release Highlights&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;pkgsrc is celebrating its 50th release, and to highlight this, they have posted a series of interviews from people who have been active in the
+            project&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_jonathan&quot;&gt;pkgsrc 50th release interviews - Jonathan Perkin&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_ryo&quot;&gt;pkgsrc 50th release interviews - Ryo ONODERA&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interview_with&quot;&gt;pkgsrc 50th release interviews - Joerg Sonnenberg&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_sevan&quot;&gt;pkgsrc 50th release interviews - Sevan Janiyan&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/02/28/migration-to-freebsd-part1.html&quot;&gt;Migrating to FreeBSD from Solaris 11&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/12/migration-to-freebsd-part2.html&quot;&gt;Part 2&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/19/migration-to-freebsd-part3.html&quot;&gt;Part 3&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/26/migration-to-freebsd-part4.html&quot;&gt;Part 4&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/04/03/migration-to-freebsd-part5.html&quot;&gt;Part 5&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/alnsn/localpkgsrc/tree/master/firefox-chroot&quot;&gt;How to chroot www/firefox on NetBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Looking for a jail-like method of running FireFox on NetBSD? (Or possibly other BSDs?)&lt;/li&gt;
+            &lt;li&gt;We have a github repo with details on how to setup and run FireFox using a chroot using a “webuser” account for safety. &lt;/li&gt;
+            &lt;li&gt;Think of this as a jail alternative, may be useful on systems with no jail support.&lt;/li&gt;
+            &lt;li&gt;Of interest is the method used to do X forwarding. It uses Xorg TCP listen option (which is often off by default for security reasons). Perhaps SSH
+            X forwarding would be a better alternative. (Or nullfs mounts of /tmp)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Beastie Bits&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/tredly/tredly/releases/tag/v1.0.0-rc.1&quot;&gt;Tredly - V1 Release Candidate&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lists.freebsd.org/pipermail/freebsd-current/2016-June/061775.html&quot;&gt;Call for Testing - ypldap testing against OpenLDAP and Microsoft Active
+            Directory&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://bsdmag.org/&quot;&gt;BSD Magazine, June 2016 Out Now&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-June/500610.html&quot;&gt;Hammer2 - Add xxhash to H2 and throw in debug stuff for performance
+            testing&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/06/14/chyves-project-preannouncement.html&quot;&gt;chyves pre-announcement&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/1hpGrmuL&quot;&gt; Michael - Versioning &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/2PkrMGGx&quot;&gt; Michael - Removing Encryption &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q5VdmNxG&quot;&gt; Bostjan - PC-BSD Questions&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/2aedLV7d&quot;&gt; Fong - ZFS Rollback &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/dneVZkXc&quot;&gt; Jochen - Docker on FBSD&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>Music to Beastie’s ears</title>
         <smi:episode>146</smi:episode>
