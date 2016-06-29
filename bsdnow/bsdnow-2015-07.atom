@@ -55,7 +55,7 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-29T08:49:00Z</updated>
+    <updated>2016-06-29T09:09:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -70,7 +70,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_07_29-straight_from_the_src"/>
         <id>http://www.bsdnow.tv/episodes/2015_07_29-straight_from_the_src</id>
         <published>2015-07-30T11:49:31-07:00</published>
-        <updated>2016-06-29T08:31:00Z</updated>
+        <updated>2016-06-29T09:09:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0100.ogg"
                 rel="enclosure"
@@ -110,7 +110,7 @@
             <uri>https://twitter.com/wied0r</uri>
         </contributor>
         <summary>We've finally reached a hundred episodes, and this week we'll be talking to Sebastian Wiedenroth about
-            pkgsrc. Though originally a NetBSD project, now it runs pretty much everywhere & he even runs a conference
+            pkgsrc. Though originally a NetBSD project, now it runs pretty much everywhere &amp; even runs a conference
             about it!
         </summary>
         <content type="html">&lt;h1&gt;Episode 100: Straight from the Src&lt;/h1&gt;

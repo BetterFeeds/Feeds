@@ -55,7 +55,7 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-06-19T08:12:00Z</updated>
+    <updated>2016-06-29T09:11:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -584,7 +584,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_12_16-im_talking_about_the_man_in_the_middle"/>
         <id>http://www.bsdnow.tv/episodes/2015_12_16-im_talking_about_the_man_in_the_middle</id>
         <published>2015-12-17T08:12:36-08:00</published>
-        <updated>2016-06-19T08:02:00Z</updated>
+        <updated>2016-06-29T09:11:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0120.ogg"
                 rel="enclosure"
@@ -731,7 +731,7 @@
             &lt;li&gt;The BSD Router project has announced the release of version 1.58 with some notable new features&lt;/li&gt;
             &lt;li&gt;Update to FreeBSD 10.2-RELEASE-p8&lt;/li&gt;
             &lt;li&gt;Disabled some Chelsio Nic features not used by a router&lt;/li&gt;
-            &lt;li&gt;Added new easy installation helper option, use with “system install &lt;disk&gt;”&lt;/disk&gt;&lt;/li&gt;
+            &lt;li&gt;Added new easy installation helper option, use with "system install &lt;target-disk&gt;"&lt;/li&gt;
             &lt;li&gt;Added the debugging symbols for userland&lt;/li&gt;
             &lt;li&gt;Includes the iperf package, and flashrom package, which allows updating system BIOS on supported
             boxes&lt;/li&gt;
