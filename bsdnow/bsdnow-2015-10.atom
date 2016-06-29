@@ -697,7 +697,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_10_07_Firmware_Fights"/>
         <id>http://www.bsdnow.tv/episodes/2015_10_07_Firmware_Fights</id>
         <published>2015-10-08T10:58:12-07:00</published>
-        <updated>2016-06-22T07:34:00Z</updated>
+        <updated>2016-06-29T08:24:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0110.ogg"
                 rel="enclosure"
@@ -726,10 +726,6 @@
             <name>Allan Jude</name>
             <email>allan@jupiterbroadcasting.com</email>
             <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
-            <name>JT</name>
-            <uri>https://twitter.com/q5sys</uri>
         </contributor>
         <contributor>
             <name>Benno Rice</name>
@@ -961,7 +957,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_09_30_Impish_BSD"/>
         <id>http://www.bsdnow.tv/episodes/2015_09_30_Impish_BSD</id>
         <published>2015-10-01T09:33:26-07:00</published>
-        <updated>2016-06-23T07:16:00Z</updated>
+        <updated>2016-06-29T08:24:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0109.ogg"
                 rel="enclosure"
@@ -990,10 +986,6 @@
             <name>Allan Jude</name>
             <email>allan@jupiterbroadcasting.com</email>
             <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
-            <name>TJ</name>
-            <uri>https://twitter.com/blakkheim</uri>
         </contributor>
         <contributor>
             <name>Warner Losh</name>

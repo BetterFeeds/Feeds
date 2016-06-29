@@ -70,7 +70,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_09_23_ServeUp_BSD"/>
         <id>http://www.bsdnow.tv/episodes/2015_09_23_ServeUp_BSD</id>
         <published>2015-09-24T07:37:34-07:00</published>
-        <updated>2016-06-23T07:21:00Z</updated>
+        <updated>2016-06-29T08:26:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0108.ogg"
                 rel="enclosure"
@@ -99,10 +99,6 @@
             <name>Allan Jude</name>
             <email>allan@jupiterbroadcasting.com</email>
             <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
-            <name>TJ</name>
-            <uri>https://twitter.com/blakkheim</uri>
         </contributor>
         <contributor>
             <name>Andrew Pantyukhin</name>
@@ -143,7 +139,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_09_16-In_their_midst"/>
         <id>http://www.bsdnow.tv/episodes/2015_09_16-In_their_midst</id>
         <published>2015-09-17T11:46:18-07:00</published>
-        <updated>2016-06-23T07:25:00Z</updated>
+        <updated>2016-06-29T08:25:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0107.ogg"
                 rel="enclosure"
@@ -172,10 +168,6 @@
             <name>Allan Jude</name>
             <email>allan@jupiterbroadcasting.com</email>
             <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
-            <name>TJ</name>
-            <uri>https://twitter.com/blakkheim</uri>
         </contributor>
         <contributor>
             <name>Aaron Poffenberger</name>
@@ -380,7 +372,7 @@
                 href="http://www.bsdnow.tv/episodes/2015_09_09-multipath_tcp"/>
         <id>http://www.bsdnow.tv/episodes/2015_09_09-multipath_tcp</id>
         <published>2015-09-10T05:26:45-07:00</published>
-        <updated>2016-06-23T07:31:00Z</updated>
+        <updated>2016-06-29T08:25:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0106.ogg"
                 rel="enclosure"
@@ -409,10 +401,6 @@
             <name>Allan Jude</name>
             <email>allan@jupiterbroadcasting.com</email>
             <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
-            <name>TJ</name>
-            <uri>https://twitter.com/blakkheim</uri>
         </contributor>
         <contributor>
             <name>Nigel Williams</name>
