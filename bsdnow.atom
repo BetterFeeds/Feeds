@@ -58,6 +58,422 @@
     </author>
     <smi:sequential>false</smi:sequential>
     <entry>
+        <title>The place to B...A Robot!</title>
+        <smi:episode>148</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_06_29-the_place_to_be_a_robot"/>
+        <id>http://www.bsdnow.tv/episodes/2016_06_29-the_place_to_be_a_robot</id>
+        <published>2016-06-30T09:53:28-07:00</published>
+        <updated>2016-07-03T08:29:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0148.ogg"
+                rel="enclosure"
+                length="78332522"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0148.ogg"
+                    fileSize="78332522"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0148.mp3"
+                    fileSize="50367938"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0148-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:38" title="Headlines"/>
+            <psc:chapter start="00:01:56" title="FreeBSD Core Team Election"
+                         href="https://www.freebsd.org/administration.html#t-core"/>
+            <psc:chapter start="00:06:34" title="Why I run OpenBSD"
+                         href="http://deftly.net/posts/2016-05-31-why-i-run-openbsd.html"/>
+            <psc:chapter start="00:13:48" title="The ultimate NetBSD Router"
+                         href="http://blog.tbrodel.me/2016/#netbsd-router"/>
+            <psc:chapter start="00:20:43" title="bhyve-Bootable Boot Environments"
+                         href="http://callfortesting.org/bhyve-boot-environments/"/>
+            <psc:chapter start="00:26:58" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:31:46" title="Interview"/>
+            <psc:chapter start="00:53:35" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:58:22" title="News Roundup"/>
+            <psc:chapter start="00:58:22"
+                         title="Tomohiro Kasumi explains what “@@” means, in the context of the Hammer filesystem"
+                         href="http://lists.dragonflybsd.org/pipermail/users/2016-June/249717.html"/>
+            <psc:chapter start="01:05:20" title="FreeBSD 11.0 nearing RC1"
+                         href="https://www.freebsd.org/releases/11.0R/schedule.html"/>
+            <psc:chapter start="01:09:58" title="TensorFlow on FreeBSD"
+                         href="http://ecc-comp.blogspot.com/2016/06/tensorflow-on-freebsd.html"/>
+            <psc:chapter start="01:13:20" title="NetBSD: A New Beginning?"
+                         href="http://jamesdeagle.blogspot.ca/2016/06/netbsd-new-beginning.html"/>
+            <psc:chapter start="01:16:05" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:18:26" title="Beastie Bits"/>
+            <psc:chapter start="01:18:26" title="Reproducible NetBSD? 77.7% of the way there"
+                         href="https://reproducible.debian.net/netbsd/netbsd.html"/>
+            <psc:chapter start="01:19:44" title="Create FreeBSD virtual machine using qemu. Run the VM using xhyve."
+                         href="https://gist.github.com/zg/38a3afa112ddf7de4912aafc249ec82f"/>
+            <psc:chapter start="01:21:15"
+                         title="FreeBSD PowerPC 32bit pkg repository (unofficial). ~19,500 packages, more to come"
+                         href="https://joshcummings.net/pub/FreeBSD"/>
+            <psc:chapter start="01:21:40" title="NetBSD machines at Open Source Conference 2016 Gunma"
+                         href="http://mail-index.netbsd.org/netbsd-advocacy/2016/05/16/msg000706.html"/>
+            <psc:chapter start="01:24:23" title="Adam Leventhal (of ZFS and DTrace) does an analysis of APFS "
+                         href="http://arstechnica.com/apple/2016/06/a-zfs-developers-analysis-of-the-good-and-bad-in-apples-new-apfs-file-system/"/>
+            <psc:chapter start="01:25:35" title="SemiBug June meeting summary"
+                         href="http://lists.nycbug.org/pipermail/semibug/2016-June/000106.html"/>
+            <psc:chapter start="01:27:00" title="KnoxBug Meeting" href="http://knoxbug.org/content/2016-07-26"/>
+            <psc:chapter start="01:27:43" title="Feedback/Questions"/>
+            <psc:chapter start="01:27:48" title="Andrew - iocage" href="http://pastebin.com/nuYTzaG6"/>
+            <psc:chapter start="01:31:37" title="Florian - Arm + GitHub" href="http://pastebin.com/PzY68hNS"/>
+            <psc:chapter start="01:35:02" title="Clint - Synth" href="http://pastebin.com/JESGZjLu"/>
+            <psc:chapter start="01:35:49" title="Leonardo - Translations" href="http://pastebin.com/b4LAiPs4"/>
+            <psc:chapter start="01:38:40" title="Zachary - Moving things to VMs" href="http://pastebin.com/VRc8fvBk"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Edicarla Andrade</name>
+        </contributor>
+        <contributor>
+            <name>Vin&#237;cius Zavam</name>
+            <uri>https://twitter.com/egypcio</uri>
+        </contributor>
+        <summary>This week on the show, Allan &amp; I are going to be showing you a very interesting interview we did
+            talking about using FreeBSD to drive a Robot! You won't want to miss this one. That plus all the latest
+            news, heading your way right now!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 148: The place to B...A Robot!&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsd.org/administration.html#t-core&quot;&gt;FreeBSD Core Team
+            Election&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Core.9 has been elected, and will officially take over from Core.8 on Wednesday, 6 July 2016&lt;/li&gt;
+            &lt;li&gt;Many thanks to the outgoing members of the core team for their service over the last 2 years&lt;/li&gt;
+            &lt;li&gt;214 out of 325 eligible voters (65.8%) cast their votes in an election counting 14 candidates.&lt;/li&gt;
+            &lt;li&gt;The top nine candidates are, in descending order of votes received:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;ol&gt;
+            &lt;li&gt;180 84.1% Ed Maste (incumbent)&lt;/li&gt;
+            &lt;li&gt;176 82.2% George V. Neville-Neil (incumbent)&lt;/li&gt;
+            &lt;li&gt;171 79.9% Baptiste Daroussin (incumbent)&lt;/li&gt;
+            &lt;li&gt;168 78.5% John Baldwin&lt;/li&gt;
+            &lt;li&gt;166 77.6% Hiroki Sato (incumbent)&lt;/li&gt;
+            &lt;li&gt;147 68.7% Allan Jude&lt;/li&gt;
+            &lt;li&gt;132 61.7% Kris Moore&lt;/li&gt;
+            &lt;li&gt;121 56.5% Benedict Reuschling&lt;/li&gt;
+            &lt;li&gt;108 50.5% Benno Rice&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;+ There was no tie for ninth.
+            + BSDNow and the entire community would also like to extend their thanks to all those who stood for election
+            to the core team
+            + Next week’s core meeting will encompass the members of Core.8 and Core.9, as responsibility for any
+            outstanding items will be passed from outgoing members of core to the new incoming members&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://deftly.net/posts/2016-05-31-why-i-run-openbsd.html&quot;&gt;Why I run
+            OpenBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This week we have a good article / blog post talking about why the posted has moved to OpenBSD
+            from Linux. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“One thing I learned during my travels between OSs: consistency is everything.&lt;/p&gt;
+
+            &lt;p&gt;Most operating systems seem to, at least, keep a consistent interface between themselves and
+            binaries / applications. They do this by keeping consistent APIs (Application Programming Interfaces) and
+            ABIs (Application Binary Interfaces). If you take a binary from a really old version of Linux and run or
+            build it on a brand-spanking new install of Linux, it will likely Just Work™. This is great for applications
+            and developers of applications. Vendors can build binaries for distribution and worry less about their
+            product working when it gets out in the wild (sure this binary built in 2016 will run on RedHat AS2.1!!).“&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The author then goes through another important part of the consistency argument, with what he
+            calls “UPI” or “User Program Interfaces”. In other words, while the ABI may be stable, what about the
+            end-user tooling that the user directly has to interact with on a daily basis?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“This inconsistency seems to have come to be when Linux started getting wireless support. For some
+            reason someone (vendors, maybe?) decided that ifconfig wasn’t a good place to let users interact with their
+            wireless device. Maybe they felt their device was special? Maybe there were technical reasons? The bottom
+            line is, someone decided to create a new utility to manage a wireless device… and then another one came
+            along… pretty soon there was iwconfig(8), iw(8), ifconfig(8), some funky thing that let windows drivers
+            interface with Linux.. and one called ip(8) I am sure there are others I am forgetting, but I prefer to
+            forget. I have moved onto greener pastures and the knowledge of these programs no longer serves me.”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The article then goes through the rundown of how he evaluated the various BSD’s and ultimately
+            settled on OpenBSD:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“OpenBSD won the showdown. It was the most complete, simple, and coherent system. The documentation
+            was thorough, the code was easy to follow
+            and understand.
+            It had one command to configure all of the network interfaces!
+            I didn’t have wireless, but I was able to find a cheap USB adapter that worked by simply running man -k
+            wireless and reading about the USB
+            entries.
+            It didn’t have some of the applications I use regularly, so I started reading about ports (intuitively, via
+            man ports!).”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.tbrodel.me/2016/#netbsd-router&quot;&gt;The ultimate NetBSD Router&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“So yesterday I spent the day setting up a new firewall at home here, based off of this BSD Now
+            tutorial. Having set up a couple of OpenBSD routers before, either based on old laptops, bulky old
+            power-sucking desktops or completely over-specced machines like the Intel NUC, I wanted to get some kind of
+            BSD onto a low-powered ARM board and use that instead.”
+            “I&#39;ve had a couple of Cubietrucks lying around for a while now, I&#39;ve used them in a couple of art
+            installations, running Debian and Pure Data, but over all they&#39;ve been a bit disappointing. It&#39;s
+            more the manufacturer&#39;s fault but they require blobs for the graphics and audio, which Debian won&#39;t
+            allow, so as a multimedia board they&#39;re dud for video, and only passable for audio work with a usb sound
+            card. So they&#39;ve been collecting dust.”
+            “Only thing missing is a second NIC, luckily I had an Apple USB-&amp;gt;Ethernet dongle lying around, which
+            when I bought it was the cheapest thing I could find on eBay that OpenBSD definitely supported. There, and
+            on NetBSD, it&#39;s supported by the axe(4) driver. USB 2.0 works fine for me as I live in Australia and my
+            ISP can only give me 30Mbps, so this should do for the forseeable future.”
+            + The article then walks through installing and configuring NetBSD
+            + Configuration includes: pf, unbound, and dhcpd
+            “This project has been really fun, I started with basically no experience with NetBSD and have finished with
+            a really useful, low-powered and robust appliance. It&#39;s a testament to the simplicity of the NetBSD
+            system, and the BSD design principles in general, that such a novice as myself could figure this out. The
+            NetBSD project has easily the most polished experience on Allwinner ARM boards, even Debian doesn&#39;t make
+            it this easy. It&#39;s been a joy running the system, it has the bits I love from OpenBSD; ksh(1), tmux(1),
+            an http daemon in base and of course, pf(4). This is mixed with some of the pragmatism I see in FreeBSD; a
+            willingness to accept blobs if that really is the only way to boot, or get audio, or a video console.”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://callfortesting.org/bhyve-boot-environments/&quot;&gt;bhyve-Bootable Boot
+            Environments&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a lengthy article also today from our friend Michael Dexter, who asks the basic question
+            “What if multibooting and OS upgrades weren&#39;t horrible?”&lt;/li&gt;
+            &lt;li&gt;No doubt if you’ve been a frequent listener to this show, you’ve heard Allan or Myself talking
+            about ZFS Boot Environments, and how they can “change your life”.&lt;/li&gt;
+            &lt;li&gt;Well today Michael goes further into detail on how the BE’s work, and how they can be leveraged to
+            do neat things, like installing other versions of an operating system from the original running system.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“If you are reading this, you have probably used a personal computer with a BSD or GNU/Linux
+            operating system and at some point attempted to multiboot between multiple operating systems on the same
+            computer. This goal is typically attempted with complex disk partitioning and a BSD or GNU/Linux boot loader
+            like LILO or GRUB, plus several hours of frustrating experimentation and perhaps data loss. While exotic OS
+            experimentation has driven my virtualization work since the late 1990s, there are very pragmatic reasons for
+            multibooting the same OS on the same hardware, notable for updates and failback to &quot;known good&quot;
+            versions. To its credit, FreeBSD has long had various strategies including the NanoBSD embedded system
+            framework with primary and secondary root partitions, plus the nextboot(8) utility for selecting the &quot;next&quot;
+            kernel with various boot parameters. Get everything set correctly and you can multiboot &quot;with impunity&quot;.&lt;/p&gt;
+
+            &lt;p&gt;“That&#39;s a good start, and over time we have seen ZFS &quot;boot environments&quot; be used by
+            PC-BSD and FreeNAS to allow for system updates that allow one to fall back to previous versions should
+            something go wrong. Hats off to these efforts but they exist in essentially purpose-built appliance
+            environments. I have long sensed that there is more fun to be had here and a wonderful thing happened with
+            FreeBSD 10.3 and 11.0: Allan Jude added a boot environment menu to the FreeBSD loader”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;From here Michael takes us through the mechanical bits of actually creating a new ZFS dataset (BE)
+            and performing a fresh FreeBSD 10.3 installation into this new boot-environment. &lt;/li&gt;
+            &lt;li&gt;The twist comes at the end, where he next sets up the BE to be a root NFS for booting in bhyve!
+            This is interesting and gives you a way to test booting into your new environment via a VM, before rebooting
+            the host directly into it.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Edicarla Andrade &amp;amp; Vin&#237;cius Zavam - &lt;a href=&quot;https://twitter.com/egypcio&quot;&gt;@egypcio&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;BSD-Powered Robots&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2016-June/249717.html&quot;&gt;Tomohiro
+            Kasumi explains what “@@” means, in the context of the Hammer filesystem&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A post from the Dragonfly users’ mailing list about what the @@ construct means in the Hammer
+            filesystem&lt;/li&gt;
+            &lt;li&gt;“@@ represents the existence of a PFS which is logically separated pseudo filesystem space within
+            HAMMER&#39;s B-Tree”&lt;/li&gt;
+            &lt;li&gt;“HAMMER only has 1 large B-Tree per filesystem (not per PFS), so all the PFS exist within that
+            single B-Tree. PFS are separated by localization parameter which is one of the B-Tree keys used to lookup
+            the tree.”&lt;/li&gt;
+            &lt;li&gt;Each substring in &quot;@@-1:00001&quot; means:
+
+            &lt;ol&gt;
+            &lt;li&gt;&quot;@@&quot; means it&#39;s a PFS or snapshot.&lt;/li&gt;
+            &lt;li&gt;&quot;-1&quot; means it&#39;s a master.&lt;/li&gt;
+            &lt;li&gt;&quot;:&quot; is just a separator.&lt;/li&gt;
+            &lt;li&gt;&quot;00001&quot; means it&#39;s PFS#1, where PFS#0 is the default PFS created on newfs. There is
+            no &quot;00000&quot; because that&#39;s what&#39;s mounted on /HAMMER. PFS# is used for localization
+            parameter.&lt;/li&gt;
+            &lt;/ol&gt;&lt;/li&gt;
+            &lt;li&gt;“Localization parameter has the highest priority when inserting or looking up B-Tree elements, so
+            fs elements that belong to the same PFS# tend to be localized (clustered) within the B-Tree”&lt;/li&gt;
+            &lt;li&gt;There is also a note about how snapshots are named: &quot;@@0x00...&quot;&lt;/li&gt;
+            &lt;li&gt;A user points out that having : in the path can confuse some applications, such as in the case of
+            adding the current directory or a relative path to the $PATH environment variable, which is a colon
+            delimited list of paths&lt;/li&gt;
+            &lt;li&gt;This seems quite a bit more confusing that the datasets created by ZFS, but they might have other
+            useful properties&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsd.org/releases/11.0R/schedule.html&quot;&gt;FreeBSD 11.0
+            nearing RC1&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We’ve all been eagerly awaiting the pending release of FreeBSD 11.0, and the schedule has now been
+            updated!&lt;/li&gt;
+            &lt;li&gt;The first release candidate is slated for July 29th!&lt;/li&gt;
+            &lt;li&gt;If all goes well (and we stick to schedule) there will be another RC2 and possible RC3 release,
+            before 11.0 officially drops near the end of August.&lt;/li&gt;
+            &lt;li&gt;Start playing with those builds folks, be sure to send your feedback to the team to make this the
+            best .0 release ever!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://ecc-comp.blogspot.com/2016/06/tensorflow-on-freebsd.html&quot;&gt;TensorFlow
+            on FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Next we have a blog post about the experience of a “new” FreeBSD user trying to deploy some
+            non-ported software to his new system.&lt;/li&gt;
+            &lt;li&gt;Specifically he was interested in running TensorFlow, but not doing a port himself, because in his
+            words: &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“First, I apologize for not supplying a port archive myself. After reading the FreeBSD handbook for
+            creating a port, it&#39;s too complex of a task for me right now. I&#39;ve only been using FreeBSD for two
+            weeks. I would also not like to waste anyone&#39;s time giving them a terrible port archive and mess up
+            their system.”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;First of all, good ports are often born out of bad ports! Don’t let the porting framework daunt
+            you, give it a go, since that&#39;s the only way you are going to learn how to write “good” ports over time.
+            The porters-handbook is a good first place to start, plus the community usually is very helpful in providing
+            feedback.&lt;/li&gt;
+            &lt;li&gt;He then walks us through the changes made to the TensorFlow code (starting with the assumption
+            that OSX was a good “flavor” to begin porting from) and ultimately compiling. &lt;/li&gt;
+            &lt;li&gt;This ends up with the creation of a pip package which works!&lt;/li&gt;
+            &lt;li&gt;A good tutorial, and also very similar to what goes on in the porting process. With this write-up
+            perhaps somebody will take up creating a port of it… hint hint!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://jamesdeagle.blogspot.ca/2016/06/netbsd-new-beginning.html&quot;&gt;NetBSD:
+            A New Beginning?&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We don’t get enough NetBSD news at times, but this post by James Deagle talks about his adventure
+            with NetBSD 7.0 and making it his “new beginning”&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“After a few months of traipsing around the worlds of SunOS and Linux, I&#39;m back to NetBSD for
+            what I hope will be a lengthy return engagement. And while I&#39;m enamored of NetBSD for all the
+            previously-mentioned reasons, I&#39;m already thinking ahead to some problems to solve, some of which have
+            also been mentioned before.”&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;He then goes through and lists some of the small nits he’s still running into during the
+            daily workflow&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;YouTube audio - Specifically he mentions that no audio is playing, but wonders if Flash
+            plays some part. (Ideally you’re not using Flash though, in which case you need to check the audio backend
+            FF is using. Try PulseAudio since it seems the best supported. If pulse is already enabled, install
+            ‘pavucontrol’ to make sure audio is playing to the correct sound device)&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Slow gaming performance (TuxKart and Celestia) - Check DRI / Xorg? Or is it CPU bound?&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Lastly some unspecified Wireless issues, which typically end up being driver related. (Or
+            use another chipset)&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Beastie Bits&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://reproducible.debian.net/netbsd/netbsd.html&quot;&gt;Reproducible
+            NetBSD? 77.7% of the way there&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/zg/38a3afa112ddf7de4912aafc249ec82f&quot;&gt;Create
+            FreeBSD virtual machine using qemu. Run the VM using xhyve.&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://joshcummings.net/pub/FreeBSD&quot;&gt;FreeBSD PowerPC 32bit pkg
+            repository (unofficial). ~19,500 packages, more to come&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mail-index.netbsd.org/netbsd-advocacy/2016/05/16/msg000706.html&quot;&gt;NetBSD
+            machines at Open Source Conference 2016 Gunma&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://arstechnica.com/apple/2016/06/a-zfs-developers-analysis-of-the-good-and-bad-in-apples-new-apfs-file-system/&quot;&gt;Adam
+            Leventhal (of ZFS and DTrace) does an analysis of APFS &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/semibug/2016-June/000106.html&quot;&gt;SemiBug
+            June meeting summary&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;[KnoxBug Meeting] (http://knoxbug.org/content/2016-07-26)&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/nuYTzaG6&quot;&gt; Andrew - iocage &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/PzY68hNS&quot;&gt; Florian - Arm + GitHub&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/JESGZjLu&quot;&gt; Clint - Synth&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/b4LAiPs4&quot;&gt; Leonardo - Translations&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/VRc8fvBk&quot;&gt; Zachary - Moving things to VMs&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
         <title>Release all the things!</title>
         <smi:episode>147</smi:episode>
         <link
@@ -172,41 +588,57 @@
 
             &lt;ul&gt;
             &lt;li&gt;We often get comments from our listeners, “I’m not a developer, how can I help out”?&lt;/li&gt;
-            &lt;li&gt;Well today is your chance to do something. The FreeBSD Foundation has its 2016 Community Survey online, where they are asking for feedback from
+            &lt;li&gt;Well today is your chance to do something. The FreeBSD Foundation has its 2016 Community Survey
+            online, where they are asking for feedback from
             you!&lt;/li&gt;
-            &lt;li&gt;I just did the survey, it’ll take you about 5 minutes, but gives you a chance to provide valuable feedback to the foundation about things that
+            &lt;li&gt;I just did the survey, it’ll take you about 5 minutes, but gives you a chance to provide valuable
+            feedback to the foundation about things that
             are important to you.&lt;/li&gt;
-            &lt;li&gt;Be sure to answer in as much detail as possible and the foundation will review and use this feedback for its operations going forward.&lt;/li&gt;
+            &lt;li&gt;Be sure to answer in as much detail as possible and the foundation will review and use this
+            feedback for its operations going forward.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.grenadille.net/post/2016/06/17/ART-single-thread-performances&quot;&gt;ART, OpenBSDs new routing table, single thread performances&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://www.grenadille.net/post/2016/06/17/ART-single-thread-performances&quot;&gt;ART,
+            OpenBSDs new routing table, single thread performances&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;OpenBSD has changed the way routes are looked up in the kernel as part of their path to an SMP networking stack&lt;/li&gt;
-            &lt;li&gt;The “Allotment Routing Table” (ART) is a performance tradeoff, where more memory is used to store the routing table, in exchange for faster
+            &lt;li&gt;OpenBSD has changed the way routes are looked up in the kernel as part of their path to an SMP
+            networking stack&lt;/li&gt;
+            &lt;li&gt;The “Allotment Routing Table” (ART) is a performance tradeoff, where more memory is used to store
+            the routing table, in exchange for faster
             lookups&lt;/li&gt;
             &lt;li&gt;With this new arrangement, a full BGP routing table will grow from 130MB to 180MB of memory&lt;/li&gt;
-            &lt;li&gt;“ART is a free multibit trie based routing table. To keep it simple, it can be seen as using more memory for fewer CPU cycles. In other words,
-            we get a faster lookup by wasting memory. The &lt;a href=&quot;http://www.hariguchi.org/art/art.pdf&quot;&gt;original paper&lt;/a&gt; presents some performance comparisons between
+            &lt;li&gt;“ART is a free multibit trie based routing table. To keep it simple, it can be seen as using more
+            memory for fewer CPU cycles. In other words,
+            we get a faster lookup by wasting memory. The &lt;a href=&quot;http://www.hariguchi.org/art/art.pdf&quot;&gt;original
+            paper&lt;/a&gt; presents some performance comparisons between
             two ART configurations and the BSD Radix. But how does this apply to OpenBSD?”&lt;/li&gt;
-            &lt;li&gt;“I asked Hrvoje Popovski to run his packet forwarding test on his Xeon box (E5-2620 v2 @ 2.10GHz, 2400.34 MHz) with ix(4) (82599) interfaces.
+            &lt;li&gt;“I asked Hrvoje Popovski to run his packet forwarding test on his Xeon box (E5-2620 v2 @ 2.10GHz,
+            2400.34 MHz) with ix(4) (82599) interfaces.
             The test setup consist of three machines with the OpenBSD box in the middle”&lt;/li&gt;
-            &lt;li&gt;“The simulations have been performed with an OpenBSD -current from June 9th. The machine is configured with pf(4) disabled in order to force a
-            single route lookup for every IPv4 packet. Based on the result of the lookup the kernel decide if it should forward, deliver or drop the packet”&lt;/li&gt;
+            &lt;li&gt;“The simulations have been performed with an OpenBSD -current from June 9th. The machine is
+            configured with pf(4) disabled in order to force a
+            single route lookup for every IPv4 packet. Based on the result of the lookup the kernel decide if it should
+            forward, deliver or drop the packet”&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLeF8ZihVdpFfoEV67dBSrKfA8ifpUr6qC&quot;&gt;BSDCan 2016 Playlist&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLeF8ZihVdpFfoEV67dBSrKfA8ifpUr6qC&quot;&gt;BSDCan
+            2016 Playlist&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The complete set of videos from BSDCan is online and ready to be consumed&lt;/li&gt;
-            &lt;li&gt;Remember the good-ole days where we would wait months (or years) to get videos posted from conferences?&lt;/li&gt;
-            &lt;li&gt;Well, who are we kidding, some conferences STILL do that, but we can’t count BSDCan among them. &lt;/li&gt;
-            &lt;li&gt;Only two weeks out from this years exciting BSDCan, and &lt;em&gt;all&lt;/em&gt; the videos have now landed on YouTube.&lt;/li&gt;
-            &lt;li&gt;Granted, this is no substitute for actually being at the conference, but even if you attended you probably missed quite a few of the talks.&lt;/li&gt;
+            &lt;li&gt;Remember the good-ole days where we would wait months (or years) to get videos posted from
+            conferences?&lt;/li&gt;
+            &lt;li&gt;Well, who are we kidding, some conferences STILL do that, but we can’t count BSDCan among them.
+            &lt;/li&gt;
+            &lt;li&gt;Only two weeks out from this years exciting BSDCan, and &lt;em&gt;all&lt;/em&gt; the videos have
+            now landed on YouTube.&lt;/li&gt;
+            &lt;li&gt;Granted, this is no substitute for actually being at the conference, but even if you attended you
+            probably missed quite a few of the talks.&lt;/li&gt;
             &lt;li&gt;There are no videos of the hallway track, which is the best part of the conference&lt;/li&gt;
             &lt;li&gt;Except the dinner discussion of course.&lt;/li&gt;
             &lt;li&gt;and don’t forget the hacker lounge&lt;/li&gt;
@@ -214,7 +646,8 @@
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/&quot;&gt;Should you be scared of Unix signals?&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://jvns.ca/blog/2016/06/13/should-you-be-scared-of-signals/&quot;&gt;Should
+            you be scared of Unix signals?&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Do you know much about UNIX Signals?&lt;/li&gt;
@@ -223,12 +656,16 @@
             &lt;li&gt;This article talks about the practical implications of signals from a programming perspective&lt;/li&gt;
             &lt;li&gt;The things you need to consider when dealing with signals&lt;/li&gt;
             &lt;li&gt;Basically, you register a “signal handler”, the function that will be run when a signal arrives&lt;/li&gt;
-            &lt;li&gt;As you program is running, if a signal arrives, your program will be interrupted. Its current state will be saved and any system calls in progress
+            &lt;li&gt;As you program is running, if a signal arrives, your program will be interrupted. Its current
+            state will be saved and any system calls in progress
             will return EINTR (Error, Interrupted), then your signal handler will be run.&lt;/li&gt;
-            &lt;li&gt;Once the signal handler is complete, the state of your application will be restored, and execution will resume&lt;/li&gt;
-            &lt;li&gt;As long as your program properly handles this interruption, and errors that might result from it (getting EINTR from a read() call, instead of the
+            &lt;li&gt;Once the signal handler is complete, the state of your application will be restored, and execution
+            will resume&lt;/li&gt;
+            &lt;li&gt;As long as your program properly handles this interruption, and errors that might result from it
+            (getting EINTR from a read() call, instead of the
             data you expected), then everything should be fine.&lt;/li&gt;
-            &lt;li&gt;Of course, you need to be careful what you do inside your signal handler, as if you modify any variables or state in your application, it might be
+            &lt;li&gt;Of course, you need to be careful what you do inside your signal handler, as if you modify any
+            variables or state in your application, it might be
             very confused when it resumes.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -240,14 +677,19 @@
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/emc-advanced-dev/unik&quot;&gt;Unik - The Unikernel Compilation and Deployment Platform (uses NetBSD&#39;s Rump)&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/emc-advanced-dev/unik&quot;&gt;Unik - The Unikernel
+            Compilation and Deployment Platform (uses NetBSD&#39;s Rump)&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We’ve talked a bit about NetBSD’s RUMP (unikernel) in the past, including articles on how to deploy services using it.&lt;/li&gt;
-            &lt;li&gt;Now we have an interesting project which makes the process super-easy, and dare-we-say almost “Docker-Like?”&lt;/li&gt;
-            &lt;li&gt;The Unik project has a fairly complete walkthrough right on their GitHub project page, including details on installation and creating your own
+            &lt;li&gt;We’ve talked a bit about NetBSD’s RUMP (unikernel) in the past, including articles on how to
+            deploy services using it.&lt;/li&gt;
+            &lt;li&gt;Now we have an interesting project which makes the process super-easy, and dare-we-say almost
+            “Docker-Like?”&lt;/li&gt;
+            &lt;li&gt;The Unik project has a fairly complete walkthrough right on their GitHub project page, including
+            details on installation and creating your own
             unikernel containers. &lt;/li&gt;
-            &lt;li&gt;In addition, it provides instructions on boot-strapping your own Go/Node.js/Python/Java applications, and supports out of Box VCenter / AWS / Qemu
+            &lt;li&gt;In addition, it provides instructions on boot-strapping your own Go/Node.js/Python/Java
+            applications, and supports out of Box VCenter / AWS / Qemu
             / VirtualBox providers.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -256,34 +698,47 @@
             &lt;h3&gt;&lt;a href=&quot;&quot;&gt;PkgSrc 50th Release Highlights&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;pkgsrc is celebrating its 50th release, and to highlight this, they have posted a series of interviews from people who have been active in the
+            &lt;li&gt;pkgsrc is celebrating its 50th release, and to highlight this, they have posted a series of
+            interviews from people who have been active in the
             project&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_jonathan&quot;&gt;pkgsrc 50th release interviews - Jonathan Perkin&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_ryo&quot;&gt;pkgsrc 50th release interviews - Ryo ONODERA&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interview_with&quot;&gt;pkgsrc 50th release interviews - Joerg Sonnenberg&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_sevan&quot;&gt;pkgsrc 50th release interviews - Sevan Janiyan&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_jonathan&quot;&gt;pkgsrc
+            50th release interviews - Jonathan Perkin&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_ryo&quot;&gt;pkgsrc
+            50th release interviews - Ryo ONODERA&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interview_with&quot;&gt;pkgsrc
+            50th release interviews - Joerg Sonnenberg&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/pkgsrc_50th_release_interviews_sevan&quot;&gt;pkgsrc
+            50th release interviews - Sevan Janiyan&lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/02/28/migration-to-freebsd-part1.html&quot;&gt;Migrating to FreeBSD from Solaris 11&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/02/28/migration-to-freebsd-part1.html&quot;&gt;Migrating
+            to FreeBSD from Solaris 11&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/12/migration-to-freebsd-part2.html&quot;&gt;Part 2&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/19/migration-to-freebsd-part3.html&quot;&gt;Part 3&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/26/migration-to-freebsd-part4.html&quot;&gt;Part 4&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/04/03/migration-to-freebsd-part5.html&quot;&gt;Part 5&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/12/migration-to-freebsd-part2.html&quot;&gt;Part
+            2&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/19/migration-to-freebsd-part3.html&quot;&gt;Part
+            3&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/03/26/migration-to-freebsd-part4.html&quot;&gt;Part
+            4&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/04/03/migration-to-freebsd-part5.html&quot;&gt;Part
+            5&lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/alnsn/localpkgsrc/tree/master/firefox-chroot&quot;&gt;How to chroot www/firefox on NetBSD&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/alnsn/localpkgsrc/tree/master/firefox-chroot&quot;&gt;How to
+            chroot www/firefox on NetBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Looking for a jail-like method of running FireFox on NetBSD? (Or possibly other BSDs?)&lt;/li&gt;
-            &lt;li&gt;We have a github repo with details on how to setup and run FireFox using a chroot using a “webuser” account for safety. &lt;/li&gt;
+            &lt;li&gt;We have a github repo with details on how to setup and run FireFox using a chroot using a
+            “webuser” account for safety. &lt;/li&gt;
             &lt;li&gt;Think of this as a jail alternative, may be useful on systems with no jail support.&lt;/li&gt;
-            &lt;li&gt;Of interest is the method used to do X forwarding. It uses Xorg TCP listen option (which is often off by default for security reasons). Perhaps SSH
+            &lt;li&gt;Of interest is the method used to do X forwarding. It uses Xorg TCP listen option (which is often
+            off by default for security reasons). Perhaps SSH
             X forwarding would be a better alternative. (Or nullfs mounts of /tmp)&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -292,13 +747,17 @@
             &lt;h3&gt;Beastie Bits&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;https://github.com/tredly/tredly/releases/tag/v1.0.0-rc.1&quot;&gt;Tredly - V1 Release Candidate&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://lists.freebsd.org/pipermail/freebsd-current/2016-June/061775.html&quot;&gt;Call for Testing - ypldap testing against OpenLDAP and Microsoft Active
+            &lt;li&gt;&lt;a href=&quot;https://github.com/tredly/tredly/releases/tag/v1.0.0-rc.1&quot;&gt;Tredly - V1
+            Release Candidate&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lists.freebsd.org/pipermail/freebsd-current/2016-June/061775.html&quot;&gt;Call
+            for Testing - ypldap testing against OpenLDAP and Microsoft Active
             Directory&lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://bsdmag.org/&quot;&gt;BSD Magazine, June 2016 Out Now&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-June/500610.html&quot;&gt;Hammer2 - Add xxhash to H2 and throw in debug stuff for performance
+            &lt;li&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-June/500610.html&quot;&gt;Hammer2
+            - Add xxhash to H2 and throw in debug stuff for performance
             testing&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/06/14/chyves-project-preannouncement.html&quot;&gt;chyves pre-announcement&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/06/14/chyves-project-preannouncement.html&quot;&gt;chyves
+            pre-announcement&lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -307,7 +766,8 @@
 
             &lt;ul&gt;
             &lt;li&gt;&lt;a href=&quot;http://pastebin.com/1hpGrmuL&quot;&gt; Michael - Versioning &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/2PkrMGGx&quot;&gt; Michael - Removing Encryption &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/2PkrMGGx&quot;&gt; Michael - Removing Encryption &lt;/a&gt;
+            &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q5VdmNxG&quot;&gt; Bostjan - PC-BSD Questions&lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://pastebin.com/2aedLV7d&quot;&gt; Fong - ZFS Rollback &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://pastebin.com/dneVZkXc&quot;&gt; Jochen - Docker on FBSD&lt;/a&gt; &lt;/li&gt;
@@ -316,7 +776,8 @@
             &lt;hr&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         </content>
     </entry>
