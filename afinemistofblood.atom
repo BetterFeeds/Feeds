@@ -10,9 +10,7 @@
         Harrington, and narrated by Miles Chapin. Based on the best selling novels by Michael Connelly, Stream the New
         Season of Amazon’s Original Series BOSCH on March 11th on Amazon Prime Video.
     </subtitle>
-    <icon>
-        http://www.slate.com/content/dam/slate/embedded_content_assets/Bosch_Amazon_FineMistOfBlood/CUSTOM_AmazonBOSCH1400x1400wPanoply.jpg.CROP.promovar-mediumlarge.jpg
-    </icon>
+    <icon>http://www.slate.com/content/dam/slate/embedded_content_assets/Bosch_Amazon_FineMistOfBlood/CUSTOM_AmazonBOSCH1400x1400wPanoply.jpg.CROP.promovar-mediumlarge.jpg</icon>
     <link
             href="https://feeds.betterfeeds.org/afinemistofblood.atom"
             rel="self"
@@ -28,7 +26,7 @@
             rel="alternate"
             type="text/html"/>
     <id>https://feeds.betterfeeds.org/afinemistofblood.atom</id>
-    <updated>2016-06-24T20:06:00Z</updated>
+    <updated>2016-07-20T12:10:00Z</updated>
     <author>
         <name>Amazon</name>
         <uri>https://www.amazon.com/</uri>
