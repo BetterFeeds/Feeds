@@ -13,7 +13,7 @@
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-12.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-10.atom"
             rel="self"
             type="application/atom+xml"
             title="BSD Now"/>
@@ -47,15 +47,15 @@
             type="application/rss+xml"
             title="BSD Now HD Video (BitTorrent)"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-01.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-11.atom"
             rel="previous"
             type="application/atom+xml"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-11.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-09.atom"
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-07-24T08:08:00Z</updated>
+    <updated>2016-07-24T08:18:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
@@ -547,7 +547,7 @@
                 href="http://www.bsdnow.tv/episodes/2014_10_15-have_you_heard_of_bsd"/>
         <id>http://www.bsdnow.tv/episodes/2014_10_15-have_you_heard_of_bsd</id>
         <published>2014-10-16T13:34:38-07:00</published>
-        <updated>2016-07-24T08:01:00Z</updated>
+        <updated>2016-07-24T08:18:00Z</updated>
         <link
                 href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0059.ogg"
                 rel="enclosure"
@@ -582,37 +582,16 @@
             <uri>https://twitter.com/blakkheim</uri>
         </contributor>
         <contributor>
-            <name></name>
-            <email></email>
-            <uri></uri>
+            <name>Hiroki Sato</name>
+            <email>hrs@freebsd.org</email>
+            <uri>https://twitter.com/hiroki_sato</uri>
         </contributor>
-        <summary>his week on the show we'll be talking with Hiroki Sato about the status of BSD in Japan. We also get to
+        <summary>This week on the show we'll be talking with Hiroki Sato about the status of BSD in Japan. We also get
+            to
             hear about how he got on the core team, and we just might find out why NetBSD is so popular over there!
             Answers to all your emails, the latest news, and even a brand new segment, on BSD Now - the place to B.. SD!
         </summary>
-        <content type="html">&lt;h1&gt;Episode 059: BSDって聞いたことある？&lt;/h1&gt; &lt;p class=&quot;newsDate&quot;&gt;2014-10-15&lt;/p&gt;
-            &lt;div id=&quot;videoembed&quot;&gt;&lt;div class=&quot;video&quot;&gt;
-            &lt;iframe src=&quot;http://www.youtube.com/embed/uvplmGGAPvU?&amp;amp;showinfo=0&amp;amp;modestbranding=1&amp;amp;autohide=1&quot;
-            allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;360&quot; width=&quot;640&quot;&gt;&lt;/iframe&gt;
-            &lt;/div&gt;&lt;/div&gt;
-
-            &lt;h3&gt;Direct Download:&lt;/h3&gt;
-
-            &lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2014/bsd-0059-432p.mp4&quot;&gt;Video&lt;/a&gt;
-            &lt;strong&gt;|&lt;/strong&gt; &lt;a href=&quot;http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2014/bsd-0059.mp4&quot;&gt;HD
-            Video&lt;/a&gt; &lt;strong&gt;|&lt;/strong&gt; &lt;a href=&quot;http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0059.mp3&quot;&gt;MP3
-            Audio&lt;/a&gt; &lt;strong&gt;|&lt;/strong&gt; &lt;a href=&quot;http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0059.ogg&quot;&gt;OGG
-            Audio&lt;/a&gt; &lt;strong&gt;|&lt;/strong&gt; &lt;a href=&quot;http://bitlove.org/jupiterbroadcasting/bsdnowhd&quot;&gt;Torrent&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-
-            &lt;h2&gt;This episode was brought to you by&lt;/h2&gt;
-
-            &lt;p&gt;&lt;a href=&quot;http://www.ixsystems.com/bsdnow&quot; title=&quot;iXsystems&quot;&gt;&lt;img src=&quot;/images/iXlogo2.png&quot;
-            alt=&quot;iXsystems - Enterprise servers and storage for open source&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.tarsnap.com/bsdnow&quot;
-            title=&quot;Tarsnap&quot;&gt;&lt;img src=&quot;/images/tarsnap1.png&quot; alt=&quot;Tarsnap - online backups
-            for the truly paranoid&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-            &lt;hr&gt;
-
+        <content type="html">&lt;h1&gt;Episode 059: BSDって聞いたことある？&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
             &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCXlH5v1PkEhjzLFTUTm_U7g/videos&quot;&gt;BSD
