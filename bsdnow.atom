@@ -51,12 +51,346 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-07-23T08:21:00Z</updated>
+    <updated>2016-07-23T08:26:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>The Laporte has landed!</title>
+        <smi:episode>152</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_07_27-the_lepotre_has_landed"/>
+        <id>http://www.bsdnow.tv/episodes/2016_07_27-the_lepotre_has_landed</id>
+        <published>2016-07-28T05:15:26-07:00</published>
+        <updated>2016-07-29T08:26:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0152.ogg"
+                rel="enclosure"
+                length="55106229"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0152.ogg"
+                    fileSize="55106229"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0152.mp3"
+                    fileSize="34561349"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/07/bsd-0152-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:25" title="Headlines"/>
+            <psc:chapter start="00:01:25" title="Leo Laporte tries FreeBSD"
+                         href="http://www.leolaporte.com/blog/a-grand-experiment"/>
+            <psc:chapter start="00:09:28" title="OpenBSD 6.0 to be released on Sept 1st, 2016"
+                         href="http://undeadly.org/cgi?action=article&amp;sid=20160725100831"/>
+            <psc:chapter start="00:14:30" title="OpenBSD 6.0 tightens security by losing Linux compatibility"
+                         href="http://www.infoworld.com/article/3099038/open-source-tools/openbsd-60-tightens-security-by-losing-linux-compatibility.html"/>
+            <psc:chapter start="00:16:30" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:19:00" title="EuroBSDCon 2016 Schedule released"
+                         href="https://2016.eurobsdcon.org/talks-schedule/"/>
+            <psc:chapter start="00:27:12" title="News Roundup"/>
+            <psc:chapter start="00:27:12" title="Blast from the past"/>
+            <psc:chapter start="00:28:54" title="Running FreeBSD on the LibreM"
+                         href="https://ericmccorkleblog.wordpress.com/2016/07/16/freebsd-librem-update/"/>
+            <psc:chapter start="00:32:39" title="More OpenBSD syscall fuzzing"
+                         href="http://seclists.org/oss-sec/2016/q3/157"/>
+            <psc:chapter start="00:34:49" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:37:03" title="Root privilege escalation on NetBSD"
+                         href="http://akat1.pl/?id=2"/>
+            <psc:chapter start="00:45:20" title="FreeBSD Heap vulnerability in bspatch"
+                         href="https://www.freebsd.org/security/advisories/FreeBSD-SA-16:25.bspatch.asc"/>
+            <psc:chapter start="00:48:40" title="Beastie Bits"/>
+            <psc:chapter start="00:48:45" title="If you're a BUG member or Organizer, please contact BSD Now"
+                         href="https://twitter.com/q5sys/status/758087886927388673"/>
+            <psc:chapter start="00:50:28"
+                         title="TedU writes about some interesting localizations to gcc in openbsd, and why they are there"
+                         href="http://www.tedunangst.com/flak/post/one-reason-to-hate-openbsd"/>
+            <psc:chapter start="00:51:48" title="List of Products based on FreeBSD -- Help complete the list"
+                         href="https://en.wikipedia.org/wiki/List_of_products_based_on_FreeBSD"/>
+            <psc:chapter start="00:52:52" title="Virtualbox v5 hits the FreeBSD Ports tree"
+                         href="http://www.freshports.org/emulators/virtualbox-ose/"/>
+            <psc:chapter start="00:54:06" title="Skull Canyon NUC booting FreeBSD 11.0-BETA2"
+                         href="https://gist.github.com/gonzopancho/b71be467f45594822131f4816d6cb718"/>
+            <psc:chapter start="00:54:57" title="2016 BSDCan Trip Report: Trent Thompson"
+                         href="https://www.freebsdfoundation.org/blog/2016-bsdcan-trip-report-trent-thompson/"/>
+            <psc:chapter start="00:55:34" title="August London BSD Meetup"
+                         href="http://mail-index.netbsd.org/regional-london/2016/07/25/msg000542.html"/>
+            <psc:chapter start="00:56:16" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:57:34" title="Feedback/Questions"/>
+            <psc:chapter start="00:57:34" title="Michael Open-Source Alts" href="http://pastebin.com/eiWbDXTd"/>
+            <psc:chapter start="01:02:56" title="Herminio - AP Troubles" href="http://pastebin.com/w9aCDBut"/>
+            <psc:chapter start="01:05:40" title="Jake - Plasma" href="http://pastebin.com/d15QpVFw"/>
+            <psc:chapter start="01:07:02" title="Morgan - Clean DO Droplets" href="http://pastebin.com/Wj1P7jq8"/>
+            <psc:chapter start="01:09:42" title="Chris - Auditd" href="http://pastebin.com/U9PYEH6K"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on BSDNow, we have some big breaking news about another major switcher to FreeBSD, plus early
+            information about the pending OpenBSD 6.0 release in September &amp; more! Stay tuned, BSDNow is coming your
+            way right now!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 152: The Laporte has landed!&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.leolaporte.com/blog/a-grand-experiment&quot;&gt;Leo Laporte tries
+            FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Leo Laporte, formerly of TechTV, and now of TWiT.tv, is switching to FreeBSD&lt;/li&gt;
+            &lt;li&gt;“The latest debacle over the &quot;forced&quot; upgrade to Windows 10 and Apple&#39;s increasingly
+            locked-in ecosystem has got me thinking. Do I really need to use a proprietary operating system to get work
+            done? And while I&#39;m at it, do I need to use commercial cloud services to store my data?”&lt;/li&gt;
+            &lt;li&gt;A sometimes Linux user since the mid 90s, Leo talks about his motivations:&lt;/li&gt;
+            &lt;li&gt;“But as time went by, even Ubuntu began to seem too commercial to me”&lt;/li&gt;
+            &lt;li&gt;“So now for the grand experiment. Is it possible, I wonder, to do everything I need to do on an
+            even more venerable, more robust system: a true UNIX OS, FreeBSD? Here are my requirements”&lt;/li&gt;
+            &lt;li&gt;Browsing&lt;/li&gt;
+            &lt;li&gt;Email with PGP signing and encryption&lt;/li&gt;
+            &lt;li&gt;Coding - I&#39;m a hobbyist programmer requiring support for lisp/scheme/racket, rust, and python
+            (and maybe forth and clojure and meteor and whatever else is cool and new)&lt;/li&gt;
+            &lt;li&gt;Writing&lt;/li&gt;
+            &lt;li&gt;A password vault. I currently use Lastpass because it syncs with mobile but eventually I&#39;ll
+            need to find a FOSS replacement for that, too&lt;/li&gt;
+            &lt;li&gt;Photo editing - this is the toughest to replace. I love Photoshop and Lightroom. Can I get by
+            with, say, GIMP and Darktable?&lt;/li&gt;
+            &lt;li&gt;I do all of those things on my PCBSD machine all the time&lt;/li&gt;
+            &lt;li&gt;“I love Linux and will continue to use it on my laptops, but for my main workhorse desktop I think
+            FreeBSD will be a better choice. I also look forward to learning and administering a true UNIX system.”&lt;/li&gt;
+            &lt;li&gt;He got a nice SuperMicro based workstation, with an Intel Xeon E3-1275v5 and an NVIDIA GeForce GTX
+            960 GPU&lt;/li&gt;
+            &lt;li&gt;I have a server with one of those Skylake E3s, it is very nice&lt;/li&gt;
+            &lt;li&gt;“450Mbps Wireless N Dual Band PCI-e Adapter w/ 3x 2dBi Antennas (Yes, sad to say, unless I rewire
+            my house I&#39;ll have to use Wi-Fi with this beast. I&#39;ll probably rewire my house.)”&lt;/li&gt;
+            &lt;li&gt;He plans to have a 4x 1TB ZFS pool, plus a second pool backed by a 512 GB NVMe m.2 for the OS&lt;/li&gt;
+            &lt;li&gt;“And I&#39;ll continue to chronicle my journey into the land of FOSS here when The Beast arrives.
+            But in the meantime, please excuse me, I&#39;ve got some reading to do.”&lt;/li&gt;
+            &lt;li&gt;Leo went so far as to &lt;a href=&quot;https://youtu.be/vNVst_rxxm0?t=270&quot;&gt;slap a “Power
+            By FreeBSD” sticker &lt;/a&gt; on the back of his new Tesla&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160725100831&quot;&gt;OpenBSD
+            6.0 to be released on Sept 1st, 2016&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.openbsd.org/60.html&quot;&gt;OpenBSD 6.0 Tenative Released Notes&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;OpenBSD 6.0 is just around the corner, currently slated for Sept 1st and brings with it a whole
+            slew of exciting new features&lt;/li&gt;
+            &lt;li&gt;First up, and let’s get this right out of the way.. VAX support has been dropped!! Oh no!&lt;/li&gt;
+            &lt;li&gt;However to make up for this devastating loss, armv7 has been added to this release.&lt;/li&gt;
+            &lt;li&gt;The tentative release notes are very complete and marks 6.0 as quite an exciting release&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160726230851&quot;&gt;OpenBSD
+            6.0 Pre-orders up&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.infoworld.com/article/3099038/open-source-tools/openbsd-60-tightens-security-by-losing-linux-compatibility.html&quot;&gt;OpenBSD
+            6.0 tightens security by losing Linux compatibility&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;In related news, infoworld picked up on the pending removal of Linux compat from OpenBSD 6.0.&lt;/li&gt;
+            &lt;li&gt;Touted as a security feature, you will soon be unable to run legacy linux binaries on OpenBSD.
+            This has both positives and negatives depending upon your use case. Ironically we’re excitedly awaiting
+            improved Linux Compat support in FreeBSD, to allow running some various closed-source applications. (Netflix
+            DRM, Steam, Skype to name a few)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://2016.eurobsdcon.org/talks-schedule/&quot;&gt;EuroBSDCon 2016 Schedule
+            released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://2016.eurobsdcon.org/tutorials/&quot;&gt;EuroBSDCon 2016 Tutorial Schedule
+            released&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;EuroBSDCon has announced the list of talks and tutorials for September 22nd-25th’s conference!&lt;/li&gt;
+            &lt;li&gt;George Neville Neil (Who we’ve interviewed in the past) is giving the keynote about “The Coming
+            Decades of BSD”&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;Blast from the past&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;No interview again this week, we’re working on getting some people lined up.&lt;/li&gt;
+            &lt;li&gt;The Leo Laporte story brought these old gem from TechTV into my youtube playlist:&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d0UsXwRvaIg&quot;&gt;Matt Olander and Murrey
+            Stokey explain FreeBSD on TechTV &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bAsYz5pVwyc&quot;&gt;Matt Olander and Brooks
+            Davis explain building a cluster with FreeBSD on TechTV &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=91igg2UX7o8&quot;&gt;FreeBSD vs Linux Part 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oU88fQkwfws&quot;&gt;FreeBSD vs Linux Part 2&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://ericmccorkleblog.wordpress.com/2016/07/16/freebsd-librem-update/&quot;&gt;Running
+            FreeBSD on the LibreM &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Eric McCorkle (Who has worked on the EFI loader for a while now) has written an update on his
+            efforts to get FreeBSD working properly on the LibreM 13 laptop.&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Since April the work seems to be progressing nicely&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Matt Macy’s i915 graphics patch works well on the Librem 13, and I personally made sure that the
+            suspend/resume support works. The patch is very stable on the Librem, and I’ve only had one kernel panic the
+            entire time testing it.&lt;/li&gt;
+            &lt;li&gt;The HDMI output Just Works™ with the i915 driver. Even better, it works for both X11 and console
+            modes.&lt;/li&gt;
+            &lt;li&gt;Full support for the Atheros 9462 card has been merged in. I’ve had some occasional issues, but it
+            works for the most part.&lt;/li&gt;
+            &lt;li&gt;The vesa weirdness is obviated by i915 support, but it was resolved by using the scfb driver.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Some of the outstanding issues still being worked on are support for Synaptics on this particular
+            touchpad, as well as hotkey support for the keyboard, and brightness controls.&lt;/li&gt;
+            &lt;li&gt;In addition Eric is still working on the EFI + Geli support, with the eventual goal of getting EFI
+            secure-boot working out of box as well.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://seclists.org/oss-sec/2016/q3/157&quot;&gt;More OpenBSD syscall fuzzing&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;NCC Group’s Project Triforce continues its work of fuzzing OpenBSD&lt;/li&gt;
+            &lt;li&gt;This time they have found a flaw that allows any user to panic the kernel&lt;/li&gt;
+            &lt;li&gt;Attempting to read from the tmpfs_vfsops sysctl tree will panic the system: “attempt to execute
+            user address 0x0 in supervisor mode”&lt;/li&gt;
+            &lt;li&gt;This is actually a “good” thing…&lt;/li&gt;
+            &lt;li&gt;“Impact: Any user can panic the kernel by using the sysctl call. If a user can manage to map a
+            page at address zero, they may be able to gain kernel code execution and escalate privileges”&lt;/li&gt;
+            &lt;li&gt;OpenBSD’s default configuration prevents mapping a page at address zero, so the code execution is
+            prevented&lt;/li&gt;
+            &lt;li&gt;So while a panic is a bad outcome, it is a lot better than it could have been&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://akat1.pl/?id=2&quot;&gt;Root privilege escalation on NetBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This post described a root privilege escalation in NetBSD&lt;/li&gt;
+            &lt;li&gt;mail.local is a utility included in the base system for delivering mail to other users on the same
+            system, rather than invoking a mail client and going through the mail server.&lt;/li&gt;
+            &lt;li&gt;The mail.local utility contains a ‘time of check / time of use’ vulnerability. This means that it
+            checks if a file or permission is valid, and then later accesses that file. If an attacker can change that
+            file between the time when it is checked, and the time when it is used, they may be able to exploit the
+            system by evading the check&lt;/li&gt;
+            &lt;li&gt;This is exactly what happens in this case&lt;/li&gt;
+            &lt;li&gt;mail.local appends a message to the indicated user’s mailbox&lt;/li&gt;
+            &lt;li&gt;It first checks if the target user already has an existing mailbox file. If the file exists, but
+            is a link, mail.local exits with an error (to prevent exploits)&lt;/li&gt;
+            &lt;li&gt;If the file does not exist, it is created&lt;/li&gt;
+            &lt;li&gt;The message is then appended to the file&lt;/li&gt;
+            &lt;li&gt;If the file needed to be created, it is chown’d to the owner of the mailbox&lt;/li&gt;
+            &lt;li&gt;This is where the problem lies, if mail.local checks and does not find the mailbox, but an
+            attacker then creates a link from the target mailbox to some other file&lt;/li&gt;
+            &lt;li&gt;mail.local then appends to that file instead, thinking it is creating the new mailbox&lt;/li&gt;
+            &lt;li&gt;Then, mail.local chown’s the target file to the user the attacker was trying to send mail to&lt;/li&gt;
+            &lt;li&gt;The article explains how this could be used to replace /etc/master.passwd etc, but opts for an
+            easier proof of concept, replacing /usr/bin/atrun, which is run as root every 5 minutes from crontab with a
+            script that will copy the shell to /tmp and mark it setuid&lt;/li&gt;
+            &lt;li&gt;The attacker can then run that shell out of /tmp, and be root&lt;/li&gt;
+            &lt;li&gt;NetBSD fixed the vulnerability by changing the code flow, separating the cases for opening an
+            existing file from creating a new file.&lt;/li&gt;
+            &lt;li&gt;In the case where an existing file is opened, the code then verifies that the file that was opened
+            has the same inode number and is on the same device, as the file that was checked earlier, to ensure it was
+            not a link&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsd.org/security/advisories/FreeBSD-SA-16:25.bspatch.asc&quot;&gt;FreeBSD
+            Heap vulnerability in bspatch&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;An important vuln has been found and fixed in FreeBSD this past week, specifically relating to the
+            ‘bspatch’ utility.&lt;/li&gt;
+            &lt;li&gt;“Upstream&#39;s bspatch.c implementation doesn&#39;t check for negative values on the number of
+            bytes to read from the &quot;diff&quot; and &quot;extra&quot; streams, allowing an attacker controlling the
+            patch file to write at arbitrary locations in the heap.”&lt;/li&gt;
+            &lt;li&gt;This could result in a crash, or running arbitrary code as the user running bspatch. (Often root)&lt;/li&gt;
+            &lt;li&gt;“bspatch&#39;s main loop reads three numbers from the &quot;control&quot; stream in the patch: X,
+            Y and Z. The first two are the number of bytes to read from &quot;diff&quot; and &quot;extra&quot; (and thus
+            only non-negative), while the third one could be positive or negative and moves the oldpos pointer on the
+            source image. These 3 values are 64bits signed ints (encoded somehow on the file) that are later passed the
+            function that reads from the streams, but those values are not verified to be non-negative.”&lt;/li&gt;
+            &lt;li&gt;“Chrome[OS] has four different implementations of this program, all derived from the same original
+            code by Colin Percival.”&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://bugs.chromium.org/p/chromium/issues/detail?id=372525&quot;&gt;Chromium
+            Issue Tracker &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Patch your systems now!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits:&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/q5sys/status/758087886927388673&quot;&gt;If you&#39;re
+            a BUG member or Organizer, please contact BSD Now&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/one-reason-to-hate-openbsd&quot;&gt;TedU
+            writes about some interesting localizations to gcc in openbsd, and why they are there &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_products_based_on_FreeBSD&quot;&gt;List
+            of Products based on FreeBSD -- Help complete the list &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.freshports.org/emulators/virtualbox-ose/&quot;&gt;Virtualbox
+            v5 hits the FreeBSD Ports tree&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/gonzopancho/b71be467f45594822131f4816d6cb718&quot;&gt;Skull
+            Canyon NUC booting FreeBSD 11.0-BETA2&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/blog/2016-bsdcan-trip-report-trent-thompson/&quot;&gt;2016
+            BSDCan Trip Report : Trent Thompson&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mail-index.netbsd.org/regional-london/2016/07/25/msg000542.html&quot;&gt;August
+            London BSD Meetup&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/eiWbDXTd&quot;&gt; Michael Open-Source Alts&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/w9aCDBut&quot;&gt; Herminio - AP Troubles&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/d15QpVFw&quot;&gt; Jake - Plasma&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Wj1P7jq8&quot;&gt; Morgan - Clean DO Droplets&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/U9PYEH6K&quot;&gt;Chris - Auditd&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>Fuzzy Auditing</title>
         <smi:episode>151</smi:episode>
