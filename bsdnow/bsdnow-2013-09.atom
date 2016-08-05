@@ -178,7 +178,7 @@
         </contributor>
         <contributor>
             <name>Eric Faurot</name>
-            <email>Eric Faurot</email>
+            <email>eric@openbsd.org</email>
             <uri>https://twitter.com/opensmtpd</uri>
         </contributor>
         <summary>A tutorial on pkgng, we talk with the developers of OpenSMTPD about running a mail server
