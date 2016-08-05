@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed
+        xml:lang="en"
+        xmlns="http://www.w3.org/2005/Atom"
+        xmlns:smi="https://www.betterfeeds.org/series-media-info"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        xmlns:psc="http://podlove.org/simple-chapters">
+    <title>BSD Now</title>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
+        Tutorials and Interviews for new users and long time developers alike.
+    </subtitle>
+    <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
+    <media:thumbnail
+            url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-11.atom"
+            rel="self"
+            type="application/atom+xml"
+            title="BSD Now"/>
+    <link
+            href="http://www.bsdnow.tv/"
+            rel="alternate"
+            type="text/html"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMp3"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now MP3 Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowOgg"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now OGG Audio"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowMobile"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now SD Video"/>
+    <link
+            href="http://feeds.feedburner.com/BsdNowHd"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video"/>
+    <link
+            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
+            rel="related"
+            type="application/rss+xml"
+            title="BSD Now HD Video (BitTorrent)"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-12.atom"
+            rel="previous"
+            type="application/atom+xml"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-10.atom"
+            rel="next"
+            type="application/atom+xml"/>
+    <id>http://www.bsdnow.tv/</id>
+    <updated>2016-08-05T07:31:00Z</updated>
+    <author>
+        <name>Jupiter Broadcasting</name>
+        <uri>www.jupiterbroadcasting.com</uri>
+    </author>
+    <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>Bridging the Gap</title>
+        <smi:episode>13</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2013_11_27-bridging_the_gap"/>
+        <id>http://www.bsdnow.tv/episodes/2013_11_27-bridging_the_gap</id>
+        <published>2013-11-29T09:57:18-08:00</published>
+        <updated>2016-08-05T07:23:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0013-ogg.ogg"
+                rel="enclosure"
+                length="38472350"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0013-ogg.ogg"
+                    fileSize="38472350"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0013-mp3.mp3"
+                    fileSize="47467762"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2013/11/bsd-0013-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>TJ</name>
+            <uri>https://twitter.com/blakkheim</uri>
+        </contributor>
+        <contributor>
+            <name>Jordan Hubbard</name>
+            <email>jkh@freebsd.org</email>
+            <uri>https://twitter.com/omgjkh</uri>
+        </contributor>
+        <summary>We sit down for an interview with Jordan Hubbard, one of the founders of the FreeBSD project – and the
+            one who invented ports! Later in the show, we'll be showing you some new updates to the OpenBSD router
+            tutorial from a couple weeks ago. We've also got news, your questions and even our first viewer-submitted
+            video, right here on BSD Now.. the place to B.. SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 013: Bridging the Gap&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2013/11/18/getting-to-know-your-portmgr-erwin-lansing/&quot;&gt;Getting to know your portmgr&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;In this interview they talk to one of the &quot;Annoying Reminder Guys&quot; - Erwin Lansing, the second longest serving member of FreeBSD&#39;s portmgr (also vice-president of the FreeBSD Foundation)&lt;/li&gt;
+            &lt;li&gt;He actually maintains the .dk ccTLD&lt;/li&gt;
+            &lt;li&gt;Describes FreeBSD as &quot;the best well-hidden success story in operating systems, by now in the hands of more people than one can count and used by even more people, and not one of them knows it! It’s not only the best operating system currently around, but also the most supportive and inspiring community.&quot;&lt;/li&gt;
+            &lt;li&gt;In &lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2013/11/25/getting-to-know-your-portmgr-martin-wilke/&quot;&gt;the next one&lt;/a&gt; they speak with Martin Wilke (miwi@)&lt;/li&gt;
+            &lt;li&gt;The usual, &quot;what inspires you about FreeBSD&quot; &quot;how did you get into it&quot; etc.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.hostileadmin.com/2013/11/20/vbsdcon-wrap-ups/&quot;&gt;vBSDCon wrap-up compilation&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Lots of write-ups about vBSDCon gathered in one place&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20131121050402&quot;&gt;Some from OpenBSD guys&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2013/11/vbsdcon-trip-report-john-mark-gurney.html&quot;&gt;Some from FreeBSD guys&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.rootbsd.net/vbsdcon-2013-wrap-up/&quot;&gt;Some from RootBSD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.ixsystems.com/resources/ix/blog/vbsdcon-2013.html&quot;&gt;Some from iXsystems&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blogs.verisigninc.com/blog/entry/builders_and_archaeologists&quot;&gt;Some from Verisign&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;And of course our own wrap-up chat in &lt;a href=&quot;http://www.bsdnow.tv/episodes/2013_10_30-current_events&quot;&gt;BSD Now Episode 009&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2013/11/faces-of-freebsd-each-week-we-are-going.html&quot;&gt;Faces of FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This week they talk to G&#225;bor P&#225;li from Hungary&lt;/li&gt;
+            &lt;li&gt;Talks about his past as a game programmer and how it got involved with FreeBSD&lt;/li&gt;
+            &lt;li&gt;&quot;I met J&#225;nos H&#225;ber, who admired the technical merits of FreeBSD and recommended it over the popular GNU/Linux distributions. I downloaded FreeBSD 4.3-RELEASE, found it reliable, consistent, easy to install, update and use.&quot;&lt;/li&gt;
+            &lt;li&gt;He&#39;s been contributing since 2008 and does lots of work with Haskell in ports&lt;/li&gt;
+            &lt;li&gt;He also organizes EuroBSDCon and is secretary of the FreeBSD Core Team&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.dragonflybsd.org/release36/&quot;&gt;Dragonfly 3.6 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;dports now default instead of pkgsrc&lt;/li&gt;
+            &lt;li&gt;Big SMP scaling improvements&lt;/li&gt;
+            &lt;li&gt;Experimental i915 and KMS support&lt;/li&gt;
+            &lt;li&gt;See &lt;a href=&quot;http://www.bsdnow.tv/episodes/2013_11_13-the_gateway_drug&quot;&gt;our interview&lt;/a&gt; with Justin Sherrill if you want to hear (a lot) more about it - nearly an hour long&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Jordan Hubbard - &lt;a href=&quot;mailto:jkh@freebsd.org&quot;&gt;jkh@freebsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/omgjkh&quot;&gt;@omgjkh&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;FreeBSD&#39;s founding and future&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Tutorial&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/openbsd-router&quot;&gt;Building an OpenBSD router, part 2&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Note: there was a mistake in the video version of the tutorial, please consult the written version for the proper instructions.&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pfsense.org/?p=1132&quot;&gt;pfSense 2.1 on AWS EC2&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We now have pfSense 2.1 available on Amazon’s Elastic Compute Cloud (EC2)&lt;/li&gt;
+            &lt;li&gt;In keeping with the community spirit, they’re also offering a free &quot;public&quot; AMI&lt;/li&gt;
+            &lt;li&gt;Check the FAQ and User Guide on their site for additional details&lt;/li&gt;
+            &lt;li&gt;Interesting possibilities with pfSense in the cloud&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://distrowatch.com/weekly.php?issue=20131118#feature&quot;&gt;Puffy on the desktop&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Distrowatch, a primarily Linux-focused site, features an OpenBSD 5.4 review&lt;/li&gt;
+            &lt;li&gt;They talk about using it on the desktop, how to set it up&lt;/li&gt;
+            &lt;li&gt;Very long write-up, curious Linux users should give it a read&lt;/li&gt;
+            &lt;li&gt;Ends with &quot;Most people will still see OpenBSD as an operating system for servers and firewalls, but OpenBSD can also be used in desktop environments if the user doesn&#39;t mind a little manual work. The payoff is a very light, responsive system that is unlikely to ever misbehave&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://cmacr.ae/openbsd/security/networking/2013/11/25/ssh-yubi.html&quot;&gt;Two-factor authentication with SSH&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Blog post about using a yubikey with SSH public keys&lt;/li&gt;
+            &lt;li&gt;Uses a combination of a OTP, BSDAuth and OpenBSD&#39;s login.conf, but it can be used with PAM on other systems as well&lt;/li&gt;
+            &lt;li&gt;Allows for two-factor authentication (a la gmail) in case your private key is compromised&lt;/li&gt;
+            &lt;li&gt;Anyone interested in an extra-hardened SSH server should give it a read&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2013/11/weekly-feature-digest-112313/&quot;&gt;PCBSD weekly digest&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;10.0 has approximately 400 PBIs for public consumption&lt;/li&gt;
+            &lt;li&gt;They will be merging the GNOME3, MATE and Cinnamon desktops into the 10.0 ports tree - please help test them, this is pretty big news in and of itself!&lt;/li&gt;
+            &lt;li&gt;PCDM is coming along nicely, more bugs are getting fixed&lt;/li&gt;
+            &lt;li&gt;Added ZFS dataset options to PCBSD’s new text installer front-end&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2ag1fA7Ug&quot;&gt;Ben writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2TSIvZzVO&quot;&gt;Florian writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20Po4soFF&quot;&gt;Zach writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20ntzqi9c&quot;&gt;Addison writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2EYJjVKBk&quot;&gt;Adam writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://twitter.com/redshirtlinux&quot;&gt;Adam&lt;/a&gt;&#39;s BSD Router Project tutorial can be downloaded &lt;a href=&quot;http://bsdnow.cdn.scaleengine.net/bsdrouterproject.m4v&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Lots of links in today&#39;s show notes, check them out. All the tutorials are posted in their entirety at bsdnow.tv&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;If you have stories about how you or your company uses BSD, interesting things you&#39;ve done, crazy network stories or cool projects, send them to us!&lt;/li&gt;
+            &lt;li&gt;Watch live Wednesdays at 2:00PM Eastern (19:00 UTC)&lt;/li&gt;
+            &lt;li&gt;Reminder: the FreeBSD foundation&#39;s year-end donation is going on, please &lt;a href=&quot;http://www.freebsdfoundation.org/donate/&quot;&gt;help out&lt;/a&gt; if you can. Happy Thanksgiving!&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Collecting SSHells</title>
+        <smi:episode>12</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2013_11_20-collecting_shells"/>
+        <id>http://www.bsdnow.tv/episodes/2013_11_20-collecting_shells</id>
+        <published>2013-11-22T09:50:39-08:00</published>
+        <updated>2016-08-05T07:25:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0012-ogg.ogg"
+                rel="enclosure"
+                length="33314132"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0012-ogg.ogg"
+                    fileSize="33314132"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0012-mp3.mp3"
+                    fileSize="41106423"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2013/11/bsd-0012-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>TJ</name>
+            <uri>https://twitter.com/blakkheim</uri>
+        </contributor>
+        <contributor>
+            <name>Amitai Schlair</name>
+            <email>schmonz@netbsd.org</email>
+            <uri>https://twitter.com/schmonz</uri>
+        </contributor>
+        <summary>This week we'll be talking to Amitai Schlair of the NetBSD foundation about pkgsrc, NetBSD's future
+            plans and much more. After that, if you've ever wondered what all this SSH stuff is about, today's tutorial
+            has got you covered. We'll be showing you the basics of SSH, as well as how to combine it with tmux for
+            persistent sessions. News, feedback and everything else, right here on BSD Now – the place to B.. SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 012: Collecting SSHells&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2013/11/faces-of-freebsd-colin-percival.html&quot;&gt;Faces of FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The FreeBSD foundation is publishing articles on different FreeBSD developers&lt;/li&gt;
+            &lt;li&gt;This one is about Colin Percival (cperciva@), the ex-security officer&lt;/li&gt;
+            &lt;li&gt;Tells the story of how he first found BSD, what he contributed back, how he eventually became the security officer&lt;/li&gt;
+            &lt;li&gt;Running series with more to come&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.freebsdnews.net/2013/11/14/eurobsdcon-2013-devsummit-video-recordings/&quot;&gt;Lots of BSD presentation videos uploaded&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;EuroBSDCon 2013 dev summit videos, AsiaBSDCon 2013 videos, MWL&#39;s presentation video&lt;/li&gt;
+            &lt;li&gt;Most of us never get to see the dev summit talks since they&#39;re only for developers&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/bsdconferences&quot;&gt;AsiaBSDCon 2013 videos also up&lt;/a&gt; finally&lt;/li&gt;
+            &lt;li&gt;List of AsiaBSDCon presentation topics &lt;a href=&quot;http://2013.asiabsdcon.org/papers/index.html&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Our buddy Michael W Lucas gave an &lt;a href=&quot;http://blather.michaelwlucas.com/archives/1879&quot;&gt;&quot;OpenBSD for Linux users&quot; talk&lt;/a&gt; at a Michigan Unix Users Group.&lt;/li&gt;
+            &lt;li&gt;He says &quot;Among other things, I compare OpenBSD to Richard Stallman and physically assault an audience member. We also talk long long time, memory randomization, PF, BSD license versus GPL, Microsoft and other OpenBSD stuff&quot;&lt;/li&gt;
+            &lt;li&gt;Really informative presentation, pretty long, answers some common questions at the end&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/call_for_presentations_bsd_devroom&quot;&gt;Call for Presentations: FOSDEM 2014 and NYCBSDCon 2014&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;FOSDEM 2014 will take place on 1–2 February, 2014, in Brussels, Belgium&lt;/li&gt;
+            &lt;li&gt;Just like in the last years, there will be both a BSD booth and a developer&#39;s room&lt;/li&gt;
+            &lt;li&gt;The topics of the devroom include all BSD operating systems. Every talk is welcome, from internal hacker discussion to real-world examples and presentations about new and shiny features.&lt;/li&gt;
+            &lt;li&gt;If you are in the area or want to go, check the show notes for details&lt;/li&gt;
+            &lt;li&gt;NYCBSDCon &lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20131119053455&quot;&gt;is also accepting papers&lt;/a&gt;.&lt;/li&gt;
+            &lt;li&gt;It&#39;ll be in New York City at the beginning of February 2014&lt;/li&gt;
+            &lt;li&gt;If anyone wants to give a talk at one of these conferences, go ahead and send in your stuff!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-announce/2013-November/001511.html&quot;&gt;FreeBSD foundation&#39;s year-end fundraising campaign&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The FreeBSD foundation has been supporting the FreeBSD project and community for over 13 years&lt;/li&gt;
+            &lt;li&gt;As of today they have raised about half a million dollars, but still have a while to go&lt;/li&gt;
+            &lt;li&gt;Donations go towards new features, paying for the server infrastructure, conferences, supporting the community, hiring full-time staff members and promoting FreeBSD at events&lt;/li&gt;
+            &lt;li&gt;They are preparing the debut of a new online magazine, the FreeBSD Journal&lt;/li&gt;
+            &lt;li&gt;Typically big companies make their huge donations in December, like a couple of anonymous donors that gave around $250,000 each last year&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.freebsdfoundation.org/donate/&quot;&gt;Make your donation today&lt;/a&gt; over at freebsdfoundation.org, every little bit helps&lt;/li&gt;
+            &lt;li&gt;Everyone involved with BSD Now made a donation last year and will do so again this year&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Amitai Schlair - &lt;a href=&quot;mailto:schmonz@netbsd.org&quot;&gt;schmonz@netbsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/schmonz&quot;&gt;@schmonz&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;The NetBSD Foundation, pkgsrc, future plans&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Tutorial&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/ssh-tmux&quot;&gt;Combining SSH and tmux&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Note: there was a mistake in the video version of the tutorial, please consult the written version for the proper instructions.&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.theregister.co.uk/2013/11/16/sony_playstation_4_kernel&quot;&gt;PS4 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Sony&#39;s Playstation 4 is finally released&lt;/li&gt;
+            &lt;li&gt;As previously thought, its OS is heavily based on FreeBSD and uses the kernel among other things&lt;/li&gt;
+            &lt;li&gt;Link in the show notes contains the &lt;a href=&quot;http://www.scei.co.jp/ps4-license/&quot;&gt;full list of BSD software they&#39;re using&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Always good to see BSD being so widespread&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://bsdmag.org/magazine/1853-hast-on-freebsd-how-to-make-storage-highly-availble-by-using-hast&quot;&gt;BSD Mag November issue&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Free monthly BSD magazine publishes another issue&lt;/li&gt;
+            &lt;li&gt;This time their topics include: Configuring a Highly Available Service on FreeBSD, IT Inventory &amp;amp; Asset Management Automation, more FreeBSD Programming Primer, PfSense and Snort and a few others&lt;/li&gt;
+            &lt;li&gt;PDF linked in the show notes&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://mail-index.netbsd.org/pkgsrc-users/2013/11/09/msg018881.html&quot;&gt;pbulk builds made easy&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;NetBSD&#39;s &lt;a href=&quot;https://www.netbsd.org/docs/pkgsrc/bulk.html&quot;&gt;pbulk tool&lt;/a&gt; is similar to &lt;a href=&quot;http://www.bsdnow.tv/tutorials/poudriere&quot;&gt;poudriere&lt;/a&gt;, but for pkgsrc&lt;/li&gt;
+            &lt;li&gt;While working on updating the documentation, a developer cleaned up quite a lot of code&lt;/li&gt;
+            &lt;li&gt;He wrote a script that automates pbulk deployment and setup&lt;/li&gt;
+            &lt;li&gt;The whole setup of a dedicated machine has been reduced to just three commands&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2013/11/pc-bsd-weekly-feature-digest-111513/&quot;&gt;PCBSD weekly digest&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Over 200 PBIs have been populated in to the PC-BSD 10 Stable Appcafe&lt;/li&gt;
+            &lt;li&gt;Many PC-BSD programs received some necessary bug fixes and updates&lt;/li&gt;
+            &lt;li&gt;Some include network detection in the package and update managers, nvidia graphic detection, security updates for PCDM&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21oh3vP7t&quot;&gt;Peter writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21zfqcWMP&quot;&gt;Kjell-Aleksander writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2ZmW77Odb&quot;&gt;Jordan writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2BZq7xiyo&quot;&gt;Christian writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21xrk0M4k&quot;&gt;entransic writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;All the tutorials are posted in their entirety at bsdnow.tv&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, etc to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Watch live Wednesdays at 2:00PM Eastern (19:00 UTC)&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>The Gateway Drug</title>
+        <smi:episode>11</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2013_11_13-the_gateway_drug"/>
+        <id>http://www.bsdnow.tv/episodes/2013_11_13-the_gateway_drug</id>
+        <published>2013-11-15T10:32:31-08:00</published>
+        <updated>2016-08-05T07:27:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0011-ogg.ogg"
+                rel="enclosure"
+                length="53300847"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0011-ogg.ogg"
+                    fileSize="53300847"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0011-mp3.mp3"
+                    fileSize="66204966"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2013/11/bsd-0011-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>TJ</name>
+            <uri>https://twitter.com/blakkheim</uri>
+        </contributor>
+        <contributor>
+            <name>Justin Sherrill</name>
+            <email>justin@dragonflybsd.org</email>
+            <uri>https://twitter.com/dragonflybsd</uri>
+        </contributor>
+        <summary>We sit down to chat with Justin Sherrill of the DragonflyBSD project about their new 3.6 release. Later
+            on, we'll be showing you a huge tutorial that's been baking for over a month - how to build an OpenBSD
+            router that'll destroy any consumer router on the market! There's lots of news to get caught up on as well,
+            so sit back and enjoy some BSD Now - the place to B.. SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 011: The Gateway Drug&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://openssh.com/txt/release-6.4&quot;&gt;OpenSSH 6.4 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Security fixes in &lt;a href=&quot;http://openssh.com/&quot;&gt;OpenSSH&lt;/a&gt; don&#39;t happen very often&lt;/li&gt;
+            &lt;li&gt;6.4 fixes a memory corruption problem, no new features&lt;/li&gt;
+            &lt;li&gt;If exploited, this vulnerability might permit code execution with the privileges of the authenticated user and may therefore allow bypassing restricted shell/command configurations.&lt;/li&gt;
+            &lt;li&gt;Disabling AES-GCM in the server configuration is a workaround&lt;/li&gt;
+            &lt;li&gt;Only affects 6.2 and 6.3 if compiled against a newer OpenSSL (so FreeBSD 9&#39;s base OpenSSL is unaffected, for example)&lt;/li&gt;
+            &lt;li&gt;Full details &lt;a href=&quot;http://www.openssh.com/txt/gcmrekey.adv&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2013/11/04/getting-to-know-your-portmgr-mathieu-arnold/&quot;&gt;Getting to know your portmgr-lurkers&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Next entry in portmgr interview series&lt;/li&gt;
+            &lt;li&gt;This time they chat with Mathieu Arnold, one of the portmgr-lurkers we mentioned previously&lt;/li&gt;
+            &lt;li&gt;Lots of questions ranging from why he uses BSD to what he had for breakfast&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2013/11/11/getting-to-know-your-portmgr-antoine-brodin/&quot;&gt;Another one&lt;/a&gt; was since released, with Antoine Brodin aka antoine@&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20131108082749&quot;&gt;FUSE in OpenBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;As we glossed over last week, FUSE was recently added to OpenBSD&lt;/li&gt;
+            &lt;li&gt;Now the guys from the OpenBSD Journal have tracked down more information&lt;/li&gt;
+            &lt;li&gt;This version is released under an ISC license&lt;/li&gt;
+            &lt;li&gt;Should be in OpenBSD 5.5, released a little less than 6 months from now&lt;/li&gt;
+            &lt;li&gt;Will finally enable things like SSHFS to work in OpenBSD&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2013-November/046175.html&quot;&gt;Automated submission of kernel panic reports&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;New tool from Colin Percival&lt;/li&gt;
+            &lt;li&gt;Saves information about kernel panics and emails it to FreeBSD&lt;/li&gt;
+            &lt;li&gt;Lets you review before sending so you can edit out any private info&lt;/li&gt;
+            &lt;li&gt;Automatically encrypted before being sent&lt;/li&gt;
+            &lt;li&gt;FreeBSD never kernel panics so this won&#39;t get much use&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Justin Sherrill - &lt;a href=&quot;mailto:justin@dragonflybsd.org&quot;&gt;justin@dragonflybsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/dragonflybsd&quot;&gt;@dragonflybsd&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;DragonflyBSD 3.6 and the &lt;a href=&quot;http://www.shiningsilence.com/dbsdlog/&quot;&gt;Dragonfly Digest&lt;/a&gt;&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Tutorial&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/openbsd-router&quot;&gt;Building an OpenBSD Router&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://sourceforge.net/projects/bsdrp/files/BSD_Router_Project/1.5/&quot;&gt;BSD router project 1.5 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Nice timing for our router tutorial; TBRP is a FreeBSD distribution for installing on a router&lt;/li&gt;
+            &lt;li&gt;It&#39;s an alternative to pfSense, but not nearly as well known or popular&lt;/li&gt;
+            &lt;li&gt;New version is based on 9.2-RELEASE, includes lots of general updates and bugfixes&lt;/li&gt;
+            &lt;li&gt;Fits on a 256MB Compact Flash/USB drive&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://freshbsd.org/commit/openbsd/5cfc11a2aa3696190b675b6e3e1da7e8ff28582e&quot;&gt;Curve25519 now default key exchange&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We mentioned in an earlier episode about a patch for &lt;a href=&quot;http://cr.yp.to/ecdh.html&quot;&gt;curve25519&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Now it&#39;s become the default for key exchange&lt;/li&gt;
+            &lt;li&gt;Will probably make its way into OpenSSH 6.5, would&#39;ve been in 6.4 if we didn&#39;t have that security vulnerability&lt;/li&gt;
+            &lt;li&gt;It&#39;s interesting to see all these big changes in cryptography in OpenBSD lately&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=257650&quot;&gt;FreeBSD kernel selection in boot menu&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Adds a kernel selection menu to the beastie menu&lt;/li&gt;
+            &lt;li&gt;List of kernels is taken from &#39;kernels&#39; in loader.conf as a space or comma separated list of names to display (up to 9)&lt;/li&gt;
+            &lt;li&gt;From our good buddy &lt;a href=&quot;http://www.bsdnow.tv/episodes/2013-09-25_teskeing_the_possibilities&quot;&gt;Devin Teske&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2013/11/pc-bsd-weekly-feature-digest-11813/&quot;&gt;PCBSD weekly digest&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;PCDM has officially replaced GDM as the default login manager&lt;/li&gt;
+            &lt;li&gt;New ISO build scripts (we got a sneak preview last week)&lt;/li&gt;
+            &lt;li&gt;Lots of bug fixes&lt;/li&gt;
+            &lt;li&gt;Second set of 10-STABLE ISOs available with new artwork and much more&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20131113074042&amp;amp;mode=expanded&amp;amp;count=0&quot;&gt;Theo de Raadt speaking at MUUG&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Theo will be speaking at Manitoba UNIX User Group in Winnipeg&lt;/li&gt;
+            &lt;li&gt;On Friday, Nov 15, 2013 at 5:30PM (see show notes for the address)&lt;/li&gt;
+            &lt;li&gt;If you&#39;re watching the show live you have time to make plans, if you&#39;re watching the downloaded version it might be happening right now!&lt;/li&gt;
+            &lt;li&gt;No agenda, but expect some OpenBSD discussion&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21YXhiLRB&quot;&gt;Dave writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s215EjcgdM&quot;&gt;James writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s21mCP2ecL&quot;&gt;Allen writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s207ePFrna&quot;&gt;Chess writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s20iVFXJve&quot;&gt;Frank writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The very extensive written version of today&#39;s tutorial, with lots of extras we didn&#39;t mention, is posted on bsdnow.tv, as always - give it a read! There are sections about setting up the router to tunnel all (or specific parts of) your traffic through a VPN or Tor, how to make the router automatically check for updates and email them to you, and much more.&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, etc to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;We don’t check YouTube comments, JB comments, Reddit, etc. If you want us to see it, send it via email (the preferred way) or &lt;a href=&quot;http://www.bsdnow.tv/about&quot;&gt;Twitter&lt;/a&gt; (also acceptable)&lt;/li&gt;
+            &lt;li&gt;Watch live Wednesdays at 2:00PM Eastern (19:00 UTC)&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Year of the BSD Desktop</title>
+        <smi:episode>10</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2013_11_06-year_of_the_bsd_desktop"/>
+        <id>http://www.bsdnow.tv/episodes/2013_11_06-year_of_the_bsd_desktop</id>
+        <published>2013-11-07T21:43:42-08:00</published>
+        <updated>2016-08-05T07:29:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0010-ogg.ogg"
+                rel="enclosure"
+                length="45339980"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0010-ogg.ogg"
+                    fileSize="45339980"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0010-mp3.mp3"
+                    fileSize="55933525"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2013/11/bsd-0010-v.jpg"/>
+        </media:group>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>TJ</name>
+            <uri>https://twitter.com/blakkheim</uri>
+        </contributor>
+        <contributor>
+            <name>Michael W. Lucas</name>
+            <email>mwlucas@michaelwlucas.com</email>
+            <uri>https://twitter.com/mwlauthor</uri>
+        </contributor>
+        <summary>We'll be talking to renowned BSD author Michael Lucas about his latest opus, "Sudo Mastery." Also,
+            we've heard your cries and we'll also finally be showing you how to build a BSD desktop system from the
+            ground up. There's plenty of news items to cover as well, so stay tuned to BSD Now - the place to B.. SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 010: Year of the BSD Desktop&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.openbsd.org/54.html&quot;&gt;OpenBSD 5.4 released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The usual 6 month release cycle continues with 5.4&lt;/li&gt;
+            &lt;li&gt;People who bought the CD get the release very early, but now it&#39;s on the public FTP&lt;/li&gt;
+            &lt;li&gt;New platforms &quot;octeon&quot; and &quot;beagle&quot;&lt;/li&gt;
+            &lt;li&gt;Improved Intel DRM, reworked checksumming for network protocols, ECDHE support in httpd, inetd no longer started by default, DHCP improvements, lots of new OpenSMTPD work, OpenSSH 6.3&lt;/li&gt;
+            &lt;li&gt;Over 7,800 ports available, comes with another new song and fun artwork, lots of new features - check out the full release notes&lt;/li&gt;
+            &lt;li&gt;A special thanks to Nick Holland and Bob Beck for their behind-the-scenes work&lt;/li&gt;
+            &lt;li&gt;Experimental FUSE support was enabled shortly after the release, so look forward to that in the future&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-pkg/2013-October/000107.html&quot;&gt;FreeBSD pkgng repos are official&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Built weekly from a snapshot of the Ports Collection every Wednesday&lt;/li&gt;
+            &lt;li&gt;Signed packages coming soon with pkg 1.2&lt;/li&gt;
+            &lt;li&gt;Added official &lt;a href=&quot;http://freshbsd.org/commit/freebsd/r257150&quot;&gt;public key&lt;/a&gt; to -STABLE and -CURRENT&lt;/li&gt;
+            &lt;li&gt;New &quot;pkg+http&quot; &lt;a href=&quot;http://freshbsd.org/commit/freebsd/r257328&quot;&gt;protocol&lt;/a&gt; identifier for SRV records&lt;/li&gt;
+            &lt;li&gt;If you need something more up to date or with custom options, it&#39;s easy to &lt;a href=&quot;http://www.bsdnow.tv/tutorials/poudriere&quot;&gt;make your own&lt;/a&gt; with just the packages you want using our tutorial&lt;/li&gt;
+            &lt;li&gt;If you need a guide on how to use pkgng itself, check &lt;a href=&quot;http://www.bsdnow.tv/tutorials/pkgng&quot;&gt;our tutorial&lt;/a&gt; for that too!&lt;/li&gt;
+            &lt;li&gt;What does this mean for PCBSD repo users? Should they switch? Differences?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/kernel/2013-October/063015.html&quot;&gt;DragonflyBSD 3.6 branched&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;SMP improvements and GCC changes are all in, so it&#39;s time to branch&lt;/li&gt;
+            &lt;li&gt;Release planned for a little under 2 weeks from today&lt;/li&gt;
+            &lt;li&gt;Features will include i915 support, mdocml imported, crazy SMP improvements, dports being default&lt;/li&gt;
+            &lt;li&gt;We&#39;re hoping to get someone from Dragonfly on the show next week to talk about the final release&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2013/11/01/portmgr-lurkers-pilot-project/&quot;&gt;FreeBSD portmgr lurkers&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Over the course of the next two years, volunteers from a group of ports committers will participate in portmgr activities&lt;/li&gt;
+            &lt;li&gt;At four month intervals, two committers at a time will be brought in to work on various projects and learn the inner workings of the team&lt;/li&gt;
+            &lt;li&gt;The first two -lurkers are Mathieu Arnold (mat@) and Antoine Brodin (antoine@).&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Michael W. Lucas - &lt;a href=&quot;mailto:mwlucas@michaelwlucas.com&quot;&gt;mwlucas@michaelwlucas.com&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/mwlauthor&quot;&gt;@mwlauthor&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/1852&quot;&gt;Sudo Mastery&lt;/a&gt;
+            + &lt;a href=&quot;http://blather.michaelwlucas.com/archives/1805&quot;&gt;Video: DNSSec in 55 Minutes&lt;/a&gt;&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Tutorial&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/the-desktop&quot;&gt;Configuring FreeBSD as a desktop system&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/kernel/2013-October/063014.html&quot;&gt;Capsicum in DragonflyBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Dragonfly has no security framework yet besides the traditional unix DAC model&lt;/li&gt;
+            &lt;li&gt;Port of Capsicum to Dragonfly has begun&lt;/li&gt;
+            &lt;li&gt;Quite a bit of technical detail in the show notes&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.nycbsdcon.org/2014/&quot;&gt;NYCBSDCon 2014&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;After a three year hiatus, NYCBSDCon is back on February 8, 2014&lt;/li&gt;
+            &lt;li&gt;Theme of &quot;The BSDs in Production&quot; this year&lt;/li&gt;
+            &lt;li&gt;Held in New York City, more information to come as the time draws closer&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2013/11/newcons-system-console-project-update.html&quot;&gt;FreeBSD newcons progress update&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This project will provide a replacement for the legacy syscons system console&lt;/li&gt;
+            &lt;li&gt;Newcons provides a number of improvements, including better integration with graphics modes, and broader character set support&lt;/li&gt;
+            &lt;li&gt;More details on the project can be found on the &lt;a href=&quot;https://wiki.freebsd.org/Newcons&quot;&gt;FreeBSD wiki&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2013/11/pc-bsd-weekly-feature-digest-11113/&quot;&gt;Weekly PCBSD feature digest&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;PBI 10 format is about ready and they&#39;ll begin populating the 10.0 appcafe starting next week&lt;/li&gt;
+            &lt;li&gt;PCDM login manager is back and is ready to be tested&lt;/li&gt;
+            &lt;li&gt;New PC-BSD Disk Manager Utility with lots of features&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s208YfYZA9&quot;&gt;Alptekin writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;[Gertjan writes in[(http://slexy.org/view/s2k4C2Ryo9)&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2172EyaRG&quot;&gt;Kevin writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s2mP8ftX0U&quot;&gt;Kjell-Aleksander writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://slexy.org/view/s203Z9VdKt&quot;&gt;Michael writes in&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;All the tutorials are posted in their entirety at bsdnow.tv&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, etc to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;We don’t check YouTube comments, JB comments, Reddit, etc. If you want us to see it, send it via email (the preferred way) or &lt;a href=&quot;http://www.bsdnow.tv/about&quot;&gt;Twitter&lt;/a&gt; (also acceptable)&lt;/li&gt;
+            &lt;li&gt;Watch live Wednesdays at 2:00PM Eastern (18:00 UTC)&lt;/li&gt;
+            &lt;li&gt;Thanks for ten great episodes so far, we hope to keep doing this for a long time. Be sure to send us your feedback about what you want to see on future episodes! Especially tutorials!&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+</feed>
