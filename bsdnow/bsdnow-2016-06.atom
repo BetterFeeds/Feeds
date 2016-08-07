@@ -47,7 +47,7 @@
             type="application/rss+xml"
             title="BSD Now HD Video (BitTorrent)"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-07.atom"
             rel="previous"
             type="application/atom+xml"/>
     <link
