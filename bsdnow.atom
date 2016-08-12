@@ -51,12 +51,326 @@
             rel="next"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-08-07T11:35:00Z</updated>
+    <updated>2016-08-12T10:14:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>Myths, Pi's &amp; Features, oh my!</title>
+        <smi:episode>154</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_08_10-myths_pis_features_oh_my"/>
+        <id>http://www.bsdnow.tv/episodes/2016_08_10-myths_pis_features_oh_my</id>
+        <published>2016-08-11T06:58:01-07:00</published>
+        <updated>2016-08-12T08:30:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0154.ogg"
+                rel="enclosure"
+                length="38626920"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0154.ogg"
+                    fileSize="38626920"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0154.mp3"
+                    fileSize="24059288"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/08/bsd-0154-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:48" title="Headlines"/>
+            <psc:chapter start="00:10:48" title="broken features aren't used"
+                         href="http://www.tedunangst.com/flak/post/broken-features-arent-used"/>
+            <psc:chapter start="00:04:33" title="A Raspberry Pi FreeBSD Web Server"
+                         href="http://devio.us/~spacemonkey/raspberry_pi_freebsd_web_server_howto.html"/>
+            <psc:chapter start="00:07:44" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:10:30" title="Uber switches from PostgreSQL back to MySQL"
+                         href="https://eng.uber.com/mysql-migration/"/>
+            <psc:chapter start="00:14:30" title="Getting started with GhostBSD and FreeBSD"
+                         href="http://unsolicitedbutoffered.blogspot.com/2016/07/getting-started-with-ghostbsd-and.html"/>
+            <psc:chapter start="00:16:12" title="News Roundup"/>
+            <psc:chapter start="00:16:12" title="Steam on FreeBSD 11-CURRENT"
+                         href="https://github.com/SteamOnFreeBSD/SteamOnFreeBSD"/>
+            <psc:chapter start="00:19:55" title="How to run Enlightenment on OpenBSD" href="http://enform.haxlab.org/"/>
+            <psc:chapter start="00:21:22" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:24:09" title="Myths about FreeBSD" href="https://wiki.freebsd.org/Myths"/>
+            <psc:chapter start="00:27:27" title="FreeBSD Area51 testing repo, KDE 5"
+                         href="https://gist.github.com/swills/8a9a9f8a529256f134830c2a1476db0c"/>
+            <psc:chapter start="00:28:48" title="Beastie Bits"/>
+            <psc:chapter start="00:28:48" title="NetBSD Machines at Open Source Conference 2016 Kyoto"
+                         href="http://mail-index.netbsd.org/netbsd-advocacy/2016/08/01/msg000712.html"/>
+            <psc:chapter start="00:31:05" title="How to install htop on pfSense"
+                         href="http://www.cyberciti.biz/faq/pfsense-install-htop-using-pkg-command/"/>
+            <psc:chapter start="00:31:16" title="The first ever patch for #Chromium on #NetBSD has been committed!"
+                         href="https://twitter.com/krytarowski/status/759909139300491265"/>
+            <psc:chapter start="00:32:28" title="CharmBug - Adventures in Hardened BSD - August 24th 2016"
+                         href="http://www.meetup.com/CharmBUG/events/232474857/"/>
+            <psc:chapter start="00:32:59" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:34:15" title="Feedback/Questions"/>
+            <psc:chapter start="00:34:15" title="Emanual - GoTTY" href="http://pastebin.com/q24sNcNY"/>
+            <psc:chapter start="00:35:55" title="Joe - Disable Device" href="http://pastebin.com/iTkmpVr9"/>
+            <psc:chapter start="00:38:40" title="Allen - ZFS Send/Recv" href="http://pastebin.com/bPHEP4Ya"/>
+            <psc:chapter start="00:43:13" title="Mica - Adobe Replacements" href="http://pastebin.com/L0ttuNx3"/>
+            <psc:chapter start="00:44:48" title="Robroy - RAID" href="http://pastebin.com/Dr92CGCU"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on BSDNow, we are taking a look at a few different tutorials, including running your very own
+            RPi web-server. (Come-on, you know you've thought of it). Plus we have a GhostBSD tutorial, a look at a
+            GitHub project to run Steam Linux on FreeBSD 11 &amp; more! You'll want to stick-around for your place to
+            B...SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 154: Myths, Pi’s &amp;amp; Features, oh my!&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/broken-features-arent-used&quot;&gt;broken
+            features aren&#39;t used&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This post from TedU talks about the difficulty of removing features from an operating system&lt;/li&gt;
+            &lt;li&gt;“One of the difficulties in removing a feature is identifying all the potential users. A feature
+            here could be a program bundled with an operating system, or a command line option, or maybe just a function
+            in a library. If we remove a feature, users that depend on it will be sad. Unfortunately, absence of
+            evidence is not evidence of absence. I’ve never heard of anybody running ls -p but it’s not impossible that
+            somebody does.”&lt;/li&gt;
+            &lt;li&gt;“The reasons why we want to remove an existing feature can vary. Sometimes it’s old code that
+            interferes with maintenance. Sometimes a nearly complete rewrite can improve performance. In other cases,
+            the feature in question is really more of a misfeature. It may have security implications, where the
+            existence of the feature can be used to facilitate the exploitation of other vulnerabilities, and removing
+            the feature will help mitigate the exploit.”&lt;/li&gt;
+            &lt;li&gt;“There’s no general test that can be used, but there is one test that works in many cases. Test
+            that the feature works. If the feature doesn’t work, that’s compelling evidence that nobody is using it,
+            because nobody can be using it. You don’t need to fix it. You can just remove it.”&lt;/li&gt;
+            &lt;li&gt;He makes some interesting comments about exhaustive unit tests and the push to keep everything
+            working all the time. If you never break anything to see if someone complains, how do you know if it is
+            still being used?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://devio.us/~spacemonkey/raspberry_pi_freebsd_web_server_howto.html&quot;&gt;A
+            Raspberry Pi FreeBSD Web Server&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Looking at a super-low power solution to host some webpages? If so, we have the tutorial for you.&lt;/li&gt;
+            &lt;li&gt;Specifically a walkthrough of getting FreeBSD up on a Pi, and setting up nginx, OpenNTPD, LibreSSL
+            and friends. &lt;/li&gt;
+            &lt;li&gt;The walkthrough starts with grabbing a FreeBSD 11 snapshot for arm64 and doing the initial setup
+            process to get to a bootable FreeBSD system.&lt;/li&gt;
+            &lt;li&gt;If you are an extreme noob, not to fear. The tutorial walks you through setting up usernames,
+            timezones, even a larger /tmp directory on your new MiniBSD setup.&lt;/li&gt;
+            &lt;li&gt;The tedious part comes to play during the setup of packages. The author walks us through setting
+            up LibreSSL and various other packages via ports (Since LibreSSL isn’t the default in FreeBSD). This will
+            take some time to compile on your humble RPi device. (Go make a sandwich, walk the dog, fix the gutters,
+            etc)&lt;/li&gt;
+            &lt;li&gt;When it’s all said and done, you’ll end up with a secure little web-server that you’ve configured
+            all by yourself! (Wondering what the word-press performance would be like on that box)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://eng.uber.com/mysql-migration/&quot;&gt;Uber switches from PostgreSQL back
+            to MySQL &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We often hear success stories of people switching to PostgreSQL and getting huge performance
+            gains, but this stories is the reverse&lt;/li&gt;
+            &lt;li&gt;Uber’s engineering team has switched back to MySQL, because for their specific workload and
+            design, MySQL’s innodb has better performance&lt;/li&gt;
+            &lt;li&gt;Of course, it is not just vanilla MySQL, but “Schemaless”, a sharding system that sits on top of
+            MySQL&lt;/li&gt;
+            &lt;li&gt;The article goes into detail about the on-disk format used by Postgres, and the specific
+            shortcomings that Uber encountered&lt;/li&gt;
+            &lt;li&gt;Uber admits that all of its testing was against the older PostgreSQL 9.2, but one of their
+            complaints is about having difficulty upgrading&lt;/li&gt;
+            &lt;li&gt;“We started out with Postgres 9.1 and successfully completed the upgrade process to move to
+            Postgres 9.2. However, the process took so many hours that we couldn’t afford to do the process again. By
+            the time Postgres 9.3 came out, Uber’s growth increased our dataset substantially, so the upgrade would have
+            been even lengthier. For this reason, our legacy Postgres instances run Postgres 9.2 to this day, even
+            though the current Postgres GA release is 9.5.”&lt;/li&gt;
+            &lt;li&gt;There is a followup, from the Postgres side&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com&quot;&gt;“Why
+            we lost Uber as a user” &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;This thread goes into detail about the specific types of problematic queries that Uber was using&lt;/li&gt;
+            &lt;li&gt;“The Uber guy is right that InnoDB handles this better as long as you don&#39;t touch the primary
+            key (primary key updates in InnoDB are really bad)”&lt;/li&gt;
+            &lt;li&gt;“This is a common problem case we don&#39;t have an answer for yet.”&lt;/li&gt;
+            &lt;li&gt;The thread then goes on to discuss possibly supporting a “pluggable heap storage layer”, to allow
+            different workloads to use different on-disk formats for best performance&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Getting started with GhostBSD and FreeBSD&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://unsolicitedbutoffered.blogspot.com/2016/07/getting-started-with-ghostbsd-and.html&quot;&gt;Part
+            1&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://unsolicitedbutoffered.blogspot.com/2016/07/getting-started-with-ghostbsd-and_31.html&quot;&gt;Part
+            2&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://unsolicitedbutoffered.blogspot.com/2016/08/getting-started-with-ghostbsd-and.html&quot;&gt;Part
+            3&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://unsolicitedbutoffered.blogspot.com/2016/08/getting-started-with-ghostbsd-and_2.html&quot;&gt;Part
+            4&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;In what may be our first GhostBSD tutorial, we have a nice walkthrough on the initial getting
+            started with it.&lt;/li&gt;
+            &lt;li&gt;For those who don’t know, GhostBSD provides a nice XFCE or Mate desktop out of box, and still
+            supports 32bit installs for those who want to keep that older hardware running.&lt;/li&gt;
+            &lt;li&gt;The walkthough takes us through the process of grabbing GhostBSD images and getting the installer
+            up and running via bootable USB stick.&lt;/li&gt;
+            &lt;li&gt;Once booted, the graphical installer is straight-forward and short, allowing you to get the bits
+            on disk as quickly as possible. (The actual installation took around 45 Minutes on an old Toshiba NB520)&lt;/li&gt;
+            &lt;li&gt;The author then takes us on a tour of some of GhostBSD’s out-of-box bundled applications (Along
+            with XFCE) and how it compares to similar Linux setups.&lt;/li&gt;
+            &lt;li&gt;Lastly covered is the setup of Wireless (The manual way with WPA supplicant, since the GUI tool
+            appeared to not work in this particular case)&lt;/li&gt;
+            &lt;li&gt;All in all a good walkthrough, especially if you’ve not seen GhostBSD in action before, the
+            screenshots are very informative!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/SteamOnFreeBSD/SteamOnFreeBSD&quot;&gt;Steam on FreeBSD
+            11-CURRENT&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Steam on FreeBSD. Yes, we’ve heard of setups using WINE, but what about running the Linux binaries
+            natively?&lt;/li&gt;
+            &lt;li&gt;Well you are in luck. We have a github project that details getting the Linux native client up and
+            running on a FreeBSD 11-CURRENT system.&lt;/li&gt;
+            &lt;li&gt;This github project is rather mysterious, with only the instructions to download a pre-packaged
+            steam.txz file, extract and run the provided install.sh script.&lt;/li&gt;
+            &lt;li&gt;Curious I inspected some of the scripts, the installer.sh is fairly straight-forward, but does
+            some ‘non-standard’ freebsd things, like fetching packages and extracting specific files/libaries into a new
+            /compat/ubuntu directory. &lt;/li&gt;
+            &lt;li&gt;After that, it goes through a huge list of debian/ubuntu packages, also throwing them into the
+            aforementioned ubuntu directory.&lt;/li&gt;
+            &lt;li&gt;At runtime, the wrapper script ensures that various linux compat file-systems are mounted in the
+            correct location, then proceeds to run steam with some LD&lt;em&gt;LIBRARY&lt;/em&gt;FLAGS set from the
+            users .local/share/steam directory.&lt;/li&gt;
+            &lt;li&gt;A tad scary if honest, however it is a neat PoC to see Steam working on FreeBSD. Hopefully
+            somebody can turn this into a more traditional package which can be easily removed / cleaned up afterwards.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://enform.haxlab.org/&quot;&gt;How to run Enlightenment on OpenBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Are you an enlightenment fan? Be honest, we know there are quite a few of you out there!&lt;/li&gt;
+            &lt;li&gt;If so, we have a tutorial for you today, which talks about how to run E on OpenBSD.&lt;/li&gt;
+            &lt;li&gt;The process is pretty easy, but some steps might be overlooked if you are new to OpenBSD or don’t
+            know how to tune / compile things on your own.&lt;/li&gt;
+            &lt;li&gt;It starts out with adjusting some sysctl’s for better tuning that works on an E based desktop.&lt;/li&gt;
+            &lt;li&gt;Next is installing from package some pre-reqs that will enable us to build E from source.&lt;/li&gt;
+            &lt;li&gt;After that, we need to download and install EFL from github, and the autogen / gmake commands are
+            helpfully provided for you.&lt;/li&gt;
+            &lt;li&gt;Lastly the same is done for E itself, and TADA, E is installed and ready to go on your OpenBSD
+            system. If you do this right, should only take 5-10 minutes to be up and running.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://wiki.freebsd.org/Myths&quot;&gt;Myths about FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Over on the FreeBSD wiki, we have a new “Myths” page which we’ve never highlighted on the show
+            before. &lt;/li&gt;
+            &lt;li&gt;First up, and one I’ve very familiar with, is the usual “FreeBSD is only for Servers and not
+            Desktops”, along with a good rebuttal about what it does offer and mention of projects such as PC-BSD which
+            do it also.&lt;/li&gt;
+            &lt;li&gt;Another prevalent one is the “FreeBSD has a closed development model”, which is easily refuted:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;FreeBSD has over 400 developers around the world who have commit access to the repository. Many of
+            these are willing to commit patches from third parties. If you want to get an idea of the number of patches
+            that have been committed on behalf of other developers, then search for &#39;Submitted by&#39; in the commit
+            logs. At the time of writing, this is just under twenty thousand, or about ten percent of all commits. After
+            having a few patches accepted, regular contributors are usually encouraged to apply for commit access.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;Another one that we are still hearing (Although it is less and less now) was the common
+            “FreeBSD makes me compile everything from source”. Listeners of this show will know that pkg has pretty much
+            made this irrelevant in recent years. However the option to compile yourself from source still exists, but
+            most users won’t find this ever necessary.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;A good list, with many more items on it than we’ve mentioned here. Take a look, you might
+            find something there you’ve heard in the wild, or maybe even thought yourself at one point!&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://gist.github.com/swills/8a9a9f8a529256f134830c2a1476db0c&quot;&gt;FreeBSD
+            Area51 testing repo, KDE 5 &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This github GIST from Steve Wills provides the instructions to enable the FreeBSD xorg teams
+            unofficial ‘Area51’ testing repo on your machine&lt;/li&gt;
+            &lt;li&gt;This gives you access to the new KDE 5&lt;/li&gt;
+            &lt;li&gt;Users should obviously be careful testing early-access software, but bug reports are very welcome,
+            and important to getting KDE 5 working well under FreeBSD&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mail-index.netbsd.org/netbsd-advocacy/2016/08/01/msg000712.html&quot;&gt;NetBSD
+            Machines at Open Source Conference 2016 Kyoto&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cyberciti.biz/faq/pfsense-install-htop-using-pkg-command/&quot;&gt;How
+            to install htop on pfSense&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/krytarowski/status/759909139300491265&quot;&gt;The
+            first ever patch for #Chromium on #NetBSD has been committed!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/CharmBUG/events/232474857/&quot;&gt;CharmBug -
+            Adventures in Hardened BSD - August 24th 2016&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q24sNcNY&quot;&gt; Emanual - GoTTY &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/iTkmpVr9&quot;&gt; Joe - Disable Device &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/bPHEP4Ya&quot;&gt; Allen - ZFS Send/Recv&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/L0ttuNx3&quot;&gt; Mica - Adobe Replacements&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Dr92CGCU&quot;&gt; Robroy - RAID&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>Big Int Trouble</title>
         <smi:episode>153</smi:episode>
