@@ -54,6 +54,14 @@
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-05.atom"
             rel="next"
             type="application/atom+xml"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow.atom"
+            rel="first"
+            type="application/atom+xml"/>
+    <link
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
+            rel="last"
+            type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-07-28T07:33:00Z</updated>
     <author>
