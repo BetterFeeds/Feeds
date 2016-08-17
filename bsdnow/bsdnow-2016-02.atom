@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed
-        xml:lang="en"
+        xml:lang="en-us"
         xmlns="http://www.w3.org/2005/Atom"
         xmlns:smi="https://www.betterfeeds.org/series-media-info"
         xmlns:media="http://search.yahoo.com/mrss/"
