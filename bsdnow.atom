@@ -59,12 +59,396 @@
             rel="last"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-08-19T09:05:00Z</updated>
+    <updated>2016-08-26T10:13:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>The Fresh BSD experience</title>
+        <smi:episode>156</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_08_24-the_fresh_bsd_experience"/>
+        <id>http://www.bsdnow.tv/episodes/2016_08_24-the_fresh_bsd_experience</id>
+        <published>2016-08-25T07:31:23-07:00</published>
+        <updated>2016-08-26T08:00:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0156.ogg"
+                rel="enclosure"
+                length="68597966"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0156.ogg"
+                    fileSize="68597966"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0156.mp3"
+                    fileSize="42738720"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/08/bsd-0156-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:08:41" title="Headlines"/>
+            <psc:chapter start="00:08:41" title="FreeBSD 11.0-RC1 Available"
+                         href="https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085277.html"/>
+            <psc:chapter start="00:13:16" title="OpenBSD just added initial support for the RaspberryPi 2 and 3 devices"
+                         href="https://marc.info/?l=openbsd-cvs&amp;m=147059203101111&amp;w=2"/>
+            <psc:chapter start="00:14:20" title="drm-4.8-rc2 tagged in drm-next"
+                         href="https://lists.freebsd.org/pipermail/freebsd-x11/2016-August/017840.html"/>
+            <psc:chapter start="00:18:56" title="Installing FreeBSD for Raspberry Pi"
+                         href="https://www.freebsdfoundation.org/freebsd/how-to-guides/installing-freebsd-for-raspberry-pi/"/>
+            <psc:chapter start="00:22:20" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:26:00" title="Interview"/>
+            <psc:chapter start="00:48:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:49:35" title="News Roundup"/>
+            <psc:chapter start="00:49:35" title="FreeBSD’s ipfw gets a NAT64 implementation"
+                         href="https://svnweb.freebsd.org/base?view=revision&amp;revision=304046"/>
+            <psc:chapter start="00:55:40" title="Update on using LLVM's lld linker in the FreeBSD base system"
+                         href="https://lists.freebsd.org/pipermail/freebsd-toolchain/2016-August/002240.html"/>
+            <psc:chapter start="00:58:48" title="How to install FreeBSD with ZFS filesystem on DigitalOcean"
+                         href="https://github.com/fxlv/docs/blob/master/freebsd/freebsd-with-zfs-digitalocean.md"/>
+            <psc:chapter start="01:03:24" title="User manages to get OpenBSD and FreeBSD working with Libreboot"
+                         href="https://lists.nongnu.org/archive/html/libreboot/2016-08/msg00058.html"/>
+            <psc:chapter start="01:06:00" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:07:39" title="Beastie Bits"/>
+            <psc:chapter start="00:07:39"
+                         title="The ACPICA (ACPI Component Architecture) coding language AML now in DragonFly BSD"
+                         href="http://lists.dragonflybsd.org/pipermail/commits/2016-July/624192.html"/>
+            <psc:chapter start="01:08:06" title="Release announcement for 4.3BSD Tahoe from 1988"
+                         href="https://groups.google.com/forum/#!topic/comp.sys.tahoe/50ManvdM1-s"/>
+            <psc:chapter start="01:10:56" title="PEFS improved performance" href="https://wiki.freebsd.org/PEFS"/>
+            <psc:chapter start="01:13:10" title="Feedback/Questions"/>
+            <psc:chapter start="01:13:10" title="Mike - Jail Uptime" href="http://pastebin.com/FLpybL6D"/>
+            <psc:chapter start="01:16:23" title="Greg - Router Hardware" href="http://pastebin.com/RGuayhB3"/>
+            <psc:chapter start="01:17:46" title="Kristof - IPV6/pf" href="http://pastebin.com/NT4zmHiG"/>
+            <psc:chapter start="01:21:11" title="Ty - Updates and Logs" href="http://pastebin.com/CtetZdFg"/>
+            <psc:chapter start="01:25:56" title="Benjamin - MTA Bug" href="http://pastebin.com/Qq3VbQG2"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Drew Gurkowski</name>
+        </contributor>
+        <summary>This week on BSDNow, Allan is away in the UK for BSDCam, but we still have a full episode for you!
+            Don’t miss our interview with Myke Geiger talking about using FreeBSD in the ISP environment & the latest
+            news, here on your place to B...SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 156: The Fresh BSD experience&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085277.html&quot;&gt;FreeBSD
+            11.0-RC1 Available&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;FreeBSD is marching onwards to 11.0, and with it the first RC1 was released. In addition
+            to the usual amd64 architectures, you may want to give it
+            a whirl on your various ARM boards as well, as it includes images for the following systems:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;11.0-RC1 amd64 GENERIC&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 i386 GENERIC&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 powerpc GENERIC&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 powerpc64 GENERIC64&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 sparc64 GENERIC&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 BANANAPI&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 BEAGLEBONE&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 CUBIEBOARD&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 CUBIEBOARD2&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 CUBOX-HUMMINGBOARD&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 GUMSTIX&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 RPI-B&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 RPI2&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 PANDABOARD&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 armv6 WANDBOARD&lt;/li&gt;
+            &lt;li&gt;11.0-RC1 aarch64 GENERIC&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;For those wondering the list of changes between this and BETA4, we have that as well:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A NULL pointer dereference in IPSEC has been fixed.&lt;/li&gt;
+            &lt;li&gt;Support for SSH Protocol 1 has been removed.&lt;/li&gt;
+            &lt;li&gt;OpenSSH DSA keys have been disabled by default. Users upgrading from
+            prior FreeBSD versions are urged to update their SSH keys to RSA or
+            ECDSA keys before upgrading to 11.0-RC1.&lt;/li&gt;
+            &lt;li&gt;PCI-e hotplug on bridges with power controllers has been disabled.&lt;/li&gt;
+            &lt;li&gt;A loader tunable (hw.pci.enable&lt;em&gt;pcie&lt;/em&gt;hp) to disable PCI-e HotPlug has
+            been added.&lt;/li&gt;
+            &lt;li&gt;A VESA panic on suspend has been fixed.&lt;/li&gt;
+            &lt;li&gt;Google Compute Engine image publication has been fixed.&lt;/li&gt;
+            &lt;li&gt;An AES-ICM heap corruption typo bug has been fixed.&lt;/li&gt;
+            &lt;li&gt;A regression in pf.conf while parsing the &#39;interval&#39; keyword has been
+            fixed.&lt;/li&gt;
+            &lt;li&gt;A ZFS/VFS deadlock has been fixed.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085323.html&quot;&gt;RC2
+            is delayed while some issues are sorted out &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;RC2 is looming large, but was pushed back a few days while the following bugs are sorted out:
+
+            &lt;ul&gt;
+            &lt;li&gt;Issue with IPv6 UDP traffic being sent from wrong MAC address&lt;/li&gt;
+            &lt;li&gt;Layer2 violation with IPv6&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://marc.info/?l=openbsd-cvs&amp;amp;m=147059203101111&amp;amp;w=2&quot;&gt;OpenBSD
+            just added initial support for the RaspberryPi 2 and 3 devices&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;It’s a good time to be an ARM and BSD enthusiast. In addition to all the ARM images in FreeBSD
+            11.0, we also have word that initial support for RPi2 and RPi3 has started to land in OpenBSD.&lt;/li&gt;
+            &lt;li&gt;Mark Kettenis has posted the following with his Commit:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Initial support for Raspberry Pi 2/3. All the hard work done by patrick@, I just cleaned things up
+            a bit. Any bugs introduced in that process are entirely mine.&lt;/p&gt;
+
+            &lt;p&gt;This doesn&#39;t work yet. But when it does, you&#39;ll need recent firmware from the Raspberry Pi
+            Foundation git repository at:&lt;/p&gt;
+
+            &lt;p&gt;https://github.com/raspberrypi/firmware&lt;/p&gt;
+
+            &lt;p&gt;The device tree for the Raspberry Pi is somewhat in flux as bits and pieces to support the
+            Raspberry Pi 2 and 3 are committed to the mainline Linux kernel.“
+            + Exciting news! We will of course keep you informed as to when we have images to play with. Running OpenBSD
+            / PF on a RPi does sound intriguing.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-x11/2016-August/017840.html&quot;&gt;drm-4.8-rc2
+            tagged in drm-next&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Remember when FreeBSD lagged so far behind in Graphics support? Well, those days are rapidly
+            coming to an end.&lt;/li&gt;
+            &lt;li&gt;Matt Macy has posted an update to the FreeBSD X11 list with news of his DRM branch being caught up
+            all the way to Linux 4.8-RC2 now.&lt;/li&gt;
+            &lt;li&gt;This is a huge accomplishment, with Matt commenting:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;As of this moment sys/dev/drm in the drm-next tree is sync with https://github.com/torvalds/linux
+            drivers/gpu/drm (albeit only for the subset of drivers that FreeBSD supports - i915, radeon, and amdgpu). I
+            feel this is a bit of a milestone as it means that it is possible that in the future graphics support on
+            FreeBSD could proceed in lockstep with Linux.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;For those who want to try out the latest support, you can build from his branch at the following
+            GitHub location: (https://github.com/FreeBSDDesktop/freebsd-base-graphics) &lt;/li&gt;
+            &lt;li&gt;Or, if compiling isn’t your thing, TrueOS (The re-branded PC-BSD) will be releasing the a new ISO
+            based upon his update to Linux 4.7 in the coming days, with 4.8-RC2 to follow in the next week or two.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/freebsd/how-to-guides/installing-freebsd-for-raspberry-pi/&quot;&gt;Installing
+            FreeBSD for Raspberry Pi&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;People have been running FreeBSD on various RPi devices for a while now, however there are still a
+            lot of people who probably need a hand to get boot-strapped on their RPi system.&lt;/li&gt;
+            &lt;li&gt;The FreeBSD foundation has put together a nice tutorial which walks even the most novice user
+            through getting FreeBSD up and running.&lt;/li&gt;
+            &lt;li&gt;In particular this could become a good way for students or other FreeBSD newcomers to try out the
+            OS on a relatively low-cost platform outside of a VM.&lt;/li&gt;
+            &lt;li&gt;The tutorial starts of with a check-list of the specific items you’ll need to get started, for RPi
+            1 (a/b) or RPi 2 hardware.&lt;/li&gt;
+            &lt;li&gt;From there, instructions on how to get the downloaded images onto a sdcard are provided, including
+            Mac and Windows image burning details.&lt;/li&gt;
+            &lt;li&gt;With this done, it’s really only a matter of plugging in your device to be presented with your new
+            RPi + FreeBSD system. The most important details (the default username/password) at also provided, so don’t
+            skim too quickly.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Drew Gurkowski&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Foundation Intern: First time FreeBSD User and Writing Tutorials&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=304046&quot;&gt;FreeBSD’s
+            ipfw gets a NAT64 implementation &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A new feature has been added to FreeBSD’s native firewall, ipfw2&lt;/li&gt;
+            &lt;li&gt;The new loadable module implements stateless and stateful NAT64&lt;/li&gt;
+            &lt;li&gt;“Stateless translation is appropriate when a NAT64 translator is used in front of IPv4-only
+            servers to allow them to be reached by remote IPv6-only clients.”&lt;/li&gt;
+            &lt;li&gt;With this setup, you map specific IPv6 addresses to the corresponding IPv4 address, allowing IPv4
+            only servers to be reachable on the v6 network.&lt;/li&gt;
+            &lt;li&gt;“Stateful translation is suitable for deployment at the client side or at the service provider,
+            allowing IPv6-only client hosts to reach remote IPv4-only nodes.”&lt;/li&gt;
+            &lt;li&gt;This configuration allows many IPv6 only clients to reach the “legacy” internet. The FreeBSD
+            cluster has been waiting for this feature for
+            a while, because they have limited IP addresses, but many service jails that require access to services like
+            GitHub that are not IPv6 enabled.&lt;/li&gt;
+            &lt;li&gt;The work was sponsored by Yandex, the Russian search engine and long time FreeBSD user&lt;/li&gt;
+            &lt;li&gt;Example configurations for both types are included in the commit message&lt;/li&gt;
+            &lt;li&gt;If you would find this feature useful, please take the time to set it up and document the steps
+            and contribute that to the FreeBSD Handbook.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-toolchain/2016-August/002240.html&quot;&gt;Update
+            on using LLVM&#39;s lld linker in the FreeBSD base system&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ed Maste has written a lengthy update on the progress being made towards using LLVM’s lld linker
+            as a replacement for GNU’s ‘ld’.&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Ed starts off by giving us some of the potential benefits of using lld vs the 2.17.50
+            ‘ld’ version FreeBSD currently uses:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;AArch64 (arm64) support&lt;/li&gt;
+            &lt;li&gt;Link Time Optimization (LTO)&lt;/li&gt;
+            &lt;li&gt;New ABI support&lt;/li&gt;
+            &lt;li&gt;Other linker optimization&lt;/li&gt;
+            &lt;li&gt;Much faster link times&lt;/li&gt;
+            &lt;li&gt;Maintained code base&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Ed also gives us an update on several of the major blockers:&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Since the last update in March several lld developers have implemented much of the missing
+            functionality. The main blockers were symbol version support and expression evaluation in the linker script
+            expression parser. Both are now nearly complete“&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;A detailed plan was also articulated in respect to switching over:&lt;/p&gt;
+
+            &lt;ol&gt;
+            &lt;li&gt;Update lld along with the Clang/LLVM 3.9 update that dim@ is working on.&lt;/li&gt;
+            &lt;li&gt;Add the bmake build infrastructure, installing as /usr/bin/ld.lld on the same architectures that
+            use Clang (amd64, arm, arm64, i386). I don&#39;t think there&#39;s a need for a WITH_LLD src.conf knob, but
+            will add one if desired.&lt;/li&gt;
+            &lt;li&gt;Update lld again (most likely to a snapshot from upstream SVN) once it is able to link an
+            unmodified FreeBSD kernel.&lt;/li&gt;
+            &lt;li&gt;Modify the boot loader and kernel builds to avoid using features not implemented by lld.&lt;/li&gt;
+            &lt;li&gt;Introduce a WITH&lt;em&gt;LLD&lt;/em&gt;AS_LD knob to have /usr/bin/ld be a ld.lld hardlink
+            instead of /usr/bin/ld.bfd.&lt;/li&gt;
+            &lt;li&gt;Request ports exp-runs and issue a call for testing with 3rd party software. Fix issues found
+            during this process.&lt;/li&gt;
+            &lt;li&gt;Switch /usr/bin/ld to ld.lld by default in head for the Clang-using architectures. Add a WITHOUT&lt;em&gt;LLD&lt;/em&gt;AS_LD
+            knob to switch back to GNU ld.&lt;/li&gt;
+            &lt;/ol&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/fxlv/docs/blob/master/freebsd/freebsd-with-zfs-digitalocean.md&quot;&gt;How
+            to install FreeBSD with ZFS filesystem on DigitalOcean&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;I know we’ve mentioned using FreeBSD + ZFS on digital ocean in the past, but today we
+            have a nice HowTo by Kaspars Mickevics (fxlv) on GitHub.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Before getting started, kaspars mentions some pre-reqs. First up he recommends starting
+            with a Minimum of 2GB of RAM. (The $20/mo droplet). This is to ensure you have plenty of cushion to avoid
+            running out of memory during the process. It is possible to use ZFS with less, but depending on your desired
+            workload this does make sense.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;From there, checking out “mfsBSD” is discussed, along with details on how to make it suitable for
+            a DO installation. (Mostly just disabling DHCP for the network device) For good measure ‘pkg-static’ is also
+            included.&lt;/li&gt;
+            &lt;li&gt;With that done, using mfsBSD you will create a tar file, which is then extracted on top of the
+            running system.&lt;/li&gt;
+            &lt;li&gt;After rebooting, you will be able to run “bsdinstall” and proceed to installing / formatting your
+            disk with ZFS as normal.&lt;/li&gt;
+            &lt;li&gt;A good tutorial, something I may need to do here in the near future.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.nongnu.org/archive/html/libreboot/2016-08/msg00058.html&quot;&gt;User
+            manages to get OpenBSD and FreeBSD working with Libreboot&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;In a short drive-by post to the Libreboot mailing list Piotr Kubaj gives a quick notice that he
+            managed to get OpenBSD and FreeBSD both booting.
+            &amp;gt; I know GNU people don&#39;t like BSD, so let me make it quick :)
+            &amp;gt;
+            &amp;gt;
+            &amp;gt; I&#39;ve succeeded in booting FreeBSD 11.0-RC1 using txt mode on my X200
+            &amp;gt; with the newest Libreboot.
+            &amp;gt;
+            &amp;gt; To get installer to boot, I used:
+            &amp;gt; kfreebsd (usb0,gpt3)/boot/kernel/kernel
+            &amp;gt; set FreeBSD.vfs.mountfrom=ufs:/dev/da1p3
+            &amp;gt; boot
+            &amp;gt;
+            &amp;gt; I didn&#39;t try to install yet.
+            &amp;gt;&lt;/li&gt;
+            &lt;li&gt;The trick looks relatively simple (looks like GRUB), manually loading the kernel with ‘kfreebsd’
+            and then setting the vfs.root.mountfrom
+            variable to find the USB stick.&lt;/li&gt;
+            &lt;li&gt;In an update he also mentions booting OpenBSD with ‘kopenbsd’ instead of ‘kfreebsd’ (again GRUB
+            syntax)&lt;/li&gt;
+            &lt;li&gt;Now somebody will need to test installation of the system (he didn’t) and see what other issues
+            may crop up in running BSD on a free BIOS.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits:&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-July/624192.html&quot;&gt;The
+            ACPICA (ACPI Component Architecture) coding language AML now in DragonFly BSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!topic/comp.sys.tahoe/50ManvdM1-s&quot;&gt;Release
+            announcement for 4.3BSD Tahoe from 1988 &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/FLpybL6D&quot;&gt; Mike - Jail Uptime&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/RGuayhB3&quot;&gt; Greg - Router Hardware&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/NT4zmHiG&quot;&gt; Kristof writes in&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/CtetZdFg&quot;&gt; Ty - Updates and Logs&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Qq3VbQG2&quot;&gt; Benjamin - MTA Bug &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>Cabling up FreeBSD</title>
         <smi:episode>155</smi:episode>
@@ -448,8 +832,6 @@
             &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
             href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
-
-            &lt;hr&gt;
         </content>
     </entry>
     <entry>
