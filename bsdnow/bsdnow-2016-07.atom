@@ -47,7 +47,7 @@
             type="application/rss+xml"
             title="BSD Now HD Video (BitTorrent)"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-08.atom"
             rel="previous"
             type="application/atom+xml"/>
     <link
@@ -63,7 +63,7 @@
             rel="last"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-07-23T08:26:00Z</updated>
+    <updated>2016-09-02T07:12:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
