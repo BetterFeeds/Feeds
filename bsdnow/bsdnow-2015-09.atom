@@ -89,11 +89,13 @@
                     url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0108.ogg"
                     fileSize="55464242"
                     type="audio/ogg"
+                    medium="audio"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0108.mp3"
                     fileSize="37641708"
                     type="audio/mpeg"
+                    medium="audio"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/09/bsd-0108-v.jpg"/>
@@ -158,11 +160,13 @@
                     url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0107.ogg"
                     fileSize="64697142"
                     type="audio/ogg"
+                    medium="audio"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0107.mp3"
                     fileSize="41650772"
                     type="audio/mpeg"
+                    medium="audio"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/09/bsd-0107-v.jpg"/>
@@ -391,11 +395,13 @@
                     url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0106.ogg"
                     fileSize="54518960"
                     type="audio/ogg"
+                    medium="audio"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0106.mp3"
                     fileSize="32494749"
                     type="audio/mpeg"
+                    medium="audio"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/09/bsd-0106-v.jpg"/>
@@ -594,11 +600,13 @@
                     url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0105.ogg"
                     fileSize="49701039"
                     type="audio/ogg"
+                    medium="audio"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0105.mp3"
                     fileSize="31944088"
                     type="audio/mpeg"
+                    medium="audio"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/09/bsd-0105-v.jpg"/>
