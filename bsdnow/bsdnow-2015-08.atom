@@ -15,7 +15,7 @@
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-08.atom"
             rel="self"
-            type="application/atom+xml"
+            type="application/atom+xml; charset=utf-8"
             title="BSD Now"/>
     <link
             href="http://www.bsdnow.tv/"
@@ -49,19 +49,19 @@
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-09.atom"
             rel="previous"
-            type="application/atom+xml"/>
+            type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-07.atom"
             rel="next"
-            type="application/atom+xml"/>
+            type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
             rel="first"
-            type="application/atom+xml"/>
+            type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
             rel="last"
-            type="application/atom+xml"/>
+            type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-06-29T08:11:00Z</updated>
     <author>
