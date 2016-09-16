@@ -59,12 +59,106 @@
             rel="last"
             type="application/atom+xml"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-09-09T08:59:00Z</updated>
+    <updated>2016-09-16T08:57:00Z</updated>
     <author>
         <name>Jupiter Broadcasting</name>
         <uri>www.jupiterbroadcasting.com</uri>
     </author>
     <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>Net Scaling Privacy (Flix Style)</title>
+        <smi:episode>159</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href=""/>
+        <id></id>
+        <published>2016-09-15T13:48:12-07:00</published>
+        <updated>2016-09-16T06:48:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0159.ogg"
+                rel="enclosure"
+                length="56380677"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0159.ogg"
+                    fileSize="56380677"
+                    type="audio/ogg"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0159.mp3"
+                    fileSize="34725607"
+                    type="audio/mpeg"
+                    isDefault="false"/>
+            <media:thumbnail
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/09/bsd-0159-v.jpg"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:57" title="Headlines"/>
+            <psc:chapter start="00:01:57" title="Protecting Netflix Viewing Privacy at Scale, with FreeBSD"
+                         href="http://techblog.netflix.com/search/label/FreeBSD"/>
+            <psc:chapter start="00:12:57" title="OpenBSD on HP Stream 7"
+                         href="http://www.tedunangst.com/flak/post/OpenBSD-on-HP-Stream-7"/>
+            <psc:chapter start="00:18:30" title="DragonflyBSD steps towards base LibreSSL"
+                         href="http://lists.dragonflybsd.org/pipermail/commits/2016-September/624493.html"/>
+            <psc:chapter start="00:20:00" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:22:22" title="OpenBSD g2k16 Hackathon"/>
+            <psc:chapter start="00:27:30" title="News Roundup"/>
+            <psc:chapter start="00:27:30" title="OpenBSD (with encrypted softraid) on the Chromebook Pixel"
+                         href="https://jcs.org/notaweblog/2016/08/26/openbsd_chromebook/"/>
+            <psc:chapter start="00:31:25" title="doas mastery" href="http://www.tedunangst.com/flak/post/doas-mastery"/>
+            <psc:chapter start="00:36:15" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:39:30" title="FreeBSD Foundation Welcomes New Board Members"
+                         href="https://www.freebsdfoundation.org/blog/freebsd-foundation-welcomes-new-board-members/"/>
+            <psc:chapter start="00:43:31" title="more, less, and a story of typical Unix fossilization"
+                         href="https://utcc.utoronto.ca/~cks/space/blog/unix/MoreAndUnixFossilization"/>
+            <psc:chapter start="00:49:00" title="Beastie Bits"/>
+            <psc:chapter start="00:49:00" title="PC-BSD listed in the top 8 'best' alternatives to Windows 10"
+                         href="http://www.computerworlduk.com/galleries/operating-systems/-free-alternatives-windows-10-3639433/"/>
+            <psc:chapter start="00:49:40" title="Creating a quick DNS server with a Rapsberry Pi2 and FreeBSD 11.0-RC1"
+                         href="http://bsdimp.blogspot.co.uk/2016/08/creating-quick-dns-server-with.html"/>
+            <psc:chapter start="00:50:10" title="Dual Boot OpenBSD and Linux + UEFI"
+                         href="https://bsdlaptops.wordpress.com/2016/03/07/vaio-pro-11-part-2/"/>
+            <psc:chapter start="00:50:30" title="DesktopBSD 2.0 various versions available (Gnome, Lumina, KDE, LXDE)"
+                         href="http://desktopbsd.boards.net/board/10/announcements"/>
+            <psc:chapter start="00:50:50"
+                         title="FreeBSD gets new ZFS features including: Compressed ARC and ZFS Allocation Throttle"
+                         href="https://svnweb.freebsd.org/base?view=revision&amp;revision=305323"/>
+            <psc:chapter start="00:55:25" title="One Floppy NetBSD Distribution"
+                         href="https://github.com/user340/fdgw2"/>
+            <psc:chapter start="00:56:05" title="A Compendium of BUGs" href="https://github.com/q5sys/BUGtracker"/>
+            <psc:chapter start="00:58:08" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:00:05" title="Feedback/Questions"/>
+            <psc:chapter start="01:00:05" title="Galahad – OpenBSD X setup" href="http://pastebin.com/b7W6NHqs"/>
+            <psc:chapter start="01:01:15" title="Tang – Subtitles" href="http://pastebin.com/P4MUs3Pa"/>
+            <psc:chapter start="01:03:09" title="Ivan – Zpool Options" href="http://pastebin.com/LQ8yTp0G"/>
+            <psc:chapter start="01:06:51" title="Brad – Replication Issue" href="http://pastebin.com/XTK5gXMU"/>
+            <psc:chapter start="01:08:43" title="MJ – HBA" href="http://pastebin.com/TdYTMSj9"/>
+        </psc:chapters>
+        <contributor>
+            <name>Kris Moore</name>
+            <email>kris@pcbsd.org</email>
+            <uri>https://twitter.com/pcbsdkris</uri>
+        </contributor>
+        <contributor>
+            <name>Allan Jude</name>
+            <email>allan@jupiterbroadcasting.com</email>
+            <uri>https://twitter.com/allanjude</uri>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on BSDNow, we’ve got Netflix + FreeBSD news to discuss, which is always a crowd pleaser. That
+            plus EuroBSDCon is just around the corner &amp; more! Stick around for your place to B...SD!
+        </summary>
+        <content type="html">
+        </content>
+    </entry>
     <entry>
         <title>Ham, Radio &amp; Pie, Oh My!</title>
         <smi:episode>158</smi:episode>
