@@ -115,7 +115,7 @@
                     isDefault="false"/>
             <media:content
                     url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0156.mp4.torrent"
-                    type="application/x-bittorrent; enclosed=video/mp4"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
                     medium="video"
                     fileSize="598897714"
                     duration="5318"
@@ -524,7 +524,7 @@
                     isDefault="false"/>
             <media:content
                     url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0155.mp4.torrent"
-                    type="application/x-bittorrent; enclosed=video/mp4"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
                     medium="video"
                     duration="7057"
                     fileSize="794242835"
@@ -934,7 +934,7 @@
                     isDefault="false"/>
             <media:content
                     url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0154.mp4.torrent"
-                    type="application/x-bittorrent; enclosed=video/mp4"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
                     medium="video"
                     fileSize="336074078"
                     duration="2984"
@@ -1273,7 +1273,7 @@
                     isDefault="false"/>
             <media:content
                     url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0153.mp4.torrent"
-                    type="application/x-bittorrent; enclosed=video/mp4"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
                     medium="video"
                     fileSize="523543954"
                     duration="4649"
