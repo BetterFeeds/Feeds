@@ -90,12 +90,35 @@
                     fileSize="75737000"
                     type="audio/ogg"
                     medium="audio"
+                    duration="6055"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0135.mp3"
                     fileSize="48632780"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="6055"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0135-432p.mp4"
+                    fileSize="353312145"
+                    type="video/mp4"
+                    medium="video"
+                    duration="6055"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0135.mp4"
+                    fileSize="681778691"
+                    type="video/mp4"
+                    medium="video"
+                    duration="6055"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0135.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    duration="6055"
+                    fileSize="681778691"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/03/bsd-0135-v.jpg"/>
@@ -371,12 +394,35 @@
                     fileSize="94111170"
                     type="audio/ogg"
                     medium="audio"
+                    duration="7528"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0134.mp3"
                     fileSize="60416304"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="7528"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0134-432p.mp4"
+                    fileSize="439216369"
+                    type="video/mp4"
+                    medium="video"
+                    duration="7528"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0134.mp4"
+                    fileSize="847583494"
+                    type="video/mp4"
+                    medium="video"
+                    duration="7528"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0134.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="847583494"
+                    duration="7528"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/03/bsd-0134-v.jpg"/>
@@ -400,9 +446,9 @@
             <email>feld@freebsd.org</email>
             <uri>https://twitter.com/feldpos</uri>
         </contributor>
-        <summary>This week on the show, Allan &amp; Kris have gotten a bit more sleep since AsiaBSDCon, which is excellent
-            since there is a LOT of news to cover. That plus our interview with Ports SecTeam member Mark Felder. So
-            keep it tuned to BSDNow, the place to B...SD!
+        <summary>This week on the show, Allan &amp; Kris have gotten a bit more sleep since AsiaBSDCon, which is
+            excellent since there is a LOT of news to cover. That plus our interview with Ports SecTeam member Mark
+            Felder. So keep it tuned to BSDNow, the place to B...SD!
         </summary>
         <content type="html">&lt;h1&gt;Episode 134: Marking up the Ports tree&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
@@ -732,12 +778,35 @@
                     fileSize="62556835"
                     type="audio/ogg"
                     medium="audio"
+                    duration="4601"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0133.mp3"
                     fileSize="37002648"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="4601"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0133-432p.mp4"
+                    fileSize="268447962"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4601"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0133.mp4"
+                    fileSize="518155779"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4601"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0133.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="518155779"
+                    duration="4601"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/03/bsd-0133-v.jpg"/>
@@ -987,12 +1056,35 @@
                     fileSize="50279983"
                     type="audio/ogg"
                     medium="audio"
+                    duration="3886"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0132.mp3"
                     fileSize="31277861"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="3886"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0132-432p.mp4"
+                    fileSize="226769911"
+                    type="video/mp4"
+                    medium="video"
+                    duration="3886"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0132.mp4"
+                    fileSize="437609034"
+                    type="video/mp4"
+                    medium="video"
+                    duration="3886"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0132.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    duration="3886"
+                    fileSize="437609034"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/03/bsd-0132-v.jpg"/>
