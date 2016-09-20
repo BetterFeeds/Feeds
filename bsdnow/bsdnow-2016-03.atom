@@ -1108,6 +1108,50 @@
             of BSD for a while now &amp; we want to take this time to share it with you. That &amp; some Beastie Bits
             for your consumption, all this week on BSDNow.
         </summary>
+        <content type="html">&lt;h1&gt;Episode 132: Scaling up with BSD&lt;/h1&gt;
+            &lt;h2&gt;Interview - Allan Jude - &lt;a href=&quot;mailto:allanjude@freebsd.org&quot;&gt;allanjude@freebsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/allanjude&quot;&gt;@allanjude&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Spotlight on ScaleEngine&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Beastie Bits&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ebijun/NetBSD/blob/master/dmesg/earmv6hf/RPI0&quot;&gt;NetBSD
+            on an RPi Zero&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2016-February/228608.html&quot;&gt;DragonFly
+            tips for printing with CUPS&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://opnsense.org/fighting-fraudulent-networks-using-secure-connections-ssl-with-opnsense/&quot;&gt;Fighting
+            fraudulent networks using secure connections (SSL) blacklisting with OPNsense. Blocks known-bad certificates
+            as listed at abuse.ch
+            &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://imil.net/blog/2016/01/29/netbsdamd64-7-0-kvm/&quot;&gt;Fix for
+            running NetBSD/amd64 7.0 on kvm based virtual machines&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2537&quot;&gt;Michael W.
+            Lucas’s new book, FreeBSD Mastery: Specialty Filesystems is now escaping&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2534&quot;&gt;The Penguicon
+            Lucas Tech Track&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.unixmen.com/freebsd-nginx-ffmpeg-camera-recording-and-live-streaming/&quot;&gt;FreeBSD
+            based nginx/ffmpeg camera recording and live streaming&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/iXsystems/ixbuild/&quot;&gt;CFT: New Jenkins Builder
+            for FreeNAS / PC-BSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pcbsd/sysadm/&quot;&gt;Status Update: PC-BSD’s SysAdm
+            Server&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pcbsd/sysadm-ui-qt&quot;&gt;Status Update: PC-BSD’s
+            SysAdm Client UI&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
     </entry>
     <entry>
         <title>BSD Behind The Chalkboard</title>
@@ -1130,12 +1174,35 @@
                     fileSize="77423944"
                     type="audio/ogg"
                     medium="audio"
+                    duration="6069"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0131.mp3"
                     fileSize="48742495"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="6069"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0131-432p.mp4"
+                    fileSize="354155340"
+                    type="video/mp4"
+                    medium="video"
+                    duration="6069"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0131.mp4"
+                    fileSize="683375257"
+                    type="video/mp4"
+                    medium="video"
+                    duration="6069"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0131.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="683375257"
+                    duration="6069"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/03/bsd-0131-v.jpg"/>
