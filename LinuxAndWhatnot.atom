@@ -34,7 +34,7 @@
             type="application/opensearchdescription+xml"
             title="Linux &amp; Whatnot"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
-    <updated>2016-09-23T12:49:00Z</updated>
+    <updated>2016-09-23T13:27:00Z</updated>
     <author>
         <name>Bryan Lunduke</name>
         <uri>http://lunduke.com/</uri>
@@ -59,15 +59,13 @@
                 rel="enclosure"
                 length="72671773"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
-                    fileSize="72671773"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="3527"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
+                fileSize="72671773"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3527"
+                isDefault="true"/>
         <contributor>
             <name>Ryan Merkley</name>
             <uri>https://creativecommons.org/</uri>
@@ -91,15 +89,13 @@
                 rel="enclosure"
                 length="85136702"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
-                    fileSize="85136702"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="4022"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
+                fileSize="85136702"
+                type="audio/mpeg"
+                medium="audio"
+                duration="4022"
+                isDefault="true"/>
         <contributor>
             <name>Luke Leighton</name>
             <uri>https://www.crowdsupply.com/eoma68/micro-desktop</uri>
@@ -121,21 +117,19 @@
                 href="https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/</id>
         <published>2016-09-26T23:17:23Z</published>
-        <updated>2016-09-23T12:27:00Z</updated>
+        <updated>2016-09-23T13:26:00Z</updated>
         <link
                 href="http://archive.org/download/Whatnot006/Whatnot006.mp3"
                 rel="enclosure"
                 length="94809888"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/Whatnot006/Whatnot006.mp3"
-                    fileSize="94809888"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="3431"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/Whatnot006/Whatnot006.mp3"
+                fileSize="94809888"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3431"
+                isDefault="true"/>
         <contributor>
             <name>Alan Pope</name>
             <uri>https://unity.ubuntu.com/</uri>
@@ -167,15 +161,13 @@
                 rel="enclosure"
                 length="109792618"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
-                    fileSize="109792618"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="3946"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
+                fileSize="109792618"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3946"
+                isDefault="true"/>
         <contributor>
             <name>Jordan Keyes</name>
             <uri>https://www.youtube.com/user/twildottv</uri>
@@ -206,15 +198,13 @@
                 rel="enclosure"
                 length="93640600"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
-                    fileSize="93640600"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="4359"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
+                fileSize="93640600"
+                type="audio/mpeg"
+                medium="audio"
+                duration="4359"
+                isDefault="true"/>
         <contributor>
             <name>Ikey Doherty</name>
             <uri>https://solus-project.com/</uri>
@@ -245,15 +235,13 @@
                 rel="enclosure"
                 length="82173929"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
-                    fileSize="82173929"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="3905"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
+                fileSize="82173929"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3905"
+                isDefault="true"/>
         <contributor>
             <name>Barton George</name>
             <uri>http://www.dell.com/</uri>
@@ -281,15 +269,13 @@
                 rel="enclosure"
                 length="86873083"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
-                    fileSize="86873083"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="4020"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
+                fileSize="86873083"
+                type="audio/mpeg"
+                medium="audio"
+                duration="4020"
+                isDefault="true"/>
         <contributor>
             <name>Steven Vaughan-Nichols</name>
         </contributor>
@@ -320,15 +306,13 @@
                 rel="enclosure"
                 length="72516342"
                 type="audio/mpeg"/>
-        <media:group>
-            <media:content
-                    url="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
-                    fileSize="72516342"
-                    type="audio/mpeg"
-                    medium="audio"
-                    duration="3243"
-                    isDefault="true"/>
-        </media:group>
+        <media:content
+                url="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
+                fileSize="72516342"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3243"
+                isDefault="true"/>
         <contributor>
             <name>Michael Hall</name>
         </contributor>
