@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed
+        xml:lang="en-us"
+        xmlns="http://www.w3.org/2005/Atom"
+        xmlns:smi="https://www.betterfeeds.org/series-media-info"
+        xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Linux &amp; Whatnot</title>
+    <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
+        on &lt;a href=&quot;https://www.youtube.com/channel/UCkK9UDm_ZNrq_rIXCz3xCGA&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;Linux &amp; Whatnot is a freaking delightful romp. These two hosts have never done a show together
+        before — yet they have both hosted the same show at different times.&lt;/p&gt;
+        &lt;p&gt;No ads. None. Because ads get annoying.&lt;/p&gt;
+    </subtitle>
+    <icon>https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png</icon>
+    <media:thumbnail
+            url="https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png"/>
+    <link
+            href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom"
+            rel="self"
+            type="application/atom+xml; charset=utf-8"
+            title="Linux &amp; Whatnot"/>
+    <link
+            href="https://lundukewhatnot.wordpress.com/"
+            rel="alternate"
+            type="text/html"/>
+    <link
+            href="http://feeds.feedburner.com/LundukeWhatnotwithMatt"
+            rel="related"
+            type="application/rss+xml"
+            title="Linux &amp; Whatnot"/>
+    <link
+            href="https://lundukewhatnot.wordpress.com/osd.xml"
+            rel="search"
+            type="application/opensearchdescription+xml"
+            title="Linux &amp; Whatnot"/>
+    <id>https://lundukewhatnot.wordpress.com/</id>
+    <updated>2016-09-23T12:49:00Z</updated>
+    <author>
+        <name>Bryan Lunduke</name>
+        <uri>http://lunduke.com/</uri>
+    </author>
+    <author>
+        <name>Matt Hartley</name>
+        <uri>http://www.matthartley.com/</uri>
+    </author>
+    <smi:sequential>false</smi:sequential>
+    <entry>
+        <title>Creative Commons CEO</title>
+        <smi:episode>8</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/09/20/linux-whatnot-creative-commons-ceo-ryan-merkley/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/09/20/linux-whatnot-creative-commons-ceo-ryan-merkley/</id>
+        <published>2016-09-20T07:18:21</published>
+        <updated>2016-09-23T12:41:00Z</updated>
+        <link
+                href="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
+                rel="enclosure"
+                length="72671773"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
+                    fileSize="72671773"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="3527"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Ryan Merkley</name>
+            <uri>https://creativecommons.org/</uri>
+        </contributor>
+        <summary>We have a conversation with the CEO of Creative Commons (Ryan Merkley) about earning a living with Free
+            Culture licensed content and what the Creative Commons is up to lately.
+        </summary>
+    </entry>
+    <entry>
+        <title>EOMA68 PCMCIA Modular Computer</title>
+        <smi:episode>7</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/09/03/linux-whatnot-eoma68-pcmcia-modular-computer/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/09/03/linux-whatnot-eoma68-pcmcia-modular-computer/</id>
+        <published>2016-09-03T00:34:28</published>
+        <updated>2016-09-23T12:40:00Z</updated>
+        <link
+                href="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
+                rel="enclosure"
+                length="85136702"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
+                    fileSize="85136702"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="4022"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Luke Leighton</name>
+            <uri>https://www.crowdsupply.com/eoma68/micro-desktop</uri>
+        </contributor>
+        <contributor>
+            <name>Joshua Lifton</name>
+            <uri>https://www.crowdsupply.com/</uri>
+        </contributor>
+        <summary>We chat with the folks behind the EOMA68. The complete, Linux-powered computer that fits inside a
+            PCMCIA card that can be used in laptop/desktop, modular cases.
+        </summary>
+    </entry>
+    <entry>
+        <title>KDE, Unity, Pantheon (Desktop Environments)</title>
+        <smi:episode>6</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/</id>
+        <published>2016-09-26T23:17:23</published>
+        <updated>2016-09-23T12:27:00Z</updated>
+        <link
+                href="http://archive.org/download/Whatnot006/Whatnot006.mp3"
+                rel="enclosure"
+                length="94809888"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/Whatnot006/Whatnot006.mp3"
+                    fileSize="94809888"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="3431"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Alan Pope</name>
+            <uri>https://unity.ubuntu.com/</uri>
+        </contributor>
+        <contributor>
+            <name>Daniel Fore</name>
+            <uri>https://elementary.io/</uri>
+        </contributor>
+        <contributor>
+            <name>Thomas Pfeiffer</name>
+            <uri>https://www.kde.org/workspaces/plasmadesktop/</uri>
+        </contributor>
+        <summary>We chat with some of the cool people involved with three Desktop Environments – KDE, Unity and
+            Pantheon.
+        </summary>
+    </entry>
+    <entry>
+        <title>The Linux YouTubers</title>
+        <smi:episode>5</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/08/20/linux-whatnot-the-linux-youtubers/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/08/20/linux-whatnot-the-linux-youtubers/</id>
+        <published>2016-08-20T20:43:40</published>
+        <updated>2016-09-23T12:34:00Z</updated>
+        <link
+                href="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
+                rel="enclosure"
+                length="109792618"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
+                    fileSize="109792618"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="3946"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Jordan Keyes</name>
+            <uri>https://www.youtube.com/user/twildottv</uri>
+        </contributor>
+        <contributor>
+            <name>Joe Collins</name>
+            <uri>http://www.ezeelinux.com/</uri>
+        </contributor>
+        <contributor>
+            <name>AJ Reissig</name>
+            <uri>http://ajreissig.com/</uri>
+        </contributor>
+        <summary>We chat with Linux YouTubers – Jordan Keyes, Joe Collins &amp; AJ Reissig.
+        </summary>
+    </entry>
+    <entry>
+        <title>Solus, elementary and Ubuntu-MATE</title>
+        <smi:episode>4</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/08/11/lunduke-and-whatnot-solus-elementary-and-ubuntu-mate/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/08/11/lunduke-and-whatnot-solus-elementary-and-ubuntu-mate/</id>
+        <published>2016-08-11T16:58:48</published>
+        <updated>2016-09-23T12:27:00Z</updated>
+        <link
+                href="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
+                rel="enclosure"
+                length="93640600"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
+                    fileSize="93640600"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="4359"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Ikey Doherty</name>
+            <uri>https://solus-project.com/</uri>
+        </contributor>
+        <contributor>
+            <name>Martin Wimpress</name>
+            <uri>https://ubuntu-mate.org/</uri>
+        </contributor>
+        <contributor>
+            <name>Daniel Fore</name>
+            <uri>https://elementary.io/</uri>
+        </contributor>
+        <summary>We chat with the founders of three amazing Linux distributions – Solus, elementary and Ubuntu MATE.
+        </summary>
+    </entry>
+    <entry>
+        <title>Dell. System76.</title>
+        <smi:episode>3</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/08/02/lunduke-and-whatnot-with-matt-episode-3-dell-system76/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/08/02/lunduke-and-whatnot-with-matt-episode-3-dell-system76/</id>
+        <published>2016-08-02T20:21:10</published>
+        <updated>2016-09-23T12:23:00Z</updated>
+        <link
+                href="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
+                rel="enclosure"
+                length="82173929"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
+                    fileSize="82173929"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="3905"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Barton George</name>
+            <uri>http://www.dell.com/</uri>
+        </contributor>
+        <contributor>
+            <name>Carl Richell</name>
+            <uri>https://system76.com/</uri>
+        </contributor>
+        <summary>They both sell laptops that ship with Linux. So we have them on for a friendly chat – at the same time
+            – about the business of selling computers pre-loaded with Linux.
+        </summary>
+    </entry>
+    <entry>
+        <title>Tech Journalism Roundtable</title>
+        <smi:episode>2</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/07/25/lunduke-and-whatnot-tech-journalism-roundtable/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/07/25/lunduke-and-whatnot-tech-journalism-roundtable/</id>
+        <published>2016-09-25T20:34:34</published>
+        <updated>2016-09-23T12:16:00Z</updated>
+        <link
+                href="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
+                rel="enclosure"
+                length="86873083"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
+                    fileSize="86873083"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="4020"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Steven Vaughan-Nichols</name>
+        </contributor>
+        <contributor>
+            <name>Rikki Endsley</name>
+            <uri>https://opensource.com/</uri>
+        </contributor>
+        <contributor>
+            <name>Whitson Gordon</name>
+        </contributor>
+        <summary>We hang out with some some of our technology journalist buddies — Steven Vaughan-Nichols, Rikki
+            Endsley, and Whitson Gordon — to talk about click-bait, journalistic integrity and how the mainstream news
+            so often get tech topics wrong. Plus a surprise appearance from a wounded tech journalist, Jack Wallen.
+        </summary>
+    </entry>
+    <entry>
+        <title>Ubuntu 10-inch Tablet</title>
+        <smi:episode>1</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/07/18/lunduke-and-whatnot-ubuntu-10-inch-tablet/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/07/18/lunduke-and-whatnot-ubuntu-10-inch-tablet/</id>
+        <published>2016-07-T1820:42:05</published>
+        <updated>2016-09-23T12:10:00Z</updated>
+        <link
+                href="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
+                rel="enclosure"
+                length="72516342"
+                type="audio/mpeg"/>
+        <media:group>
+            <media:content
+                    url="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
+                    fileSize="72516342"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="3243"
+                    isDefault="true"/>
+        </media:group>
+        <contributor>
+            <name>Michael Hall</name>
+        </contributor>
+        <summary>We hang out with Michael Hall, Community Manager at Canonical, and talk about the Ubuntu tablet and
+            Ubuntu mobile user experience.
+        </summary>
+    </entry>
+</feed>
