@@ -90,12 +90,35 @@
                     fileSize="34049427"
                     type="audio/ogg"
                     medium="audio"
+                    duration="4340"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0091.mp3"
                     fileSize="34913897"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="4340"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0091-432p.mp4"
+                    fileSize="253226636"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4340"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0091.mp4"
+                    fileSize="488818309"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4340"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0091.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="488818309"
+                    duration="4340"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/05/bsd-0091-v.jpg"/>
@@ -302,12 +325,35 @@
                     fileSize="35175202"
                     type="audio/ogg"
                     medium="audio"
+                    duration="4387"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0090.mp3"
                     fileSize="35285045"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="4387"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0090-432p.mp4"
+                    fileSize="255702619"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4387"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0090.mp4"
+                    fileSize="493996330"
+                    type="video/mp4"
+                    medium="video"
+                    duration="4387"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0090.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="493996330"
+                    duration="4387"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/05/bsd-0090-v.jpg"/>
@@ -517,12 +563,35 @@
                     fileSize="28616166"
                     type="audio/ogg"
                     medium="audio"
+                    duration="3794"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0089b.mp3"
                     fileSize="30540581"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="3794"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0089b-432p.mp4"
+                    fileSize="221353211"
+                    type="video/mp4"
+                    medium="video"
+                    duration="3794"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0089b.mp4"
+                    fileSize="427222898"
+                    type="video/mp4"
+                    medium="video"
+                    duration="3794"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0089b.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="427222898"
+                    duration="3794"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/05/bsd-0089-v.jpg"/>
@@ -742,12 +811,35 @@
                     fileSize="40727428"
                     type="audio/ogg"
                     medium="audio"
+                    duration="5640"
                     isDefault="true"/>
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0088.mp3"
                     fileSize="45307288"
                     type="audio/mpeg"
                     medium="audio"
+                    duration="5640"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0088-432p.mp4"
+                    fileSize="328701844"
+                    type="video/mp4"
+                    medium="video"
+                    duration="5640"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0088.mp4"
+                    fileSize="634606981"
+                    type="video/mp4"
+                    medium="video"
+                    duration="5640"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0088.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="634606981"
+                    duration="5640"
                     isDefault="false"/>
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2015/05/bsd-0088-v.jpg"/>
