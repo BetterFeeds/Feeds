@@ -6,68 +6,27 @@
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>
-    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
-        Tutorials and Interviews for new users and long time developers alike.
-    </subtitle>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-03.atom"
-            rel="self"
-            type="application/atom+xml; charset=utf-8"
-            title="BSD Now"/>
-    <link
-            href="http://www.bsdnow.tv/"
-            rel="alternate"
-            type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now MP3 Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now OGG Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now SD Video"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowHd"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video"/>
-    <link
-            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video (BitTorrent)"/>
+            rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-04.atom"
-            rel="previous"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-02.atom"
-            rel="next"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="next" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
-            rel="first"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="first" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
-            rel="last"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-07-14T07:31:00Z</updated>
-    <author>
-        <name>Jupiter Broadcasting</name>
-        <uri>www.jupiterbroadcasting.com</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Documentation is King</title>

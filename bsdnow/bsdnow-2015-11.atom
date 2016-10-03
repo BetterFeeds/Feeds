@@ -6,68 +6,27 @@
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>
-    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
-        Tutorials and Interviews for new users and long time developers alike.
-    </subtitle>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-11.atom"
-            rel="self"
-            type="application/atom+xml; charset=utf-8"
-            title="BSD Now"/>
-    <link
-            href="http://www.bsdnow.tv/"
-            rel="alternate"
-            type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now MP3 Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now OGG Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now SD Video"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowHd"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video"/>
-    <link
-            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video (BitTorrent)"/>
+            rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-12.atom"
-            rel="previous"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-10.atom"
-            rel="next"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="next" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
-            rel="first"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="first" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
-            rel="last"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-06-30T07:45:00Z</updated>
-    <author>
-        <name>Jupiter Broadcasting</name>
-        <uri>www.jupiterbroadcasting.com</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>The Cantrill Strikes Back</title>
@@ -100,19 +59,19 @@
                     duration="8011"
                     isDefault="false"/>
             <media:content
-                url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0117-432p.mp4"
-                fileSize="467298443"
-                type="video/mp4"
-                medium="video"
-                duration="8011"
-                isDefault="false"/>
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0117-432p.mp4"
+                    fileSize="467298443"
+                    type="video/mp4"
+                    medium="video"
+                    duration="8011"
+                    isDefault="false"/>
             <media:content
-                url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0117.mp4"
-                fileSize="901865089"
-                type="video/mp4"
-                medium="video"
-                duration="8011"
-                isDefault="false"/>
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2015/bsd-0117.mp4"
+                    fileSize="901865089"
+                    type="video/mp4"
+                    medium="video"
+                    duration="8011"
+                    isDefault="false"/>
             <media:content
                     url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0117.mp4.torrent"
                     type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
@@ -1137,64 +1096,98 @@
         <content type="html">&lt;h1&gt;Episode 114: BSD-Schooling&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.wired.com/2015/10/whatsapps-co-founder-on-how-the-iconoclastic-app-got-huge/&quot;&gt;WhatsApp founder, on how it got so HUGE&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://www.wired.com/2015/10/whatsapps-co-founder-on-how-the-iconoclastic-app-got-huge/&quot;&gt;WhatsApp
+            founder, on how it got so HUGE&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Wired has interviewed WhatsApp co-founder Brian Acton, about the infrastructure behind WhatsApp&lt;/li&gt;
-            &lt;li&gt;WhatsApp manages 900 million users with a team of 50, while Twitter needs around 4,000 employees to manage 300 million users.&lt;/li&gt;
-            &lt;li&gt;“FreeBSD has a nicely tuned network stack and extremely good reliability. We find managing FreeBSD installations to be quite straightforward.”&lt;/li&gt;
-            &lt;li&gt;“Linux is a beast of complexity. FreeBSD has the advantage of being a single distribution with an extraordinarily good ports collection.”&lt;/li&gt;
-            &lt;li&gt;“To us, it has been an advantage as we have had very few problems that have occurred at the OS level. With Linux, you tend to have to wrangle more and you want to avoid that if you can.”&lt;/li&gt;
+            &lt;li&gt;WhatsApp manages 900 million users with a team of 50, while Twitter needs around 4,000 employees
+            to manage 300 million users.&lt;/li&gt;
+            &lt;li&gt;“FreeBSD has a nicely tuned network stack and extremely good reliability. We find managing FreeBSD
+            installations to be quite straightforward.”&lt;/li&gt;
+            &lt;li&gt;“Linux is a beast of complexity. FreeBSD has the advantage of being a single distribution with an
+            extraordinarily good ports collection.”&lt;/li&gt;
+            &lt;li&gt;“To us, it has been an advantage as we have had very few problems that have occurred at the OS
+            level. With Linux, you tend to have to wrangle more and you want to avoid that if you can.”&lt;/li&gt;
             &lt;li&gt;“FreeBSD happened because both Jan and I have experience with FreeBSD from Yahoo!.”&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://uk.businessinsider.com/whatsapp-built-using-erlang-and-freebsd-2015-10&quot;&gt;Additional Coverage &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://uk.businessinsider.com/whatsapp-built-using-erlang-and-freebsd-2015-10&quot;&gt;Additional
+            Coverage &lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/&quot;&gt;User feedback in the SystemD vs BSD init&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/&quot;&gt;User
+            feedback in the SystemD vs BSD init&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We have a very detailed blog post this week from Randy Westlund, about his experiences on Linux and BSD, contrasting the init systems.&lt;/li&gt;
-            &lt;li&gt;What he finds is that while, it does make some things easier, such as writing a service file once, and having it run everywhere, the tradeoff comes in the complexity and lack of transparency. &lt;/li&gt;
-            &lt;li&gt;Another area of concern was the reproducibility of boots, how in his examples on servers, there can often be times when services start in different orders, to save a few moments of boot-time.&lt;/li&gt;
-            &lt;li&gt;His take on the simplicity of BSD’s startup scripts is that they are very easy to hack on and monitor, while not introducing the feature creep we have seen in sysd. &lt;/li&gt;
+            &lt;li&gt;We have a very detailed blog post this week from Randy Westlund, about his experiences on Linux
+            and BSD, contrasting the init systems.&lt;/li&gt;
+            &lt;li&gt;What he finds is that while, it does make some things easier, such as writing a service file once,
+            and having it run everywhere, the tradeoff comes in the complexity and lack of transparency. &lt;/li&gt;
+            &lt;li&gt;Another area of concern was the reproducibility of boots, how in his examples on servers, there
+            can often be times when services start in different orders, to save a few moments of boot-time.&lt;/li&gt;
+            &lt;li&gt;His take on the simplicity of BSD’s startup scripts is that they are very easy to hack on and
+            monitor, while not introducing the feature creep we have seen in sysd. &lt;/li&gt;
             &lt;li&gt;It will be interesting to see NextBSD / LaunchD and how it compares in the future!&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://opensource.com/business/15/10/ato-interview-jim-salter&quot;&gt;Learn to embrace open source, or get buried&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://opensource.com/business/15/10/ato-interview-jim-salter&quot;&gt;Learn to
+            embrace open source, or get buried&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;At the recent “All Things Open” conference, opensource.com interviewed Jim Salter&lt;/li&gt;
             &lt;li&gt;He describes how he first got started using FreeBSD to host his personal website&lt;/li&gt;
             &lt;li&gt;He then goes on to talk about starting FreeBSDWiki.net and what its goals were&lt;/li&gt;
-            &lt;li&gt;The interview then talks about using Open Source at solve customers’ problems at his consulting firm&lt;/li&gt;
-            &lt;li&gt;Finally, the talks about his presentation at AllThingsOpen: &lt;a href=&quot;http://allthingsopen.org/talks/move-over-rsync/&quot;&gt;Move Over, Rsync
+            &lt;li&gt;The interview then talks about using Open Source at solve customers’ problems at his consulting
+            firm&lt;/li&gt;
+            &lt;li&gt;Finally, the talks about his presentation at AllThingsOpen: &lt;a href=&quot;http://allthingsopen.org/talks/move-over-rsync/&quot;&gt;Move
+            Over, Rsync
             &lt;/a&gt; about switching to ZFS replication&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lwn.net/Articles/660428/&quot;&gt;HP’s CTO Urges businesses to avoid permissive licenses &lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lwn.net/Articles/660428/&quot;&gt;HP’s CTO Urges businesses to avoid
+            permissive licenses &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Martin Fink went on a rant about the negative effects of license proliferation&lt;/li&gt;
-            &lt;li&gt;While I agree that having too many new licenses is confusing and adds difficulty, I didn’t agree with his closing point&lt;/li&gt;
-            &lt;li&gt;“He then ended the session with an extended appeal to move the open-source software industry away from permissive licenses like Apache 2.0 and toward copyleft licenses like the GPL”&lt;/li&gt;
-            &lt;li&gt;“The Apache 2.0 license is currently the most widely used &quot;permissive&quot; license. But the thing that developers overlook when adopting it, he said, is that by using Apache they are also making a choice about how much work they will have to put into building any sort of community around the project. If you look at Apache-licensed projects, he noted, &quot;you&#39;ll find that they are very top-heavy with &#39;governance&#39; structures.&quot; Technical committees, working groups, and various boards, he said, are needed to make such projects function. But if you look at copyleft projects, he added, you find that those structures simply are not needed.”&lt;/li&gt;
-            &lt;li&gt;There are plenty of smaller permissively licensed projects that do not have this sort of structure, infact, most of this structure comes from being an Apache run project, rather than from using the Apache or any other permissive license&lt;/li&gt;
-            &lt;li&gt;Luckily, he goes on to state that the “OpenSwitch code is released under the Apache 2.0 license, he said, because the other partner companies viewed that as a requirement.”&lt;/li&gt;
-            &lt;li&gt;“HP wanted to get networking companies and hardware suppliers on board. In order to get all of the legal departments at all of the partners to sign on to the project, he said, HP was forced to go with a permissive license”&lt;/li&gt;
+            &lt;li&gt;While I agree that having too many new licenses is confusing and adds difficulty, I didn’t agree
+            with his closing point&lt;/li&gt;
+            &lt;li&gt;“He then ended the session with an extended appeal to move the open-source software industry away
+            from permissive licenses like Apache 2.0 and toward copyleft licenses like the GPL”&lt;/li&gt;
+            &lt;li&gt;“The Apache 2.0 license is currently the most widely used &quot;permissive&quot; license. But the
+            thing that developers overlook when adopting it, he said, is that by using Apache they are also making a
+            choice about how much work they will have to put into building any sort of community around the project. If
+            you look at Apache-licensed projects, he noted, &quot;you&#39;ll find that they are very top-heavy with
+            &#39;governance&#39; structures.&quot; Technical committees, working groups, and various boards, he said,
+            are needed to make such projects function. But if you look at copyleft projects, he added, you find that
+            those structures simply are not needed.”&lt;/li&gt;
+            &lt;li&gt;There are plenty of smaller permissively licensed projects that do not have this sort of
+            structure, infact, most of this structure comes from being an Apache run project, rather than from using the
+            Apache or any other permissive license&lt;/li&gt;
+            &lt;li&gt;Luckily, he goes on to state that the “OpenSwitch code is released under the Apache 2.0 license,
+            he said, because the other partner companies viewed that as a requirement.”&lt;/li&gt;
+            &lt;li&gt;“HP wanted to get networking companies and hardware suppliers on board. In order to get all of the
+            legal departments at all of the partners to sign on to the project, he said, HP was forced to go with a
+            permissive license”&lt;/li&gt;
             &lt;li&gt;Hopefully the trend towards permissive licenses continues&lt;/li&gt;
             &lt;li&gt;Additionally, in a separate LWN post:&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://lwn.net/Articles/659757/&quot;&gt;RMS Says: “I am not saying that competitors to a GNU package are unjust or bad -- that isn&#39;t necessarily so. The pertinent point is that they are &lt;em&gt;competitors&lt;/em&gt;. The goal of the GNU Project is for GNU to win the competition. Each GNU package is a part of the GNU system, and should contribute to the success of the GNU Project. Thus, each GNU package should encourage people to run other GNU packages rather than their competitors -- even competitors which are free software.” &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lwn.net/Articles/659757/&quot;&gt;RMS Says: “I am not saying that
+            competitors to a GNU package are unjust or bad -- that isn&#39;t necessarily so. The pertinent point is that
+            they are &lt;em&gt;competitors&lt;/em&gt;. The goal of the GNU Project is for GNU to win the competition.
+            Each GNU package is a part of the GNU system, and should contribute to the success of the GNU Project. Thus,
+            each GNU package should encourage people to run other GNU packages rather than their competitors -- even
+            competitors which are free software.” &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;Never thought I’d see RMS espousing vendor lock-in&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h2&gt;Interview - Brian Callahan - &lt;a href=&quot;mailto:bcallah@devio.us&quot;&gt;bcallah@devio.us&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/__briancallahan&quot;&gt;@twitter&lt;/a&gt;&lt;/h2&gt;
+            &lt;h2&gt;Interview - Brian Callahan - &lt;a href=&quot;mailto:bcallah@devio.us&quot;&gt;bcallah@devio.us&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/__briancallahan&quot;&gt;@twitter&lt;/a&gt;&lt;/h2&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The BSDs in Education&lt;/li&gt;
@@ -1204,39 +1197,53 @@
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2015-October/228403.html&quot;&gt;Digital Libraries in Africa making use of DragonflyBSD and HAMMER&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2015-October/228403.html&quot;&gt;Digital
+            Libraries in Africa making use of DragonflyBSD and HAMMER&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;In the international development context, we have an interesting post from Michael Wilson of the PeerCorps Trust Fund.&lt;/li&gt;
-            &lt;li&gt;They are using DragonFlyBSD and FreeBSD to support the Tanzanian Digital Library Initiative in very resource-limited settings.  &lt;/li&gt;
-            &lt;li&gt;They cite among the most important reasons for using BSD as the availability and quality of the documentation, as well as the robustness of the filesystems, both ZFS and HAMMER.&lt;/li&gt;
-            &lt;li&gt;Their website is now online over at (http://www.tandli.com/) , check it out to see exactly how BSD is being used in the field&lt;/li&gt;
+            &lt;li&gt;In the international development context, we have an interesting post from Michael Wilson of the
+            PeerCorps Trust Fund.&lt;/li&gt;
+            &lt;li&gt;They are using DragonFlyBSD and FreeBSD to support the Tanzanian Digital Library Initiative in
+            very resource-limited settings. &lt;/li&gt;
+            &lt;li&gt;They cite among the most important reasons for using BSD as the availability and quality of the
+            documentation, as well as the robustness of the filesystems, both ZFS and HAMMER.&lt;/li&gt;
+            &lt;li&gt;Their website is now online over at (http://www.tandli.com/) , check it out to see exactly how BSD
+            is being used in the field&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://twitter.com/ed_maste/status/655120086248763396&quot;&gt;netflix hits &amp;gt; 65gbps from a single freebsd box&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://twitter.com/ed_maste/status/655120086248763396&quot;&gt;netflix hits
+            &amp;gt; 65gbps from a single freebsd box&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;A single socket server, with a high end Xeon E5 processor and a dual ported Chelsio T580 (2x 40 Gbps ports) set a netflix record pushing over 65 Gbps of traffic from a single machine&lt;/li&gt;
+            &lt;li&gt;A single socket server, with a high end Xeon E5 processor and a dual ported Chelsio T580 (2x 40
+            Gbps ports) set a netflix record pushing over 65 Gbps of traffic from a single machine&lt;/li&gt;
             &lt;li&gt;The videos were being pushed from SSDs and some new high end NVMe devices&lt;/li&gt;
-            &lt;li&gt;The previous record at Netflix was 52 Gbps from a single machine, but only with very experimental settings. The current work is under much more typical settings&lt;/li&gt;
+            &lt;li&gt;The previous record at Netflix was 52 Gbps from a single machine, but only with very experimental
+            settings. The current work is under much more typical settings&lt;/li&gt;
             &lt;li&gt;By the end of that night, traffic surged to over 70 Gbps&lt;/li&gt;
-            &lt;li&gt;Only about 10-15% of that traffic was encrypted with the in-kernel TLS engine that Netflix has been working on with John-Mark Gurney&lt;/li&gt;
+            &lt;li&gt;Only about 10-15% of that traffic was encrypted with the in-kernel TLS engine that Netflix has
+            been working on with John-Mark Gurney&lt;/li&gt;
             &lt;li&gt;It was reported that the machine was only using about 65% cpu, and had plenty of head room&lt;/li&gt;
             &lt;li&gt;If I remember the discussion correctly, there were about 60,000 streams running off the machine&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lumina-desktop.org/lumina-desktop-0-8-7-released/&quot;&gt;Lumina Desktop 0.8.7 has been released&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lumina-desktop.org/lumina-desktop-0-8-7-released/&quot;&gt;Lumina Desktop
+            0.8.7 has been released&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;A very large update has landed for PC-BSD’s Lumina desktop&lt;/li&gt;
-            &lt;li&gt;A brand new “Start” menu has been added, which enables quick launch of favorite apps, pinning to desktop / favorites and more.&lt;/li&gt;
-            &lt;li&gt;Desktop icons have been overhauled, with better font support, and a new Grid system for placement of icons.&lt;/li&gt;
-            &lt;li&gt;Support for other BSD’s such as DragonFly has been improved, along with TONS of internal changes to functionality and backends.&lt;/li&gt;
-            &lt;li&gt;Almost too many things to list here, but the link above will have full details, along with screenshots.&lt;/li&gt;
+            &lt;li&gt;A brand new “Start” menu has been added, which enables quick launch of favorite apps, pinning to
+            desktop / favorites and more.&lt;/li&gt;
+            &lt;li&gt;Desktop icons have been overhauled, with better font support, and a new Grid system for placement
+            of icons.&lt;/li&gt;
+            &lt;li&gt;Support for other BSD’s such as DragonFly has been improved, along with TONS of internal changes
+            to functionality and backends.&lt;/li&gt;
+            &lt;li&gt;Almost too many things to list here, but the link above will have full details, along with
+            screenshots.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1245,9 +1252,12 @@
 
             &lt;ul&gt;
             &lt;li&gt;After a three year absence, the Jibbed project has come back with a Live USB image for NetBSD!&lt;/li&gt;
-            &lt;li&gt;The image contains NetBSD 7.0, and is fully R/W, allowing you to run the entire system from a single USB drive.&lt;/li&gt;
-            &lt;li&gt;Images are available for 8Gb and 4Gb sticks (64bit and 32bit respectively), along with VirtualBox images as well&lt;/li&gt;
-            &lt;li&gt;For those wanting X, it includes both X and TWM, although ‘pkgin’ is available, so you can quickly add other desktops to the image&lt;/li&gt;
+            &lt;li&gt;The image contains NetBSD 7.0, and is fully R/W, allowing you to run the entire system from a
+            single USB drive.&lt;/li&gt;
+            &lt;li&gt;Images are available for 8Gb and 4Gb sticks (64bit and 32bit respectively), along with VirtualBox
+            images as well&lt;/li&gt;
+            &lt;li&gt;For those wanting X, it includes both X and TWM, although ‘pkgin’ is available, so you can quickly
+            add other desktops to the image&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1255,16 +1265,25 @@
             &lt;h3&gt;Beastie Bits&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151021191401&amp;amp;mode=expanded&quot;&gt;After recent discussions of revisiting W^X support in Mozilla Firefox, David Coppa has flipped the switch to enable it for OpenBSD users running -current.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lme.postach.io/post/changing-console-resolution-in-freebsd-10-with-vt-4&quot;&gt;Using the vt(4) driver to change console resolution&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/10/conference-recap-grace-hopper.html&quot;&gt;The FreeBSD Foundation gives a great final overview of the Grace Hopper Conference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/@jmmv/compilers-in-the-bsd-base-system-1c4515a18c49&quot;&gt;A dialog about Compilers in the (BSD) base system&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1q5aDEt18mw&quot;&gt;One upping their 48-core work from July, The Semihalf team shows off their the 96-core SMP support for FreeBSD on Cavium ThunderX (ARMv8 architecture&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151021191401&amp;amp;mode=expanded&quot;&gt;After
+            recent discussions of revisiting W^X support in Mozilla Firefox, David Coppa has flipped the switch to
+            enable it for OpenBSD users running -current.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lme.postach.io/post/changing-console-resolution-in-freebsd-10-with-vt-4&quot;&gt;Using
+            the vt(4) driver to change console resolution&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/10/conference-recap-grace-hopper.html&quot;&gt;The
+            FreeBSD Foundation gives a great final overview of the Grace Hopper Conference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/@jmmv/compilers-in-the-bsd-base-system-1c4515a18c49&quot;&gt;A
+            dialog about Compilers in the (BSD) base system&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1q5aDEt18mw&quot;&gt;One upping their
+            48-core work from July, The Semihalf team shows off their the 96-core SMP support for FreeBSD on Cavium
+            ThunderX (ARMv8 architecture&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2015-October/016384.html&quot;&gt;NYC Bug&#39;s November meeting will be featuring a talk by Stephen R. Bourne&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/talk/2015-October/016384.html&quot;&gt;NYC Bug&#39;s
+            November meeting will be featuring a talk by Stephen R. Bourne&lt;/a&gt;&lt;/h3&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://garbage.fm/&quot;&gt;New not-just-BSD postcast, hosted by two OpenBSD devs Brandon Mercer and Joshua Stein&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://garbage.fm/&quot;&gt;New not-just-BSD postcast, hosted by two OpenBSD devs
+            Brandon Mercer and Joshua Stein&lt;/a&gt;&lt;/h3&gt;
 
             &lt;hr&gt;
 

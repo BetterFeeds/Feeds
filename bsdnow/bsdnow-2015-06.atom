@@ -6,68 +6,27 @@
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>
-    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
-        Tutorials and Interviews for new users and long time developers alike.
-    </subtitle>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-06.atom"
-            rel="self"
-            type="application/atom+xml; charset=utf-8"
-            title="BSD Now"/>
-    <link
-            href="http://www.bsdnow.tv/"
-            rel="alternate"
-            type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now MP3 Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now OGG Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now SD Video"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowHd"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video"/>
-    <link
-            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video (BitTorrent)"/>
+            rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-07.atom"
-            rel="previous"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-05.atom"
-            rel="next"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="next" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
-            rel="first"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="first" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
-            rel="last"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-06-30T07:18:00Z</updated>
-    <author>
-        <name>Jupiter Broadcasting</name>
-        <uri>www.jupiterbroadcasting.com</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Bitrot Group Therapy</title>
@@ -781,52 +740,69 @@
         <content type="html">&lt;h1&gt;Episode 092: BSD After Midnight&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://toni.yweb.fi/2015/05/zocker-diy-docker-on-freebsd.html&quot;&gt;Zocker, it&#39;s like docker on FreeBSD&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://toni.yweb.fi/2015/05/zocker-diy-docker-on-freebsd.html&quot;&gt;Zocker, it&#39;s
+            like docker on FreeBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Containment is always a hot topic, and docker has gotten a lot of hype in Linux land in the last couple years - they&#39;re working on native FreeBSD support at the moment&lt;/li&gt;
-            &lt;li&gt;This blog post is about a docker-&lt;em&gt;like&lt;/em&gt; script, mainly for ease-of-use, that uses only jails and ZFS in the base system&lt;/li&gt;
-            &lt;li&gt;In total, it&#39;s &lt;a href=&quot;https://github.com/toddnni/zocker&quot;&gt;1,500 lines of shell script&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;The post goes through the process of using the tool, showing off all the subcommands and explaining the configuration&lt;/li&gt;
+            &lt;li&gt;Containment is always a hot topic, and docker has gotten a lot of hype in Linux land in the last
+            couple years - they&#39;re working on native FreeBSD support at the moment&lt;/li&gt;
+            &lt;li&gt;This blog post is about a docker-&lt;em&gt;like&lt;/em&gt; script, mainly for ease-of-use, that
+            uses only jails and ZFS in the base system&lt;/li&gt;
+            &lt;li&gt;In total, it&#39;s &lt;a href=&quot;https://github.com/toddnni/zocker&quot;&gt;1,500 lines of
+            shell script&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;The post goes through the process of using the tool, showing off all the subcommands and
+            explaining the configuration&lt;/li&gt;
             &lt;li&gt;In contrast to something like ezjail, Zocker utilizes the jail.conf system in the 10.x branch&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.marc.info/?l=openbsd-cvs&amp;amp;m=143285964216970&amp;amp;w=4&quot;&gt;Patrol Read in OpenBSD&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.marc.info/?l=openbsd-cvs&amp;amp;m=143285964216970&amp;amp;w=4&quot;&gt;Patrol
+            Read in OpenBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;OpenBSD has recently imported some new code to support the &lt;a href=&quot;http://www.intel.com/support/motherboards/server/sb/CS-028742.htm&quot;&gt;Patrol Read&lt;/a&gt; function of some RAID controllers&lt;/li&gt;
-            &lt;li&gt;In a nutshell, Patrol Read is a function that lets you check the health of your drives in the background, similar to a zpool &quot;scrub&quot; operation&lt;/li&gt;
+            &lt;li&gt;OpenBSD has recently imported some new code to support the &lt;a href=&quot;http://www.intel.com/support/motherboards/server/sb/CS-028742.htm&quot;&gt;Patrol
+            Read&lt;/a&gt; function of some RAID controllers&lt;/li&gt;
+            &lt;li&gt;In a nutshell, Patrol Read is a function that lets you check the health of your drives in the
+            background, similar to a zpool &quot;scrub&quot; operation&lt;/li&gt;
             &lt;li&gt;The goal is to protect file integrity by detecting drive failures before they can damage your data&lt;/li&gt;
             &lt;li&gt;It detects bad blocks and prevents silent data corruption, while marking any bad sectors it finds&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418653.html&quot;&gt;HAMMER 2 improvements&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418653.html&quot;&gt;HAMMER
+            2 improvements&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;DragonFly BSD has been working on the second generation HAMMER FS&lt;/li&gt;
             &lt;li&gt;It now uses LZ4 compression by default, which we&#39;ve been big fans of in ZFS&lt;/li&gt;
-            &lt;li&gt;They&#39;ve also switched to a &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418652.html&quot;&gt;faster CRC&lt;/a&gt; algorithm, further improving HAMMER&#39;s performance, &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418651.html&quot;&gt;especially&lt;/a&gt; when using iSCSI&lt;/li&gt;
+            &lt;li&gt;They&#39;ve also switched to a &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418652.html&quot;&gt;faster
+            CRC&lt;/a&gt; algorithm, further improving HAMMER&#39;s performance, &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2015-May/418651.html&quot;&gt;especially&lt;/a&gt;
+            when using iSCSI&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/press/2015mayupdate.pdf&quot;&gt;FreeBSD foundation May update&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/press/2015mayupdate.pdf&quot;&gt;FreeBSD
+            foundation May update&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The FreeBSD foundation has published another update newsletter, detailing some of the things they&#39;ve been up to lately&lt;/li&gt;
-            &lt;li&gt;In it, you&#39;ll find some development status updates: notably more ARM64 work and the addition of 64 bit Linux emulation&lt;/li&gt;
-            &lt;li&gt;Some improvements were also made to FreeBSD&#39;s release building process for non-X86 architectures&lt;/li&gt;
+            &lt;li&gt;The FreeBSD foundation has published another update newsletter, detailing some of the things they&#39;ve
+            been up to lately&lt;/li&gt;
+            &lt;li&gt;In it, you&#39;ll find some development status updates: notably more ARM64 work and the addition
+            of 64 bit Linux emulation&lt;/li&gt;
+            &lt;li&gt;Some improvements were also made to FreeBSD&#39;s release building process for non-X86
+            architectures&lt;/li&gt;
             &lt;li&gt;There&#39;s also an AsiaBSDCon recap that covers some of the presentations and the dev events&lt;/li&gt;
-            &lt;li&gt;They also have an accompanying &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/05/another-data-center-site-visit-nyi.html&quot;&gt;blog post&lt;/a&gt; where Glen Barber talks about more sysadmin and clusteradm work at NYI&lt;/li&gt;
+            &lt;li&gt;They also have an accompanying &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/05/another-data-center-site-visit-nyi.html&quot;&gt;blog
+            post&lt;/a&gt; where Glen Barber talks about more sysadmin and clusteradm work at NYI&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h2&gt;Interview - Lucas Holt - &lt;a href=&quot;mailto:questions@midnightbsd.org&quot;&gt;questions@midnightbsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/midnightbsd&quot;&gt;@midnightbsd&lt;/a&gt;&lt;/h2&gt;
+            &lt;h2&gt;Interview - Lucas Holt - &lt;a href=&quot;mailto:questions@midnightbsd.org&quot;&gt;questions@midnightbsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/midnightbsd&quot;&gt;@midnightbsd&lt;/a&gt;&lt;/h2&gt;
 
             &lt;p&gt;MidnightBSD&lt;/p&gt;
 
@@ -834,25 +810,33 @@
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/launchd-on-bsd.html&quot;&gt;The launchd on train is never coming&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/launchd-on-bsd.html&quot;&gt;The
+            launchd on train is never coming&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Replacement of init systems has been quite controversial in the last few years&lt;/li&gt;
-            &lt;li&gt;Fortunately, the BSDs have avoided most of that conflict thus far, but there have been a few efforts made to port &lt;a href=&quot;https://en.wikipedia.org/wiki/Launchd&quot;&gt;launchd from OS X&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;This blog post details the author&#39;s opinion on why he thinks we&#39;re never going to have launchd in any of the BSDs&lt;/li&gt;
+            &lt;li&gt;Fortunately, the BSDs have avoided most of that conflict thus far, but there have been a few
+            efforts made to port &lt;a href=&quot;https://en.wikipedia.org/wiki/Launchd&quot;&gt;launchd from OS X&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;This blog post details the author&#39;s opinion on why he thinks we&#39;re never going to have
+            launchd in any of the BSDs&lt;/li&gt;
             &lt;li&gt;Email us your thoughts on the matter&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blogs.msdn.com/b/looking_forward_microsoft__support_for_secure_shell_ssh1/archive/2015/06/02/managing-looking-forward-microsoft-support-for-secure-shell-ssh.aspx&quot;&gt;Native SSH comes to… Windows&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blogs.msdn.com/b/looking_forward_microsoft__support_for_secure_shell_ssh1/archive/2015/06/02/managing-looking-forward-microsoft-support-for-secure-shell-ssh.aspx&quot;&gt;Native
+            SSH comes to… Windows&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;In what may be the first (and last) mention of Microsoft on BSD Now...&lt;/li&gt;
             &lt;li&gt;They&#39;ve just recently announced that PowerShell will get native SSH support in the near future&lt;/li&gt;
-            &lt;li&gt;It&#39;s not based on the commercial SSH either, it&#39;s the same one from OpenBSD that we already use everywhere&lt;/li&gt;
-            &lt;li&gt;Up until now, interacting between BSD and Windows has required something like PuTTY, WinSCP, FileZilla or Cygwin - most of which are based on really outdated versions&lt;/li&gt;
-            &lt;li&gt;The announcement also promises that they&#39;ll be working with the OpenSSH community, so we&#39;ll see how many Microsoft-submitted patches make it upstream (or how many &lt;a href=&quot;http://www.openbsdfoundation.org/index.html&quot;&gt;donations&lt;/a&gt; they make)&lt;/li&gt;
+            &lt;li&gt;It&#39;s not based on the commercial SSH either, it&#39;s the same one from OpenBSD that we
+            already use everywhere&lt;/li&gt;
+            &lt;li&gt;Up until now, interacting between BSD and Windows has required something like PuTTY, WinSCP,
+            FileZilla or Cygwin - most of which are based on really outdated versions&lt;/li&gt;
+            &lt;li&gt;The announcement also promises that they&#39;ll be working with the OpenSSH community, so we&#39;ll
+            see how many Microsoft-submitted patches make it upstream (or how many &lt;a href=&quot;http://www.openbsdfoundation.org/index.html&quot;&gt;donations&lt;/a&gt;
+            they make)&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -861,9 +845,12 @@
 
             &lt;ul&gt;
             &lt;li&gt;This blog post describes a long-time Linux user&#39;s first BSD switching experience&lt;/li&gt;
-            &lt;li&gt;The author first talks about his Linux journey, eventually coming to love the more customization-friendly systems, but the journey ended with systemd&lt;/li&gt;
-            &lt;li&gt;After doing a bit of research, he gave FreeBSD a try and ended up liking it - the rest of the post mostly covers why that is&lt;/li&gt;
-            &lt;li&gt;He also plans to write about his experience with other BSDs, and is writing some tutorials too - we&#39;ll check in with him again later on&lt;/li&gt;
+            &lt;li&gt;The author first talks about his Linux journey, eventually coming to love the more
+            customization-friendly systems, but the journey ended with systemd&lt;/li&gt;
+            &lt;li&gt;After doing a bit of research, he gave FreeBSD a try and ended up liking it - the rest of the post
+            mostly covers why that is&lt;/li&gt;
+            &lt;li&gt;He also plans to write about his experience with other BSDs, and is writing some tutorials too -
+            we&#39;ll check in with him again later on&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -880,10 +867,13 @@
             &lt;hr&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;There&#39;s a new &lt;a href=&quot;http://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&amp;amp;extra=libressl&quot;&gt;LibreSSL mailing list&lt;/a&gt; for discussion and announcements, subscribe if you&#39;re interested&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;There&#39;s a new &lt;a href=&quot;http://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&amp;amp;extra=libressl&quot;&gt;LibreSSL
+            mailing list&lt;/a&gt; for discussion and announcements, subscribe if you&#39;re interested&lt;/li&gt;
             &lt;li&gt;Next week is a prerecorded episode since we&#39;ll be at BSDCan&lt;/li&gt;
-            &lt;li&gt;If you&#39;re interested in doing an interview at the conference, send us an email now and we can prepare some questions ahead of time&lt;/li&gt;
+            &lt;li&gt;If you&#39;re interested in doing an interview at the conference, send us an email now and we can
+            prepare some questions ahead of time&lt;/li&gt;
             &lt;/ul&gt;
         </content>
     </entry>

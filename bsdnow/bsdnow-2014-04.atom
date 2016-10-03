@@ -6,68 +6,27 @@
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>
-    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
-        Tutorials and Interviews for new users and long time developers alike.
-    </subtitle>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-04.atom"
-            rel="self"
-            type="application/atom+xml; charset=utf-8"
-            title="BSD Now"/>
-    <link
-            href="http://www.bsdnow.tv/"
-            rel="alternate"
-            type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now MP3 Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now OGG Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now SD Video"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowHd"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video"/>
-    <link
-            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video (BitTorrent)"/>
+            rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-05.atom"
-            rel="previous"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2014-03.atom"
-            rel="next"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="next" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
-            rel="first"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="first" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
-            rel="last"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-08-01T06:40:00Z</updated>
-    <author>
-        <name>Jupiter Broadcasting</name>
-        <uri>www.jupiterbroadcasting.com</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Puffy Firewall</title>
@@ -876,17 +835,27 @@
             &lt;h3&gt;&lt;a href=&quot;http://www.amazon.com/gp/aw/d/0321968972/&quot;&gt;Preorders for cool BSD stuff&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The 2nd edition of The Design and Implementation of the FreeBSD Operating System is up for preorder&lt;/li&gt;
-            &lt;li&gt;We &lt;a href=&quot;http://www.bsdnow.tv/episodes/2014_01_29-journaled_news_updates&quot;&gt;talked to GNN&lt;/a&gt; briefly about it, but he and &lt;a href=&quot;http://www.bsdnow.tv/episodes/2013-10-02_stacks_of_cache&quot;&gt;Kirk&lt;/a&gt; have apparently finally finished the book&lt;/li&gt;
-            &lt;li&gt;&quot;For many years, The Design and Implementation of the FreeBSD Operating System has been recognized as the most complete, up-to-date, and authoritative technical guide to FreeBSD&#39;s internal structure. Now, this definitive guide has been extensively updated to reflect all major FreeBSD improvements between Versions 5 and Versions 11&quot;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://https.openbsd.org/cgi-bin/order&quot;&gt;OpenBSD 5.5 preorders&lt;/a&gt; are also up, so you can buy a CD set now&lt;/li&gt;
-            &lt;li&gt;You can help support the project, and even get the -release of the OS before it&#39;s available publicly&lt;/li&gt;
-            &lt;li&gt;5.5 is a huge release with lots of big changes, so now is the right time to purchase one of these - tell Austin we sent you!&lt;/li&gt;
+            &lt;li&gt;The 2nd edition of The Design and Implementation of the FreeBSD Operating System is up for
+            preorder&lt;/li&gt;
+            &lt;li&gt;We &lt;a href=&quot;http://www.bsdnow.tv/episodes/2014_01_29-journaled_news_updates&quot;&gt;talked
+            to GNN&lt;/a&gt; briefly about it, but he and &lt;a href=&quot;http://www.bsdnow.tv/episodes/2013-10-02_stacks_of_cache&quot;&gt;Kirk&lt;/a&gt;
+            have apparently finally finished the book&lt;/li&gt;
+            &lt;li&gt;&quot;For many years, The Design and Implementation of the FreeBSD Operating System has been
+            recognized as the most complete, up-to-date, and authoritative technical guide to FreeBSD&#39;s internal
+            structure. Now, this definitive guide has been extensively updated to reflect all major FreeBSD improvements
+            between Versions 5 and Versions 11&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://https.openbsd.org/cgi-bin/order&quot;&gt;OpenBSD 5.5 preorders&lt;/a&gt;
+            are also up, so you can buy a CD set now&lt;/li&gt;
+            &lt;li&gt;You can help support the project, and even get the -release of the OS before it&#39;s available
+            publicly&lt;/li&gt;
+            &lt;li&gt;5.5 is a huge release with lots of big changes, so now is the right time to purchase one of these
+            - tell Austin we sent you!&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://mail-index.netbsd.org/pkgsrc-users/2014/03/18/msg019424.html&quot;&gt;pkgsrcCon 2014 CFP&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://mail-index.netbsd.org/pkgsrc-users/2014/03/18/msg019424.html&quot;&gt;pkgsrcCon
+            2014 CFP&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;This year&#39;s pkgsrcCon is in London, on June 21st and 22nd&lt;/li&gt;
@@ -897,47 +866,59 @@
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://bsdmag.org/magazine/1860-deploying-netbsd-on-the-cloud-using-aws-ec2-march-bsd-issue&quot;&gt;BSDMag issue for March 2014&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://bsdmag.org/magazine/1860-deploying-netbsd-on-the-cloud-using-aws-ec2-march-bsd-issue&quot;&gt;BSDMag
+            issue for March 2014&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The monthly BSD magazine releases its newest issue&lt;/li&gt;
-            &lt;li&gt;Topics this time include: deploying NetBSD using AWS EC2, creating a multi-purpose file server with NetBSD, DragonflyBSD as a backup server, more GIMP lessons, network analysis with wireshark and a general security article&lt;/li&gt;
+            &lt;li&gt;Topics this time include: deploying NetBSD using AWS EC2, creating a multi-purpose file server
+            with NetBSD, DragonflyBSD as a backup server, more GIMP lessons, network analysis with wireshark and a
+            general security article&lt;/li&gt;
             &lt;li&gt;The Linux article trend seems to continue... hmm&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blog.brianmoses.net/2014/03/why-i-chose-non-ecc-ram-for-my-freenas.html&quot;&gt;Non-ECC RAM in FreeNAS&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blog.brianmoses.net/2014/03/why-i-chose-non-ecc-ram-for-my-freenas.html&quot;&gt;Non-ECC
+            RAM in FreeNAS&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;We&#39;ve gotten a few questions about ECC RAM with ZFS&lt;/li&gt;
-            &lt;li&gt;Here we&#39;ve got a surprising blog post about why someone &lt;strong&gt;did not&lt;/strong&gt; go with ECC RAM for his NAS build&lt;/li&gt;
-            &lt;li&gt;The article mentions the benefits of ECC and admits it is a better choice in nearly all instances, but unfortunately it&#39;s not very widespread in consumer hardware motherboards and it&#39;s more expensive&lt;/li&gt;
+            &lt;li&gt;Here we&#39;ve got a surprising blog post about why someone &lt;strong&gt;did not&lt;/strong&gt;
+            go with ECC RAM for his NAS build&lt;/li&gt;
+            &lt;li&gt;The article mentions the benefits of ECC and admits it is a better choice in nearly all instances,
+            but unfortunately it&#39;s not very widespread in consumer hardware motherboards and it&#39;s more expensive&lt;/li&gt;
             &lt;li&gt;Regular RAM also has &quot;special&quot; issues with ZFS and pool corruption&lt;/li&gt;
-            &lt;li&gt;Long post, so check out the whole thing if you&#39;ve been considering your memory options and weighing the benefits&lt;/li&gt;
+            &lt;li&gt;Long post, so check out the whole thing if you&#39;ve been considering your memory options and
+            weighing the benefits&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h2&gt;Interview - Pierre Pronchery - &lt;a href=&quot;mailto:khorben@edgebsd.org&quot;&gt;khorben@edgebsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/khorben&quot;&gt;@khorben&lt;/a&gt;&lt;/h2&gt;
+            &lt;h2&gt;Interview - Pierre Pronchery - &lt;a href=&quot;mailto:khorben@edgebsd.org&quot;&gt;khorben@edgebsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/khorben&quot;&gt;@khorben&lt;/a&gt;&lt;/h2&gt;
 
-            &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_D_iaad5rPo&quot;&gt;EdgeBSD&lt;/a&gt; (&lt;a href=&quot;http://ftp.netbsd.org/pub/NetBSD/misc/khorben/asiabsdcon2014/&quot;&gt;slides&lt;/a&gt;)&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_D_iaad5rPo&quot;&gt;EdgeBSD&lt;/a&gt; (&lt;a
+            href=&quot;http://ftp.netbsd.org/pub/NetBSD/misc/khorben/asiabsdcon2014/&quot;&gt;slides&lt;/a&gt;)&lt;/p&gt;
 
             &lt;hr&gt;
 
             &lt;h2&gt;Tutorial&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/the-desktop-obsd&quot;&gt;Building an OpenBSD desktop&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://www.bsdnow.tv/tutorials/the-desktop-obsd&quot;&gt;Building an OpenBSD
+            desktop&lt;/a&gt;&lt;/h3&gt;
 
             &lt;hr&gt;
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2014/03/25/getting-to-know-your-portmgr-lurker-frederic-culot&quot;&gt;Getting to know your portmgr-lurkers&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blogs.freebsdish.org/portmgr/2014/03/25/getting-to-know-your-portmgr-lurker-frederic-culot&quot;&gt;Getting
+            to know your portmgr-lurkers&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;This week we get to hear from Frederic Culot, colut@&lt;/li&gt;
-            &lt;li&gt;Originally an OpenBSD user from France, Frederic joined as a ports committer in 2010 and recently joined the portmgr lurkers team&lt;/li&gt;
+            &lt;li&gt;Originally an OpenBSD user from France, Frederic joined as a ports committer in 2010 and recently
+            joined the portmgr lurkers team&lt;/li&gt;
             &lt;li&gt;&quot;FreeBSD is also one of my sources of inspiration when it comes to how
             organizations behave and innovate, and I find it very interesting to compare FreeBSD with
             the for-profit companies I work for&quot;&lt;/li&gt;
@@ -946,7 +927,8 @@
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/the_playstation2_port_is_back&quot;&gt;NetBSD on the Playstation 2&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://blog.netbsd.org/tnf/entry/the_playstation2_port_is_back&quot;&gt;NetBSD
+            on the Playstation 2&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Who doesn&#39;t want to run NetBSD on their old PS2?&lt;/li&gt;
@@ -957,18 +939,23 @@
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.thelinuxcauldron.com/2014/03/24/freebsd-challenge-day-22-30/&quot;&gt;The FreeBSD Challenge update&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://www.thelinuxcauldron.com/2014/03/24/freebsd-challenge-day-22-30/&quot;&gt;The
+            FreeBSD Challenge update&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Our friend from the Linux Foundation continues his FreeBSD switching journey&lt;/li&gt;
-            &lt;li&gt;This time he starts off by discovering virtual machines suck at keeping accurate time, and some ports weren&#39;t working because of his clock being way off&lt;/li&gt;
-            &lt;li&gt;After polling the IRC for help, he finally learns the difference between ntpdate and ntpd and both of their use cases&lt;/li&gt;
-            &lt;li&gt;Maybe he should&#39;ve just read our &lt;a href=&quot;http://www.bsdnow.tv/tutorials/ntpd&quot;&gt;NTP tutorial&lt;/a&gt;!&lt;/li&gt;
+            &lt;li&gt;This time he starts off by discovering virtual machines suck at keeping accurate time, and some
+            ports weren&#39;t working because of his clock being way off&lt;/li&gt;
+            &lt;li&gt;After polling the IRC for help, he finally learns the difference between ntpdate and ntpd and both
+            of their use cases&lt;/li&gt;
+            &lt;li&gt;Maybe he should&#39;ve just read our &lt;a href=&quot;http://www.bsdnow.tv/tutorials/ntpd&quot;&gt;NTP
+            tutorial&lt;/a&gt;!&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2014/03/pc-bsd-weekly-feature-digest-23/&quot;&gt;PCBSD weekly digest&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blog.pcbsd.org/2014/03/pc-bsd-weekly-feature-digest-23/&quot;&gt;PCBSD
+            weekly digest&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The mount tray icon got lots of updates and fixes&lt;/li&gt;
@@ -993,8 +980,10 @@
 
             &lt;ul&gt;
             &lt;li&gt;All the tutorials are posted in their entirety at bsdnow.tv&lt;/li&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;If you&#39;ve got something cool to talk about and want to come on for an interview, shoot us an email&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;If you&#39;ve got something cool to talk about and want to come on for an interview, shoot us an
+            email&lt;/li&gt;
             &lt;li&gt;Also if you have any tutorial requests, we&#39;d be glad to show whatever the viewers want to see&lt;/li&gt;
             &lt;li&gt;Watch live Wednesdays at 2:00PM Eastern (18:00 UTC)&lt;/li&gt;
             &lt;/ul&gt;

@@ -6,68 +6,27 @@
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>
-    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News,
-        Tutorials and Interviews for new users and long time developers alike.
-    </subtitle>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <media:thumbnail
             url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-07.atom"
-            rel="self"
-            type="application/atom+xml; charset=utf-8"
-            title="BSD Now"/>
-    <link
-            href="http://www.bsdnow.tv/"
-            rel="alternate"
-            type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now MP3 Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now OGG Audio"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now SD Video"/>
-    <link
-            href="http://feeds.feedburner.com/BsdNowHd"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video"/>
-    <link
-            href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="related"
-            type="application/rss+xml"
-            title="BSD Now HD Video (BitTorrent)"/>
+            rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-08.atom"
-            rel="previous"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-06.atom"
-            rel="next"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="next" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow.atom"
-            rel="first"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="first" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
-            rel="last"
-            type="application/atom+xml; charset=utf-8"/>
+            rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-06-29T09:20:00Z</updated>
-    <author>
-        <name>Jupiter Broadcasting</name>
-        <uri>www.jupiterbroadcasting.com</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Straight from the Src</title>
@@ -1372,52 +1331,94 @@
         <content type="html">&lt;h1&gt;Episode 096: Lost Technology&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/out-with-the-old-in-with-the-less&quot;&gt;Out with the old, in with the less&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/out-with-the-old-in-with-the-less&quot;&gt;Out
+            with the old, in with the less&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Our friend Ted Unangst has a new article up, talking about &quot;various OpenBSD replacements and reductions&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Instead of trying to fix known bugs, we’re trying to fix unknown bugs. It’s not based on the current buggy state of the code, but the anticipated future buggy state of the code. Past bugs are a bigger factor than current bugs.&quot;&lt;/li&gt;
-            &lt;li&gt;In the post, he goes through some of the bigger (and smaller) examples of OpenBSD rewriting tools to be simpler and more secure&lt;/li&gt;
-            &lt;li&gt;It starts off with a lesser-known SCSI driver that &quot;tried to do too much&quot; being replaced with three separate drivers&lt;/li&gt;
-            &lt;li&gt;&quot;Each driver can now be modified in isolation without unintentional side effects on other hardware, or the need to consider if and where further special cases need to be added. Despite the fact that these three drivers duplicate all the common boilerplate code, combined they only amount to about half as much code as the old driver.&quot;&lt;/li&gt;
-            &lt;li&gt;In contrast to that example, he goes on to cite mandoc as taking a very non &quot;unixy&quot; direction, but at the same time being smaller and simpler than all the tools it replaced&lt;/li&gt;
-            &lt;li&gt;The next case is the new http daemon, and he talks a bit about the recently-added rewrite support being done in a simple and secure way (as opposed to regex and its craziness)&lt;/li&gt;
-            &lt;li&gt;He also talks about the rewritten &quot;file&quot; utility: &quot;Almost by definition, its sole input will be untrusted input. Perversely, people will then trust what file tells them and then go about using that input, as if file somehow sanitized it.&quot;&lt;/li&gt;
-            &lt;li&gt;Finally, sudo in OpenBSD&#39;s base system is moving to ports soon, and the article briefly describes a new tool that &lt;a href=&quot;https://marc.info/?l=openbsd-ports&amp;amp;m=143481227122523&amp;amp;w=2&quot;&gt;may or may not replace it&lt;/a&gt;, called &quot;doas&quot;&lt;/li&gt;
-            &lt;li&gt;There&#39;s also a nice wrap-up of all the examples at the end, and the &quot;&lt;a href=&quot;http://www.openbsd.org/papers/pruning.html&quot;&gt;Pruning and Polishing&lt;/a&gt;&quot; talk is good complementary reading material&lt;/li&gt;
+            &lt;li&gt;Our friend Ted Unangst has a new article up, talking about &quot;various OpenBSD replacements and
+            reductions&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Instead of trying to fix known bugs, we’re trying to fix unknown bugs. It’s not based on the
+            current buggy state of the code, but the anticipated future buggy state of the code. Past bugs are a bigger
+            factor than current bugs.&quot;&lt;/li&gt;
+            &lt;li&gt;In the post, he goes through some of the bigger (and smaller) examples of OpenBSD rewriting tools
+            to be simpler and more secure&lt;/li&gt;
+            &lt;li&gt;It starts off with a lesser-known SCSI driver that &quot;tried to do too much&quot; being replaced
+            with three separate drivers&lt;/li&gt;
+            &lt;li&gt;&quot;Each driver can now be modified in isolation without unintentional side effects on other
+            hardware, or the need to consider if and where further special cases need to be added. Despite the fact that
+            these three drivers duplicate all the common boilerplate code, combined they only amount to about half as
+            much code as the old driver.&quot;&lt;/li&gt;
+            &lt;li&gt;In contrast to that example, he goes on to cite mandoc as taking a very non &quot;unixy&quot;
+            direction, but at the same time being smaller and simpler than all the tools it replaced&lt;/li&gt;
+            &lt;li&gt;The next case is the new http daemon, and he talks a bit about the recently-added rewrite support
+            being done in a simple and secure way (as opposed to regex and its craziness)&lt;/li&gt;
+            &lt;li&gt;He also talks about the rewritten &quot;file&quot; utility: &quot;Almost by definition, its sole
+            input will be untrusted input. Perversely, people will then trust what file tells them and then go about
+            using that input, as if file somehow sanitized it.&quot;&lt;/li&gt;
+            &lt;li&gt;Finally, sudo in OpenBSD&#39;s base system is moving to ports soon, and the article briefly
+            describes a new tool that &lt;a href=&quot;https://marc.info/?l=openbsd-ports&amp;amp;m=143481227122523&amp;amp;w=2&quot;&gt;may
+            or may not replace it&lt;/a&gt;, called &quot;doas&quot;&lt;/li&gt;
+            &lt;li&gt;There&#39;s also a nice wrap-up of all the examples at the end, and the &quot;&lt;a href=&quot;http://www.openbsd.org/papers/pruning.html&quot;&gt;Pruning
+            and Polishing&lt;/a&gt;&quot; talk is good complementary reading material&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC0IK6Y4Go2KtRueHDiQcxow/videos&quot;&gt;More OpenZFS and BSDCan videos&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC0IK6Y4Go2KtRueHDiQcxow/videos&quot;&gt;More
+            OpenZFS and BSDCan videos&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We mentioned &lt;a href=&quot;http://www.bsdnow.tv/episodes/2015_06_24-bitrot_group_therapy&quot;&gt;last week&lt;/a&gt; that some of the videos from the second OpenZFS conference in Europe were being uploaded - here&#39;s some more&lt;/li&gt;
-            &lt;li&gt;Matt Ahrens did &lt;a href=&quot;https://www.youtube.com/watch?v=I6fXZ_6OT5c&quot;&gt;a Q&amp;amp;A session&lt;/a&gt; and talked about ZFS &lt;a href=&quot;https://www.youtube.com/watch?v=iY44jPMvxog&quot;&gt;send and receive&lt;/a&gt;, as well as giving an &lt;a href=&quot;https://www.youtube.com/watch?v=RQlMDmnty80&quot;&gt;overview of OpenZFS&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;George Wilson talked about a &lt;a href=&quot;https://www.youtube.com/watch?v=KBI6rRGUv4E&quot;&gt;performance retrospective&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sSi47-k78IM&quot;&gt;Toshiba&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=Hhje5KEF5cE&quot;&gt;Syneto&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=aKgxXipss8k&quot;&gt;HGST&lt;/a&gt; also gave some talks about their companies and how they&#39;re using ZFS&lt;/li&gt;
+            &lt;li&gt;We mentioned &lt;a href=&quot;http://www.bsdnow.tv/episodes/2015_06_24-bitrot_group_therapy&quot;&gt;last
+            week&lt;/a&gt; that some of the videos from the second OpenZFS conference in Europe were being uploaded -
+            here&#39;s some more&lt;/li&gt;
+            &lt;li&gt;Matt Ahrens did &lt;a href=&quot;https://www.youtube.com/watch?v=I6fXZ_6OT5c&quot;&gt;a Q&amp;amp;A
+            session&lt;/a&gt; and talked about ZFS &lt;a href=&quot;https://www.youtube.com/watch?v=iY44jPMvxog&quot;&gt;send
+            and receive&lt;/a&gt;, as well as giving an &lt;a href=&quot;https://www.youtube.com/watch?v=RQlMDmnty80&quot;&gt;overview
+            of OpenZFS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;George Wilson talked about a &lt;a href=&quot;https://www.youtube.com/watch?v=KBI6rRGUv4E&quot;&gt;performance
+            retrospective&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sSi47-k78IM&quot;&gt;Toshiba&lt;/a&gt;, &lt;a
+            href=&quot;https://www.youtube.com/watch?v=Hhje5KEF5cE&quot;&gt;Syneto&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=aKgxXipss8k&quot;&gt;HGST&lt;/a&gt;
+            also gave some talks about their companies and how they&#39;re using ZFS&lt;/li&gt;
             &lt;li&gt;As for BSDCan, more of their BSD presentations have been uploaded too...&lt;/li&gt;
-            &lt;li&gt;Ryan Stone, &lt;a href=&quot;https://www.youtube.com/watch?v=INeMd-i5jzM&quot;&gt;PCI SR-IOV on FreeBSD&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;George Neville-Neil, &lt;a href=&quot;https://www.youtube.com/watch?v=LE4wMsP7zeA&quot;&gt;Measure Twice, Code Once&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Kris Moore, &lt;a href=&quot;https://www.youtube.com/watch?v=qNYXqpJiFN0&quot;&gt;Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Warner Losh, &lt;a href=&quot;https://www.youtube.com/watch?v=3WqOLolj5EU&quot;&gt;I/O Scheduling in CAM&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Kirk McKusick, &lt;a href=&quot;https://www.youtube.com/watch?v=l-RCLgLxuSc&quot;&gt;An Introduction to the Implementation of ZFS&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Midori Kato, &lt;a href=&quot;https://www.youtube.com/watch?v=zZXvjhWcg_4&quot;&gt;Extensions to FreeBSD Datacenter TCP for Incremental Deployment Support&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Baptiste Daroussin, &lt;a href=&quot;https://www.youtube.com/watch?v=Br6izhH5P1I&quot;&gt;Packaging FreeBSD&#39;s&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=v7px6ktoDAI&quot;&gt;base system&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Matt Ahrens, &lt;a href=&quot;https://www.youtube.com/watch?v=UOX7WDAjqso&quot;&gt;New OpenZFS features supporting remote replication&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;Ed Schouten, &lt;a href=&quot;https://www.youtube.com/watch?v=SVdF84x1EdA&quot;&gt;CloudABI Cloud computing meets fine-grained capabilities&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;The audio of Ingo Schwarze&#39;s talk &quot;mandoc: becoming the main BSD manual toolbox&quot; got messed up, but there&#39;s an alternate recording &lt;a href=&quot;http://www.bsdcan.org/2015/audio/mandoc.mp3&quot;&gt;here&lt;/a&gt;, and the slides are &lt;a href=&quot;http://www.openbsd.org/papers/bsdcan15-mandoc.pdf&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Ryan Stone, &lt;a href=&quot;https://www.youtube.com/watch?v=INeMd-i5jzM&quot;&gt;PCI SR-IOV on
+            FreeBSD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;George Neville-Neil, &lt;a href=&quot;https://www.youtube.com/watch?v=LE4wMsP7zeA&quot;&gt;Measure
+            Twice, Code Once&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Kris Moore, &lt;a href=&quot;https://www.youtube.com/watch?v=qNYXqpJiFN0&quot;&gt;Unifying jail
+            and package management for PC-BSD, FreeNAS and FreeBSD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Warner Losh, &lt;a href=&quot;https://www.youtube.com/watch?v=3WqOLolj5EU&quot;&gt;I/O Scheduling
+            in CAM&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Kirk McKusick, &lt;a href=&quot;https://www.youtube.com/watch?v=l-RCLgLxuSc&quot;&gt;An
+            Introduction to the Implementation of ZFS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Midori Kato, &lt;a href=&quot;https://www.youtube.com/watch?v=zZXvjhWcg_4&quot;&gt;Extensions to
+            FreeBSD Datacenter TCP for Incremental Deployment Support&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Baptiste Daroussin, &lt;a href=&quot;https://www.youtube.com/watch?v=Br6izhH5P1I&quot;&gt;Packaging
+            FreeBSD&#39;s&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=v7px6ktoDAI&quot;&gt;base system&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Matt Ahrens, &lt;a href=&quot;https://www.youtube.com/watch?v=UOX7WDAjqso&quot;&gt;New OpenZFS
+            features supporting remote replication&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Ed Schouten, &lt;a href=&quot;https://www.youtube.com/watch?v=SVdF84x1EdA&quot;&gt;CloudABI Cloud
+            computing meets fine-grained capabilities&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;The audio of Ingo Schwarze&#39;s talk &quot;mandoc: becoming the main BSD manual toolbox&quot; got
+            messed up, but there&#39;s an alternate recording &lt;a href=&quot;http://www.bsdcan.org/2015/audio/mandoc.mp3&quot;&gt;here&lt;/a&gt;,
+            and the slides are &lt;a href=&quot;http://www.openbsd.org/papers/bsdcan15-mandoc.pdf&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143526329006942&amp;amp;w=2&quot;&gt;SMP steroids for PF&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143526329006942&amp;amp;w=2&quot;&gt;SMP
+            steroids for PF&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;An Oracle employee that&#39;s been porting OpenBSD&#39;s PF to an upcoming Solaris release has sent in an interesting patch for review&lt;/li&gt;
+            &lt;li&gt;An Oracle employee that&#39;s been porting OpenBSD&#39;s PF to an upcoming Solaris release has
+            sent in an interesting patch for review&lt;/li&gt;
             &lt;li&gt;Attached to the mail was what may be the beginnings of making native PF SMP-aware&lt;/li&gt;
-            &lt;li&gt;Before you start partying, the road to SMP (specifically, giant lock removal) is a long and very complicated one, requiring every relevant bit of the stack to be written with it in mind - this is just one piece of the puzzle&lt;/li&gt;
-            &lt;li&gt;The &lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143532243322281&amp;amp;w=2&quot;&gt;initial response&lt;/a&gt; has been quite positive though, with some &lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143532963824548&amp;amp;w=2&quot;&gt;back and forth&lt;/a&gt; between developers and the submitter&lt;/li&gt;
+            &lt;li&gt;Before you start partying, the road to SMP (specifically, giant lock removal) is a long and very
+            complicated one, requiring every relevant bit of the stack to be written with it in mind - this is just one
+            piece of the puzzle&lt;/li&gt;
+            &lt;li&gt;The &lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143532243322281&amp;amp;w=2&quot;&gt;initial
+            response&lt;/a&gt; has been quite positive though, with some &lt;a href=&quot;https://www.marc.info/?l=openbsd-tech&amp;amp;m=143532963824548&amp;amp;w=2&quot;&gt;back
+            and forth&lt;/a&gt; between developers and the submitter&lt;/li&gt;
             &lt;li&gt;For now, let&#39;s be patient and see what happens&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1426,34 +1427,58 @@
             &lt;h3&gt;&lt;a href=&quot;http://www.dragonflybsd.org/release42/&quot;&gt;DragonFly 4.2.0 released&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;DragonFlyBSD has released the next big update of their 4.x branch, complete with a decent amount of new features and fixes&lt;/li&gt;
-            &lt;li&gt;i915 and Radeon graphics have been updated, and DragonFly can claim the title of first BSD with Broadwell support in a release&lt;/li&gt;
-            &lt;li&gt;Sendmail in the base system has been replaced with their homegrown DragonFly Mail Agent, and there&#39;s &lt;a href=&quot;http://www.dragonflybsd.com/docs/docs/newhandbook/mta/&quot;&gt;a wiki page&lt;/a&gt; about configuring it&lt;/li&gt;
-            &lt;li&gt;They&#39;ve also switched the default compiler to GCC 5, though why they&#39;ve gone in that direction instead of embracing Clang is a mystery&lt;/li&gt;
-            &lt;li&gt;The announcement page also contains a list of kernel changes, details on the audio and graphics updates, removal of the SCTP protocol, improvements to the temperature sensors, various userland utility fixes and a list of updates to third party tools&lt;/li&gt;
-            &lt;li&gt;Work is continuing on the second generation HAMMER filesystem, and Matt Dillon provides a status update in the release announcement&lt;/li&gt;
-            &lt;li&gt;There was also some &lt;a href=&quot;https://news.ycombinator.com/item?id=9797932&quot;&gt;hacker news discussion&lt;/a&gt; you can check out, as well as &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2015-June/207801.html&quot;&gt;upgrade instructions&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;DragonFlyBSD has released the next big update of their 4.x branch, complete with a decent amount
+            of new features and fixes&lt;/li&gt;
+            &lt;li&gt;i915 and Radeon graphics have been updated, and DragonFly can claim the title of first BSD with
+            Broadwell support in a release&lt;/li&gt;
+            &lt;li&gt;Sendmail in the base system has been replaced with their homegrown DragonFly Mail Agent, and there&#39;s
+            &lt;a href=&quot;http://www.dragonflybsd.com/docs/docs/newhandbook/mta/&quot;&gt;a wiki page&lt;/a&gt; about
+            configuring it&lt;/li&gt;
+            &lt;li&gt;They&#39;ve also switched the default compiler to GCC 5, though why they&#39;ve gone in that
+            direction instead of embracing Clang is a mystery&lt;/li&gt;
+            &lt;li&gt;The announcement page also contains a list of kernel changes, details on the audio and graphics
+            updates, removal of the SCTP protocol, improvements to the temperature sensors, various userland utility
+            fixes and a list of updates to third party tools&lt;/li&gt;
+            &lt;li&gt;Work is continuing on the second generation HAMMER filesystem, and Matt Dillon provides a status
+            update in the release announcement&lt;/li&gt;
+            &lt;li&gt;There was also some &lt;a href=&quot;https://news.ycombinator.com/item?id=9797932&quot;&gt;hacker
+            news discussion&lt;/a&gt; you can check out, as well as &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2015-June/207801.html&quot;&gt;upgrade
+            instructions&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://opensmtpd.org/announces/release-5.7.1.txt&quot;&gt;OpenSMTPD 5.7.1 released&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://opensmtpd.org/announces/release-5.7.1.txt&quot;&gt;OpenSMTPD 5.7.1
+            released&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The OpenSMTPD guys have just released version 5.7.1, a major milestone version that we mentioned recently&lt;/li&gt;
-            &lt;li&gt;Crypto-related bits have been vastly improved: the RSA engine is now privilege-separated, TLS errors are handled more gracefully, ciphers and curve preferences can now be specified, the PKI interface has been reworked to allow custom CAs, SNI and certificate verification have been simplified and the DH parameters are now 2048 bit by default&lt;/li&gt;
-            &lt;li&gt;The long-awaited filter API is now enabled by default, though still considered slightly experimental&lt;/li&gt;
-            &lt;li&gt;Documentation has been improved quite a bit, with more examples and common use cases (as well as exotic ones)&lt;/li&gt;
+            &lt;li&gt;The OpenSMTPD guys have just released version 5.7.1, a major milestone version that we mentioned
+            recently&lt;/li&gt;
+            &lt;li&gt;Crypto-related bits have been vastly improved: the RSA engine is now privilege-separated, TLS
+            errors are handled more gracefully, ciphers and curve preferences can now be specified, the PKI interface
+            has been reworked to allow custom CAs, SNI and certificate verification have been simplified and the DH
+            parameters are now 2048 bit by default&lt;/li&gt;
+            &lt;li&gt;The long-awaited filter API is now enabled by default, though still considered slightly
+            experimental&lt;/li&gt;
+            &lt;li&gt;Documentation has been improved quite a bit, with more examples and common use cases (as well as
+            exotic ones)&lt;/li&gt;
             &lt;li&gt;Many more small additions and bugfixes were made, so check the changelog for the full list&lt;/li&gt;
-            &lt;li&gt;Starting with 5.7.1, releases are now &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/613257722574839808&quot;&gt;cryptographically&lt;/a&gt; &lt;a href=&quot;https://www.opensmtpd.org/archives/opensmtpd-5.7.1.sum.sig&quot;&gt;signed&lt;/a&gt; to ensure integrity&lt;/li&gt;
-            &lt;li&gt;This release has gone through some major stress testing to ensure stability - Gilles regularly asks their Twitter followers to &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/608399272447471616&quot;&gt;flood a test server&lt;/a&gt; with thousands of emails per second, even &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/608235180839567360&quot;&gt;offering prizes&lt;/a&gt; to whoever can DDoS them the hardest&lt;/li&gt;
+            &lt;li&gt;Starting with 5.7.1, releases are now &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/613257722574839808&quot;&gt;cryptographically&lt;/a&gt;
+            &lt;a href=&quot;https://www.opensmtpd.org/archives/opensmtpd-5.7.1.sum.sig&quot;&gt;signed&lt;/a&gt; to
+            ensure integrity&lt;/li&gt;
+            &lt;li&gt;This release has gone through some major stress testing to ensure stability - Gilles regularly
+            asks their Twitter followers to &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/608399272447471616&quot;&gt;flood
+            a test server&lt;/a&gt; with thousands of emails per second, even &lt;a href=&quot;https://twitter.com/OpenSMTPD/status/608235180839567360&quot;&gt;offering
+            prizes&lt;/a&gt; to whoever can DDoS them the hardest&lt;/li&gt;
             &lt;li&gt;OpenSMTPD runs on all the BSDs of course, and seems to be getting pretty popular lately&lt;/li&gt;
-            &lt;li&gt;Let&#39;s all &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;encourage&lt;/a&gt; Kris to stop procrastinating on switching from Postfix&lt;/li&gt;
+            &lt;li&gt;Let&#39;s all &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;encourage&lt;/a&gt; Kris to stop
+            procrastinating on switching from Postfix&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h2&gt;Interview - Jun Ebihara - &lt;a href=&quot;mailto:jun@netbsd.org&quot;&gt;jun@netbsd.org&lt;/a&gt; / &lt;a href=&quot;https://twitter.com/ebijun&quot;&gt;@ebijun&lt;/a&gt;&lt;/h2&gt;
+            &lt;h2&gt;Interview - Jun Ebihara - &lt;a href=&quot;mailto:jun@netbsd.org&quot;&gt;jun@netbsd.org&lt;/a&gt;
+            / &lt;a href=&quot;https://twitter.com/ebijun&quot;&gt;@ebijun&lt;/a&gt;&lt;/h2&gt;
 
             &lt;p&gt;Lesser-known CPU architectures, embedded NetBSD devices&lt;/p&gt;
 
@@ -1461,77 +1486,123 @@
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-steven-douglas.html&quot;&gt;FreeBSD foundation at BSDCan&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-steven-douglas.html&quot;&gt;FreeBSD
+            foundation at BSDCan&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The FreeBSD foundation has posted a few BSDCan summaries on their blog&lt;/li&gt;
-            &lt;li&gt;The first, from Steven Douglas, begins with a sentiment a lot of us can probably identify with: &quot;Where I live, there are only a handful of people that even know what BSD is, let alone can talk at a high level about it. That was one of my favorite things, being around like minded people.&quot;&lt;/li&gt;
-            &lt;li&gt;He got to meet a lot of the people working on big-name projects, and enjoyed being able to ask them questions so easily&lt;/li&gt;
-            &lt;li&gt;Their &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-ahmed-kamal.html&quot;&gt;second&lt;/a&gt; trip report is from Ahmed Kamal, who flew in all the way from Egypt&lt;/li&gt;
-            &lt;li&gt;A bit starstruck, he seems to have enjoyed all the talks, particularly Andrew Tanenbaum&#39;s about MINIX and NetBSD&lt;/li&gt;
-            &lt;li&gt;There are also two more wrap-ups from &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-zbigniew-bodek.html&quot;&gt;Zbigniew Bodek&lt;/a&gt; and &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-vsevolod-stakhov.html&quot;&gt;Vsevolod Stakhov&lt;/a&gt;, so you&#39;ve got plenty to read&lt;/li&gt;
+            &lt;li&gt;The first, from Steven Douglas, begins with a sentiment a lot of us can probably identify with:
+            &quot;Where I live, there are only a handful of people that even know what BSD is, let alone can talk at a
+            high level about it. That was one of my favorite things, being around like minded people.&quot;&lt;/li&gt;
+            &lt;li&gt;He got to meet a lot of the people working on big-name projects, and enjoyed being able to ask
+            them questions so easily&lt;/li&gt;
+            &lt;li&gt;Their &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-ahmed-kamal.html&quot;&gt;second&lt;/a&gt;
+            trip report is from Ahmed Kamal, who flew in all the way from Egypt&lt;/li&gt;
+            &lt;li&gt;A bit starstruck, he seems to have enjoyed all the talks, particularly Andrew Tanenbaum&#39;s
+            about MINIX and NetBSD&lt;/li&gt;
+            &lt;li&gt;There are also two more wrap-ups from &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-zbigniew-bodek.html&quot;&gt;Zbigniew
+            Bodek&lt;/a&gt; and &lt;a href=&quot;http://freebsdfoundation.blogspot.com/2015/06/bsdcan-2015-trip-report-vsevolod-stakhov.html&quot;&gt;Vsevolod
+            Stakhov&lt;/a&gt;, so you&#39;ve got plenty to read&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://cfenollosa.com/blog/openbsd-from-a-veteran-linux-user-perspective.html&quot;&gt;OpenBSD from a veteran Linux user perspective&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://cfenollosa.com/blog/openbsd-from-a-veteran-linux-user-perspective.html&quot;&gt;OpenBSD
+            from a veteran Linux user perspective&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;In a new series of blog posts, a self-proclaimed veteran Linux user is giving OpenBSD a try for the first time&lt;/li&gt;
-            &lt;li&gt;&quot;For the first time I installed a BSD box on a machine I control. The experience has been eye-opening, especially since I consider myself an &#39;old-school&#39; Linux admin, and I&#39;ve felt out of place with the latest changes on the system administration.&quot;&lt;/li&gt;
-            &lt;li&gt;The post is a collection of his thoughts about what&#39;s different between Linux and BSD, what surprised him as a beginner - admittedly, a lot of his knowledge carried over, and there were just minor differences in command flags&lt;/li&gt;
-            &lt;li&gt;One of the things that surprised him (in a positive way) was the documentation: &quot;OpenBSD&#39;s man pages are so nice that RTFMing somebody on the internet is not condescending but selfless.&quot;&lt;/li&gt;
-            &lt;li&gt;He also goes through some of the basics, installing and updating software, following different branches&lt;/li&gt;
-            &lt;li&gt;It concludes with &quot;If you like UNIX, it will open your eyes to the fact that there is more than one way to do things, and that system administration can still be simple while modern.&quot;&lt;/li&gt;
+            &lt;li&gt;In a new series of blog posts, a self-proclaimed veteran Linux user is giving OpenBSD a try for
+            the first time&lt;/li&gt;
+            &lt;li&gt;&quot;For the first time I installed a BSD box on a machine I control. The experience has been
+            eye-opening, especially since I consider myself an &#39;old-school&#39; Linux admin, and I&#39;ve felt out
+            of place with the latest changes on the system administration.&quot;&lt;/li&gt;
+            &lt;li&gt;The post is a collection of his thoughts about what&#39;s different between Linux and BSD, what
+            surprised him as a beginner - admittedly, a lot of his knowledge carried over, and there were just minor
+            differences in command flags&lt;/li&gt;
+            &lt;li&gt;One of the things that surprised him (in a positive way) was the documentation: &quot;OpenBSD&#39;s
+            man pages are so nice that RTFMing somebody on the internet is not condescending but selfless.&quot;&lt;/li&gt;
+            &lt;li&gt;He also goes through some of the basics, installing and updating software, following different
+            branches&lt;/li&gt;
+            &lt;li&gt;It concludes with &quot;If you like UNIX, it will open your eyes to the fact that there is more
+            than one way to do things, and that system administration can still be simple while modern.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://sysconfig.org.uk/freebsd-on-the-desktop-am-i-crazy.html&quot;&gt;FreeBSD on the desktop, am I crazy&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://sysconfig.org.uk/freebsd-on-the-desktop-am-i-crazy.html&quot;&gt;FreeBSD
+            on the desktop, am I crazy&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Similar to the previous article, the guy that wrote the SSH two factor authentication post we covered last week has another new article up - this time about FreeBSD on the desktop&lt;/li&gt;
-            &lt;li&gt;He begins with a bit of forewarning for potential Linux switchers: &quot;It certainly wasn&#39;t an easy journey, and I&#39;m tempted to say do not try this at home to anybody who isn&#39;t going to leverage any of FreeBSD&#39;s strong points. Definitely don&#39;t try FreeBSD on the desktop if you haven&#39;t used it on servers or virtual machines before. It&#39;s got less in common with Linux than you might think.&quot;&lt;/li&gt;
-            &lt;li&gt;With that out of the way, the list of positives is pretty large: a tidy base system, separation between base and ports, having the option to choose binary packages or ports, ZFS, jails, licensing and of course the lack of systemd&lt;/li&gt;
-            &lt;li&gt;The rest of the post talks about some of the hurdles he had to overcome, namely with graphics and the infamous Adobe Flash&lt;/li&gt;
-            &lt;li&gt;Also worth noting is that he found jails to be not only good for isolating daemons on a server, but pretty useful for desktop applications as well&lt;/li&gt;
-            &lt;li&gt;In the end, he says it was worth all the trouble, and is even planning on converting his laptop to FreeBSD soon too&lt;/li&gt;
+            &lt;li&gt;Similar to the previous article, the guy that wrote the SSH two factor authentication post we
+            covered last week has another new article up - this time about FreeBSD on the desktop&lt;/li&gt;
+            &lt;li&gt;He begins with a bit of forewarning for potential Linux switchers: &quot;It certainly wasn&#39;t
+            an easy journey, and I&#39;m tempted to say do not try this at home to anybody who isn&#39;t going to
+            leverage any of FreeBSD&#39;s strong points. Definitely don&#39;t try FreeBSD on the desktop if you haven&#39;t
+            used it on servers or virtual machines before. It&#39;s got less in common with Linux than you might think.&quot;&lt;/li&gt;
+            &lt;li&gt;With that out of the way, the list of positives is pretty large: a tidy base system, separation
+            between base and ports, having the option to choose binary packages or ports, ZFS, jails, licensing and of
+            course the lack of systemd&lt;/li&gt;
+            &lt;li&gt;The rest of the post talks about some of the hurdles he had to overcome, namely with graphics and
+            the infamous Adobe Flash&lt;/li&gt;
+            &lt;li&gt;Also worth noting is that he found jails to be not only good for isolating daemons on a server,
+            but pretty useful for desktop applications as well&lt;/li&gt;
+            &lt;li&gt;In the end, he says it was worth all the trouble, and is even planning on converting his laptop to
+            FreeBSD soon too&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.netflask.net/ipsec-ikev2-cisco-csr1000v-openiked/&quot;&gt;OpenIKED and Cisco CSR 1000v IPSEC&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://www.netflask.net/ipsec-ikev2-cisco-csr1000v-openiked/&quot;&gt;OpenIKED
+            and Cisco CSR 1000v IPSEC&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;This article covers setting up a site-to-site IPSEC tunnel between a Cisco CSR 1000v router and an OpenBSD gateway running OpenIKED&lt;/li&gt;
-            &lt;li&gt;What kind of networking blog post would be complete without a diagram where the internet is represented by a big cloud&lt;/li&gt;
-            &lt;li&gt;There are lots of details (and example configuration files) for using IKEv2 and OpenBSD&#39;s built-in IKE daemon&lt;/li&gt;
-            &lt;li&gt;It also goes to show that the BSDs generally play well with existing network infrastructure, so if you were a business that&#39;s afraid to try them… don&#39;t be&lt;/li&gt;
+            &lt;li&gt;This article covers setting up a site-to-site IPSEC tunnel between a Cisco CSR 1000v router and an
+            OpenBSD gateway running OpenIKED&lt;/li&gt;
+            &lt;li&gt;What kind of networking blog post would be complete without a diagram where the internet is
+            represented by a big cloud&lt;/li&gt;
+            &lt;li&gt;There are lots of details (and example configuration files) for using IKEv2 and OpenBSD&#39;s
+            built-in IKE daemon&lt;/li&gt;
+            &lt;li&gt;It also goes to show that the BSDs generally play well with existing network infrastructure, so if
+            you were a business that&#39;s afraid to try them… don&#39;t be&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/HardenedBSD/hardenedBSD/commit/bd5cecb4dc7947a5e214fc100834399b4bffdee8&quot;&gt;HardenedBSD improves stack randomization&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/HardenedBSD/hardenedBSD/commit/bd5cecb4dc7947a5e214fc100834399b4bffdee8&quot;&gt;HardenedBSD
+            improves stack randomization&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The HardenedBSD guys have improved their FreeBSD ASLR patchset, specifically in the stack randomization area&lt;/li&gt;
-            &lt;li&gt;In their initial implementation, the stack randomization was a random gap - this update makes the base address randomized as well&lt;/li&gt;
+            &lt;li&gt;The HardenedBSD guys have improved their FreeBSD ASLR patchset, specifically in the stack
+            randomization area&lt;/li&gt;
+            &lt;li&gt;In their initial implementation, the stack randomization was a random gap - this update makes the
+            base address randomized as well&lt;/li&gt;
             &lt;li&gt;They&#39;re now stacking the new on top of the old as well, with the goal being even more entropy&lt;/li&gt;
             &lt;li&gt;This change triggered an ABI and API incompatibility, so their major version has been bumped&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://lists.mindrot.org/pipermail/openssh-unix-announce/2015-July/000121.html&quot;&gt;OpenSSH 6.9 released&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;https://lists.mindrot.org/pipermail/openssh-unix-announce/2015-July/000121.html&quot;&gt;OpenSSH
+            6.9 released&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The OpenSSH team has announced the release of a new version which, following their tick/tock major/minor release cycle, is focused mainly on bug fixes&lt;/li&gt;
-            &lt;li&gt;There are a couple new things though - the &quot;AuthorizedKeysCommand&quot; config option now takes custom arguments&lt;/li&gt;
-            &lt;li&gt;One very notable change is that &lt;strong&gt;the default cipher has changed&lt;/strong&gt; as of this release&lt;/li&gt;
-            &lt;li&gt;The traditional pairing of AES128 in counter mode with MD5 HMAC has been &lt;em&gt;replaced&lt;/em&gt; by the ever-trendy ChaCha20-Poly1305 combo&lt;/li&gt;
-            &lt;li&gt;Their next release, 7.0, is set to get rid a number of legacy items: PermitRootLogin will be switched to &quot;no&quot; by default, SSHv1 support will be totally disabled, the 1024bit diffie-hellman-group1-sha1 KEX will be disabled, old ssh-dss and v00 certs will be removed, a number of weak ciphers will be disabled by default (including all CBC ones) and RSA keys will be refused if they&#39;re under 1024 bits&lt;/li&gt;
-            &lt;li&gt;Many small bugs fixes and improvements were also made, so check the announcement for everything else&lt;/li&gt;
-            &lt;li&gt;The native version is in OpenBSD -current, and an update to the portable version should be hitting a ports or pkgsrc tree near you soon&lt;/li&gt;
+            &lt;li&gt;The OpenSSH team has announced the release of a new version which, following their tick/tock
+            major/minor release cycle, is focused mainly on bug fixes&lt;/li&gt;
+            &lt;li&gt;There are a couple new things though - the &quot;AuthorizedKeysCommand&quot; config option now
+            takes custom arguments&lt;/li&gt;
+            &lt;li&gt;One very notable change is that &lt;strong&gt;the default cipher has changed&lt;/strong&gt; as of
+            this release&lt;/li&gt;
+            &lt;li&gt;The traditional pairing of AES128 in counter mode with MD5 HMAC has been &lt;em&gt;replaced&lt;/em&gt;
+            by the ever-trendy ChaCha20-Poly1305 combo&lt;/li&gt;
+            &lt;li&gt;Their next release, 7.0, is set to get rid a number of legacy items: PermitRootLogin will be
+            switched to &quot;no&quot; by default, SSHv1 support will be totally disabled, the 1024bit
+            diffie-hellman-group1-sha1 KEX will be disabled, old ssh-dss and v00 certs will be removed, a number of weak
+            ciphers will be disabled by default (including all CBC ones) and RSA keys will be refused if they&#39;re
+            under 1024 bits&lt;/li&gt;
+            &lt;li&gt;Many small bugs fixes and improvements were also made, so check the announcement for everything
+            else&lt;/li&gt;
+            &lt;li&gt;The native version is in OpenBSD -current, and an update to the portable version should be hitting
+            a ports or pkgsrc tree near you soon&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1548,9 +1619,16 @@
             &lt;hr&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;We&#39;d love to see more participation from the listeners - get in touch with us if you&#39;re doing something interesting you&#39;d like to talk about (or have already written about)&lt;/li&gt;
-            &lt;li&gt;If you&#39;re using DNSCrypt on your router to protect your DNS lookups, as mentioned in &lt;a href=&quot;http://www.bsdnow.tv/tutorials/dnscrypt&quot;&gt;a few&lt;/a&gt; of our &lt;a href=&quot;http://www.bsdnow.tv/tutorials/openbsd-router&quot;&gt;tutorials&lt;/a&gt;, you may want to consider switching the authoritative resolver &lt;em&gt;away&lt;/em&gt; from OpenDNS (since Cisco recently &lt;a href=&quot;https://github.com/jedisct1/dnscrypt-proxy/commit/bf98554f12c88d8920ba4bfa0598171c45ffd37d&quot;&gt;bought them&lt;/a&gt; and &lt;a href=&quot;https://threatpost.com/cisco-ssh-key-flaw-has-echoes-of-earlier-vulnerabilities/113484&quot;&gt;doesn&#39;t have the best security record&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;We&#39;d love to see more participation from the listeners - get in touch with us if you&#39;re
+            doing something interesting you&#39;d like to talk about (or have already written about)&lt;/li&gt;
+            &lt;li&gt;If you&#39;re using DNSCrypt on your router to protect your DNS lookups, as mentioned in &lt;a
+            href=&quot;http://www.bsdnow.tv/tutorials/dnscrypt&quot;&gt;a few&lt;/a&gt; of our &lt;a href=&quot;http://www.bsdnow.tv/tutorials/openbsd-router&quot;&gt;tutorials&lt;/a&gt;,
+            you may want to consider switching the authoritative resolver &lt;em&gt;away&lt;/em&gt; from OpenDNS (since
+            Cisco recently &lt;a href=&quot;https://github.com/jedisct1/dnscrypt-proxy/commit/bf98554f12c88d8920ba4bfa0598171c45ffd37d&quot;&gt;bought
+            them&lt;/a&gt; and &lt;a href=&quot;https://threatpost.com/cisco-ssh-key-flaw-has-echoes-of-earlier-vulnerabilities/113484&quot;&gt;doesn&#39;t
+            have the best security record&lt;/a&gt;)&lt;/li&gt;
             &lt;/ul&gt;
         </content>
     </entry>
