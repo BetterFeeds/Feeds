@@ -49,6 +49,16 @@
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-09-16T08:57:00Z</updated>
     <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
     <entry>
         <title>The BSD Bromance</title>
         <smi:episode>161</smi:episode>
@@ -141,16 +151,6 @@
             <psc:chapter start="01:31:31" title="Greg - ZFS ACL's" href="http://pastebin.com/F0y6L6NK"/>
             <psc:chapter start="01:33:58" title="Brian - Laptop Recs" href="http://pastebin.com/sqMPJGMM"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -551,16 +551,6 @@
             <psc:chapter start="00:47:09" title="Chuck – OpenBSD w/DO" href="http://pastebin.com/FM2xYcxh"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -910,16 +900,6 @@
             <psc:chapter start="01:06:51" title="Brad – Replication Issue" href="http://pastebin.com/XTK5gXMU"/>
             <psc:chapter start="01:08:43" title="MJ – HBA" href="http://pastebin.com/TdYTMSj9"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -1422,16 +1402,6 @@
             <psc:chapter start="01:45:03" title="Al - Upgrade conflicts" href="http://pastebin.com/8HaK7yJ6"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -1779,16 +1749,6 @@
             <psc:chapter start="01:16:28" title="Alex - SMF" href="http://pastebin.com/WvdVZbYc"/>
             <psc:chapter start="01:17:55" title="Raymond - RPI3" href="http://pastebin.com/JPWgzSGv"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>

@@ -28,6 +28,16 @@
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-09-02T07:13:00Z</updated>
     <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
     <entry>
         <title>The Fresh BSD experience</title>
         <smi:episode>156</smi:episode>
@@ -122,16 +132,6 @@
             <psc:chapter start="01:21:11" title="Ty - Updates and Logs" href="http://pastebin.com/CtetZdFg"/>
             <psc:chapter start="01:25:56" title="Benjamin - MTA Bug" href="http://pastebin.com/Qq3VbQG2"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -538,16 +538,6 @@
             <psc:chapter start="01:53:42" title="Ghislain - Jail Management" href="http://pastebin.com/DgH9G7p5"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -941,16 +931,6 @@
             <psc:chapter start="00:44:48" title="Robroy - RAID" href="http://pastebin.com/Dr92CGCU"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -1283,16 +1263,6 @@
             <psc:chapter start="01:11:35" title="Chris - SSH BruteBlock" href="http://pastebin.com/597m9gHa"/>
             <psc:chapter start="01:13:25" title="Todd - Jails" href="http://pastebin.com/xjbKwSaz"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>

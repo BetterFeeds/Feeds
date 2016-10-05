@@ -28,6 +28,16 @@
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-09-02T07:12:00Z</updated>
     <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
     <entry>
         <title>The Laporte has landed!</title>
         <smi:episode>152</smi:episode>
@@ -131,16 +141,6 @@
             <psc:chapter start="01:07:02" title="Morgan - Clean DO Droplets" href="http://pastebin.com/Wj1P7jq8"/>
             <psc:chapter start="01:09:42" title="Chris - Auditd" href="http://pastebin.com/U9PYEH6K"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -481,16 +481,6 @@
             <psc:chapter start="01:03:01" title="Emett - Python Followup" href="http://pastebin.com/wy4ar0YH"/>
             <psc:chapter start="01:04:46" title="Peter - Multicast + Jails" href="http://pastebin.com/zd2QAu25"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -946,16 +936,6 @@
             <psc:chapter start="01:17:06" title="Ron - Microphone" href="http://pastebin.com/H2xr53CR"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -1356,16 +1336,6 @@
             <psc:chapter start="02:18:04" title="Eli - TLF in all the wrong places"
                          href="http://pastebin.com/xby81NvC"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>

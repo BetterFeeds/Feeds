@@ -28,6 +28,16 @@
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-08-04T07:40:00Z</updated>
     <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
     <entry>
         <title>Journaled News-Updates</title>
         <smi:episode>22</smi:episode>
@@ -82,16 +92,6 @@
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2014/01/bsd-0022-v.jpg"/>
         </media:group>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>TJ</name>
             <uri>https://twitter.com/blakkheim</uri>
@@ -317,16 +317,6 @@
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2014/01/bsd-0021-v.jpg"/>
         </media:group>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>TJ</name>
             <uri>https://twitter.com/blakkheim</uri>
@@ -569,16 +559,6 @@
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2014/01/bsd-0020-v.jpg"/>
         </media:group>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>TJ</name>
             <uri>https://twitter.com/blakkheim</uri>
         </contributor>
@@ -803,16 +783,6 @@
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2014/01/bsd-0019-v.jpg"/>
         </media:group>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>TJ</name>
             <uri>https://twitter.com/blakkheim</uri>

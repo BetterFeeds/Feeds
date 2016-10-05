@@ -28,6 +28,16 @@
     <id>http://www.bsdnow.tv/</id>
     <updated>2016-06-27T21:53:00Z</updated>
     <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
     <entry>
         <title>The place to B...A Robot!</title>
         <smi:episode>148</smi:episode>
@@ -131,16 +141,6 @@
             <psc:chapter start="01:35:49" title="Leonardo - Translations" href="http://pastebin.com/b4LAiPs4"/>
             <psc:chapter start="01:38:40" title="Zachary - Moving things to VMs" href="http://pastebin.com/VRc8fvBk"/>
         </psc:chapters>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -572,16 +572,6 @@
                          href="http://pastebin.com/dneVZkXc"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -884,16 +874,6 @@
                          href="https://www.reddit.com/r/BSD/comments/4n3flx/my_life_with_freebsd_on_a_thinkpad_x220/"/>
         </psc:chapters>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -1152,16 +1132,6 @@
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0145-v.jpg"/>
         </media:group>
         <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
-        <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
@@ -1287,16 +1257,6 @@
             <media:thumbnail
                     url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/06/bsd-0144-v.jpg"/>
         </media:group>
-        <contributor>
-            <name>Kris Moore</name>
-            <email>kris@pcbsd.org</email>
-            <uri>https://twitter.com/pcbsdkris</uri>
-        </contributor>
-        <contributor>
-            <name>Allan Jude</name>
-            <email>allan@jupiterbroadcasting.com</email>
-            <uri>https://twitter.com/allanjude</uri>
-        </contributor>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
