@@ -41,6 +41,34 @@
     </author>
     <smi:sequential>false</smi:sequential>
     <entry>
+        <title>FreeDOS Founder (Jim Hall)</title>
+        <smi:episode>9</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="https://lundukewhatnot.wordpress.com/2016/10/04/linux-whatnot-freedos-founder-jim-hall/"/>
+        <id>https://lundukewhatnot.wordpress.com/2016/10/04/linux-whatnot-freedos-founder-jim-hall/</id>
+        <published>2016-10-04T22:21:50Z</published>
+        <updated>2016-10-05T13:35:00Z</updated>
+        <link
+                href="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3"
+                rel="enclosure"
+                length="67299143"
+                type="audio/mpeg"/>
+        <media:content
+                url="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3"
+                fileSize="67299143"
+                type="audio/mpeg"
+                medium="audio"
+                duration="3486"
+                isDefault="true"/>
+        <contributor>
+            <name>Jim Hall</name>
+            <uri>http://www.freedos.org/</uri>
+        </contributor>
+        <summary>We are joined by the founder of FreeDOS (the Free Software MSDOS compatible operating system), Jim Hall.</summary>
+    </entry>
+    <entry>
         <title>Creative Commons CEO</title>
         <smi:episode>8</smi:episode>
         <link
@@ -66,9 +94,7 @@
             <name>Ryan Merkley</name>
             <uri>https://creativecommons.org/</uri>
         </contributor>
-        <summary>We have a conversation with the CEO of Creative Commons (Ryan Merkley) about earning a living with Free
-            Culture licensed content and what the Creative Commons is up to lately.
-        </summary>
+        <summary>We have a conversation with the CEO of Creative Commons (Ryan Merkley) about earning a living with Free Culture licensed content and what the Creative Commons is up to lately.</summary>
     </entry>
     <entry>
         <title>EOMA68 PCMCIA Modular Computer</title>
@@ -100,9 +126,7 @@
             <name>Joshua Lifton</name>
             <uri>https://www.crowdsupply.com/</uri>
         </contributor>
-        <summary>We chat with the folks behind the EOMA68. The complete, Linux-powered computer that fits inside a
-            PCMCIA card that can be used in laptop/desktop, modular cases.
-        </summary>
+        <summary>We chat with the folks behind the EOMA68. The complete, Linux-powered computer that fits inside a PCMCIA card that can be used in laptop/desktop, modular cases.</summary>
     </entry>
     <entry>
         <title>KDE, Unity, Pantheon (Desktop Environments)</title>
@@ -138,9 +162,7 @@
             <name>Thomas Pfeiffer</name>
             <uri>https://www.kde.org/workspaces/plasmadesktop/</uri>
         </contributor>
-        <summary>We chat with some of the cool people involved with three Desktop Environments – KDE, Unity and
-            Pantheon.
-        </summary>
+        <summary>We chat with some of the cool people involved with three Desktop Environments – KDE, Unity and Pantheon.</summary>
     </entry>
     <entry>
         <title>The Linux YouTubers</title>
@@ -176,8 +198,7 @@
             <name>AJ Reissig</name>
             <uri>http://ajreissig.com/</uri>
         </contributor>
-        <summary>We chat with Linux YouTubers – Jordan Keyes, Joe Collins &amp; AJ Reissig.
-        </summary>
+        <summary>We chat with Linux YouTubers – Jordan Keyes, Joe Collins &amp; AJ Reissig.</summary>
     </entry>
     <entry>
         <title>Solus, elementary and Ubuntu-MATE</title>
@@ -213,8 +234,7 @@
             <name>Daniel Fore</name>
             <uri>https://elementary.io/</uri>
         </contributor>
-        <summary>We chat with the founders of three amazing Linux distributions – Solus, elementary and Ubuntu MATE.
-        </summary>
+        <summary>We chat with the founders of three amazing Linux distributions – Solus, elementary and Ubuntu MATE.</summary>
     </entry>
     <entry>
         <title>Dell. System76.</title>
@@ -246,9 +266,7 @@
             <name>Carl Richell</name>
             <uri>https://system76.com/</uri>
         </contributor>
-        <summary>They both sell laptops that ship with Linux. So we have them on for a friendly chat – at the same time
-            – about the business of selling computers pre-loaded with Linux.
-        </summary>
+        <summary>They both sell laptops that ship with Linux. So we have them on for a friendly chat – at the same time – about the business of selling computers pre-loaded with Linux.</summary>
     </entry>
     <entry>
         <title>Tech Journalism Roundtable</title>
@@ -282,10 +300,7 @@
         <contributor>
             <name>Whitson Gordon</name>
         </contributor>
-        <summary>We hang out with some some of our technology journalist buddies — Steven Vaughan-Nichols, Rikki
-            Endsley, and Whitson Gordon — to talk about click-bait, journalistic integrity and how the mainstream news
-            so often get tech topics wrong. Plus a surprise appearance from a wounded tech journalist, Jack Wallen.
-        </summary>
+        <summary>We hang out with some some of our technology journalist buddies — Steven Vaughan-Nichols, Rikki Endsley, and Whitson Gordon — to talk about click-bait, journalistic integrity and how the mainstream news so often get tech topics wrong. Plus a surprise appearance from a wounded tech journalist, Jack Wallen.</summary>
     </entry>
     <entry>
         <title>Ubuntu 10-inch Tablet</title>
@@ -312,8 +327,6 @@
         <contributor>
             <name>Michael Hall</name>
         </contributor>
-        <summary>We hang out with Michael Hall, Community Manager at Canonical, and talk about the Ubuntu tablet and
-            Ubuntu mobile user experience.
-        </summary>
+        <summary>We hang out with Michael Hall, Community Manager at Canonical, and talk about the Ubuntu tablet and Ubuntu mobile user experience.</summary>
     </entry>
 </feed>
