@@ -24,19 +24,19 @@
             rel="archives" type="text/html" title="iTunes - Video"/>
     <link
             href="http://feeds.feedburner.com/BsdNowMp3"
-            rel="alternate" type="application/rss+xml" title="BSD Now MP3 Audio"/>
+            rel="archives" type="application/rss+xml" title="BSD Now MP3 Audio"/>
     <link
             href="http://feeds.feedburner.com/BsdNowOgg"
-            rel="alternate" type="application/rss+xml" title="BSD Now OGG Audio"/>
+            rel="archives" type="application/rss+xml" title="BSD Now OGG Audio"/>
     <link
             href="http://feeds.feedburner.com/BsdNowMobile"
-            rel="alternate" type="application/rss+xml" title="BSD Now SD Video"/>
+            rel="archives" type="application/rss+xml" title="BSD Now SD Video"/>
     <link
             href="http://feeds.feedburner.com/BsdNowHd"
-            rel="alternate" type="application/rss+xml" title="BSD Now HD Video"/>
+            rel="archives" type="application/rss+xml" title="BSD Now HD Video"/>
     <link
             href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed"
-            rel="alternate" type="application/rss+xml" title="BSD Now HD Video (BitTorrent)"/>
+            rel="archives" type="application/rss+xml" title="BSD Now HD Video (BitTorrent)"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-08.atom"
             rel="next" type="application/atom+xml; charset=utf-8"/>

@@ -22,7 +22,7 @@
             rel="alternate" type="text/html"/>
     <link
             href="http://feeds.feedburner.com/LundukeWhatnotwithMatt"
-            rel="alternate" type="application/rss+xml" title="Linux &amp; Whatnot"/>
+            rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Offical"/>
     <link
             href="https://lundukewhatnot.wordpress.com/osd.xml"
             rel="search" type="application/opensearchdescription+xml" title="Linux &amp; Whatnot"/>
