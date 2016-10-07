@@ -903,7 +903,7 @@
             <media:content
                     url="http://www.podtrac.com/pts/redirect.m4v/201310.jb-dl.cdn.scaleengine.net/bsdnow/2013/bsd-0005.m4v"
                     fileSize="393585755"
-                    type="video/x-m4v"
+                    type="video/mp4"
                     medium="video"
                     duration="7233"
                     isDefault="false"/>

@@ -599,7 +599,7 @@
             <media:content
                     url="http://www.podtrac.com/pts/redirect.mp4/201312.jb-dl.cdn.scaleengine.net/bsdnow/2013/bsd-0015-432p.m4v"
                     fileSize="550404592"
-                    type="video/x-m4v"
+                    type="video/mp4"
                     duration="5283"
                     medium="video"
                     isDefault="false"/>

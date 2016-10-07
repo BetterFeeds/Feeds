@@ -75,7 +75,7 @@
             <media:content
                     url="http://www.podtrac.com/pts/redirect.m4v/201309.jb-dl.cdn.scaleengine.net/bsdnow/2013/bsd-0004.m4v"
                     fileSize="226836803"
-                    type="video/x-m4v"
+                    type="video/mp4"
                     medium="video"
                     duration="2182"
                     isDefault="false"/>
@@ -419,7 +419,7 @@
             <media:content
                     url="http://www.podtrac.com/pts/redirect.m4v/201309.jb-dl.cdn.scaleengine.net/bsdnow/2013/bsd-0002.m4v"
                     fileSize="629060824"
-                    type="video/x-m4v"
+                    type="video/mp4"
                     medium="video"
                     duration="6054"
                     isDefault="false"/>
@@ -705,7 +705,7 @@
             <media:content
                     url="http://www.podtrac.com/pts/redirect.m4v/201309.jb-dl.cdn.scaleengine.net/bsdnow/2013/bsd-0001.m4v"
                     fileSize="709778008"
-                    type="video/x-m4v"
+                    type="video/mp4"
                     medium="video"
                     duration="6831"
                     isDefault="false"/>
