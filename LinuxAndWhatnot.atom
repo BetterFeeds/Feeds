@@ -12,8 +12,6 @@
         &lt;p&gt;No ads. None. Because ads get annoying.&lt;/p&gt;
     </subtitle>
     <icon>https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png</icon>
-    <media:thumbnail
-            url="https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png"/>
     <link
             href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom"
             rel="self" type="application/atom+xml; charset=utf-8" title="Linux &amp; Whatnot"/>
@@ -22,7 +20,7 @@
             rel="alternate" type="text/html"/>
     <link
             href="http://feeds.feedburner.com/LundukeWhatnotwithMatt"
-            rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Offical"/>
+            rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Official"/>
     <link
             href="https://lundukewhatnot.wordpress.com/osd.xml"
             rel="search" type="application/opensearchdescription+xml" title="Linux &amp; Whatnot"/>

@@ -8,8 +8,6 @@
     <title>BSD Now</title>
     <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
-    <media:thumbnail
-            url="http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2015-12.atom"
             rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
