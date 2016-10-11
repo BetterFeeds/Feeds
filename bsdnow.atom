@@ -111,8 +111,13 @@
                     fileSize="717447865"
                     duration="6371"
                     isDefault="false"/>
-            <media:thumbnail
-                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/10/bsd-0162-v.jpg"/>
+            <media:content
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/10/bsd-0162-v.jpg"
+                    type="image/jpg"
+                    medium="image"
+                    fileSize="87694"
+                    width="854"
+                    height="506"/>
         </media:group>
         <psc:chapters version="1.1">
             <psc:chapter start="00:01:15" title="Headlines"/>
