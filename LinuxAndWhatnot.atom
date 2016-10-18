@@ -4,7 +4,7 @@
         xmlns="http://www.w3.org/2005/Atom"
         xmlns:smi="https://www.betterfeeds.org/series-media-info"
         xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Linux &amp; Whatnot</title>
+    <title>Nerds &amp; Whatnot</title>
     <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
         on &lt;a href=&quot;https://www.youtube.com/user/BryanLunduke&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
         &lt;p&gt;Linux &amp; Whatnot is a freaking delightful romp. These two hosts have never done a show together
@@ -28,14 +28,10 @@
             href="https://www.youtube.com/user/BryanLunduke/videos"
             rel="archives" type="text/html" title="Youtube"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
-    <updated>2016-10-18T15:35:00Z</updated>
+    <updated>2016-10-18T15:40:00Z</updated>
     <author>
         <name>Bryan Lunduke</name>
         <uri>http://lunduke.com/</uri>
-    </author>
-    <author>
-        <name>Matt Hartley</name>
-        <uri>http://www.matthartley.com/</uri>
     </author>
     <smi:sequential>false</smi:sequential>
     <entry>
@@ -64,6 +60,10 @@
         <id>https://www.youtube.com/watch?v=LhCfI-xdvlE</id>
         <published>2016-10-10T18:20:00Z</published>
         <updated>2016-10-18T15:34:00Z</updated>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Matthew Hodgson</name>
             <uri>http://matrix.org/</uri>
@@ -96,6 +96,10 @@
                 medium="audio"
                 duration="3486"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Jim Hall</name>
             <uri>http://www.freedos.org/</uri>
@@ -124,6 +128,10 @@
                 medium="audio"
                 duration="3527"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Ryan Merkley</name>
             <uri>https://creativecommons.org/</uri>
@@ -152,6 +160,10 @@
                 medium="audio"
                 duration="4022"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Luke Leighton</name>
             <uri>https://www.crowdsupply.com/eoma68/micro-desktop</uri>
@@ -184,6 +196,10 @@
                 medium="audio"
                 duration="3431"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Alan Pope</name>
             <uri>https://unity.ubuntu.com/</uri>
@@ -220,6 +236,10 @@
                 medium="audio"
                 duration="3946"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Jordan Keyes</name>
             <uri>https://www.youtube.com/user/twildottv</uri>
@@ -256,6 +276,10 @@
                 medium="audio"
                 duration="4359"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Ikey Doherty</name>
             <uri>https://solus-project.com/</uri>
@@ -292,6 +316,10 @@
                 medium="audio"
                 duration="3905"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Barton George</name>
             <uri>http://www.dell.com/</uri>
@@ -324,6 +352,10 @@
                 medium="audio"
                 duration="4020"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Steven Vaughan-Nichols</name>
         </contributor>
@@ -358,6 +390,10 @@
                 medium="audio"
                 duration="3243"
                 isDefault="true"/>
+        <author>
+            <name>Matt Hartley</name>
+            <uri>http://www.matthartley.com/</uri>
+        </author>
         <contributor>
             <name>Michael Hall</name>
         </contributor>
