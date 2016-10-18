@@ -29,10 +29,6 @@
             rel="archives" type="text/html" title="Youtube"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
     <updated>2016-10-18T15:40:00Z</updated>
-    <author>
-        <name>Bryan Lunduke</name>
-        <uri>http://lunduke.com/</uri>
-    </author>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Pete Mitchell of the band &quot;No More Kings&quot;</title>
@@ -44,6 +40,10 @@
         <id>https://www.youtube.com/watch?v=gqmGqkbd0eM</id>
         <published>2016-10-13T18:20:00Z</published>
         <updated>2016-10-18T15:35:00Z</updated>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <contributor>
             <name>Pete Mitchell</name>
             <uri>http://www.daspetey.com/</uri>
@@ -60,6 +60,10 @@
         <id>https://www.youtube.com/watch?v=LhCfI-xdvlE</id>
         <published>2016-10-10T18:20:00Z</published>
         <updated>2016-10-18T15:34:00Z</updated>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
@@ -97,6 +101,10 @@
                 duration="3486"
                 isDefault="true"/>
         <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
+        <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
         </author>
@@ -129,6 +137,10 @@
                 duration="3527"
                 isDefault="true"/>
         <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
+        <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
         </author>
@@ -160,6 +172,10 @@
                 medium="audio"
                 duration="4022"
                 isDefault="true"/>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
@@ -196,6 +212,10 @@
                 medium="audio"
                 duration="3431"
                 isDefault="true"/>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
@@ -237,6 +257,10 @@
                 duration="3946"
                 isDefault="true"/>
         <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
+        <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
         </author>
@@ -276,6 +300,10 @@
                 medium="audio"
                 duration="4359"
                 isDefault="true"/>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
@@ -317,6 +345,10 @@
                 duration="3905"
                 isDefault="true"/>
         <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
+        <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
         </author>
@@ -352,6 +384,10 @@
                 medium="audio"
                 duration="4020"
                 isDefault="true"/>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
@@ -390,6 +426,10 @@
                 medium="audio"
                 duration="3243"
                 isDefault="true"/>
+        <author>
+            <name>Bryan Lunduke</name>
+            <uri>http://lunduke.com/</uri>
+        </author>
         <author>
             <name>Matt Hartley</name>
             <uri>http://www.matthartley.com/</uri>
