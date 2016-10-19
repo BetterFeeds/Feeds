@@ -48,7 +48,7 @@
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
             rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-10-07T10:32:00Z</updated>
+    <updated>2016-10-19T10:42:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -60,6 +60,479 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Return of the Cantrill</title>
+        <smi:episode>163</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill"/>
+        <id>http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill</id>
+        <published>2016-10-13T11:50:02-07:00</published>
+        <updated>2016-10-19T08:31:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0163.ogg"
+                rel="enclosure"
+                length="102181872"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0163.ogg"
+                    fileSize="102181872"
+                    type="audio/ogg"
+                    medium="audio"
+                    duration="7890"
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0163.mp3"
+                    fileSize="63311507"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration="7890"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0163-432p.mp4"
+                    fileSize="460191672"
+                    type="video/mp4"
+                    medium="video"
+                    duration="7890"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0163.mp4"
+                    fileSize="888322856"
+                    type="video/mp4"
+                    medium="video"
+                    duration="7890"
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0163.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="888322856"
+                    duration="7890"
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/10/bsd-0163-v.jpg"
+                    type="image/jpg"
+                    medium="image"
+                    fileSize="83207"
+                    width="854"
+                    height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:10" title="Headlines"/>
+            <psc:chapter start="00:01:10" title="FreeBSD 11.0-RELEASE Now Available"
+                         href="https://lists.freebsd.org/pipermail/freebsd-announce/2016-October/001760.html"/>
+            <psc:chapter start="00:09:00" title="ps consistency"
+                         href="http://www.tedunangst.com/flak/post/process-listing-consistency"/>
+            <psc:chapter start="00:12:05" title="DragonFlyBSD - Add basic power management support"
+                         href="http://lists.dragonflybsd.org/pipermail/commits/2016-October/624673.html"/>
+            <psc:chapter start="00:13:50" title="Dual boot OpenBSD with UEFI"
+                         href="https://functionallyparanoid.com/2016/10/03/helping-out-an-internet-friend/"/>
+            <psc:chapter start="00:17:40" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:20:00" title="Interview"/>
+            <psc:chapter start="01:39:15" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="01:41:30" title="News Roundup"/>
+            <psc:chapter start="01:41:30" title="After 22 Years, 386BSD Gets An Update"
+                         href="https://bsd.slashdot.org/story/16/10/09/0230203/after-22-years-386bsd-gets-an-update"/>
+            <psc:chapter start="01:43:55" title="Progress of the OpenBSD Limited Edition Signed CD set"
+                         href="http://undeadly.org/cgi?action=article&amp;sid=20160929230557&amp;mode=expanded"/>
+            <psc:chapter start="01:45:00"
+                         title="PROTOTYPE FreeBSD Jail/ZFS based implementation of the Application Container Specification"
+                         href="https://github.com/3ofcoins/jetpack"/>
+            <psc:chapter start="01:47:40" title="Microsoft’s Forgotten Unix-based Operating System"
+                         href="https://fossbytes.com/xenix-history-microsoft-unix-operating-system/"/>
+            <psc:chapter start="01:50:50" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:52:20" title="Beastie Bits"/>
+            <psc:chapter start="01:52:20" title="Ohio LinuxFest 2016 wrap-up"
+                         href="http://blather.michaelwlucas.com/archives/2791"/>
+            <psc:chapter start="01:53:05" title="Learn X in Y minutes Where X=zfs"
+                         href="https://learnxinyminutes.com/docs/zfs/"/>
+            <psc:chapter start="01:53:30" title="Add touchscreen support for the official 7&quot; RPi touch display"
+                         href="https://svnweb.freebsd.org/base?view=revision&amp;revision=306430"/>
+            <psc:chapter start="01:54:15" title="64-bit U-Boot on Raspberry Pi 3"
+                         href="https://kernelnomicon.org/?p=682"/>
+            <psc:chapter start="01:54:45" title="SNIA SDC 2016 Recap: Michael Dexter"
+                         href="https://www.ixsystems.com/blog/snia-sdc-2016-recap-michael-dexter/"/>
+            <psc:chapter start="01:54:55" title="OpenZFS: Stronger than ever"
+                         href="https://www.ixsystems.com/blog/openzfs-devsummit-2016/"/>
+            <psc:chapter start="01:55:20"
+                         title="Accurate, Traceable, and Verifiable Time Synchronization for World Financial Markets"
+                         href="http://nvlpubs.nist.gov/nistpubs/jres/121/jres.121.023.pdf"/>
+            <psc:chapter start="01:55:45" title="ON HOLY WARS AND A PLEA FOR PEACE"
+                         href="https://www.ietf.org/rfc/ien/ien137.txt"/>
+            <psc:chapter start="01:56:25" title="Feedback/Questions"/>
+            <psc:chapter start="01:56:25" title="Morgan - Zero-Filling an VM" href="http://pastebin.com/CYcqmW7P"/>
+            <psc:chapter start="01:59:00" title="Charlie - ZFS Bit-Rot" href="http://pastebin.com/12mNW57h"/>
+            <psc:chapter start="02:01:50" title="Matias - TrueOS / Launchd" href="http://pastebin.com/NfYWt2cu"/>
+            <psc:chapter start="02:03:55" title="Dale - DO Feedback" href="http://pastebin.com/UvKh2WcF"/>
+            <psc:chapter start="02:06:35" title="James - DO / FreeBSD Locks?" href="http://pastebin.com/0cdMc88U"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Bryan Cantrill</name>
+            <email>bryan@joyent.com</email>
+            <uri>https://twitter.com/bcantrill</uri>
+        </contributor>
+        <summary>The wait is over, FreeBSD 11.0 has officially launched! We'll cover that, plus a couple
+            looks back at UNIX history &amp; a crowd-favorite guest today. Stick around for your place
+            to B...SD!
+        </summary>
+        <content type="html">&lt;h1&gt;Episode 163: Return of the Cantrill&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-announce/2016-October/001760.html&quot;&gt;FreeBSD
+            11.0-RELEASE Now Available&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;FreeBSD 11.0-RELEASE is now officially out.&lt;/li&gt;
+            &lt;li&gt;A last minute reroll to pickup OpenSSL updates and a number of other security fixes meant the
+            release was a little behind schedule, and shipped as 11.0-RELEASE-p1, but the release is better for it&lt;/li&gt;
+            &lt;li&gt;Improved support for 802.11n and various wifi drivers&lt;/li&gt;
+            &lt;li&gt;Support for the AArch64 (arm64) architecture has been added.&lt;/li&gt;
+            &lt;li&gt;Native graphics support has been added to the bhyve(8) hypervisor.&lt;/li&gt;
+            &lt;li&gt;A new flag, “onifconsole” has been added to /etc/ttys. This allows the system to provide a login
+            prompt via serial console if the device is an active kernel console, otherwise it is equivalent to off.&lt;/li&gt;
+            &lt;li&gt;The xz(1) utility has been updated to support multi-threaded compression.&lt;/li&gt;
+            &lt;li&gt;A number of kernel panics related to VNET have been fixed&lt;/li&gt;
+            &lt;li&gt;The IMAGACT_BINMISC kernel configuration option has been enabled by default, which enables
+            application execution through emulators, such as QEMU via binmiscctl(8).&lt;/li&gt;
+            &lt;li&gt;The GENERIC kernel configuration has been updated to include the IPSEC option by default.&lt;/li&gt;
+            &lt;li&gt;The kern.osrelease and kern.osreldate are now configurable jail(8) parameters&lt;/li&gt;
+            &lt;li&gt;A new sysctl(8), kern.racct.enable, has been added, which when set to a non-zero value allows
+            using rctl(8) with the GENERIC kernel. A new kernel configuration option, RACCT_DISABLED has also been
+            added.&lt;/li&gt;
+            &lt;li&gt;The minimum (arc&lt;em&gt;min) and maximum (arc&lt;/em&gt;max) values for the ZFS adaptive
+            replacement cache can be modified at runtime.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Changes to watch out for&lt;/strong&gt;:
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenSSH DSA key generation has been disabled by default. It is important to update OpenSSH keys
+            prior to upgrading. Additionally, Protocol 1 support has been removed.&lt;/li&gt;
+            &lt;li&gt;By default, the ifconfig(8) utility will set the default regulatory domain to FCC on wireless
+            interfaces. As a result, newly created wireless interfaces with default settings will have less chance to
+            violate country-specific regulations.&lt;/li&gt;
+            &lt;li&gt;An issue was discovered with Amazon&#174; EC2™ images which would cause the virtual machine to
+            hang during boot when upgrading from previous FreeBSD versions. New EC2™ installations are not affected, but
+            existing installations running earlier releases are advised to wait until the issue is resolved in an Errata
+            Notice before upgrading. An Errata Notice to address this is planned following the release.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/process-listing-consistency&quot;&gt;process
+            listing consistency&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ted Unangst asks: how consistent is the output of ps(1)?&lt;/li&gt;
+            &lt;li&gt;If processes are starting and exiting constantly, and you run ps(1), is the output guaranteed to
+            reflect that exact moment in time, or might it include some processes that have gone away before ps(1)
+            exited, and include some processes that did not exist when ps(1) was started?&lt;/li&gt;
+            &lt;li&gt;Ted provides a little example chicken/egg program to try to create such an inconsistency, so you
+            can test out your OS&lt;/li&gt;
+            &lt;li&gt;On OpenBSD ps(1) was switched away from the reading kernel memory directly, and instead uses the
+            KERN&lt;em&gt;PROC&lt;/em&gt;ALL sysctl&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Thus sysctl can iterate over the entire process list, copying out information to ps(1), without
+            blocking. If we prevent processes from forking or exiting during this time, we get a consistent snapshot.
+            The snapshot may be stale, but it will never show us a viewpoint that never happened.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;So, OpenBSD will always be consistent, or will it?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Is there a way to trick ps on OpenBSD? Not everything is consistent. There’s a separate sysctl,
+            KERN&lt;em&gt;PROC&lt;/em&gt;ARGV, that reads the command line arguments for a process, but it only works on
+            one process at a time. Processes can modify their own argv at any time.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;A second test program changes the process title of both the chicken and the egg, and if
+            you run ps(1), you can get back a result that never actually happened.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;The argv of the first program is read by ps(1), and in the meantime, it changes to a
+            different value. The second program also changes its value, so now when ps(1) reads it, it sees the new
+            value, not the original value from when ps(1) was started.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;So the output is not that consistent, but is it worth the effort to try to make it so?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-October/624673.html&quot;&gt;DragonFlyBSD
+            - if_iwm - Add basic powermanagement support via ifconfig wlan0 powersave&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;WiFi can often be one of the biggest drains on your laptop battery, so anything we can do to
+            improve the situation should be embraced. &lt;/li&gt;
+            &lt;li&gt;Imre Vad&#195;&#161;sz over at the DragonFly project has done that, porting over a new set of
+            power management support from Linux to the if_iwm driver. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;if_iwm - Add basic powermanagement support via ifconfig wlan0 powersave.&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;The DEVICE&lt;em&gt;POWER&lt;/em&gt;FLAGS&lt;em&gt;CAM&lt;/em&gt;MSK flag was removed in
+            the upstream iwlwifi in Linux commit ceef91c89480dd18bb3ac51e91280a233d0ca41f.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Add sc&lt;em&gt;ps&lt;/em&gt;disabled flag to struct iwm&lt;em&gt;softc, which
+            corresponds to mvm-&amp;gt;ps&lt;/em&gt;disabled in struct iwl_mvm in Linux iwlwifi.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Adds a hw.iwm.power&lt;em&gt;scheme tunable which corresponds to the power&lt;/em&gt;scheme
+            module parameter in Linux iwlwifi. Set this to 1 for completely disabling power management, 2 (default) for
+            balanced powermanagement, and 3 for lowerpower mode (which does dtim period skipping).&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;Imports the constants.h file from iwlwifi as if&lt;em&gt;iwm&lt;/em&gt;constants.h.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;This doesn&#39;t allow changing the powermanagement setting while connected,
+            also one can only choose between enabled and disabled powersaving with
+            ifconfig (so switching between balanced and low-power mode requires
+            rebooting to change the tunable).&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;After any changes to powermanagement (i.e. &quot;ifconfig wlan0 powersave&quot; to
+            enable powermanagement, or &quot;ifconfig wlan0 -powersave&quot; for disabling
+            powermanagement), one has to disconnect and reconnect to the accespoint
+            for the change to take effect.“&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Good stuff! These positive changes need to happen more often and sooner, so we can all eek out
+            every drop of power from our respective laptops.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/10/03/helping-out-an-internet-friend/&quot;&gt;Helping
+            out an Internet Friend…Dual boot OpenBSD &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Dual-booting OpenBSD and Linux, via UEFI. A year ago we wouldn’t be discussing this, but today we
+            have an article where somebody has done exactly that.&lt;/li&gt;
+            &lt;li&gt;This Journey was undertaken by Brian Everly (Indiana Bug), partly due to a friend who wanted to
+            dual-boot his laptop which already has an existing UEFI install on it.&lt;/li&gt;
+            &lt;li&gt;As a proof of concept, he began by replicating the setup in VMware with UEFI&lt;/li&gt;
+            &lt;li&gt;He started by throwing Ubuntu into the VM, with some special attention paid to partitioning to
+            ensure enough room left-over for OpenBSD later.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;I created a 64MB EFI partition at the front of the disk. Next, I created a 20GB primary partition
+            at the beginning of the space, mounted as the root (/) filesystem.&lt;/p&gt;
+
+            &lt;p&gt;I then added a 4096MB swap partition for Ubuntu. Finally, I used the rest of the free space to
+            create a Reserved BIOS Boot Area FAT32 partition that was not associated with a mount point – this is where
+            I will be installing OpenBSD.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;With that done, he wrapped up the Ubuntu installation and then turned over to to the OpenBSD side.
+            Some manual partitioning was required to install to the “Reserved FAT32” partition.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;I mashed through the defaults in the OpenBSD installer until I got to the disk partitioning. Since
+            I told VMWare to make my hard drive an IDE one, I knew I was playing around with wd0 and not sd0 (my USB
+            key). I dumped into fdisk by selecting to (E)dit the partition scheme and saw my setup from Linux. First was
+            the EFI partition (I am guessing I’ll have to copy my bootx64.efi file to that at some point), second was
+            the Linux etx4 partition, third was my Linux swap partition and fourth was a weird looking one that is the
+            “Reserved BIOS Boot” partition. That’s the one I’ll fiddle with.&lt;/p&gt;
+
+            &lt;p&gt;Issuing the command “edit 3” allowed me to fiddle with that partition #3 (remember, we start
+            counting at zero). I set it’s type to “A6” (OpenBSD) and then took the defaults with the exception of naming
+            it “OpenBSD”. A quick “write” followed by a “quit” allowed me to update my new partition and get back to the
+            installer.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Once the installation was wrapped up (OpenBSD helpfully already created the /boot/EFI partition
+            with the correct EFI loader installed) he was able to reboot and select between the two systems at the UEFI
+            bios screen.&lt;/li&gt;
+            &lt;li&gt;For kicks, he lastly went into Ubuntu and grabbed refind. Installing refind provided a fancy
+            graphical selector between the two systems without too much trouble.&lt;/li&gt;
+            &lt;li&gt;Next step will be to replicate this process on his friend’s laptop. Wishing you luck with that
+            journey!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Bryan Cantrill - &lt;a href=&quot;mailto:email@email&quot;&gt;email@email&lt;/a&gt; /
+            &lt;a href=&quot;https://twitter.com/user&quot;&gt;@twitter&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;CTO of Joyent&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://bsd.slashdot.org/story/16/10/09/0230203/after-22-years-386bsd-gets-an-update&quot;&gt;After
+            22 Years, 386BSD Gets An Update&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Slashdot brings us an interesting mention this week, specifically that after 22 years, we now have
+            an update to 386BSD.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;386BSD was last released back in 1994 with a series of articles in Dr. Dobb&#39;s Journal -- but
+            then developers for this BSD-based operating system started migrating to both FreeBSD and NetBSD. An
+            anonymous Slashdot reader writes: The last known public release was version 0.1. Until Wednesday, when Lynne
+            Jolitz, one of the co-authors of 386BSD, released the source code to version 1.0 as well as 2.0 on Github.&lt;/p&gt;
+
+            &lt;p&gt;386BSD takes us back to the days when you could count every file in your Unix distribution and more
+            importantly, read and understand all of your OS source code. 386BSD is also the missing link between BSD and
+            Linux. One can find fragments of Linus Torvalds&#39;s math emulation code in the source code of 386BSD. To
+            quote Linus: &quot;If 386BSD had been available when I started on Linux, Linux would probably never had
+            happened.”&lt;/p&gt;
+
+            &lt;p&gt;Though it was designed for Intel 80386 microprocessors, there&#39;s already instructions for
+            launching it on the hosted hardware virtualization service Qemu.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There you have it! Go grab the new hotness that is 386BSD and run it in 2016! Or perhaps you want
+            FreeBSD 11, but to each their own.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160929230557&amp;amp;mode=expanded&quot;&gt;Progress
+            of the OpenBSD Limited Edition Signed CD set&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;An update from a story last week! We mentioned the “very” limited edition OpenBSD 6.0 signed CD
+            sets that had gone up for Auction on Ebay. (With proceeds to support for Foundation)&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;As of today, here’s where we stand:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;CD set #1 (Sep 29th + 5 days) &lt;a href=&quot;http://www.ebay.com/itm/-/331985953783&quot;&gt;sold
+            for $4200&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;CD set #2 (Oct 4th + 3 days) &lt;a href=&quot;http://www.ebay.com/itm/-/331990536246&quot;&gt;sold
+            for $3000&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;CD set #3 (Oct 8th + 3 days) &lt;a href=&quot;http://www.ebay.com/itm/-/331994217419&quot;&gt;sold
+            for $817&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;CD set #4 (Oct 11th + 3 days) is &lt;a href=&quot;http://www.ebay.com/itm/-/331997031152&quot;&gt;currently
+            up for bidding&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;There you have it! The 4th set is almost wrapped up bidding, and the 5th and last set is
+            not far behind. Be sure to grab your piece of BSD history before its gone!&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/3ofcoins/jetpack&quot;&gt;&lt;strong&gt;PROTOTYPE&lt;/strong&gt;
+            FreeBSD Jail/ZFS based implementation of the Application Container Specification&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;“Jetpack is an experimental and incomplete implementation of the App Container Specification for
+            FreeBSD. It uses jails as isolation mechanism, and ZFS for layered storage.”
+            “This document uses some language used in Rocket, the reference implementation of the App Container
+            Specification. While the documentation will be expanded in the future, currently you need to be familiar at
+            least with Rocket&#39;s README to understand everything.”
+            + A standard with multiple implementations, that allow substitution of components, such as FreeBSD Jails
+            instead of docker/lxc etc, and ZFS instead of overlayfs etc, is very exciting&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://fossbytes.com/xenix-history-microsoft-unix-operating-system/&quot;&gt;Microsoft’s
+            Forgotten Unix-based Operating System&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Do you remember the good old days. You know, when Microsoft was the driving force behind UNIX?
+            Wait, what did you say you may be thinking? It’s true, and lets sit back and let FossBytes tell us a tale of
+            what once was reality.&lt;/li&gt;
+            &lt;li&gt;The story begins sometime in the late 70’s:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Turning back the pages to the late 1970’s, Microsoft entered into an agreement with AT&amp;amp;T
+            Corporation to license Unix from AT&amp;amp;T. While the company didn’t sell the OS to public, it licensed
+            it to other OEM vendors like Intel, SCO, and Tandy.&lt;/p&gt;
+
+            &lt;p&gt;As Microsoft had to face legal trouble due to “Unix” name, the company renamed it and came up with
+            its own Unix distribution. So, AT&amp;amp;T licensed Unix to Redmond that was passed on to other OEMs as
+            Xenix.&lt;/p&gt;
+
+            &lt;p&gt;It’s interesting to recall a time when Microsoft enabled people to run Unix — an operating system
+            originally designed for large and multiuser systems — on a microcomputer. Even though it came first, Unix
+            was probably more powerful than MS-DOS.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;So whatever happened to this microsoft-flavored UNIX you may ask? Sadly it was ditched for DOS due
+            to $REASONS:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;In early 1980’s, IBM was looking for an OS to power its PC. As IBM didn’t want to maintain any ties
+            with the recently split AT&amp;amp;T, Xenix was automatically rejected. To fulfill, the tech giant’s demand,
+            Microsoft bought 86-DOS from Seattle Computer Products and managed to convince IBM to use it in their
+            systems.&lt;/p&gt;
+
+            &lt;p&gt;Slowly, Microsoft started losing interest in Xenix and traded the full rights of Xenix with SCO, a
+            Xenix partner company. The company filed bankruptcy in 2007 before taking the Xenix legacy to the 21st
+            century in the form of Open Server, previously known as SCO Unix and SCO Open Desktop.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;An interesting chapter in UNIX history to be sure, and funny enough may come full-circle someday
+            with Microsoft beginning to show interest in UNIX and BSD once again.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2791&quot;&gt;Ohio LinuxFest
+            2016 wrap-up&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://learnxinyminutes.com/docs/zfs/&quot;&gt;Learn X in Y minutes
+            Where X=zfs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=306430&quot;&gt;Add
+            touchscreen support for the official 7&quot; RPi touch display &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://kernelnomicon.org/?p=682&quot;&gt;64-bit U-Boot on Raspberry Pi
+            3 &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.ixsystems.com/blog/snia-sdc-2016-recap-michael-dexter/&quot;&gt;SNIA
+            SDC 2016 Recap: Michael Dexter&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.ixsystems.com/blog/openzfs-devsummit-2016/&quot;&gt;OpenZFS:
+            Stronger than ever&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://nvlpubs.nist.gov/nistpubs/jres/121/jres.121.023.pdf&quot;&gt;Accurate,
+            Traceable, and Verifiable Time Synchronization for World Financial Markets&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.ietf.org/rfc/ien/ien137.txt&quot;&gt;ON HOLY WARS AND A PLEA
+            FOR PEACE&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/CYcqmW7P&quot;&gt; Morgan - Zero-Filling an VM&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/12mNW57h&quot;&gt; Charlie - ZFS Bit-Rot&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/NfYWt2cu&quot;&gt; Matias - TrueOS / Launchd&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/UvKh2WcF&quot;&gt; Dale - DO Feedback&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/0cdMc88U&quot;&gt; James - DO / FreeBSD Locks?&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a
+            href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>The Foundation of NetBSD</title>
         <smi:episode>162</smi:episode>
