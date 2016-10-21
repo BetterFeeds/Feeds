@@ -48,7 +48,7 @@
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom"
             rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-10-19T10:42:00Z</updated>
+    <updated>2016-10-21T07:24:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -60,6 +60,131 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Virtualized COW / PI?</title>
+        <smi:episode>164</smi:episode>
+        <link
+                rel="alternate"
+                type="text/html"
+                href="http://www.jupiterbroadcasting.com/104056/"/>
+        <id>http://www.bsdnow.tv/episodes/2016_10_19-virtualized_cow_pi</id>
+        <published>2016-10-20T06:06:07-07:00</published>
+        <updated>2016-10-20T16:03:00Z</updated>
+        <link
+                href="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0164.ogg"
+                rel="enclosure"
+                length="74780670"
+                type="audio/ogg"/>
+        <media:group>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0164.ogg"
+                    fileSize="74780670"
+                    type="audio/ogg"
+                    medium="audio"
+                    duration=""
+                    isDefault="true"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0164.mp3"
+                    fileSize="48485450"
+                    type="audio/mpeg"
+                    medium="audio"
+                    duration=""
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0164-432p.mp4"
+                    fileSize="352277658"
+                    type="video/mp4"
+                    medium="video"
+                    duration=""
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0164.mp4"
+                    fileSize="679780033"
+                    type="video/mp4"
+                    medium="video"
+                    duration=""
+                    isDefault="false"/>
+            <media:content
+                    url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0164.mp4.torrent"
+                    type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;"
+                    medium="video"
+                    fileSize="679780033"
+                    duration=""
+                    isDefault="false"/>
+            <media:content
+                    url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/10/bsd-0164-v.jpg"
+                    type="image/jpg"
+                    medium="image"
+                    fileSize="84371"
+                    width="854"
+                    height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:25" title="Headlines"/>
+            <psc:chapter start="00:01:25" title="OpenBSD hypervisor"
+                         href="http://undeadly.org/cgi?action=article&amp;sid=20161012092516&amp;mode=flat&amp;count=15"/>
+            <psc:chapter start="00:03:00" title="vkernels go COW"
+                         href="http://lists.dragonflybsd.org/pipermail/commits/2016-October/624675.html"/>
+            <psc:chapter start="00:05:25" title="FreeBSD-CURRENT now boot on RPI3"
+                         href="https://wiki.freebsd.org/arm64/rpi3"/>
+            <psc:chapter start="00:09:15" title="OpenBSD switches softraid crypto"
+                         href="https://github.com/openbsd/src/commit/2ba69c71e92471fe05f305bfa35aeac543ebec1f"/>
+            <psc:chapter start="00:16:25" title="AD: iXsystems - Enterprise Servers and Storage for Open Source"
+                         href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:17:10" title="Interview"/>
+            <psc:chapter start="00:47:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers"
+                         href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:48:40" title="News Roundup"/>
+            <psc:chapter start="00:48:40" title="EC2's most dangerous feature"
+                         href="http://www.daemonology.net/blog/2016-10-09-EC2s-most-dangerous-feature.html"/>
+            <psc:chapter start="00:56:35" title="Trying to break TrueNAS"
+                         href="http://www.theregister.co.uk/2016/10/18/truenas_review/"/>
+            <psc:chapter start="01:03:35" title="OpenBSD now officially on GitHub" href="https://github.com/openbsd"/>
+            <psc:chapter start="01:05:25" title="LibertyBSD or OpenBSD on a libreboot system"
+                         href="https://libreboot.org/docs/bsd/openbsd.html"/>
+            <psc:chapter start="01:07:20" title="FreeNAS 9.10 – LAGG &amp; VLAN Overview"
+                         href="https://www.youtube.com/watch?v=wqSH_uQSArQ"/>
+            <psc:chapter start="01:11:05" title="AD: Tarsnap - Online Backups for the Truly Paranoid"
+                         href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:12:55" title="Beastie Bits"/>
+            <psc:chapter start="01:12:55" title="Remote BSD Developer Position is up for grabs"
+                         href="https://www.cybercoders.com/bsd-developer-remote-job-305206"/>
+            <psc:chapter start="01:14:00" title="Isilon is hiring for a FreeBSD Security position"
+                         href="https://twitter.com/jeamland/status/785965716717441024"/>
+            <psc:chapter start="01:14:35" title="Google has ported the Networked real-time multi-player BSD game"
+                         href="https://github.com/google/web-bsd-hunt"/>
+            <psc:chapter start="01:15:15" title="A bunch of OpenBSD Tips" href="http://www.vincentdelft.be/"/>
+            <psc:chapter start="01:15:20" title="The last OpenBSD 6.0 Limited Edition CD has sold"
+                         href="http://www.ebay.com/itm/-/332000602939"/>
+            <psc:chapter start="01:15:45" title="Dan spots George Neville-Neil on TV at the Airport"
+                         href="https://twitter.com/DLangille/status/788477000876892162"/>
+            <psc:chapter start="01:15:45" title="gnn on CNN" href="https://www.youtube.com/watch?v=h7zlxgtBA6o"/>
+            <psc:chapter start="01:17:45" title="SoloBSD releases v 6.0 built upon OpenBSD"
+                         href="http://solobsd.blogspot.com/2016/10/release-solobsd-60-openbsd-edition.html"/>
+            <psc:chapter start="01:18:10" title="Upcoming KnoxBug looks at PacBSD – Oct 25th"
+                         href="http://knoxbug.org/content/2016-10-25"/>
+            <psc:chapter start="01:18:50" title="Feedback/Questions"/>
+            <psc:chapter start="01:18:50" title="Morgan – Ports and Packages" href="http://pastebin.com/Kr9ykKTu"/>
+            <psc:chapter start="01:26:45" title="Mat – ZFS Memory" href="http://pastebin.com/EwpTpp6D"/>
+            <psc:chapter start="01:29:30" title="Thomas – FreeBSD Path Length" href="http://pastebin.com/HYMPtfjz"/>
+            <psc:chapter start="01:32:30" title="Cy – OpenBSD and NetHogs" href="http://pastebin.com/vGxZHMWE"/>
+            <psc:chapter start="01:35:05" title="Lars – Editors" href="http://pastebin.com/5FMz116T"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Josh Paetzel</name>
+            <uri>https://twitter.com/bsdunix4ever</uri>
+        </contributor>
+        <summary>This week on the show, we've got all sorts of goodies to discuss. Starting with, vmm, vkernels,
+            raspberry pi &amp; much more! Some iX folks are visiting from out of town, maybe somebody will wander in
+            here? Stick around, it's time for your place to B...SD!
+        </summary>
+        <content type="html">
+        </content>
+    </entry>
     <entry>
         <title>Return of the Cantrill</title>
         <smi:episode>163</smi:episode>
