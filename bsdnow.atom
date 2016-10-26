@@ -207,9 +207,9 @@
             &lt;li&gt;The DragonflyBSD feature, vkernels, has gained a new Copy-On-Write functionality&lt;/li&gt;
             &lt;li&gt;Disk images can now be mounted RO or RW, but changes will not be written back to the image file&lt;/li&gt;
             &lt;li&gt;This allows multiple vkernels to share the same disk image&lt;/li&gt;
-            &lt;li&gt;“Note that when the vkernel operates on an image in this mode, modifications will eat up system
+            &lt;li&gt;&quot;Note that when the vkernel operates on an image in this mode, modifications will eat up system
             memory and swap, so the user should be cognizant of the use-case. Still, the flexibility of being able to
-            mount the image R+W should not be underestimated.”&lt;/li&gt;
+            mount the image R+W should not be underestimated.&quot;&lt;/li&gt;
             &lt;li&gt;This is another feature we’d love to hear from viewers that have tried it out.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -226,10 +226,10 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“Raspberry Pi 3 limited support was committed to HEAD. Most of drivers should work with upstream
+            &lt;p&gt;&quot;Raspberry Pi 3 limited support was committed to HEAD. Most of drivers should work with upstream
             dtb, RNG requires attention because callout mode seems to be broken and there is no IRQ in upstream device
             tree file. SMP is work in progress. There are some compatibility issue with VCHIQ driver due to some
-            assumptions that are true only for ARM platform. “&lt;/p&gt;
+            assumptions that are true only for ARM platform. &quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -263,13 +263,13 @@
             SHA512-HMAC instead.&lt;/li&gt;
             &lt;li&gt;OpenBSD also now uses a benchmark to pick a number of of iterations that will take approximately 1
             second per attempt&lt;/li&gt;
-            &lt;li&gt;“One weakness of PBKDF2 is that while its number of iterations can be adjusted to make it take an
+            &lt;li&gt;&quot;One weakness of PBKDF2 is that while its number of iterations can be adjusted to make it take an
             arbitrarily large amount of computing time, it can be implemented with a small circuit and very little RAM,
             which makes brute-force attacks using application-specific integrated circuits or graphics processing units
             relatively cheap. The bcrypt key derivation function requires a larger amount of RAM (but still not tunable
             separately, i. e. fixed for a given amount of CPU time) and is slightly stronger against such attacks, while
             the more modern scrypt key derivation function can use arbitrarily large amounts of memory and is therefore
-            more resistant to ASIC and GPU attacks.”&lt;/li&gt;
+            more resistant to ASIC and GPU attacks.&quot;&lt;/li&gt;
             &lt;li&gt;The upgrade to the bcrypt, which has proven to be quite resistant to cracking by GPUs is a
             significant enhancement to OpenBSDs encrypted softraid feature&lt;/li&gt;
             &lt;/ul&gt;
@@ -294,9 +294,9 @@
             most dangerous feature&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Colin Percival, FreeBSD’s unofficial EC2 maintainer, has published a blog post about “EC2&#39;s
-            most dangerous feature”&lt;/li&gt;
-            &lt;li&gt;“As a FreeBSD developer — and someone who writes in C — I believe strongly in the idea of &quot;tools,
+            &lt;li&gt;Colin Percival, FreeBSD’s unofficial EC2 maintainer, has published a blog post about &quot;EC2&#39;s
+            most dangerous feature&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As a FreeBSD developer — and someone who writes in C — I believe strongly in the idea of &quot;tools,
             not policy&quot;. If you want to shoot yourself in the foot, I&#39;ll help you deliver the bullet to your
             foot as efficiently and reliably as possible. UNIX has always been built around the idea that systems
             administrators are better equipped to figure out what they want than the developers of the OS, and it&#39;s
@@ -304,8 +304,8 @@
             tools are inevitably dangerous, and often the best solution is to simply ensure that they come with
             sufficient warning labels attached; but occasionally I see tools which not only lack important warning
             labels, but are also designed in a way which makes them far more dangerous than necessary. Such a case is
-            IAM Roles for Amazon EC2.”&lt;/li&gt;
-            &lt;li&gt;“A review for readers unfamiliar with this feature: Amazon IAM (Identity and Access Management) is
+            IAM Roles for Amazon EC2.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;A review for readers unfamiliar with this feature: Amazon IAM (Identity and Access Management) is
             a service which allows for the creation of access credentials which are limited in scope; for example, you
             can have keys which can read objects from Amazon S3 but cannot write any objects. IAM Roles for EC2 are a
             mechanism for automatically creating such credentials and distributing them to EC2 instances; you specify a
@@ -313,8 +313,8 @@
             available via the EC2 instance metadata. This simplifies the task of creating and distributing credentials
             and is very convenient; I use it in my FreeBSD AMI Builder AMI, for example. Despite being convenient, there
             are two rather scary problems with this feature which severely limit the situations where I&#39;d recommend
-            using it.”&lt;/li&gt;
-            &lt;li&gt;“The first problem is one of configuration: The language used to specify IAM Policies is not
+            using it.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The first problem is one of configuration: The language used to specify IAM Policies is not
             sufficient to allow for EC2 instances to be properly limited in their powers. For example, suppose you want
             to allow EC2 instances to create, attach, detach, and delete Elastic Block Store volumes automatically —
             useful if you want to have filesystems automatically scaling up and down depending on the amount of data
@@ -322,8 +322,8 @@
             EC2 instance and provide a Role which can only act on volumes tagged to the instance where the Role was
             provided; while the second part of this (limiting actions to tagged volumes) seems to be possible, there is
             no way to require specific API call parameters on all permitted CreateVolume calls, as would be necessary to
-            require that a tag is applied to any new volumes being created by the instance.”&lt;/li&gt;
-            &lt;li&gt;“As problematic as the configuration is, a far larger problem with IAM Roles for Amazon EC2 is
+            require that a tag is applied to any new volumes being created by the instance.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As problematic as the configuration is, a far larger problem with IAM Roles for Amazon EC2 is
             access control — or, to be more precise, the lack thereof. As I mentioned earlier, IAM Role credentials are
             exposed to EC2 instances via the EC2 instance metadata system: In other words, they&#39;re available from
             http://169.254.169.254/. (I presume that the &quot;EC2ws&quot; HTTP server which responds is running in
@@ -336,8 +336,8 @@
             /var/empty is still able to fetch AWS keys which can read every one of the objects you have stored in S3, do
             you really have any meaningful privilege separation? To borrow a phrase from Ted Unangst, the way that IAM
             Roles expose credentials to EC2 instances makes them a very effective exploit mitigation mitigation
-            technique.”&lt;/li&gt;
-            &lt;li&gt;“To make it worse, exposing credentials — and other metadata, for that matter — via HTTP is
+            technique.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;To make it worse, exposing credentials — and other metadata, for that matter — via HTTP is
             completely unnecessary. EC2 runs on Xen, which already has a perfectly good key-value data store for
             conveying metadata between the host and guest instances. It would be absolutely trivial for Amazon to place
             EC2 metadata, including IAM credentials, into XenStore; and almost as trivial for EC2 instances to expose
@@ -346,10 +346,10 @@
             there is a lot of code out there which relies on fetching EC2 instance metadata over HTTP, and trivial or
             not it would still take time to write code for pushing EC2 metadata into XenStore and exposing it via a
             filesystem inside instances; so even if someone at AWS reads this blog post and immediately says &quot;hey,
-            we should fix this&quot;, I&#39;m sure we&#39;ll be stuck with the problems in IAM Roles for years to come.”&lt;/li&gt;
-            &lt;li&gt;“So consider this a warning label: IAM Roles for EC2 may seem like a gun which you can use to
+            we should fix this&quot;, I&#39;m sure we&#39;ll be stuck with the problems in IAM Roles for years to come.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;So consider this a warning label: IAM Roles for EC2 may seem like a gun which you can use to
             efficiently and reliably shoot yourself in the foot; but in fact it&#39;s more like a gun which is difficult
-            to aim and might be fired by someone on the other side of the room snapping his fingers. Handle with care!”&lt;/li&gt;
+            to aim and might be fired by someone on the other side of the room snapping his fingers. Handle with care!&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -359,28 +359,28 @@
 
             &lt;ul&gt;
             &lt;li&gt;The storage reviewer over at TheRegister got their hands on a TrueNAS and gave it a try&lt;/li&gt;
-            &lt;li&gt;“Data storage is difficult, and ZFS-based storage doubly so. There&#39;s a lot of money to be made
+            &lt;li&gt;&quot;Data storage is difficult, and ZFS-based storage doubly so. There&#39;s a lot of money to be made
             if you can do storage right, so it&#39;s uncommon to see a storage company with an open-source model deliver
-            storage that doesn&#39;t suck.”&lt;/li&gt;
-            &lt;li&gt;“To become TrueNAS, FreeNAS&#39;s code is feature-frozen and tested rigorously. Bleeding-edge
-            development continues with FreeNAS, and FreeNAS comes with far fewer guarantees than does TrueNAS.”&lt;/li&gt;
-            &lt;li&gt;“iXsystems provided a Z20 hybrid storage array. The Z20 is a dual-controller, SAS-based,
+            storage that doesn&#39;t suck.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;To become TrueNAS, FreeNAS&#39;s code is feature-frozen and tested rigorously. Bleeding-edge
+            development continues with FreeNAS, and FreeNAS comes with far fewer guarantees than does TrueNAS.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;iXsystems provided a Z20 hybrid storage array. The Z20 is a dual-controller, SAS-based,
             high-availability, hybrid storage array. The testing unit came with a 2x 10GbE NIC per controller and
             retails around US$24k. The unit shipped with 10x 300GB 10k RPM magnetic hard drives, an 8GB ZIL SSD and a
-            200GB L2ARC SSD. 50GiB of RAM was dedicated to the ARC by the system&#39;s autotune feature.”&lt;/li&gt;
+            200GB L2ARC SSD. 50GiB of RAM was dedicated to the ARC by the system&#39;s autotune feature.&quot;&lt;/li&gt;
             &lt;li&gt;The review tests the performance of the TrueNAS, which they found acceptable for spinning rust,
             but they also tested the HA features&lt;/li&gt;
             &lt;li&gt;While the look of the UI didn’t impress them, the functionality and built in help did&lt;/li&gt;
-            &lt;li&gt;“The UI contains truly excellent mouseover tooltips that provide detailed information and
+            &lt;li&gt;&quot;The UI contains truly excellent mouseover tooltips that provide detailed information and
             rationale for almost every setting. An experienced sysadmin will be able to navigate the TrueNAS UI with
             ease. An experienced storage admin who knows what all the terms mean won&#39;t have to refer to a wiki or
-            the more traditional help manual, but the same can&#39;t be said for the uninitiated.”&lt;/li&gt;
-            &lt;li&gt;“After a lot of testing, I&#39;d trust my data to the TrueNAS. I am convinced that it will ensure
+            the more traditional help manual, but the same can&#39;t be said for the uninitiated.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;After a lot of testing, I&#39;d trust my data to the TrueNAS. I am convinced that it will ensure
             the availability of my data to within any reasonable test, and do so as a high availability solution. That&#39;s
-            more than I can say for a lot of storage out there.”&lt;/li&gt;
-            &lt;li&gt;“iXsystems produce a storage array that is decent enough to entice away some existing users of the
+            more than I can say for a lot of storage out there.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;iXsystems produce a storage array that is decent enough to entice away some existing users of the
             likes of EMC, NetApp, Dell or HP. Honestly, that&#39;s not something I thought possible going into this
-            review. It&#39;s a nice surprise.”&lt;/li&gt;
+            review. It&#39;s a nice surprise.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -391,10 +391,10 @@
             &lt;li&gt;Got a couple of new OpenBSD items to bring to your attention today.&lt;/li&gt;
             &lt;li&gt;First up, for those who didn’t know, OpenBSD development has (always?) taken place in CVS, similar
             to NetBSD and previously FreeBSD. &lt;/li&gt;
-            &lt;li&gt;However today, Git fans can rejoice, since there is now an “official” read-only github mirror of
+            &lt;li&gt;However today, Git fans can rejoice, since there is now an &quot;official&quot; read-only github mirror of
             their sources for public consumption.&lt;/li&gt;
             &lt;li&gt;Since this is read-only, I will assume (unless told otherwise) that pull-requests and whatnot
-            aren’t taken. But this will come in handy for the “git-enabled” among us who need an easier way to checkout
+            aren’t taken. But this will come in handy for the &quot;git-enabled&quot; among us who need an easier way to checkout
             OpenBSD sources.&lt;/li&gt;
             &lt;li&gt;There is also not yet a guarantee about the stability of the exporter. If you base a fork on the
             github branch, and something goes wrong with the exporter, the data may be reexported with different hashes,
@@ -617,7 +617,7 @@
             &lt;li&gt;Improved support for 802.11n and various wifi drivers&lt;/li&gt;
             &lt;li&gt;Support for the AArch64 (arm64) architecture has been added.&lt;/li&gt;
             &lt;li&gt;Native graphics support has been added to the bhyve(8) hypervisor.&lt;/li&gt;
-            &lt;li&gt;A new flag, “onifconsole” has been added to /etc/ttys. This allows the system to provide a login
+            &lt;li&gt;A new flag, &quot;onifconsole&quot; has been added to /etc/ttys. This allows the system to provide a login
             prompt via serial console if the device is an active kernel console, otherwise it is equivalent to off.&lt;/li&gt;
             &lt;li&gt;The xz(1) utility has been updated to support multi-threaded compression.&lt;/li&gt;
             &lt;li&gt;A number of kernel panics related to VNET have been fixed&lt;/li&gt;
@@ -719,7 +719,7 @@
             &lt;li&gt;&lt;p&gt;After any changes to powermanagement (i.e. &quot;ifconfig wlan0 powersave&quot; to
             enable powermanagement, or &quot;ifconfig wlan0 -powersave&quot; for disabling
             powermanagement), one has to disconnect and reconnect to the accespoint
-            for the change to take effect.“&lt;/p&gt;&lt;/li&gt;
+            for the change to take effect.&quot;&lt;/p&gt;&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
             &lt;/ul&gt;
             &lt;/blockquote&gt;
@@ -755,7 +755,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;With that done, he wrapped up the Ubuntu installation and then turned over to to the OpenBSD side.
-            Some manual partitioning was required to install to the “Reserved FAT32” partition.&lt;/li&gt;
+            Some manual partitioning was required to install to the &quot;Reserved FAT32&quot; partition.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
@@ -764,11 +764,11 @@
             key). I dumped into fdisk by selecting to (E)dit the partition scheme and saw my setup from Linux. First was
             the EFI partition (I am guessing I’ll have to copy my bootx64.efi file to that at some point), second was
             the Linux etx4 partition, third was my Linux swap partition and fourth was a weird looking one that is the
-            “Reserved BIOS Boot” partition. That’s the one I’ll fiddle with.&lt;/p&gt;
+            &quot;Reserved BIOS Boot&quot; partition. That’s the one I’ll fiddle with.&lt;/p&gt;
 
-            &lt;p&gt;Issuing the command “edit 3” allowed me to fiddle with that partition #3 (remember, we start
-            counting at zero). I set it’s type to “A6” (OpenBSD) and then took the defaults with the exception of naming
-            it “OpenBSD”. A quick “write” followed by a “quit” allowed me to update my new partition and get back to the
+            &lt;p&gt;Issuing the command &quot;edit 3&quot; allowed me to fiddle with that partition #3 (remember, we start
+            counting at zero). I set it’s type to &quot;A6&quot; (OpenBSD) and then took the defaults with the exception of naming
+            it &quot;OpenBSD&quot;. A quick &quot;write&quot; followed by a &quot;quit&quot; allowed me to update my new partition and get back to the
             installer.&lt;/p&gt;
             &lt;/blockquote&gt;
 
@@ -813,7 +813,7 @@
             importantly, read and understand all of your OS source code. 386BSD is also the missing link between BSD and
             Linux. One can find fragments of Linus Torvalds&#39;s math emulation code in the source code of 386BSD. To
             quote Linus: &quot;If 386BSD had been available when I started on Linux, Linux would probably never had
-            happened.”&lt;/p&gt;
+            happened.&quot;&lt;/p&gt;
 
             &lt;p&gt;Though it was designed for Intel 80386 microprocessors, there&#39;s already instructions for
             launching it on the hosted hardware virtualization service Qemu.&lt;/p&gt;
@@ -830,7 +830,7 @@
             of the OpenBSD Limited Edition Signed CD set&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;An update from a story last week! We mentioned the “very” limited edition OpenBSD 6.0 signed CD
+            &lt;li&gt;An update from a story last week! We mentioned the &quot;very&quot; limited edition OpenBSD 6.0 signed CD
             sets that had gone up for Auction on Ebay. (With proceeds to support for Foundation)&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;As of today, here’s where we stand:&lt;/p&gt;
 
@@ -854,11 +854,11 @@
             FreeBSD Jail/ZFS based implementation of the Application Container Specification&lt;/a&gt;&lt;/h3&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“Jetpack is an experimental and incomplete implementation of the App Container Specification for
-            FreeBSD. It uses jails as isolation mechanism, and ZFS for layered storage.”
-            “This document uses some language used in Rocket, the reference implementation of the App Container
+            &lt;p&gt;&quot;Jetpack is an experimental and incomplete implementation of the App Container Specification for
+            FreeBSD. It uses jails as isolation mechanism, and ZFS for layered storage.&quot;
+            &quot;This document uses some language used in Rocket, the reference implementation of the App Container
             Specification. While the documentation will be expanded in the future, currently you need to be familiar at
-            least with Rocket&#39;s README to understand everything.”
+            least with Rocket&#39;s README to understand everything.&quot;
             + A standard with multiple implementations, that allow substitution of components, such as FreeBSD Jails
             instead of docker/lxc etc, and ZFS instead of overlayfs etc, is very exciting&lt;/p&gt;
             &lt;/blockquote&gt;
@@ -880,7 +880,7 @@
             Corporation to license Unix from AT&amp;amp;T. While the company didn’t sell the OS to public, it licensed
             it to other OEM vendors like Intel, SCO, and Tandy.&lt;/p&gt;
 
-            &lt;p&gt;As Microsoft had to face legal trouble due to “Unix” name, the company renamed it and came up with
+            &lt;p&gt;As Microsoft had to face legal trouble due to &quot;Unix&quot; name, the company renamed it and came up with
             its own Unix distribution. So, AT&amp;amp;T licensed Unix to Redmond that was passed on to other OEMs as
             Xenix.&lt;/p&gt;
 
@@ -1080,18 +1080,18 @@
             is new on EC2 for FreeBSD 11.0-RELEASE&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“FreeBSD 11.0-RELEASE is just around the corner, and it will be bringing a long list of new
+            &lt;li&gt;&quot;FreeBSD 11.0-RELEASE is just around the corner, and it will be bringing a long list of new
             features and improvements — far too many for me to list here. I think there are
-            some improvements in FreeBSD 11.0 which are particularly noteworthy for EC2 users.”&lt;/li&gt;
-            &lt;li&gt;“First, the EC2 Console Screenshot functionality now works with FreeBSD. This provides a &quot;VGA&quot;
+            some improvements in FreeBSD 11.0 which are particularly noteworthy for EC2 users.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;First, the EC2 Console Screenshot functionality now works with FreeBSD. This provides a &quot;VGA&quot;
             output as opposed to the traditional &quot;serial port&quot; which EC2 has exposed as
             &quot;console output&quot; for the past decade, and is useful largely because the &quot;VGA&quot; output
             becomes available immediately whereas the &quot;serial port&quot; output can lag by several minutes. This
             improvement is a simple configuration change — older releases didn&#39;t waste time writing to a non-serial
             console because it didn&#39;t go anywhere until Amazon added support on their
             side — and can be enabled on older FreeBSD releases by changing the line console=&quot;comconsole&quot; to
-            boot_multicons=&quot;YES&quot; in /boot/loader.conf.”&lt;/li&gt;
-            &lt;li&gt;“The second notable change is support for EC2 &quot;Enhanced Networking&quot; using Intel 82599
+            boot_multicons=&quot;YES&quot; in /boot/loader.conf.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The second notable change is support for EC2 &quot;Enhanced Networking&quot; using Intel 82599
             hardware; on the C3, C4, R3, I2, D2, and M4 (excluding m4.16xlarge) families, this
             provides increased network throughput and reduced latency and jitter, since it allows FreeBSD to talk
             directly to the networking hardware rather than via a Xen paravirtual interface.
@@ -1099,27 +1099,27 @@
             FreeBSD at all — we were tickling an interrupt-routing bug in a version of
             Xen used in EC2. Unfortunately FreeBSD does not yet have support for the new &quot;Elastic Network Adapter&quot;
             enhanced networking used in P2 and X1 instance families and the m4.16xlarge
-            instance type; I&#39;m hoping that we&#39;ll have a driver for that before FreeBSD 11.1 arrives.”&lt;/li&gt;
-            &lt;li&gt;“The third notable change is an improvement in EC2 disk throughput. This comes thanks to enabling
+            instance type; I&#39;m hoping that we&#39;ll have a driver for that before FreeBSD 11.1 arrives.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The third notable change is an improvement in EC2 disk throughput. This comes thanks to enabling
             indirect segment I/Os in FreeBSD&#39;s blkfront driver; while the support was
             present in 10.3, I had it turned off by default due to performance anomalies on some EC2 instances. (Those
             EC2 performance problems have been resolved, and disk I/O performance in
             EC2 on FreeBSD 10.3 can now be safely improved by removing the line hw.xbd.xbd&lt;em&gt;enable&lt;/em&gt;indirect=&quot;0&quot;
-            from /boot/loader.conf.)”&lt;/li&gt;
-            &lt;li&gt;“Finally, FreeBSD now supports all 128 CPUs in the x1.32xlarge instance type. This improvement
+            from /boot/loader.conf.)&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Finally, FreeBSD now supports all 128 CPUs in the x1.32xlarge instance type. This improvement
             comes thanks to two changes: The FreeBSD default kernel was modified in 2014 to
             support up to 256 CPUs (up from 64), but that resulted in a (fixed-size) section of preallocated memory
             being exhausted early in the boot process on systems with 92 or more CPUs; a
             few months ago I changed that value to tune automatically so that FreeBSD can now boot and not immediately
-            panic with an out-of-the-box setup on such large systems.”&lt;/li&gt;
-            &lt;li&gt;“I think FreeBSD/EC2 users will be very happy with FreeBSD 11.0-RELEASE; but I&#39;d like to end
+            panic with an out-of-the-box setup on such large systems.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I think FreeBSD/EC2 users will be very happy with FreeBSD 11.0-RELEASE; but I&#39;d like to end
             with an important reminder: No matter what you might see on FTP servers, in EC2, or
             available via freebsd-update, the new release has not been released until you see a GPG-signed email from
             the release engineer. This is not just a theoretical point: In my time as a
             FreeBSD developer I&#39;ve seen multiple instances of last-minute release re-rolls happening due to problems
             being discovered very late, so the fact that you can see bits doesn&#39;t
             necessarily mean that they are ready to be downloaded. I hope you&#39;re looking forward to 11.0-RELEASE,
-            but please be patient.”&lt;/li&gt;
+            but please be patient.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1196,7 +1196,7 @@
             + Chris Siebenmann has posted a look at this on his blog, which might not be what you think&lt;/p&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“Typing ^D causes the tty driver to immediately finish a read().”&lt;/p&gt;
+            &lt;p&gt;&quot;Typing ^D causes the tty driver to immediately finish a read().&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -1252,39 +1252,39 @@
             &lt;li&gt;Travis-CI is the most popular testing framework on Github, but it doesn’t support any of the BSDs&lt;/li&gt;
             &lt;li&gt;This didn’t discourage Even Rouault, who managed to run FreeBSD in KQEMU on the Linux instances
             provided by Travis-CI&lt;/li&gt;
-            &lt;li&gt;“Travis-CI has a free offer for software having public repository at GitHub. Travis-CI provides
+            &lt;li&gt;&quot;Travis-CI has a free offer for software having public repository at GitHub. Travis-CI provides
             cloud instances running Linux or Mac OS X. To increase portability tests of
             GDAL, I wondered if it was somehow possible to run another operating system with Travis-CI, for example
             FreeBSD. A search lead me to this
             &lt;a href=&quot;https://github.com/travis-ci/travis-ci/issues/1818&quot;&gt;question&lt;/a&gt; in their bug
-            tracker but the outcome seems to be that it is not possible, nor in their medium or long term plans.”&lt;/li&gt;
-            &lt;li&gt;“One idea that came quickly to mind was to use the QEMU machine emulator that can simulate full
-            machines, of several hardware architectures.”&lt;/li&gt;
+            tracker but the outcome seems to be that it is not possible, nor in their medium or long term plans.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;One idea that came quickly to mind was to use the QEMU machine emulator that can simulate full
+            machines, of several hardware architectures.&quot;&lt;/li&gt;
             &lt;li&gt;They found an existing image of FreeBSD 9.2 and configured the Travis job to download it and fire
             it up in QEMU.&lt;/li&gt;
-            &lt;li&gt;“Here we go: ./configure &amp;amp;&amp;amp; make ! That works, but 50 minutes later (the maximum
+            &lt;li&gt;&quot;Here we go: ./configure &amp;amp;&amp;amp; make ! That works, but 50 minutes later (the maximum
             length of a Travis-CI job), our job is killed with perhaps only 10% of the GDAL code base being
             compiled. The reason is that we used the pure software emulation mode of QEMU that involves on-the-fly
-            disassembling of the code to be run and re-assembling.”&lt;/li&gt;
+            disassembling of the code to be run and re-assembling.&quot;&lt;/li&gt;
             &lt;li&gt;Travis-CI runs in Google Compute Engine, which does not allow nested virtualization, so hardware
             virtualization is not an option to speed up QEMU&lt;/li&gt;
-            &lt;li&gt;“Here comes the time for good old memories and a bit of software archeology. QEMU was started by
+            &lt;li&gt;&quot;Here comes the time for good old memories and a bit of software archeology. QEMU was started by
             Fabrice Bellard. If you didn&#39;t know his name yet, F. Bellard created FFMPEG and
             QEMU, holds a world record for the number of decimals of Pi computed on a COTS PC, has ported QEMU in
             JavaScript to run the Linux kernel in your browser, devised BPG, a new
-            compression based on HEVC, etc....”&lt;/li&gt;
-            &lt;li&gt;“At the time where his interest was focused on QEMU, he created KQemu, a kernel module (for Linux,
+            compression based on HEVC, etc....&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;At the time where his interest was focused on QEMU, he created KQemu, a kernel module (for Linux,
             Windows, FreeBSD hosts), that could significantly enhance QEMU performance
             when the guest and hosts are x86/x86_64 and does not require (nor use) hardware virtualization
-            instructions.”&lt;/li&gt;
-            &lt;li&gt;“Running it on Travis-CI was successful too, with the compilation being done in 20 minutes, so
-            probably half of the speed of bare metal, which is good enough.”&lt;/li&gt;
-            &lt;li&gt;“I could also have potentially tried VirtualBox because, as mentioned above, it supports software
+            instructions.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Running it on Travis-CI was successful too, with the compilation being done in 20 minutes, so
+            probably half of the speed of bare metal, which is good enough.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I could also have potentially tried VirtualBox because, as mentioned above, it supports software
             virtualization with acceleration. But that is only for 32 bit guests (and I
             didn&#39;t find a ready-made FreeBSD 32bit image that you can directly ssh into). For 64 bit guests,
             VirtualBox require hardware virtualization to be available in the host. To the best
             of my knowledge, KQemu is (was) the only solution to enable acceleration of 64 bit guests without hardware
-            requirements.”&lt;/li&gt;
+            requirements.&quot;&lt;/li&gt;
             &lt;li&gt;It will be interesting to see if enough people do this hack, maybe Travis-CI will consider
             properly supporting FreeBSD&lt;/li&gt;
             &lt;/ul&gt;
@@ -1333,15 +1333,15 @@
             bringing new features, did cause a regression in Shared Folders.&lt;/li&gt;
             &lt;li&gt;FreeBSD developer gonzo@ (Oleksandr Tymoshenko) has been tackling this issue in recent days and
             provides us with a look behind the curtain at the challenges involved.&lt;/li&gt;
-            &lt;li&gt;Specifically he started by implementing the various needed VOPs: “lookup, access, readdir, read,
-            getattr, readlink, remove, rmdir, symlink, close, create, open, write.”&lt;/li&gt;
+            &lt;li&gt;Specifically he started by implementing the various needed VOPs: &quot;lookup, access, readdir, read,
+            getattr, readlink, remove, rmdir, symlink, close, create, open, write.&quot;&lt;/li&gt;
             &lt;li&gt;He then continues with details about how complete this is:&lt;/li&gt;
             &lt;/ul&gt;
 
-            &lt;p&gt;““Kind of implemented” means that I was able to mount directory, traverse it, read file, calculate
+            &lt;p&gt;&quot;&quot;Kind of implemented&quot; means that I was able to mount directory, traverse it, read file, calculate
             md5 sums and compare with host’s md5sum, create/remove directories,
             unzip zip file, etc but I doubt it would survive stress-test. Locking is all wrong at the moment and
-            read/write VOPs allocate buffers for every operation.”&lt;/p&gt;
+            read/write VOPs allocate buffers for every operation.&quot;&lt;/p&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The bigger issue faced is with the rename VOP though:&lt;/li&gt;

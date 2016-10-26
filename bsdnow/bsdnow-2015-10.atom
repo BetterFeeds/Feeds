@@ -120,7 +120,7 @@
             &lt;li&gt;Jumbo frame support on re driver, using RTL8168C/D/E/F/G and RTL8411&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
             &lt;li&gt;Updated to installer, improve autoinstall, and questions about SSH setup&lt;/li&gt;
-            &lt;li&gt;Sudo in base has been replace with “doas”, sudo moved to package tree&lt;/li&gt;
+            &lt;li&gt;Sudo in base has been replace with &quot;doas&quot;, sudo moved to package tree&lt;/li&gt;
             &lt;li&gt;New file(1) command with sandboxing and priv separation&lt;/li&gt;
             &lt;li&gt;The tame(2) API WiP&lt;/li&gt;
             &lt;li&gt;Improvements to the httpd(8) daemon, such as support for lua pattern matching redirections&lt;/li&gt;
@@ -164,7 +164,7 @@
             &lt;li&gt;Included is a link to the Wiki with instructions on how to enable debugging, and grab the updated
             branch of FreeBSD with the graphical improvements. Jean-S&#233;bastien is calling for testers to send
             results both good and bad over to the freebsd-x11 mailing lists&lt;/li&gt;
-            &lt;li&gt;For those who want an “out of box solution” the next PC-BSD 11.0-CURRENT November images will
+            &lt;li&gt;For those who want an &quot;out of box solution&quot; the next PC-BSD 11.0-CURRENT November images will
             include these changes as well&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -354,7 +354,7 @@
             &lt;li&gt;&lt;a href=&quot;http://imgur.com/a/SMVdp&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;While looking through the ‘Software Information’ screen of a Toyota Highlander, Chad Dougherty of
             the ACM found a bunch of OpenBSD copyright notices&lt;/li&gt;
-            &lt;li&gt;At least one of which I recognize as OpenCrypto, because of the comment about “transforms”&lt;/li&gt;
+            &lt;li&gt;At least one of which I recognize as OpenCrypto, because of the comment about &quot;transforms&quot;&lt;/li&gt;
             &lt;li&gt;It is likely that the vehicle is running QNX, which contains various bits of BSD&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://support7.qnx.com/download/download/25111/TPLTL.v2.17.Jul23-13.pdf&quot;&gt;QNX:
             Third Party License Terms List version 2.17&lt;/a&gt;&lt;/li&gt;

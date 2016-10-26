@@ -155,13 +155,13 @@
 
             &lt;ul&gt;
             &lt;li&gt;Leo Laporte, formerly of TechTV, and now of TWiT.tv, is switching to FreeBSD&lt;/li&gt;
-            &lt;li&gt;“The latest debacle over the &quot;forced&quot; upgrade to Windows 10 and Apple&#39;s increasingly
+            &lt;li&gt;&quot;The latest debacle over the &quot;forced&quot; upgrade to Windows 10 and Apple&#39;s increasingly
             locked-in ecosystem has got me thinking. Do I really need to use a proprietary operating system to get work
-            done? And while I&#39;m at it, do I need to use commercial cloud services to store my data?”&lt;/li&gt;
+            done? And while I&#39;m at it, do I need to use commercial cloud services to store my data?&quot;&lt;/li&gt;
             &lt;li&gt;A sometimes Linux user since the mid 90s, Leo talks about his motivations:&lt;/li&gt;
-            &lt;li&gt;“But as time went by, even Ubuntu began to seem too commercial to me”&lt;/li&gt;
-            &lt;li&gt;“So now for the grand experiment. Is it possible, I wonder, to do everything I need to do on an
-            even more venerable, more robust system: a true UNIX OS, FreeBSD? Here are my requirements”&lt;/li&gt;
+            &lt;li&gt;&quot;But as time went by, even Ubuntu began to seem too commercial to me&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;So now for the grand experiment. Is it possible, I wonder, to do everything I need to do on an
+            even more venerable, more robust system: a true UNIX OS, FreeBSD? Here are my requirements&quot;&lt;/li&gt;
             &lt;li&gt;Browsing&lt;/li&gt;
             &lt;li&gt;Email with PGP signing and encryption&lt;/li&gt;
             &lt;li&gt;Coding - I&#39;m a hobbyist programmer requiring support for lisp/scheme/racket, rust, and python
@@ -172,18 +172,18 @@
             &lt;li&gt;Photo editing - this is the toughest to replace. I love Photoshop and Lightroom. Can I get by
             with, say, GIMP and Darktable?&lt;/li&gt;
             &lt;li&gt;I do all of those things on my PCBSD machine all the time&lt;/li&gt;
-            &lt;li&gt;“I love Linux and will continue to use it on my laptops, but for my main workhorse desktop I think
-            FreeBSD will be a better choice. I also look forward to learning and administering a true UNIX system.”&lt;/li&gt;
+            &lt;li&gt;&quot;I love Linux and will continue to use it on my laptops, but for my main workhorse desktop I think
+            FreeBSD will be a better choice. I also look forward to learning and administering a true UNIX system.&quot;&lt;/li&gt;
             &lt;li&gt;He got a nice SuperMicro based workstation, with an Intel Xeon E3-1275v5 and an NVIDIA GeForce GTX
             960 GPU&lt;/li&gt;
             &lt;li&gt;I have a server with one of those Skylake E3s, it is very nice&lt;/li&gt;
-            &lt;li&gt;“450Mbps Wireless N Dual Band PCI-e Adapter w/ 3x 2dBi Antennas (Yes, sad to say, unless I rewire
-            my house I&#39;ll have to use Wi-Fi with this beast. I&#39;ll probably rewire my house.)”&lt;/li&gt;
+            &lt;li&gt;&quot;450Mbps Wireless N Dual Band PCI-e Adapter w/ 3x 2dBi Antennas (Yes, sad to say, unless I rewire
+            my house I&#39;ll have to use Wi-Fi with this beast. I&#39;ll probably rewire my house.)&quot;&lt;/li&gt;
             &lt;li&gt;He plans to have a 4x 1TB ZFS pool, plus a second pool backed by a 512 GB NVMe m.2 for the OS&lt;/li&gt;
-            &lt;li&gt;“And I&#39;ll continue to chronicle my journey into the land of FOSS here when The Beast arrives.
-            But in the meantime, please excuse me, I&#39;ve got some reading to do.”&lt;/li&gt;
-            &lt;li&gt;Leo went so far as to &lt;a href=&quot;https://youtu.be/vNVst_rxxm0?t=270&quot;&gt;slap a “Power
-            By FreeBSD” sticker &lt;/a&gt; on the back of his new Tesla&lt;/li&gt;
+            &lt;li&gt;&quot;And I&#39;ll continue to chronicle my journey into the land of FOSS here when The Beast arrives.
+            But in the meantime, please excuse me, I&#39;ve got some reading to do.&quot;&lt;/li&gt;
+            &lt;li&gt;Leo went so far as to &lt;a href=&quot;https://youtu.be/vNVst_rxxm0?t=270&quot;&gt;slap a &quot;Power
+            By FreeBSD&quot; sticker &lt;/a&gt; on the back of his new Tesla&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -222,8 +222,8 @@
             &lt;li&gt;&lt;a href=&quot;https://2016.eurobsdcon.org/tutorials/&quot;&gt;EuroBSDCon 2016 Tutorial Schedule
             released&lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;EuroBSDCon has announced the list of talks and tutorials for September 22nd-25th’s conference!&lt;/li&gt;
-            &lt;li&gt;George Neville Neil (Who we’ve interviewed in the past) is giving the keynote about “The Coming
-            Decades of BSD”&lt;/li&gt;
+            &lt;li&gt;George Neville Neil (Who we’ve interviewed in the past) is giving the keynote about &quot;The Coming
+            Decades of BSD&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -276,11 +276,11 @@
             &lt;ul&gt;
             &lt;li&gt;NCC Group’s Project Triforce continues its work of fuzzing OpenBSD&lt;/li&gt;
             &lt;li&gt;This time they have found a flaw that allows any user to panic the kernel&lt;/li&gt;
-            &lt;li&gt;Attempting to read from the tmpfs_vfsops sysctl tree will panic the system: “attempt to execute
-            user address 0x0 in supervisor mode”&lt;/li&gt;
-            &lt;li&gt;This is actually a “good” thing…&lt;/li&gt;
-            &lt;li&gt;“Impact: Any user can panic the kernel by using the sysctl call. If a user can manage to map a
-            page at address zero, they may be able to gain kernel code execution and escalate privileges”&lt;/li&gt;
+            &lt;li&gt;Attempting to read from the tmpfs_vfsops sysctl tree will panic the system: &quot;attempt to execute
+            user address 0x0 in supervisor mode&quot;&lt;/li&gt;
+            &lt;li&gt;This is actually a &quot;good&quot; thing…&lt;/li&gt;
+            &lt;li&gt;&quot;Impact: Any user can panic the kernel by using the sysctl call. If a user can manage to map a
+            page at address zero, they may be able to gain kernel code execution and escalate privileges&quot;&lt;/li&gt;
             &lt;li&gt;OpenBSD’s default configuration prevents mapping a page at address zero, so the code execution is
             prevented&lt;/li&gt;
             &lt;li&gt;So while a panic is a bad outcome, it is a lot better than it could have been&lt;/li&gt;
@@ -328,17 +328,17 @@
             &lt;ul&gt;
             &lt;li&gt;An important vuln has been found and fixed in FreeBSD this past week, specifically relating to the
             ‘bspatch’ utility.&lt;/li&gt;
-            &lt;li&gt;“Upstream&#39;s bspatch.c implementation doesn&#39;t check for negative values on the number of
+            &lt;li&gt;&quot;Upstream&#39;s bspatch.c implementation doesn&#39;t check for negative values on the number of
             bytes to read from the &quot;diff&quot; and &quot;extra&quot; streams, allowing an attacker controlling the
-            patch file to write at arbitrary locations in the heap.”&lt;/li&gt;
+            patch file to write at arbitrary locations in the heap.&quot;&lt;/li&gt;
             &lt;li&gt;This could result in a crash, or running arbitrary code as the user running bspatch. (Often root)&lt;/li&gt;
-            &lt;li&gt;“bspatch&#39;s main loop reads three numbers from the &quot;control&quot; stream in the patch: X,
+            &lt;li&gt;&quot;bspatch&#39;s main loop reads three numbers from the &quot;control&quot; stream in the patch: X,
             Y and Z. The first two are the number of bytes to read from &quot;diff&quot; and &quot;extra&quot; (and thus
             only non-negative), while the third one could be positive or negative and moves the oldpos pointer on the
             source image. These 3 values are 64bits signed ints (encoded somehow on the file) that are later passed the
-            function that reads from the streams, but those values are not verified to be non-negative.”&lt;/li&gt;
-            &lt;li&gt;“Chrome[OS] has four different implementations of this program, all derived from the same original
-            code by Colin Percival.”&lt;/li&gt;
+            function that reads from the streams, but those values are not verified to be non-negative.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Chrome[OS] has four different implementations of this program, all derived from the same original
+            code by Colin Percival.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://bugs.chromium.org/p/chromium/issues/detail?id=372525&quot;&gt;Chromium
             Issue Tracker &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;Patch your systems now!&lt;/li&gt;

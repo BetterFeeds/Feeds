@@ -113,17 +113,17 @@
             &lt;li&gt;He begins in the article with benchmarking the defaults, since without that we don’t have a
             framework to compare the later results. All done on his Netgate RCC-VE 4860 (4 cores ATOM C2558, 8GB RAM)
             under FreeBSD 10.3.&lt;/li&gt;
-            &lt;li&gt;“We notice a little performance impact when we reach the default 10K state table limit: From
-            413Kpps with 128 states in-used, it lower to 372Kpps.”&lt;/li&gt;
+            &lt;li&gt;&quot;We notice a little performance impact when we reach the default 10K state table limit: From
+            413Kpps with 128 states in-used, it lower to 372Kpps.&quot;&lt;/li&gt;
             &lt;li&gt;With the initial benchmarks done and graphed, he then starts the tuning process by adjusting the
-            “net.pf.states_hashsize”sysctl, and then playing with the number of states for the firewall to keep.&lt;/li&gt;
-            &lt;li&gt;“For the next bench, the number of flow will be fixed for generating 9800 pf state entries, but I
+            &quot;net.pf.states_hashsize&quot;sysctl, and then playing with the number of states for the firewall to keep.&lt;/li&gt;
+            &lt;li&gt;&quot;For the next bench, the number of flow will be fixed for generating 9800 pf state entries, but I
             will try different value of pf.states_hashsize until the maximum allowed on my 8GB RAM server (still with
-            the default max states of 10k):”&lt;/li&gt;
+            the default max states of 10k):&quot;&lt;/li&gt;
             &lt;li&gt;Then he cranks it up to 4 million states&lt;/li&gt;
-            &lt;li&gt;“There is only 12% performance penalty between pf 128 pf states and 4 million pf states.”&lt;/li&gt;
-            &lt;li&gt;“With 10M state, pf performance lower to 362Kpps: Still only 12% lower performance than with only
-            128 states”&lt;/li&gt;
+            &lt;li&gt;&quot;There is only 12% performance penalty between pf 128 pf states and 4 million pf states.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;With 10M state, pf performance lower to 362Kpps: Still only 12% lower performance than with only
+            128 states&quot;&lt;/li&gt;
             &lt;li&gt;He then looks at what this does of pfsync, the protocol to sync the state table between two
             redundant pf firewalls&lt;/li&gt;
             &lt;li&gt;Conclusions:&lt;/li&gt;
@@ -141,12 +141,12 @@
 
             &lt;ul&gt;
             &lt;li&gt;Pronounced Beaches&lt;/li&gt;
-            &lt;li&gt;“It&#39;s a hipster-free, open source software stack for web applications”&lt;/li&gt;
-            &lt;li&gt;“Don&#39;t just write C. Write portable and secure C.”&lt;/li&gt;
-            &lt;li&gt;“Get to know your security tools. OpenBSD has systrace(4) and pledge(2). FreeBSD has capsicum(4).”&lt;/li&gt;
-            &lt;li&gt;“Statically scan your binary with LLVM” and “Run your application under valgrind”&lt;/li&gt;
-            &lt;li&gt;“Don&#39;t forget: BSD is a community of professionals. Go to conferences (EuroBSDCon, AsiaBSDCon,
-            BSDCan, etc.)”&lt;/li&gt;
+            &lt;li&gt;&quot;It&#39;s a hipster-free, open source software stack for web applications&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Don&#39;t just write C. Write portable and secure C.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Get to know your security tools. OpenBSD has systrace(4) and pledge(2). FreeBSD has capsicum(4).&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Statically scan your binary with LLVM&quot; and &quot;Run your application under valgrind&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Don&#39;t forget: BSD is a community of professionals. Go to conferences (EuroBSDCon, AsiaBSDCon,
+            BSDCan, etc.)&quot;&lt;/li&gt;
             &lt;li&gt;This seems like a really interesting project, we’ll have to get Kristaps Dzonsons back on the show
             to talk about it&lt;/li&gt;
             &lt;/ul&gt;
@@ -175,16 +175,16 @@
             infrastructure behind Varnish &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Dogfooding. It’s a term you hear often in the software community, which essentially means to “Run
-            your own stuff”. Today we have an article by PKH over at varnish-cache, talking about what that means to
+            &lt;li&gt;Dogfooding. It’s a term you hear often in the software community, which essentially means to &quot;Run
+            your own stuff&quot;. Today we have an article by PKH over at varnish-cache, talking about what that means to
             them.&lt;/li&gt;
             &lt;li&gt;Specifically, they recently went through a website upgrade, which will enable them to run more of
             their own stuff. &lt;/li&gt;
-            &lt;li&gt;He has a great quote on what OS they use:“So, dogfood: Obviously FreeBSD. Apart from the obvious
+            &lt;li&gt;He has a great quote on what OS they use:&quot;So, dogfood: Obviously FreeBSD. Apart from the obvious
             reason that I wrote a lot of FreeBSD and can get world-class support by bugging my buddies about it, there
             are two equally serious reasons for the Varnish Project to run on FreeBSD: Dogfood and jails.Varnish Cache
-            is not “software for Linux”, it is software for any competent UNIX-like operating system, and FreeBSD is our
-            primary “keep us honest about this” platform.“&lt;/li&gt;
+            is not &quot;software for Linux&quot;, it is software for any competent UNIX-like operating system, and FreeBSD is our
+            primary &quot;keep us honest about this&quot; platform.&quot;&lt;/li&gt;
             &lt;li&gt;He then goes through the process of explaining how they would setup a new Varnish-cache website,
             or upgrade it. &lt;/li&gt;
             &lt;li&gt;All together a great read, and if you are one of the admin-types, you really should pay attention
@@ -192,7 +192,7 @@
             replicate.&lt;/li&gt;
             &lt;li&gt;I can not reiterate the value of having your config files in a private source control repo
             strongly enough&lt;/li&gt;
-            &lt;li&gt;The biggest take-away is: “And by doing it this way, I know it will work next time also.”&lt;/li&gt;
+            &lt;li&gt;The biggest take-away is: &quot;And by doing it this way, I know it will work next time also.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -262,7 +262,7 @@
             &lt;li&gt;Specifically he talks about getting XWayland working, which provides the compat bits for native X
             applications to run on WayLand displays.&lt;/li&gt;
             &lt;li&gt;So far on the working list of apps:
-            “gtk3:
+            &quot;gtk3:
 
             &lt;ul&gt;
             &lt;li&gt;gedit&lt;/li&gt;
@@ -278,8 +278,8 @@
             &lt;ul&gt;
             &lt;li&gt;firefox&lt;/li&gt;
             &lt;li&gt;spyder&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;scilab”&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;A pretty impressive list, although he said “chrome” failed with a seg-fault&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;scilab&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;A pretty impressive list, although he said &quot;chrome&quot; failed with a seg-fault&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;This is something I’m personally interested in. Now with the newer DRM bits landing in FreeBSD,
             perhaps it’s time for some further looking into Wayland.&lt;/li&gt;
             &lt;/ul&gt;
@@ -473,13 +473,13 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“But too much focus on Joy, a favorite target for business magazine hagiography, obscures the
+            &lt;p&gt;&quot;But too much focus on Joy, a favorite target for business magazine hagiography, obscures the
             larger picture. Berkeley’s most important contribution was not software; it was the way Berkeley created
             software. At Berkeley, a small core group — never more than four people at any one time — coordinated the
             contributions of an ever-growing network of far-flung, mostly volunteer programmers into progressive
             releases of steadily improving software. In so doing, they codified a template for what is now referred to
-            as the “open-source software development methodology.” Put more simply, the Berkeley hackers set up a system
-            for creating free software.”&lt;/p&gt;
+            as the &quot;open-source software development methodology.&quot; Put more simply, the Berkeley hackers set up a system
+            for creating free software.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -488,11 +488,11 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“BSD patriots argue that the battle is far from over, that BSD is technically superior and will
+            &lt;p&gt;&quot;BSD patriots argue that the battle is far from over, that BSD is technically superior and will
             therefore win in the end. That’s for the future to determine. What’s indisputable is BSD’s contribution in
             the past. Even if, by 1975, Berkeley’s Free Speech Movement was a relic belonging to a fast-fading
             generation, on the fourth floor of Evans Hall, where Joy shared an office, the free-software movement was
-            just beginning.”&lt;/p&gt;
+            just beginning.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -541,26 +541,26 @@
             &lt;ul&gt;
             &lt;li&gt;A new technique for exploiting flaws in applications and operating systems has been developed,
             called SROP&lt;/li&gt;
-            &lt;li&gt;“we describe Sigreturn Oriented Programming (SROP), a novel technique for exploits and backdoors
+            &lt;li&gt;&quot;we describe Sigreturn Oriented Programming (SROP), a novel technique for exploits and backdoors
             in UNIX-like systems. Like return-oriented programming (ROP), sigreturn oriented programming constructs what
             is known as a ‘weird machine’ that can be programmed by attackers to change the behavior of a process. To
             program the machine, attackers set up fake signal frames and initiate returns from signals that the kernel
-            never really delivered. This is possible, because UNIX stores signal frames on the process’ stack.”&lt;/li&gt;
-            &lt;li&gt;“Sigreturn oriented programming is interesting for attackers, OS developers and academics. For
+            never really delivered. This is possible, because UNIX stores signal frames on the process’ stack.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Sigreturn oriented programming is interesting for attackers, OS developers and academics. For
             attackers, the technique is very versatile, with pre-conditions that are different from those of existing
             exploitation techniques like ROP. Moreover, unlike ROP, sigreturn oriented programming programs are
             portable. For OS developers, the technique presents a problem that has been present in one of the two main
             operating system families from its inception, while the fixes (which we also present) are non-trivial. From
             a more academic viewpoint, it is also interesting because we show that sigreturn oriented programming is
-            Turing complete.”&lt;/li&gt;
+            Turing complete.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://www.cs.vu.nl/~herbertb/papers/srop_sp14.pdf&quot;&gt;Paper describing SROP
             &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;OpenBSD has developed a mitigation against SROP&lt;/li&gt;
-            &lt;li&gt;“Utilizing a trick from kbind(2), the kernel now only accepts signal returns from the PC address
+            &lt;li&gt;&quot;Utilizing a trick from kbind(2), the kernel now only accepts signal returns from the PC address
             of the sigreturn(2) syscall in the signal trampoline. Since the signal trampoline page is randomized placed
-            per process, it is only known by directly returning from a signal handler.”&lt;/li&gt;
-            &lt;li&gt;“As well, the sigcontext provided to sigreturn(2) now contains a magic cookie constructed from a
-            per-process cookie XOR&#39;d against the address of the signal context.”&lt;/li&gt;
+            per process, it is only known by directly returning from a signal handler.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As well, the sigcontext provided to sigreturn(2) now contains a magic cookie constructed from a
+            per-process cookie XOR&#39;d against the address of the signal context.&quot;&lt;/li&gt;
             &lt;li&gt;This is just a draft of the patch, not yet considered production quality&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -570,7 +570,7 @@
             Tor in a NetBSD rump unikernel&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We’ve talked about “rump” kernels before, and also Tor pretty frequently, but this new github
+            &lt;li&gt;We’ve talked about &quot;rump&quot; kernels before, and also Tor pretty frequently, but this new github
             project combines the two!&lt;/li&gt;
             &lt;li&gt;Specifically, this set of Makefile and scripts will prep a system to run Tor via the Unikernel
             through Qemu.&lt;/li&gt;
@@ -586,12 +586,12 @@
             update on SSH protocol 1 (&quot;we&#39;re most of the way towards fully deprecating SSH protocol 1&quot;&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Damien Miller has given us an update on the status of the “SSH protocol 1”, and the current plans
+            &lt;li&gt;Damien Miller has given us an update on the status of the &quot;SSH protocol 1&quot;, and the current plans
             to deprecate it in an upcoming version of openssh.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“We&#39;ve had this old protocol in various stages of deprecation for almost 10 years and it has
+            &lt;p&gt;&quot;We&#39;ve had this old protocol in various stages of deprecation for almost 10 years and it has
             been compile-time disabled for about a year.
             Downstream vendors, to their credit, have included this change in recent OS releases by shipping OpenSSH
             packages that disable protocol 1 by default and/or offering separate, non-default packages to enable it.&lt;/p&gt;
@@ -600,7 +600,7 @@
             greater confidence that we can complete the removal of protocol 1 soon. We want to do this partly to hasten
             the demise of this cryptographic trainwreck, but also because doing so removes a lot of legacy code from
             OpenSSH that inflates our attack surface. Having it gone will make our jobs quite a bit easier as we
-            maintain and refactor.”&lt;/p&gt;
+            maintain and refactor.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -722,7 +722,7 @@
             Embargoes&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Our buddy TedU has a great thought piece today on the idea of “embargoes” for security advisories.
+            &lt;li&gt;Our buddy TedU has a great thought piece today on the idea of &quot;embargoes&quot; for security advisories.
             &lt;/li&gt;
             &lt;li&gt;This all stemmed from a recent incident with LibreSSL patches from embargoed OpenSSL vulns, that
             accidentally got committed too early. &lt;/li&gt;
@@ -731,7 +731,7 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“There are several difficulties maintaining embargoes. Keeping secrets is against human nature. I
+            &lt;p&gt;&quot;There are several difficulties maintaining embargoes. Keeping secrets is against human nature. I
             don’t want to be the one who leaks, but if I see something that looks like the secret is out, it’s a relief
             to be able to speak freely. There is a bias towards recognizing such signs where they may not really exist.
             (Exacerbated by broad embargoes where some parts leak but other parts don’t. It’s actually very hard to tell
@@ -739,9 +739,9 @@
 
             &lt;p&gt;The most thorough embargo and release timeline reconstruction is the heartbleed timeline. It’s
             another great case study. Who exactly decided who were the haves and have nots? Was it determined by who
-            needed to know or who you needed to know? Eventually the dam started to crack.”&lt;/p&gt;
+            needed to know or who you needed to know? Eventually the dam started to crack.&quot;&lt;/p&gt;
 
-            &lt;p&gt;“When Cloudflare brags that they get advance notice of vulnerabilities, attracting more customers,
+            &lt;p&gt;&quot;When Cloudflare brags that they get advance notice of vulnerabilities, attracting more customers,
             and therefore requiring even more early access, how are smaller players to compete? What happens if you’re
             not big enough to prenotify?&lt;/p&gt;
 
@@ -749,14 +749,14 @@
             which means end users don’t really have the luxury of only patching on Tuesday. They need to apply patches
             when they appear. If applying patches at inconvenient times is a problem, make it not a problem. Not really
             a gripe about embargoes per se, but the scheduled timing of coordinated release at the end of the embargo is
-            catering to a problem that shouldn’t exist.”&lt;/p&gt;
+            catering to a problem that shouldn’t exist.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
             &lt;li&gt;I will admit that CloudFlare bragging around Heartbleed was upsetting&lt;/li&gt;
             &lt;li&gt;The biggest issue here is the difficulty with coordinating so many open source projects, which are
             often done by volunteers, in different countries and time zones&lt;/li&gt;
-            &lt;li&gt;The other issue is determining when the secret is “out of the bag”&lt;/li&gt;
+            &lt;li&gt;The other issue is determining when the secret is &quot;out of the bag&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -767,14 +767,14 @@
             &lt;ul&gt;
             &lt;li&gt;OpenBSD warns those following the -current (development) branch to be careful as they upgrade
             because of a major ABI break that will result in applications not working&lt;/li&gt;
-            &lt;li&gt;“Handling of single-threaded programs is now closer to multi-threaded, with ld.so and libc.a doing
+            &lt;li&gt;&quot;Handling of single-threaded programs is now closer to multi-threaded, with ld.so and libc.a doing
             thread information base (TIB) allocation. Threaded programs from before the 2016/03/19 csu and ld.so update
-            will no longer run. An updated ld.so must be built and installed before running make build.”&lt;/li&gt;
-            &lt;li&gt;A special note for those on PowerPC: “PowerPC has been updated to offset the TIB from the hardware
+            will no longer run. An updated ld.so must be built and installed before running make build.&quot;&lt;/li&gt;
+            &lt;li&gt;A special note for those on PowerPC: &quot;PowerPC has been updated to offset the TIB from the hardware
             register. As a result, all threaded programs are broken until they have been rebuilt with the new libc and
-            libpthread. perl must be built after building the libraries and before building the rest of base.”&lt;/li&gt;
-            &lt;li&gt;“The definitions of environ and __progname for dynamically linked programs have been moved from
-            the C startup code to ld.so(1). An updated ld.so must be built and installed before running make build.”&lt;/li&gt;
+            libpthread. perl must be built after building the libraries and before building the rest of base.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The definitions of environ and __progname for dynamically linked programs have been moved from
+            the C startup code to ld.so(1). An updated ld.so must be built and installed before running make build.&quot;&lt;/li&gt;
             &lt;li&gt;The link provides instructions on how to update your system properly&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -794,8 +794,8 @@
             partition, so it can more easily be resized if you later decide you need more space in your VM&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=299371&quot;&gt;the
             camcontrol reprobe subcommand has been added &lt;/a&gt;,&lt;/li&gt;
-            &lt;li&gt;“This makes it possible to manually force updating capacity data after the disk got resized.
-            Without it it might be necessary to reboot before FreeBSD notices updated disk size under eg VMWare.”&lt;/li&gt;
+            &lt;li&gt;&quot;This makes it possible to manually force updating capacity data after the disk got resized.
+            Without it it might be necessary to reboot before FreeBSD notices updated disk size under eg VMWare.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -847,7 +847,7 @@
             &lt;ul&gt;
             &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/freebsd/comments/4gggw8/introducing_tredly_containers_for_unix_freebsd/&quot;&gt;Discussion
             regarding its GPLv3 licensing&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;A new “container” solution called “Trendly” has started making some news around various tech
+            &lt;li&gt;A new &quot;container&quot; solution called &quot;Trendly&quot; has started making some news around various tech
             sites.&lt;/li&gt;
             &lt;li&gt;In particular, this new project uses FreeBSD as its base OS and jail functionality in the backend.&lt;/li&gt;
             &lt;li&gt;Their solution seems based around the idea of shipping containers as manifests, such as lists of
@@ -894,7 +894,7 @@
             &lt;li&gt;The hope is that enough orders come though so we can get them shipped in and your sweaty little
             hands in time for BSDCan. (I’ll be wearing mine, will you B...SD?)&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://teespring.com/bsd105&quot;&gt;If you still want one of our now-famous
-            “The Usual BSD’s” t-shirts, you can also indicate your interest here, and once 10 or more shirts are
+            &quot;The Usual BSD’s&quot; t-shirts, you can also indicate your interest here, and once 10 or more shirts are
             ordered, a reprint will happen automatically&lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1059,21 +1059,21 @@
 
             &lt;ul&gt;
             &lt;li&gt;Ted Unangst looks at what goes into the name of a program&lt;/li&gt;
-            &lt;li&gt;“Sometimes two similar programs are really the same program with two names. For example, grep and
+            &lt;li&gt;&quot;Sometimes two similar programs are really the same program with two names. For example, grep and
             egrep are two commands that perform very similar functions and are therefore implemented as a single
             program. Running ls -i and observing the inode number of each file will reveal that there is only one file.
-            Calling the program egrep is a shorthand for -E and does the same thing.”&lt;/li&gt;
+            Calling the program egrep is a shorthand for -E and does the same thing.&quot;&lt;/li&gt;
             &lt;li&gt;So BSD provides __progname in libc, so a program can tell what its name is&lt;/li&gt;
             &lt;li&gt;But, what if it has more than one name?&lt;/li&gt;
-            &lt;li&gt;“In fact, every program has three names: its name in the filesystem, the name it has been invoked
-            with, and whatever it believes its own name to be.”&lt;/li&gt;
+            &lt;li&gt;&quot;In fact, every program has three names: its name in the filesystem, the name it has been invoked
+            with, and whatever it believes its own name to be.&quot;&lt;/li&gt;
             &lt;li&gt;Of course it is not that easy. &lt;/li&gt;
-            &lt;li&gt;“there’s another set of choices for each name, the full path and the basename”&lt;/li&gt;
-            &lt;li&gt;“It’s even possible on some systems for argv[0] to be NULL.”&lt;/li&gt;
+            &lt;li&gt;&quot;there’s another set of choices for each name, the full path and the basename&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;It’s even possible on some systems for argv[0] to be NULL.&quot;&lt;/li&gt;
             &lt;li&gt;He then goes on to rename doas (the OpenBSD light replacement for sudo) to banana and discuss what
             happens&lt;/li&gt;
-            &lt;li&gt;“On that note, another possible bug is to realize that syslog by default uses progname. A user may
-            be able to evade log monitoring by invoking doas with a different name. (Just fixed.)”&lt;/li&gt;
+            &lt;li&gt;&quot;On that note, another possible bug is to realize that syslog by default uses progname. A user may
+            be able to evade log monitoring by invoking doas with a different name. (Just fixed.)&quot;&lt;/li&gt;
             &lt;li&gt;Another interesting article from our friend Ted&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1110,18 +1110,18 @@
 
             &lt;ul&gt;
             &lt;li&gt;We haven’t had a Ted U article on the show as of late, however this week we get several! In his
-            next entry “LibreSSL, more vague promises”&lt;/li&gt;
+            next entry &quot;LibreSSL, more vague promises&quot;&lt;/li&gt;
             &lt;li&gt;He then goes into some detail on what has happened with LibreSSL in the past while, as well as
             future plans going forward. &lt;/li&gt;
-            &lt;li&gt;“With an eye to the future, what new promises can we make? Some time ago I joked that we only
+            &lt;li&gt;&quot;With an eye to the future, what new promises can we make? Some time ago I joked that we only
             promised to make a better TLS implementation, not a better TLS. Remains true, but fortunately there are
             people working on that, too. TLS 1.3 support is on the short term watchlist. The good news is we may be
-            ahead of the game, having already removed compression. How much more work can there be?”&lt;/li&gt;
-            &lt;li&gt;“LibreSSL integrated the draft chacha20-poly1305 construction from BoringSSL. The IETF has since
+            ahead of the game, having already removed compression. How much more work can there be?&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;LibreSSL integrated the draft chacha20-poly1305 construction from BoringSSL. The IETF has since
             standardized a slightly different version because if it were the same it wouldn’t be different. Support for
             standard variant, and the beginning of deprecation for the existing code, should be landing very shortly.
             Incidentally, some people got bent out of shape because shipping chacha20 meant exposing non IANA approved
-            numbers to Internet. No promises that won’t happen again.”&lt;/li&gt;
+            numbers to Internet. No promises that won’t happen again.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1169,7 +1169,7 @@
             announces its 2016 FOSS Donations &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The theme is “raising the standard of trust online”&lt;/li&gt;
+            &lt;li&gt;The theme is &quot;raising the standard of trust online&quot;&lt;/li&gt;
             &lt;li&gt;Supported projects include:&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160503085227&amp;amp;mode=expanded&quot;&gt;OpenBSD
             Foundation announces DuckDuckGo as a Gold Sponsor&lt;/a&gt;&lt;/li&gt;
@@ -1206,8 +1206,8 @@
             &lt;h2&gt;Beastie Bits&lt;/h2&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2648&quot;&gt;If you sponsored “FreeBSD
-            Mastery: Advanced ZFS”, check your mail box &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2648&quot;&gt;If you sponsored &quot;FreeBSD
+            Mastery: Advanced ZFS&quot;, check your mail box &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://marc.info/?l=freebsd-ports&amp;amp;m=146001143408868&amp;amp;w=2&quot;&gt;pkg-1.7.0
             is an order of magnitude slower than pkg-1.6.4&lt;/a&gt; -- Caused by a problem not in pkg&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://www.ixsystems.com/blog/linuxfest-northwest-2016/&quot;&gt;LinuxFest

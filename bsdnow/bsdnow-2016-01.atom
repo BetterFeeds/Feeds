@@ -108,27 +108,27 @@
             &lt;ul&gt;
             &lt;li&gt;The review compares the features of: FreeNAS, NAS4Free, Open Media Vault, Openfiler Community
             Edition, EasyNAS, and Turnkey Linux File Server&lt;/li&gt;
-            &lt;li&gt;“Many NAS solutions can do a lot more than just back up and restore files – you can extend them
+            &lt;li&gt;&quot;Many NAS solutions can do a lot more than just back up and restore files – you can extend them
             with plugins to do a variety of tasks. Some enable you to stream media to computers and others devices.
-            Others can hook up with apps and services and allow them to use the NAS for storing and retrieving data”&lt;/li&gt;
-            &lt;li&gt;Open Media Vault: 4/5, “A feature-rich NAS distro that’s easy to deploy and manage”. Many plugins,
+            Others can hook up with apps and services and allow them to use the NAS for storing and retrieving data&quot;&lt;/li&gt;
+            &lt;li&gt;Open Media Vault: 4/5, &quot;A feature-rich NAS distro that’s easy to deploy and manage&quot;. Many plugins,
             good UI&lt;/li&gt;
-            &lt;li&gt;Turnkey Linux File Server: 2/5, “A no-fuss distro that’ll set up a fully functional file sharing
-            server in no time”. No RAID, LVM must be down manually&lt;/li&gt;
-            &lt;li&gt;Openfiler Community Edition: 1/5, “There is a target segment for Openfiler, but we can’t spot it”.
+            &lt;li&gt;Turnkey Linux File Server: 2/5, &quot;A no-fuss distro that’ll set up a fully functional file sharing
+            server in no time&quot;. No RAID, LVM must be down manually&lt;/li&gt;
+            &lt;li&gt;Openfiler Community Edition: 1/5, &quot;There is a target segment for Openfiler, but we can’t spot it&quot;.
             In the middle of rebasing on CentOS, lacking documentation, confusing UI&lt;/li&gt;
-            &lt;li&gt;EasyNAS: 3/5, “A simple NAS distro that balances the availability of features with reasonable
-            assumptions”. Major updates require reinstall, lacks advanced features and advanced protocols&lt;/li&gt;
-            &lt;li&gt;FreeNAS: 3/5, “FreeNAS The most feature-rich NAS distribution requires some getting used to”. Best
+            &lt;li&gt;EasyNAS: 3/5, &quot;A simple NAS distro that balances the availability of features with reasonable
+            assumptions&quot;. Major updates require reinstall, lacks advanced features and advanced protocols&lt;/li&gt;
+            &lt;li&gt;FreeNAS: 3/5, &quot;FreeNAS The most feature-rich NAS distribution requires some getting used to&quot;. Best
             documentation, best snapshot management, most plugins, jailed plugins, most enterprise features&lt;/li&gt;
-            &lt;li&gt;NAS4Free: 3/5, “NAS4Free An advanced NAS distro that’s designed for advanced users”, additional
+            &lt;li&gt;NAS4Free: 3/5, &quot;NAS4Free An advanced NAS distro that’s designed for advanced users&quot;, additional
             flexibility with disk layout (partition the first disk to install the OS there, use remaining space for data
             storage)&lt;/li&gt;
-            &lt;li&gt;“If we had to award this group test to the distro with the biggest number of features then the top
+            &lt;li&gt;&quot;If we had to award this group test to the distro with the biggest number of features then the top
             two challengers would have been FreeNAS and its proteg&#233;e NAS4Free. While both of these solutions pitch
             themselves to users outside the corporate environment, they’d simply be overkill for most home users.
             Furthermore, their FreeBSD base and the ZFS filesystem, while a boon to enterprise users, virtually makes
-            them alien technology to the average Linux household.”&lt;/li&gt;
+            them alien technology to the average Linux household.&quot;&lt;/li&gt;
             &lt;li&gt;It is not clear why they gave NAS4Free and FreeNAS the same score when they wrote a list of
             reasons why FreeNAS was better.&lt;/li&gt;
             &lt;li&gt;It seems the goal of their rundown was to find the best Linux NAS, not the best NAS.&lt;/li&gt;
@@ -158,36 +158,36 @@
             features two BSD developers as examples of how open source can help your career&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“When contributing to open source projects and communities, one of the many benefits is that you
+            &lt;li&gt;&quot;When contributing to open source projects and communities, one of the many benefits is that you
             can improve your tech skills. In this article, hear from three contributors on how their open source helped
-            them get a job or improved their career.”&lt;/li&gt;
-            &lt;li&gt;Alexander Yurchenko, an OpenBSD developer who now works at Yandex says: “Participating in such a
+            them get a job or improved their career.&quot;&lt;/li&gt;
+            &lt;li&gt;Alexander Yurchenko, an OpenBSD developer who now works at Yandex says: &quot;Participating in such a
             project yields colossal experience. A good, large open source project has everything that is typically
             required from a developer at job interviews: good planning, good coding, use of versioning systems and bug
             trackers, peer reviews, teamwork, and such. So, after stewing in such an environment for a year or two, you
-            have a good opportunity to grow to a senior developer level.”&lt;/li&gt;
-            &lt;li&gt;“That is, in fact, what happened to me. I was hired as a senior developer without having any
+            have a good opportunity to grow to a senior developer level.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;That is, in fact, what happened to me. I was hired as a senior developer without having any
             formal work experience on my service record. After the first week, my probation period was reduced from
-            three months to zero.”&lt;/li&gt;
-            &lt;li&gt;While you may not have “formal work experience”, you do have a body of work, a
+            three months to zero.&quot;&lt;/li&gt;
+            &lt;li&gt;While you may not have &quot;formal work experience&quot;, you do have a body of work, a
             (code/documentation/etc) portfolio, you can point to&lt;/li&gt;
             &lt;li&gt;Having spent a year working somewhere may say something about you, but showing some code you wrote
             that other people use every day, is usually more valuable&lt;/li&gt;
             &lt;li&gt;Alexander Polyakov, a DragonFly contributor, worked on updating support for other languages and on
             ACPI.&lt;/li&gt;
-            &lt;li&gt;“I even made some money in the process—a customer found me via git log. He wanted to use
-            DragonFlyBSD in production and needed better ACPI support and some RAID driver or something.”&lt;/li&gt;
-            &lt;li&gt;“In a nutshell, contributing to various open source projects is how you gain great experience. Don&#39;t
+            &lt;li&gt;&quot;I even made some money in the process—a customer found me via git log. He wanted to use
+            DragonFlyBSD in production and needed better ACPI support and some RAID driver or something.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;In a nutshell, contributing to various open source projects is how you gain great experience. Don&#39;t
             be afraid to send in bad code (happens to the best of us), keep calm (while being scolded for sending in
             that bad code), and choose projects you are really interested in. Then you&#39;ll both gain experience and
-            have fun while you doing it.”&lt;/li&gt;
-            &lt;li&gt;Kirill Gorkunov talks about his experience with turning open source into a career: “For a few
+            have fun while you doing it.&quot;&lt;/li&gt;
+            &lt;li&gt;Kirill Gorkunov talks about his experience with turning open source into a career: &quot;For a few
             years, I&#39;ve been fixing the code, sending patches, getting scolded for bad code and complimented for
             good code. That experience was priceless. And you can be sure that as soon as you get good at it, job offers
             will follow. This is, in fact, how I met the kernel developers working on OpenVZ. Together, we decided to
-            continue working on the OpenVZ kernel and related stuff as well”&lt;/li&gt;
-            &lt;li&gt;When you contribute to open source, you end up being the person who wrote “Foo”, and this can
-            often turn into work, when someone wants to build something with “Foo”, or like “Foo”&lt;/li&gt;
+            continue working on the OpenVZ kernel and related stuff as well&quot;&lt;/li&gt;
+            &lt;li&gt;When you contribute to open source, you end up being the person who wrote &quot;Foo&quot;, and this can
+            often turn into work, when someone wants to build something with &quot;Foo&quot;, or like &quot;Foo&quot;&lt;/li&gt;
             &lt;li&gt;This same point was focus of a panel the FreeBSD Foundation organized at the womENcourage
             conference in Sweden last year: &lt;a href=&quot;https://www.youtube.com/watch?v=p7PW1E3IJvY&quot;&gt;Open
             Source as a Career Path
@@ -204,11 +204,11 @@
             talking about how he uses LibreSSL and LetsEncrypt, without using the heavy python client&lt;/li&gt;
             &lt;li&gt;The article provides detailed instructions on prepping the system and automating the process of
             updating the SSL certificates&lt;/li&gt;
-            &lt;li&gt;If you’ve used the “official” letsencrypt client in the past, you’ll note some differences in his
+            &lt;li&gt;If you’ve used the &quot;official&quot; letsencrypt client in the past, you’ll note some differences in his
             method, which keeps all the ‘acme-challenge’ files in a single-directory, which is aliased into domains.
             &lt;/li&gt;
             &lt;li&gt;Using this method also drops the requirement to run the letsencrypt auth as root, and allows you
-            to run it as the unprivileged “letsencrypt” user instead. &lt;/li&gt;
+            to run it as the unprivileged &quot;letsencrypt&quot; user instead. &lt;/li&gt;
             &lt;li&gt;He mentions that the bash/zsh scripts used may be added to ports at some point as well&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -231,7 +231,7 @@
             &lt;ul&gt;
             &lt;li&gt;In DragonFly’s ongoing quest for DRM awesomeness, they have now merged changes to bring them up to
             Linux 4.1 kernel features. &lt;/li&gt;
-            &lt;li&gt;Some of the notables include that “Valleyview” support is greatly improved, and not considered
+            &lt;li&gt;Some of the notables include that &quot;Valleyview&quot; support is greatly improved, and not considered
             preliminary anymore&lt;/li&gt;
             &lt;li&gt;Skylake got some support improvements as well, including runtime power management, and that turbo
             and sleep states should be functional. &lt;/li&gt;
@@ -286,11 +286,11 @@
             &lt;li&gt;Make a list of your keys (laptop, desktop, work)&lt;/li&gt;
             &lt;li&gt;Then a list of your ssh accounts&lt;/li&gt;
             &lt;li&gt;List which keys should be present, and which should be absent&lt;/li&gt;
-            &lt;li&gt;Optional setting to keep all “other” keys, such as those added by other users&lt;/li&gt;
-            &lt;li&gt;Optional list of specific “other” keys to allow (does not add them, but does not remove them if
+            &lt;li&gt;Optional setting to keep all &quot;other&quot; keys, such as those added by other users&lt;/li&gt;
+            &lt;li&gt;Optional list of specific &quot;other&quot; keys to allow (does not add them, but does not remove them if
             they are present)&lt;/li&gt;
             &lt;li&gt;You say say ‘server2 like server1’, and it will inherit all of the settings from that server&lt;/li&gt;
-            &lt;li&gt;There is a “default” server, that all others inherit&lt;/li&gt;
+            &lt;li&gt;There is a &quot;default&quot; server, that all others inherit&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -430,9 +430,9 @@
             after almost 19 years of dedicated service.&lt;/li&gt;
             &lt;/ul&gt;
 
-            &lt;p&gt;“In its day, it was a reasonable machine - 200MHz Pentium, 32MB RAM, 4GB SCSI-2 drive,” Ross
-            writes. “And up until recently, it was doing its job fine.” Of late, however the “hard drive finally started
-            throwing errors, it was time to retire it before it gave up the ghost!” The drive&#39;s a Seagate, for those
+            &lt;p&gt;&quot;In its day, it was a reasonable machine - 200MHz Pentium, 32MB RAM, 4GB SCSI-2 drive,&quot; Ross
+            writes. &quot;And up until recently, it was doing its job fine.&quot; Of late, however the &quot;hard drive finally started
+            throwing errors, it was time to retire it before it gave up the ghost!&quot; The drive&#39;s a Seagate, for those
             of you looking to avoid drives that can&#39;t deliver more than 19 years of error-free operations.&lt;/p&gt;
 
             &lt;ul&gt;
@@ -440,11 +440,11 @@
             Ross has an answer for that:&lt;/li&gt;
             &lt;/ul&gt;
 
-            &lt;p&gt;“It was heavily firewalled and only very specific services were visible to anyone, and most only
-            visible to our directly connected customers,” Ross told Vulture South. “By the time it was probably due for
+            &lt;p&gt;&quot;It was heavily firewalled and only very specific services were visible to anyone, and most only
+            visible to our directly connected customers,&quot; Ross told Vulture South. &quot;By the time it was probably due for
             a review, things had moved so far that all the original code was so tightly bound to the operating system
             itself, that later versions of the OS would have (and ultimately, did) require substantial rework. While it
-            was running and not showing any signs of stress, it was simply expedient to leave sleeping dogs lie.”&lt;/p&gt;
+            was running and not showing any signs of stress, it was simply expedient to leave sleeping dogs lie.&quot;&lt;/p&gt;
 
             &lt;ul&gt;
             &lt;li&gt;All in all, an amazing story of the longevity of a system and its operating system. Do you have a
@@ -457,20 +457,20 @@
             BSDs&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The magazine LinuxVoice recently did a group test of a variety of “BSD Distros”.&lt;/li&gt;
+            &lt;li&gt;The magazine LinuxVoice recently did a group test of a variety of &quot;BSD Distros&quot;.&lt;/li&gt;
             &lt;li&gt;Included in their review were Free/Open/Net/Dragon/Ghost/PC&lt;/li&gt;
             &lt;li&gt;It starts with a pretty good overview of BSD in general, its starts and the various projects /
             forks that spawned from it, such as FreeNAS / Junos / Playstation / PFSense / etc&lt;/li&gt;
             &lt;li&gt;The review starts with a look at OpenBSD, and the consensus reached is that it is good, but does
             require a bit more manual work to run as a desktop. (Most of the review focuses on desktop usage). It ends
             up with a solid ⅘ stars though. &lt;/li&gt;
-            &lt;li&gt;Next it moves into GhostBSD, discusses it being a “Live” distro, which can optionally be installed
+            &lt;li&gt;Next it moves into GhostBSD, discusses it being a &quot;Live&quot; distro, which can optionally be installed
             to disk. It loses a few points for lacking a graphical package management utility, and some bugs during the
             installation, but still earns a respectable ⅗ stars.&lt;/li&gt;
             &lt;li&gt;Dragonfly gets the next spin and gets praise for its very-up to date video driver support and
             availability of the HAMMER filesystem. It also lands at ⅗ stars, partly due to the reviewer having to use
             the command-line for management. (Notice a trend here?)&lt;/li&gt;
-            &lt;li&gt;NetBSD is up next, and gets special mention for being one of the only “distros” that doesn’t do
+            &lt;li&gt;NetBSD is up next, and gets special mention for being one of the only &quot;distros&quot; that doesn’t do
             frequent releases. However that doesn’t mean you can’t have updated packages, since the review mentions
             pkgsrc and pkg as both available to customize your desktop. The reviewer was slightly haunted by having to
             edit files in /etc by hand to do wireless, but still gives NetBSD a ⅗ overall. &lt;/li&gt;
@@ -480,8 +480,8 @@
             mentions:&lt;/li&gt;
             &lt;/ul&gt;
 
-            &lt;p&gt;“This might sound cumbersome, but is actually pretty straightforward and at the end produces a
-            finely tuned aerodynamic system that does exactly what you want it to do and nothing else.”&lt;/p&gt;
+            &lt;p&gt;&quot;This might sound cumbersome, but is actually pretty straightforward and at the end produces a
+            finely tuned aerodynamic system that does exactly what you want it to do and nothing else.&quot;&lt;/p&gt;
 
             &lt;ul&gt;
             &lt;li&gt;He does mention that FreeBSD is the ultimate DIY system, even to the point of not having the
@@ -500,13 +500,13 @@
             &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/openbsd-laptops&quot;&gt;OpenBSD Laptops&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Our buddy Ted Unangst has posted a nice “planning ahead” guide for those thinking of new laptops
+            &lt;li&gt;Our buddy Ted Unangst has posted a nice &quot;planning ahead&quot; guide for those thinking of new laptops
             for 2016 and the upcoming OpenBSD 5.9&lt;/li&gt;
             &lt;li&gt;He starts by giving us a status update on several of the key driver components that will be in 5.9
-            release“5.9 will be the first release to support the graphics on Broadwell CPUs. This is anything that looks
+            release&quot;5.9 will be the first release to support the graphics on Broadwell CPUs. This is anything that looks
             like i5-5xxx. There are a few minor quirks, but generally it works well. There’s no support for the new
             Skylake models, however. They’ll probably work with the VESA driver but minus suspend/resume/acceleration
-            (just as 5.8 did with Broadwell).”&lt;/li&gt;
+            (just as 5.8 did with Broadwell).&quot;&lt;/li&gt;
             &lt;li&gt;He then goes on to mention that the IWM driver works well with most of the revisions (7260, 7265,
             and 3160) that ship with broadwell based laptops, however the newer skylake series ships with the 8260,
             which is NOT yet supported.&lt;/li&gt;
@@ -551,11 +551,11 @@
             &lt;ul&gt;
             &lt;li&gt;DMA, the Dragonfly Mail Agent is now available not only in Dragonfly’s dports, but also FreeBSD
             ports, and NetBSD pkgsrc&lt;/li&gt;
-            &lt;li&gt;“dma is a small Mail Transport Agent (MTA), designed for home and office use. It accepts mails
+            &lt;li&gt;&quot;dma is a small Mail Transport Agent (MTA), designed for home and office use. It accepts mails
             from locally installed Mail User Agents (MUA) and delivers the mails either locally or to a remote
             destination. Remote delivery includes several features like TLS/SSL support and SMTP authentication. dma is
             not intended as a replacement for real, big MTAs like sendmail(8) or postfix(1). Consequently, dma does not
-            listen on port 25 for incoming connections.”&lt;/li&gt;
+            listen on port 25 for incoming connections.&quot;&lt;/li&gt;
             &lt;li&gt;There was a project looking at importing DMA into the FreeBSD base system to replace sendmail, I
             wonder of the port signals that some of the blockers have been fixed&lt;/li&gt;
             &lt;/ul&gt;
@@ -729,7 +729,7 @@
             &lt;li&gt;A number of you have written in the past few weeks asking why Allan and I didn’t talk about one of
             the biggest stories to make headlines last week. &lt;/li&gt;
             &lt;li&gt;Both of us are quite aware of the details surrounding the incidents between former FreeBSD
-            developers “freebsdgirl” and “xmj”, however the news was still ongoing and we didn’t feel it right to
+            developers &quot;freebsdgirl&quot; and &quot;xmj&quot;, however the news was still ongoing and we didn’t feel it right to
             discuss until some of the facts had time to shake out and a more clear (and calm) discussion could be had.
             &lt;/li&gt;
             &lt;li&gt;However, without getting into all the gory details here’s some of the key points that we want to
@@ -740,7 +740,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;The FreeBSD that I know has been VERY open and inclusive to all who want to contribute. The saying
-            “Shut up and code” is there for a reason. We’ve seen developers of all types, different race / gender /
+            &quot;Shut up and code&quot; is there for a reason. We’ve seen developers of all types, different race / gender /
             creed, and the one thing we all have in common is the love for BSD.&lt;/li&gt;
             &lt;li&gt;This particular incident has been linked to FreeBSD, which isn’t exactly a fair association, since
             the project and other members of community were not directly involved. What started out as a disagreement
@@ -773,16 +773,16 @@
             and how new members of the community need to keep that in mind as they work to earn, and keep, a commit bit&lt;/li&gt;
             &lt;li&gt;In this specific situation, I am not sure what core did exactly, we’ll have to wait for their
             report to find out, but I am not sure what more they could have done.&lt;/li&gt;
-            &lt;li&gt;“Individual members of core have the power to temporarily suspend commit privileges until core as
+            &lt;li&gt;&quot;Individual members of core have the power to temporarily suspend commit privileges until core as
             a whole has the chance to review the issue. Only a 2/3 majority of core has the authority to suspend commit
-            privileges for longer than a week or to remove them permanently. Core&#39;s “special powers” only kick in
+            privileges for longer than a week or to remove them permanently. Core&#39;s &quot;special powers&quot; only kick in
             when it acts as a group, not on an individual basis. As individuals, the core team members are all
-            committers first and core second”&lt;/li&gt;
+            committers first and core second&quot;&lt;/li&gt;
             &lt;li&gt;So, an individual member of core can revoke the commit bit of someone who is reported to have
             acted in a manner not conducive with the rules, but I don’t know how that would have made a difference in
             this case.&lt;/li&gt;
             &lt;li&gt;The only point from Randi’s list of 10 things the project should change that I do not think is
-            possible is #6. As stated in the “Committers&#39; Big List of Rules” that I quoted earlier, the core team
+            possible is #6. As stated in the &quot;Committers&#39; Big List of Rules&quot; that I quoted earlier, the core team
             can only take action after they have had time for everyone to review and discuss a matter, and then vote on
             it.&lt;/li&gt;
             &lt;li&gt;The core team is made up of 9 people with other responsibilities and commitments. Further, they
@@ -821,7 +821,7 @@
             pledge(2) update&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Theo gives us a status update on pledge() for pre OpenBSD 5.9“For the next upcoming release, we
+            &lt;li&gt;Theo gives us a status update on pledge() for pre OpenBSD 5.9&quot;For the next upcoming release, we
             will disable the &#39;paths&#39; argument.Reasoning: We have been very busy making as much of the tree set
             thepromises right in applications, and building a few new promises aswell. We simply don&#39;t have enough
             time to review the kernel code andmake sure it is bug-free. We&#39;ll use the next 6 months developmentcycle
@@ -829,7 +829,7 @@
             The base tree (/bin /sbin /usr/bin /usr/sbin /usr/libexec /usr/games)contains 652 ELF binaries. 451 use
             pledge. 201 do not. Approximately47 do not need or cannot use pledge. Leaving 154 we could potentiallypledge
             in the future. Most of those are not very important. Thereare a few hot spots, but most of what people use
-            has been handled wellby the team.“&lt;/li&gt;
+            has been handled wellby the team.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160107075227&quot;&gt;Chromium:
@@ -837,12 +837,12 @@
 
             &lt;ul&gt;
             &lt;li&gt;In addition to the pledge news, we also have a story about the Chromium browser being converted to
-            use pledge on OpenBSD.“The renderer, gpu, plugin and utility processes are now using pledge(2)Unfortunately
+            use pledge on OpenBSD.&quot;The renderer, gpu, plugin and utility processes are now using pledge(2)Unfortunately
             the GPU process only requires an rpath pledge because ofMesa trying to parse two configuration files,
             /etc/drirc and ${HOME}/.drircSo currently the GPU process will use an rpath pledge in the nextweek or so so
             that people can test, but this situation has to beresolved because it is not acceptable that a mostly unused
             configurationfile is being parsed from a library and that stops us from using lesspledges and thus
-            disallowing the GPU process to have read accessto the filesystem ... like your ssh keys.”
+            disallowing the GPU process to have read accessto the filesystem ... like your ssh keys.&quot;
             UPDATE: the rpath pledge has been removed. &lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1195,7 +1195,7 @@
             &lt;li&gt;It includes a nice option for the kernel name in the update, allowing different kernels to be
             installed / updated at will&lt;/li&gt;
             &lt;li&gt;Everything is cryptographically signed and verified using the base system openssl&lt;/li&gt;
-            &lt;li&gt;The build system is fairly simple, only requiring “sh/git/openssl” to create the binary updates&lt;/li&gt;
+            &lt;li&gt;The build system is fairly simple, only requiring &quot;sh/git/openssl&quot; to create the binary updates&lt;/li&gt;
             &lt;li&gt;Planned features also include updating of jails, and ZFS boot-environments&lt;/li&gt;
             &lt;/ul&gt;
 

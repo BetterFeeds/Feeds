@@ -139,14 +139,14 @@
             deciding to switch from Linux over to the BSD side of things.&lt;/li&gt;
             &lt;li&gt;While most of the reasons are over the conflicts surrounding behavior by Linux leaders towards
             those in the community, he does mention that he has converted his main workstation over to PC-BSD. &lt;/li&gt;
-            &lt;li&gt;According to Larry, “With a couple of hours of adding backup files and tweaking (augmented by a
-            variety of “oh, look” moments which could easily make me the ADHD Foundation Poster Boy), it looks exactly
-            like my personally modified Korora 22 Xfce which graced the machine earlier. “&lt;/li&gt;
-            &lt;li&gt;He also gave a great compliment to the quality of the docs / applications in PC-BSD: “In addition,
+            &lt;li&gt;According to Larry, &quot;With a couple of hours of adding backup files and tweaking (augmented by a
+            variety of &quot;oh, look&quot; moments which could easily make me the ADHD Foundation Poster Boy), it looks exactly
+            like my personally modified Korora 22 Xfce which graced the machine earlier. &quot;&lt;/li&gt;
+            &lt;li&gt;He also gave a great compliment to the quality of the docs / applications in PC-BSD: &quot;In addition,
             you have to like a operating system which gives you a book — in this case, the PC-BSD Handbook — which
-            should be the gold standard of documentation. It’s enviable, as in, “man, I wish I had written that.” Also
+            should be the gold standard of documentation. It’s enviable, as in, &quot;man, I wish I had written that.&quot; Also
             programs like AppCafe provide a plethora of FOSS software, so there’s no shortage of programs. Side by side,
-            there’s nothing on the Linux side of things that is lacking on the BSD side of things.”&lt;/li&gt;
+            there’s nothing on the Linux side of things that is lacking on the BSD side of things.&quot;&lt;/li&gt;
             &lt;li&gt;Regardless the initial reason for the switch, we are glad to have him and any other switchers join
             us on the BSD side of FOSS.&lt;/li&gt;
             &lt;/ul&gt;
@@ -156,14 +156,14 @@
             &lt;h3&gt;&lt;a href=&quot;http://teachbsd.org/&quot;&gt;New resource for BSD-schoolin’&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The &lt;a href=&quot;https://github.com/teachbsd/course&quot;&gt;initial repository&lt;/a&gt;
+            &lt;li&gt;&quot;The &lt;a href=&quot;https://github.com/teachbsd/course&quot;&gt;initial repository&lt;/a&gt;
             contains all of the material for the practitioner and masters style courses as well as a PDF for the
             teaching guide. All of the material is licensed under a BSD doc team license, also visible in the repo and
-            on the github site.”&lt;/li&gt;
-            &lt;li&gt;“we expect all other work, including the extension of the practitioner course to 5 days, and the
-            adaptation of the graduate course to undergraduates will be in the github repo”&lt;/li&gt;
-            &lt;li&gt;“Our goal now is to recruit a small number of universities to partner with us to teach this
-            material. We will keep you posted on our progress.”&lt;/li&gt;
+            on the github site.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;we expect all other work, including the extension of the practitioner course to 5 days, and the
+            adaptation of the graduate course to undergraduates will be in the github repo&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Our goal now is to recruit a small number of universities to partner with us to teach this
+            material. We will keep you posted on our progress.&quot;&lt;/li&gt;
             &lt;li&gt;We are working on getting an interview lined up to talk more about this project&lt;/li&gt;
             &lt;li&gt;If I somehow find the time, I am try to contribute towards a sysadmin course similar to what I
             used to teach at an Arts&amp;amp;Tech College here in Canada&lt;/li&gt;
@@ -183,17 +183,17 @@
             longer be respected. &lt;/li&gt;
             &lt;li&gt;The FreeBSD port of openssh-portable has a patch to readd TCP wrappers because many people find it
             useful, including myself, when the ssh is in a jail and cannot run a firewall&lt;/li&gt;
-            &lt;li&gt;The removal of the pf&lt;em&gt;rules= rc.conf variable. “I used to just put the default pf.conf
+            &lt;li&gt;The removal of the pf&lt;em&gt;rules= rc.conf variable. &quot;I used to just put the default pf.conf
             rules file in place with each release and upgrade, and keep my changes in a pf.conf.local file that was
             specified in the pf&lt;/em&gt;rules variable. The effect was that from the period after the upgrade until I
             noticed the change, my systems were using the default rules and thus more exposed than they were supposed to
-            be”&lt;/li&gt;
-            &lt;li&gt;This is what is often called a “POLA Violation”, Policy of Least Astonishment. When deciding what
+            be&quot;&lt;/li&gt;
+            &lt;li&gt;This is what is often called a &quot;POLA Violation&quot;, Policy of Least Astonishment. When deciding what
             the system should do after some change or new feature is introduced, it should be the thing that will be the
-            least “surprising” to the user. Having your firewall rules suddenly not apply, is surprising.&lt;/li&gt;
-            &lt;li&gt;“A minor annoying change that was made in 5.8 was putting the file /var/unbound/db/root.key into
+            least &quot;surprising&quot; to the user. Having your firewall rules suddenly not apply, is surprising.&lt;/li&gt;
+            &lt;li&gt;&quot;A minor annoying change that was made in 5.8 was putting the file /var/unbound/db/root.key into
             /etc/changelist, so that the file gets checked daily by the security script. The issue with this is that if
-            you are actually using unbound with DNSSEC, this file changes daily, though only in the comments”&lt;/li&gt;
+            you are actually using unbound with DNSSEC, this file changes daily, though only in the comments&quot;&lt;/li&gt;
             &lt;li&gt;It is very helpful to see a list of feedback like this after a release, so that the next release
             can be better&lt;/li&gt;
             &lt;li&gt;I would be interested in seeing similar feedback for the other BSDs&lt;/li&gt;
@@ -217,9 +217,9 @@
             custom EC2 AMI builds.&lt;/li&gt;
             &lt;li&gt;This new tool and instructions allows the creation of AMI files, without needing to go through the
             hassle of doing a fresh FreeBSD release build each time.&lt;/li&gt;
-            &lt;li&gt;Essentially it works similar to Colin’s previous “de-penguinator” utility, by running a FreeBSD in
+            &lt;li&gt;Essentially it works similar to Colin’s previous &quot;de-penguinator&quot; utility, by running a FreeBSD in
             a memory instance, allowing the disk to be unmounted and prepped for becoming an AMI.&lt;/li&gt;
-            &lt;li&gt;The hope is that this new work allows easier creation of a new variety of “customized” FreeBSD
+            &lt;li&gt;The hope is that this new work allows easier creation of a new variety of &quot;customized&quot; FreeBSD
             instances, for end users to download and deploy at will. &lt;/li&gt;
             &lt;/ul&gt;
 
@@ -235,7 +235,7 @@
             Apple, BSD, Solaris and even a Windows port!&lt;/li&gt;
             &lt;li&gt;OpenNTPD gets a mention as well, still ZERO CVEs for the lifetime of the project&lt;/li&gt;
             &lt;li&gt;On the OpenBGPd side, it is considered production ready, so no reason to hold back deployment&lt;/li&gt;
-            &lt;li&gt;Very “feature-complete”, able to handle Edge Router, Route server, Multi-RIB. Slew of optional
+            &lt;li&gt;Very &quot;feature-complete&quot;, able to handle Edge Router, Route server, Multi-RIB. Slew of optional
             features like route reflector, looking glass, mrt dumps, mpls / mpls vpn. &lt;/li&gt;
             &lt;li&gt;Bugs fixed, crashers, memory constraints and performance has been improved&lt;/li&gt;
             &lt;li&gt;Filtering Performance, in example provided, importing 561K rules / 60K prefixes, went from 35
@@ -403,8 +403,8 @@
             for Qt, etc.&lt;/li&gt;
             &lt;li&gt;This tutorial will first walk you through the process of creating your Makefile and related
             description about the new port. &lt;/li&gt;
-            &lt;li&gt;Once you’ve created the initial Makefile, there are a bunch of new “make” targets you can begin to
-            run to try building your port, everything from “make fetch” to “make makesum” and “make package”. Using
+            &lt;li&gt;Once you’ve created the initial Makefile, there are a bunch of new &quot;make&quot; targets you can begin to
+            run to try building your port, everything from &quot;make fetch&quot; to &quot;make makesum&quot; and &quot;make package&quot;. Using
             these tests you can verify that your port is correct and results in the installable package/app you wanted.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -415,15 +415,15 @@
 
             &lt;ul&gt;
             &lt;li&gt;OpenBSD has been working very aggressively to convert much of their base system applications to
-            using pledge(2) “Formerly Tame(2))&lt;/li&gt;
+            using pledge(2) &quot;Formerly Tame(2))&lt;/li&gt;
             &lt;li&gt;Theo has provided a great status update on where that stands as of right now and the numbers look
             like the following:&lt;/li&gt;
             &lt;li&gt;Out of 600 ELF binaries, 368 of them have been updated to utilize pledge(2) in some manner&lt;/li&gt;
             &lt;li&gt;This is quite a few, and includes everything from openssl, ping, sftp, grep, gzip and much more&lt;/li&gt;
-            &lt;li&gt;There are still a number of “pledge-able” commands waiting for conversion, such as login, sysctl,
+            &lt;li&gt;There are still a number of &quot;pledge-able&quot; commands waiting for conversion, such as login, sysctl,
             nfsd, ssh and others.&lt;/li&gt;
             &lt;li&gt;He also mentions that there does exist some subset of commands which aren’t viable pledge(2)
-            candidates, such as simple things like “true”, or commands like reboot/mount or even perl itself. &lt;/li&gt;
+            candidates, such as simple things like &quot;true&quot;, or commands like reboot/mount or even perl itself. &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -509,7 +509,7 @@
             &lt;li&gt;Sometimes less isn’t more, it’s just less&lt;/li&gt;
             &lt;li&gt;In this story, we have news that the old version of less(1) in OpenBSD has now been ripped out in
             favor of the more modern fork from illumos founder Garrett D’Amore.&lt;/li&gt;
-            &lt;li&gt;In addition to being a “more” modern version, it also includes far “less” of the portability code,
+            &lt;li&gt;In addition to being a &quot;more&quot; modern version, it also includes far &quot;less&quot; of the portability code,
             uses terminfo, replacing termcap and is more POSIX compliant. &lt;/li&gt;
             &lt;/ul&gt;
 
@@ -521,12 +521,12 @@
             &lt;ul&gt;
             &lt;li&gt;Kenneth D. Merry ken@freebsd.org has developed initial support for Host Managed, and Host Aware
             Shingled Magnetic Recording drives in FreeBSD, available as a patch against both -current and 10-stable&lt;/li&gt;
-            &lt;li&gt;“This includes support for Host Managed, Host Aware and Drive Managed SMRdrives that are either
+            &lt;li&gt;&quot;This includes support for Host Managed, Host Aware and Drive Managed SMRdrives that are either
             SCSI (ZBC) or ATA (ZAC) attached via a SAScontroller. This does not include support for SMR ATA drives
             attached viaan ATA controller. Also, I have not yet figured out how to properly detecta Host Managed ATA
-            drive, so this code won&#39;t do that.”&lt;/li&gt;
+            drive, so this code won&#39;t do that.&quot;&lt;/li&gt;
             &lt;li&gt;SMR drives have overlapping tracks, because the read head can be much smaller than the write head&lt;/li&gt;
-            &lt;li&gt;The drawback to this approach is that writes to the disk must take place in 256 MB “zones” that
+            &lt;li&gt;The drawback to this approach is that writes to the disk must take place in 256 MB &quot;zones&quot; that
             must be written from the beginning&lt;/li&gt;
             &lt;li&gt;New features in the patch:&lt;/li&gt;
             &lt;li&gt;A new &#39;camcontrol zone&#39; command that allows displaying and managing drive zones via
@@ -545,8 +545,8 @@
             &lt;ul&gt;
             &lt;li&gt;Additional CAM CDB building functions for zone commands.&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;“We (Spectra Logic) are working on ZFS changes that will use this CAM and GEOM infrastructure to
-            make ZFS play well with SMR drives. Those changes aren&#39;t yet done.”&lt;/li&gt;
+            &lt;li&gt;&quot;We (Spectra Logic) are working on ZFS changes that will use this CAM and GEOM infrastructure to
+            make ZFS play well with SMR drives. Those changes aren&#39;t yet done.&quot;&lt;/li&gt;
             &lt;li&gt;It is good to see active development in this area, especially from experts in archival storage&lt;/li&gt;
             &lt;li&gt;A &lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2015-November/058521.html&quot;&gt;second
             patch&lt;/a&gt; is also offered, that improves the pass(4) passthrough interface for disks, and introduces a
@@ -743,12 +743,12 @@
             support. Also porting to ARM has begun!&lt;/li&gt;
             &lt;li&gt;Improved Support for Acer C720 ChromeBooks&lt;/li&gt;
             &lt;li&gt;High Availability Clustering in CTL (Cam Target Layer)&lt;/li&gt;
-            &lt;li&gt;Root Remounting (Similar to pivot_root in Linux). This work allows using “reboot -r” to do a
+            &lt;li&gt;Root Remounting (Similar to pivot_root in Linux). This work allows using &quot;reboot -r&quot; to do a
             fast-reboot, with a partial shutdown, kill all processes, and re-mount rootfs and boot. Especially useful
             for booting from mfs or similar then transitioning to iscsi or some other backing storage&lt;/li&gt;
             &lt;li&gt;OpenCL Support in Mesa, as well as kernel progress on the i915 driver&lt;/li&gt;
             &lt;li&gt;Improved support for UEFI FrameBuffer on a bunch of recent MacBook Pro and other Macs, in addition
-            to improvements to “vt” framebuffer driver for high resolution displays. &lt;/li&gt;
+            to improvements to &quot;vt&quot; framebuffer driver for high resolution displays. &lt;/li&gt;
             &lt;li&gt;ZFS support for UEFI Boot (Needs testing, but used in PC-BSD for a couple months now), and
             importing new features from IllumOS (resumable send, receive prefetch, replication checksumming, 50% less
             ram required for L2ARC, better prefetch)&lt;/li&gt;
@@ -871,7 +871,7 @@
             you through the process of getting it deployed manually&lt;/li&gt;
             &lt;li&gt;Most of the requirements are simple, www/node, www/npm and sqlite3. &lt;/li&gt;
             &lt;li&gt;With those installed, most of the steps are simply creating the username / home for ghost, and
-            some “npm” setup. &lt;/li&gt;
+            some &quot;npm&quot; setup. &lt;/li&gt;
             &lt;li&gt;The walkthrough even includes a handy rc.d script, making the possibility of a port seem much more
             likely&lt;/li&gt;
             &lt;/ul&gt;
@@ -1071,13 +1071,13 @@
             &lt;li&gt;Wired has interviewed WhatsApp co-founder Brian Acton, about the infrastructure behind WhatsApp&lt;/li&gt;
             &lt;li&gt;WhatsApp manages 900 million users with a team of 50, while Twitter needs around 4,000 employees
             to manage 300 million users.&lt;/li&gt;
-            &lt;li&gt;“FreeBSD has a nicely tuned network stack and extremely good reliability. We find managing FreeBSD
-            installations to be quite straightforward.”&lt;/li&gt;
-            &lt;li&gt;“Linux is a beast of complexity. FreeBSD has the advantage of being a single distribution with an
-            extraordinarily good ports collection.”&lt;/li&gt;
-            &lt;li&gt;“To us, it has been an advantage as we have had very few problems that have occurred at the OS
-            level. With Linux, you tend to have to wrangle more and you want to avoid that if you can.”&lt;/li&gt;
-            &lt;li&gt;“FreeBSD happened because both Jan and I have experience with FreeBSD from Yahoo!.”&lt;/li&gt;
+            &lt;li&gt;&quot;FreeBSD has a nicely tuned network stack and extremely good reliability. We find managing FreeBSD
+            installations to be quite straightforward.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Linux is a beast of complexity. FreeBSD has the advantage of being a single distribution with an
+            extraordinarily good ports collection.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;To us, it has been an advantage as we have had very few problems that have occurred at the OS
+            level. With Linux, you tend to have to wrangle more and you want to avoid that if you can.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;FreeBSD happened because both Jan and I have experience with FreeBSD from Yahoo!.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://uk.businessinsider.com/whatsapp-built-using-erlang-and-freebsd-2015-10&quot;&gt;Additional
             Coverage &lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
@@ -1105,7 +1105,7 @@
             embrace open source, or get buried&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;At the recent “All Things Open” conference, opensource.com interviewed Jim Salter&lt;/li&gt;
+            &lt;li&gt;At the recent &quot;All Things Open&quot; conference, opensource.com interviewed Jim Salter&lt;/li&gt;
             &lt;li&gt;He describes how he first got started using FreeBSD to host his personal website&lt;/li&gt;
             &lt;li&gt;He then goes on to talk about starting FreeBSDWiki.net and what its goals were&lt;/li&gt;
             &lt;li&gt;The interview then talks about using Open Source at solve customers’ problems at his consulting
@@ -1124,31 +1124,31 @@
             &lt;li&gt;Martin Fink went on a rant about the negative effects of license proliferation&lt;/li&gt;
             &lt;li&gt;While I agree that having too many new licenses is confusing and adds difficulty, I didn’t agree
             with his closing point&lt;/li&gt;
-            &lt;li&gt;“He then ended the session with an extended appeal to move the open-source software industry away
-            from permissive licenses like Apache 2.0 and toward copyleft licenses like the GPL”&lt;/li&gt;
-            &lt;li&gt;“The Apache 2.0 license is currently the most widely used &quot;permissive&quot; license. But the
+            &lt;li&gt;&quot;He then ended the session with an extended appeal to move the open-source software industry away
+            from permissive licenses like Apache 2.0 and toward copyleft licenses like the GPL&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The Apache 2.0 license is currently the most widely used &quot;permissive&quot; license. But the
             thing that developers overlook when adopting it, he said, is that by using Apache they are also making a
             choice about how much work they will have to put into building any sort of community around the project. If
             you look at Apache-licensed projects, he noted, &quot;you&#39;ll find that they are very top-heavy with
             &#39;governance&#39; structures.&quot; Technical committees, working groups, and various boards, he said,
             are needed to make such projects function. But if you look at copyleft projects, he added, you find that
-            those structures simply are not needed.”&lt;/li&gt;
+            those structures simply are not needed.&quot;&lt;/li&gt;
             &lt;li&gt;There are plenty of smaller permissively licensed projects that do not have this sort of
             structure, infact, most of this structure comes from being an Apache run project, rather than from using the
             Apache or any other permissive license&lt;/li&gt;
-            &lt;li&gt;Luckily, he goes on to state that the “OpenSwitch code is released under the Apache 2.0 license,
-            he said, because the other partner companies viewed that as a requirement.”&lt;/li&gt;
-            &lt;li&gt;“HP wanted to get networking companies and hardware suppliers on board. In order to get all of the
+            &lt;li&gt;Luckily, he goes on to state that the &quot;OpenSwitch code is released under the Apache 2.0 license,
+            he said, because the other partner companies viewed that as a requirement.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;HP wanted to get networking companies and hardware suppliers on board. In order to get all of the
             legal departments at all of the partners to sign on to the project, he said, HP was forced to go with a
-            permissive license”&lt;/li&gt;
+            permissive license&quot;&lt;/li&gt;
             &lt;li&gt;Hopefully the trend towards permissive licenses continues&lt;/li&gt;
             &lt;li&gt;Additionally, in a separate LWN post:&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://lwn.net/Articles/659757/&quot;&gt;RMS Says: “I am not saying that
+            &lt;li&gt;&lt;a href=&quot;http://lwn.net/Articles/659757/&quot;&gt;RMS Says: &quot;I am not saying that
             competitors to a GNU package are unjust or bad -- that isn&#39;t necessarily so. The pertinent point is that
             they are &lt;em&gt;competitors&lt;/em&gt;. The goal of the GNU Project is for GNU to win the competition.
             Each GNU package is a part of the GNU system, and should contribute to the success of the GNU Project. Thus,
             each GNU package should encourage people to run other GNU packages rather than their competitors -- even
-            competitors which are free software.” &lt;/a&gt; &lt;/li&gt;
+            competitors which are free software.&quot; &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;Never thought I’d see RMS espousing vendor lock-in&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1204,7 +1204,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;A very large update has landed for PC-BSD’s Lumina desktop&lt;/li&gt;
-            &lt;li&gt;A brand new “Start” menu has been added, which enables quick launch of favorite apps, pinning to
+            &lt;li&gt;A brand new &quot;Start&quot; menu has been added, which enables quick launch of favorite apps, pinning to
             desktop / favorites and more.&lt;/li&gt;
             &lt;li&gt;Desktop icons have been overhauled, with better font support, and a new Grid system for placement
             of icons.&lt;/li&gt;

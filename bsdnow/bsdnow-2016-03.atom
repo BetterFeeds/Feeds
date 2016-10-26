@@ -99,7 +99,7 @@
             <email>mwlucas@michaelwlucas.com</email>
         </contributor>
         <summary>This week on the show, we interview author Michael W Lucas to discuss his new book in the FreeBSD
-            Mastery series: “Specialty Filesystems”. That plus the latest news, feedback &amp; more!
+            Mastery series: &quot;Specialty Filesystems&quot;. That plus the latest news, feedback &amp; more!
         </summary>
         <content type="html">&lt;h1&gt;Episode 135: Speciality MWL&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
@@ -142,7 +142,7 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“I just enabled ART in -current, it will be the default routing table backend in the next
+            &lt;p&gt;&quot;I just enabled ART in -current, it will be the default routing table backend in the next
             snapshots.
             The plan is to squash the possible regressions with this new routing table backend then when we&#39;re
             confident enough, take its route lookup out of the KERNEL_LOCK(). Yes, this is one of the big steps for our
@@ -154,7 +154,7 @@
             for the 2 kernels as well as the dmesg in your report.
             I know that simple dhclient(8) based setups work with ART, so please do not flood us too much. It&#39;s
             always great to know that things work, but it&#39;s also hard to keep focus ;)
-            Thank your very much for your support!”
+            Thank your very much for your support!&quot;
             + There you have it folks! If 5.9 is already too stale for you, time to move over to -CURRENT and give the
             new routing tables a whirl.&lt;/p&gt;
             &lt;/blockquote&gt;
@@ -165,8 +165,8 @@
             All-In-One solution for software development startups&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Fractal Cells is a suite that transforms a stock FreeBSD installation into an instant “Startup
-            Software Development Platform”&lt;/li&gt;
+            &lt;li&gt;Fractal Cells is a suite that transforms a stock FreeBSD installation into an instant &quot;Startup
+            Software Development Platform&quot;&lt;/li&gt;
             &lt;li&gt;It Integrates ZFS, PostgreSQL, OpenSMTPD, NGINX, OpenVPN, Redmine, Jenkins, Zabbix, Gitlab, and
             Ansible, all under OpenLDAP common authentication&lt;/li&gt;
             &lt;li&gt;The suite is available under the 2-clause BSD license&lt;/li&gt;
@@ -185,8 +185,8 @@
             &lt;li&gt;Covers all of the steps of setting up ezjail on FreeBSD&lt;/li&gt;
             &lt;li&gt;Includes the instructions for updating the version of the OS in the jail&lt;/li&gt;
             &lt;li&gt;In a number of places the tutorial uses:&lt;br&gt;
-            &amp;gt; cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; /etc/rc.conf &amp;gt; setting=”value”&lt;/li&gt;
-            &lt;li&gt;Instead, use: sysrc setting=”value”&lt;/li&gt;
+            &amp;gt; cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; /etc/rc.conf &amp;gt; setting=&quot;value&quot;&lt;/li&gt;
+            &lt;li&gt;Instead, use: sysrc setting=&quot;value&quot;&lt;/li&gt;
             &lt;li&gt;It is safer, and easier to type&lt;/li&gt;
             &lt;li&gt;When you create the jail, if you specify an IP address, it is expected that this IP address is
             already setup on the host machine&lt;/li&gt;
@@ -205,7 +205,7 @@
             /&lt;/h2&gt;
 
             &lt;p&gt;&lt;a href=&quot;https://twitter.com/mwlauthor&quot;&gt;@mwlauthor&lt;/a&gt;
-            + New Book: “FreeBSD Mastery: Specialty Filesystems”&lt;/p&gt;
+            + New Book: &quot;FreeBSD Mastery: Specialty Filesystems&quot;&lt;/p&gt;
 
             &lt;hr&gt;
 
@@ -220,7 +220,7 @@
             closet. We have a link to a GitHub repo where a user has uploaded his curses-based slide-show for the
             upcoming Fort-Wayne, Indiana meetup.&lt;/li&gt;
             &lt;li&gt;Aside from the novelty of using a curses-based slide setup, the presenter will also be displaying
-            them from his beloved dreamcast, which “of course” runs NetBSD 7&lt;/li&gt;
+            them from his beloved dreamcast, which &quot;of course&quot; runs NetBSD 7&lt;/li&gt;
             &lt;li&gt;The slide source code is available, which you too can view / compile and find out details of
             getting NetBSD boot-strapped on the DC.&lt;/li&gt;
             &lt;/ul&gt;
@@ -238,14 +238,14 @@
             &lt;li&gt;system: removed NTP settings from general settings&lt;/li&gt;
             &lt;li&gt;access: let only root access status.php as it leaks too much info&lt;/li&gt;
             &lt;li&gt;development: remove the automount features&lt;/li&gt;
-            &lt;li&gt;development: addition of “opnsense-stable” package on our way to nightly builds&lt;/li&gt;
+            &lt;li&gt;development: addition of &quot;opnsense-stable&quot; package on our way to nightly builds&lt;/li&gt;
             &lt;li&gt;development: opnsense-update can now install locally available base and kernel sets&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2570&quot;&gt;“FreeBSD Mastery:
-            Advanced ZFS” in tech review&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2570&quot;&gt;&quot;FreeBSD Mastery:
+            Advanced ZFS&quot; in tech review&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;Most of the tech review is finished&lt;/li&gt;
@@ -270,7 +270,7 @@
             fastest installs he had ever done.&lt;/li&gt;
             &lt;li&gt;Second was the extensive documentation, which extends beyond just manpages, but into other forms
             of documentation, such as presentations and papers as well.&lt;/li&gt;
-            &lt;li&gt;He makes the point about an “ecosystem of quality” that surrounds OpenBSD:&lt;/li&gt;
+            &lt;li&gt;He makes the point about an &quot;ecosystem of quality&quot; that surrounds OpenBSD:&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
@@ -299,7 +299,7 @@
             &lt;li&gt;&lt;a href=&quot;https://docs.freebsd.org/cgi/getmsg.cgi?fetch=9011+0+current/freebsd-hackers&quot;&gt;Call
             for 2016Q1 quarterly status reports&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2593&quot;&gt;FreeBSD Mastery: Advanced
-            ZFS” sponsorships ending soon&lt;/a&gt;&lt;/li&gt;
+            ZFS&quot; sponsorships ending soon&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://docs.freebsd.org/cgi/getmsg.cgi?fetch=250105+0+archive/2016/freebsd-arm/20160306.freebsd-arm&quot;&gt;Shawn
             Webb from HardenedBSD talking about giving away RPi3’s at BSDCan and hacking on them to get FreeBSD working&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160308204011&quot;&gt;xterm(1)
@@ -441,7 +441,7 @@
             Release&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Under the category of “Where did this come from?”, we have a first beta release of Ubuntu BSD.&lt;/li&gt;
+            &lt;li&gt;Under the category of &quot;Where did this come from?&quot;, we have a first beta release of Ubuntu BSD.&lt;/li&gt;
             &lt;li&gt;Specifically it is Ubuntu, respun to use the FreeBSD kernel and ZFS natively.&lt;/li&gt;
             &lt;li&gt;From looking at the minimal information up on sourceforge, we gather that is has a nice text-based
             installer, which supports ZFS configuration and iSCSI volume creation setups.&lt;/li&gt;
@@ -470,12 +470,12 @@
             &lt;li&gt;Just because OpenSSH has released version Y, doesn’t mean that the upgrade can suddenly remove
             support for DSA keys, or re-adding support for AES-CBC (which is not really weak, and which can be hardware
             accelerated, unlikely most of the replacements)&lt;/li&gt;
-            &lt;li&gt;“FreeBSD is the team trying to increase the risk.” Is incorrect, they are trying to reduce the
+            &lt;li&gt;&quot;FreeBSD is the team trying to increase the risk.&quot; Is incorrect, they are trying to reduce the
             impact on the end user&lt;/li&gt;
             &lt;li&gt;Specifically, a user upgrading from 10.x to 10.3, should not end up locked out of their SSH
             server, or otherwise confronted by unexpected errors or slowdowns because of upstream changes&lt;/li&gt;
-            &lt;li&gt;I will note again, (and again), that the NONE cipher can NOT allow a user to “shoot themselves in
-            the foot”, encryption is still used during the login phase, it is just disabled for the file transfer phase.
+            &lt;li&gt;I will note again, (and again), that the NONE cipher can NOT allow a user to &quot;shoot themselves in
+            the foot&quot;, encryption is still used during the login phase, it is just disabled for the file transfer phase.
             The NONE cipher will refuse to work for an interactive session.&lt;/li&gt;
             &lt;li&gt;While the post states that the NONE cipher doesn’t improve performance that much, it infact does&lt;/li&gt;
             &lt;li&gt;In my own testing, chacha20-poly1305 1.3 gbps, aes128-gcm (fastest) 5.0 gbps, NONE cipher 6.3 gbps&lt;/li&gt;
@@ -490,8 +490,8 @@
             &lt;li&gt;I am not sure that linking to every security advisory in openssl since 2001 is actually useful&lt;/li&gt;
             &lt;li&gt;Encrypted swap is an option in bsdinstall now, but I am not sure it is really that important&lt;/li&gt;
             &lt;li&gt;FreeBSD now uses the Fortuna PRNG, upgraded to replace the older Yarrow, not vanilla RC4.&lt;/li&gt;
-            &lt;li&gt;“The resistance from the security team to phase out legacy options makes mewonder if they should
-            be called a compatibility team instead.”&lt;/li&gt;
+            &lt;li&gt;&quot;The resistance from the security team to phase out legacy options makes mewonder if they should
+            be called a compatibility team instead.&quot;&lt;/li&gt;
             &lt;li&gt;I do not think this is the choice of the security team, it is the ABI guarantee that the project
             makes. The stable/10 branch will always have the same ABI, and a program or driver compiled against it will
             work with any version on that branch&lt;/li&gt;
@@ -589,11 +589,11 @@
             at every small disagreement. Brian Armstrong commented recently on this flaw with Bitcoin development,
             particularly with the Core Devs:&lt;/p&gt;
 
-            &lt;p&gt;“Being high IQ is not enough for a team to succeed. You need to make reasonable tradeoffs,
+            &lt;p&gt;&quot;Being high IQ is not enough for a team to succeed. You need to make reasonable tradeoffs,
             collaborate, be welcoming, communicate, and be easy to work with. Any team that doesn’t have this will be
             unable to attract top talent and will struggle long term. In my opinion, perhaps the biggest risk in Bitcoin
             right now is, ironically, one of the things which has helped it the most in the past: the Bitcoin Core
-            developers.”&lt;/p&gt;
+            developers.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -602,11 +602,11 @@
 
             &lt;blockquote&gt;
             &lt;p&gt;The other thing Bitcoin devs could learn from is the BSD community’s adoption of the Unix Design
-            philosophy. Primarily “Worse is Better,” The rule of Diversity, and Do One Thing and Do It Well. “Worse is
-            Better” emphasizes using extant functional solutions rather than making more complex ones, even if they
+            philosophy. Primarily &quot;Worse is Better,&quot; The rule of Diversity, and Do One Thing and Do It Well. &quot;Worse is
+            Better&quot; emphasizes using extant functional solutions rather than making more complex ones, even if they
             would be more robust. The Rule of Diversity stresses flexibility of the program being developed, allowing
             for modification and different implementations without breaking. Do one Thing and Do it well is a mantra of
-            the BSD and Unix Communities that stresses modularity and progress over “perfect” solutions. Each of these
+            the BSD and Unix Communities that stresses modularity and progress over &quot;perfect&quot; solutions. Each of these
             elements help to make BSD a wildly successful open source project with a healthy development community and
             lots of inter-cooperation between the different BSD systems. While this is the opposite of what we see with
             Bitcoin at present, the situation is salvageable provided changes like this are made, especially by Core
@@ -673,8 +673,8 @@
             &lt;/ul&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160316190937&amp;amp;mode=flat&quot;&gt;IPv6
             errata for 5.7/5.8, pledge errata for 5.9&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2577&quot;&gt;Sponsoring “PAM
-            Mastery”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2577&quot;&gt;Sponsoring &quot;PAM
+            Mastery&quot;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://rocketgraph.com/s/v89jBkKN4e-&quot;&gt;A visualization of
             FreeBSD commits on GitHub for 2015&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160309192510&quot;&gt;The
@@ -768,7 +768,7 @@
             <uri>https://twitter.com/so14k</uri>
         </contributor>
         <summary>This week on BSDNow, Allan and I are back from AsiaBSDCon &amp; we have an interview with Brad Davis
-            about the new “Packaging Base” call-for-testing. We’ll be sharing our thoughts and stories on how the week
+            about the new &quot;Packaging Base&quot; call-for-testing. We’ll be sharing our thoughts and stories on how the week
             went, along with updating you on the latest news.
         </summary>
         <content type="html">&lt;h1&gt;Episode 133: The Tokyo Debrief&lt;/h1&gt;
@@ -818,7 +818,7 @@
             &lt;ul&gt;
             &lt;li&gt;qemu interface: Allow qemu to be accelerated by the vmm backend, while providing emulated
             hardware, for legacy systems&lt;/li&gt;
-            &lt;li&gt;KVM interface: Make vmm look like KVM, so existing tools like openstack “just work”&lt;/li&gt;
+            &lt;li&gt;KVM interface: Make vmm look like KVM, so existing tools like openstack &quot;just work&quot;&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -857,8 +857,8 @@
             so they cannot be deleted accidently&lt;/li&gt;
             &lt;li&gt;However, in the case of using pkg(8)’d base to create a jail, the administrator should be able to
             delete the entire base system&lt;/li&gt;
-            &lt;li&gt;Classic conundrum: “UNIX does not stop you doing something stupid, as that would also stop you
-            doing something clever”&lt;/li&gt;
+            &lt;li&gt;Classic conundrum: &quot;UNIX does not stop you doing something stupid, as that would also stop you
+            doing something clever&quot;&lt;/li&gt;
             &lt;li&gt;Work is still ongoing&lt;/li&gt;
             &lt;li&gt;At AsiaBSDCon, after the interview was recorded, bapt@ and brd@ had a whiteboarding session and
             have come up with how they expect to handle the kernel package, to ensure there is a /boot/kernel.old for
@@ -944,12 +944,12 @@
             &lt;ul&gt;
             &lt;li&gt;A patch that provides a first pass implementation of basic ASLR (Address Space Layout
             Randomization) for FreeBSD has been posted to the mailing list&lt;/li&gt;
-            &lt;li&gt;“Stack gap, W^X, shared page randomization, KASLR and other techniques are explicitly out of scope
-            of this work.”&lt;/li&gt;
-            &lt;li&gt;“ASLR is enabled on per-ABI basis, and currently it is only enabled on native i386 and amd64
-            (including compat 32bit) ABIs. I expect to test and enable ASLR for armv6 and arm64 as well, later”&lt;/li&gt;
-            &lt;li&gt;“Thanks to Oliver Pinter and Shawn Webb of the HardenedBSD project for pursuing ASLR for FreeBSD.
-            Although this work is not based on theirs, it was inspired by their efforts.”&lt;/li&gt;
+            &lt;li&gt;&quot;Stack gap, W^X, shared page randomization, KASLR and other techniques are explicitly out of scope
+            of this work.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;ASLR is enabled on per-ABI basis, and currently it is only enabled on native i386 and amd64
+            (including compat 32bit) ABIs. I expect to test and enable ASLR for armv6 and arm64 as well, later&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Thanks to Oliver Pinter and Shawn Webb of the HardenedBSD project for pursuing ASLR for FreeBSD.
+            Although this work is not based on theirs, it was inspired by their efforts.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1168,8 +1168,8 @@
             does Load Average really mean&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Chris Siebenmann, a sysadmin at the University of Toronto, does some comparison of what “Load
-            Average” means on different unix systems, including Solaris/IllumOS, FreeBSD, NetBSD, OpenBSD, and Linux&lt;/li&gt;
+            &lt;li&gt;Chris Siebenmann, a sysadmin at the University of Toronto, does some comparison of what &quot;Load
+            Average&quot; means on different unix systems, including Solaris/IllumOS, FreeBSD, NetBSD, OpenBSD, and Linux&lt;/li&gt;
             &lt;li&gt;It seems that no two OSes use the same definition, so comparing load averages is impossible&lt;/li&gt;
             &lt;li&gt;On FreeBSD, where I/O does not affect load average, you can divide the load average by the number
             of CPU cores to be able to compare across machines with different core counts&lt;/li&gt;
@@ -1190,7 +1190,7 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“We are sympathetic to Canonical&#39;s frustration in this desire to easily support more features
+            &lt;p&gt;&quot;We are sympathetic to Canonical&#39;s frustration in this desire to easily support more features
             for their users. However, as set out below, we have concluded that their distribution of zfs.ko violates the
             GPL. We have written this statement to answer, from the point of view of many key Linux copyright holders,
             the community questions that we&#39;ve seen on this matter. Specifically, we provide our detailed analysis
@@ -1201,14 +1201,14 @@
             Compliance Project for Linux Developers believe that distribution of ZFS binaries is a GPL violation and
             infringes Linux&#39;s copyright. We are also concerned that it may infringe Oracle&#39;s copyrights in ZFS.
             As such, we again ask Oracle to respect community norms against license proliferation and simply relicense
-            its copyrights in ZFS under a GPLv2-compatible license.”&lt;/p&gt;
+            its copyrights in ZFS under a GPLv2-compatible license.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
             &lt;li&gt;&lt;a href=&quot;https://softwarefreedom.org/resources/2016/linux-kernel-cddl.html&quot;&gt;The
             Software Freedom Law Center’s take on the issue &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://blog.hansenpartnership.com/are-gplv2-and-cddl-incompatible/&quot;&gt;Linux
-            SCSI subsystem Maintainer, James Bottomley, asks “where is the harm”&lt;/a&gt;&lt;/li&gt;
+            SCSI subsystem Maintainer, James Bottomley, asks &quot;where is the harm&quot;&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://freebsdfoundation.blogspot.ca/2016/02/freebsd-and-zfs.html&quot;&gt;FreeBSD
             and ZFS &lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
@@ -1257,7 +1257,7 @@
             &lt;li&gt;Are you an ELK user, or interested in becoming one? If so, Gruppo Utenti has a nice blog post /
             tutorial on how to get started with it on FreeBSD.&lt;/li&gt;
             &lt;li&gt;Maybe you haven’t heard of ELK, but its not the ELK in ports, specifically in this case he is
-            referring to “ElasticSearch/Logstash/Kibana” as a stack.&lt;/li&gt;
+            referring to &quot;ElasticSearch/Logstash/Kibana&quot; as a stack.&lt;/li&gt;
             &lt;li&gt;Getting started is relatively simply, first we install a few ports/packages:
 
             &lt;ul&gt;
@@ -1271,7 +1271,7 @@
             but you can always copy and paste his example config files as a template.&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://blog.gufi.org/2016/02/23/elk-second-part/&quot;&gt;Follow up to
             Installing ELK on FreeBSD&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;Jumping directly into the next blog entry, he then takes us through the “K” part of ELK,
+            &lt;li&gt;Jumping directly into the next blog entry, he then takes us through the &quot;K&quot; part of ELK,
             specifically setting up Kibana, and exposing it via nginx publically. &lt;/li&gt;
             &lt;li&gt;At this point most of the CLI work is finished, and we have a great walkthrough of doing the
             Kibana configuration via their UI. We are still awaiting the final entry to the series, where the setup of

@@ -107,7 +107,7 @@
                          href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
             <psc:chapter start="00:58:22" title="News Roundup"/>
             <psc:chapter start="00:58:22"
-                         title="Tomohiro Kasumi explains what “@@” means, in the context of the Hammer filesystem"
+                         title="Tomohiro Kasumi explains what &quot;@@&quot; means, in the context of the Hammer filesystem"
                          href="http://lists.dragonflybsd.org/pipermail/users/2016-June/249717.html"/>
             <psc:chapter start="01:05:20" title="FreeBSD 11.0 nearing RC1"
                          href="https://www.freebsd.org/releases/11.0R/schedule.html"/>
@@ -196,30 +196,30 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“One thing I learned during my travels between OSs: consistency is everything.&lt;/p&gt;
+            &lt;p&gt;&quot;One thing I learned during my travels between OSs: consistency is everything.&lt;/p&gt;
 
             &lt;p&gt;Most operating systems seem to, at least, keep a consistent interface between themselves and
             binaries / applications. They do this by keeping consistent APIs (Application Programming Interfaces) and
             ABIs (Application Binary Interfaces). If you take a binary from a really old version of Linux and run or
             build it on a brand-spanking new install of Linux, it will likely Just Work™. This is great for applications
             and developers of applications. Vendors can build binaries for distribution and worry less about their
-            product working when it gets out in the wild (sure this binary built in 2016 will run on RedHat AS2.1!!).“&lt;/p&gt;
+            product working when it gets out in the wild (sure this binary built in 2016 will run on RedHat AS2.1!!).&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
             &lt;li&gt;The author then goes through another important part of the consistency argument, with what he
-            calls “UPI” or “User Program Interfaces”. In other words, while the ABI may be stable, what about the
+            calls &quot;UPI&quot; or &quot;User Program Interfaces&quot;. In other words, while the ABI may be stable, what about the
             end-user tooling that the user directly has to interact with on a daily basis?&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“This inconsistency seems to have come to be when Linux started getting wireless support. For some
+            &lt;p&gt;&quot;This inconsistency seems to have come to be when Linux started getting wireless support. For some
             reason someone (vendors, maybe?) decided that ifconfig wasn’t a good place to let users interact with their
             wireless device. Maybe they felt their device was special? Maybe there were technical reasons? The bottom
             line is, someone decided to create a new utility to manage a wireless device… and then another one came
             along… pretty soon there was iwconfig(8), iw(8), ifconfig(8), some funky thing that let windows drivers
             interface with Linux.. and one called ip(8) I am sure there are others I am forgetting, but I prefer to
-            forget. I have moved onto greener pastures and the knowledge of these programs no longer serves me.”&lt;/p&gt;
+            forget. I have moved onto greener pastures and the knowledge of these programs no longer serves me.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -228,7 +228,7 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“OpenBSD won the showdown. It was the most complete, simple, and coherent system. The documentation
+            &lt;p&gt;&quot;OpenBSD won the showdown. It was the most complete, simple, and coherent system. The documentation
             was thorough, the code was easy to follow
             and understand.
             It had one command to configure all of the network interfaces!
@@ -236,7 +236,7 @@
             wireless and reading about the USB
             entries.
             It didn’t have some of the applications I use regularly, so I started reading about ports (intuitively, via
-            man ports!).”&lt;/p&gt;
+            man ports!).&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;hr&gt;
@@ -244,28 +244,28 @@
             &lt;h3&gt;&lt;a href=&quot;http://blog.tbrodel.me/2016/#netbsd-router&quot;&gt;The ultimate NetBSD Router&lt;/a&gt;&lt;/h3&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“So yesterday I spent the day setting up a new firewall at home here, based off of this BSD Now
+            &lt;p&gt;&quot;So yesterday I spent the day setting up a new firewall at home here, based off of this BSD Now
             tutorial. Having set up a couple of OpenBSD routers before, either based on old laptops, bulky old
             power-sucking desktops or completely over-specced machines like the Intel NUC, I wanted to get some kind of
-            BSD onto a low-powered ARM board and use that instead.”
-            “I&#39;ve had a couple of Cubietrucks lying around for a while now, I&#39;ve used them in a couple of art
+            BSD onto a low-powered ARM board and use that instead.&quot;
+            &quot;I&#39;ve had a couple of Cubietrucks lying around for a while now, I&#39;ve used them in a couple of art
             installations, running Debian and Pure Data, but over all they&#39;ve been a bit disappointing. It&#39;s
             more the manufacturer&#39;s fault but they require blobs for the graphics and audio, which Debian won&#39;t
             allow, so as a multimedia board they&#39;re dud for video, and only passable for audio work with a usb sound
-            card. So they&#39;ve been collecting dust.”
-            “Only thing missing is a second NIC, luckily I had an Apple USB-&amp;gt;Ethernet dongle lying around, which
+            card. So they&#39;ve been collecting dust.&quot;
+            &quot;Only thing missing is a second NIC, luckily I had an Apple USB-&amp;gt;Ethernet dongle lying around, which
             when I bought it was the cheapest thing I could find on eBay that OpenBSD definitely supported. There, and
             on NetBSD, it&#39;s supported by the axe(4) driver. USB 2.0 works fine for me as I live in Australia and my
-            ISP can only give me 30Mbps, so this should do for the forseeable future.”
+            ISP can only give me 30Mbps, so this should do for the forseeable future.&quot;
             + The article then walks through installing and configuring NetBSD
             + Configuration includes: pf, unbound, and dhcpd
-            “This project has been really fun, I started with basically no experience with NetBSD and have finished with
+            &quot;This project has been really fun, I started with basically no experience with NetBSD and have finished with
             a really useful, low-powered and robust appliance. It&#39;s a testament to the simplicity of the NetBSD
             system, and the BSD design principles in general, that such a novice as myself could figure this out. The
             NetBSD project has easily the most polished experience on Allwinner ARM boards, even Debian doesn&#39;t make
             it this easy. It&#39;s been a joy running the system, it has the bits I love from OpenBSD; ksh(1), tmux(1),
             an http daemon in base and of course, pf(4). This is mixed with some of the pragmatism I see in FreeBSD; a
-            willingness to accept blobs if that really is the only way to boot, or get audio, or a video console.”&lt;/p&gt;
+            willingness to accept blobs if that really is the only way to boot, or get audio, or a video console.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;hr&gt;
@@ -275,15 +275,15 @@
 
             &lt;ul&gt;
             &lt;li&gt;We have a lengthy article also today from our friend Michael Dexter, who asks the basic question
-            “What if multibooting and OS upgrades weren&#39;t horrible?”&lt;/li&gt;
+            &quot;What if multibooting and OS upgrades weren&#39;t horrible?&quot;&lt;/li&gt;
             &lt;li&gt;No doubt if you’ve been a frequent listener to this show, you’ve heard Allan or Myself talking
-            about ZFS Boot Environments, and how they can “change your life”.&lt;/li&gt;
+            about ZFS Boot Environments, and how they can &quot;change your life&quot;.&lt;/li&gt;
             &lt;li&gt;Well today Michael goes further into detail on how the BE’s work, and how they can be leveraged to
             do neat things, like installing other versions of an operating system from the original running system.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“If you are reading this, you have probably used a personal computer with a BSD or GNU/Linux
+            &lt;p&gt;&quot;If you are reading this, you have probably used a personal computer with a BSD or GNU/Linux
             operating system and at some point attempted to multiboot between multiple operating systems on the same
             computer. This goal is typically attempted with complex disk partitioning and a BSD or GNU/Linux boot loader
             like LILO or GRUB, plus several hours of frustrating experimentation and perhaps data loss. While exotic OS
@@ -293,11 +293,11 @@
             framework with primary and secondary root partitions, plus the nextboot(8) utility for selecting the &quot;next&quot;
             kernel with various boot parameters. Get everything set correctly and you can multiboot &quot;with impunity&quot;.&lt;/p&gt;
 
-            &lt;p&gt;“That&#39;s a good start, and over time we have seen ZFS &quot;boot environments&quot; be used by
+            &lt;p&gt;&quot;That&#39;s a good start, and over time we have seen ZFS &quot;boot environments&quot; be used by
             PC-BSD and FreeNAS to allow for system updates that allow one to fall back to previous versions should
             something go wrong. Hats off to these efforts but they exist in essentially purpose-built appliance
             environments. I have long sensed that there is more fun to be had here and a wonderful thing happened with
-            FreeBSD 10.3 and 11.0: Allan Jude added a boot environment menu to the FreeBSD loader”&lt;/p&gt;
+            FreeBSD 10.3 and 11.0: Allan Jude added a boot environment menu to the FreeBSD loader&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -321,16 +321,16 @@
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
             &lt;h3&gt;&lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/users/2016-June/249717.html&quot;&gt;Tomohiro
-            Kasumi explains what “@@” means, in the context of the Hammer filesystem&lt;/a&gt;&lt;/h3&gt;
+            Kasumi explains what &quot;@@&quot; means, in the context of the Hammer filesystem&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;A post from the Dragonfly users’ mailing list about what the @@ construct means in the Hammer
             filesystem&lt;/li&gt;
-            &lt;li&gt;“@@ represents the existence of a PFS which is logically separated pseudo filesystem space within
-            HAMMER&#39;s B-Tree”&lt;/li&gt;
-            &lt;li&gt;“HAMMER only has 1 large B-Tree per filesystem (not per PFS), so all the PFS exist within that
+            &lt;li&gt;&quot;@@ represents the existence of a PFS which is logically separated pseudo filesystem space within
+            HAMMER&#39;s B-Tree&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;HAMMER only has 1 large B-Tree per filesystem (not per PFS), so all the PFS exist within that
             single B-Tree. PFS are separated by localization parameter which is one of the B-Tree keys used to lookup
-            the tree.”&lt;/li&gt;
+            the tree.&quot;&lt;/li&gt;
             &lt;li&gt;Each substring in &quot;@@-1:00001&quot; means:
 
             &lt;ol&gt;
@@ -341,8 +341,8 @@
             no &quot;00000&quot; because that&#39;s what&#39;s mounted on /HAMMER. PFS# is used for localization
             parameter.&lt;/li&gt;
             &lt;/ol&gt;&lt;/li&gt;
-            &lt;li&gt;“Localization parameter has the highest priority when inserting or looking up B-Tree elements, so
-            fs elements that belong to the same PFS# tend to be localized (clustered) within the B-Tree”&lt;/li&gt;
+            &lt;li&gt;&quot;Localization parameter has the highest priority when inserting or looking up B-Tree elements, so
+            fs elements that belong to the same PFS# tend to be localized (clustered) within the B-Tree&quot;&lt;/li&gt;
             &lt;li&gt;There is also a note about how snapshots are named: &quot;@@0x00...&quot;&lt;/li&gt;
             &lt;li&gt;A user points out that having : in the path can confuse some applications, such as in the case of
             adding the current directory or a relative path to the $PATH environment variable, which is a colon
@@ -372,26 +372,26 @@
             on FreeBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Next we have a blog post about the experience of a “new” FreeBSD user trying to deploy some
+            &lt;li&gt;Next we have a blog post about the experience of a &quot;new&quot; FreeBSD user trying to deploy some
             non-ported software to his new system.&lt;/li&gt;
             &lt;li&gt;Specifically he was interested in running TensorFlow, but not doing a port himself, because in his
             words: &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“First, I apologize for not supplying a port archive myself. After reading the FreeBSD handbook for
+            &lt;p&gt;&quot;First, I apologize for not supplying a port archive myself. After reading the FreeBSD handbook for
             creating a port, it&#39;s too complex of a task for me right now. I&#39;ve only been using FreeBSD for two
             weeks. I would also not like to waste anyone&#39;s time giving them a terrible port archive and mess up
-            their system.”&lt;/p&gt;
+            their system.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
             &lt;li&gt;First of all, good ports are often born out of bad ports! Don’t let the porting framework daunt
-            you, give it a go, since that&#39;s the only way you are going to learn how to write “good” ports over time.
+            you, give it a go, since that&#39;s the only way you are going to learn how to write &quot;good&quot; ports over time.
             The porters-handbook is a good first place to start, plus the community usually is very helpful in providing
             feedback.&lt;/li&gt;
             &lt;li&gt;He then walks us through the changes made to the TensorFlow code (starting with the assumption
-            that OSX was a good “flavor” to begin porting from) and ultimately compiling. &lt;/li&gt;
+            that OSX was a good &quot;flavor&quot; to begin porting from) and ultimately compiling. &lt;/li&gt;
             &lt;li&gt;This ends up with the creation of a pip package which works!&lt;/li&gt;
             &lt;li&gt;A good tutorial, and also very similar to what goes on in the porting process. With this write-up
             perhaps somebody will take up creating a port of it… hint hint!&lt;/li&gt;
@@ -404,14 +404,14 @@
 
             &lt;ul&gt;
             &lt;li&gt;We don’t get enough NetBSD news at times, but this post by James Deagle talks about his adventure
-            with NetBSD 7.0 and making it his “new beginning”&lt;/li&gt;
+            with NetBSD 7.0 and making it his &quot;new beginning&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“After a few months of traipsing around the worlds of SunOS and Linux, I&#39;m back to NetBSD for
+            &lt;p&gt;&quot;After a few months of traipsing around the worlds of SunOS and Linux, I&#39;m back to NetBSD for
             what I hope will be a lengthy return engagement. And while I&#39;m enamored of NetBSD for all the
             previously-mentioned reasons, I&#39;m already thinking ahead to some problems to solve, some of which have
-            also been mentioned before.”&lt;/p&gt;
+            also been mentioned before.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -589,7 +589,7 @@
             &lt;h3&gt;&lt;a href=&quot;https://www.surveymonkey.com/r/freebsd2016&quot;&gt;2016 FreeBSD Community Survey&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We often get comments from our listeners, “I’m not a developer, how can I help out”?&lt;/li&gt;
+            &lt;li&gt;We often get comments from our listeners, &quot;I’m not a developer, how can I help out&quot;?&lt;/li&gt;
             &lt;li&gt;Well today is your chance to do something. The FreeBSD Foundation has its 2016 Community Survey
             online, where they are asking for feedback from
             you!&lt;/li&gt;
@@ -608,22 +608,22 @@
             &lt;ul&gt;
             &lt;li&gt;OpenBSD has changed the way routes are looked up in the kernel as part of their path to an SMP
             networking stack&lt;/li&gt;
-            &lt;li&gt;The “Allotment Routing Table” (ART) is a performance tradeoff, where more memory is used to store
+            &lt;li&gt;The &quot;Allotment Routing Table&quot; (ART) is a performance tradeoff, where more memory is used to store
             the routing table, in exchange for faster
             lookups&lt;/li&gt;
             &lt;li&gt;With this new arrangement, a full BGP routing table will grow from 130MB to 180MB of memory&lt;/li&gt;
-            &lt;li&gt;“ART is a free multibit trie based routing table. To keep it simple, it can be seen as using more
+            &lt;li&gt;&quot;ART is a free multibit trie based routing table. To keep it simple, it can be seen as using more
             memory for fewer CPU cycles. In other words,
             we get a faster lookup by wasting memory. The &lt;a href=&quot;http://www.hariguchi.org/art/art.pdf&quot;&gt;original
             paper&lt;/a&gt; presents some performance comparisons between
-            two ART configurations and the BSD Radix. But how does this apply to OpenBSD?”&lt;/li&gt;
-            &lt;li&gt;“I asked Hrvoje Popovski to run his packet forwarding test on his Xeon box (E5-2620 v2 @ 2.10GHz,
+            two ART configurations and the BSD Radix. But how does this apply to OpenBSD?&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I asked Hrvoje Popovski to run his packet forwarding test on his Xeon box (E5-2620 v2 @ 2.10GHz,
             2400.34 MHz) with ix(4) (82599) interfaces.
-            The test setup consist of three machines with the OpenBSD box in the middle”&lt;/li&gt;
-            &lt;li&gt;“The simulations have been performed with an OpenBSD -current from June 9th. The machine is
+            The test setup consist of three machines with the OpenBSD box in the middle&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The simulations have been performed with an OpenBSD -current from June 9th. The machine is
             configured with pf(4) disabled in order to force a
             single route lookup for every IPv4 packet. Based on the result of the lookup the kernel decide if it should
-            forward, deliver or drop the packet”&lt;/li&gt;
+            forward, deliver or drop the packet&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -657,7 +657,7 @@
             &lt;li&gt;Do you know there are signals other than SIGKILL?&lt;/li&gt;
             &lt;li&gt;This article talks about the practical implications of signals from a programming perspective&lt;/li&gt;
             &lt;li&gt;The things you need to consider when dealing with signals&lt;/li&gt;
-            &lt;li&gt;Basically, you register a “signal handler”, the function that will be run when a signal arrives&lt;/li&gt;
+            &lt;li&gt;Basically, you register a &quot;signal handler&quot;, the function that will be run when a signal arrives&lt;/li&gt;
             &lt;li&gt;As you program is running, if a signal arrives, your program will be interrupted. Its current
             state will be saved and any system calls in progress
             will return EINTR (Error, Interrupted), then your signal handler will be run.&lt;/li&gt;
@@ -686,7 +686,7 @@
             &lt;li&gt;We’ve talked a bit about NetBSD’s RUMP (unikernel) in the past, including articles on how to
             deploy services using it.&lt;/li&gt;
             &lt;li&gt;Now we have an interesting project which makes the process super-easy, and dare-we-say almost
-            “Docker-Like?”&lt;/li&gt;
+            &quot;Docker-Like?&quot;&lt;/li&gt;
             &lt;li&gt;The Unik project has a fairly complete walkthrough right on their GitHub project page, including
             details on installation and creating your own
             unikernel containers. &lt;/li&gt;
@@ -737,7 +737,7 @@
             &lt;ul&gt;
             &lt;li&gt;Looking for a jail-like method of running FireFox on NetBSD? (Or possibly other BSDs?)&lt;/li&gt;
             &lt;li&gt;We have a github repo with details on how to setup and run FireFox using a chroot using a
-            “webuser” account for safety. &lt;/li&gt;
+            &quot;webuser&quot; account for safety. &lt;/li&gt;
             &lt;li&gt;Think of this as a jail alternative, may be useful on systems with no jail support.&lt;/li&gt;
             &lt;li&gt;Of interest is the method used to do X forwarding. It uses Xorg TCP listen option (which is often
             off by default for security reasons). Perhaps SSH
@@ -894,8 +894,8 @@
             &lt;a href=&quot;http://allanjude.com/bsd/AsiaBSDCon2016_geliboot_pdf1a.pdf&quot;&gt;and Paper &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LFgxAHkrSTg&quot;&gt;Michael W Lucas presents
             Allan with a gift &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2698&quot;&gt;“FreeBSD Mastery:
-            Advanced ZedFS” &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2698&quot;&gt;&quot;FreeBSD Mastery:
+            Advanced ZedFS&quot; &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;Highlighted Tweets:
 
             &lt;ul&gt;
@@ -909,8 +909,8 @@
             &lt;li&gt;&lt;a href=&quot;https://twitter.com/Keltounet/status/741763867471155201&quot;&gt;@gvnn3 sells the
             FreeBSD Foundation shirt off of his back for Charity &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://twitter.com/cperciva/status/741375414967410688&quot;&gt;Michael W. Lucas
-            asks Matt Ahrens how to pronounce ZFS, “You can pronounce ZFS however you like, but if you pronounce it
-            &#39;reiserfs&#39;, people might be confused.” &lt;/a&gt;&lt;/li&gt;
+            asks Matt Ahrens how to pronounce ZFS, &quot;You can pronounce ZFS however you like, but if you pronounce it
+            &#39;reiserfs&#39;, people might be confused.&quot; &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://twitter.com/BSDCan/status/741420633007874050&quot;&gt;Sysadmin T-Shirt
             &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://twitter.com/SeanChittenden/status/740904105388978176&quot;&gt;FreeBSD Dev
@@ -941,16 +941,16 @@
 
             &lt;ul&gt;
             &lt;li&gt;Microsoft has released their own custom image of FreeBSD 10.3 for the Azure Cloud&lt;/li&gt;
-            &lt;li&gt;“This means that not only can you quickly bring-up a FreeBSD VM in Azure, but also that in the
-            event you need technical support, Microsoft support engineers can assist.”&lt;/li&gt;
-            &lt;li&gt;“Microsoft is the publisher of the FreeBSD image in the marketplace rather than the FreeBSD
+            &lt;li&gt;&quot;This means that not only can you quickly bring-up a FreeBSD VM in Azure, but also that in the
+            event you need technical support, Microsoft support engineers can assist.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Microsoft is the publisher of the FreeBSD image in the marketplace rather than the FreeBSD
             Foundation. The FreeBSD Foundation is supported by donations from the FreeBSD community, including companies
             that build their solutions on FreeBSD. They are not a solution provider or an ISV with a support
             organization but rather rely on a very active community that support one another. In order to ensure our
             customers have an enterprise SLA for their FreeBSD VMs running in Azure, we took on the work of building,
             testing, releasing and maintaining the image in order to remove that burden from the Foundation. We will
             continue to partner closely with the Foundation as we make further investments in FreeBSD on Hyper-V and in
-            Azure.”&lt;/li&gt;
+            Azure.&quot;&lt;/li&gt;
             &lt;li&gt;&quot;It&#39;s quite a significant milestone for FreeBSD community and for Microsoft to publish a
             supported FreeBSD image on Azure Marketplace. We really appreciate Microsoft&#39;s commitment and investment
             in FreeBSD project&quot;. - Justin T. Gibbs, President of FreeBSD Foundation&lt;/li&gt;
@@ -958,7 +958,7 @@
             upstreamed but that were too late for the regular 10.3 release cycle.&lt;/li&gt;
             &lt;li&gt;Rather than requiring users to use a snapshot of the stable/10 branch, which would complicate the
             user experience, and complicate the job of the Microsoft support engineers, they created their own
-            “certified” release&lt;/li&gt;
+            &quot;certified&quot; release&lt;/li&gt;
             &lt;li&gt;This allows Microsoft to selectively deploy errata fixes to the image as well&lt;/li&gt;
             &lt;li&gt;It is not clear how this affects update mechanisms like freebsd-update(8)&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://www.theregister.co.uk/2016/06/09/microsoft_freebsd/&quot;&gt;The Register
@@ -981,13 +981,13 @@
             poorly&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“At the bottom of the OpenBSD man page for select is a little note. “Internally to the kernel,
-            select() and pselect() work poorly if multiple processes wait on the same file descriptor.” There’s a
-            similar warning in the poll man page. Where does this warning come from and what does it mean?”&lt;/li&gt;
+            &lt;li&gt;&quot;At the bottom of the OpenBSD man page for select is a little note. &quot;Internally to the kernel,
+            select() and pselect() work poorly if multiple processes wait on the same file descriptor.&quot; There’s a
+            similar warning in the poll man page. Where does this warning come from and what does it mean?&quot;&lt;/li&gt;
             &lt;li&gt;Ted found that at first glance, OpenBSD’s select() appears to be quite bad:&lt;/li&gt;
-            &lt;li&gt;“whenever some data gets written, we call wakeup(&amp;amp;selwait);. Based on what we’ve seen so
+            &lt;li&gt;&quot;whenever some data gets written, we call wakeup(&amp;amp;selwait);. Based on what we’ve seen so
             far, one can conclude that this is likely to be inefficient. Every time any socket has some data available,
-            we wake up every selecting process in the system. Works poorly indeed.”&lt;/li&gt;
+            we wake up every selecting process in the system. Works poorly indeed.&quot;&lt;/li&gt;
             &lt;li&gt;After further investigation, it turns out to not be quite as bad&lt;/li&gt;
             &lt;li&gt;When the select() is first setup, the PID of the process that cares about the FD is recorded in
             the selinfo struct&lt;/li&gt;
@@ -996,9 +996,9 @@
             &lt;li&gt;When selwakeup() is called, if SI_COLL is set, all select()ing processes are woken up, and the
             sysctl kern.nselcoll is incremented. If the flag is not set, and only a single PID is waiting for activity
             on that FD, only that process is woken up&lt;/li&gt;
-            &lt;li&gt;“This is not an intractable problem. kevent avoids it entirely. Other implementations may too. But
+            &lt;li&gt;&quot;This is not an intractable problem. kevent avoids it entirely. Other implementations may too. But
             practically, does it need to be solved? My laptop says it’s happened 43 times. A server with substantially
-            more uptime says 0. Doesn’t seem so bad.”&lt;/li&gt;
+            more uptime says 0. Doesn’t seem so bad.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1174,7 +1174,7 @@
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/file-considered-harmful&quot;&gt;file
             considered harmful&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/problame/talkintrozfs2016&quot;&gt;An open source
-            talk on ZFS. “Intro to ZFS” as a set of open source slides for the community to build on, and to reuse. Go
+            talk on ZFS. &quot;Intro to ZFS&quot; as a set of open source slides for the community to build on, and to reuse. Go
             give this talk at your local conference. &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20160529145411&quot;&gt;ARMv7
             now has a bootloader&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
@@ -1281,7 +1281,7 @@
             have both the video and slides from Theo de Raadt at dotSecurity 2016.&lt;/li&gt;
             &lt;li&gt;Specifically the the talk starts off looking at Pledge (no copyright issues with the pictures I
             hope??) and how their NTP daemon uses it.&lt;/li&gt;
-            &lt;li&gt;After going through some internals, Theo reveals that around 10% of programs “pledged” so far were
+            &lt;li&gt;After going through some internals, Theo reveals that around 10% of programs &quot;pledged&quot; so far were
             found to be trying to do actions outside of their security scope.&lt;/li&gt;
             &lt;li&gt;On the future-work side, they mention going back and looking at OpenSSH privilege separation next,
             as well as working with other OS’s that may want pledge support.&lt;/li&gt;
@@ -1310,10 +1310,10 @@
             &lt;li&gt;PS2 mouse for fallback if the guest does not support XHCI (Windows 7)&lt;/li&gt;
             &lt;li&gt;PS2 keyboard&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;“The code has been tested with Windows 7/8/8.1/10 and Server 2k12/2k16, Ubuntu 15.10, and FreeBSD
-            10.3/11-CURRENT”&lt;/li&gt;
-            &lt;li&gt;“For VNC clients, TightVNC, TigherVNC, and RealVNC (aka VNC Viewer) have been tested on various
-            hosts. The OSX VNC client is known not to work.”&lt;/li&gt;
+            &lt;li&gt;&quot;The code has been tested with Windows 7/8/8.1/10 and Server 2k12/2k16, Ubuntu 15.10, and FreeBSD
+            10.3/11-CURRENT&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;For VNC clients, TightVNC, TigherVNC, and RealVNC (aka VNC Viewer) have been tested on various
+            hosts. The OSX VNC client is known not to work.&quot;&lt;/li&gt;
             &lt;li&gt;The VNC server supports an optional ‘wait’ parameter, that causes the VM to not actually boot
             until the VNC client connects, allowing you to interrupt the boot process if need be&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://justinholcomb.me/blog/2016/05/28/bhyve-uefi-gop-support.html&quot;&gt;Related
@@ -1330,37 +1330,37 @@
             &lt;ul&gt;
             &lt;li&gt;zfsd has been committed to FreeBSD -CURRENT in time to be included in FreeBSD 11.0&lt;/li&gt;
             &lt;li&gt;zfsd is the missing piece required to make ‘hot spares’ work properly in FreeBSD ZFS&lt;/li&gt;
-            &lt;li&gt;“zfsd attempts to resolve ZFS faults that the kernel can&#39;t resolve by itself. It listens to
+            &lt;li&gt;&quot;zfsd attempts to resolve ZFS faults that the kernel can&#39;t resolve by itself. It listens to
             devctl(4) events, which is how the kernel notifies of events such as I/O errors and disk removals. Zfsd
-            attempts to resolve these faults by activating or deactivating hotspares and onlining offline vdevs.”&lt;/li&gt;
-            &lt;li&gt;“The administrator never interacts with zfsd directly. Instead, he controls its behavior
+            attempts to resolve these faults by activating or deactivating hotspares and onlining offline vdevs.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The administrator never interacts with zfsd directly. Instead, he controls its behavior
             indirectly through zpool configuration. There are two ways to influence zfsd: assigning hotspares and
             setting pool properties. Currently, only the &lt;em&gt;autoreplace&lt;/em&gt; property has any effect. See
-            zpool(8) for details.”&lt;/li&gt;
+            zpool(8) for details.&quot;&lt;/li&gt;
             &lt;li&gt;So, what example does it do?&lt;/li&gt;
-            &lt;li&gt;Device Removal: “When a leaf vdev disappears, zfsd will activate any available hotspare.”&lt;/li&gt;
-            &lt;li&gt;Device Arrival: “When a new GEOM device appears, zfsd will attempt to read its ZFS label, if any.
+            &lt;li&gt;Device Removal: &quot;When a leaf vdev disappears, zfsd will activate any available hotspare.&quot;&lt;/li&gt;
+            &lt;li&gt;Device Arrival: &quot;When a new GEOM device appears, zfsd will attempt to read its ZFS label, if any.
             If it matches a previously removed vdev on an active pool, zfsd will online it. Once resilvering completes,
-            any active hotspare will detach automatically.”&lt;/li&gt;
+            any active hotspare will detach automatically.&quot;&lt;/li&gt;
             &lt;li&gt;So if you disconnect a drive, then reconnect it, it will automatically be brought back online.
             Since ZFS is smart, the resilver will only have to copy data that has changed since the device went offline.&lt;/li&gt;
-            &lt;li&gt;“If the new device has no ZFS label but its physical path matches the physical path of a
+            &lt;li&gt;&quot;If the new device has no ZFS label but its physical path matches the physical path of a
             previously removed vdev on an active pool, and that pool has the autoreplace property set, then zfsd will
             replace the missing vdev with the newly arrived device. Once resilvering completes, any active hotspare will
-            detach automatically.”&lt;/li&gt;
+            detach automatically.&quot;&lt;/li&gt;
             &lt;li&gt;If the new drive is in the same slot in your hot swap array as a failed device, it will be used as
             a replacement immediately.&lt;/li&gt;
-            &lt;li&gt;vdev degrade or fault events: “If a vdev becomes degraded or faulted, zfsd will activate any
+            &lt;li&gt;vdev degrade or fault events: &quot;If a vdev becomes degraded or faulted, zfsd will activate any
             available hotspare. If a leaf vdev generates more than 50 I/O errors in a 60 second period, then zfsd will
             mark that vdev as FAULTED. zfs(4) will no longer issue any I/Os to it. zfsd will activate
-            a hotspare if one is available.” Same for checksum errors.&lt;/li&gt;
+            a hotspare if one is available.&quot; Same for checksum errors.&lt;/li&gt;
             &lt;li&gt;So if zfsd detects a drive is going bad, it brings the hotspare online before it is too late&lt;/li&gt;
-            &lt;li&gt;Spare addition: “If the system administrator adds a hotspare to a pool that is already degraded,
-            zfsd will activate the spare.”&lt;/li&gt;
-            &lt;li&gt;Resilver complete: “zfsd will detach any hotspare once a permanent replacement finishes
-            resilvering.”&lt;/li&gt;
-            &lt;li&gt;Physical path change: “If the physical path of an existing disk changes, zfsd will attempt to
-            replace any missing disk with the same physical path, if its pool&#39;s autoreplace property is set.”&lt;/li&gt;
+            &lt;li&gt;Spare addition: &quot;If the system administrator adds a hotspare to a pool that is already degraded,
+            zfsd will activate the spare.&quot;&lt;/li&gt;
+            &lt;li&gt;Resilver complete: &quot;zfsd will detach any hotspare once a permanent replacement finishes
+            resilvering.&quot;&lt;/li&gt;
+            &lt;li&gt;Physical path change: &quot;If the physical path of an existing disk changes, zfsd will attempt to
+            replace any missing disk with the same physical path, if its pool&#39;s autoreplace property is set.&quot;&lt;/li&gt;
             &lt;li&gt;In general, this tool means less reliance on the system administrator to keep the pool healthy&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1377,9 +1377,9 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“W^X violations are no longer permitted by default. A kernel log message is generated, and
+            &lt;p&gt;&quot;W^X violations are no longer permitted by default. A kernel log message is generated, and
             mprotect/mmap return ENOTSUP. If the sysctl(8) flag kern.wxabort is set then a SIGABRT occurs instead, for
-            gdb use or coredump creation.”&lt;/p&gt;
+            gdb use or coredump creation.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -1388,11 +1388,11 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“W^X violating programs can be permitted on a ffs/nfs filesystem-basis, using the &quot;wxallowed&quot;
+            &lt;p&gt;&quot;W^X violating programs can be permitted on a ffs/nfs filesystem-basis, using the &quot;wxallowed&quot;
             mount option. One day far in the future upstream software developers will understand that W^X violations are
             a tremendously risky practice and that style of programming will be banished outright. Until then, we
             recommend most users need to use the wxallowed option on their /usr/local filesystem. At least your other
-            filesystems don&#39;t permit such programs.”&lt;/p&gt;
+            filesystems don&#39;t permit such programs.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -1428,7 +1428,7 @@
             &lt;blockquote&gt;
             &lt;p&gt;I have already written extensively about my EFI refactoring here. The reason for undertaking this
             effort, however, was driven by GELI support. Early in my work on this, I had implemented a non-EFI
-            “providers” framework in boot1 in order to support the notion of disk partitions that may contain
+            &quot;providers&quot; framework in boot1 in order to support the notion of disk partitions that may contain
             sub-partitions.&lt;/p&gt;
             &lt;/blockquote&gt;
 
@@ -1439,7 +1439,7 @@
             &lt;li&gt;It implemented a lot of the same functionality that exists in the EFI framework.&lt;/li&gt;
             &lt;li&gt;It involved implementing a GPT partition driver to deal with partition tables inside GELI
             partitions (GPT detection and support is guaranteed by the EFI spec).&lt;/li&gt;
-            &lt;li&gt;The interface between the EFI framework and the custom “providers” framework was awkward.&lt;/li&gt;
+            &lt;li&gt;The interface between the EFI framework and the custom &quot;providers&quot; framework was awkward.&lt;/li&gt;
             &lt;li&gt;The driver was completely boot1-specific, and exporting it to something like GRUB probably
             involved a total rewrite.&lt;/li&gt;
             &lt;li&gt;Implementing it within loader was going to involve a lot of code duplication.&lt;/li&gt;
@@ -1463,16 +1463,16 @@
             of FreeBSD 2016: Michael W. Lucas&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;On this edition of “Faces of FreeBSD”, Michael W Lucas tells the story of how he got started with
+            &lt;li&gt;On this edition of &quot;Faces of FreeBSD&quot;, Michael W Lucas tells the story of how he got started with
             FreeBSD&lt;/li&gt;
-            &lt;li&gt;After an amusing re-telling of his childhood (The words “Purina Monkey Chow” were mentioned), he
+            &lt;li&gt;After an amusing re-telling of his childhood (The words &quot;Purina Monkey Chow&quot; were mentioned), he
             then tells us how he got into BSD.&lt;/li&gt;
             &lt;li&gt;His being thrown into the project may sound familiar to many: &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;I came in at 11 PM one night and was told “The DNS administrator just got walked out the door.
-            You’re the new lead DNS administrator. Make those servers work. Good luck.”&lt;/p&gt;
+            &lt;p&gt;I came in at 11 PM one night and was told &quot;The DNS administrator just got walked out the door.
+            You’re the new lead DNS administrator. Make those servers work. Good luck.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;

@@ -115,18 +115,18 @@
             than a database&lt;/li&gt;
             &lt;li&gt;After an unexpected restart of the system, a recently posted comment no longer existed&lt;/li&gt;
             &lt;li&gt;The post goes on to investigate what the ‘right way’ to ensure file durability is&lt;/li&gt;
-            &lt;li&gt;The answer, as you might expect, is “it depends…”&lt;/li&gt;
+            &lt;li&gt;The answer, as you might expect, is &quot;it depends…&quot;&lt;/li&gt;
             &lt;li&gt;Normally, fsync() should work, but it seems with ext4 and some other file systems, you must also
             fsync() the directory where the file was created, or it might not be possible to find the file after a crash&lt;/li&gt;
             &lt;li&gt;Do you need to fsync() the parent of that directory too? Then what is fdatasync() for? What about
             just calling sync()?&lt;/li&gt;
-            &lt;li&gt;“One issue is that unlike many other Unix API issues, it&#39;s impossible to test to see if you
+            &lt;li&gt;&quot;One issue is that unlike many other Unix API issues, it&#39;s impossible to test to see if you
             got it all correct and complete. If your steps are incomplete, you don&#39;t get any errors; your data is
             just silently sometimes at risk. Even with a test setup to create system crashes or abrupt power loss (which
             VMs make much easier), you need uncommon instrumentation to know things like if your OS actually issued disk
             flushes or just did normal buffered writes. And straightforward testing can&#39;t tell you if what you&#39;re
             doing will work all the time, because what is required varies by Unix, kernel version, and the specific
-            filesystem involved.”&lt;/li&gt;
+            filesystem involved.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://utcc.utoronto.ca/~cks/space/blog/python/HowISyncDataDWiki&quot;&gt;Second
             post by author: How I&#39;m trying to do durable disk writes &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=11511269&quot;&gt;Additional Discussion on
@@ -156,7 +156,7 @@
             &lt;li&gt;After the installation is finished, the prep for ‘cloudinit’ is done, and the resulting image is
             compressed and made ready for deployment. &lt;/li&gt;
             &lt;li&gt;We’ve kinda stepped through some of the more gory steps here, but if OpenStack is something you
-            work with, this tutorial should be at the top of your “must read” list.&lt;/li&gt;
+            work with, this tutorial should be at the top of your &quot;must read&quot; list.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -197,7 +197,7 @@
             &lt;li&gt;A brief history of Fast Filesystems&lt;/li&gt;
             &lt;li&gt;There is also an interview with Gleb Smirnoff, a member of the Core team, release engineering, and
             the deputy security officer, as well as a senior software developer at Netflix&lt;/li&gt;
-            &lt;li&gt;Get the latest issue from your favourite mobile store, or the “Desktop Edition” directly in your
+            &lt;li&gt;Get the latest issue from your favourite mobile store, or the &quot;Desktop Edition&quot; directly in your
             browser from the FreeBSD Foundation’s website&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -243,25 +243,25 @@
             Bits&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We have next an interesting blog post talking about the idea that “It’s just all bits!”&lt;/li&gt;
+            &lt;li&gt;We have next an interesting blog post talking about the idea that &quot;It’s just all bits!&quot;&lt;/li&gt;
             &lt;li&gt;The author then takes us down the idea of no matter how old or mysterious the code may be, in the
             end it is ending up as bits arranged a certain way.&lt;/li&gt;
             &lt;li&gt;Then the article transitions and takes us through the idea that old bits, and bits that have grown
-            too large should often be good candidates for replacement by “simpler” bits, using OpenBSD as an example.
+            too large should often be good candidates for replacement by &quot;simpler&quot; bits, using OpenBSD as an example.
             &lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“The OpenBSD community exemplifies this in many ways by taking existing solutions and simplifying
+            &lt;p&gt;&quot;The OpenBSD community exemplifies this in many ways by taking existing solutions and simplifying
             them. Processing man pages is as old as Unix, and even in the 21st century OpenBSD has taken the time to
             rewrite the existing solution to be simpler and safer. It&#39;s just bits that need to be turned into other
             bits. Similarly, OpenBSD has introduced doas as an alternative to sudo. While not replacing sudo entirely,
             doas makes the 99.99% case of what people use sudo for easier and safer. They are just bits that need to be
-            authenticated. “&lt;/p&gt;
+            authenticated. &quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;All in all, a good read, and it reinforces the point that nothing is really truly “finished”. As
+            &lt;li&gt;All in all, a good read, and it reinforces the point that nothing is really truly &quot;finished&quot;. As
             computing advances and new technologies / practices are made available, sometimes it makes a lot of sense to
             go back and re-write things in order to simplify the complexity that has snuck in over time.&lt;/li&gt;
             &lt;/ul&gt;
@@ -278,14 +278,14 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“Add four new RCTL resources - readbps, readiops, writebps and writeiops,
+            &lt;p&gt;&quot;Add four new RCTL resources - readbps, readiops, writebps and writeiops,
             for limiting disk (actually filesystem) IO.&lt;/p&gt;
 
             &lt;p&gt;Note that in some cases these limits are not quite precise. It&#39;s ok,
             as long as it&#39;s within some reasonable bounds.&lt;/p&gt;
 
             &lt;p&gt;Testing - and review of the code, in particular the VFS and VM parts - is
-            very welcome.”&lt;/p&gt;
+            very welcome.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -409,8 +409,8 @@
             &lt;li&gt;Tested PIE base on several amd64 systems, both virtualized and bare metal&lt;/li&gt;
             &lt;li&gt;Hoped to be to enabled it for ARM64 before or during BSDCan.&lt;/li&gt;
             &lt;li&gt;Shawn will be bringing ten Raspberry Pi 3 devices (which are ARM64) with to BSDCan, eight of which
-            will be given out to lucky individuals. “We want the BSD community to hack on them and get ARM64/Aarch64
-            fully functional on them.”&lt;/li&gt;
+            will be given out to lucky individuals. &quot;We want the BSD community to hack on them and get ARM64/Aarch64
+            fully functional on them.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -458,7 +458,7 @@
             &lt;li&gt;system: improved config history and backup pages layout&lt;/li&gt;
             &lt;li&gt;system: increased backup count default from 30 to 60&lt;/li&gt;
             &lt;li&gt;system: /var /tmp MFS awareness for crash dumps added&lt;/li&gt;
-            &lt;li&gt;trust: add “IP security IKE intermediate” to server key usage&lt;/li&gt;
+            &lt;li&gt;trust: add &quot;IP security IKE intermediate&quot; to server key usage&lt;/li&gt;
             &lt;li&gt;firmware: moved reboot, halt and defaults pages to new home&lt;/li&gt;
             &lt;li&gt;languages: updates to Russian, French, German and Japanese&lt;/li&gt;
             &lt;li&gt;Many other updates and changes&lt;/li&gt;
@@ -481,14 +481,14 @@
 
             &lt;ul&gt;
             &lt;li&gt;Colin Percival has written a great blog post this past week, specifically talking about his policy
-            of writing “opinionated workarounds”.&lt;/li&gt;
+            of writing &quot;opinionated workarounds&quot;.&lt;/li&gt;
             &lt;li&gt;The idea came about due to his working on multi-platform software, and the frustrations of dealing
             with POSIX violations&lt;/li&gt;
             &lt;li&gt;The crux of the post is how he deals with these workarounds. Specifically by &lt;em&gt;only&lt;/em&gt;
             applying them to the particular system in which it was required. And doing so loudly. &lt;/li&gt;
             &lt;li&gt;This has some important benefits. First, it doesn’t potentially expose other systems to bugs /
             security flaws when a workaround doesn’t
-            “work” on a system for which it wasn’t designed. Secondly it’s important to complain. Loudly. This lets the
+            &quot;work&quot; on a system for which it wasn’t designed. Secondly it’s important to complain. Loudly. This lets the
             user know that they are running on a system that doesn’t adhere to POSIX compliance, and maybe even get the
             attention of a developer who could remedy the situation.&lt;/li&gt;
             &lt;/ul&gt;
@@ -499,7 +499,7 @@
             escalation in calendar(1)&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;File this one under “Ouch that hurts” a new security vuln has been posted, this time against
+            &lt;li&gt;File this one under &quot;Ouch that hurts&quot; a new security vuln has been posted, this time against
             NetBSD’s ‘calendar’ command.&lt;/li&gt;
             &lt;li&gt;Specifically it looks like some of the daily scripts uses the ‘-a’ flag, which requires super-user
             privs in order to process all users calendar files and mail the results.&lt;/li&gt;
@@ -521,11 +521,11 @@
             &lt;li&gt;Talks: 19-20 May 2016 (Thu-Fri)&lt;/li&gt;
             &lt;li&gt;Wednesday is a developer unconference.&lt;/li&gt;
             &lt;li&gt;Saturday is a user unconference.&lt;/li&gt;
-            &lt;li&gt;“PGCon is an annual conference for users and developers of PostgreSQL, a leading relational
+            &lt;li&gt;&quot;PGCon is an annual conference for users and developers of PostgreSQL, a leading relational
             database, which just happens to be open source. PGCon is the place to meet, discuss, build relationships,
             learn valuable insights, and generally chat about the work you are doing with PostgreSQL. If you want to
             learn why so many people are moving to PostgreSQL, PGCon will be the place to find out why. Whether you are
-            a casual user or you&#39;ve been working with PostgreSQL for years, PGCon will have something for you.”&lt;/li&gt;
+            a casual user or you&#39;ve been working with PostgreSQL for years, PGCon will have something for you.&quot;&lt;/li&gt;
             &lt;li&gt;New to PGSQL? Just a user? Long time developers? This conference has something for you. &lt;a
             href=&quot;https://www.pgcon.org/2016/schedule/events.en.html&quot;&gt;A great lineup of talks&lt;/a&gt;,
             plus unconference days focused on both users and developers&lt;/li&gt;
@@ -547,8 +547,8 @@
             &lt;h2&gt;Beastie Bits&lt;/h2&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.michaelwlucas.com/nonfiction/fmaz&quot;&gt;“FreeBSD Mastery:
-            Advanced ZFS” has officially been released &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.michaelwlucas.com/nonfiction/fmaz&quot;&gt;&quot;FreeBSD Mastery:
+            Advanced ZFS&quot; has officially been released &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/ligurio/f6114bd1df371047dd80ea9b8a55c104&quot;&gt;Support
             of OpenBSD pledge(2) in programming Languages&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://daemonforums.org/showthread.php?t=9781&quot;&gt;pkgsrcCon 2016
@@ -650,12 +650,12 @@
             &lt;ul&gt;
             &lt;li&gt;Don’t be fooled, Olivier Cochard-Labb&#233; is a bit more than just a FreeBSD user&lt;/li&gt;
             &lt;li&gt;Original founder of the FreeNAS project many years ago, and currently leads the BSD Router Project
-            (designed as a replacement for “Big Iron” routers like Cisco’s etc)&lt;/li&gt;
+            (designed as a replacement for &quot;Big Iron&quot; routers like Cisco’s etc)&lt;/li&gt;
             &lt;li&gt;However, he is not actually a committer on any of the BSD projects, and is mostly focused on
             networking, rather than development, so it is fair to call him a user&lt;/li&gt;
             &lt;li&gt;He walks us through a bug hunting session that started when he updated his wireless router&lt;/li&gt;
-            &lt;li&gt;“My wireless-router configuration was complex: it involves routing, wireless in hostap mode, ipfw,
-            snort, bridge, openvpn, etc.”&lt;/li&gt;
+            &lt;li&gt;&quot;My wireless-router configuration was complex: it involves routing, wireless in hostap mode, ipfw,
+            snort, bridge, openvpn, etc.&quot;&lt;/li&gt;
             &lt;li&gt;Provides helpful advice on writing problem reports to developers, including trying to reproduce
             your issue with as minimal a setup as possible. This both reduces the amount of setup a developer has to do
             to try to recreate your issue, and can often make it more obvious where the problem actually lies&lt;/li&gt;
@@ -687,7 +687,7 @@
             tutorial&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Originally only able to boot linux, xhyve, a “sort of” port of bhyve to OS X, can now run FreeBSD&lt;/li&gt;
+            &lt;li&gt;Originally only able to boot linux, xhyve, a &quot;sort of&quot; port of bhyve to OS X, can now run FreeBSD&lt;/li&gt;
             &lt;li&gt;This tutorial makes it much easier, providing a script&lt;/li&gt;
             &lt;li&gt;There are a few small command line flag differences from bhyve on FreeBSD&lt;/li&gt;
             &lt;li&gt;The tutorial also covers sharing a directory between the guest and the host, resizing and growing
@@ -858,11 +858,11 @@
             &lt;ul&gt;
             &lt;li&gt;This tutorial covers installing OpenBSD on a Thinkpad X200 using Libreboot, a replacement for the
             traditional BIOS/firmware that comes from the manufacturer&lt;/li&gt;
-            &lt;li&gt;“Since 5.9, OpenBSD supports EFI boot mode, which means that it also have had to support
+            &lt;li&gt;&quot;Since 5.9, OpenBSD supports EFI boot mode, which means that it also have had to support
             framebuffer out of the box, so lack of proprietary VGA BIOS blob is no longer a problem and you can boot it
-            with unmodified Libreboot binary release 20150518.”&lt;/li&gt;
-            &lt;li&gt;“In order to install OpenBSD on such a machine you will need someadditional preparations, since
-            regular install59.fs won&#39;t work because bsd.rd doesn&#39;t have a framebuffer console.”&lt;/li&gt;
+            with unmodified Libreboot binary release 20150518.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;In order to install OpenBSD on such a machine you will need someadditional preparations, since
+            regular install59.fs won&#39;t work because bsd.rd doesn&#39;t have a framebuffer console.&quot;&lt;/li&gt;
             &lt;li&gt;A few extra steps are required to get it going, but they are outlined in the post&lt;/li&gt;
             &lt;li&gt;This may be very interesting to those who prefer not to depend on binary blobs&lt;/li&gt;
             &lt;/ul&gt;
@@ -875,10 +875,10 @@
             &lt;ul&gt;
             &lt;li&gt;The FreeBSD Foundation’s Ed Maste provides an update on the LLVM mailing list about the progress
             of replacing the GNU linker with the lld in the FreeBSD base system&lt;/li&gt;
-            &lt;li&gt;“I&#39;m pleased to report that I can now build a runnable FreeBSD system using lld as the linker
+            &lt;li&gt;&quot;I&#39;m pleased to report that I can now build a runnable FreeBSD system using lld as the linker
             (for buildworld), with a few workarounds and work-in-progress patches. I have not yet extensively tested the
             result but it is possible to login to the resulting system, and basic sanity tests I&#39;ve tried are
-            successful. Note that the kernel is still linked with ld.bfd.”&lt;/li&gt;
+            successful. Note that the kernel is still linked with ld.bfd.&quot;&lt;/li&gt;
             &lt;li&gt;Outstanding Issues
 
             &lt;ul&gt;
@@ -931,7 +931,7 @@
             of FreeBSD 2016: Scott Long&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;It’s been awhile since we’ve had a new entry into the “Faces of FreeBSD” series, but due to
+            &lt;li&gt;It’s been awhile since we’ve had a new entry into the &quot;Faces of FreeBSD&quot; series, but due to
             popular demand it’s back!&lt;/li&gt;
             &lt;li&gt;This installment features developer Scott Long, who currently works at NetFlix, previously at
             Yahoo and Adaptec.&lt;/li&gt;

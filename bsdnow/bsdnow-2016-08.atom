@@ -219,7 +219,7 @@
             &lt;p&gt;https://github.com/raspberrypi/firmware&lt;/p&gt;
 
             &lt;p&gt;The device tree for the Raspberry Pi is somewhat in flux as bits and pieces to support the
-            Raspberry Pi 2 and 3 are committed to the mainline Linux kernel.“
+            Raspberry Pi 2 and 3 are committed to the mainline Linux kernel.&quot;
             + Exciting news! We will of course keep you informed as to when we have images to play with. Running OpenBSD
             / PF on a RPi does sound intriguing.&lt;/p&gt;
             &lt;/blockquote&gt;
@@ -290,13 +290,13 @@
             &lt;ul&gt;
             &lt;li&gt;A new feature has been added to FreeBSD’s native firewall, ipfw2&lt;/li&gt;
             &lt;li&gt;The new loadable module implements stateless and stateful NAT64&lt;/li&gt;
-            &lt;li&gt;“Stateless translation is appropriate when a NAT64 translator is used in front of IPv4-only
-            servers to allow them to be reached by remote IPv6-only clients.”&lt;/li&gt;
+            &lt;li&gt;&quot;Stateless translation is appropriate when a NAT64 translator is used in front of IPv4-only
+            servers to allow them to be reached by remote IPv6-only clients.&quot;&lt;/li&gt;
             &lt;li&gt;With this setup, you map specific IPv6 addresses to the corresponding IPv4 address, allowing IPv4
             only servers to be reachable on the v6 network.&lt;/li&gt;
-            &lt;li&gt;“Stateful translation is suitable for deployment at the client side or at the service provider,
-            allowing IPv6-only client hosts to reach remote IPv4-only nodes.”&lt;/li&gt;
-            &lt;li&gt;This configuration allows many IPv6 only clients to reach the “legacy” internet. The FreeBSD
+            &lt;li&gt;&quot;Stateful translation is suitable for deployment at the client side or at the service provider,
+            allowing IPv6-only client hosts to reach remote IPv4-only nodes.&quot;&lt;/li&gt;
+            &lt;li&gt;This configuration allows many IPv6 only clients to reach the &quot;legacy&quot; internet. The FreeBSD
             cluster has been waiting for this feature for
             a while, because they have limited IP addresses, but many service jails that require access to services like
             GitHub that are not IPv6 enabled.&lt;/li&gt;
@@ -331,7 +331,7 @@
             &lt;blockquote&gt;
             &lt;p&gt;Since the last update in March several lld developers have implemented much of the missing
             functionality. The main blockers were symbol version support and expression evaluation in the linker script
-            expression parser. Both are now nearly complete“&lt;/p&gt;
+            expression parser. Both are now nearly complete&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -366,12 +366,12 @@
             with a Minimum of 2GB of RAM. (The $20/mo droplet). This is to ensure you have plenty of cushion to avoid
             running out of memory during the process. It is possible to use ZFS with less, but depending on your desired
             workload this does make sense.&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;From there, checking out “mfsBSD” is discussed, along with details on how to make it suitable for
+            &lt;li&gt;From there, checking out &quot;mfsBSD&quot; is discussed, along with details on how to make it suitable for
             a DO installation. (Mostly just disabling DHCP for the network device) For good measure ‘pkg-static’ is also
             included.&lt;/li&gt;
             &lt;li&gt;With that done, using mfsBSD you will create a tar file, which is then extracted on top of the
             running system.&lt;/li&gt;
-            &lt;li&gt;After rebooting, you will be able to run “bsdinstall” and proceed to installing / formatting your
+            &lt;li&gt;After rebooting, you will be able to run &quot;bsdinstall&quot; and proceed to installing / formatting your
             disk with ZFS as normal.&lt;/li&gt;
             &lt;li&gt;A good tutorial, something I may need to do here in the near future.&lt;/li&gt;
             &lt;/ul&gt;
@@ -611,7 +611,7 @@
             &lt;ul&gt;
             &lt;li&gt;Completely customizable interface! Rather than having to learn how to use a new layout, change the
             desktop to suit you instead!&lt;/li&gt;
-            &lt;li&gt;Simple shortcuts for any application! The “favorites” system makes it easy to find and launch
+            &lt;li&gt;Simple shortcuts for any application! The &quot;favorites&quot; system makes it easy to find and launch
             applications at any time.&lt;/li&gt;
             &lt;li&gt;Extremely lightweight! Allows applications to utilize more of your system hardware and revitalizes
             older systems!&lt;/li&gt;
@@ -673,12 +673,12 @@
             &lt;ul&gt;
             &lt;li&gt;USENIX has re-released Roger Faulkner’s original paper on /proc as a free download&lt;/li&gt;
             &lt;li&gt;The UNIX community recently lost one of its original pioneers, Roger Faulkner, whom one commenter
-            described as “The godfather of post-AT&amp;amp;T UNIX”&lt;/li&gt;
+            described as &quot;The godfather of post-AT&amp;amp;T UNIX&quot;&lt;/li&gt;
             &lt;li&gt;In his memory, the USENIX group as re-released his original paper on the /proc file-system from
             1991.&lt;/li&gt;
             &lt;li&gt;Roger worked in many area’s of UNIX, however the process file system /proc was his special baby.&lt;/li&gt;
-            &lt;li&gt;“/proc began as a debugger interface superseding ptrace(2) but has evolved into a general
-            interface to the process model.”&lt;/li&gt;
+            &lt;li&gt;&quot;/proc began as a debugger interface superseding ptrace(2) but has evolved into a general
+            interface to the process model.&quot;&lt;/li&gt;
             &lt;li&gt;The original /proc only had a file for each process, not a directory. &quot;Data may be
             transferred from or to any valid locations in the process&#39;s address space by applying lseek(2) to
             position the file at the virtual address of interest followed by read(2) or write(2).&quot;&lt;/li&gt;
@@ -945,19 +945,19 @@
 
             &lt;ul&gt;
             &lt;li&gt;This post from TedU talks about the difficulty of removing features from an operating system&lt;/li&gt;
-            &lt;li&gt;“One of the difficulties in removing a feature is identifying all the potential users. A feature
+            &lt;li&gt;&quot;One of the difficulties in removing a feature is identifying all the potential users. A feature
             here could be a program bundled with an operating system, or a command line option, or maybe just a function
             in a library. If we remove a feature, users that depend on it will be sad. Unfortunately, absence of
             evidence is not evidence of absence. I’ve never heard of anybody running ls -p but it’s not impossible that
-            somebody does.”&lt;/li&gt;
-            &lt;li&gt;“The reasons why we want to remove an existing feature can vary. Sometimes it’s old code that
+            somebody does.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The reasons why we want to remove an existing feature can vary. Sometimes it’s old code that
             interferes with maintenance. Sometimes a nearly complete rewrite can improve performance. In other cases,
             the feature in question is really more of a misfeature. It may have security implications, where the
             existence of the feature can be used to facilitate the exploitation of other vulnerabilities, and removing
-            the feature will help mitigate the exploit.”&lt;/li&gt;
-            &lt;li&gt;“There’s no general test that can be used, but there is one test that works in many cases. Test
+            the feature will help mitigate the exploit.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;There’s no general test that can be used, but there is one test that works in many cases. Test
             that the feature works. If the feature doesn’t work, that’s compelling evidence that nobody is using it,
-            because nobody can be using it. You don’t need to fix it. You can just remove it.”&lt;/li&gt;
+            because nobody can be using it. You don’t need to fix it. You can just remove it.&quot;&lt;/li&gt;
             &lt;li&gt;He makes some interesting comments about exhaustive unit tests and the push to keep everything
             working all the time. If you never break anything to see if someone complains, how do you know if it is
             still being used?&lt;/li&gt;
@@ -994,25 +994,25 @@
             gains, but this stories is the reverse&lt;/li&gt;
             &lt;li&gt;Uber’s engineering team has switched back to MySQL, because for their specific workload and
             design, MySQL’s innodb has better performance&lt;/li&gt;
-            &lt;li&gt;Of course, it is not just vanilla MySQL, but “Schemaless”, a sharding system that sits on top of
+            &lt;li&gt;Of course, it is not just vanilla MySQL, but &quot;Schemaless&quot;, a sharding system that sits on top of
             MySQL&lt;/li&gt;
             &lt;li&gt;The article goes into detail about the on-disk format used by Postgres, and the specific
             shortcomings that Uber encountered&lt;/li&gt;
             &lt;li&gt;Uber admits that all of its testing was against the older PostgreSQL 9.2, but one of their
             complaints is about having difficulty upgrading&lt;/li&gt;
-            &lt;li&gt;“We started out with Postgres 9.1 and successfully completed the upgrade process to move to
+            &lt;li&gt;&quot;We started out with Postgres 9.1 and successfully completed the upgrade process to move to
             Postgres 9.2. However, the process took so many hours that we couldn’t afford to do the process again. By
             the time Postgres 9.3 came out, Uber’s growth increased our dataset substantially, so the upgrade would have
             been even lengthier. For this reason, our legacy Postgres instances run Postgres 9.2 to this day, even
-            though the current Postgres GA release is 9.5.”&lt;/li&gt;
+            though the current Postgres GA release is 9.5.&quot;&lt;/li&gt;
             &lt;li&gt;There is a followup, from the Postgres side&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com&quot;&gt;“Why
-            we lost Uber as a user” &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com&quot;&gt;&quot;Why
+            we lost Uber as a user&quot; &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;This thread goes into detail about the specific types of problematic queries that Uber was using&lt;/li&gt;
-            &lt;li&gt;“The Uber guy is right that InnoDB handles this better as long as you don&#39;t touch the primary
-            key (primary key updates in InnoDB are really bad)”&lt;/li&gt;
-            &lt;li&gt;“This is a common problem case we don&#39;t have an answer for yet.”&lt;/li&gt;
-            &lt;li&gt;The thread then goes on to discuss possibly supporting a “pluggable heap storage layer”, to allow
+            &lt;li&gt;&quot;The Uber guy is right that InnoDB handles this better as long as you don&#39;t touch the primary
+            key (primary key updates in InnoDB are really bad)&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;This is a common problem case we don&#39;t have an answer for yet.&quot;&lt;/li&gt;
+            &lt;li&gt;The thread then goes on to discuss possibly supporting a &quot;pluggable heap storage layer&quot;, to allow
             different workloads to use different on-disk formats for best performance&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1093,12 +1093,12 @@
             &lt;h3&gt;&lt;a href=&quot;https://wiki.freebsd.org/Myths&quot;&gt;Myths about FreeBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Over on the FreeBSD wiki, we have a new “Myths” page which we’ve never highlighted on the show
+            &lt;li&gt;Over on the FreeBSD wiki, we have a new &quot;Myths&quot; page which we’ve never highlighted on the show
             before. &lt;/li&gt;
-            &lt;li&gt;First up, and one I’ve very familiar with, is the usual “FreeBSD is only for Servers and not
-            Desktops”, along with a good rebuttal about what it does offer and mention of projects such as PC-BSD which
+            &lt;li&gt;First up, and one I’ve very familiar with, is the usual &quot;FreeBSD is only for Servers and not
+            Desktops&quot;, along with a good rebuttal about what it does offer and mention of projects such as PC-BSD which
             do it also.&lt;/li&gt;
-            &lt;li&gt;Another prevalent one is the “FreeBSD has a closed development model”, which is easily refuted:&lt;/li&gt;
+            &lt;li&gt;Another prevalent one is the &quot;FreeBSD has a closed development model&quot;, which is easily refuted:&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
@@ -1111,7 +1111,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;&lt;p&gt;Another one that we are still hearing (Although it is less and less now) was the common
-            “FreeBSD makes me compile everything from source”. Listeners of this show will know that pkg has pretty much
+            &quot;FreeBSD makes me compile everything from source&quot;. Listeners of this show will know that pkg has pretty much
             made this irrelevant in recent years. However the option to compile yourself from source still exists, but
             most users won’t find this ever necessary.&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;A good list, with many more items on it than we’ve mentioned here. Take a look, you might
@@ -1275,36 +1275,36 @@
             &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/my-int-is-too-big&quot;&gt;my int is too big&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The &lt;a href=&quot;http://marc.info/?l=oss-security&amp;amp;m=146853062403622&amp;amp;w=2&quot;&gt;NCC
-            Group report&lt;/a&gt; describes the bugs, but not the history of the code.”&lt;/li&gt;
-            &lt;li&gt;“Several of them, as reported by NCC, involved similar integer truncation issues. Actually, they
-            involved very similar modern 64 bit code meeting classic 32 bit code”&lt;/li&gt;
-            &lt;li&gt;“The thrsleep system call is a part of the kernel code that supports threads. As the name implies,
+            &lt;li&gt;&quot;The &lt;a href=&quot;http://marc.info/?l=oss-security&amp;amp;m=146853062403622&amp;amp;w=2&quot;&gt;NCC
+            Group report&lt;/a&gt; describes the bugs, but not the history of the code.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Several of them, as reported by NCC, involved similar integer truncation issues. Actually, they
+            involved very similar modern 64 bit code meeting classic 32 bit code&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The thrsleep system call is a part of the kernel code that supports threads. As the name implies,
             it gives userland a measure of control over scheduling and lets a thread sleep until something happens. As
             such, it takes a timeout in the form of a timespec. The kernel, however, internally implements time keeping
             using ticks (there are HZ, 100, ticks per second). The tsleep function (t is for timed) takes an int number
             of ticks and performs basic validation by checking that it’s not negative. A negative timeout would indicate
-            that the caller has miscalculated. The kernel panics so you can fix the bug, instead of stalling forever.”&lt;/li&gt;
-            &lt;li&gt;“The trouble therefore is when userland is allowed to specify a timeout that could be negative.
+            that the caller has miscalculated. The kernel panics so you can fix the bug, instead of stalling forever.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The trouble therefore is when userland is allowed to specify a timeout that could be negative.
             The existing code made an attempt to handle various tricks by converting the timespec to a ticks value
             stored as a 64 bit long long which was checked against INT&lt;em&gt;MAX before passing to sleep. Any value
             over INT&lt;/em&gt;MAX would be truncated, so we can’t allow that. Instead, we saturate the value to
             INT_MAX. Unfortunately, this check didn’t account for the possibility that the tick conversion from the
-            timespec could also overflow and result in a negative value.”&lt;/li&gt;
+            timespec could also overflow and result in a negative value.&quot;&lt;/li&gt;
             &lt;li&gt;Then there is the description of the kqueue flaw:&lt;/li&gt;
-            &lt;li&gt;“Every kqueue keeps a list of all the attached events it’s watching for. A simple array is used to
-            store file events, indexed by fd.”&lt;/li&gt;
-            &lt;li&gt;“This array is scaled to accommodate the largest fd that needs to be stored. This would obviously
+            &lt;li&gt;&quot;Every kqueue keeps a list of all the attached events it’s watching for. A simple array is used to
+            store file events, indexed by fd.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;This array is scaled to accommodate the largest fd that needs to be stored. This would obviously
             cause trouble, consuming too much memory, if the identifier were not validated first. Which is exactly what
             kqueue tries to do. The fd&lt;em&gt;getfile function checks that the identifier is a file that the process
             has open. One wrinkle. fd&lt;/em&gt;getfile takes an int argument but ident is a uintptr_t, possibly 64
             bits. An ident of 2^32 + 2 will look like a valid file descriptor, but then cause the array to be resized to
-            gargantuan proportions.”&lt;/li&gt;
-            &lt;li&gt;“Again, the fix is pretty simple. We must check that the ident is bounded by INT&lt;em&gt;MAX
+            gargantuan proportions.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Again, the fix is pretty simple. We must check that the ident is bounded by INT&lt;em&gt;MAX
             before calling fd&lt;/em&gt;getfile. This bug likely would have been exploitable beyond a panic, but the
             array allocation was changed to use mallocarray instead of multiplying arguments by hand, thus preventing
-            another overflow.”&lt;/li&gt;
-            &lt;li&gt;Then there is a description of the anonymous mmap flaw, and the “secret magic” __MAP_NOFAULT flag&lt;/li&gt;
+            another overflow.&quot;&lt;/li&gt;
+            &lt;li&gt;Then there is a description of the anonymous mmap flaw, and the &quot;secret magic&quot; __MAP_NOFAULT flag&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1318,16 +1318,16 @@
             and Foundation&lt;/li&gt;
             &lt;li&gt;We also have updates on some specific projects, including from Konstantin on the on-going work for
             his implementation of ASLR, including the new ‘proccontrol’ command which provides the following:
-            &amp;gt; “The proccontrol(1) utility was written to manage and query ASLR enforcement on a per-process
+            &amp;gt; &quot;The proccontrol(1) utility was written to manage and query ASLR enforcement on a per-process
             basis. It is required for analyzing ASLR failures in specific programs. This utility leverages the
-            procctl(2) interface which was added to the previous version of the patch, with some bug fixes.”&lt;/li&gt;
+            procctl(2) interface which was added to the previous version of the patch, with some bug fixes.&quot;&lt;/li&gt;
             &lt;li&gt;Next are updates on porting CEPH to FreeBSD, the ongoing work to improve EFI+GELI (touched on last
             week) and more robust Mutexes. &lt;/li&gt;
             &lt;li&gt;Additionally we have an update from Matt Macy and the Xorg team discussing the current work to
             update FreeBSD’s graphic stack:
-            &amp;gt; “All Intel GPUs up to and including the unreleased Kaby Lake are supported. The xf86-video-intel
+            &amp;gt; &quot;All Intel GPUs up to and including the unreleased Kaby Lake are supported. The xf86-video-intel
             driver will be updated soon. Updating this driver requires updating Xorg, which in turn is blocked on Nvidia
-            updates.”&lt;/li&gt;
+            updates.&quot;&lt;/li&gt;
             &lt;li&gt;The kernel also got some feature status updates, including on the new Allwinner SoC support, an
             update on FreeBSD in Hyper-V and VIMAGE &lt;/li&gt;
             &lt;li&gt;In addition to a quick update on the arm64 architecture (It’s getting there, RPi3 is almost a
@@ -1356,8 +1356,8 @@
             much more difficult&lt;/li&gt;
             &lt;li&gt;secteam@ and core@ would like to emphasize that the FreeBSD project takes these issue very
             seriously and are working on it
-            &amp;gt; “As a general rule, secteam@ does not announce vulnerabilities for which we don&#39;t have patches,
-            but we concede that we should have considered making an exception in this case”&lt;/li&gt;
+            &amp;gt; &quot;As a general rule, secteam@ does not announce vulnerabilities for which we don&#39;t have patches,
+            but we concede that we should have considered making an exception in this case&quot;&lt;/li&gt;
             &lt;li&gt;Work is underway to re-architect freebsd-update and portsnap to do signature verification on all
             files before they are passed to libarchive/tar, to help protect users from any future vulnerabilities in
             libarchive.&lt;/li&gt;
@@ -1381,9 +1381,9 @@
             &lt;li&gt;&lt;p&gt;On the bug side, there was a security issue addressed in sshd:&lt;/p&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“sshd(8): Mitigate a potential denial-of-service attack against the system&#39;s crypt(3) function
+            &lt;p&gt;&quot;sshd(8): Mitigate a potential denial-of-service attack against the system&#39;s crypt(3) function
             via sshd(8). An attacker could send very long passwords that would cause excessive CPU use in crypt(3).
-            sshd(8) now refuses to accept password authentication requests of length greater than 1024 characters”&lt;/p&gt;
+            sshd(8) now refuses to accept password authentication requests of length greater than 1024 characters&quot;&lt;/p&gt;
             &lt;/blockquote&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;Also a timing issue was resolved in regard to password auth, which could possibly allow
             an attacker to discern between valid/invalid account names.&lt;/p&gt;&lt;/li&gt;
@@ -1420,11 +1420,11 @@
 
             &lt;ul&gt;
             &lt;li&gt;NetBSD has purged the last holdout RWX page on the amd64 platform
-            &amp;gt; “Use UVM&lt;em&gt;PROT&lt;/em&gt;ALL only if UVM&lt;em&gt;KMF&lt;/em&gt;EXEC is given as argument.
+            &amp;gt; &quot;Use UVM&lt;em&gt;PROT&lt;/em&gt;ALL only if UVM&lt;em&gt;KMF&lt;/em&gt;EXEC is given as argument.
             Otherwise, if UVM&lt;em&gt;KMF&lt;/em&gt;PAGEABLE is also given as argument, only the VA is allocated and
             UVM waits for the page to fault before kentering it. When kentering it, it will use the UVM&lt;em&gt;PROT&lt;/em&gt;
             flag that was passed to uvm_map; which means that it will kenter it as RWX. With this change, the number of
-            RWX pages in the amd64 kernel reaches strictly zero.”&lt;/li&gt;
+            RWX pages in the amd64 kernel reaches strictly zero.&quot;&lt;/li&gt;
             &lt;li&gt;Break out the party favors! Hopefully any last stragglers in any of the other BSD’s gets retired
             soon as well.&lt;/li&gt;
             &lt;/ul&gt;
@@ -1437,7 +1437,7 @@
             &lt;ul&gt;
             &lt;li&gt;Softpedia picked up on the release of DragonFlyBSD 4.6, specifically about their new home-grown
             NVMe driver.
-            &amp;gt; “We now have a NVMe driver (PCIe SSDs). It currently must be kldloaded with nvme_load=&quot;YES&quot;
+            &amp;gt; &quot;We now have a NVMe driver (PCIe SSDs). It currently must be kldloaded with nvme_load=&quot;YES&quot;
             in /boot/loader.conf. The driver uses all concurrency features offered by the chip and will distribute
             queues and interrupts across multiple CPUs to maximize performance. It has been tested up to around 1.05M
             IOPS @4K, and roughly 6.5 GBytes/sec @32K (random read from urandom-filled partition, physio, many threads),
@@ -1445,16 +1445,16 @@
             other words, we maxed out the three NVMe devices we had plugged in and the system still had plenty of suds
             left over. Please note that a machine&#39;s ability to boot from an NVMe device depends on the BIOS, and not
             DragonFly. Most BIOSes cannot boot from NVMe devices and those that can probably only do it through UEFI.
-            Info on device state is available with the new utility nvmectl.“&lt;/li&gt;
+            Info on device state is available with the new utility nvmectl.&quot;&lt;/li&gt;
             &lt;li&gt;In addition to this improved support, 4.6 also brings in the improved graphics support, matching
             what is in Linux 4.4 and support for Broadwell/Skylake.&lt;/li&gt;
             &lt;li&gt;SMP also got some love:
-            &amp;gt; “SMP performance was already very good. As part of the NVMe driver work we revamped the buffer
+            &amp;gt; &quot;SMP performance was already very good. As part of the NVMe driver work we revamped the buffer
             cache subsystem and a number of other I/O related paths, further reducing lock contention and IPI signalling
             overheads. We also put topology-aware cpu cache localization into the kernel memory allocator (primarily
             helps multi-socket systems and systems with high core counts). The network subsystem also continues to
             receive significant improvement, with modest machine configurations now capable of handling upwards of 580K
-            conns/sec.“
+            conns/sec.&quot;
             +&lt;a href=&quot;https://www.dragonflybsd.org/release46/&quot;&gt;Full Release Notes&lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
 

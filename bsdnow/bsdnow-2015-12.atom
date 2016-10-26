@@ -174,20 +174,20 @@
 
             &lt;ul&gt;
             &lt;li&gt;Warner Losh talks about upcoming changes to armv6 on FreeBSD &lt;/li&gt;
-            &lt;li&gt;“All the CPUs that FreeBSD supports have hard floating point in them. We&#39;ve supported hard
-            float for quite some time in the FreeBSD kernel. However, by default, we still use a soft-float ABI.”&lt;/li&gt;
-            &lt;li&gt;First, “A new armv6hf (architecture) was created, but that caused some issues with some ports, and
+            &lt;li&gt;&quot;All the CPUs that FreeBSD supports have hard floating point in them. We&#39;ve supported hard
+            float for quite some time in the FreeBSD kernel. However, by default, we still use a soft-float ABI.&quot;&lt;/li&gt;
+            &lt;li&gt;First, &quot;A new armv6hf (architecture) was created, but that caused some issues with some ports, and
             the meaning of &#39;soft float&#39; sadly was ambiguous between the soft-float ABI, and the soft-float
-            libraries that implement floating point when there&#39;s no hardware FPU”&lt;/li&gt;
-            &lt;li&gt;“Over the spring and summer, I fixed ld.so so that it can load both soft ABI and hard ABI
+            libraries that implement floating point when there&#39;s no hardware FPU&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Over the spring and summer, I fixed ld.so so that it can load both soft ABI and hard ABI
             libraries on the same system, depending on markings in the binaries themselves. Soft float ABI and hard
             float ABI binaries have different flags in the ELF headers, so it is relatively straightforward to know
-            which is which.”&lt;/li&gt;
-            &lt;li&gt;“So, in the coming days, I&#39;ll commit the first set of changes to move to armv6 as a hard float
+            which is which.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;So, in the coming days, I&#39;ll commit the first set of changes to move to armv6 as a hard float
             ABI by default. The kernel doesn&#39;t care: it can execute both. The new ld.so will allow you to transition
             through this change by allowing old, compat soft ABI libraries to co-exist on the system with new hard ABI
-            libraries. This change alone isn&#39;t enough, but it will be good to get it out into circulation.”&lt;/li&gt;
-            &lt;li&gt;“armv6hf will be removed before FreeBSD 11”&lt;/li&gt;
+            libraries. This change alone isn&#39;t enough, but it will be good to get it out into circulation.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;armv6hf will be removed before FreeBSD 11&quot;&lt;/li&gt;
             &lt;li&gt;A LIBSOFT will be created, similar in concept to the LIB32 available on AMD64&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -340,24 +340,24 @@
             &lt;li&gt;Jesse Smith over at DistroWatch treats us this week to a nice review of OpenBSD 5.8, which may be
             a good introduction for the uninitiated to learn more+ He first walks through some of the various highlights
             of 5.8, and spends time introducing the reader to a number of the projects that originate from OpenBSD, such
-            as LibreSSL, OpenSSH, doas, the new “file” implementation and W^X support on i386. &lt;/li&gt;
+            as LibreSSL, OpenSSH, doas, the new &quot;file&quot; implementation and W^X support on i386. &lt;/li&gt;
             &lt;li&gt;The article then walks through his impressions of performing a fresh install of 5.8, and then
             getting up and running in X. &lt;/li&gt;
             &lt;li&gt;He mentions that you may want to check the installation defaults, since on his 8GB VM disk, it
             didn’t leave enough room for packages on the /usr partition. &lt;/li&gt;
             &lt;li&gt;It also includes a nice heads-up for new users about using the pkg_add command, and where / how
             you can set the initial repository mirror address. &lt;/li&gt;
-            &lt;li&gt;The “doas” command was also praised:“I found I very much appreciated the doas command, its
+            &lt;li&gt;The &quot;doas&quot; command was also praised:&quot;I found I very much appreciated the doas command, its
             documentation and configuration file. The doas configuration file is much easier to read than sudo&#39;s and
             the available options are well explained. The doas command allowed me to assign root access to a user given
-            the proper password and doas worked as advertised.”&lt;/li&gt;
-            &lt;li&gt;A glowing summary as well:“OpenBSD may be very secure, but I think what sets the operating system
+            the proper password and doas worked as advertised.&quot;&lt;/li&gt;
+            &lt;li&gt;A glowing summary as well:&quot;OpenBSD may be very secure, but I think what sets the operating system
             apart are its documentation and clean system design. It is so easy to find things and understand the
             configuration of an OpenBSD system. The file system is organized in a clean and orderly manner. It always
             takes me a while to get accustomed to using OpenBSD, as for me it is a rare occurrence, but once I get
             settled in I like how straight forward everything is. I can usually find and configure anything on the
             system without referring to external documents or searching for answers on-line and that is quite an
-            accomplishment for an operating system where virtually everything is done from the command line. “&lt;/li&gt;
+            accomplishment for an operating system where virtually everything is done from the command line. &quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -367,14 +367,14 @@
             &lt;ul&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151212192918&quot;&gt;Alexander
             Bluhm: multiprocessor networking &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;“The next step, we are currently working on, is to remove the big kernel lock from forwarding and
+            &lt;li&gt;&quot;The next step, we are currently working on, is to remove the big kernel lock from forwarding and
             routing. mpi@ has been doing this for a long time, but some corner cases were still left. I have written a
             regression test for handling ARP packets to show that all cases including proxy ARP are still working.
             Another thing that may happen with lock-free routing is that the interface is destroyed on one CPU while
             another CPU is working with a route to that interface. We finally got this resolved. The code that destroys
             the interface has to wait until all routes don&#39;t use this interface anymore. I moved the sleep before
             the destruction of the interface is started, so that the routes can always operate on a completely valid
-            interface structure.”&lt;/li&gt;
+            interface structure.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151215150708&quot;&gt;Vincent
             Gross: ifa_ifwithaddr() &lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;Vincent worked on the function that finds the interface with the specified address, which is used
@@ -385,20 +385,20 @@
             Westerback: fdisk, installbot, and dhclient&lt;/a&gt; &lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151217134417&quot;&gt;Reyk
             Floeter: Hosting a hackathon, vmd, vmctl &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;“When I heard that Martin Pieuchot (mpi@) was looking for a place to hold another mini-hackathon
+            &lt;li&gt;&quot;When I heard that Martin Pieuchot (mpi@) was looking for a place to hold another mini-hackathon
             for three to four people to work on multiprocessor (MP) enhancements of the network stack, I offered to come
             to our work place in Hannover, Northern Germany. We have space, gear, fast Internet and it is easy to reach
             for the involved people. Little did I know that it would quickly turn into n2k15, a network hackathon with
-            20 attendees from all over the world”&lt;/li&gt;
-            &lt;li&gt;“If you ever hosted such an event or a party for many guests, you will know the dilemma of the
+            20 attendees from all over the world&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;If you ever hosted such an event or a party for many guests, you will know the dilemma of the
             host: you’re constantly concerned about your guests enjoying it, you have to take care about many trivial
             things, other things will break, and you get little to no time to attend or even enjoy it yourself.
             Fortunately, I had very experienced and welcomed guests: only one vintage table and a vase broke – the table
-            can be fixed – and I even found some time for hacking myself.”&lt;/li&gt;
+            can be fixed – and I even found some time for hacking myself.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151218175010&quot;&gt;Martin
             Pieuchot: MP networking &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;“ We found two kind of MP bugs! There are MP bugs that you fix without even understanding them,
-            and there are MP bugs that you understand but can&#39;t fix”&lt;/li&gt;
+            &lt;li&gt;&quot; We found two kind of MP bugs! There are MP bugs that you fix without even understanding them,
+            and there are MP bugs that you understand but can&#39;t fix&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151219160501&quot;&gt;Stefan
             Sperling: initial 802.11n support &lt;/a&gt; &lt;/li&gt;
             &lt;/ul&gt;
@@ -408,17 +408,17 @@
             &lt;h3&gt;&lt;a href=&quot;https://cturt.github.io/ps4.html&quot;&gt;Hacking the PS4&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;As a followup to the story last week about the PS4 being “jailbroken”, we have a link to further
+            &lt;li&gt;As a followup to the story last week about the PS4 being &quot;jailbroken&quot;, we have a link to further
             information about how far this project has come along&lt;/li&gt;
             &lt;li&gt;This article also provides some great background information about whats running under the hood of
             your PS4, including FreeBSD 9, Mono VM and WebKit, with WebKit being the primary point of entry to jailbreak
             the box. &lt;/li&gt;
             &lt;li&gt;One particular point of interest, was the revelation that early firmware versions did not include
             ASLR, but it appears ASLR was added sometime around firmware 1.70. (Wonder if they used HardenedBSD’s
-            implementation), and how they can bypass it entirely. “Luckily for us, we aren&#39;t limited to just writing
+            implementation), and how they can bypass it entirely. &quot;Luckily for us, we aren&#39;t limited to just writing
             static ROP chains. We can use JavaScript to read the modules table, which will tell us the base addresses of
             all loaded modules. Using these bases, we can then calculate the addresses of all our gadgets before we
-            trigger ROP execution, bypassing ASLR.“&lt;/li&gt;
+            trigger ROP execution, bypassing ASLR.&quot;&lt;/li&gt;
             &lt;li&gt;The article also mentions that they can prove that jails are used in some fashion, and provides
             examples of how they can browse the file system and dump a module list.&lt;/li&gt;
             &lt;li&gt;The kernel exploit in question is &lt;a href=&quot;https://www.freebsd.org/security/advisories/FreeBSD-SA-15:21.amd64.asc&quot;&gt;SA-15:21&lt;/a&gt;
@@ -432,17 +432,17 @@
             and ARM leading the charge to implement better TCP/IP as part of the 5G standard &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“Many believe that a critical success factor for 5G will be a fully revamped TCP/IP stack,
+            &lt;li&gt;&quot;Many believe that a critical success factor for 5G will be a fully revamped TCP/IP stack,
             optimized for the massively varied use cases of the next mobile generation, for cloud services, and for
             virtualization and software-defined networking (SDN). This is the goal of the new OpenFastPath (OFP)
             Foundation, founded by Nokia Networks, ARM and industrial IT services player Enea. This aims to create an
             open source TCP/IP stack which can accelerate the move towards SDN in carrier and enterprise networks. Other
             sign-ups include AMD, Cavium, Freescale, Hewlett Packard Enterprise and the ARM-associated open source
-            initiative, Linaro.”&lt;/li&gt;
-            &lt;li&gt;“The new fast-path TCP/IP stack will be based on the open source FreeBSD operating system”&lt;/li&gt;
+            initiative, Linaro.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The new fast-path TCP/IP stack will be based on the open source FreeBSD operating system&quot;&lt;/li&gt;
             &lt;li&gt;The general idea is to have a fast, open source, user space networking stack, based on the FreeBSD
             stack&lt;/li&gt;
-            &lt;li&gt;with an “optimised callback-based zero-copy socket API” to keep packet processing in user-space as
+            &lt;li&gt;with an &quot;optimised callback-based zero-copy socket API&quot; to keep packet processing in user-space as
             far as possible&lt;/li&gt;
             &lt;li&gt;It will be interesting to see a little bit more FreeBSD getting into every mobile and cloud based
             device.&lt;/li&gt;
@@ -483,16 +483,16 @@
             of FreeBSD : Erin Clark&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;In this edition of “Faces of FreeBSD” the FreeBSD foundation gives us an introduction to Erin
+            &lt;li&gt;In this edition of &quot;Faces of FreeBSD&quot; the FreeBSD foundation gives us an introduction to Erin
             Clark, of our very own iXsystems!&lt;/li&gt;
             &lt;li&gt;Her journey to the BSD family may sound similar to a lot of ours. She first began using Linux /
             Slackware in the early 2000’s, but in 2009 a friend introduced her to FreeBSD and the rest, as they say, is
             history. &lt;/li&gt;
-            &lt;li&gt;“I use FreeBSD because it is very solid and secure and has a great selection of open source
+            &lt;li&gt;&quot;I use FreeBSD because it is very solid and secure and has a great selection of open source
             software that can be used with it from the ports collection. I have always appreciated FreeBSD’s networking
             stack because it makes a great router or network appliance. FreeBSD’s use of the ZFS file system is also
             very nice - ZFS snapshots definitely saved me a few times. I also like that FreeBSD is very well documented;
-            almost everything you need to know about working with FreeBSD can be found in the FreeBSD Handbook.”&lt;/li&gt;
+            almost everything you need to know about working with FreeBSD can be found in the FreeBSD Handbook.&quot;&lt;/li&gt;
             &lt;li&gt;Originally a sys admin at iXsystems, where she helped managed PC-BSD desktops among others, now
             she works on the FreeNAS project as a developer for the CLI interface functionality. &lt;/li&gt;
             &lt;/ul&gt;
@@ -504,13 +504,13 @@
 
             &lt;ul&gt;
             &lt;li&gt;Looking for some small / embedded gear to mess around with? The Olimex folks have a new Pic32
-            system now available which runs “RetroBSD”&lt;/li&gt;
-            &lt;li&gt;“The current target is Microchip PIC32 microcontroller with 128 kbytes of RAM and 512 kbytes of
+            system now available which runs &quot;RetroBSD&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The current target is Microchip PIC32 microcontroller with 128 kbytes of RAM and 512 kbytes of
             Flash. PIC32 processor has MIPS M4K architecture, executable data memory and flexible RAM partitioning
-            between user and kernel modes.”&lt;/li&gt;
+            between user and kernel modes.&quot;&lt;/li&gt;
             &lt;li&gt;RetroBSD isn’t something we’ve covered extensively here on BSDNow, so to bring you up to speed, it
             is a port of 2.11 BSD&lt;/li&gt;
-            &lt;li&gt;Their website lists the following features of this 2.11 refresh:“&lt;/li&gt;
+            &lt;li&gt;Their website lists the following features of this 2.11 refresh:&quot;&lt;/li&gt;
             &lt;li&gt;Small resource requirements. RetroBSD needs only 128 kbytes of RAM to be up and running user
             applications.&lt;/li&gt;
             &lt;li&gt;Memory protection. Kernel memory is fully protected from user application using hardware
@@ -519,7 +519,7 @@
             any number of applications could be placed into SD card, and run as required.&lt;/li&gt;
             &lt;li&gt;Real multitasking. Standard POSIX API is implemented (fork, exec, wait4 etc).&lt;/li&gt;
             &lt;li&gt;Development system on-board. It is possible to have C compiler in the system, and to recompile the
-            user application (or the whole operating system) when needed.“&lt;/li&gt;
+            user application (or the whole operating system) when needed.&quot;&lt;/li&gt;
             &lt;li&gt;For those looking into BSD history, or wanting something small and exotic to play with this may
             fit the bill nicely. &lt;/li&gt;
             &lt;/ul&gt;
@@ -535,12 +535,12 @@
             we should update the sorting of languages. (Good idea!)&lt;/li&gt;
             &lt;li&gt;Along with including nice screenshots, it also covers the availability of various DE’s / WM’s, and
             talks a fair amount about the AppCafe and Control Panel utilities. &lt;/li&gt;
-            &lt;li&gt;“Thanks to being featured on PC-BSD&#39;s desktop, the PC-BSD Handbook is easily located by even
+            &lt;li&gt;&quot;Thanks to being featured on PC-BSD&#39;s desktop, the PC-BSD Handbook is easily located by even
             the most novice user. There is no need to search through the system&#39;s installed applications for a
             manual, or relying solely on the help documentation for individual components. While not comprehensive,
             PC-BSD&#39;s handbook does a good job as striking a balance between concise and thorough. It contains enough
             information to help and provides detailed instructions for the topics it covers, but it avoids providing so
-            much information that it overwhelms”&lt;/li&gt;
+            much information that it overwhelms&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -695,22 +695,22 @@
             &lt;ul&gt;
             &lt;li&gt;The story of how a Tent &amp;amp; Awning company switched from managing orders with paper, to a
             computerized system backed by a FreeNAS&lt;/li&gt;
-            &lt;li&gt;“At first, I looked at off-the-shelf solutions. I found a number of cloud services that were like
+            &lt;li&gt;&quot;At first, I looked at off-the-shelf solutions. I found a number of cloud services that were like
             Dropbox, but with some generic management stuff layered on top. Not only did these all feel like a poor
             solution, they were very expensive. If the provider were to go out of business, what would happen to my
-            dad’s company?”&lt;/li&gt;
-            &lt;li&gt;“Fortunately, sourcing the hardware and setting up the OS was the easiest part; I talked to
-            iXsystems. I ordered a FreeNAS Mini and a nice workstation tower”&lt;/li&gt;
-            &lt;li&gt;“I have r2d2 (the tower, which hosts the database) replicating ZFS snapshots to c3po (the FreeNAS
+            dad’s company?&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Fortunately, sourcing the hardware and setting up the OS was the easiest part; I talked to
+            iXsystems. I ordered a FreeNAS Mini and a nice workstation tower&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I have r2d2 (the tower, which hosts the database) replicating ZFS snapshots to c3po (the FreeNAS
             mini), and the data is backed up off-site regularly. This data is absolutely mission-critical, so I can’t
-            take any risks. I’m glad I have ZFS on my side.”&lt;/li&gt;
-            &lt;li&gt;“I replaced Dropbox with Samba on c3po, and the Windows machines in the office now store important
-            data on the NAS, rather than their local drives.”&lt;/li&gt;
-            &lt;li&gt;“I also replaced their router with an APU board running pfSense and replaced their PPTP VPN with
-            OpenVPN and certificate authorization.”&lt;/li&gt;
-            &lt;li&gt;“FreeBSD (in three different incarnations) helped me focus on improving the company’s workflow
+            take any risks. I’m glad I have ZFS on my side.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I replaced Dropbox with Samba on c3po, and the Windows machines in the office now store important
+            data on the NAS, rather than their local drives.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I also replaced their router with an APU board running pfSense and replaced their PPTP VPN with
+            OpenVPN and certificate authorization.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;FreeBSD (in three different incarnations) helped me focus on improving the company’s workflow
             without spending much time on the OS. And now there’s an awning company that is, in a very real sense,
-            powered by FreeBSD.”&lt;/li&gt;
+            powered by FreeBSD.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -721,9 +721,9 @@
             &lt;ul&gt;
             &lt;li&gt;With the recent passing of the world’s foremost expert on running Windows under bhyve on FreeBSD,
             this tutorial will help you get up to speed&lt;/li&gt;
-            &lt;li&gt;“The secret sauce to getting Windows running under bhyve is the new UEFI support. This is pretty
+            &lt;li&gt;&quot;The secret sauce to getting Windows running under bhyve is the new UEFI support. This is pretty
             great news, because when you utilize UEFI in bhyve, you don&#39;t have to load the operating system in
-            bhyveload or grub-bhyve first.”&lt;/li&gt;
+            bhyveload or grub-bhyve first.&quot;&lt;/li&gt;
             &lt;li&gt;The author works on iohyve, and wanted to migrate away from VirtualBox, the only thing stopping
             that was support for Windows Guests&lt;/li&gt;
             &lt;li&gt;iohyve now has support for managing Windows VMs&lt;/li&gt;
@@ -768,7 +768,7 @@
             &lt;li&gt;An update to OPNsense has landed this week which includes the important updates to OpenSSL 1.0.2e
             and LibreSSL 2.2.5&lt;/li&gt;
             &lt;li&gt;A long-standing annoying bug with filter reload timeouts has finally been identified and sorted
-            out as well, allowing the functionality to run quickly and “glitch free” again. &lt;/li&gt;
+            out as well, allowing the functionality to run quickly and &quot;glitch free&quot; again. &lt;/li&gt;
             &lt;li&gt;Some newer ports for curl (7.46), squid (3.5.12) and lighttpd (1.4.38) have also been thrown in
             for good measure&lt;/li&gt;
             &lt;li&gt;Some other minor UI fixes have also been included as well&lt;/li&gt;
@@ -795,7 +795,7 @@
             claims the PS4 has been jail-broken&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;While not exactly a well-kept secret, the PS4’s proprietary “OrbOS” is FreeBSD based. &lt;/li&gt;
+            &lt;li&gt;While not exactly a well-kept secret, the PS4’s proprietary &quot;OrbOS&quot; is FreeBSD based. &lt;/li&gt;
             &lt;li&gt;Using this knowledge and a Kernel exploit, developer CTurt (https://twitter.com/CTurtE/) claims he
             was able jailbreak a WebKit process and gain access to the system. &lt;/li&gt;
             &lt;li&gt;He has posted a small tease to GitHub, detailing some of the information gleaned from the exploit,
@@ -825,7 +825,7 @@
             Xen Support&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Filed under the “Ohh, look what’s coming soon” section, it appears that patches are starting to
+            &lt;li&gt;Filed under the &quot;Ohh, look what’s coming soon&quot; section, it appears that patches are starting to
             surface for OpenBSD Xen DOMU support. &lt;/li&gt;
             &lt;li&gt;For those who aren’t up on their Xen terminology, DomU is the unprivileged domain (I.E. Guest
             mode)&lt;/li&gt;
@@ -840,10 +840,10 @@
 
             &lt;ul&gt;
             &lt;li&gt;Another reason why Lenovo / ThinkPads are some of the best laptops currently to use with BSD, the
-            kettenis over at the OpenBSD project has committed a patch to enable support for the “ThinkLight”&lt;/li&gt;
+            kettenis over at the OpenBSD project has committed a patch to enable support for the &quot;ThinkLight&quot;&lt;/li&gt;
             &lt;li&gt;For those who don’t know, this is the little light that helps illuminate the laptop’s keyboard
             under low-light situations. &lt;/li&gt;
-            &lt;li&gt;While the initial patch only supports the “real-deal” ThinkLight, he does mention that support
+            &lt;li&gt;While the initial patch only supports the &quot;real-deal&quot; ThinkLight, he does mention that support
             will be added soon for the others on ThinkPads&lt;/li&gt;
             &lt;li&gt;No sysctl’s to fiddle with, this works directly with the ACPI / keyboard function keys directly,
             nice!&lt;/li&gt;
@@ -868,9 +868,9 @@
             &lt;h3&gt;&lt;a href=&quot;https://github.com/pr1ntf/iohyve&quot;&gt;iohyve lands in ports&lt;/a&gt;&lt;/h3&gt;
 
             &lt;p&gt;(http://www.freshports.org/sysutils/iohyve/)
-            + Something we’ve mentioned in passing has taken its first steps in becoming reality for users! “iohyve” has
+            + Something we’ve mentioned in passing has taken its first steps in becoming reality for users! &quot;iohyve&quot; has
             now landed in the FreeBSD ports tree
-            + While it shares a similar name to “iocage” its not directly related, different developers and such.
+            + While it shares a similar name to &quot;iocage&quot; its not directly related, different developers and such.
             However it does share a very similar syntax and some principles of ZFS usage
             + The current version is 0.7, but it already has a rather large feature set
             + Among the current features are ISO Management, resource management, snapshot support (via ZFS), and
@@ -988,28 +988,28 @@
 
             &lt;ul&gt;
             &lt;li&gt;tedu@ worked on rebound, malloc hardening, removing legacy code&lt;/li&gt;
-            &lt;li&gt;“I don&#39;t usually get too involved with the network stack, but sometimes you find yourself at a
+            &lt;li&gt;&quot;I don&#39;t usually get too involved with the network stack, but sometimes you find yourself at a
             network hackathon and have to go with the flow. With many developers working in the same area, it can be
             hard to find an appropriate project, but fortunately there are a few dusty corners in networking land that
-            can be swept up without too much disturbance to others.”&lt;/li&gt;
-            &lt;li&gt;“IPv6 is the future of networking. IPv6 has also been the future of networking for 20 years. As a
+            can be swept up without too much disturbance to others.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;IPv6 is the future of networking. IPv6 has also been the future of networking for 20 years. As a
             result, a number of features have been proposed, implemented, then obsoleted, but the corresponding code
-            never quite gets deleted. The IPsec stack has followed a somewhat similar trajectory”&lt;/li&gt;
-            &lt;li&gt;“I read through various networking headers in search of features that would normally be exposed to
+            never quite gets deleted. The IPsec stack has followed a somewhat similar trajectory&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I read through various networking headers in search of features that would normally be exposed to
             userland, but were instead guarded by ifdef _KERNEL. This identified a number of options for setsockopt()
             that had been officially retired from the API, but the kernel code retained to provide ABI compatibility
             during a transition period. That transition occurred more than a decade ago. Binary programs from that era
             no longer run for many other reasons, and so we can delete support. It&#39;s only a small improvement, but
-            it gradually reduces the amount of code that needs to be reviewed when making larger more important changes”&lt;/li&gt;
+            it gradually reduces the amount of code that needs to be reviewed when making larger more important changes&quot;&lt;/li&gt;
             &lt;li&gt;Ifconfig txpower got similar treatment, as no modern WiFi driver supports it&lt;/li&gt;
             &lt;li&gt;Support for Ethernet Trailers, &lt;a href=&quot;https://tools.ietf.org/html/rfc893&quot;&gt;RFC
             893&lt;/a&gt;, enabled zero copy networking on a VAX with 512 byte hardware pages, the feature was removed
             even before OpenBSD was founded, but the ifconfig option was still in place&lt;/li&gt;
             &lt;li&gt;Alexandr Nedvedicky (sashan@) worked on &lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20151207143819&quot;&gt;MP-Safe
             PF&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;“I&#39;d like to thank Reyk for hackroom and showing us a Christmas market. It was also my
-            pleasure to meet Mr. Henning in person. Speaking of Henning, let&#39;s switch to PF hacking.”&lt;/li&gt;
-            &lt;li&gt;“mpi@ came with patch (sent to priv. list only currently), which adds a new lock for PF. It&#39;s
+            &lt;li&gt;&quot;I&#39;d like to thank Reyk for hackroom and showing us a Christmas market. It was also my
+            pleasure to meet Mr. Henning in person. Speaking of Henning, let&#39;s switch to PF hacking.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;mpi@ came with patch (sent to priv. list only currently), which adds a new lock for PF. It&#39;s
             called PF big lock. The big PF lock essentially establishes a safe playground for PF hackers. The lock
             currently covers all pf&lt;em&gt;test() function. The pf&lt;/em&gt;test() function parts will be gradually
             unlocked as the work will progress.&lt;/li&gt;
@@ -1021,7 +1021,7 @@
             functions. The other thing we need to sort out with respect to PF big lock is reference counting for
             statekey, which gets attached to mbuf. Patch has been sent to hackers, waiting for OK too. The plan is to
             commit reference counting sometimes next year after CVS will be unlocked. There is one more patch at tech@
-            waiting for OK. It brings OpenBSD and Solaris PF closer to each other by one tiny little step.”&lt;/li&gt;
+            waiting for OK. It brings OpenBSD and Solaris PF closer to each other by one tiny little step.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1030,7 +1030,7 @@
             Memory Management on Modern NUMA System&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“Modern server-class systems are typically built as several multicore chips put together in a
+            &lt;li&gt;&quot;Modern server-class systems are typically built as several multicore chips put together in a
             single system. Each chip has a local DRAM (dynamic random-access memory) module; together they are referred
             to as a node. Nodes are connected via a high-speed interconnect, and the system is fully coherent. This
             means that, transparently to the programmer, a core can issue requests to its node&#39;s local memory as
@@ -1038,7 +1038,7 @@
             because they are subject to longer wire delays and may have to jump several hops as they traverse the
             interconnect. The latency of memory-access times is hence non-uniform, because it depends on where the
             request originates and where it is destined to go. Such systems are referred to as NUMA (non-uniform memory
-            access).”&lt;/li&gt;
+            access).&quot;&lt;/li&gt;
             &lt;li&gt;So, depending what core a program is running on, it will have different throughput and latency to
             specific banks of memory. Therefore, it is usually optimal to try to allocate memory from the bank of ram
             connected to the CPU that the program is running on, and to keep that program running on that same CPU,
@@ -1086,13 +1086,13 @@
 
             &lt;ul&gt;
             &lt;li&gt;Larry Cafiero continues to make some news about his switch to PC-BSD from Linux. This time in an
-            blog post titled “Is that Linux? No, its PC-BSD” he describes an experience out and about where he was asked
+            blog post titled &quot;Is that Linux? No, its PC-BSD&quot; he describes an experience out and about where he was asked
             what is running on his laptop, and was unable for the first time in 9 years to answer, it’s Linux. &lt;/li&gt;
             &lt;li&gt;The blog then goes on to mention his experience up to now running PC-BSD, how the learning curve
             was fairly easy coming from a Linux background. &lt;/li&gt;
             &lt;li&gt;He mentions that he has noticed an uptick in performance on the system, no specific benchmarks but
-            this “Linux was fast enough on this machine. But in street racing parlance, with PC-BSD I’m burning rubber
-            in all four gears.”&lt;/li&gt;
+            this &quot;Linux was fast enough on this machine. But in street racing parlance, with PC-BSD I’m burning rubber
+            in all four gears.&quot;&lt;/li&gt;
             &lt;li&gt;The only major nits he mentions is having trouble getting a font to switch in FireFox, and not
             knowing how to enable GRUB quiet mode. (I’ll have to add a knob back for that)&lt;/li&gt;
             &lt;/ul&gt;
@@ -1159,10 +1159,10 @@
             &lt;ul&gt;
             &lt;li&gt;Radeon / i915 DRM support for up to Linux Kernel 3.18&lt;/li&gt;
             &lt;li&gt;Proper collation support for named locales, shared back to FreeBSD 11-CURRENT&lt;/li&gt;
-            &lt;li&gt;Regex Support using TRE “As a consequence of the locale upgrades, the original regex library had
+            &lt;li&gt;Regex Support using TRE &quot;As a consequence of the locale upgrades, the original regex library had
             to be forced into POSIX (single-byte) mode always. The support for multi-byte characters just wasn&#39;t
-            there. ” …. “TRE is faster, more capable, and supports multibyte characters, so it&#39;s a nice addition to
-            this release.”&lt;/li&gt;
+            there. &quot; …. &quot;TRE is faster, more capable, and supports multibyte characters, so it&#39;s a nice addition to
+            this release.&quot;&lt;/li&gt;
             &lt;li&gt;Other noteworthy, iwm(4) driver, CPU power-saving improvements, import ipfw from FreeBSD (named
             ipfw3)&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
@@ -1338,14 +1338,14 @@
             &lt;li&gt;He ported OpenBSDs ldpd(8) to Linux, but then contributed his bug fixes and improvements back to
             OpenBSD&lt;/li&gt;
             &lt;li&gt;When asked if he was motivated to replace closed-source router implementations with OpenBSD:
-            “Well, I don&#39;t administer any network, I work full time as a programmer. I have some friends however
+            &quot;Well, I don&#39;t administer any network, I work full time as a programmer. I have some friends however
             that succeeded replacing closed vendor solutions with OpenBSD boxes and that for sure motivates me to keep
             doing what I&#39;m doing. My biggest motivation, however, is the challenge of resolving complex problems
-            writing trivially simple code that is both secure and efficient.”&lt;/li&gt;
+            writing trivially simple code that is both secure and efficient.&quot;&lt;/li&gt;
             &lt;li&gt;They also go on to discuss some of the interesting features of EIGRP, and developing eigrpd(8)&lt;/li&gt;
-            &lt;li&gt;What do you think is missing from routing in OpenBSD: “Implementing new features and protocols
+            &lt;li&gt;What do you think is missing from routing in OpenBSD: &quot;Implementing new features and protocols
             while they are in their draft stage in IETF. I&#39;d like to see OpenBSD as the reference platform for the
-            development of new routing and networking technologies in general”&lt;/li&gt;
+            development of new routing and networking technologies in general&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1354,9 +1354,9 @@
             Encrypt on a FreeBSD NGINX reverse proxy&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We have a neat guide/story today on how to setup the “Let’s Encrypt” certificates on a FreeBSD /
+            &lt;li&gt;We have a neat guide/story today on how to setup the &quot;Let’s Encrypt&quot; certificates on a FreeBSD /
             nginx reverse proxy&lt;/li&gt;
-            &lt;li&gt;Backstory: For those who don’t know, “Let’s Encrypt” (https://letsencrypt.org) is a new
+            &lt;li&gt;Backstory: For those who don’t know, &quot;Let’s Encrypt&quot; (https://letsencrypt.org) is a new
             Certificate Authority, which will allow you to create free and automated certificates.&lt;/li&gt;
             &lt;li&gt;They have been in closed beta for several months now, and will be opening to a public beta Dec 3rd
             (tomorrow)&lt;/li&gt;
@@ -1378,7 +1378,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;An openBSD native hypervisor has taken another step closer to reality, with Mike Larkin pushing
-            the initial bits of “vmm” into the base kernel/world&lt;/li&gt;
+            the initial bits of &quot;vmm&quot; into the base kernel/world&lt;/li&gt;
             &lt;li&gt;He mentions in the commit message that it still needs a lot of work, and as such is disabled by
             default. &lt;/li&gt;
             &lt;li&gt;However for the adventurous among you, it can be turned on and tested&lt;/li&gt;
@@ -1397,16 +1397,16 @@
             &lt;ul&gt;
             &lt;li&gt;Yahoo originally started running on SunOS, but quickly found it not able to cope with the high
             frequency of HTTP requests&lt;/li&gt;
-            &lt;li&gt;“Having spend many frustrating hours trying to install other PC OS&#39;s, I was a bit skeptical. I
+            &lt;li&gt;&quot;Having spend many frustrating hours trying to install other PC OS&#39;s, I was a bit skeptical. I
             had no intention of spending three days trying to install yet another one. To my surprise I went to the
             FreeBSD Web site, downloaded the floppy boot image, booted a PC with the created floppy, answered a few
             install questions, and a few minutes later FreeBSD was installing over the Net. The real surprise was when I
-            came back later to a fully configured system that actually worked.”&lt;/li&gt;
-            &lt;li&gt;“If anything had gone wrong with that install it would likely been the end of that trial. Luckily
-            for us that it was the easiest and most painless OS installs I had ever experienced.”&lt;/li&gt;
+            came back later to a fully configured system that actually worked.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;If anything had gone wrong with that install it would likely been the end of that trial. Luckily
+            for us that it was the easiest and most painless OS installs I had ever experienced.&quot;&lt;/li&gt;
             &lt;li&gt;Just that easily, Yahoo might never have ended up on FreeBSD&lt;/li&gt;
-            &lt;li&gt;“A couple of days later we added a FreeBSD box to our cluster of Web servers. Not only did it
-            out-perform the rest of our machines, but it was more stable.”&lt;/li&gt;
+            &lt;li&gt;&quot;A couple of days later we added a FreeBSD box to our cluster of Web servers. Not only did it
+            out-perform the rest of our machines, but it was more stable.&quot;&lt;/li&gt;
             &lt;li&gt;From my understanding of stories told over dinner, Yahoo had a few very important perl scripts,
             and they tended to crash on Linux, but kept running without issue on FreeBSD&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=10558288&quot;&gt;Related hackernews thread&lt;/a&gt;
@@ -1455,14 +1455,14 @@
 
             &lt;ul&gt;
             &lt;li&gt;We have an interesting commit from Matthew Dillon for Hammer2, specifically targeted at hard-links&lt;/li&gt;
-            &lt;li&gt;The backstory he gives us: “The H2 design has had a long-standing problem of losing track of
+            &lt;li&gt;The backstory he gives us: &quot;The H2 design has had a long-standing problem of losing track of
             hardlinks when intermediate directories are renamed, breaking the common-parent-directory design for the
-            inode target.”&lt;/li&gt;
+            inode target.&quot;&lt;/li&gt;
             &lt;li&gt;The implemented fix was one which instead places the hardlink target in the first common parent
-            directory, which is marked with “xlink” via chflag&lt;/li&gt;
-            &lt;li&gt;If no parent directory is marked “xlink”, it will fall-through instead to the root of the mount&lt;/li&gt;
-            &lt;li&gt;They also modified their installworld to set “/&lt;em&gt;” /usr/&lt;/em&gt;,/var/&lt;em&gt;,/home/&lt;/em&gt;
-            as “xlink” flagged&lt;/li&gt;
+            directory, which is marked with &quot;xlink&quot; via chflag&lt;/li&gt;
+            &lt;li&gt;If no parent directory is marked &quot;xlink&quot;, it will fall-through instead to the root of the mount&lt;/li&gt;
+            &lt;li&gt;They also modified their installworld to set &quot;/&lt;em&gt;&quot; /usr/&lt;/em&gt;,/var/&lt;em&gt;,/home/&lt;/em&gt;
+            as &quot;xlink&quot; flagged&lt;/li&gt;
             &lt;li&gt;This prevents moving hard-links across these directories, but is similar to dealing with multiple
             partitions / datasets already.&lt;/li&gt;
             &lt;/ul&gt;
@@ -1494,8 +1494,8 @@
             &lt;li&gt;The application has an auto-update feature (which doesn’t mix well with package systems in the
             first place), but it doesn’t work on OpenBSD because there is no /proc/curproc/file to determine the
             filename of the executable. This is a trivially easy task, but when the bug was reported, syncthings
-            response was “Maybe one of the &lt;a href=&quot;https://data.syncthing.net/#metrics&quot;&gt;three&lt;/a&gt;
-            OpenBSD users feel strongly enough about this to propose a patch. :D”&lt;/li&gt;
+            response was &quot;Maybe one of the &lt;a href=&quot;https://data.syncthing.net/#metrics&quot;&gt;three&lt;/a&gt;
+            OpenBSD users feel strongly enough about this to propose a patch. :D&quot;&lt;/li&gt;
             &lt;li&gt;Part of the issue is that many users (especially the type that would run OpenBSD) opt out of
             reporting metrics, so OpenBSD is under-represented in the metrics the project developers are basing their
             decisions on&lt;/li&gt;

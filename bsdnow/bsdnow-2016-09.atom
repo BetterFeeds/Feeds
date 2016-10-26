@@ -157,7 +157,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;We don’t get to feature too many stories on NetBSD being deployed as a Power PC (Not PowerPC, you
-            know, a Powerful “PC”), so we jumped at this one.&lt;/li&gt;
+            know, a Powerful &quot;PC&quot;), so we jumped at this one.&lt;/li&gt;
             &lt;li&gt;Specifically it starts off with some of the pre-req’s that you’ll need to get started, such as
             NetBSD 7.0.1 / amd64, along with some information about which wireless nics you may be using. (NetBSD like
             other BSD’s will give a driver based device name for network interfaces)&lt;/li&gt;
@@ -166,7 +166,7 @@
             &lt;li&gt;After doing a CVS checkout of the sources, he then provides a walkthrough of doing a kernel
             compile / install, however it mentions changing the config, but doesn’t provide an example of what options
             were changed. Perhaps to remove drivers we don’t need?&lt;/li&gt;
-            &lt;li&gt;At this point the rest of the “desktop” setup is pretty straight forward. Some packages are added
+            &lt;li&gt;At this point the rest of the &quot;desktop&quot; setup is pretty straight forward. Some packages are added
             such as openbox, lxappearance, firefox, etc.&lt;/li&gt;
             &lt;li&gt;To get working sound, firefox requires pulseaudio, which in turn needs dbus, so instructions on
             getting that service up and running are provided as well.&lt;/li&gt;
@@ -180,9 +180,9 @@
             about OpenSMTPD 6.0.0&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;OpenSMTPd 6.0.0 has just been released “and it&#39;s quite different from former releases.”&lt;/li&gt;
-            &lt;li&gt;“Unlike most of our releases, it comes out with almost no new feature.”, “Turns out most of the
-            changes are not visible.”&lt;/li&gt;
+            &lt;li&gt;OpenSMTPd 6.0.0 has just been released &quot;and it&#39;s quite different from former releases.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Unlike most of our releases, it comes out with almost no new feature.&quot;, &quot;Turns out most of the
+            changes are not visible.&quot;&lt;/li&gt;
             &lt;li&gt;Changelog:
 
             &lt;ul&gt;
@@ -196,18 +196,18 @@
             &lt;li&gt;smtp engine has been simplified&lt;/li&gt;
             &lt;li&gt;various cosmetic changes, code cleanup and documentation improvement&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;“The OpenSMTPD bootstrap process was quite simple: Upon executation, the parent process would read
+            &lt;li&gt;&quot;The OpenSMTPD bootstrap process was quite simple: Upon executation, the parent process would read
             configuration, build a memory representation of it and would then create a bunch of socketpair() before
-            fork()-ing all of its child processes.”&lt;/li&gt;
+            fork()-ing all of its child processes.&quot;&lt;/li&gt;
             &lt;li&gt;The problem is that this does not take advantage of the new address randomization feature. Each
             child will have the same memory layout, copied from the parent process&lt;/li&gt;
-            &lt;li&gt;“So deraadt@ suggested that if OpenSMTPD would not just fork() children but instead fork() them
-            and reexecute the smtpd binary, then each of the children would have its own randomized memory space.”&lt;/li&gt;
-            &lt;li&gt;“The idea itself is neat, however not so trivial to implement because when we reexec the whole
+            &lt;li&gt;&quot;So deraadt@ suggested that if OpenSMTPD would not just fork() children but instead fork() them
+            and reexecute the smtpd binary, then each of the children would have its own randomized memory space.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The idea itself is neat, however not so trivial to implement because when we reexec the whole
             &quot;inherit configuration and descriptors&quot; part goes away. It&#39;s not just fork and exec, it&#39;s
             fork and exec and figure a way for the parent to pass back all the information and descriptors back to the
             new post-fork instance so it is the new instance that allocates memory and decides where the information
-            goes.”&lt;/li&gt;
+            goes.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -256,8 +256,8 @@
             platform and appliance&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;An interesting new FreeBSD-based project as shown up online, called “ClonOS”, which bills itself
-            as a “free open-source FreeBSD-based platform for virtual environments creation and management”&lt;/li&gt;
+            &lt;li&gt;An interesting new FreeBSD-based project as shown up online, called &quot;ClonOS&quot;, which bills itself
+            as a &quot;free open-source FreeBSD-based platform for virtual environments creation and management&quot;&lt;/li&gt;
             &lt;li&gt;It looks to be leveraging an impressive list of technologies, including Bhyve, Xen, Jails and CBSD
             / Puppet for management tasks.&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;Among its list of features:&lt;/p&gt;
@@ -285,7 +285,7 @@
             &lt;ul&gt;
             &lt;li&gt;BSDMag recently did an interview with FreeBSD developer Olesandr Rybalko!&lt;/li&gt;
             &lt;li&gt;Oleksandr lives in the Ukraine, and while you may not have heard of him, he has worked on some
-            cool projects for FreeBSD including the new “vt” console driver (Which a lot of people are using now), and
+            cool projects for FreeBSD including the new &quot;vt&quot; console driver (Which a lot of people are using now), and
             ARM/MIPS support.&lt;/li&gt;
             &lt;li&gt;The interview covers some of the work he’s done to get the PI support working with FreeBSD:&lt;/li&gt;
             &lt;/ul&gt;
@@ -301,7 +301,7 @@
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;He was also asked the question “Why would FreeBSD be good fit for ARM?”&lt;/li&gt;
+            &lt;li&gt;He was also asked the question &quot;Why would FreeBSD be good fit for ARM?&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
@@ -364,7 +364,7 @@
             driver error?&lt;/li&gt;
             &lt;li&gt;NetBSD 7 was up next, where the installer couldn’t get past a root device prompt. Most likely
             trouble finding the install media, which was the same story with MightnightBSD as well.&lt;/li&gt;
-            &lt;li&gt;Also tested was “PacBSD” (Formerly ArchBSD) which he did manage to get installed, but not after
+            &lt;li&gt;Also tested was &quot;PacBSD&quot; (Formerly ArchBSD) which he did manage to get installed, but not after
             major fighting with the process. After the process he ran into some issues getting packages up and running,
             but mentions it may have been bad timing due to them moving to a new server at the time.&lt;/li&gt;
             &lt;/ul&gt;
@@ -404,7 +404,7 @@
             &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8YQQfXqtyaA&quot;&gt;A demo of booting CentOS and
             Windows 10 in FreeBSD Bhyve through VNC headless&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2762&quot;&gt;This year’s anemic output&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2771&quot;&gt;“PAM Mastery” ebook now
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2771&quot;&gt;&quot;PAM Mastery&quot; ebook now
             out&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oC5D9fenQBs&quot;&gt;How-to Install OpenBSD 6.0
             plus XFCE desktop and basic applications&lt;/a&gt;&lt;/li&gt;
@@ -542,42 +542,42 @@
             Improvements for FreeBSD Kernel Debugging&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“We previously &lt;a href=&quot;http://backtrace.io/blog/blog/2015/10/03/whats-a-coredump&quot;&gt;explored
+            &lt;li&gt;&quot;We previously &lt;a href=&quot;http://backtrace.io/blog/blog/2015/10/03/whats-a-coredump&quot;&gt;explored
             FreeBSD userspace coredumps&lt;/a&gt;. Backtrace’s debugging platform supports FreeBSD kernel coredumps too,
             and their traces share many features. They are constructed somewhat differently, and in the process of
-            adding support for them, we found a way to improve performance for automated programs accessing them.”&lt;/li&gt;
-            &lt;li&gt;“A kernel core is typically only generated in exceptional circumstances. Unlike userspace
+            adding support for them, we found a way to improve performance for automated programs accessing them.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;A kernel core is typically only generated in exceptional circumstances. Unlike userspace
             processes, kernel routines cannot fault without sacrificing the machine’s availability. This means things
             like page faults and illegal instructions inside the kernel stop the machine, instead of just one process.
             At that point, in most cases, it is only usable enough to inspect its state in a debugger, or to generate a
-            core file.”&lt;/li&gt;
+            core file.&quot;&lt;/li&gt;
             &lt;li&gt;No one likes it when this happens. This is why backtrace.io is focused on being able to figure out
             why it is happening&lt;/li&gt;
-            &lt;li&gt;“A FreeBSD kernel core file can be formatted in several different ways. This depends on which type
+            &lt;li&gt;&quot;A FreeBSD kernel core file can be formatted in several different ways. This depends on which type
             of dump was performed. Full core dumps are ELF files, similar in structure to userspace core files. However,
             as RAM size grew, this became more difficult to manage. In 2006, FreeBSD introduced minidumps, which are
-            much smaller without making the core file useless. This has been the default dump type since FreeBSD 6.0.”&lt;/li&gt;
+            much smaller without making the core file useless. This has been the default dump type since FreeBSD 6.0.&quot;&lt;/li&gt;
             &lt;li&gt;The article goes into detail on the minidump format, and some basic debugging techniques&lt;/li&gt;
-            &lt;li&gt;“Libkvm will first determine whether the virtual address lies within the kernel or direct maps. If
+            &lt;li&gt;&quot;Libkvm will first determine whether the virtual address lies within the kernel or direct maps. If
             it lies in the kernel map, libkvm will consult the page table pages to discover the corresponding physical
             address. If it lies in the direct map, it can simply mask off the direct map base address. If neither of
             these applies, the address is illegal. This process is encapsulated by va&lt;em&gt;to&lt;/em&gt;pa, or
-            “virtual address to physical address”. Once the physical address is determined, libkvm consults the core
-            file’s bitmap to figure out where in the core file it is located.”&lt;/li&gt;
-            &lt;li&gt;“minidumps include a sparse bitmap indicating the pages that are included. These pages are dumped
+            &quot;virtual address to physical address&quot;. Once the physical address is determined, libkvm consults the core
+            file’s bitmap to figure out where in the core file it is located.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;minidumps include a sparse bitmap indicating the pages that are included. These pages are dumped
             sequentially in the last section. Because they are sparse in a not entirely predictable way, figuring the
-            offset into the dump for a particular physical address cannot be reduced to a trivial formula.”&lt;/li&gt;
+            offset into the dump for a particular physical address cannot be reduced to a trivial formula.&quot;&lt;/li&gt;
             &lt;li&gt;The article goes into detail about how lookups against this map are slow, and how they were
             improved&lt;/li&gt;
-            &lt;li&gt;“For typical manual debugger use, the impact of this change isn’t noticeable, which is probably
+            &lt;li&gt;&quot;For typical manual debugger use, the impact of this change isn’t noticeable, which is probably
             why the hash table implementation has been in use for 10 years. However, for any automated debugging
-            process, the extra latency adds up quickly.”&lt;/li&gt;
-            &lt;li&gt;“On a sample 8GB kernel core file (generated on a 128GB server), crashinfo improves from 44
-            seconds to 9 seconds, and uses 30% less memory”&lt;/li&gt;
-            &lt;li&gt;“Backtrace began shipping a version of this performance improvement in ptrace in February 2016.
+            process, the extra latency adds up quickly.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;On a sample 8GB kernel core file (generated on a 128GB server), crashinfo improves from 44
+            seconds to 9 seconds, and uses 30% less memory&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Backtrace began shipping a version of this performance improvement in ptrace in February 2016.
             This enables us to also offer significantly faster tracing of FreeBSD kernel cores to customers running
             current and older releases of FreeBSD. On July 17, 2016, our work improving libkvm scaling was committed to
-            FreeBSD/head. It will ship with FreeBSD 12.0.”&lt;/li&gt;
+            FreeBSD/head. It will ship with FreeBSD 12.0.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -590,8 +590,8 @@
             &lt;li&gt;Changing from: 1/ fetch data -&amp;gt; 2/ uncompress it -&amp;gt; 3/ check signature -&amp;gt; 4/
             process data&lt;/li&gt;
             &lt;li&gt;To: 1/ fetch data -&amp;gt; 2/ check signature -&amp;gt; 3/ uncompress -&amp;gt; 4/ process data&lt;/li&gt;
-            &lt;li&gt;“The solution is to move the signature outside of the gzip header”&lt;/li&gt;
-            &lt;li&gt;“Now, Since step 1/ is privsep, as long as step 2 is airtight, 3/ and 4/are no longer vulnerable”&lt;/li&gt;
+            &lt;li&gt;&quot;The solution is to move the signature outside of the gzip header&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Now, Since step 1/ is privsep, as long as step 2 is airtight, 3/ and 4/are no longer vulnerable&quot;&lt;/li&gt;
             &lt;li&gt;Guidelines:
 
             &lt;ul&gt;
@@ -602,8 +602,8 @@
             &lt;li&gt;use as a pipeline step: does not need to download full archive to use it, and never ever pass any
             data to the gunzip part before it&#39;s been verified.&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;“Note that afaik we haven&#39;t had any hole in our gunzipping process. Well… waiting for an
-            accident to happen is not how we do things. Hopefully, this should prevent future mishaps.”&lt;/li&gt;
+            &lt;li&gt;&quot;Note that afaik we haven&#39;t had any hole in our gunzipping process. Well… waiting for an
+            accident to happen is not how we do things. Hopefully, this should prevent future mishaps.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -612,10 +612,10 @@
             FreeBSD 10.3&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“While trying to setup OpenVPN, I noticed there was no up-to-date information with correct
+            &lt;li&gt;&quot;While trying to setup OpenVPN, I noticed there was no up-to-date information with correct
             instructions. OpenVPN uses EasyRSA to setup keys, it has recently been changed in version 3. As a result of
             this, the old steps to configure OpenVPN are no longer correct. I went through the process of setting up a
-            VPN using OpenVPN on FreeBSD 10.3.”&lt;/li&gt;
+            VPN using OpenVPN on FreeBSD 10.3.&quot;&lt;/li&gt;
             &lt;li&gt;I know FreeBSD developer Adrian Chadd complained about this exact problem when he was trying to
             setup a VPN before attending DEFCON&lt;/li&gt;
             &lt;li&gt;The tutorial walks through the basic steps:
@@ -638,10 +638,10 @@
 
             &lt;ul&gt;
             &lt;li&gt;LSOP is the tool a bunch of users have been asking for&lt;/li&gt;
-            &lt;li&gt;“a FreeBSD utility to list all processes running with outdated binaries or shared libraries”&lt;/li&gt;
-            &lt;li&gt;How does it work? “lsop iterates over all running processes and looks through memory-mapped files
+            &lt;li&gt;&quot;a FreeBSD utility to list all processes running with outdated binaries or shared libraries&quot;&lt;/li&gt;
+            &lt;li&gt;How does it work? &quot;lsop iterates over all running processes and looks through memory-mapped files
             with read + execute access; then it checks if those files are still available or have been
-            modified/deleted.”&lt;/li&gt;
+            modified/deleted.&quot;&lt;/li&gt;
             &lt;li&gt;How would you use it? After installing an system update (that doesn’t require a reboot to update
             the kernel), or upgrade your packages, you still need to know which daemons need to be restarted to use the
             patched libraries and binaries&lt;/li&gt;
@@ -659,10 +659,10 @@
             &lt;ul&gt;
             &lt;li&gt;The OpenBSD fund-raising campaign has given us a status update on the state of 2016.&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;They start by giving us a re-cap of previous years:
-            “2015 was a good year for the foundation financially, with one platinum, one gold, four silver and 3 bronze
+            &quot;2015 was a good year for the foundation financially, with one platinum, one gold, four silver and 3 bronze
             donors providing half of our total donations. 680 individuals making smaller contributions provided the
             other half. While the total was down significantly after 2014’s blockbuster year, we again exceeded our
-            goal.”&lt;/p&gt;&lt;/li&gt;
+            goal.&quot;&lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;As of Sept 5th, they were at approx $115k out of a total goal of 250k. &lt;/p&gt;&lt;/li&gt;
             &lt;li&gt;If you are an OpenBSD user, remember to contribute before the end of the year. Small amounts help,
             and the money of course goes to great causes such as hackathons and running the OpenBSD infrastructure.&lt;/li&gt;
@@ -692,9 +692,9 @@
             via moreutils&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;In most BSDs, the “core” set of utilities and commands are just part of the base system, but on
-            Linux, they are usually provided by the “coreutils” package.&lt;/li&gt;
-            &lt;li&gt;However, on Linux and now FreeBSD, there is a “moreutils” package, that provides a number of
+            &lt;li&gt;In most BSDs, the &quot;core&quot; set of utilities and commands are just part of the base system, but on
+            Linux, they are usually provided by the &quot;coreutils&quot; package.&lt;/li&gt;
+            &lt;li&gt;However, on Linux and now FreeBSD, there is a &quot;moreutils&quot; package, that provides a number of
             interesting additional basic utilities, including:
 
             &lt;ul&gt;
@@ -975,7 +975,7 @@
 
             &lt;p&gt;To install OpenBSD on such a device, we need a few parts. Obviously, the tablet itself. There’s a
             dearth of ports on these things, but there is a micro USB port. Attaching anything useful requires an OTG
-            “on the go” cable that creates a type A port. Attaching more than one useful thing requires a mini hub. And
+            &quot;on the go&quot; cable that creates a type A port. Attaching more than one useful thing requires a mini hub. And
             completing the install requires one each USB stick, keyboard, and network adapter.&lt;/p&gt;
 
             &lt;p&gt;First, we need to prep the machine to boot from USB. Actually, before doing anything, make sure you
@@ -1019,7 +1019,7 @@
             BSD adopts uses of LibreSSL&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;The number of projects beginning to switch over to LibreSSL is growing and it appears we can now
             throw DragonFly into that camp.&lt;/li&gt;
-            &lt;li&gt;Following something that sounds vaguely familiar (Allan!) DFLY is now creating “private” LibreSSL
+            &lt;li&gt;Following something that sounds vaguely familiar (Allan!) DFLY is now creating &quot;private&quot; LibreSSL
             libraries which are only linked against by base system binaries.&lt;/li&gt;
             &lt;li&gt;For the moment OpenSSL is &lt;em&gt;still&lt;/em&gt; built, primarily so that various ports and
             3rd party apps can continue to function as before.&lt;/li&gt;
@@ -1097,7 +1097,7 @@
             &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/doas-mastery&quot;&gt;doas mastery&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“doas” mastery - Paging MWL!&lt;/li&gt;
+            &lt;li&gt;&quot;doas&quot; mastery - Paging MWL!&lt;/li&gt;
             &lt;li&gt;Our buddy Ted Unangst has written up a great ‘mastery’ guide of the doas command, which can come
             in handy if you are among the un-initiated in doas land.&lt;/li&gt;
             &lt;/ul&gt;
@@ -1177,7 +1177,7 @@
 
             &lt;blockquote&gt;
             &lt;p&gt;Primarily, I think I can be useful! I attend (and organize) a number of conferences around the
-            world every year, particularly in regions that have a mostly “stealthy” FreeBSD community. While I clearly
+            world every year, particularly in regions that have a mostly &quot;stealthy&quot; FreeBSD community. While I clearly
             don’t need to be on the FreeBSD Foundation board to advocate for FreeBSD, joining as a director will provide
             an additional asset when working in areas of the world where organizational affiliations are meaningful.&lt;/p&gt;
             &lt;/blockquote&gt;
@@ -1225,8 +1225,8 @@
             &lt;p&gt;In a sane world, Unix vendors would have either replaced their version of more with the clearly
             superior less or at least updated their version of more to the 4.3 BSD version. Maybe less wouldn&#39;t have
             replaced more immediately, but certainly over say the next five years, when it kept on being better and most
-            people kept preferring it when they had a choice.”
-            + “This entire history has led to a series of vaguely absurd outcomes on various modern Unixes. On Solaris
+            people kept preferring it when they had a choice.&quot;
+            + &quot;This entire history has led to a series of vaguely absurd outcomes on various modern Unixes. On Solaris
             derivatives more is of course the traditional version with source code that can probably trace itself all
             the way back to 3BSD, carefully updated to SUS compliance. Solaris would never dream of changing what more
             is, not even if the replacement is better. Why, it might disturb someone.&lt;/p&gt;
@@ -1433,13 +1433,13 @@
             &lt;li&gt;Peter then walks us through their three-server mail setup, and how spamd is run in greylisting
             mode on each.&lt;/li&gt;
             &lt;li&gt;The results? Nothing short of perfection:
-            &amp;gt; “From those sources we can see that there were a total of 386 hosts that attempted delivery, to a
+            &amp;gt; &quot;From those sources we can see that there were a total of 386 hosts that attempted delivery, to a
             total of 396 host and target email pairs (annotated here in a .csv file
             with geographic origin according to whois). The interesting part came when I started looking at the mail
             server logs to see how many had reached the content filtering or had even been passed on in the direction of
             users&#39; mailboxes. There were none. The number of messages purportedly from voicemail@ in any of the
             domains we handle that made it even to the content filtering stage was 0. Zero. Not a single one made it
-            through even to content filtering.”&lt;/li&gt;
+            through even to content filtering.&quot;&lt;/li&gt;
             &lt;li&gt;Not bad at all! Looks like spam-trap addresses + grey-listing is the way to go for stopping this
             kind of foolishness. Checkout Peter’s blog post for more details, but perhaps this will encourage you to
             setup a similar-type system for your business.&lt;/li&gt;
@@ -1454,26 +1454,26 @@
             &lt;li&gt;Adrian Chadd talks about some of the bits that are missing to make FreeBSD truly useful on small
             embedded devices&lt;/li&gt;
             &lt;li&gt;Some of this stuff can be done now, but requires more work than it should&lt;/li&gt;
-            &lt;li&gt;“The first is a lack of real service management. FreeBSD doesn&#39;t have a service management
+            &lt;li&gt;&quot;The first is a lack of real service management. FreeBSD doesn&#39;t have a service management
             daemon - the framework assumes that daemons implement their own background and monitoring. It would be much
-            nicer if init or something similar to init could manage services and start/restart them where appropriate.”&lt;/li&gt;
+            nicer if init or something similar to init could manage services and start/restart them where appropriate.&quot;&lt;/li&gt;
             &lt;li&gt;Of course, on a system with 32mb of memory, such a service manager would need to be very light
             weight&lt;/li&gt;
-            &lt;li&gt;“maybe I want to only start telnetd or dropbear/sshd whenever a connection comes in. But I&#39;d
-            also like to be able to add services for monitoring, such as dnsmasq and hostapd.”&lt;/li&gt;
+            &lt;li&gt;&quot;maybe I want to only start telnetd or dropbear/sshd whenever a connection comes in. But I&#39;d
+            also like to be able to add services for monitoring, such as dnsmasq and hostapd.&quot;&lt;/li&gt;
             &lt;li&gt;telnetd and sshd can be run from inetd, but often depend on special support from the daemon&lt;/li&gt;
-            &lt;li&gt;“The next is a lack of suitable syslog daemon. Yes, I&#39;d like to be able to log some messages
+            &lt;li&gt;&quot;The next is a lack of suitable syslog daemon. Yes, I&#39;d like to be able to log some messages
             locally - even if it&#39;s only a couple hundred kilobytes of messages. I&#39;d also like to be able to push
             messages to a remote service. Unfortunately the FreeBSD syslog daemon doesn&#39;t do log rotation or maximum
             log file sizes itself - it&#39;s done by &quot;newsyslog&quot; which runs out of cron. This isn&#39;t any
-            good for real embedded systems with limited storage.”&lt;/li&gt;
+            good for real embedded systems with limited storage.&quot;&lt;/li&gt;
             &lt;li&gt;Syslog leaves much to be desired, especially in its configuration syntax, and filtering
             capabilities. Having it be able to detect with log files have grown beyond a reasonable size and fire off
             newsyslog would be very interesting&lt;/li&gt;
-            &lt;li&gt;“Then yes, there&#39;s a lack of a cron service. It&#39;d be nice to have that integrated into the
+            &lt;li&gt;&quot;Then yes, there&#39;s a lack of a cron service. It&#39;d be nice to have that integrated into the
             service management framework so things could be easily added/removed. I may just use cron, but that means
             cron is also always running which adds memory footprint (~1.3 megabytes) for something that is almost never
-            actually active. When you have 32MB of RAM, that&#39;s quite a bit of wasted memory.”&lt;/li&gt;
+            actually active. When you have 32MB of RAM, that&#39;s quite a bit of wasted memory.&quot;&lt;/li&gt;
             &lt;li&gt;Systems have come back full circle, to where 32MB and 64MB are amounts of memory people expect to
             work with, while other people still want the system to perform well with 32 or 64 GB of memory&lt;/li&gt;
             &lt;li&gt;It will be interesting to see how this balancing act plays out, trying to make the same codebase
@@ -1487,19 +1487,19 @@
             OpenBSD FDE password &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The other day I set up a new OpenBSD instance with a nice RAID array, encrypted with Full Disk
-            Encryption. And promptly proceeded to forget part of the passphrase.”&lt;/li&gt;
+            &lt;li&gt;&quot;The other day I set up a new OpenBSD instance with a nice RAID array, encrypted with Full Disk
+            Encryption. And promptly proceeded to forget part of the passphrase.&quot;&lt;/li&gt;
             &lt;li&gt;So they started a little project&lt;/li&gt;
-            &lt;li&gt;Goal: “We need to extract enough info from the encrypted disk and rebuild enough of the decryption
-            algorithm to be able to rapidly try many passphrases.”&lt;/li&gt;
+            &lt;li&gt;Goal: &quot;We need to extract enough info from the encrypted disk and rebuild enough of the decryption
+            algorithm to be able to rapidly try many passphrases.&quot;&lt;/li&gt;
             &lt;li&gt;The post walks through how they reverse engineered the encryption system from the source code and
             a hexdump of a small encrypted memory disk&lt;/li&gt;
-            &lt;li&gt;“Now that we know how to extract the data and how to try passphrases against it, it will be
-            trivial to write a bruteforce tool to recover the part of passphrase I forgot.”&lt;/li&gt;
+            &lt;li&gt;&quot;Now that we know how to extract the data and how to try passphrases against it, it will be
+            trivial to write a bruteforce tool to recover the part of passphrase I forgot.&quot;&lt;/li&gt;
             &lt;li&gt;So, rather than having to try every possible passphrase, they only had to try fuzzing around the
             known keyword that was their passphrase.&lt;/li&gt;
-            &lt;li&gt;“UPDATE: I found it! After fixing a bug or two in the brute force tool and almost losing hope, it
-            found the right combination of forgotten word and (Italian) misspelling.”&lt;/li&gt;
+            &lt;li&gt;&quot;UPDATE: I found it! After fixing a bug or two in the brute force tool and almost losing hope, it
+            found the right combination of forgotten word and (Italian) misspelling.&quot;&lt;/li&gt;
             &lt;li&gt;This work lead to the author recommending that OpenBSD consider &lt;a href=&quot;http://marc.info/?l=openbsd-tech&amp;amp;m=147316661717410&amp;amp;w=2&quot;&gt;strengthening
             the key derivation algorithm&lt;/a&gt; used in its FDE.&lt;/li&gt;
             &lt;li&gt;Rather than using a fixed number of rounds (8000 currently), do a small benchmark and determine
@@ -1539,28 +1539,28 @@
             hard work printing nothing&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“It all starts with a bug report to LibreSSL that the openssl tool crashes when it tries to print
-            NULL. This bug doesn’t manifest on OpenBSD because libc will convert NULL strings to ”(null)” when printing.
+            &lt;li&gt;&quot;It all starts with a bug report to LibreSSL that the openssl tool crashes when it tries to print
+            NULL. This bug doesn’t manifest on OpenBSD because libc will convert NULL strings to &quot;(null)&quot; when printing.
             However, this behavior is not required, and as observed, it’s not universal. When snprintf silently accepts
-            NULL, that simply leads to propagating the error.”&lt;/li&gt;
-            &lt;li&gt;“There’s an argument to be made that silly error messages are better than crashing browsers, but
-            stacking layers of sand seems like a poor means of building robust software in the long term.”&lt;/li&gt;
-            &lt;li&gt;“As soon as development for the next release of OpenBSD restarted, some developers began testing a
-            patch that would remove this crutch from printf.”&lt;/li&gt;
+            NULL, that simply leads to propagating the error.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;There’s an argument to be made that silly error messages are better than crashing browsers, but
+            stacking layers of sand seems like a poor means of building robust software in the long term.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As soon as development for the next release of OpenBSD restarted, some developers began testing a
+            patch that would remove this crutch from printf.&quot;&lt;/li&gt;
             &lt;li&gt;If you’d like to help with this work, see our call for volunteers from 2 weeks ago: &lt;a href=&quot;https://marc.info/?l=openbsd-misc&amp;amp;m=147059272201219&amp;amp;w=2&quot;&gt;opportunity
             to help: %s audit in mandoc &lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;Of course, immediately things started to complain. The configure script for talloc does a number
             of checks (check out the additional interesting observations by TedU here)&lt;/li&gt;
-            &lt;li&gt;“The test checking that our snprintf function conforms to the C99 standard actually contains, at a
-            minimum, 3 deviations from the standard. It should say “Checking for non-conformant vsnprintf”.”&lt;/li&gt;
-            &lt;li&gt;“Of course, we’re dealing with NULL pointers, so all bets are off, but I wonder what people who
-            expect printf NULL to work expect out of strlen? Does it return 0? Does it crash?”&lt;/li&gt;
+            &lt;li&gt;&quot;The test checking that our snprintf function conforms to the C99 standard actually contains, at a
+            minimum, 3 deviations from the standard. It should say &quot;Checking for non-conformant vsnprintf&quot;.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Of course, we’re dealing with NULL pointers, so all bets are off, but I wonder what people who
+            expect printf NULL to work expect out of strlen? Does it return 0? Does it crash?&quot;&lt;/li&gt;
             &lt;li&gt;So, talloc decides that the system printf is no good, and it should use its own bundled
             implementation&lt;/li&gt;
-            &lt;li&gt;“After all the configure testing, eventually the build will fail, because somebody forgot to
-            actually add the replacement object file to the Makefile.”&lt;/li&gt;
-            &lt;li&gt;“If the replacement function has never been used, that’s hardly reassuring that it is actually
-            better tested than the version we have in libc.”&lt;/li&gt;
+            &lt;li&gt;&quot;After all the configure testing, eventually the build will fail, because somebody forgot to
+            actually add the replacement object file to the Makefile.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;If the replacement function has never been used, that’s hardly reassuring that it is actually
+            better tested than the version we have in libc.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1574,7 +1574,7 @@
             permissions (protecting mmap(2))&lt;/li&gt;
             &lt;li&gt;Once mapped a page of memory should not be able to have permissions escalated (protecting
             mprotect(2))&lt;/li&gt;
-            &lt;li&gt;OpenBSD 6.0 enforces the strict W^X definition, and not the PaX/grsec “once write never execute”
+            &lt;li&gt;OpenBSD 6.0 enforces the strict W^X definition, and not the PaX/grsec &quot;once write never execute&quot;
             type of policy&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1586,7 +1586,7 @@
             &lt;ul&gt;
             &lt;li&gt;We’ve mentioned letskencrypt before (A native C version of the letsencrypt client, developed by
             Kristaps).&lt;/li&gt;
-            &lt;li&gt;Looks like it’s undergoing a name-change to “acme-client” and has made it’s way into OpenBSD’s
+            &lt;li&gt;Looks like it’s undergoing a name-change to &quot;acme-client&quot; and has made it’s way into OpenBSD’s
             base system!&lt;/li&gt;
             &lt;li&gt;This should ensure first-class support for management of Let’s Encrypt certificates, here’s hoping
             the portable version continues to thrive as well.&lt;/li&gt;
@@ -1738,13 +1738,13 @@
             &amp; challenges of porting ZFS to Linux. That plus the latest news &amp; feedback is coming your way, on
             your place to B...SD!
         </summary>
-        <content type="html">&lt;h1&gt;Episode 157: ZFS, The “Universal” File-system&lt;/h1&gt;
+        <content type="html">&lt;h1&gt;Episode 157: ZFS, The &quot;Universal&quot; File-system&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
             &lt;h3&gt;&lt;a href=&quot;https://www.meetbsd.com/&quot;&gt;Registration for MeetBSD 2016 is now Open &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“Beastie’s coming home!” This year, MeetBSD will be held at UC Berkeley’s Clark Kerr Campus&lt;/li&gt;
+            &lt;li&gt;&quot;Beastie’s coming home!&quot; This year, MeetBSD will be held at UC Berkeley’s Clark Kerr Campus&lt;/li&gt;
             &lt;li&gt;November 11th and 12th, preceded by a two day FreeBSD Vendor/Dev Summit (Nov 9th and 10th)&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1757,9 +1757,9 @@
             &lt;ul&gt;
             &lt;li&gt;The US version runs every two years in California since 2008, and now trades off with the east
             coast vBSDCon which runs on the odd years.&lt;/li&gt;
-            &lt;li&gt;“MeetBSD 2016 uses a mixed unConference format featuring both scheduled talks and community-driven
+            &lt;li&gt;&quot;MeetBSD 2016 uses a mixed unConference format featuring both scheduled talks and community-driven
             events such as birds-of-a-feather meetings, lightning talks, hackable presentations, stump the chumps, and
-            speed geeking sessions. Speakers are to be determined – stay tuned for more information!”&lt;/li&gt;
+            speed geeking sessions. Speakers are to be determined – stay tuned for more information!&quot;&lt;/li&gt;
             &lt;li&gt;Register before September 30th, and get $30 off&lt;/li&gt;
             &lt;li&gt;Kris and I will be there, along with lots of other FreeBSD Developers, Vendors, and Users.&lt;/li&gt;
             &lt;li&gt;MeetBSD’s unconference style does a very good job of mingling users with developers and is one of
@@ -1782,8 +1782,8 @@
             &lt;li&gt;From there the walkthrough takes us through disk partitioning using gpart, and setup of ZFS into a
             boot-environment friendly layout.&lt;/li&gt;
             &lt;li&gt;Once you get through the typical FreeBSD setup / extraction, the tutorial gives us a nice bonus,
-            showing how to setup “rEFInd” for a graphical boot-menu. &lt;/li&gt;
-            &lt;li&gt;A great walkthrough, and hopefully it encourages others to try out dual-booting “EFI-style”.&lt;/li&gt;
+            showing how to setup &quot;rEFInd&quot; for a graphical boot-menu. &lt;/li&gt;
+            &lt;li&gt;A great walkthrough, and hopefully it encourages others to try out dual-booting &quot;EFI-style&quot;.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1842,13 +1842,13 @@
             them internally&lt;/li&gt;
             &lt;li&gt;This bug has existed since the original import of ZFS, but some other change caused it to happen
             much more frequently&lt;/li&gt;
-            &lt;li&gt;“ZFS POSIX Layer is originally written for Solaris VFS which is very different from FreeBSD VFS.
+            &lt;li&gt;&quot;ZFS POSIX Layer is originally written for Solaris VFS which is very different from FreeBSD VFS.
             Most importantly many things that FreeBSD VFS manages on behalf of all filesystems are implemented in ZPL in
             a different Way. Thus, ZPL contains code that is redundant on FreeBSD or duplicates VFS functionality or, in
-            the worst cases, badly interacts / interferes with VFS.”&lt;/li&gt;
-            &lt;li&gt;“The most prominent problem is a deadlock caused by the lock order reversal of vnode locks that
+            the worst cases, badly interacts / interferes with VFS.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The most prominent problem is a deadlock caused by the lock order reversal of vnode locks that
             may happen with concurrent zfs&lt;em&gt;rename() and lookup(). The deadlock is a result of zfs&lt;/em&gt;rename()
-            not observing the vnode locking contract expected by VFS.”&lt;/li&gt;
+            not observing the vnode locking contract expected by VFS.&quot;&lt;/li&gt;
             &lt;li&gt;The fixes have been merged to the 10.x and 11.x branches&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -1898,7 +1898,7 @@
             &lt;li&gt;First the content is received from the content provider, and the Netflix content team makes it
             ready for deployment, by transcoding the various bitrates, packaging the subtitles, etc.&lt;/li&gt;
             &lt;li&gt;The finished files are then pushed to Amazon S3 storage&lt;/li&gt;
-            &lt;li&gt;“We deploy the majority of our updates proactively during configured fill windows. An important
+            &lt;li&gt;&quot;We deploy the majority of our updates proactively during configured fill windows. An important
             difference between our OpenConnect CDN and other commercial CDNs is the concept of proactive caching.
             Because we can predict with high accuracy what our members will watch and what time of day they will watch
             it, we can make use of non-peak bandwidth to download most of the content updates to the OCAs in our network
@@ -1907,24 +1907,24 @@
             read/write contention. The predictability of off-peak traffic patterns helps with this optimization, but we
             still only have a finite amount of time every day to get our content pre-positioned to where it needs to be
             before our traffic starts to ramp up and we want to make all of the OCA capacity available for content
-            serving.”&lt;/li&gt;
+            serving.&quot;&lt;/li&gt;
             &lt;li&gt;The OCA may actually contain more than one copy of the same video, because each disk in the OCA is
             independent, storing the same video on two different disks will provide twice the available read bandwidth&lt;/li&gt;
             &lt;li&gt;Normally the filesystem cache would obviate the need for this, but the Netflix OCA has so much
             storage, and not a lot of memory, and the requests from users are offset enough that the cache is useless&lt;/li&gt;
-            &lt;li&gt;“OCAs communicate at regular intervals with the control plane services, requesting (among other
+            &lt;li&gt;&quot;OCAs communicate at regular intervals with the control plane services, requesting (among other
             things) a manifest file that contains the list of titles they should be storing and serving to members. If
             there is a delta between the list of titles in the manifest and what they are currently storing, each OCA
             will send a request, during its configured fill window, that includes a list of the new or updated titles
             that it needs. The response from the control plane in AWS is a ranked list of potential download locations,
-            aka fill sources, for each title.”&lt;/li&gt;
-            &lt;li&gt;“It would be inefficient, in terms of both time and cost, to distribute a title directly from S3
+            aka fill sources, for each title.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;It would be inefficient, in terms of both time and cost, to distribute a title directly from S3
             to all of our OCAs, so we use a tiered approach. The goal is to ensure that the title is passed from one
-            part of our network to another using the most efficient route possible.”&lt;/li&gt;
+            part of our network to another using the most efficient route possible.&quot;&lt;/li&gt;
             &lt;li&gt;The article then goes on to explain how they calculate the least cost filling source&lt;/li&gt;
-            &lt;li&gt;“Now that Netflix operates in 190 countries and we have thousands of appliances embedded within
+            &lt;li&gt;&quot;Now that Netflix operates in 190 countries and we have thousands of appliances embedded within
             many ISP networks around the world, we are even more obsessed with making sure that our OCAs get the latest
-            content as quickly as possible while continuing to minimize bandwidth cost to our ISP partners.”&lt;/li&gt;
+            content as quickly as possible while continuing to minimize bandwidth cost to our ISP partners.&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -1932,8 +1932,8 @@
             &lt;h2&gt;Beastie Bits:&lt;/h2&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2734&quot;&gt;Cover reveal for “PAM
-            Mastery”&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2734&quot;&gt;Cover reveal for &quot;PAM
+            Mastery&quot;&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://libertybsd.net/download.html&quot;&gt;LibertyBSD 5.9 is out - looking for
             mirrors&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/class/cs124/lec/124-UnixForPoets.pdf&quot;&gt;Unix for

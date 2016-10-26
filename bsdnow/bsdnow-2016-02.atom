@@ -111,10 +111,10 @@
             crowd-pleasing alternative:
 
             &lt;ul&gt;
-            &lt;li&gt;“For some reason the httpd status pages (e.g. 404) use the Comic Sans typeface. This patch removes
+            &lt;li&gt;&quot;For some reason the httpd status pages (e.g. 404) use the Comic Sans typeface. This patch removes
             comic sans and sets the typeface to the default sans-serif typeface of the client.&lt;/li&gt;
-            &lt;li&gt;“This lowers the number of people contacting website maintainers with typeface complaints
-            bordering on harassment”.&lt;/li&gt;
+            &lt;li&gt;&quot;This lowers the number of people contacting website maintainers with typeface complaints
+            bordering on harassment&quot;.&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
             &lt;li&gt;Operators running HTTPD are highly encouraged to update their systems to the latest code, right
             now……... No seriously, we are waiting for you. Get it done now and then we’ll continue with the show.&lt;/li&gt;
@@ -150,8 +150,8 @@
 
             &lt;ul&gt;
             &lt;li&gt;create and loopback-mount a raw image containing a UFS filesystem extract the OpenBSD base sets
-            (which are just regular tarballs) and kernel enable console output (so that one could “aws ec2
-            get-console-output”)&lt;/li&gt;
+            (which are just regular tarballs) and kernel enable console output (so that one could &quot;aws ec2
+            get-console-output&quot;)&lt;/li&gt;
             &lt;li&gt;install the boot loader on the image then use the ec2 tools to import the RAW image to S3, convert
             it into a volume (ec2-import-volume) which we can snapshot (ec2-create-snapshot) and create an AMI from
             (ec2-register)&lt;/li&gt;
@@ -275,7 +275,7 @@
             &lt;li&gt;An alternative to this was also discussed, where when the DDT reached the cap size, it would
             remove a random entry with only a single reference from the DDT to make room for the new entry. When a block
             is going to be freed, if it is not found in the DDT, it is assumed to have only 1 reference, and removed.&lt;/li&gt;
-            &lt;li&gt;There was also discussion of replacing the DDT with an in-memory hash table and a “log” of
+            &lt;li&gt;There was also discussion of replacing the DDT with an in-memory hash table and a &quot;log&quot; of
             increment/decrement operations, that is periodically compacted. The hash table is recreated from the log at
             pool import time. This would reduce the in-memory footprint of the DDT, as well as speed up all write
             operations as adding an entry to the dedup log will be less expensive than updating the DDT.&lt;/li&gt;
@@ -285,11 +285,11 @@
             &lt;li&gt;The first session also discussed Secure Delete and related things
 
             &lt;ul&gt;
-            &lt;li&gt;The desire for an implementation of TRIM that uses the “secure erase” functionality provided by
+            &lt;li&gt;The desire for an implementation of TRIM that uses the &quot;secure erase&quot; functionality provided by
             some disks was expressed&lt;/li&gt;
             &lt;li&gt;Overwriting sectors with patterns of garbage may be insufficient because SSDs may internally remap
             where a specific LBA physically resides&lt;/li&gt;
-            &lt;li&gt;The possibility of using something like the “eager zero” feature to periodically write zeros over
+            &lt;li&gt;The possibility of using something like the &quot;eager zero&quot; feature to periodically write zeros over
             all free blocks in the pool to erase any lingering data fragments&lt;/li&gt;
             &lt;li&gt;Problems with the FreeBSD TRIM implementation were discussed, as well as looking at ways to
             implement the new ZFS TRIM implementation on FreeBSD&lt;/li&gt;
@@ -327,21 +327,21 @@
             &lt;ul&gt;
             &lt;li&gt;The author of this blog series is sending a week using NetBSD 7.0, following a previous series on
             Solaris 10&lt;/li&gt;
-            &lt;li&gt;“This is actually familiar territory, as I&#39;ve been using BSD variants almost exclusively since
+            &lt;li&gt;&quot;This is actually familiar territory, as I&#39;ve been using BSD variants almost exclusively since
             2006. My recent SunOS explorations were triggered last summer by OpenBSD having choked on my current laptop&#39;s
             NVIDIA card, and from what I could see at the time, FreeBSD had the same problem, although I now know NVIDIA
             drivers exist for that system. The thing that keeps me from going all-in with FreeBSD 10.x, however, is the
             fact that Firefox crashes and leaves &quot;core dump&quot; messages in its wake, and I&#39;m just not a
-            Chrome kinda guy.”&lt;/li&gt;
-            &lt;li&gt;“For those with a catholic taste in Unix, NetBSD is a keg party at the Vatican. If you&#39;re an
+            Chrome kinda guy.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;For those with a catholic taste in Unix, NetBSD is a keg party at the Vatican. If you&#39;re an
             absolute Unix beginner, or have been living on Ubuntu-based Linux distros for too long, then you may feel
             stranded at first by NetBSD&#39;s sparseness. You&#39;ll find yourself staring into the abyss and seeing
             only a blinking cursor staring back. If you have the presence of mind to type startx, you&#39;ll be greeted
             by twm, a window manager offering little more than an xterm window with the same blinking cursor until you
             learn how to configure the .twmrc file to include whatever applications you want or need in the right-click
-            menu.”&lt;/li&gt;
-            &lt;li&gt;“As for NetBSD itself, I can&#39;t think of any major productivity applications that can&#39;t be
-            installed, and most multimedia stuff works fine.”&lt;/li&gt;
+            menu.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As for NetBSD itself, I can&#39;t think of any major productivity applications that can&#39;t be
+            installed, and most multimedia stuff works fine.&quot;&lt;/li&gt;
             &lt;li&gt;Issues the author hopes to sort out in later posts:
 
             &lt;ul&gt;
@@ -350,7 +350,7 @@
             &lt;li&gt;Flash&lt;/li&gt;
             &lt;li&gt;Digital Camera SD Card readability, video playback&lt;/li&gt;
             &lt;li&gt;Audacity&lt;/li&gt;
-            &lt;li&gt;A “fancy” desktop like Gnome 2, KDE, or xfce&lt;/li&gt;
+            &lt;li&gt;A &quot;fancy&quot; desktop like Gnome 2, KDE, or xfce&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
             &lt;li&gt;In a &lt;a href=&quot;http://jamesdeagle.blogspot.com/2016/02/one-week-with-netbsd-70-libreoffice.html&quot;&gt;follow-up
             post&lt;/a&gt;, the author got LibreOffice installed and sorted out the audio issues they were having&lt;/li&gt;
@@ -366,13 +366,13 @@
             &lt;ul&gt;
             &lt;li&gt;As you may have heard, Ubuntu 16.04 will include ZFS -- baked directly into Ubuntu -- supported by
             Canonical&lt;/li&gt;
-            &lt;li&gt;“ZFS one of the most beloved features of Solaris, universally coveted by every Linux sysadmin with
-            a Solaris background. To our delight, we&#39;re happy to make to OpenZFS available on every Ubuntu system.”&lt;/li&gt;
-            &lt;li&gt;What does “supported by Canonical” mean?&lt;/li&gt;
-            &lt;li&gt;“You&#39;ll find zfs.ko automatically built and installed on your Ubuntu systems. No more
-            DKMS-built modules”&lt;/li&gt;
-            &lt;li&gt;“The user space zfsutils-linux package will be included in Ubuntu Main, with security updates
-            provided by Canonical”&lt;/li&gt;
+            &lt;li&gt;&quot;ZFS one of the most beloved features of Solaris, universally coveted by every Linux sysadmin with
+            a Solaris background. To our delight, we&#39;re happy to make to OpenZFS available on every Ubuntu system.&quot;&lt;/li&gt;
+            &lt;li&gt;What does &quot;supported by Canonical&quot; mean?&lt;/li&gt;
+            &lt;li&gt;&quot;You&#39;ll find zfs.ko automatically built and installed on your Ubuntu systems. No more
+            DKMS-built modules&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The user space zfsutils-linux package will be included in Ubuntu Main, with security updates
+            provided by Canonical&quot;&lt;/li&gt;
             &lt;li&gt;The article then provides a quick tutorial for setting up Linux Containers (LXC) backed by ZFS&lt;/li&gt;
             &lt;li&gt;In the example, ZFS is backed by a file on the existing disk, not by a real disk, and with no
             redundancy&lt;/li&gt;
@@ -461,7 +461,7 @@
             &lt;p&gt;&lt;a href=&quot;http://marc.info/?l=openbsd-ports&amp;amp;m=145615281431064&amp;amp;w=2&quot;&gt;Ports
             tree locked for OpenBSD 5.9&lt;/a&gt;&lt;/p&gt;
 
-            &lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2556&quot;&gt;“FreeBSD Filesystem Fun”
+            &lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2556&quot;&gt;&quot;FreeBSD Filesystem Fun&quot;
             at March semibug&lt;/a&gt;&lt;/p&gt;
 
             &lt;p&gt;&lt;a href=&quot;http://oshug.org/event/46&quot;&gt;Event #46 — Embedded Platforms (BSD, OpenWRT,
@@ -551,7 +551,7 @@
             <name>John Marino</name>
             <email>marino@freebsd.org</email>
         </contributor>
-        <summary>Coming up this week, we will be talking to John Marino about his work on the ports-mgmt utility “Synth”
+        <summary>Coming up this week, we will be talking to John Marino about his work on the ports-mgmt utility &quot;Synth&quot;
             and the cross-pollination between DragonFly and FreeBSD. That plus the latest news and your email here on
             BSD Now, the place to B… SD!
         </summary>
@@ -564,32 +564,32 @@
             &lt;ul&gt;
             &lt;li&gt;You have likely already heard about &lt;a href=&quot;https://access.redhat.com/security/cve/cve-2015-7547&quot;&gt;CVE-2015-7547
             &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;“A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA
+            &lt;li&gt;&quot;A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA
             DNS queries. A remote attacker could create a specially crafted DNS response which could cause libresolv to
             crash or,
-            potentially, execute code with the permissions of the user running the library.”&lt;/li&gt;
-            &lt;li&gt;“Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.”&lt;/li&gt;
+            potentially, execute code with the permissions of the user running the library.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.&quot;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://googleonlinesecurity.blogspot.ca/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html&quot;&gt;More
             details from Google’s Online Security team blog &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;“Naturally, people have started asking whether FreeBSD is affected. The FreeBSD Security Officer
+            &lt;li&gt;&quot;Naturally, people have started asking whether FreeBSD is affected. The FreeBSD Security Officer
             has not yet released an official statement, but in the meantime, here is a brief look at the issue as far as
-            FreeBSD is concerned.”&lt;/li&gt;
-            &lt;li&gt;“First of all: neither FreeBSD itself nor native FreeBSD applications are affected. While the
+            FreeBSD is concerned.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;First of all: neither FreeBSD itself nor native FreeBSD applications are affected. While the
             resolver in FreeBSD’s libc and GNU libc share a common parentage, the bug was introduced when the latter was
             rewritten to send A and AAAA queries in parallel rather than sequentially when the application requests
-            both.”&lt;/li&gt;
+            both.&quot;&lt;/li&gt;
             &lt;li&gt;The same most likely applies to the other BSDs&lt;/li&gt;
-            &lt;li&gt;“However, Linux applications running under emulation on a FreeBSD system use the GNU libc and are
-            therefore vulnerable unless patched.”&lt;/li&gt;
+            &lt;li&gt;&quot;However, Linux applications running under emulation on a FreeBSD system use the GNU libc and are
+            therefore vulnerable unless patched.&quot;&lt;/li&gt;
             &lt;li&gt;A patch to update emulation/linux_base-c6 has been prepared and should be committed soon&lt;/li&gt;
             &lt;li&gt;Running ‘pkg audit’ will list any known vulnerable packages installed on your system&lt;/li&gt;
-            &lt;li&gt;“The issue can be mitigated by only using resolvers you trust, and configuring them to avoid
-            sending responses which can trigger the bug.”&lt;/li&gt;
-            &lt;li&gt;“If you already have your own resolvers, you can configure them to avoid sending UDP responses
+            &lt;li&gt;&quot;The issue can be mitigated by only using resolvers you trust, and configuring them to avoid
+            sending responses which can trigger the bug.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;If you already have your own resolvers, you can configure them to avoid sending UDP responses
             larger than 2048 bytes. If the response does not fit in 2048 bytes, the server will send a truncated
             response, and the client should retry using TCP. While a similar bug exists in the code path for TCP
             requests, I believe that it can only be exploited by a malicious resolver, and interposing your own resolver
-            will protect affected Linux systems and applications.”&lt;/li&gt;
+            will protect affected Linux systems and applications.&quot;&lt;/li&gt;
             &lt;li&gt;Dag-Erling’s blog post also includes instructions and configuration examples for locking down your
             resolver, or setting up your own resolver if you don’t have one already&lt;/li&gt;
             &lt;/ul&gt;
@@ -630,9 +630,9 @@
             Started with ION-DTN 3.4.0 on FreeBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The Interplanetary Overlay Network (ION) software distribution is an implementation of
+            &lt;li&gt;&quot;The Interplanetary Overlay Network (ION) software distribution is an implementation of
             Delay-Tolerant Networking (DTN) architecture as described in Internet RFC 4838, suitable for use in
-            spacecraft”&lt;/li&gt;
+            spacecraft&quot;&lt;/li&gt;
             &lt;li&gt;This tutorial covers setting up ION 3.4.0 on FreeBSD&lt;/li&gt;
             &lt;li&gt;The tutorial starts by downloading the ION software, and installing the relevant build tools&lt;/li&gt;
             &lt;li&gt;The instructions allow ION to be installed system-wide, or for a specific user&lt;/li&gt;
@@ -863,13 +863,13 @@
 
             &lt;ul&gt;
             &lt;li&gt;In case you didn’t make it out to SCALE a few weeks back, we have a great interview with Dru
-            Lavigne over at OpenSource.com which goes over her talk on “Doc like an Egyptian”. &lt;/li&gt;
+            Lavigne over at OpenSource.com which goes over her talk on &quot;Doc like an Egyptian&quot;. &lt;/li&gt;
             &lt;li&gt;In particular she discusses the challenges of running a wiki for documentation for PC-BSD and
             FreeNAS which prompted the shift to using Sphinx instead.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“While the main purpose of a wiki is to invite user contributions and to provide a low barrier to
+            &lt;p&gt;&quot;While the main purpose of a wiki is to invite user contributions and to provide a low barrier to
             entry, very few people come to write documentation (however, every spambot on the planet will quickly find
             your wiki, which creates its own set of maintenance issues).&lt;/p&gt;
 
@@ -887,7 +887,7 @@
             &lt;p&gt;While output-generation wiki extensions are available (for example, to convert your wiki pages to
             HTML or PDF), how to configure them is not well documented, and they provide very little control for the
             layout of the generated format. This is a big deal for projects that need to make their documentation
-            available in multiple formats.“&lt;/p&gt;
+            available in multiple formats.&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
@@ -896,7 +896,7 @@
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;“While Sphinx is easy to learn, it does have its quirks. For example, it does not support stacked
+            &lt;p&gt;&quot;While Sphinx is easy to learn, it does have its quirks. For example, it does not support stacked
             tags. This means, for example, you can not bold italic a phrase using tags—to achieve that requires a CSS
             workaround. And, while Sphinx does have extensive documentation, a lot of it assumes you already know what
             you are doing. When you don&#39;t, it can be difficult to find an example that does what you are trying to
@@ -904,7 +904,7 @@
 
             &lt;p&gt;Sphinx is well suited for projects with an existing repository—say, on github—a build
             infrastructure, and contributors who are comfortable with using text editors and committing to the repo (or
-            creating, say, git pull requests).“&lt;/p&gt;
+            creating, say, git pull requests).&quot;&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;hr&gt;
@@ -960,8 +960,8 @@
             TACACS+ GNS3 and Cisco 3700 Router&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“TACACS+ – (Terminal Access Controller Access Control System plus) — is a session protocol
-            developed by Cisco.”&lt;/li&gt;
+            &lt;li&gt;&quot;TACACS+ – (Terminal Access Controller Access Control System plus) — is a session protocol
+            developed by Cisco.&quot;&lt;/li&gt;
             &lt;li&gt;This tutorial covers configuring FreeBSD and the tac_plus4 port to act as an authentication,
             authorization, and accounting server for Cisco routers&lt;/li&gt;
             &lt;li&gt;The configuration of FreeBSD, the software, and the router are covered&lt;/li&gt;
@@ -982,19 +982,19 @@
             We Love Presents : Bryan Cantrill on Jails &amp;amp; Solaris Zones&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The folks over at NYCBug point us to “Papers We Love”, a New York based meetup group where past
+            &lt;li&gt;The folks over at NYCBug point us to &quot;Papers We Love&quot;, a New York based meetup group where past
             papers are presented. They have a talk scheduled for tomorrow (Feb 11th) with Bryan Cantrill discussing
             Jails and Solaris Zones&lt;/li&gt;
             &lt;li&gt;The talk starts at 7PM at the Tumblr building, located between 5th and Park Ave South on 21st
             street&lt;/li&gt;
-            &lt;li&gt;“We&#39;re &lt;strong&gt;crazy&lt;/strong&gt; excited to have Bryan Cantrill, CTO of Joyent,
+            &lt;li&gt;&quot;We&#39;re &lt;strong&gt;crazy&lt;/strong&gt; excited to have Bryan Cantrill, CTO of Joyent,
             formerly of Sun Microsystems, presenting on &lt;a href=&quot;https://us-east.manta.joyent.com/bcantrill/public/ppwl-cantrill-jails.pdf&quot;&gt;Jails:
             Confining the omnipotent root&lt;/a&gt;.
             by Poul-Henning Kamp and Robert Watson and &lt;a href=&quot;https://us-east.manta.joyent.com/bcantrill/public/ppwl-cantrill-zones.pdf&quot;&gt;Solaris
             Zones: Operating System Support for Consolidating Commercial Workloads&lt;/a&gt; by Dan Price and Andy
-            Tucker!”&lt;/li&gt;
+            Tucker!&quot;&lt;/li&gt;
             &lt;li&gt;The abstract posted gives us a sneak peak of what to expect, first covering jails as a method to
-            “partition” the operating system environment, but maintaining the UNIX “root” model.&lt;/li&gt;
+            &quot;partition&quot; the operating system environment, but maintaining the UNIX &quot;root&quot; model.&lt;/li&gt;
             &lt;li&gt;Next it looks like he will compare and contrast with the Solaris Zones functionality, which
             creates virtualized application execution environments, within the single OS instance.&lt;/li&gt;
             &lt;li&gt;Sounds like a fantastic talk, hopefully somebody remembers to record and post it for us to enjoy
@@ -1012,13 +1012,13 @@
             (Filesystems And Storage Technology) conference&lt;/li&gt;
             &lt;li&gt;Developers and Vendors are invited to work on storage related issues&lt;/li&gt;
             &lt;li&gt;This summit will be a hackathon focused event, rather than a discussion focused devsummit&lt;/li&gt;
-            &lt;li&gt;After setup and introductions, the summit will start with a “Networking Synergies Panel”, to
+            &lt;li&gt;After setup and introductions, the summit will start with a &quot;Networking Synergies Panel&quot;, to
             discuss networking as it relates to storage&lt;/li&gt;
             &lt;li&gt;After a short break, the attendees will break up into a number of working groups focused on
             solving actual problems&lt;/li&gt;
             &lt;li&gt;The current working groups include:&lt;/li&gt;
-            &lt;li&gt;CAM Scheduling &amp;amp; Locking, led by Justin Gibbs: “Updating CAM queuing/scheduling and
-            locking models to minimize cross-cpu contention and support multi-queue controllers”&lt;/li&gt;
+            &lt;li&gt;CAM Scheduling &amp;amp; Locking, led by Justin Gibbs: &quot;Updating CAM queuing/scheduling and
+            locking models to minimize cross-cpu contention and support multi-queue controllers&quot;&lt;/li&gt;
             &lt;li&gt;ZFS, led by Matt Ahrens: topics will include enabling the new cryptographic hashes supported by
             OpenZFS on FreeBSD, Interaction with the kernel memory subsystem, and other upcoming features.&lt;/li&gt;
             &lt;li&gt;User Space Storage Stack, led by George Neville-Neil&lt;/li&gt;
@@ -1032,21 +1032,21 @@
             Browser 5.5 for OpenBSD/amd64 -current is completed&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The Tor BSD Diversity Project (TDP) is proud to announce the release of Tor Browser (TB) version
+            &lt;li&gt;&quot;The Tor BSD Diversity Project (TDP) is proud to announce the release of Tor Browser (TB) version
             5.5 for OpenBSD. Please note that this version of TB remains in development mode, and is not meant to ensure
-            strong privacy, anonymity or security.”&lt;/li&gt;
-            &lt;li&gt;“TDP (https://torbsd.github.io) is an effort to extend the use of the BSD Unixes into the Tor
+            strong privacy, anonymity or security.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;TDP (https://torbsd.github.io) is an effort to extend the use of the BSD Unixes into the Tor
             ecosystem, from the desktop to the network. TDP is focused on diversifying the Tor network, with TB being
             the flagship project.
             Additional efforts are made to increase the number of *BSD relays on the Tor network among other
-            sub-projects”&lt;/li&gt;
+            sub-projects&quot;&lt;/li&gt;
             &lt;li&gt;Help test the new browser bundle, or help diversify the Tor network&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2548&quot;&gt;“FreeBSD Mastery:
-            Advanced ZFS” Table of Contents&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2548&quot;&gt;&quot;FreeBSD Mastery:
+            Advanced ZFS&quot; Table of Contents&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
             &lt;li&gt;&lt;p&gt;We brought you the news about sponsoring the Advanced ZFS book that MWL is working on,
@@ -1211,11 +1211,11 @@
 
             &lt;ul&gt;
             &lt;li&gt;This post provides a lot of good information for those considering going to their first conference&lt;/li&gt;
-            &lt;li&gt;The very first item says the most: “Conference talks are great because they teach you new skills
+            &lt;li&gt;The very first item says the most: &quot;Conference talks are great because they teach you new skills
             or give you ideas. However, what conference talks are really for is giving you additional topics of
             conversation to chat with your fellow conference goers with. Hanging out after a talk ends to chat with the
             speaker is a great way to connect with speakers or fellow attendees that are passionate about a particular
-            subject.”&lt;/li&gt;
+            subject.&quot;&lt;/li&gt;
             &lt;li&gt;The hallway track is the best part of the conference. I’ve ended up missing as much as 2/3rds of a
             conference, and still found it to be a very valuable conference, sometimes more so than if I attend a talk
             in every slot&lt;/li&gt;
@@ -1231,8 +1231,8 @@
             &lt;li&gt;There are also tips about swag, including watching out for booth wranglers (not common at BSD
             events, but many larger conferences have booths where your personal information can be exchanged for swag),
             as well as advice for following up with the people you meet at conferences.&lt;/li&gt;
-            &lt;li&gt;Lastly, it provides thoughts on avoiding “Project Passion Explosion“, or what I call “overcharging
-            your BSD battery”, where after hearing about the interesting stuff other people are doing, or about the
+            &lt;li&gt;Lastly, it provides thoughts on avoiding &quot;Project Passion Explosion&quot;, or what I call &quot;overcharging
+            your BSD battery&quot;, where after hearing about the interesting stuff other people are doing, or about the
             things other need, you try to do everything at once, and burn yourself out&lt;/li&gt;
             &lt;li&gt;I know for myself, there are at least 10 projects I would love to work on, but I need to balance
             my free time, my work schedule, the FreeBSD release schedule, and which items might be better for someone
@@ -1246,8 +1246,8 @@
 
             &lt;ul&gt;
             &lt;li&gt;Captive portals, the bane of many a traveler’s existence, however a necessary evil in the era of
-            war-driving and other potentially nefarious uses of “free-wifi”. &lt;/li&gt;
-            &lt;li&gt;This week we have an article from the folks at “unixmen”, showing (in great detail) how they setup
+            war-driving and other potentially nefarious uses of &quot;free-wifi&quot;. &lt;/li&gt;
+            &lt;li&gt;This week we have an article from the folks at &quot;unixmen&quot;, showing (in great detail) how they setup
             a FreeBSD 10.1 based captive portal, and yes those are manual MySQL commands.&lt;/li&gt;
             &lt;li&gt;First up is a diagram showing the layout of their new portal system, using multiple APs for
             different floors of the apartment / hotel?&lt;/li&gt;
@@ -1255,7 +1255,7 @@
             those bits beforehand.&lt;/li&gt;
             &lt;li&gt;Some Apache configuration is up next, which re-directs all port 80 requests over to 443/SSL and
             the captive portal web-login&lt;/li&gt;
-            &lt;li&gt;At this point we have to install “pear” from ports or packages and begin to do the database setup
+            &lt;li&gt;At this point we have to install &quot;pear&quot; from ports or packages and begin to do the database setup
             which is fairly typical if you done any SQL before, such as create user / database / table, etc.&lt;/li&gt;
             &lt;li&gt;With the database finished, the article provides a nice and clean rc.conf which enables all the
             necessary services.&lt;/li&gt;
@@ -1277,14 +1277,14 @@
 
             &lt;ul&gt;
             &lt;li&gt;In the world of docker / jails / VMs, containers are all the rage right now, and now we can
-            introduce “Sailor” to this mix&lt;/li&gt;
+            introduce &quot;Sailor&quot; to this mix&lt;/li&gt;
             &lt;li&gt;A unique thing about this new solution, is that its based upon chroot/pkgin, and available on
             NetBSD / OSX and CentOS&lt;/li&gt;
-            &lt;li&gt;Since it is not using “jail” or other security mechanism, they to give us this cavet “Note that
+            &lt;li&gt;Since it is not using &quot;jail&quot; or other security mechanism, they to give us this cavet &quot;Note that
             sailor&#39;s goal is not to provide bullet-proof security, chroot is definitely not a trustable isolator;
             instead, sailor is a really convenient way of trying / testing an environment without compromising your
-            workstation filesystem.”&lt;/li&gt;
-            &lt;li&gt;Creating a new “ship” is relatively straight-forward, a simple shell define file can supply most
+            workstation filesystem.&quot;&lt;/li&gt;
+            &lt;li&gt;Creating a new &quot;ship&quot; is relatively straight-forward, a simple shell define file can supply most
             of the relevant information. Nginx for example is only a few lines:
             https://github.com/NetBSDfr/sailor/blob/master/examples/nginx.conf &lt;/li&gt;
             &lt;li&gt;In addition to the basic pkg configuration, it also provides methods to do rw/ro mounts into the
@@ -1309,7 +1309,7 @@
             Quarter Century of Unix&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;An oldie, but goodie, the book “A Quarter Century of UNIX” is now available for free download via
+            &lt;li&gt;An oldie, but goodie, the book &quot;A Quarter Century of UNIX&quot; is now available for free download via
             PDF format. &lt;/li&gt;
             &lt;li&gt;This provides an invaluable look into the history of UNIX, which of course we wouldn’t have BSD
             without. &lt;/li&gt;
@@ -1323,8 +1323,8 @@
             has been awarded grant to finalize VIMAGE fixes &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“Bjoern Zeeb has been awarded a project grant to finalize and integrate the work done to make the
-            VIMAGE network stack virtualization infrastructure production ready.”&lt;/li&gt;
+            &lt;li&gt;&quot;Bjoern Zeeb has been awarded a project grant to finalize and integrate the work done to make the
+            VIMAGE network stack virtualization infrastructure production ready.&quot;&lt;/li&gt;
             &lt;li&gt;VIMAGE is the network virtualization kernel component that can be used to give jails their own
             network interfaces, so they can have their own firewalls, be assign addresses via DHCP, etc.&lt;/li&gt;
             &lt;li&gt;Currently, a number of bugs prevent this feature from being enabled by default, or used in
