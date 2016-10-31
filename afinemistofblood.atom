@@ -5,7 +5,7 @@
     <icon>http://panoply-prod.s3.amazonaws.com/podcasts/284473a6-e31d-11e5-ade8-af21a0ed8fd5/image/uploads_2F1457215002374-h59nsjwrtq6nipb9-cf7306ddc41563b8c9cebc1c2797e2ea_2FCUSTOM.AmazonBOSCH1400x1400wPanoply.jpg</icon>
     <link href="https://feeds.betterfeeds.org/afinemistofblood.atom" rel="self" type="application/atom+xml; charset=utf-8" title="A Fine Mist Of Blood"/>
     <link href="http://feeds.feedburner.com/BoschAFineMistOfBlood" rel="archives" type="application/rss+xml" title="A Fine Mist of Blood - Official"/>
-    <link href="http://www.amazon.com/gp/product/B01AB17IGQ" rel="alternate" type="text/html"/>
+    <link href="http://www.amazon.com/gp/product/B01AB17IGQ" rel="related" type="text/html"/>
     <id>https://feeds.betterfeeds.org/afinemistofblood.atom</id>
     <updated>2016-07-20T12:10:00Z</updated>
     <author>

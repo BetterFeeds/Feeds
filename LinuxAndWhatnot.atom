@@ -3,15 +3,15 @@
     <title>Nerds &amp; Whatnot</title>
     <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
         on &lt;a href=&quot;https://www.youtube.com/user/BryanLunduke&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
-        &lt;p&gt;Linux &amp; Whatnot is a freaking delightful romp. These two hosts have never done a show together
+        &lt;p&gt;Nerds &amp; Whatnot is a freaking delightful romp. These two hosts have never done a show together
         before — yet they have both hosted the same show at different times.&lt;/p&gt;
         &lt;p&gt;No ads. None. Because ads get annoying.&lt;/p&gt;
     </subtitle>
     <icon>https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png</icon>
-    <link href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Linux &amp; Whatnot"/>
+    <link href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Nerds &amp; Whatnot"/>
     <link href="https://lundukewhatnot.wordpress.com/" rel="alternate" type="text/html"/>
-    <link href="http://feeds.feedburner.com/LundukeWhatnotwithMatt" rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Official"/>
-    <link href="https://lundukewhatnot.wordpress.com/osd.xml" rel="search" type="application/opensearchdescription+xml" title="Linux &amp; Whatnot"/>
+    <link href="http://feeds.feedburner.com/LundukeWhatnotwithMatt" rel="archives" type="application/rss+xml" title="Nerds &amp; Whatnot - Official"/>
+    <link href="https://lundukewhatnot.wordpress.com/osd.xml" rel="search" type="application/opensearchdescription+xml" title="Nerds &amp; Whatnot"/>
     <link href="https://www.youtube.com/user/BryanLunduke/videos" rel="archives" type="text/html" title="Youtube"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
     <updated>2016-10-18T15:40:00Z</updated>
