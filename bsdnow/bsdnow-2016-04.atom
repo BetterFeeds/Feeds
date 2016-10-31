@@ -2,7 +2,7 @@
 <feed
         xml:lang="en-us"
         xmlns="http://www.w3.org/2005/Atom"
-        xmlns:smi="https://www.betterfeeds.org/series-media-info"
+        xmlns:smi="https://www.betterfeeds.org/series-media-info/1"
         xmlns:media="http://search.yahoo.com/mrss/"
         xmlns:psc="http://podlove.org/simple-chapters">
     <title>BSD Now</title>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info/1" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us">
     <title>Nerds &amp; Whatnot</title>
     <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
         on &lt;a href=&quot;https://www.youtube.com/user/BryanLunduke&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
