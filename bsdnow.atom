@@ -127,7 +127,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;DragonFly has become the latest BSD to join the growing LibreSSL family. As mentioned a few weeks back, they were in the process of wiring it up as a replacement for OpenSSL.&lt;/li&gt;
-            &lt;li&gt;With this latest commit, you can now build the entire base and OpenSSL isn’t built at all.&lt;/li&gt;
+            &lt;li&gt;With this latest commit, you can now build the entire base and OpenSSL isn't built at all.&lt;/li&gt;
             &lt;li&gt;Congrats, and hopefully more BSDs (and Linux) jump on the bandwagon &lt;a href=&quot;http://lists.dragonflybsd.org/pipermail/commits/2016-October/624734.html&quot;&gt;Compat_43 is gone&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;RiP 4.3 Compat support.. Well for DragonFly anyway.&lt;/li&gt;
             &lt;li&gt;This commit finally puts out to pasture the 4.3 support, which has been disabled by default in DragonFly for almost 5 years now. &lt;/li&gt;
@@ -183,14 +183,14 @@
 
             &lt;ul&gt;
             &lt;li&gt;Looking for your Bhyve fix? If so, then Trent (Of iohyve fame) has a nice blog post today with a detailed look at how to get Windows 10 up and running in bhyve.&lt;/li&gt;
-            &lt;li&gt;First up, Trent gives us a nice look back at how far we’ve come in only a single year. Just a year ago, initial support for UEFI was landing, there was no VNC option, leaving us to only serial console goodness. Fast-forward to today and Windows 10 + Bhyve + Vnc is a go.&lt;/li&gt;
-            &lt;li&gt;He immediately jumps us into the good stuff, talking about what you’ll need to follow along. His tutorial was written on 12-CURRENT, but running 11.0-RELEASE should work as well.&lt;/li&gt;
+            &lt;li&gt;First up, Trent gives us a nice look back at how far we've come in only a single year. Just a year ago, initial support for UEFI was landing, there was no VNC option, leaving us to only serial console goodness. Fast-forward to today and Windows 10 + Bhyve + Vnc is a go.&lt;/li&gt;
+            &lt;li&gt;He immediately jumps us into the good stuff, talking about what you'll need to follow along. His tutorial was written on 12-CURRENT, but running 11.0-RELEASE should work as well.&lt;/li&gt;
             &lt;li&gt;Of course, he does mention that before starting on this quest, make sure to read the bhyve handbook, specifically check that your CPU is supported. If you are running something without the correct Vt extensions, then your journey will end prematurely in sadness.&lt;/li&gt;
-            &lt;li&gt;Next up is some of the prep work needed to get your box ready to run VM’s. Loading the kernel module, creating “tap” devices for networking and such are detailed.&lt;/li&gt;
-            &lt;li&gt;If you are lazy (like me) then you’ll want to copy-n-paste his handy scripts which automate this process for you.&lt;/li&gt;
-            &lt;li&gt;With the system prepped, we get to the good stuff. You’ll need to install the bhyve-firmware package (which enables UEFI booting) and get your handy Windows 10 ISO.&lt;/li&gt;
+            &lt;li&gt;Next up is some of the prep work needed to get your box ready to run VM's. Loading the kernel module, creating &quot;tap&quot; devices for networking and such are detailed.&lt;/li&gt;
+            &lt;li&gt;If you are lazy (like me) then you'll want to copy-n-paste his handy scripts which automate this process for you.&lt;/li&gt;
+            &lt;li&gt;With the system prepped, we get to the good stuff. You'll need to install the bhyve-firmware package (which enables UEFI booting) and get your handy Windows 10 ISO.&lt;/li&gt;
             &lt;li&gt;From here Trent has helpfully again provided us with handy scripts to both do the bhyve startup, as well as enabling VNC support over a SSH tunnel.&lt;/li&gt;
-            &lt;li&gt;At this point you are good to go, fire up your VNC client and you should be greeted with the typical Windows “Press any key to boot from CD” message. No, he doesn’t provide instructions on how to install / Use / Like Windows, but we’ll leave that up to you.&lt;/li&gt;
+            &lt;li&gt;At this point you are good to go, fire up your VNC client and you should be greeted with the typical Windows &quot;Press any key to boot from CD&quot; message. No, he doesn't provide instructions on how to install / Use / Like Windows, but we'll leave that up to you.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -202,11 +202,11 @@
             &lt;ul&gt;
             &lt;li&gt;A new version of Lumina has just landed! 1.1.0 brings with it some important fixes, as well as new utilities that make your desktop computing easier than ever.&lt;/li&gt;
             &lt;li&gt;First up, all i18n files have been re-worked, instead of needing to install another package, they are included with the build when WITH_I18N is set.&lt;/li&gt;
-            &lt;li&gt;A handy new “start-lumina-desktop” command has been added, which makes it easy to get lumina running from your Login Manager or even manually in .xinitrc or the like.&lt;/li&gt;
+            &lt;li&gt;A handy new &quot;start-lumina-desktop&quot; command has been added, which makes it easy to get lumina running from your Login Manager or even manually in .xinitrc or the like.&lt;/li&gt;
             &lt;li&gt;A bunch of internals related to how it tracks installed Applications and start-menu entries has been re-worked, fixing some memory issues and speeding things up.&lt;/li&gt;
-            &lt;li&gt;The default “Insight” file-manager has been given an overhaul, which includes some new features like “git” support.&lt;/li&gt;
-            &lt;li&gt;A new Qt5 “lumina-calculator” has also joined the family, which means not needing to use kcalc or xcalc on TrueOS anymore.&lt;/li&gt;
-            &lt;li&gt;A nice “TrueOS” specific option has also landed. Specifically now when System Updates are waiting to install at shutdown, Lumina will detect and prompt if you want to install or skip the update. Handy when on the road, or if you don’t have the time to wait for an update to complete.&lt;/li&gt;
+            &lt;li&gt;The default &quot;Insight&quot; file-manager has been given an overhaul, which includes some new features like &quot;git&quot; support.&lt;/li&gt;
+            &lt;li&gt;A new Qt5 &quot;lumina-calculator&quot; has also joined the family, which means not needing to use kcalc or xcalc on TrueOS anymore.&lt;/li&gt;
+            &lt;li&gt;A nice &quot;TrueOS&quot; specific option has also landed. Specifically now when System Updates are waiting to install at shutdown, Lumina will detect and prompt if you want to install or skip the update. Handy when on the road, or if you don't have the time to wait for an update to complete.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -214,7 +214,7 @@
             &lt;h3&gt;&lt;a href=&quot;http://bad.network/openbgpd-large-communities.html&quot;&gt;OpenBGPD Large Communities support in –current&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;A blog post from OpenBSD’s Peter Hessler:&lt;/li&gt;
+            &lt;li&gt;A blog post from OpenBSD's Peter Hessler:&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
@@ -236,11 +236,11 @@
             &lt;h3&gt;&lt;a href=&quot;https://mezzantrop.files.wordpress.com/2016/10/first-look-at-the-renewed-ctl-high-availability-implementation-in-freebsd-v1-1.pdf&quot;&gt;First look at the renewed CTL High Availability implementation in FreeBSD&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Following up on a previous post about making a high availability dual head storage controller, the new post looks at using FreeBSD’s CTL HA implementation, and FreeBSD 11.0 to do that:&lt;/li&gt;
+            &lt;li&gt;Following up on a previous post about making a high availability dual head storage controller, the new post looks at using FreeBSD's CTL HA implementation, and FreeBSD 11.0 to do that:&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;This enhancement looks extremely important for the BeaST storage system as implementation of high available native ALUA in FreeBSD can potentially replace the BeaST arbitration mechanism (“Arbitrator”), which is completely described in the papers on the BeaST project page&lt;/p&gt;
+            &lt;p&gt;This enhancement looks extremely important for the BeaST storage system as implementation of high available native ALUA in FreeBSD can potentially replace the BeaST arbitration mechanism (&quot;Arbitrator&quot;), which is completely described in the papers on the BeaST project page&lt;/p&gt;
 
             &lt;p&gt;ALUA in storage world terminology means Asymmetric Logical Unit Assignment. In simple words this set of technologies allows a host to access any LUN via both controllers of a storage system&lt;/p&gt;
 
@@ -249,7 +249,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;If anyone has access to hardware of this nature (a storage shelf with 2 heads connected to it), that they could lend the author to help validate the design on real hardware, that would be most helpful.
-            &amp;gt; We will run two storage controllers (ctrl-a, ctrl-b) and a host (cln-1). A virtual SAS drive (da0) of 256 MB is configured as “shareable” in Virtual Media Manager and simultaneously connected with both storage controllers&lt;/li&gt;
+            &amp;gt; We will run two storage controllers (ctrl-a, ctrl-b) and a host (cln-1). A virtual SAS drive (da0) of 256 MB is configured as &quot;shareable&quot; in Virtual Media Manager and simultaneously connected with both storage controllers&lt;/li&gt;
             &lt;li&gt;The basic settings are applied to both controllers&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;One interesting setting is:&lt;/p&gt;
 
@@ -281,13 +281,13 @@
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The document them shows a file being copied continuously to simulate load. Because the multipath is configured in ‘active/active’ mode, the traffic is split between the two controllers&lt;/li&gt;
+            &lt;li&gt;The document them shows a file being copied continuously to simulate load. Because the multipath is configured in 'active/active' mode, the traffic is split between the two controllers&lt;/li&gt;
             &lt;li&gt;Then the secondary controller is turned off, and iscsi disconnects that path, and gmultipath adapts and sends all of the traffic over the primary path.&lt;/li&gt;
             &lt;li&gt;When the secondary node is brought back up, but the primary is taken down, traffic stops&lt;/li&gt;
-            &lt;li&gt;The console on the client is filled with errors: “Logical unit not accessible, asymmetric access state transition”&lt;/li&gt;
+            &lt;li&gt;The console on the client is filled with errors: &quot;Logical unit not accessible, asymmetric access state transition&quot;&lt;/li&gt;
             &lt;li&gt;The ctl(4) man page explains:
             &amp;gt; If there is no primary node (both nodes are secondary, or secondary node has no connection to primary one), secondary node(s) report Transitioning state.
-            &amp;gt; Therefore, it looks like a “normal” behavior of CTL HA cluster in a case of disaster and loss of the primary node. It also means that a very lucky administrator can restore the failed primary controller before timeouts are elapsed.&lt;/li&gt;
+            &amp;gt; Therefore, it looks like a &quot;normal&quot; behavior of CTL HA cluster in a case of disaster and loss of the primary node. It also means that a very lucky administrator can restore the failed primary controller before timeouts are elapsed.&lt;/li&gt;
             &lt;li&gt;If the primary is down, the secondary needs to be promoted by some other process (CARP maybe?): sysctl kern.cam.ctl.ha_role=0&lt;/li&gt;
             &lt;li&gt;Then traffic follows again&lt;/li&gt;
             &lt;li&gt;This is a very interesting look at this new feature, and I hope to see more about it in the future&lt;/li&gt;

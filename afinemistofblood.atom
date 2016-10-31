@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed
-        xml:lang="en-us"
-        xmlns="http://www.w3.org/2005/Atom"
-        xmlns:smi="https://www.betterfeeds.org/series-media-info">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info" xml:lang="en-us">
     <title>A Fine Mist Of Blood</title>
-    <subtitle>Detective Harry Bosch is back in this dramatic reading of Michael Connelly’s short story
-        A Fine Mist of Blood. Bosch and his partner Jerry Edgar connect the dots between two murders, one recent and the
-        other a cold case from 2002. Starring Titus Welliver, Jamie Hector, Tara Buck, Nikhil Pai, Cheryl Francis
-        Harrington, and narrated by Miles Chapin. Based on the best selling novels by Michael Connelly, Stream the New
-        Season of Amazon’s Original Series BOSCH on March 11th on Amazon Prime Video.
-    </subtitle>
+    <subtitle>Detective Harry Bosch is back in this dramatic reading of Michael Connelly's short story A Fine Mist of Blood. Bosch and his partner Jerry Edgar connect the dots between two murders, one recent and the other a cold case from 2002. Starring Titus Welliver, Jamie Hector, Tara Buck, Nikhil Pai, Cheryl Francis Harrington, and narrated by Miles Chapin. Based on the best selling novels by Michael Connelly, Stream the New Season of Amazon's Original Series BOSCH on March 11th on Amazon Prime Video.</subtitle>
     <icon>http://panoply-prod.s3.amazonaws.com/podcasts/284473a6-e31d-11e5-ade8-af21a0ed8fd5/image/uploads_2F1457215002374-h59nsjwrtq6nipb9-cf7306ddc41563b8c9cebc1c2797e2ea_2FCUSTOM.AmazonBOSCH1400x1400wPanoply.jpg</icon>
-    <link
-            href="https://feeds.betterfeeds.org/afinemistofblood.atom"
-            rel="self" type="application/atom+xml; charset=utf-8" title="A Fine Mist Of Blood"/>
-    <link
-            href="http://feeds.feedburner.com/BoschAFineMistOfBlood"
-            rel="archives" type="application/rss+xml" title="A Fine Mist of Blood - Official"/>
-    <link
-            href="http://www.amazon.com/gp/product/B01AB17IGQ"
-            rel="alternate" type="text/html"/>
+    <link href="https://feeds.betterfeeds.org/afinemistofblood.atom" rel="self" type="application/atom+xml; charset=utf-8" title="A Fine Mist Of Blood"/>
+    <link href="http://feeds.feedburner.com/BoschAFineMistOfBlood" rel="archives" type="application/rss+xml" title="A Fine Mist of Blood - Official"/>
+    <link href="http://www.amazon.com/gp/product/B01AB17IGQ" rel="alternate" type="text/html"/>
     <id>https://feeds.betterfeeds.org/afinemistofblood.atom</id>
     <updated>2016-07-20T12:10:00Z</updated>
     <author>
@@ -30,18 +16,11 @@
     <entry>
         <title>Part 3</title>
         <smi:episode>3</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_3.html"/>
+        <link rel="alternate" type="text/html" href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_3.html"/>
         <id>http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_3.html</id>
         <published>2016-03-11T05:01:03.000Z</published>
         <updated>2016-06-24T20:06:00Z</updated>
-        <link
-                href="http://cdn.panoply.fm/PNC5292410752.mp3"
-                rel="enclosure"
-                length="29486888"
-                type="audio/mp3"/>
+        <link href="http://cdn.panoply.fm/PNC5292410752.mp3" rel="enclosure" length="29486888" type="audio/mp3"/>
         <contributor>
             <name>Michael Connelly</name>
             <uri>http://www.michaelconnelly.com/</uri>
@@ -67,18 +46,11 @@
     <entry>
         <title>Part 2</title>
         <smi:episode>2</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_2.html"/>
+        <link rel="alternate" type="text/html" href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_2.html"/>
         <id>http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/a_fine_mist_of_blood_part_2.html</id>
         <published>2016-03-11T05:00:55.000Z</published>
         <updated>2016-06-24T20:03:00Z</updated>
-        <link
-                href="http://cdn.panoply.fm/PNC6525119469.mp3"
-                rel="enclosure"
-                length="27590519"
-                type="audio/mp3"/>
+        <link href="http://cdn.panoply.fm/PNC6525119469.mp3" rel="enclosure" length="27590519" type="audio/mp3"/>
         <contributor>
             <name>Michael Connelly</name>
             <uri>http://www.michaelconnelly.com/</uri>
@@ -104,18 +76,11 @@
     <entry>
         <title>Part 1</title>
         <smi:episode>1</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/bosch_a_fine_mist_of_blood_part_1.html"/>
+        <link rel="alternate" type="text/html" href="http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/bosch_a_fine_mist_of_blood_part_1.html"/>
         <id>http://www.slate.com/articles/podcasts/bosch_amazon/2016/03/bosch_a_fine_mist_of_blood_part_1.html</id>
         <published>2016-03-11T05:00:47.000Z</published>
         <updated>2016-06-24T19:56:00Z</updated>
-        <link
-                href="http://cdn.panoply.fm/PNC5262706296.mp3"
-                rel="enclosure"
-                length="39054092"
-                type="audio/mp3"/>
+        <link href="http://cdn.panoply.fm/PNC5262706296.mp3" rel="enclosure" length="39054092" type="audio/mp3"/>
         <contributor>
             <name>Michael Connelly</name>
             <uri>http://www.michaelconnelly.com/</uri>

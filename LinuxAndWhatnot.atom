@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed
-        xml:lang="en-us"
-        xmlns="http://www.w3.org/2005/Atom"
-        xmlns:smi="https://www.betterfeeds.org/series-media-info"
-        xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us">
     <title>Nerds &amp; Whatnot</title>
     <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
         on &lt;a href=&quot;https://www.youtube.com/user/BryanLunduke&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
@@ -12,31 +8,18 @@
         &lt;p&gt;No ads. None. Because ads get annoying.&lt;/p&gt;
     </subtitle>
     <icon>https://lundukewhatnot.files.wordpress.com/2016/08/luinduke2.png</icon>
-    <link
-            href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom"
-            rel="self" type="application/atom+xml; charset=utf-8" title="Linux &amp; Whatnot"/>
-    <link
-            href="https://lundukewhatnot.wordpress.com/"
-            rel="alternate" type="text/html"/>
-    <link
-            href="http://feeds.feedburner.com/LundukeWhatnotwithMatt"
-            rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Official"/>
-    <link
-            href="https://lundukewhatnot.wordpress.com/osd.xml"
-            rel="search" type="application/opensearchdescription+xml" title="Linux &amp; Whatnot"/>
-    <link
-            href="https://www.youtube.com/user/BryanLunduke/videos"
-            rel="archives" type="text/html" title="Youtube"/>
+    <link href="https://feeds.betterfeeds.org/LinuxAndWhatnot.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Linux &amp; Whatnot"/>
+    <link href="https://lundukewhatnot.wordpress.com/" rel="alternate" type="text/html"/>
+    <link href="http://feeds.feedburner.com/LundukeWhatnotwithMatt" rel="archives" type="application/rss+xml" title="Linux &amp; Whatnot - Official"/>
+    <link href="https://lundukewhatnot.wordpress.com/osd.xml" rel="search" type="application/opensearchdescription+xml" title="Linux &amp; Whatnot"/>
+    <link href="https://www.youtube.com/user/BryanLunduke/videos" rel="archives" type="text/html" title="Youtube"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
     <updated>2016-10-18T15:40:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <entry>
         <title>Pete Mitchell of the band &quot;No More Kings&quot;</title>
         <smi:episode>11</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=gqmGqkbd0eM"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gqmGqkbd0eM"/>
         <id>https://www.youtube.com/watch?v=gqmGqkbd0eM</id>
         <published>2016-10-13T18:20:00Z</published>
         <updated>2016-10-18T15:35:00Z</updated>
@@ -53,10 +36,7 @@
     <entry>
         <title>Matrix/Riot Decentralized</title>
         <smi:episode>10</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=LhCfI-xdvlE"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=LhCfI-xdvlE"/>
         <id>https://www.youtube.com/watch?v=LhCfI-xdvlE</id>
         <published>2016-10-10T18:20:00Z</published>
         <updated>2016-10-18T15:34:00Z</updated>
@@ -81,25 +61,12 @@
     <entry>
         <title>FreeDOS Founder (Jim Hall)</title>
         <smi:episode>9</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=hzRZ6kgFPyY"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=hzRZ6kgFPyY"/>
         <id>https://lundukewhatnot.wordpress.com/2016/10/04/linux-whatnot-freedos-founder-jim-hall/</id>
         <published>2016-10-04T22:21:50Z</published>
         <updated>2016-10-05T13:35:00Z</updated>
-        <link
-                href="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3"
-                rel="enclosure"
-                length="67299143"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3"
-                fileSize="67299143"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3486"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3" rel="enclosure" length="67299143" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LinuxWhatnotFreeDOSFounder_201610/LinuxWhatnotFreeDOSFounder.mp3" fileSize="67299143" type="audio/mpeg" medium="audio" duration="3486" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -117,25 +84,12 @@
     <entry>
         <title>Creative Commons CEO</title>
         <smi:episode>8</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=E2QNPNyi0b0"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=E2QNPNyi0b0"/>
         <id>https://lundukewhatnot.wordpress.com/2016/09/20/linux-whatnot-creative-commons-ceo-ryan-merkley/</id>
         <published>2016-09-20T07:18:21Z</published>
         <updated>2016-09-23T12:41:00Z</updated>
-        <link
-                href="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
-                rel="enclosure"
-                length="72671773"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3"
-                fileSize="72671773"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3527"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3" rel="enclosure" length="72671773" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LinuxWhatnotCreativeCommons/Linux%20&amp;%20Whatnot%20-%20Creative%20Commons.mp3" fileSize="72671773" type="audio/mpeg" medium="audio" duration="3527" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -153,25 +107,12 @@
     <entry>
         <title>EOMA68 PCMCIA Modular Computer</title>
         <smi:episode>7</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=7c_YTX06TL0"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=7c_YTX06TL0"/>
         <id>https://lundukewhatnot.wordpress.com/2016/09/03/linux-whatnot-eoma68-pcmcia-modular-computer/</id>
         <published>2016-09-03T00:34:28Z</published>
         <updated>2016-09-23T12:40:00Z</updated>
-        <link
-                href="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
-                rel="enclosure"
-                length="85136702"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3"
-                fileSize="85136702"
-                type="audio/mpeg"
-                medium="audio"
-                duration="4022"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3" rel="enclosure" length="85136702" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LinuxWhatnotEOMA68PCMCIAModularComputer/Linux%20&amp;%20Whatnot%20-%20EOMA68%20PCMCIA%20Modular%20Computer.mp3" fileSize="85136702" type="audio/mpeg" medium="audio" duration="4022" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -193,25 +134,12 @@
     <entry>
         <title>KDE, Unity, Pantheon (Desktop Environments)</title>
         <smi:episode>6</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=IspHmBsg4BA"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IspHmBsg4BA"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/</id>
         <published>2016-08-26T23:17:23Z</published>
         <updated>2016-09-23T13:26:00Z</updated>
-        <link
-                href="http://archive.org/download/Whatnot006/Whatnot006.mp3"
-                rel="enclosure"
-                length="94809888"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/Whatnot006/Whatnot006.mp3"
-                fileSize="94809888"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3431"
-                isDefault="true"/>
+        <link href="http://archive.org/download/Whatnot006/Whatnot006.mp3" rel="enclosure" length="94809888" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/Whatnot006/Whatnot006.mp3" fileSize="94809888" type="audio/mpeg" medium="audio" duration="3431" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -237,25 +165,12 @@
     <entry>
         <title>The Linux YouTubers</title>
         <smi:episode>5</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=Sb7UmXhs32M"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Sb7UmXhs32M"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/20/linux-whatnot-the-linux-youtubers/</id>
         <published>2016-08-20T20:43:40Z</published>
         <updated>2016-09-23T12:34:00Z</updated>
-        <link
-                href="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
-                rel="enclosure"
-                length="109792618"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3"
-                fileSize="109792618"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3946"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3" rel="enclosure" length="109792618" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LinuxWhatnotTheLinuxYouTubersTweakedAudio/Linux%20%26%20Whatnot%20-%20The%20Linux%20YouTubers-tweaked-audio.mp3" fileSize="109792618" type="audio/mpeg" medium="audio" duration="3946" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -281,25 +196,12 @@
     <entry>
         <title>Solus, elementary and Ubuntu-MATE</title>
         <smi:episode>4</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=OgBQ1tOvFcI"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=OgBQ1tOvFcI"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/11/lunduke-and-whatnot-solus-elementary-and-ubuntu-mate/</id>
         <published>2016-08-11T16:58:48Z</published>
         <updated>2016-09-23T12:27:00Z</updated>
-        <link
-                href="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
-                rel="enclosure"
-                length="93640600"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3"
-                fileSize="93640600"
-                type="audio/mpeg"
-                medium="audio"
-                duration="4359"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3" rel="enclosure" length="93640600" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LundukeWhatnotSolusElementaryUbuntuMATE/Lunduke%20%26%20Whatnot%20-%20Solus%2c%20elementary%20%26%20Ubuntu-MATE.mp3" fileSize="93640600" type="audio/mpeg" medium="audio" duration="4359" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -325,25 +227,12 @@
     <entry>
         <title>Dell. System76.</title>
         <smi:episode>3</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=9OBdJq5BbFY"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9OBdJq5BbFY"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/02/lunduke-and-whatnot-with-matt-episode-3-dell-system76/</id>
         <published>2016-08-02T20:21:10Z</published>
         <updated>2016-09-23T12:23:00Z</updated>
-        <link
-                href="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
-                rel="enclosure"
-                length="82173929"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3"
-                fileSize="82173929"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3905"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3" rel="enclosure" length="82173929" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LundukeWhatnotTheLinuxLaptopMakersDellSystem76/Lunduke%20%26%20Whatnot%20-%20The%20Linux%20Laptop%20Makers%2c%20Dell%20%26%20System76.mp3" fileSize="82173929" type="audio/mpeg" medium="audio" duration="3905" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -365,25 +254,12 @@
     <entry>
         <title>Tech Journalism Roundtable</title>
         <smi:episode>2</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=1sTHTdLaSjM"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1sTHTdLaSjM"/>
         <id>https://lundukewhatnot.wordpress.com/2016/07/25/lunduke-and-whatnot-tech-journalism-roundtable/</id>
         <published>2016-07-25T20:34:34Z</published>
         <updated>2016-09-23T12:16:00Z</updated>
-        <link
-                href="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
-                rel="enclosure"
-                length="86873083"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3"
-                fileSize="86873083"
-                type="audio/mpeg"
-                medium="audio"
-                duration="4020"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3" rel="enclosure" length="86873083" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LundukeWhatnotTechJournalismRoundtable/Lunduke%20%26%20Whatnot%20-%20Tech%20Journalism%20Roundtable.mp3" fileSize="86873083" type="audio/mpeg" medium="audio" duration="4020" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
@@ -407,25 +283,12 @@
     <entry>
         <title>Ubuntu 10-inch Tablet</title>
         <smi:episode>1</smi:episode>
-        <link
-                rel="alternate"
-                type="text/html"
-                href="https://www.youtube.com/watch?v=rFQFSxxyqwk"/>
+        <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=rFQFSxxyqwk"/>
         <id>https://lundukewhatnot.wordpress.com/2016/07/18/lunduke-and-whatnot-ubuntu-10-inch-tablet/</id>
         <published>2016-07-18T20:42:05Z</published>
         <updated>2016-09-23T12:10:00Z</updated>
-        <link
-                href="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
-                rel="enclosure"
-                length="72516342"
-                type="audio/mpeg"/>
-        <media:content
-                url="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3"
-                fileSize="72516342"
-                type="audio/mpeg"
-                medium="audio"
-                duration="3243"
-                isDefault="true"/>
+        <link href="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3" rel="enclosure" length="72516342" type="audio/mpeg"/>
+        <media:content url="http://archive.org/download/LundukeWhatnotUbuntu10InchTablet/Lunduke%20%26%20Whatnot%20-%20Ubuntu%2010-inch%20Tablet.mp3" fileSize="72516342" type="audio/mpeg" medium="audio" duration="3243" isDefault="true"/>
         <author>
             <name>Bryan Lunduke</name>
             <uri>http://lunduke.com/</uri>
