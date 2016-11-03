@@ -23,8 +23,8 @@
         <id>https://feeds.betterfeeds.org/examples/multilingual.atom#1</id>
         <published>2016-11-03T15:08:01-07:00</published>
         <updated>2016-11-03T15:10:00Z</updated>
-        <content type="html" xml:lang="en-GB">English</content>
-        <content type="html" xml:lang="en-US">English (US)</content>
-        <content type="html" xml:lang="fr-FR">French</content>
+        <content xml:lang="en-GB">English</content>
+        <content xml:lang="en-US">English (US)</content>
+        <content xml:lang="fr-FR">French</content>
     </entry>
 </feed>
