@@ -7,7 +7,7 @@
     <link href="https://duckduckgo.com/?ia=web&amp;q=English+link" rel="alternate" type="text/html" hreflang="en"/>
     <link href="https://duckduckgo.com/?ia=web&amp;q=French+link" rel="alternate" type="text/html" hreflang="fr"/>
     <id>https://feeds.betterfeeds.org/examples/multilingual.atom</id>
-    <updated>2016-11-03T15:10:00Z</updated>
+    <updated>2016-11-03T15:52:00Z</updated>
     <author>
         <name>Cj Malone</name>
         <email>CjMalone@mail.com</email>
@@ -26,5 +26,16 @@
         <content xml:lang="en-GB">English</content>
         <content xml:lang="en-US">English (US)</content>
         <content xml:lang="fr-FR">French</content>
+    </entry>
+    <entry>
+        <title xml:lang="en">English Title</title>
+        <title xml:lang="fr">French Title</title>
+        <link href="https://duckduckgo.com/?ia=web&amp;q=English+link" rel="alternate" type="text/html" hreflang="en"/>
+        <link href="https://duckduckgo.com/?ia=web&amp;q=French+link" rel="alternate" type="text/html" hreflang="fr"/>
+        <id>https://feeds.betterfeeds.org/examples/multilingual.atom#2</id>
+        <published>2016-11-03T15:51:01-07:00</published>
+        <updated>2016-11-03T15:51:00Z</updated>
+        <content xml:lang="en">English</content>
+        <content xml:lang="fr">French</content>
     </entry>
 </feed>
