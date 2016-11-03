@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title xml:lang="fr-FR">French Title</title>
+    <title xml:lang="en-US">English (US) Title</title>
+    <title xml:lang="en-GB">English Title</title>
+    <link href="https://feeds.betterfeeds.org/examples/multilingual.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Technical Details"/>
+    <link href="https://duckduckgo.com/?ia=web&amp;q=English+link" rel="alternate" type="text/html" hreflang="en"/>
+    <link href="https://duckduckgo.com/?ia=web&amp;q=French+link" rel="alternate" type="text/html" hreflang="fr"/>
+    <id>https://feeds.betterfeeds.org/examples/multilingual.atom</id>
+    <updated>2016-11-03T15:10:00Z</updated>
+    <author>
+        <name>Cj Malone</name>
+        <email>CjMalone@mail.com</email>
+        <uri>https://plus.google.com/107308963997110889954</uri>
+    </author>
+    <entry>
+        <title xml:lang="en-US">English (US) Title</title>
+        <title xml:lang="fr-FR">French Title</title>
+        <title xml:lang="en-GB">English Title</title>
+        <link href="https://duckduckgo.com/?ia=web&amp;q=English+(US)+link" rel="alternate" type="text/html" hreflang="en-US"/>
+        <link href="https://duckduckgo.com/?ia=web&amp;q=English+link" rel="alternate" type="text/html" hreflang="en-GB"/>
+        <link href="https://duckduckgo.com/?ia=web&amp;q=French+link" rel="alternate" type="text/html" hreflang="fr-FR"/>
+        <id>https://feeds.betterfeeds.org/examples/multilingual.atom#1</id>
+        <published>2016-11-03T15:08:01-07:00</published>
+        <updated>2016-11-03T15:10:00Z</updated>
+        <content type="html" xml:lang="en-GB">English</content>
+        <content type="html" xml:lang="en-US">English (US)</content>
+        <content type="html" xml:lang="fr-FR">French</content>
+    </entry>
+</feed>
