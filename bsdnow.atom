@@ -83,9 +83,9 @@
 
             &lt;ul&gt;
             &lt;li&gt;The NCCGroup did a series of fuzz testing against the OpenBSD syscall interface, during which they found a number of vulnerabilities, we covered this back in the early summer&lt;/li&gt;
-            &lt;li&gt;What we didn’t notice, is that they also made the tools they used available.&lt;/li&gt;
-            &lt;li&gt;A combination of AFL (American Fuzzy Lop), QEMU, OpenBSD’s FlashRD image generation tool, and the “Triforce” driver&lt;/li&gt;
-            &lt;li&gt;The other requirement is “a Linux box as host to run the fuzzer (other fuzzer hosts may work as well, we've only run TriforceAFL from a Linux host, specifically Debian/Ubuntu”&lt;/li&gt;
+            &lt;li&gt;What we didn't notice, is that they also made the tools they used available.&lt;/li&gt;
+            &lt;li&gt;A combination of AFL (American Fuzzy Lop), QEMU, OpenBSD's FlashRD image generation tool, and the &quot;Triforce&quot; driver&lt;/li&gt;
+            &lt;li&gt;The other requirement is &quot;a Linux box as host to run the fuzzer (other fuzzer hosts may work as well, we've only run TriforceAFL from a Linux host, specifically Debian/Ubuntu&quot;&lt;/li&gt;
             &lt;li&gt;It would be interesting to see if someone could get this to run from a BSD host&lt;/li&gt;
             &lt;li&gt;It would also be interesting to run the same tests against the other BSDs&lt;/li&gt;
             &lt;/ul&gt;
@@ -112,7 +112,7 @@
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The paper goes on to talk about the invention of other important tools, such as “grep”, “diff” and more. Well worth your time if you want a glimpse into the history of UNIX&lt;/li&gt;
+            &lt;li&gt;The paper goes on to talk about the invention of other important tools, such as &quot;grep&quot;, &quot;diff&quot; and more. Well worth your time if you want a glimpse into the history of UNIX&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -121,8 +121,8 @@
 
             &lt;ul&gt;
             &lt;li&gt;Mark Felder writes a blog post explaining how to speed up MySQL bulk data imports&lt;/li&gt;
-            &lt;li&gt;“I was recently tasked with rebuilding a readonly slave database server which only slaves a couple of the available databases. The backup/dump is straightforward and fast, but the restore was being excruciatingly slow. I didn't want to wait a week for this thing to finish, so I had to compile a list of optimizations that would speed up the process. This is the best way to do it on FreeBSD, assuming you're working with InnoDB. Additional optimizations may be required if you're using a different database engine.”&lt;/li&gt;
-            &lt;li&gt;“Please note this is assuming no other databases are running on this MySQL instance. Some of these are rather dangerous and you wouldn't want to put other live data at risk.”&lt;/li&gt;
+            &lt;li&gt;&quot;I was recently tasked with rebuilding a readonly slave database server which only slaves a couple of the available databases. The backup/dump is straightforward and fast, but the restore was being excruciatingly slow. I didn't want to wait a week for this thing to finish, so I had to compile a list of optimizations that would speed up the process. This is the best way to do it on FreeBSD, assuming you're working with InnoDB. Additional optimizations may be required if you're using a different database engine.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Please note this is assuming no other databases are running on this MySQL instance. Some of these are rather dangerous and you wouldn't want to put other live data at risk.&quot;&lt;/li&gt;
             &lt;li&gt;Most of the changes are meant to be temporary, used on a new server to import a dump of the database, then the settings are to be turned off.&lt;/li&gt;
             &lt;li&gt;&lt;p&gt;Specifically:&lt;/p&gt;
 
@@ -155,11 +155,11 @@
             &lt;h3&gt;&lt;a href="https://cwharton.com/blog/2016/10/postgresql-and-freebsd-quick-start/"&gt;PostgreSQL and FreeBSD Quick Start&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;There’s lots of databases to choose from, but Postgres always has a special place on FreeBSD. Today we have a look at a ‘getting started’ guide for those taking the plunge and using it for the first time.&lt;/li&gt;
-            &lt;li&gt;Naturally getting started will look familiar to many, a couple simple “pkg” and “sysrc” commands later, and you’ll be set.&lt;/li&gt;
-            &lt;li&gt;After starting the service (With the “service” command) you’ll be ready to start setting up your postgres instance.&lt;/li&gt;
-            &lt;li&gt;Next up you’ll need to create your initial user/password combo, and a database with access granted to this particular user.&lt;/li&gt;
-            &lt;li&gt;If you plan to enable remote access to this DB server, you’ll need to make some adjustments to one of the .conf files, allowing other IP’s to connect. (If you are hosting something on the same system, this may not be needed)&lt;/li&gt;
+            &lt;li&gt;There's lots of databases to choose from, but Postgres always has a special place on FreeBSD. Today we have a look at a 'getting started' guide for those taking the plunge and using it for the first time.&lt;/li&gt;
+            &lt;li&gt;Naturally getting started will look familiar to many, a couple simple &quot;pkg&quot; and &quot;sysrc&quot; commands later, and you'll be set.&lt;/li&gt;
+            &lt;li&gt;After starting the service (With the &quot;service&quot; command) you'll be ready to start setting up your postgres instance.&lt;/li&gt;
+            &lt;li&gt;Next up you'll need to create your initial user/password combo, and a database with access granted to this particular user.&lt;/li&gt;
+            &lt;li&gt;If you plan to enable remote access to this DB server, you'll need to make some adjustments to one of the .conf files, allowing other IP's to connect. (If you are hosting something on the same system, this may not be needed)&lt;/li&gt;
             &lt;li&gt;Now yous should be good to go! Enjoy using your brand new Postgres database. If this is your first rodeo, maybe start with something easy, like Apache or Nginx + Wordpress to try it out.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -170,8 +170,8 @@
             &lt;h3&gt;&lt;a href="https://www.youtube.com/watch?v=KE_7E1pXy5c"&gt;OpenBSD vmm hypervisor test drive&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;As we asked for a week or two ago, someone has taken OpenBSD’s vmm for a test drive, and made a video of it&lt;/li&gt;
-            &lt;li&gt;The command line interface for vmm, vmctl, looks quite easy to use. It takes an approach much closer to some of the bhyve management frameworks, rather than bhyve’s rather confusing set of switches&lt;/li&gt;
+            &lt;li&gt;As we asked for a week or two ago, someone has taken OpenBSD's vmm for a test drive, and made a video of it&lt;/li&gt;
+            &lt;li&gt;The command line interface for vmm, vmctl, looks quite easy to use. It takes an approach much closer to some of the bhyve management frameworks, rather than bhyve's rather confusing set of switches&lt;/li&gt;
             &lt;li&gt;It also has a config file, the format of which looks very similar to what I designed for bhyveucl, and my first effort to integrate a config file into bhyve itself.&lt;/li&gt;
             &lt;li&gt;The video also looks at accessing the console, configuring the networking, and doing an OpenBSD install in a fresh VM&lt;/li&gt;
             &lt;li&gt;Currently vmm only supports running OpenBSD VMs&lt;/li&gt;
@@ -184,10 +184,10 @@
             &lt;ul&gt;
             &lt;li&gt;Wow, November is already upon us with the Holidays just around the corner. Before things get lost in the noise we wanted to highlight this update from the FreeBSD foundation.&lt;/li&gt;
             &lt;li&gt;Before getting into the stories, they helpfully provide a list of upcoming conferences for this fall/winter, which includes a couple of USENIX gatherings, and the Developer Summit / MeetBSD next week.
-            +The foundation gives us a quick hardware update initially, discussing some of the new ThunderX Cavium servers which are deployed (ARMv8 64Bit) and yes I’m drooling a bit. They also mention that work is ongoing for the RPi3 platform and PINE64.&lt;/li&gt;
+            +The foundation gives us a quick hardware update initially, discussing some of the new ThunderX Cavium servers which are deployed (ARMv8 64Bit) and yes I'm drooling a bit. They also mention that work is ongoing for the RPi3 platform and PINE64.&lt;/li&gt;
             &lt;li&gt;GNN also has an article reprinted from the FreeBSD journal, talking about the achievement of making it to 11.0 over the span of 23 years now. Of course he mentions that the foundation is open to all, and welcomes donations to continue to keep up this tradition of good work being done.&lt;/li&gt;
-            &lt;li&gt;Deb Goodkin gives us an update on the “Grace Hopper” convention that took place in Houston TX several weeks back. Roughly 14k women in Tech attended, which is a great turnout, and FreeBSD was well represented there.&lt;/li&gt;
-            &lt;li&gt;Next we have a call to potential speakers, don’t forget that there are plenty of places you can help present about FreeBSD, not just at *BSD centered conferences, but the SCALES of the world as well.&lt;/li&gt;
+            &lt;li&gt;Deb Goodkin gives us an update on the &quot;Grace Hopper&quot; convention that took place in Houston TX several weeks back. Roughly 14k women in Tech attended, which is a great turnout, and FreeBSD was well represented there.&lt;/li&gt;
+            &lt;li&gt;Next we have a call to potential speakers, don't forget that there are plenty of places you can help present about FreeBSD, not just at *BSD centered conferences, but the SCALES of the world as well.&lt;/li&gt;
             &lt;li&gt;We wrap up with a look at EuroBSDCon 2016, quite a nice writeup, again brought to us by Deb at the foundation, and includes a list of some of those recognized for their contributions to FreeBSD.&lt;/li&gt;
             &lt;/ul&gt;
 
@@ -218,14 +218,14 @@
             &lt;li&gt;OpenBSD on a laptop? Difficult? Not hardly.&lt;/li&gt;
             &lt;li&gt;We have a great walkthrough by Keith Burnett, which demonstrates just how easy it can be to get up and running with an XFCE desktop from a fresh OpenBSD installation.&lt;/li&gt;
             &lt;li&gt;For those curious,this was all done with a Thinkpad X60 and 120GB SSD and OpenBSD 6.0.&lt;/li&gt;
-            &lt;li&gt;He doesn’t really cover the install process itself, that is well covered by the link to the OpenBSD FAQ pages.&lt;/li&gt;
+            &lt;li&gt;He doesn't really cover the install process itself, that is well covered by the link to the OpenBSD FAQ pages.&lt;/li&gt;
             &lt;li&gt;Once the system is up and running though, we start with the most important portion, getting working internet access (Via wifi)&lt;/li&gt;
-            &lt;li&gt;Really just a few ‘ifconfig’ commands later and we are in business.&lt;/li&gt;
-            &lt;li&gt;Step 2 was getting the package configuration going. (I’ve never understood why this is still a thing, but no fret, its easy enough to do)&lt;/li&gt;
-            &lt;li&gt;With package repos available, now you can grab the binaries for XFCE and friends with just a few simple “pkg_add” commands&lt;/li&gt;
+            &lt;li&gt;Really just a few 'ifconfig' commands later and we are in business.&lt;/li&gt;
+            &lt;li&gt;Step 2 was getting the package configuration going. (I've never understood why this is still a thing, but no fret, its easy enough to do)&lt;/li&gt;
+            &lt;li&gt;With package repos available, now you can grab the binaries for XFCE and friends with just a few simple &quot;pkg_add&quot; commands&lt;/li&gt;
             &lt;li&gt;Steps 4-6 are some specific bits to enable XFCE services, and some handy things such as setting doas permissions to get USB mounting working (For graphical mount/unmount)&lt;/li&gt;
-            &lt;li&gt;Lastly, keeping the system updated is important, so we have a nice tutorial on how to do that as well, using a handy “openup” script, which takes some of the guesswork out of it.&lt;/li&gt;
-            &lt;li&gt;Bonus! Steps for doing FDE as also included, which isn’t for everyone, but you may want it&lt;/li&gt;
+            &lt;li&gt;Lastly, keeping the system updated is important, so we have a nice tutorial on how to do that as well, using a handy &quot;openup&quot; script, which takes some of the guesswork out of it.&lt;/li&gt;
+            &lt;li&gt;Bonus! Steps for doing FDE as also included, which isn't for everyone, but you may want it&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
