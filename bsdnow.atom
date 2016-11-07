@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-10-28T10:33:00Z</updated>
+    <updated>2016-11-07T13:39:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -32,10 +32,10 @@
     <entry>
         <title>Pass that UNIX Pipe</title>
         <smi:episode>166</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/104421/pass-that-unix-pipe-bsd-now-166/"/>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_11_02-pass_that_unix_pipe"/>
         <id>http://www.bsdnow.tv/episodes/2016_11_02-pass-that-unix-pipe</id>
         <published>2016-11-03T01:44:29-07:00</published>
-        <updated>2016-11-03T13:04:00Z</updated>
+        <updated>2016-11-07T13:39:00Z</updated>
         <link href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0166.mp3" rel="enclosure" length="26716882" type="audio/ogg"/>
         <media:group>
             <media:content url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0166.mp3" fileSize="26716882" type="audio/mpeg" medium="audio" duration="" isDefault="true"/>
@@ -76,5 +76,186 @@
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
         <summary>This week on the show, we're loaded up with great stories ranging from System call fuzzing, a history of UNIX Pipes, speeding up MySQL imports &amp; more. Stay tuned, BSDNow is coming your way right now.</summary>
+        <content type="html">&lt;h1&gt;Episode 166: Pass that UNIX Pipe&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href="https://github.com/nccgroup/TriforceOpenBSDFuzzer"&gt;System call fuzzing of OpenBSD amd64 using TriforceAFL (i.e. AFL and QEMU)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The NCCGroup did a series of fuzz testing against the OpenBSD syscall interface, during which they found a number of vulnerabilities, we covered this back in the early summer&lt;/li&gt;
+            &lt;li&gt;What we didn’t notice, is that they also made the tools they used available.&lt;/li&gt;
+            &lt;li&gt;A combination of AFL (American Fuzzy Lop), QEMU, OpenBSD’s FlashRD image generation tool, and the “Triforce” driver&lt;/li&gt;
+            &lt;li&gt;The other requirement is “a Linux box as host to run the fuzzer (other fuzzer hosts may work as well, we've only run TriforceAFL from a Linux host, specifically Debian/Ubuntu”&lt;/li&gt;
+            &lt;li&gt;It would be interesting to see if someone could get this to run from a BSD host&lt;/li&gt;
+            &lt;li&gt;It would also be interesting to run the same tests against the other BSDs&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="http://people.fas.harvard.edu/~lib113/reference/unix/unix2.html"&gt;On the Early History and Impact of Unix: the Introduction of Pipes&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Pipes are something we just take for granted today, but there was a time before pipes (How did anything get done?)&lt;/li&gt;
+            &lt;li&gt;Ronda Hauben writes up a great look back at the beginning of UNIX, and specifically at how pipes were born:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;One of the important developments in Unix was the introduction of pipes. Pipes had been suggested by McIlroy during the early days of creating Unix. Ritchie explains how "the idea, explained one afternoon on a blackboard, intrigued us but failed to ignite any immediate action. There were several objections to the idea as put....What a failure of imagination," he admits.(35) McIlroy concurs, describing how the initial effort to add pipes to Unix occurred about the same time in 1969 that Ritchie, Thompson and Canaday were outlining ideas for a file system. "That was when," he writes, "the simple pipeline as a way to combine programs, with data notationally propagating along a chain of (not necessarily concurrent) filters was articulated."(36) However, pipes weren't implemented in Unix until 1972. &lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We also have a great quote from McIlroy on the day pipes were first introduced:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Open Systems! Our Systems! How well those who were there remember the pipe-festooned garret where Unix took form. The excitement of creation drew people to work there amidst the whine of the computer's cool- ing fans, even though almost the same computer ac- cess, could be had from one's office or from home. Those raw quarters saw a procession of memorable events. The advent of software pipes precipitated a day-long orgy of one-liners....As people reveled in the power of functional composition in the large, which is even today unavailable to users of other systems.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The paper goes on to talk about the invention of other important tools, such as “grep”, “diff” and more. Well worth your time if you want a glimpse into the history of UNIX&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="https://blog.feld.me/posts/2016/09/speeding-up-mysql-import-on-freebsd/"&gt;Speeding up MySQL Import on FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Mark Felder writes a blog post explaining how to speed up MySQL bulk data imports&lt;/li&gt;
+            &lt;li&gt;“I was recently tasked with rebuilding a readonly slave database server which only slaves a couple of the available databases. The backup/dump is straightforward and fast, but the restore was being excruciatingly slow. I didn't want to wait a week for this thing to finish, so I had to compile a list of optimizations that would speed up the process. This is the best way to do it on FreeBSD, assuming you're working with InnoDB. Additional optimizations may be required if you're using a different database engine.”&lt;/li&gt;
+            &lt;li&gt;“Please note this is assuming no other databases are running on this MySQL instance. Some of these are rather dangerous and you wouldn't want to put other live data at risk.”&lt;/li&gt;
+            &lt;li&gt;Most of the changes are meant to be temporary, used on a new server to import a dump of the database, then the settings are to be turned off.&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Specifically:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;sync_binlog = 0&lt;/li&gt;
+            &lt;li&gt;innodb&lt;em&gt;flush&lt;/em&gt;log&lt;em&gt;at&lt;/em&gt;trx_commit = 0&lt;/li&gt;
+            &lt;li&gt;innodb-doublewrite = 0&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;He also prepends the following but of SQL before importing the data:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;set sql&lt;em&gt;log&lt;/em&gt;bin=0; set autocommit=0; set unique&lt;em&gt;checks=0; set foreign&lt;/em&gt;key_checks=0;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;You can also help yourself if your MySQL database lives on ZFS&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;zfs set recordsize=16k pool/var/db/mysql&lt;/li&gt;
+            &lt;li&gt;zfs set redundant_metadata=most pool/var/db/mysql&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Remember, this tuning is ONLY for the initial import, leaving these settings on long term risks losing 5-10 seconds of your data if the server reboots unexpectedly&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;zfs set sync=disabled pool/var/db/mysql&lt;/li&gt;
+            &lt;li&gt;zfs set logbias=throughput pool/var/db/mysql&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="https://cwharton.com/blog/2016/10/postgresql-and-freebsd-quick-start/"&gt;PostgreSQL and FreeBSD Quick Start&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There’s lots of databases to choose from, but Postgres always has a special place on FreeBSD. Today we have a look at a ‘getting started’ guide for those taking the plunge and using it for the first time.&lt;/li&gt;
+            &lt;li&gt;Naturally getting started will look familiar to many, a couple simple “pkg” and “sysrc” commands later, and you’ll be set.&lt;/li&gt;
+            &lt;li&gt;After starting the service (With the “service” command) you’ll be ready to start setting up your postgres instance.&lt;/li&gt;
+            &lt;li&gt;Next up you’ll need to create your initial user/password combo, and a database with access granted to this particular user.&lt;/li&gt;
+            &lt;li&gt;If you plan to enable remote access to this DB server, you’ll need to make some adjustments to one of the .conf files, allowing other IP’s to connect. (If you are hosting something on the same system, this may not be needed)&lt;/li&gt;
+            &lt;li&gt;Now yous should be good to go! Enjoy using your brand new Postgres database. If this is your first rodeo, maybe start with something easy, like Apache or Nginx + Wordpress to try it out.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href="https://www.youtube.com/watch?v=KE_7E1pXy5c"&gt;OpenBSD vmm hypervisor test drive&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;As we asked for a week or two ago, someone has taken OpenBSD’s vmm for a test drive, and made a video of it&lt;/li&gt;
+            &lt;li&gt;The command line interface for vmm, vmctl, looks quite easy to use. It takes an approach much closer to some of the bhyve management frameworks, rather than bhyve’s rather confusing set of switches&lt;/li&gt;
+            &lt;li&gt;It also has a config file, the format of which looks very similar to what I designed for bhyveucl, and my first effort to integrate a config file into bhyve itself.&lt;/li&gt;
+            &lt;li&gt;The video also looks at accessing the console, configuring the networking, and doing an OpenBSD install in a fresh VM&lt;/li&gt;
+            &lt;li&gt;Currently vmm only supports running OpenBSD VMs&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="https://www.freebsdfoundation.org/wp-content/uploads/2016/10/FreeBSD-Foundation-October-2016-Update.pdf"&gt;FreeBSD Foundation October 2016 Update&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Wow, November is already upon us with the Holidays just around the corner. Before things get lost in the noise we wanted to highlight this update from the FreeBSD foundation.&lt;/li&gt;
+            &lt;li&gt;Before getting into the stories, they helpfully provide a list of upcoming conferences for this fall/winter, which includes a couple of USENIX gatherings, and the Developer Summit / MeetBSD next week.
+            +The foundation gives us a quick hardware update initially, discussing some of the new ThunderX Cavium servers which are deployed (ARMv8 64Bit) and yes I’m drooling a bit. They also mention that work is ongoing for the RPi3 platform and PINE64.&lt;/li&gt;
+            &lt;li&gt;GNN also has an article reprinted from the FreeBSD journal, talking about the achievement of making it to 11.0 over the span of 23 years now. Of course he mentions that the foundation is open to all, and welcomes donations to continue to keep up this tradition of good work being done.&lt;/li&gt;
+            &lt;li&gt;Deb Goodkin gives us an update on the “Grace Hopper” convention that took place in Houston TX several weeks back. Roughly 14k women in Tech attended, which is a great turnout, and FreeBSD was well represented there.&lt;/li&gt;
+            &lt;li&gt;Next we have a call to potential speakers, don’t forget that there are plenty of places you can help present about FreeBSD, not just at *BSD centered conferences, but the SCALES of the world as well.&lt;/li&gt;
+            &lt;li&gt;We wrap up with a look at EuroBSDCon 2016, quite a nice writeup, again brought to us by Deb at the foundation, and includes a list of some of those recognized for their contributions to FreeBSD.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="https://github.com/adhokku/adhokku"&gt;Adhokku – a toy PaaS powered by FreeBSD jails and Ansible&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Described as a toy Platform-as-a-Service, Adhokku is an ansible based automated jail creation framework&lt;/li&gt;
+            &lt;li&gt;Based on the concept of Dokku, a single-host open source PaaS for Linux powered by Docker&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;When you deploy an application using Adhokku, Adhokku creates a new jail on the remote host and provisions it from a fixed clean state using the instructions in the Jailfile in your Git repository. All jails sit behind a reverse proxy that directs traffic to one of them based on the domain name or the IP address in the HTTP request. When a new jail has been provisioned for an application, Adhokku seamlessly reconfigures the reverse proxy to send traffic to it instead of the one currently active for that application.&lt;/p&gt;
+
+            &lt;p&gt;The following instructions show how to get Adhokku and an example application running in a VM on your development machine using Vagrant. This process should require no FreeBSD-specific knowledge, through modifying the Jailfile to customize the application may.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This seems like an interesting project, and it is good to see people developing workflows so users familiar with docker etc, can easily use BSD instead&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href="http://sohcahtoa.org.uk/openbsd.html"&gt;Installing OpenBSD 6.0 on your laptop is really hard (not)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenBSD on a laptop? Difficult? Not hardly.&lt;/li&gt;
+            &lt;li&gt;We have a great walkthrough by Keith Burnett, which demonstrates just how easy it can be to get up and running with an XFCE desktop from a fresh OpenBSD installation.&lt;/li&gt;
+            &lt;li&gt;For those curious,this was all done with a Thinkpad X60 and 120GB SSD and OpenBSD 6.0.&lt;/li&gt;
+            &lt;li&gt;He doesn’t really cover the install process itself, that is well covered by the link to the OpenBSD FAQ pages.&lt;/li&gt;
+            &lt;li&gt;Once the system is up and running though, we start with the most important portion, getting working internet access (Via wifi)&lt;/li&gt;
+            &lt;li&gt;Really just a few ‘ifconfig’ commands later and we are in business.&lt;/li&gt;
+            &lt;li&gt;Step 2 was getting the package configuration going. (I’ve never understood why this is still a thing, but no fret, its easy enough to do)&lt;/li&gt;
+            &lt;li&gt;With package repos available, now you can grab the binaries for XFCE and friends with just a few simple “pkg_add” commands&lt;/li&gt;
+            &lt;li&gt;Steps 4-6 are some specific bits to enable XFCE services, and some handy things such as setting doas permissions to get USB mounting working (For graphical mount/unmount)&lt;/li&gt;
+            &lt;li&gt;Lastly, keeping the system updated is important, so we have a nice tutorial on how to do that as well, using a handy “openup” script, which takes some of the guesswork out of it.&lt;/li&gt;
+            &lt;li&gt;Bonus! Steps for doing FDE as also included, which isn’t for everyone, but you may want it&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href="https://twitter.com/gvnn3/status/791475373380804608"&gt;Pi-top with RPi-3 and FreeBSD HEAD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://blog.netbsd.org/tnf/entry/netbsd_7_0_1_released1"&gt;NetBSD 7.0.2 released&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lists.dragonflybsd.org/pipermail/commits/2016-October/624851.html"&gt;DragonflyBSD - git: kernel - Fix mmcsd read/write issues&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://github.com/rafael-santiago/dev-enigma"&gt;A char device which implements an Enigma machine (FreeBSD &amp;amp; Linux)&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href="http://pastebin.com/ayzvCuaq"&gt; Matt - System Monitoring&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://pastebin.com/r5axPSE7"&gt; Tony - LLVM License&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://pastebin.com/MNxCvUtX"&gt; Ben - Thanks&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://pastebin.com/RswFASqW"&gt; David - Write Cache &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://pastebin.com/e317a32f"&gt; Charles - Fonts&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
     </entry>
 </feed>
