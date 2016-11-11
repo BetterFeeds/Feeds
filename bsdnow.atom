@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-11-07T13:39:00Z</updated>
+    <updated>2016-11-11T07:50:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,44 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Playing the Long Game</title>
+        <smi:episode>167</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/104596/playing-the-long-game-bsd-now-167/"/>
+        <id>http://www.bsdnow.tv/episodes/2016_11_09-playing-the-long-game</id>
+        <published>2016-11-10T08:44:38-08:00</published>
+        <updated>2016-11-11T06:56:00Z</updated>
+        <link href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0167.mp3" rel="enclosure" length="23127239" type="audio/ogg"/>
+        <media:group>
+            <media:content fileSize="23127239" duration="" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0167.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="40236616" duration="" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0167.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="167280618" duration="" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0167-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="322859161" duration="" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0167.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="322859161" duration="" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0167.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="85146" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/11/bsd-0167-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:45" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:03:50" title="Interview"/>
+            <psc:chapter start="00:34:40" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:36:30" title="Feedback/Questions"/>
+            <psc:chapter start="00:36:30" title="Zack – USB Config" href="http://pastebin.com/u77LE0Md"/>
+            <psc:chapter start="00:38:00" title="Jens – VMs, Jails and Containers" href="http://pastebin.com/8KwDK6ay"/>
+            <psc:chapter start="00:41:05" title="Ranko – Tarsnap Keys" href="http://pastebin.com/Kie3EcjN"/>
+            <psc:chapter start="00:42:50" title="Alex – OpenBSD in Hyper-V" href="http://pastebin.com/nRJQ7UPZ"/>
+            <psc:chapter start="00:43:40" title="Curt – Discussion Segment" href="http://pastebin.com/ndx25pQA"/>
+            <psc:chapter start="00:44:35" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Scott Long</name>
+            <email>scottl@freebsd.org</email>
+        </contributor>
+        <summary>This week on BSDNow, Allan &amp; Kris are out at MeetBSD, but we never forget our loyal listeners. We have a great interview Allan did with Scott Long of Netflix &amp; FreeBSD fame, as well as your questions on the place to B...SD!</summary>
+    </entry>
     <entry>
         <title>Pass that UNIX Pipe</title>
         <smi:episode>166</smi:episode>
