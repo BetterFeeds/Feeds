@@ -8,6 +8,6 @@ curl "http://feeds.feedburner.com/BsdNowMobile" | xmllint --format - > "$TMP/MP4
 curl "http://feeds.feedburner.com/BsdNowHd" | xmllint --format - > "$TMP/MP4-high"
 curl "http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed" | xmllint --format - > "$TMP/MP4-bt"
 
-gedit "$TMP/MP3" "$TMP/OGG" "$TMP/MP4-low" "$TMP/MP4-high" "$TMP/MP4-bt" 2> /dev/null
+$EDITOR "$TMP/MP3" "$TMP/OGG" "$TMP/MP4-low" "$TMP/MP4-high" "$TMP/MP4-bt"
 
 rm -rf "$TMP"
