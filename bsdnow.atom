@@ -32,7 +32,7 @@
     <entry>
         <title>Playing the Long Game</title>
         <smi:episode>167</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/104596/playing-the-long-game-bsd-now-167/"/>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_11_09-playing_the_long_game"/>
         <id>http://www.bsdnow.tv/episodes/2016_11_09-playing-the-long-game</id>
         <published>2016-11-10T08:44:38-08:00</published>
         <updated>2016-11-11T06:56:00Z</updated>
@@ -66,6 +66,31 @@
             <email>scottl@freebsd.org</email>
         </contributor>
         <summary>This week on BSDNow, Allan &amp; Kris are out at MeetBSD, but we never forget our loyal listeners. We have a great interview Allan did with Scott Long of Netflix &amp; FreeBSD fame, as well as your questions on the place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 167: Playing the Long Game&lt;/h1&gt;
+            &lt;h2&gt;Interview - Scott Long - &lt;a href=&quot;mailto:scottl@freebsd.org&quot;&gt;scottl@freebsd.org&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;FreeBSD &amp;amp; Netflix&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/u77LE0Md&quot;&gt;Zack - USB Config&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/8KwDK6ay&quot;&gt;Jens - VMs, Jails and Containers&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Kie3EcjN&quot;&gt;Ranko - Tarsnap Keys&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/nRJQ7UPZ&quot;&gt;Alex - OpenBSD in Hyper-V&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/ndx25pQA&quot;&gt;Curt - Discussion Segment&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
     </entry>
     <entry>
         <title>Pass that UNIX Pipe</title>
