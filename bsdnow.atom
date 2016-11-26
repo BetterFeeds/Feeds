@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-11-18T15:11:00Z</updated>
+    <updated>2016-11-26T18:36:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,348 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Scheduling your NetBSD</title>
+        <smi:episode>169</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_11_23-scheduling_your_netbsd"/>
+        <id>http://www.bsdnow.tv/episodes/2016_11_23-scheduling_your_netbsd</id>
+        <published>2016-11-24T00:19:49-08:00</published>
+        <updated>2016-11-24T15:53:00Z</updated>
+        <link length="42250126" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0169.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="42250126" duration="5257" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0169.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="66243441" duration="5257" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0169.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="306862627" duration="5257" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0169-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="592149833" duration="5257" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0169.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="592149833" duration="5257" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0169.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="84712" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/11/bsd-0169-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:50" title="Headlines"/>
+            <psc:chapter start="00:01:50" title="Production ready" href="http://www.tedunangst.com/flak/post/production-ready"/>
+            <psc:chapter start="00:06:55" title="Let's Encrypt on FreeBSD.org cluster" href="https://blog.crashed.org/letsencrypt-in-freebsd-org/"/>
+            <psc:chapter start="00:20:30" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:22:45" title="NetBSD scheduler bug" href="http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20161105_1754.html"/>
+            <psc:chapter start="00:31:25" title="Cost-Effective 100-Gbps Firewalls" href="https://www.nas.nasa.gov/SC16/demos/demo9.html"/>
+            <psc:chapter start="00:38:05" title="News Roundup"/>
+            <psc:chapter start="00:38:10" title="iocell – Jail manager" href="https://github.com/bartekrutkowski/iocell"/>
+            <psc:chapter start="00:44:00" title="Fail2ban on OpenBSD 6.0" href="http://blog.gordonturner.ca/2016/11/20/fail2ban-on-openbsd-6-0/"/>
+            <psc:chapter start="00:46:45" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:51:05" title="OpenBSD changes" href="http://www.tedunangst.com/flak/post/openbsd-changes-of-note"/>
+            <psc:chapter start="00:55:00" title="It came from Bell Labs" href="http://media.bemyapp.com/came-bell-labs/#"/>
+            <psc:chapter start="00:59:50" title="Beastie Bits"/>
+            <psc:chapter start="00:59:55" title="inks" href="http://www.tedunangst.com/flak/post/inks"/>
+            <psc:chapter start="01:01:15" title="&quot;PAM is Un-American&quot; talk now online" href="https://youtu.be/Mc2p6sx2s7k"/>
+            <psc:chapter start="01:01:30" title="Reddit advertising of &quot;PAM Mastery&quot;" href="http://blather.michaelwlucas.com/archives/2818"/>
+            <psc:chapter start="01:02:20" title="MeetBSD 2016 Report by Michael Dexter" href="https://www.ixsystems.com/blog/meetbsd-2016-report-michael-dexter/"/>
+            <psc:chapter start="01:03:55" title="Various CBSD Tutorials" href="https://www.bsdstore.ru/en/tutorial.html"/>
+            <psc:chapter start="01:04:30" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:06:25" title="Feedback/Questions"/>
+            <psc:chapter start="01:06:25" title="Dylan – Kaltura Alt" href="http://pastebin.com/6B96pVcm"/>
+            <psc:chapter start="01:10:10" title="Scott – ZFS in Low-Mem" href="http://pastebin.com/Hrp8qwkP"/>
+            <psc:chapter start="01:13:25" title="J – Mixing Ports &amp; Pkgs" href="http://pastebin.com/85q4Q3Xx"/>
+            <psc:chapter start="01:16:15" title="Trenton – Dtract &amp; PC-BSD" href="http://pastebin.com/RFKY0ERs"/>
+            <psc:chapter start="01:22:55" title="Ivan – ZFS Backups" href="http://pastebin.com/31uqW6vW"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>We're loaded and ready to go. Lots of OpenBSD news, a look at LetsEncrypt usage, the NetBSD scheduler &amp; much more! Keep it tuned to your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 169: Scheduling your NetBSD&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/production-ready&quot;&gt;Production ready&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ted Unangst brings us a piece on what it means to be Production Ready&lt;/li&gt;
+            &lt;li&gt;He tells the story of a project he worked on that picked a framework that was &quot;production ready&quot;&lt;/li&gt;
+            &lt;li&gt;They tested time zones, and it all seemed to work&lt;/li&gt;
+            &lt;li&gt;They tested the unicode support in english and various european languages, and it was all good&lt;/li&gt;
+            &lt;li&gt;They sent some emails with it, and it just worked&lt;/li&gt;
+            &lt;li&gt;The framework said &quot;Production Ready&quot; on the tin, and it passed all the tests. What is the worst that could happen?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Now, we built our product on top of this. Some of the bugs were caught internally. Others were discovered by customers, who were of course a little dismayed. Like, how could you possibly ship this? Indeed. We were doing testing, quite a bit really, but when every possible edge case has a bug, it's hard to find them all.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A customer from Arizona, which does not observe Daylight Saving Time, crashed the app&lt;/li&gt;
+            &lt;li&gt;Some less common unicode characters caused a buffer overflow&lt;/li&gt;
+            &lt;li&gt;The email system did not properly escape a period on its own line, truncating the email&lt;/li&gt;
+            &lt;li&gt;&quot;Egregious performance because of a naive N^2 algorithm for growing a buffer.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Egregious performance on some platforms due to using the wrong threading primitives.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Bizarre database connection bugs for some queries that I can't at all explain.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;In short, everything was &quot;works for me&quot; quality. But is that really production quality?&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;There are some obvious contenders for the title of today's most &quot;production ready&quot; software, but it's a more general phenomenon. People who have success don't know what they don't know, what they didn't test, what unused features will crash and burn.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://blog.crashed.org/letsencrypt-in-freebsd-org/&quot;&gt;Using Let's Encrypt within FreeBSD.org&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;I decided to give Let's Encrypt certificates a shot on my personal web servers earlier this year after a disaster with StartSSL. I'd like to share what I've learned.&lt;/p&gt;
+
+            &lt;p&gt;The biggest gotcha is that people tend to develop bad habits when they only have to deal with certificates once a year or so. The beginning part of the process is manual and the deployment of certificates somehow never quite gets automated, or things get left out.&lt;/p&gt;
+
+            &lt;p&gt;That all changes with Let's Encrypt certificates. Instead of 1-5 year lifetime certificates the Let's Encrypt certificates are only valid for 90 days. Most people will be wanting to renew every 60-80 days. This forces the issue - you really need to automate and make it robust.&lt;/p&gt;
+
+            &lt;p&gt;The Let's Encrypt folks provide tools to do this for you for the common cases. You run it on the actual machine, it manages the certificates and adjusts the server configuration files for you. Their goal is to provide a baseline shake-n-bake solution. I was not willing to give that level of control to a third party tool for my own servers - and it was absolutely out of the question for for the FreeBSD.org cluster.&lt;/p&gt;
+
+            &lt;p&gt;I should probably mention that we do things on the FreeBSD.org cluster that many people would find a bit strange. The biggest problem that we have to deal with is that the traditional model of a firewall/bastion between &quot;us&quot; and &quot;them&quot; does not apply. We design for the assumption that hostile users are already on the &quot;inside&quot; of the network. The cluster is spread over 8 distinct sites with naked internet and no vpn between them. There is actually very little trust between the systems in this network - eg: ssh is for people only - no headless users can ssh. There are no passwords. Sudo can't be used. The command and control systems use signing. We don't trust anything by IPv4/IPv6 address because we have to assume MITM is a thing. And so on. In general, things are constructed to be trigger / polling / pull based.&lt;/p&gt;
+
+            &lt;p&gt;The downside is that this makes automation and integration of Let's Encrypt clients interesting. If server configuration files can't be modified; and replicated web infrastructure is literally read-only (via jails/nullfs); and DNS zone files are static; and headless users can't ssh and therefore cannot do commits, how do you do the verification tokens in an automated fashion? Interesting, indeed.&lt;/p&gt;
+
+            &lt;p&gt;We wanted to be able to use certificates on things like ldap and smtp servers. You can't do http file verification on those so we had to use dns validation of domains.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;First, a signing request is generated, and the acme-challenge is returned&lt;/li&gt;
+            &lt;li&gt;Peter's post then walks through how the script adds the required TXT record to prove control of the domain, regenerates the zone file, DNSSEC signs it, and waits for it to be published, then continues the letsencrypt process.&lt;/li&gt;
+            &lt;li&gt;Letsencrypt then issues the actual certificate&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;We export the fullchain files into a publication location. There is another jail that can read the fullchain certificates via nullfs and they are published with our non-secrets update mechanism&lt;/p&gt;
+
+            &lt;p&gt;Since we are using DNSSEC, here is a good opportunity to maintain signed TLSA fingerprints. The catch with TLSA record updates is managing the update event horizon. You are supposed to have both fingerprints listed across the update cycle. We use 'TLSA 3 1 1' records to avoid issues with propagation delays for now. TLSA 3 0 1 changes with every renewal, while 3 1 1 only changes when you generate a new private key.&lt;/p&gt;
+
+            &lt;p&gt;The majority of TLS/SSL servers require a full restart to re-load the certificates if the filename is unchanged. I found out the hard way.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There is a great deal more detail in the blog post, I recommend you check it out&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;Learning more about the NetBSD scheduler (... than I wanted to know)&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20161105_1754.html&quot;&gt;Part 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20161109_0059.html&quot;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20161113_0122.html&quot;&gt;Part 3&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Today I had a need to do some number crunching using a home-brewn C program. In order to do some manual load balancing, I was firing up some Amazon AWS instances (which is Xen) with NetBSD 7.0. In this case, the system was assigned two CPUs I started two instances of my program, with the intent to have each one use one CPU. Which is not what happened! Here is what I observed, and how I fixed things for now.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;~~
+            load averages:  2.14,  2.08,  1.83;               up 0+00:45:56        18:01:32
+            27 processes: 4 runnable, 21 sleeping, 2 on CPU
+            CPU0 states:  100% user,  0.0% nice,  0.0% system,  0.0% interrupt,  0.0% idle
+            CPU1 states:  0.0% user,  0.0% nice,  0.0% system,  0.0% interrupt,  100% idle
+            Memory: 119M Act, 7940K Exec, 101M File, 3546M Free
+            ~~&lt;/p&gt;
+
+            &lt;p&gt;~~
+            PID USERNAME PRI NICE   SIZE   RES STATE    TIME   WCPU CPU COMMAND
+            2791 root   25  0  8816K  964K RUN/0    16:10 54.20% 54.20% myprog
+            2845 root   26  0  8816K  964K RUN/0    17:10 47.90% 47.90% myprog
+            ~~&lt;/p&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;I expected something like WCPU and CPU being around 100%, assuming that each process was bound to its own CPU. The values I actually saw (and listed above) suggested that both programs were fighting for the same CPU. Huh?! NetBSD allows to create &quot;processor sets&quot;, assign CPU(s) to them and then assign processes to the processor sets. Let's have a look!&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;~~
+            # psrset -c
+            1
+            # psrset -b 0 2791
+            # psrset -b 1 2845
+            load averages:  2.02,  2.05,  1.94;               up 0+00:59:32        18:15:08
+            27 processes: 1 runnable, 24 sleeping, 2 on CPU
+            CPU0 states:  100% user,  0.0% nice,  0.0% system,  0.0% interrupt,  0.0% idle
+            CPU1 states:  100% user,  0.0% nice,  0.0% system,  0.0% interrupt,  0.0% idle
+            Memory: 119M Act, 7940K Exec, 101M File, 3546M Free&lt;/p&gt;
+
+            &lt;pre&gt;&lt;code&gt;  PID USERNAME PRI NICE   SIZE   RES STATE      TIME   WCPU    CPU COMMAND
+            2845 root      25    0  8816K  964K CPU/1     26:14   100%   100% myprog
+            2791 root      25    0  8816K  964K RUN/0     25:40   100%   100% myprog
+            &lt;/code&gt;&lt;/pre&gt;
+
+            &lt;p&gt;~~&lt;/p&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Things are as expected now, with each program being bound to its own CPU. Now why this didn't happen by default is left as an exercise to the reader.&lt;/p&gt;
+
+            &lt;p&gt;I had another look at this today, and was able to reproduce the behaviour using VMWare Fusion with two CPU cores on both NetBSD 7.0_STABLE as well as -current&lt;/p&gt;
+
+            &lt;p&gt;The one hint that I got so far was from Michael van Elst that there may be a rouding error in sched_balance(). Looking at the code, there is not much room for a rounding error. But I am not familiar enough (at all) with the code, so I cannot judge if crucial bits are dropped here, or how that function fits in the whole puzzle.&lt;/p&gt;
+
+            &lt;p&gt;Pondering on the &quot;rounding error&quot;, I've setup both VMs with 4 CPUs, and the behaviour shown there is that load is distributed to about 3 and a half CPU - three CPUs under full load, and one not reaching 100%. There's definitely something fishy in there.&lt;/p&gt;
+
+            &lt;p&gt;With multiple CPUs, each CPU has a queue of processes that are either &quot;on the CPU&quot; (running) or waiting to be serviced (run) on that CPU. Those processes count as &quot;migratable&quot; in runqueue_t. Every now and then, the system checks all its run queues to see if a CPU is idle, and can thus &quot;steal&quot; (migrate) processes from a busy CPU. This is done in sched_balance().&lt;/p&gt;
+
+            &lt;p&gt;Such &quot;stealing&quot; (migration) has the positive effect that the process doesn't have to wait for getting serviced on the CPU it's currently waiting on. On the other side, migrating the process has effects on CPU's data and instruction caches, so switching CPUs shouldn't be taken too easy.&lt;/p&gt;
+
+            &lt;p&gt;All in all, I'd say the patch is a good step forward from the current situation, which does not properly distribute pure CPU hogs, at all.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.nas.nasa.gov/SC16/demos/demo9.html&quot;&gt;Building Cost-Effective 100-Gbps Firewalls for HPC with FreeBSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The continuous growth of the NASA Center for Climate Simulation (NCCS) requires providing high-performance security tools and enhancing the network capacity. In order to support the requirements of emerging services, including the Advanced Data Analytics Platform (ADAPT) private cloud, the NCCS security team has proposed an architecture to provide extremely cost-effective 100-gigabit-per-second (Gbps) firewalls.&lt;/p&gt;
+
+            &lt;p&gt;The aim of this project is to create a commodity-based platform that can process enough packets per second (pps) to sustain a 100-Gbps workload within the NCCS computational environment. The test domain consists of several existing systems within the NCCS, including switches (Dell S4084), routers (Dell R530s), servers (Dell R420s, and C6100s), and host card adapters (10-Gbps Mellanox ConnectX2 and Intel 8259 x Ethernet cards).&lt;/p&gt;
+
+            &lt;p&gt;Previous NCCS work testing the FreeBSD operating system for high-performance routing reached a maximum of 4 million pps. Building on this work, we are comparing FreeBSD-11.0 and FreeBSD-Current along with implementing the netmap-fwd Application Programming Interface (API) and tuning the 10-gigabit Ethernet cards. We used the tools iperf3, nuttcp, and netperf to monitor the performance of the maximum bandwidth through the cards. Additional testing has involved enabling the Common Address Redundancy Protocol (CARP) to achieve an active/active architecture.&lt;/p&gt;
+
+            &lt;p&gt;The tests have shown that at the optimally tuned and configured FreeBSD system, it is possible to create a system that can manage the huge amounts of pps needed to create a 100-Gbps firewall with commodity components.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Some interesting findings:
+
+            &lt;ul&gt;
+            &lt;li&gt;FreeBSD was able to send more pps as a client than Centos 6.&lt;/li&gt;
+            &lt;li&gt;Netmap-fwd increased the pps rate significantly.&lt;/li&gt;
+            &lt;li&gt;The choice of network card can have a significant impact on pps, tuning, and netmap support.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Further tests will continue verifying the above results with even more capable systems-such as 40-gigabit and 100-gigabit Ethernet cards-to achieve even higher performance. In addition to hardware improvements, updates to the network capabilities in the FreeBSD-Current version will be closely monitored and applied as appropriate. The final result will be a reference architecture with representative hardware and software that will enable the NCCS to build, deploy, and efficiently maintain extremely cost-effective 100-Gbps firewalls.&lt;/p&gt;
+
+            &lt;p&gt;Netflix has already managed to saturate a 100 Gbps interface using only a single CPU Socket (rather than a dual socket server). Forwarding/routing is a bit different, but it is definitely on track to get there. Using a small number of commodity servers to firewall 100 Gbps of traffic just takes some careful planning and load balancing. Soon it will be possible using a single host.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/bartekrutkowski/iocell&quot;&gt;iocell - A FreeBSD jail manager.&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Another jail manager has arrived on the scene, iocell, which begins life as a fork of the &quot;classic&quot; iocage.&lt;/li&gt;
+            &lt;li&gt;Due to its shared heritage, it offers much of the same functionality and flags as iocage users will be familiar with.&lt;/li&gt;
+            &lt;li&gt;For those who aren't up to speed with either products, some of those features include:
+
+            &lt;ul&gt;
+            &lt;li&gt;Templates, clones, basejails, fully independent jails&lt;/li&gt;
+            &lt;li&gt;Ease of use&lt;/li&gt;
+            &lt;li&gt;Zero configuration files&lt;/li&gt;
+            &lt;li&gt;Rapid thin provisioning within seconds&lt;/li&gt;
+            &lt;li&gt;Automatic package installation&lt;/li&gt;
+            &lt;li&gt;Virtual networking stacks (vnet)&lt;/li&gt;
+            &lt;li&gt;Shared IP based jails (non vnet)&lt;/li&gt;
+            &lt;li&gt;Resource limits (CPU, MEMORY, DISK I/O, etc.)&lt;/li&gt;
+            &lt;li&gt;Filesystem quotas and reservations&lt;/li&gt;
+            &lt;li&gt;Dedicated ZFS datasets inside jails&lt;/li&gt;
+            &lt;li&gt;Transparent ZFS snapshot management&lt;/li&gt;
+            &lt;li&gt;Binary updates&lt;/li&gt;
+            &lt;li&gt;Differential jail packaging&lt;/li&gt;
+            &lt;li&gt;Export and import&lt;/li&gt;
+            &lt;li&gt;And many more!&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;The program makes extensive use of ZFS for performing jail operations, so a zpool will be required (But doesn't have to be your boot-pool)&lt;/li&gt;
+            &lt;li&gt;It still looks &quot;very&quot; fresh, even using original iocage filenames in the repo, so a safe guess is that you'll be able to switch between iocage and iocell with relative ease.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.gordonturner.ca/2016/11/20/fail2ban-on-openbsd-6-0/&quot;&gt;Fail2ban on OpenBSD 6.0&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We've used Fail2Ban in PC-BSD before, due to it's ability to detect and block brute force attempts against a variety of services, including SSH, mail, and others. It even can work to detect jail brute force attempts, blocking IPs on the hosts firewall. &lt;/li&gt;
+            &lt;li&gt;However what about OpenBSD users? Well, Gordon Turner comes to the rescue today with a great writeup on deploying Fail2Ban specifically for that platform.&lt;/li&gt;
+            &lt;li&gt;Now, Fail2Ban is a python program, so you'll need to pkg install Python first, then he provides instructions on how to manually grab the F2B sources and install on OpenBSD.&lt;/li&gt;
+            &lt;li&gt;Helpfully Gordon gives us some handy links to scripts and modifications to get F2B running via RC as well, which is a bit different since F2B has both a server and client that must run together.&lt;/li&gt;
+            &lt;li&gt;With the installation bits out of the way, we get to next hit the &quot;fun&quot; stuff, which comes in the way of SSH brute force detection.&lt;/li&gt;
+            &lt;li&gt;Naturally we will be configuring F2B to use &quot;pf&quot; to do our actual blocking, but the examples shown give us full control over the knobs used to detect, and then ultimately call 'pfctl' to do our heavy lifting.&lt;/li&gt;
+            &lt;li&gt;The last bits of the article give us a runthrough on how to &quot;prime&quot; pf with the correct block tables and performing basic administrative tasks to control F2B in production.&lt;/li&gt;
+            &lt;li&gt;A great article, and if you run an OpenBSD box exposed to the internet, you may want to bookmark this one.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/openbsd-changes-of-note&quot;&gt;openbsd changes of note&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Continuing with our OpenBSD news for the week, we have a new blog post by TedU, which gives us a bunch of notes on the things which have changed over there as of late:&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Some of the notables include:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;em&gt;mcl2k2 pools&lt;/em&gt; and the &lt;em&gt;em conversion&lt;/em&gt;. The details are in the commits, but the short story is that due to hardware limitations, a number of tradeoffs need to be made between performance and memory usage. The em chip can (mostly) only be programmed to write to 2k buffers. However, ethernet payloads are not nicely aligned. They're two bytes off. Leading to a costly choice. Provide a 2k buffer, and then copy all the data after the fact, which is slow. Or allocate a larger than 2k buffer, and provide em with a pointer that's 2 bytes offset. Previously, the next size up from 2k was 4k, which is quite wasteful. The new 2k2 buffer size still wastes a bit of memory, but much less.    &lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;FreeType 2.7 is prettier than ever&lt;/em&gt;. &lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;vmm for i386&lt;/em&gt;. &lt;em&gt;Improve security&lt;/em&gt;. vmm is still running with a phenomenal set of privileges, but perhaps some cross-VM attacks may be limited. On the other side of the world, &lt;em&gt;hyperv support is getting better&lt;/em&gt;. &lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;Remove setlocale&lt;/em&gt;. setlocale was sprinkled all throughout the code base many years ago, even though it did nothing, in anticipation of a day when it would do something. We've since decided that day will never come, and so many setlocale calls can go. &lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;syspatch is coming&lt;/em&gt;. Lots of commits actually. Despite the name, it's more like a system update, since it replaces entire binaries. Then again, replacing a few binaries in a system is like patching small parts of the whole. A syspatch update will be smaller than an entire release. &lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;There's a new build system&lt;/em&gt;. It kind of works like before, but a lot of the details have changed to support less root. Actually, it'd be accurate to say the whole build privilege system has been flipped. Start as root, which drops down to the build user to do the heavy lifting, instead of starting as a user that can elevate to root at any time. This no longer requires the build user to be pseudo-root; in fact, the goal is that the build user can't elevate. &lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;There's several other items on this list, take a look for more details, and he also helpfully provides commit-links if you want to see more about any of these topics.&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://media.bemyapp.com/came-bell-labs/#&quot;&gt;It came from Bell Labs&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A little late for a halloween episode, we have &quot;It came from Bell Labs&quot;, a fascinating article talking about the successor to UNIX, Plan9&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;There was once an operating system that was intended to be the successor to Unix. Plan 9 From Bell Labs was its name, and playing with it for five minutes is like visiting an alternate dimension where computers are done differently. It was so ahead of its time that it would be considered cutting edge, even today. Find out the weird and woolly history to Plan Nine's inception and eventual consignment as a footnote of operating systems today.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;So, if you've never heard of Plan 9, how did it exactly differ from the UNIX we know and love today?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Here's just a few of the key features under Plan 9's hood + 9P – The distributed file system protocol. Everything runs through this, there is no escaping it. Since everything runs on top of 9P, that makes everything running on a Plan 9 box distributed as well. This means, for example, you can import /dev/audio from another machine on the network to use its sound card when your own machine doesn't have one. + ndb – The namespace server. In conjunction with 9P, it bosses all the programs around and forces them to comply to the Plan 9 way. + Instead of Unix sockets, all the networking just runs through 9P. Thus, everything from ethernet packets to network cards are all just one more kind of file. + While Unicode is implemented ad-hoc in other systems, it's baked into Plan 9 from the first int main(). In fact, even users who don't like Plan 9 have to admit that the character encoding support, together with the beautiful built-in rio font, makes every other operating system look primitive. + The system's own internal programs are built to be a rounded set of user tools from the ground up. So, for instance, it comes with its own editor, acme, built to be its own weird morphing thing that plays nice with the 9P protocol.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Sounds neat, but how did it work in the real world?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The result was a mixture of both breathtaking efficiency and alienating other-worldliness. Trying out the system is like a visit to an alternate reality where time-traveling gremlins changed how computers are made and used. You can execute anycommand anywhere just by typing its name and middle-clicking on it, even in the middle of reading a file. You can type out your blog post in the middle of a man page and save it right there. Screenshots are made by pointing /dev/screen to a file. When you execute a program in a terminal, the terminal morphs into the program you launched instead of running in the background. The window manager, rio, can be invoked within rio to create an instance of itself running inside itself. You can just keep going like that, until, like Inception, you get lost in which layer you're in. Get used to running Plan 9 long enough, and you will find yourself horribly ill-adapted for dealing with the normal world.&lt;/p&gt;
+
+            &lt;p&gt;While system administrators can't stop praising it, the average home user won't see much benefit unless they happen to run about eight desktop machines scattered all over. But to quote legendary hacker tribal bard Eric S. Raymond: &quot;...Plan 9 failed simply because it fell short of being a compelling enough improvement on Unix to displace its ancestor.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A fascinating article, worth your time to read it through, even though we've pulled some of the best bits here. Nice look at the alternative dimension that could have been.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/inks&quot;&gt;inks -- Basically Reddit or Hacker News, but without the disagreeable trolls and military industrial complex shills downvoting everything to hide the truth&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://youtu.be/Mc2p6sx2s7k&quot;&gt;&quot;PAM is Un-American&quot; talk now online&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2818&quot;&gt;Reddit advertising of &quot;PAM Mastery&quot;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.ixsystems.com/blog/meetbsd-2016-report-michael-dexter/&quot;&gt;MeetBSD 2016 Report by Michael Dexter&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.bsdstore.ru/en/tutorial.html&quot;&gt;Various CBSD Tutorials&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/6B96pVcm&quot;&gt;Dylan - Kaltura Alt&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Hrp8qwkP&quot;&gt;Scott - ZFS in Low-Mem&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/85q4Q3Xx&quot;&gt;J - Mixing Ports / Pkgs&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/RFKY0ERs&quot;&gt;Trenton - Dtract &amp;amp; PC-BSD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/31uqW6vW&quot;&gt;Ivan - ZFS Backups&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>The Post Show Show</title>
         <smi:episode>168</smi:episode>
