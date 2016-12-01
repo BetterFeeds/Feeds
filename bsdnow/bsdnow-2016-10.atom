@@ -12,7 +12,7 @@
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-10.atom"
             rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link
-            href="https://feeds.betterfeeds.org/bsdnow.atom"
+            href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-11.atom"
             rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link
             href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-09.atom"
