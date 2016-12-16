@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-12-09T18:02:00Z</updated>
+    <updated>2016-12-16T17:20:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,397 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>A tale of BSD from yore</title>
+        <smi:episode>172</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_14_a_tale_of_bsd_from_yore"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_14_a_tale_of_bsd_from_yore</id>
+        <published>2016-12-15T04:09:56-08:00</published>
+        <updated>2016-12-16T17:19:00Z</updated>
+        <link length="43465551" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0172.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="43465551" duration="5409" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0172.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="65632737" duration="5409" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0172.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="305436508" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0171-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="85193" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0172-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:15" title="Headlines"/>
+            <psc:chapter start="00:01:15" title="OpenSSH 7.4" href="http://marc.info/?l=openssh-unix-dev&amp;m=148167688911316&amp;w=2"/>
+            <psc:chapter start="00:06:35" title="Excessive Syscalls &amp; UDP Traffic" href="https://zinascii.com/2014/how-my-printer-caused-excessive-syscalls.html"/>
+            <psc:chapter start="00:13:45" title="Making Getaddrinfo Concurrent in Python" href="https://emptysqua.re/blog/getaddrinfo-cpython-mac-and-bsd/"/>
+            <psc:chapter start="00:17:10" title="Using release to create FreeBSD images for OpenStack" href="https://diegocasati.com/2016/12/13/using-release7-to-create-freebsd-images-for-openstack-yes-you-can-do-it/"/>
+            <psc:chapter start="00:20:00" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:21:50" title="Interview"/>
+            <psc:chapter start="00:52:30" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:55:40" title="News Roundup"/>
+            <psc:chapter start="00:55:40" title="FreeBSD automounter" href="http://blog.khubla.com/freebsd/configuring-the-freebsd-automounter"/>
+            <psc:chapter start="00:58:15" title="l2k16 hackathon: LibreSSL manuals in mdoc" href="http://undeadly.org/cgi?action=article&amp;sid=20161114174451"/>
+            <psc:chapter start="01:01:20" title="smenu interactive terminal" href="https://github.com/p-gen/smenu"/>
+            <psc:chapter start="01:04:30" title="Ubuntu unofficial images" href="http://mjg59.dreamwidth.org/45939.html"/>
+            <psc:chapter start="01:10:05" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:13:00" title="Beastie Bits"/>
+            <psc:chapter start="01:13:00" title="OPNsense 16.7.10 released" href="https://opnsense.org/opnsense-16-7-10-released/"/>
+            <psc:chapter start="01:13:40" title="OpenBSD Foundation First Iridium Donor: Smartisan" href="http://undeadly.org/cgi?action=article&amp;sid=20161123193708&amp;mode=expanded&amp;count=8"/>
+            <psc:chapter start="01:14:20" title="Jan Koum donates $500,000 to FreeBSD" href="https://www.freebsdfoundation.org/blog/foundation-announces-new-uranium-donor/"/>
+            <psc:chapter start="01:15:55" title="The Soviet Russia, BSD makes you" href="https://en.wikipedia.org/wiki/DEMOS"/>
+            <psc:chapter start="01:17:30" title="Feedback/Questions"/>
+            <psc:chapter start="01:17:35" title="Jason - Value" href="http://pastebin.com/gRN4Lzy8"/>
+            <psc:chapter start="01:19:00" title="Hamza - Shell Scripting" href="http://aikchar.me/blog/unix-shell-programming-lessons-learned.html"/>
+            <psc:chapter start="01:19:50" title="Dave - Migrating to FreeBSD" href="http://pastebin.com/hEBu3Drp"/>
+            <psc:chapter start="01:21:35" title="Dan - Which BSD?" href="http://pastebin.com/1HpKqCSt"/>
+            <psc:chapter start="01:26:20" title="Zach - AMD Video" href="http://pastebin.com/4Aj5ebns"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Rod Grimes</name>
+            <email>rgrimes@freebsd.org</email>
+        </contributor>
+        <summary>This week on BSDNow, we have a very special guest joining us to tell us a tale of the early days in BSD history. That plus some new OpenSSH goodness, shell scripting utilities &amp; much more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 172: A tale of BSD from yore&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openssh-unix-dev&amp;amp;m=148167688911316&amp;amp;w=2&quot;&gt;Call For Testing: OpenSSH 7.4 &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Getting ready to head into the holidays for for the end of 2016 means some of us will have spare time on our hands. What a perfect time to get some call for testing work done!&lt;/li&gt;
+            &lt;li&gt;Damien Miller has issued a public CFT for the upcoming OpenSSH 7.4 release, which considering how much we all rely on SSH I would expect will get some eager volunteers for testing.&lt;/li&gt;
+            &lt;li&gt;What are some of the potential breakers?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;* This release removes server support for the SSH v.1 protocol.&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;ssh(1): Remove 3des-cbc from the client's default proposal. 64-bit
+            block ciphers are not safe in 2016 and we don't want to wait until
+            attacks like SWEET32 are extended to SSH. As 3des-cbc was the
+            only mandatory cipher in the SSH RFCs, this may cause problems
+            connecting to older devices using the default configuration,
+            but it's highly likely that such devices already need explicit
+            configuration for key exchange and hostkey algorithms already
+            anyway.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Remove support for pre-authentication compression.
+            Doing compression early in the protocol probably seemed reasonable
+            in the 1990s, but today it's clearly a bad idea in terms of both
+            cryptography (cf. multiple compression oracle attacks in TLS) and
+            attack surface. Pre-auth compression support has been disabled by
+            default for &amp;gt;10 years. Support remains in the client.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;ssh-agent will refuse to load PKCS#11 modules outside a whitelist
+            of trusted paths by default. The path whitelist may be specified
+            at run-time.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): When a forced-command appears in both a certificate and
+            an authorized keys/principals command= restriction, sshd will now
+            refuse to accept the certificate unless they are identical.
+            The previous (documented) behaviour of having the certificate
+            forced-command override the other could be a bit confusing and
+            error-prone.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Remove the UseLogin configuration directive and support
+            for having /bin/login manage login sessions.&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;What about new features? 7.4 has some of those to wake you up also:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;* ssh(1): Add a proxy multiplexing mode to ssh(1) inspired by the
+            version in PuTTY by Simon Tatham. This allows a multiplexing
+            client to communicate with the master process using a subset of
+            the SSH packet and channels protocol over a Unix-domain socket,
+            with the main process acting as a proxy that translates channel
+            IDs, etc.  This allows multiplexing mode to run on systems that
+            lack file- descriptor passing (used by current multiplexing
+            code) and potentially, in conjunction with Unix-domain socket
+            forwarding, with the client and multiplexing master process on
+            different machines. Multiplexing proxy mode may be invoked using
+            &quot;ssh -O proxy ...&quot;&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Add a sshd&lt;em&gt;config DisableForwaring option that disables
+            X11, agent, TCP, tunnel and Unix domain socket forwarding, as well
+            as anything else we might implement in the future. Like the
+            'restrict' authorized&lt;/em&gt;keys flag, this is intended to be a simple
+            and future-proof way of restricting an account.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8), ssh(1): Support the &quot;curve25519-sha256&quot; key exchange
+            method. This is identical to the currently-support method named
+            &quot;curve25519-sha256@libssh.org&quot;.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Improve handling of SIGHUP by checking to see if sshd is
+            already daemonised at startup and skipping the call to daemon(3)
+            if it is. This ensures that a SIGHUP restart of sshd(8) will
+            retain the same process-ID as the initial execution. sshd(8) will
+            also now unlink the PidFile prior to SIGHUP restart and re-create
+            it after a successful restart, rather than leaving a stale file in
+            the case of a configuration error. bz#2641&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Allow ClientAliveInterval and ClientAliveCountMax
+            directives to appear in sshd_config Match blocks.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Add %-escapes to AuthorizedPrincipalsCommand to match
+            those supported by AuthorizedKeysCommand (key, key type,
+            fingerprint, etc.) and a few more to provide access to the
+            contents of the certificate being offered.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Added regression tests for string matching, address matching and
+            string sanitisation functions.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Improved the key exchange fuzzer harness.&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Get those tests done and be sure to send feedback, both positive and negative.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://zinascii.com/2014/how-my-printer-caused-excessive-syscalls.html&quot;&gt;How My Printer Caused Excessive Syscalls &amp;amp; UDP Traffic&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;3,000 syscalls a second, on an idle machine? That doesn't seem right. I just booted this machine. The only processes running are those required to boot the SmartOS Global Zone, which is minimal.&quot;&lt;/p&gt;
+
+            &lt;p&gt;This is a story from 2014, about debugging a machine that was being slowed down by excessive syscalls and UDP traffic. It is also an excellent walkthrough of the basics of DTrace&lt;/p&gt;
+
+            &lt;p&gt;&quot;Well, at least I have DTrace. I can use this one-liner to figure out what syscalls are being made across the entire system.&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall:::entry { @[probefunc,probename] = count(); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Wow! That is a lot of lwp&lt;em&gt;sigmask calls. Now that I know what is being called, it's time to find out who is doing the calling? I'll use another one-liner to show me the most common user stacks invoking lwp&lt;/em&gt;sigmask.&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall::lwp_sigmask:entry { @[ustack()] = count(); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Okay, so this mdnsd code is causing all the trouble. What is the distribution of syscalls for the mdnsd program?&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall:::entry /execname == &quot;mdnsd&quot;/ { @[probefunc] = count(); } tick-1s { exit(0); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Lots of signal masking and polling. What the hell! Why is it doing this? What is mdnsd anyways? Is there a man page? Googling for mdns reveals that it is used for resolving host names in small networks, like my home network. It uses UDP, and requires zero configuration. Nothing obvious to explain why it's flipping out. I feel helpless. I turn to the only thing I can trust, the code.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Woah boy, this is some messy looking code. This would not pass illumos cstyle checks. Turns out this is code from Darwin—the kernel of OSX.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Hmmm...an idea pops into my computer animal brain. I wonder...I wonder if my MacBook is also experiencing abnormal syscall rates? Nooo, that can't be it. Why would both my SmartOS server and MacBook both have the same problem? There is no good technical reason to link these two. But, then again, I'm dealing with computers here, and I've seen a lot of strange things over the years—I switch to my laptop.&quot;&lt;/p&gt;
+
+            &lt;p&gt;sudo dtrace -n 'syscall::: { @[execname] = count(); } tick-1s { exit(0); }'&lt;/p&gt;
+
+            &lt;p&gt;Same thing, except mdns is called discoverd on OS X&lt;/p&gt;
+
+            &lt;p&gt;&quot;I ask my friend Steve Vinoski to run the same DTrace one-liner on his OSX machines. He has both Yosemite and the older Mountain Lion. But, to my dismay, neither of his machines are exhibiting high syscall rates. My search continues.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Not sure what to do next, I open the OSX Activity Monitor. In desperation I click on the Network tab.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot; HOLE—E—SHIT! Two-Hundred-and-Seventy Million packets received by discoveryd. Obviously, I need to stop looking at code and start looking at my network. I hop back onto my SmartOS machine and check network interface statistics.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Whatever is causing all this, it is sending about 200 packets a second. At this point, the only thing left to do is actually inspect some of these incoming packets. I run snoop(1M) to collect events on the e1000g0 interface, stopping at about 600 events. Then I view the first 15.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot; A constant stream of mDNS packets arriving from IP 10.0.1.8. I know that this IP is not any of my computers. The only devices left are my iPhone, AppleTV, and Canon printer. Wait a minute! The printer! Two days earlier I heard some beeping noises...&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I own a Canon PIXMA MG6120 printer. It has a touch interface with a small LCD at the top, used to set various options. Since it sits next to my desk I sometimes lay things on top of it like a book or maybe a plate after I'm done eating. If I lay things in the wrong place it will activate the touch interface and cause repeated pressing. Each press makes a beeping noise. If the object lays there long enough the printer locks up and I have to reboot it. Just such events occurred two days earlier.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I fire up dladm again to monitor incoming packets in realtime. Then I turn to the printer. I move all the crap off of it: two books, an empty plate, and the title for my Suzuki SV650 that I've been meaning to sell for the last year. I try to use the touch screen on top of the printer. It's locked up, as expected. I cut power to the printer and whip my head back to my terminal.&quot;&lt;/p&gt;
+
+            &lt;p&gt;No more packet storm&lt;/p&gt;
+
+            &lt;p&gt;&quot;Giddy, I run DTrace again to count syscalls.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I'm not sure whether to laugh or cry. I laugh, because, LOL computers. There's some new dumb shit you deal with everyday, better to roll with the punches and laugh. You live longer that way. At least I got to flex my DTrace muscles a bit. In fact, I felt a bit like Brendan Gregg when he was debugging why OSX was dropping keystrokes.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I didn't bother to root cause why my printer turned into a UDP machine gun. I don't intend to either. I have better things to do, and if rebooting solves the problem then I'm happy. Besides, I had to get back to what I was trying to do six hours before I started debugging this damn thing.&quot;&lt;/p&gt;
+
+            &lt;p&gt;There you go. The Internet of Terror has already been on your LAN for years.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://emptysqua.re/blog/getaddrinfo-cpython-mac-and-bsd/&quot;&gt;Making Getaddrinfo Concurrent in Python on Mac OS and BSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a very fun blog post today to pass along originally authored by &quot;A. Jesse Jiryu Davis&quot;. Specifically the tale of one man's quest to unify the Getaddrinfo in Python with Mac OS and BSD.&lt;/li&gt;
+            &lt;li&gt;To give you a small taste of this tale, let us pass along just the introduction&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Tell us about the time you made DNS resolution concurrent in Python on Mac and BSD.   No, no, you do not want to hear that story, my friends. It is nothing but old lore and #ifdefs.&lt;/p&gt;
+
+            &lt;p&gt;But you made Python more scalable. The saga of Steve Jobs was sung to you by a mysterious wizard with a fanciful nickname! Tell us!&lt;/p&gt;
+
+            &lt;p&gt;Gather round, then. I will tell you how I unearthed a lost secret, unbound Python from old shackles, and banished an ancient and horrible Mutex Troll. Let us begin at the beginning.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Is your interest piqued? It should be. I'm not sure we could do this blog post justice trying to read it aloud here, but definetly recommend if you want to see how he managed to get this bit of code working cross platform. (And it's highly entertaining as well)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;A long time ago, in the 1980s, a coven of Berkeley sorcerers crafted an operating system. They named it after themselves: the Berkeley Software Distribution, or BSD. For generations they nurtured it, growing it and adding features. One night, they conjured a powerful function that could resolve hostnames to IPv4 or IPv6 addresses. It was called getaddrinfo. The function was mighty, but in years to come it would grow dangerous, for the sorcerers had not made getaddrinfo thread-safe.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;As ages passed, BSD spawned many offspring. There were FreeBSD, OpenBSD, NetBSD, and in time, Mac OS X. Each made its copy of getaddrinfo thread safe, at different times and different ways. Some operating systems retained scribes who recorded these events in the annals. Some did not.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The story continues as our hero battles the Mutex Troll and quests for ancient knowledge&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Apple engineers are not like you and me — they are a shy and secretive folk. They publish only what code they must from Darwin. Their comings and goings are recorded in no bug tracker, their works in no changelog. To learn their secrets, one must delve deep.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;There is a tiny coven of NYC BSD users who meet at the tavern called Stone Creek, near my dwelling. They are aged and fierce, but I made the Sign of the Trident and supplicated them humbly for advice, and they were kindly to me.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Spoiler: &quot;Without a word, the mercenary troll shouldered its axe and trudged off in search of other patrons on other platforms. Never again would it hold hostage the worthy smiths forging Python code on BSD.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://diegocasati.com/2016/12/13/using-release7-to-create-freebsd-images-for-openstack-yes-you-can-do-it/&quot;&gt;Using release(7) to create FreeBSD images for OpenStack &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Following a recent episode where we covered a walk through on how to create FreeBSD guest OpenStack images, we wondered if it would be possible to integrate this process into the FreeBSD release(7) process, so they images could be generated consistently and automatically&lt;/li&gt;
+            &lt;li&gt;Being the awesome audience that you are, one of you responded by doing exactly that&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;During a recent BSDNow podcast, Allan and Kris mentioned that it would be nice to have a tutorial on how to create a FreeBSD image for OpenStack using the official release(7) tools. With that, it came to me that: #1 I do have access to an OpenStack environment and #2 I am interested in having FreeBSD as a guest image in my environment. Looks like I was up for the challenge.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Previously, I've had success running FreeBSD 11.0-RELEASE on OpenStack but more could/should be done. For instance, as suggested by Allan,  wouldn't be nice to deploy the latest code from FreeBSD ? Running -STABLE or even -CURRENT ? Yes, it would. Also, wouldn't it be nice to customize these images for a specific need? I'd say 'Yes' for that as well.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;After some research I found that the current openstack.conf file, located at /usr/src/release/tools/ could use some extra tweaks to get where I wanted. I've created and attached that to a bugzilla on the same topic. You can read about that &lt;a href=&quot;https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=213396&quot;&gt;here&lt;/a&gt;.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Steps:
+
+            &lt;ul&gt;
+            &lt;li&gt;Fetch the FreeBSD source code and extract it under /usr/src&lt;/li&gt;
+            &lt;li&gt;Once the code is in place, follow the regular process of build(7) and perform a &lt;code&gt;make buildworld buildkernel&lt;/code&gt;&lt;/li&gt;
+            &lt;li&gt;Change into the release directory (/usr/src/release) and perform a make cloudware&lt;/li&gt;
+            &lt;li&gt;make cloudware-release WITH_CLOUDWARE=yes CLOUDWARE=OPENSTACK VMIMAGE=2G&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;That's it! This will generate a qcow2 image with 1.4G in size and a raw image of 2G. The entire process uses the release(7) toolchain to generate the image and should work with newer versions of FreeBSD.&quot;
+            + The patch has already been &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=310047&quot;&gt;committed to FreeBSD &lt;/a&gt; &lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Rod Grimes - &lt;a href=&quot;mailto:rgrimes@freebsd.org&quot;&gt;rgrimes@freebsd.org&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Want to help fund the development of GPU Passthru? &lt;a href=&quot;http://bhyve.org/&quot;&gt;Visit bhyve.org&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.khubla.com/freebsd/configuring-the-freebsd-automounter&quot;&gt;Configuring the FreeBSD automounter&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ever had to configure the FreeBSD auto-mounting daemon? Today we have a blog post that walks us through a few of the configuration knobs you have at your disposal.&lt;/li&gt;
+            &lt;li&gt;First up, Tom shows us his /etc/fstab file, and the various UFS partitions he has setup with the 'noauto' flag so they are not mounted at system boot.&lt;/li&gt;
+            &lt;li&gt;His amd.conf file is pretty basic, with just options enabled to restart mounts, and unmount on exit.&lt;/li&gt;
+            &lt;li&gt;Where most users will most likely want to pay attention is in the crafting of an amd.map file&lt;/li&gt;
+            &lt;li&gt;Within this file, we have the various command-foo which performs mounts and unmounts of targeted disks / file-systems on demand.&lt;/li&gt;
+            &lt;li&gt;Pay special attention to all the special chars, since those all matter and a stray or missing ; could be a source of failure.&lt;/li&gt;
+            &lt;li&gt;Lastly a few knobs in rc.conf will enable the various services and a reboot should confirm the functionality.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20161114174451&quot;&gt;l2k16 hackathon report: LibreSSL manuals now in mdoc(7)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Hackathon report by Ingo Schwarze&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Back in the spring two years ago, Kristaps Dzonsons started the pod2mdoc(1) conversion utility, and less than a month later, the LibreSSL project began. During the general summer hackathon in the same year, g2k14, Anthony Bentley started using pod2mdoc(1) for converting LibreSSL manuals to mdoc(7).&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Back then, doing so still was a pain, because pod2mdoc(1) was still full of bugs and had gaping holes in functionality. For example, Anthony was forced to basically translate the SYNOPSIS sections by hand, and to fix up .Fn and .Xr in the body by hand as well. All the same, he speedily finished all of libssl, and in the autumn of the same year, he mustered the courage to commit his work.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Near the end of the following winter, i improved the pod2mdoc(1) tool to actually become convenient in practice and started work on libcrypto, converting about 50 out of the about 190 manuals. Max Fillinger also helped a bit, converting a handful of pages, but i fear i tarried too much checking and committing his work, so he quickly gave up on the task. After that, almost nothing happened for a full year.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Now i was finally fed up with the messy situation and decided to put an end to it. So i went to Toulouse and finished the conversion of the remaining 130 manual pages in libcrypto, such that you can now view the documentation of all functions&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/p-gen/smenu&quot;&gt;Interactive Terminal Utility: smenu&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ok, I've made no secret of my love for shell scripting. Well today we have a new (somewhat new to us) tool to bring your way.&lt;/li&gt;
+            &lt;li&gt;Have you ever needed to deal with large lists of data, perhaps as the result of a long specially crafted pipe?&lt;/li&gt;
+            &lt;li&gt;What if you need to select a specific value from a range and then continue processing?&lt;/li&gt;
+            &lt;li&gt;Enter 'smenu' which can help make your scripting life easier.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;smenu is a selection filter just like sed is an editing filter.&lt;/p&gt;
+
+            &lt;p&gt;This simple tool reads words from the standard input, presents them in a cool interactive window after the current line on the terminal and writes the selected word, if any, on the standard output.&lt;/p&gt;
+
+            &lt;p&gt;After having unsuccessfully searched the NET for what I wanted, I decided to try to write my own.&lt;/p&gt;
+
+            &lt;p&gt;I have tried hard to made its usage as simple as possible. It should work, even when using an old vt100 terminal and is UTF-8 aware.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;What this means, is in your interactive scripts, you can much easier present the user with a cursor driven menu to select from a range of possible choices. (Without needing to craft a bunch of dialog flags)&lt;/li&gt;
+            &lt;li&gt;Take a look, and hopefully you'll be able to find creative uses for your shell scripts in the future.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://mjg59.dreamwidth.org/45939.html&quot;&gt;Ubuntu still isn't free software&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Any redistribution of modified versions of Ubuntu must be approved, certified or provided by Canonical if you are going to associate it with the Trademarks. Otherwise you must remove and replace the Trademarks and will need to recompile the source code to create your own binaries. This does not affect your rights under any open source licence applicable to any of the components of Ubuntu. If you need us to approve, certify or provide modified versions for redistribution you will require a licence agreement from Canonical, for which you may be required to pay. For further information, please contact us&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Mark Shuttleworth &lt;a href=&quot;http://insights.ubuntu.com/2016/12/01/taking-a-stand-against-unstable-risky-unofficial-ubuntu-images/&quot;&gt;just blogged&lt;/a&gt; about their stance against unofficial Ubuntu images. The assertion is that a cloud hoster is providing unofficial and modified Ubuntu images, and that these images are meaningfully different from upstream Ubuntu in terms of their functionality and security. Users are attempting to make use of these images, are finding that they don't work properly and are assuming that Ubuntu is a shoddy product. This is an entirely legitimate concern, and if Canonical are acting to reduce user confusion then they should be commended for that.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;The appropriate means to handle this kind of issue is trademark law. If someone claims that something is Ubuntu when it isn't, that's probably an infringement of the trademark and it's entirely reasonable for the trademark owner to take action to protect the value associated with their trademark. But Canonical's IP policy goes much further than that - it can be interpreted as meaning[1] that you can't distribute works based on Ubuntu without paying Canonical for the privilege, even if you call it something other than Ubuntu. [1]: And by &quot;interpreted as meaning&quot; I mean that's what it says and Canonical refuse to say otherwise&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;If you ask a copyright holder if you can give a copy of their work to someone else (assuming it doesn't infringe trademark law), and they say no or insist you need an additional contract, it's not free software. If they insist that you recompile source code before you can give copies to someone else, it's not free software. Asking that you remove trademarks that would otherwise infringe trademark law is fine, but if you can't use their trademarks in non-infringing ways, that's still not free software.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Canonical's IP policy continues to impose restrictions on all of these things, and therefore Ubuntu is not free software.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://opnsense.org/opnsense-16-7-10-released/&quot;&gt;OPNsense 16.7.10 released&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20161123193708&amp;amp;mode=expanded&amp;amp;count=8&quot;&gt;OpenBSD Foundation Welcomes First Iridium Donor: Smartisan&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/blog/foundation-announces-new-uranium-donor/&quot;&gt;Jan Koum donates $500,000 to FreeBSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/DEMOS&quot;&gt;The Soviet Russia, BSD makes you&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/gRN4Lzy8&quot;&gt; Jason - Value&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/GZYjRmSR&quot;&gt; Hamza - Shell Scripting&lt;/a&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://aikchar.me/blog/unix-shell-programming-lessons-learned.html&quot;&gt;Blog link&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/hEBu3Drp&quot;&gt; Dave - Migrating to FreeBSD&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/1HpKqCSt&quot;&gt; Dan - Which BSD?&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/4Aj5ebns&quot;&gt; Zach - AMD Video&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
     <entry>
         <title>The APU, BSD Style!</title>
         <smi:episode>171</smi:episode>
