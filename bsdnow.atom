@@ -30,6 +30,297 @@
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
     <entry>
+        <title>Carry on my Wayland son</title>
+        <smi:episode>173</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_21-carry_on_my_wayward_son"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_21-carry_on_my_wayward_son</id>
+        <published>2016-12-22T00:04:58-08:00</published>
+        <updated>2016-12-24T08:50:00Z</updated>
+        <link length="36011040" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0173.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="36011040" duration="4478" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0173.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="55687081" duration="4478" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0173.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="261358920" duration="4478" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0173-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="4478" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="504284216" duration="4478" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0173.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="85193" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0173-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:40" title="Headlines"/>
+            <psc:chapter start="00:01:40" title="syspatch now in testing" href="http://marc.info/?l=openbsd-tech&amp;m=148058309126053&amp;w=2"/>
+            <psc:chapter start="00:04:30" title="Weston working" href="https://lists.freebsd.org/pipermail/freebsd-current/2016-December/064198.html"/>
+            <psc:chapter start="00:08:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:10:25" title="Dual boot OpenBSD + ArchLinux with MBR" href="https://functionallyparanoid.com/2016/12/15/where-the-rubber-meets-the-road-part-two/"/>
+            <psc:chapter start="00:15:30" title="FreeBSD and ZFS time capsule for macOS" href="https://blog.feld.me/posts/2016/12/using-freebsd-as-a-time-capsule-for-osx/"/>
+            <psc:chapter start="00:18:10" title="News Roundup"/>
+            <psc:chapter start="00:18:10" title="FreeBSD network benchmarks" href="https://github.com/ocochard/netbenches"/>
+            <psc:chapter start="00:24:25" title="tcpdump tutorial" href="https://danielmiessler.com/study/tcpdump/"/>
+            <psc:chapter start="00:33:20" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:36:30" title="How Unix made it to the top" href="http://minnie.tuhs.org/pipermail/tuhs/2016-December/007519.html"/>
+            <psc:chapter start="00:38:50" title="Odd Comments and Strange Doings in Unix" href="http://orkinos.cmpe.boun.edu.tr/~kosar/odd.html"/>
+            <psc:chapter start="01:43:05" title="Beastie Bits"/>
+            <psc:chapter start="00:43:10" title="FreeBSD base system builds 100% reproducible" href="https://twitter.com/ed_maste/status/811289279611682816"/>
+            <psc:chapter start="00:45:05" title="BSDCan 2017 Call for Participation" href="https://www.freebsdfoundation.org/news-and-events/call-for-papers/bsdcan-2017/"/>
+            <psc:chapter start="00:46:35" title="ioCell 2.0 released" href="https://github.com/bartekrutkowski/iocell/releases"/>
+            <psc:chapter start="00:47:35" title="Who even calls link_ntoa?" href="http://www.tedunangst.com/flak/post/who-even-calls-link-ntoa"/>
+            <psc:chapter start="00:49:15" title="Booting Androidx86 under bhyve" href="https://twitter.com/pr1ntf/status/809528845673996288"/>
+            <psc:chapter start="00:50:35" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:55:25" title="Feedback/Questions"/>
+            <psc:chapter start="00:55:25" title="Chris - VNET" href="http://pastebin.com/016BfvU9"/>
+            <psc:chapter start="00:59:00" title="Brian - Package Base" href="http://pastebin.com/8JJeHuRT"/>
+            <psc:chapter start="01:04:15" title="Wim - TrueOS Desktop All-n-one" href="http://pastebin.com/VC0DPQUF"/>
+            <psc:chapter start="01:04:40" title="Daniel - Long Boots" href="http://pastebin.com/q7pFu7pR"/>
+            <psc:chapter start="01:06:05" title="Bryan - ZFS / FreeNAS" href="http://pastebin.com/xgUnbzr7"/>
+            <psc:chapter start="01:10:50" title="Bryan - FreeNAS Security" href="http://pastebin.com/qqCvVTLB"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on the show, we've got some great stories to bring you, a look at the odder side of UNIX history from Ritchie, news about Wayland/Weston, a new &quot;syspatch&quot; binary patch tool &amp; more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 173: Carry on my Wayland son&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openbsd-tech&amp;amp;m=148058309126053&amp;amp;w=2&quot;&gt;syspatch in testing state&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Antoine Jacoutot ajacoutot@ openbsd has posted a call for testing for OpenBSD's new syspatch tool&lt;/li&gt;
+            &lt;li&gt;&quot;syspatch(8), a &quot;binary&quot; patch system for -release is now ready for early testing. This does not use binary diffing to update the system, but regular signed tarballs containing the updated files (ala installer).&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I would appreciate feedback on the tool. But please send it directly to &lt;em&gt;me&lt;/em&gt;, there's no need to pollute the list. This is obviously WIP and the tool may or may not change in drastic ways.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;These test binary patches are &lt;em&gt;not&lt;/em&gt; endorsed by the OpenBSD project and should not be trusted, I am only providing them to get early feedback on the tool. If all goes as planned, I am hoping that syspatch will make it into the 6.1 release; but for it to happen, I need to know how it breaks your systems :-)&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://syspatch.openbsd.org/pub/OpenBSD/6.0/syspatch/amd64/README.txt&quot;&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;If you test it, report back and let us know how it went&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2016-December/064198.html&quot;&gt;Weston working&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Over the past few years we've had some user-interest in the state of Wayland / Weston on FreeBSD. In the past day or so, Johannes Lundberg has sent in a progress report to the FreeBSD mailing lists.&lt;/li&gt;
+            &lt;li&gt;Without further ADO:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;We had some progress with Wayland that we'd like to share.&lt;/p&gt;
+
+            &lt;p&gt;Wayland (v1.12.0)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;Weston (v1.12.0)
+            Working (Porting WIP)&lt;/p&gt;
+
+            &lt;p&gt;Weston-clients (installed with wayland/weston port)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;XWayland (run X11 apps in Wayland compositor)
+            Works (maximized window only) if started manually but not when
+            launching X11 app from Weston.  Most likely problem with Weston IPC.&lt;/p&gt;
+
+            &lt;p&gt;Sway (i3-compatible Wayland compositor)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;SDL20 (Wayland backend)
+            games/stonesoup-sdl briefly tested.
+            https://twitter.com/johalun/status/811334203358867456&lt;/p&gt;
+
+            &lt;p&gt;GDM (with Wayland)
+            Halted - depends on logind.&lt;/p&gt;
+
+            &lt;p&gt;GTK3
+            gtk3-demo runs fine on Weston (might have to set GDK_BACKEND=wayland
+            first.
+            GTK3 apps working (gedit, gnumeric, xfce4-terminal tested, xfce desktop
+            (4.12) does not yet support GTK3)&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Johannes goes on to give instructions on how / where you can fetch their WiP and do your own testing. At the moment you'll need Matt Macy's newer Intel video work, as well as their ports tree which includes all the necessary software bits.&lt;/li&gt;
+            &lt;li&gt;Before anybody asks, yes we are watching this for TrueOS!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/12/15/where-the-rubber-meets-the-road-part-two/&quot;&gt;Where the rubber meets the road (part two)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Continuing with our story from Brian Everly from a week ago, we have an update today on the process to dual-boot OpenBSD with Arch Linux.&lt;/li&gt;
+            &lt;li&gt;As we last left off, Arch was up and running on the laptop, but some quirks in the hardware meant OpenBSD would take a bit longer. &lt;/li&gt;
+            &lt;li&gt;With those issues resolved and the HD seen again, the next issue that reared its head was OpenBSD not seeing the partition tables on the disk. After much frustration, it was time to nuke and pave, starting with OpenBSD first this time.&lt;/li&gt;
+            &lt;li&gt;After a successful GPT partitioning and install of OpenBSD, he went back to installing Arch, and then the story got more interesting. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;I installed Arch as I detailed in my last post; however, when I fired up gdisk I got a weird error message:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! Disk size is smaller than the main header indicates! Loading secondary header from the last sector of the disk! You should use 'v' to verify disk integrity, and perhaps options on the expert's menu to repair the disk.&quot;&lt;/p&gt;
+
+            &lt;p&gt;Immediately after this, I saw a second warning:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Caution: Invalid backup GPT header, but valid main header; regenerating backup header from main header.&quot;&lt;/p&gt;
+
+            &lt;p&gt;And, not to be outdone, there was a third:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! Main and backup partition tables differ! Use the 'c' and 'e' options on the recovery &amp;amp; transformation menu to examine the two tables.&quot;&lt;/p&gt;
+
+            &lt;p&gt;Finally (not kidding), there was a fourth:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! One or more CRCs don't match. You should repair the disk!&quot;&lt;/p&gt;
+
+            &lt;p&gt;Given all of that, I thought to myself, &quot;This is probably why I couldn't see the disk properly when I partitioned it under Linux on the OpenBSD side.  I'll let it repair things and I should be good to go.&quot;  I then followed the recommendation and repaired things, using the primary GPT table to recreate the backup one.  I then installed Arch and figured I was good to go.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;After confirming through several additional re-installs that the behavior was reproducible, he then decided to go full on crazy,and partition with MBR. That in and of itself was a challenge, since as he mentions, not many people dual-boot OpenBSD with Linux on MBR, especially using luks and lvm!&lt;/li&gt;
+            &lt;li&gt;If you want to see the details on how that was done, check it out.&lt;/li&gt;
+            &lt;li&gt;The story ends in success though! And better yet:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Now that I have everything working, I'll restore my config and data to Arch, configure OpenBSD the way I like it and get moving.  I'll take some time and drop a note on the tech@ mailing list for OpenBSD to see if they can figure out what the GPT problem was I was running into.  Hopefully it will make that part of the code stronger to get an edge-case bug report like this.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Take note here, if you run into issues like this with any OS, be sure to document in detail what happened so developers can explore solutions to the issue. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://blog.feld.me/posts/2016/12/using-freebsd-as-a-time-capsule-for-osx/&quot;&gt;FreeBSD and ZFS as a time capsule for OS X &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Do you have any Apple users in your life? Perhaps you run FreeBSD for ZFS somewhere else in the house or office. Well today we have a blog post from Mark Felder which shows how you can use FreeBSD as a time-capsule for your OSX systems.&lt;/li&gt;
+            &lt;li&gt;The setup is quite simple, to get started you'll need packages for netatalk3 and avahi-app for service discovery.&lt;/li&gt;
+            &lt;li&gt;Next up will be your AFP configuration. He helpfully provides a nice example that you should be able to just cut-n-paste. Be sure to check the hosts allow lines and adjust to fit your network. Also of note will be the backup location and valid users to adjust.&lt;/li&gt;
+            &lt;li&gt;A little easier should be the avahi setup, which can be a straight copy-n-paste from the site, which will perform the service advertisements.&lt;/li&gt;
+            &lt;li&gt;The final piece is just enabling specific services in /etc/rc.conf and either starting them by hand, or rebooting. At this point your OSX systems should be able to discover the new time-capsule provider on the network and DTRT.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/ocochard/netbenches&quot;&gt;netbenches - FreeBSD network forwarding performance benchmark results&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Olivier Cochard-Labbé, original creator of FreeNAS, and leader of the BSD Router Project, has a github repo of network benchmarks&lt;/li&gt;
+            &lt;li&gt;There are many interesting results, and all of the scripts, documentation, and configuration files to run the tests yourself&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/ocochard/netbenches/tree/master/Atom_C2558_4Cores-Intel_i350/ipsec/results/fbsd12.projects-ipsec.equilibrium&quot;&gt;IPSec Performance on an Atom C2558, 12-head vs IPSec Performance Branch &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;Compared to: &lt;a href=&quot;https://github.com/ocochard/netbenches/tree/2f3bb1b3c51e454736f1fcc650c3328071834f8d/Xeon_L5630-4Cores-Intel_82599EB/ipsec/results/fbsd11.0&quot;&gt;Xeon L5630 2.13GHz &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;and &lt;a href=&quot;https://github.com/ocochard/netbenches/tree/305235114ba8a3748ad9681c629333f87f82613a/Atom_C2558_4Cores-Intel_i350/ipsec.ah/results/fbsd12.projects-ipsec.equilibrium&quot;&gt;IPSec with Authentication &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;I look forward to seeing tests on even more hardware, as people with access to different configurations try out these benchmarks&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://danielmiessler.com/study/tcpdump/&quot;&gt;A tcpdump Tutorial and Primer with Examples&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Most users will be familiar with the basics of using tcpdump, but this tutorial/primer is likely to fill in a lot of blanks, and advance many users understanding of tcpdump&lt;/li&gt;
+            &lt;li&gt;&quot;tcpdump is the premier network analysis tool for information security professionals. Having a solid grasp of this über-powerful application is mandatory for anyone desiring a thorough understanding of TCP/IP. Many prefer to use higher level analysis tools such as Wireshark, but I believe this to usually be a mistake.&quot;&lt;/li&gt;
+            &lt;li&gt;tcpdump is an important tool for any system or network administrator, it is not just for security. It is often the best way to figure out why the network is not behaving as expected.&lt;/li&gt;
+            &lt;li&gt;&quot;In a discipline so dependent on a true understanding of concepts vs. rote learning, it's important to stay fluent in the underlying mechanics of the TCP/IP suite. A thorough grasp of these protocols allows one to troubleshoot at a level far beyond the average analyst, but mastery of the protocols is only possible through continued exposure to them.&quot;&lt;/li&gt;
+            &lt;li&gt;Not just that, but TCP/IP is a very interesting protocol, considering how little it has changed in its 40+ year history&lt;/li&gt;
+            &lt;li&gt;&quot;First off, I like to add a few options to the tcpdump command itself, depending on what I'm looking at. The first of these is -n, which requests that names are not resolved, resulting in the IPs themselves always being displayed. The second is -X, which displays both hex and ascii content within the packet.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;It's also important to note that tcpdump only takes the first 96 bytes of data from a packet by default. If you would like to look at more, add the -s number option to the mix, where number is the number of bytes you want to capture. I recommend using 0 (zero) for a snaplength, which gets everything.&quot;&lt;/li&gt;
+            &lt;li&gt;The page has a nice table of the most useful options&lt;/li&gt;
+            &lt;li&gt;It also has a great primer on doing basic filtering&lt;/li&gt;
+            &lt;li&gt;If you are relatively new to using tcpdump, I highly recommend you spend a few minutes reading through this article&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://minnie.tuhs.org/pipermail/tuhs/2016-December/007519.html&quot;&gt;How Unix made it to the top&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Doug McIlroy gives us a nice background post on how &quot;Unix made it to the top&quot;&lt;/li&gt;
+            &lt;li&gt;It's fairly short / concise, so I felt it would be good to read in its entirety. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;It has often been told how the Bell Labs law department became the first non-research department to use Unix, displacing a newly acquired stand-alone word-processing system that fell short of the department's hopes because it couldn't number the lines on patent applications, as USPTO required. When Joe Ossanna heard of this, he told them about roff and promised to give it line-numbering capability the next day. They tried it and were hooked. Patent secretaries became remote members of the fellowship of the Unix lab. In due time the law department got its own machine.&lt;/p&gt;
+
+            &lt;p&gt;Less well known is how Unix made it into the head office of AT&amp;amp;T. It seems that the CEO, Charlie Brown, did not like to be seen wearing glasses when he read speeches. Somehow his PR assistant learned of the CAT phototypesetter in the Unix lab and asked whether it might be possible to use it to produce scripts in large type. Of course it was. As connections to the top never hurt, the CEO's office was welcomed as another ouside user. The cost--occasionally having to develop film for the final copy of a speech--was not onerous.&lt;/p&gt;
+
+            &lt;p&gt;Having teethed on speeches, the head office realized that Unix could also be useful for things that didn't need phototypesetting. Other documents began to accumulate in their directory. By the time we became aware of it, the hoard came to include minutes of AT&amp;amp;T board meetings. It didn't seem like a very good idea for us to be keeping records from the inner sanctum of the corporation on a computer where most everybody had super-user privileges. A call to the PR guy convinced him of the wisdom of keeping such things on their own premises. And so the CEO's office bought a Unix system.&lt;/p&gt;
+
+            &lt;p&gt;Just as one hears of cars chosen for their cupholders, so were theseusers converted to Unix for trivial reasons: line numbers and vanity.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://orkinos.cmpe.boun.edu.tr/~kosar/odd.html&quot;&gt;Odd Comments and Strange Doings in Unix&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Everybody loves easter-eggs, and today we have some fun odd ones from the history throughout UNIX told by Dennis Ritchie.&lt;/li&gt;
+            &lt;li&gt;First up, was a fun one where the &quot;mv&quot; command could sometimes print the following &quot;values of b may give rise to dom!&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Like most of the messages recorded in these compilations, this one was produced in some situation that we considered unlikely or as result of abuse; the details don't matter. I'm recording why the phrase was selected.&lt;/p&gt;
+
+            &lt;p&gt;The very first use of Unix in the &quot;real business&quot; of Bell Labs was to type and produce patent applications, and for a while in the early 1970s we had three typists busily typing away in the grotty lab on the sixth floor. One day someone came in and observed on the paper sticking out of one of the Teletypes, displayed in magnificent isolation, this ominous phrase:    values of b may give rise to dom!&lt;/p&gt;
+
+            &lt;p&gt;It was of course obvious that the typist had interrupted a printout (generating the &quot;!&quot; from the ed editor) and moved up the paper, and that the context must have been something like &quot;varying values of beta may give rise to domain wall movement&quot; or some other fragment of a physically plausible patent application.But the phrase itself was just so striking! Utterly meaningless, but it looks like what... a warning? What is &quot;dom?&quot;&lt;/p&gt;
+
+            &lt;p&gt;At the same time, we were experimenting with text-to-voice software by Doug McIlroy and others, and of course the phrase was tried out with it. For whatever reason, its rendition of &quot;give rise to dom!&quot; accented the last word in a way that emphasized the phonetic similarity between &quot;doom&quot; and the first syllable of &quot;dominance.&quot; It pronounced &quot;beta&quot; in the British style, &quot;beeta.&quot; The entire occurrence became a small, shared treasure.The phrase had to be recorded somewhere, and it was, in the v6 source. Most likely it was Bob Morris who did the deed, but it could just as easily have been Ken. I hope that your browser reproduces the b as a Greek beta.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Next up is one you might have heard before: &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;blockquote&gt;
+            &lt;p&gt;Every now and then on Usenet or elsewhere I run across a reference to a certain comment in the source code of the Sixth
+            Edition Unix operating system.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;I've even been given two sweatshirts that quote it.&lt;/p&gt;
+
+            &lt;p&gt;Most probably just heard about it, but those who saw it in the flesh either had Sixth Edition Unix (ca. 1975) or read the annotated version of this system by John Lions (which was republished in 1996: ISBN 1-57298-013-7, Peer-to-Peer Communications).It's often quoted as a slur on the quantity or quality of the comments in the Bell Labs research releases of Unix. Not an unfair observation in general, I fear, but in this case unjustified. &lt;/p&gt;
+
+            &lt;p&gt;So we tried to explain what was going on. &quot;You are not expected to understand this&quot; was intended as a remark in the spirit of &quot;This won't be on the exam,&quot; rather than as an impudent challenge. &lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There's a few other interesting stories as well, if the odd/fun side of UNIX history at all interests you, I would recommend checking it out.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/ed_maste/status/811289279611682816&quot;&gt;With patches in review the #FreeBSD base system builds 100% reproducibly&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/news-and-events/call-for-papers/bsdcan-2017/&quot;&gt;BSDCan 2017 Call for Participation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bartekrutkowski/iocell/releases&quot;&gt;ioCell 2.0 released &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/who-even-calls-link-ntoa&quot;&gt;who even calls link_ntoa?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/pr1ntf/status/809528845673996288&quot;&gt;Booting Androidx86 under bhyve&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/016BfvU9&quot;&gt; Chris - VNET&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/8JJeHuRT&quot;&gt; Brian - Package Base&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/VC0DPQUF&quot;&gt; Wim - TrueOS Desktop All-n-one&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q7pFu7pR&quot;&gt; Daniel - Long Boots&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/xgUnbzr7&quot;&gt; Bryan - ZFS / FreeNAS&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/qqCvVTLB&quot;&gt; Bryan - FreeNAS Security&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
         <title>A tale of BSD from yore</title>
         <smi:episode>172</smi:episode>
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_14_a_tale_of_bsd_from_yore"/>
@@ -40,8 +331,9 @@
         <media:group>
             <media:content fileSize="43465551" duration="5409" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0172.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
             <media:content fileSize="65632737" duration="5409" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0172.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
-            <media:content fileSize="305436508" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0171-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="315651583" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
             <media:content fileSize="609139310" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="5409" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0172.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
             <media:content fileSize="85193" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0172-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
         </media:group>
         <psc:chapters version="1.1">
