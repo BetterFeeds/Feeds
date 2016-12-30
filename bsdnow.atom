@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2016-12-16T17:20:00Z</updated>
+    <updated>2016-12-30T12:30:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,56 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>2016 highlights</title>
+        <smi:episode>174</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_29-2016_highlights"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_29-2016_highlights</id>
+        <published>2016-12-29T10:30:44-08:00</published>
+        <updated>2016-12-30T10:37:00Z</updated>
+        <link length="84461287" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="84461287" duration="10534" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="132295881" duration="10534" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="614642716" duration="10534" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0174-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1186106641" duration="10534" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0174.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1186106641" duration="10534" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0174.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="80085" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0174v2-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:00" title="Leo Laporte tries FreeBSD" href="http://www.bsdnow.tv/episodes/2016_07_27-the_lepotre_has_landed"/>
+            <psc:chapter start="00:07:40" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:09:05" title="PC-BSD is now TrueOS" href="http://www.bsdnow.tv/episodes/2016_09_07-ham_radio_and_pie_oh_my"/>
+            <psc:chapter start="00:20:55" title="Josh Paetzel - ZFS dos and don'ts" href="http://www.bsdnow.tv/episodes/2015_01_06-zfs_in_the_trenches"/>
+            <psc:chapter start="01:14:10" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:16:15" title="FreeBSD 11.0 released" href="http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill"/>
+            <psc:chapter start="01:24:10" title="Petra Zeidler - NetBSD Foundation" href="http://www.bsdnow.tv/episodes/2016_10_05-the_foundation_of_netbsd_"/>
+            <psc:chapter start="01:51:50" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="01:53:35" title="Matt Macy - Graphics stack update" href="http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd"/>
+        </psc:chapters>
+        <contributor>
+            <name>Chris Fisher</name>
+            <uri>https://twitter.com/ChrisLAS</uri>
+            <email>chris@jupiterbroadcasting.com</email>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Josh Paetzel</name>
+            <uri>https://twitter.com/bsdunix4ever</uri>
+        </contributor>
+        <contributor>
+            <name>Petra Zeidler</name>
+            <email>spz@netbsd.org</email>
+        </contributor>
+        <contributor>
+            <name>Matt Macy</name>
+            <email>mmacy@nextbsd.org</email>
+        </contributor>
+        <summary>Chris takes over and guest hosts the show to give the guys some time off. We take a look back at 2016 in BSD, covering the announcement of TrueOS, OpenBSD and FreeBSD releases, a talk with Petra about NetBSD &amp; much more!</summary>
+    </entry>
     <entry>
         <title>Carry on my Wayland son</title>
         <smi:episode>173</smi:episode>
