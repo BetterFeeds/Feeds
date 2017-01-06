@@ -14,7 +14,7 @@
     <link href="http://feeds.feedburner.com/BsdNowHd" rel="archives" type="application/rss+xml" title="BSD Now HD Video"/>
     <link href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed" rel="archives" type="application/rss+xml" title="BSD Now HD Video (BitTorrent)"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-10.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
-    <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="previous" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-12.atom" rel="previous" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
@@ -461,7 +461,7 @@
             &lt;li&gt;It covers some of the changes to WiFi in 11.0&lt;/li&gt;
             &lt;li&gt;Pro Tip: you can get a list of WiFi devices by doing: sysctl net.wlan.devices&lt;/li&gt;
             &lt;li&gt;There are official binary packages for ARM with 11.0, so you can just 'pkg install' your favourite apps&lt;/li&gt;
-            &lt;li&gt;Many of the LEDs are exposed via the /dev/led/&lt;name&gt; interface, which you can just echo 0 or 1 to, or use morse(6) to send a message&lt;/name&gt;&lt;/li&gt;
+            &lt;li&gt;Many of the LEDs are exposed via the /dev/led/{name} interface, which you can just echo 0 or 1 to, or use morse(6) to send a message&lt;/name&gt;&lt;/li&gt;
             &lt;li&gt;gpioctl can be used to control the various GPIO pins&lt;/li&gt;
             &lt;li&gt;The post also covers how to setup the real-time clock on the Raspberry Pi&lt;/li&gt;
             &lt;li&gt;There is also limited support for adjusting the CPU frequency of the Pi&lt;/li&gt;

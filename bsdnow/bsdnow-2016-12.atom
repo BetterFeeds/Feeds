@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info/1" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="http://podlove.org/simple-chapters" xml:lang="en-us">
+    <title>BSD Now</title>
+    <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
+    <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
+    <link href="http://www.bsdnow.tv/" rel="alternate" type="text/html"/>
+    <link href="https://itunes.apple.com/us/podcast/bsd-now-mp3/id701045710" rel="archives" type="text/html" title="iTunes - Audio"/>
+    <link href="https://itunes.apple.com/cn/podcast/bsd-now-hd/id850665429" rel="archives" type="text/html" title="iTunes - Video"/>
+    <link href="https://www.youtube.com/user/jupiterbroadcasting/videos" rel="archives" type="text/html" title="YouTube"/>
+    <link href="http://feeds.feedburner.com/BsdNowMp3" rel="archives" type="application/rss+xml" title="BSD Now MP3 Audio"/>
+    <link href="http://feeds.feedburner.com/BsdNowOgg" rel="archives" type="application/rss+xml" title="BSD Now OGG Audio"/>
+    <link href="http://feeds.feedburner.com/BsdNowMobile" rel="archives" type="application/rss+xml" title="BSD Now SD Video"/>
+    <link href="http://feeds.feedburner.com/BsdNowHd" rel="archives" type="application/rss+xml" title="BSD Now HD Video"/>
+    <link href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed" rel="archives" type="application/rss+xml" title="BSD Now HD Video (BitTorrent)"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-12.atom" rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-11.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="previous" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
+    <id>http://www.bsdnow.tv/</id>
+    <updated>2016-12-30T14:14:00Z</updated>
+    <smi:sequential>false</smi:sequential>
+    <author>
+        <name>Allan Jude</name>
+        <email>allan@jupiterbroadcasting.com</email>
+        <uri>https://twitter.com/allanjude</uri>
+    </author>
+    <author>
+        <name>Kris Moore</name>
+        <email>kris@pcbsd.org</email>
+        <uri>https://twitter.com/pcbsdkris</uri>
+    </author>
+    <entry>
+        <title>2016 highlights</title>
+        <smi:episode>174</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_29-2016_highlights"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_29-2016_highlights</id>
+        <published>2016-12-29T10:30:44-08:00</published>
+        <updated>2016-12-30T14:14:00Z</updated>
+        <link length="84461287" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="84461287" duration="10534" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="132295881" duration="10534" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jupiterbroadcasting/bsd-0174.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="614642716" duration="10534" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0174-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1186106641" duration="10534" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0174.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1186106641" duration="10534" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0174.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="80085" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0174v2-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:00" title="Leo Laporte tries FreeBSD" href="http://www.bsdnow.tv/episodes/2016_07_27-the_lepotre_has_landed"/>
+            <psc:chapter start="00:07:40" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:09:05" title="PC-BSD is now TrueOS" href="http://www.bsdnow.tv/episodes/2016_09_07-ham_radio_and_pie_oh_my"/>
+            <psc:chapter start="00:20:55" title="Josh Paetzel - ZFS dos and don'ts" href="http://www.bsdnow.tv/episodes/2015_01_06-zfs_in_the_trenches"/>
+            <psc:chapter start="01:14:10" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:16:15" title="FreeBSD 11.0 released" href="http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill"/>
+            <psc:chapter start="01:24:10" title="Petra Zeidler - NetBSD Foundation" href="http://www.bsdnow.tv/episodes/2016_10_05-the_foundation_of_netbsd_"/>
+            <psc:chapter start="01:51:50" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="01:53:35" title="Matt Macy - Graphics stack update" href="http://www.bsdnow.tv/episodes/2016_05_26-one_small_step_for_drm_one_giant_leap_for_bsd"/>
+            <psc:chapter start="02:48:16" title="OpenBSD 6.0 drops Linux compatibility" href="http://www.bsdnow.tv/episodes/2016_07_27-the_lepotre_has_landed"/>
+        </psc:chapters>
+        <contributor>
+            <name>Chris Fisher</name>
+            <uri>https://twitter.com/ChrisLAS</uri>
+            <email>chris@jupiterbroadcasting.com</email>
+        </contributor>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Josh Paetzel</name>
+            <uri>https://twitter.com/bsdunix4ever</uri>
+        </contributor>
+        <contributor>
+            <name>Petra Zeidler</name>
+            <email>spz@netbsd.org</email>
+        </contributor>
+        <contributor>
+            <name>Matt Macy</name>
+            <email>mmacy@nextbsd.org</email>
+        </contributor>
+        <summary>Chris takes over and guest hosts the show to give the guys some time off. We take a look back at 2016 in BSD, covering the announcement of TrueOS, OpenBSD and FreeBSD releases, a talk with Petra about NetBSD &amp; much more!</summary>
+    </entry>
+    <entry>
+        <title>Carry on my Wayland son</title>
+        <smi:episode>173</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_21-carry_on_my_wayward_son"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_21-carry_on_my_wayward_son</id>
+        <published>2016-12-22T00:04:58-08:00</published>
+        <updated>2016-12-24T08:50:00Z</updated>
+        <link length="36011040" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0173.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="36011040" duration="4478" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0173.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="55687081" duration="4478" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0173.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="261358920" duration="4478" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0173-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="4478" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="504284216" duration="4478" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0173.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="85193" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0173-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:40" title="Headlines"/>
+            <psc:chapter start="00:01:40" title="syspatch now in testing" href="http://marc.info/?l=openbsd-tech&amp;m=148058309126053&amp;w=2"/>
+            <psc:chapter start="00:04:30" title="Weston working" href="https://lists.freebsd.org/pipermail/freebsd-current/2016-December/064198.html"/>
+            <psc:chapter start="00:08:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:10:25" title="Dual boot OpenBSD + ArchLinux with MBR" href="https://functionallyparanoid.com/2016/12/15/where-the-rubber-meets-the-road-part-two/"/>
+            <psc:chapter start="00:15:30" title="FreeBSD and ZFS time capsule for macOS" href="https://blog.feld.me/posts/2016/12/using-freebsd-as-a-time-capsule-for-osx/"/>
+            <psc:chapter start="00:18:10" title="News Roundup"/>
+            <psc:chapter start="00:18:10" title="FreeBSD network benchmarks" href="https://github.com/ocochard/netbenches"/>
+            <psc:chapter start="00:24:25" title="tcpdump tutorial" href="https://danielmiessler.com/study/tcpdump/"/>
+            <psc:chapter start="00:33:20" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:36:30" title="How Unix made it to the top" href="http://minnie.tuhs.org/pipermail/tuhs/2016-December/007519.html"/>
+            <psc:chapter start="00:38:50" title="Odd Comments and Strange Doings in Unix" href="http://orkinos.cmpe.boun.edu.tr/~kosar/odd.html"/>
+            <psc:chapter start="01:43:05" title="Beastie Bits"/>
+            <psc:chapter start="00:43:10" title="FreeBSD base system builds 100% reproducible" href="https://twitter.com/ed_maste/status/811289279611682816"/>
+            <psc:chapter start="00:45:05" title="BSDCan 2017 Call for Participation" href="https://www.freebsdfoundation.org/news-and-events/call-for-papers/bsdcan-2017/"/>
+            <psc:chapter start="00:46:35" title="ioCell 2.0 released" href="https://github.com/bartekrutkowski/iocell/releases"/>
+            <psc:chapter start="00:47:35" title="Who even calls link_ntoa?" href="http://www.tedunangst.com/flak/post/who-even-calls-link-ntoa"/>
+            <psc:chapter start="00:49:15" title="Booting Androidx86 under bhyve" href="https://twitter.com/pr1ntf/status/809528845673996288"/>
+            <psc:chapter start="00:50:35" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:55:25" title="Feedback/Questions"/>
+            <psc:chapter start="00:55:25" title="Chris - VNET" href="http://pastebin.com/016BfvU9"/>
+            <psc:chapter start="00:59:00" title="Brian - Package Base" href="http://pastebin.com/8JJeHuRT"/>
+            <psc:chapter start="01:04:15" title="Wim - TrueOS Desktop All-n-one" href="http://pastebin.com/VC0DPQUF"/>
+            <psc:chapter start="01:04:40" title="Daniel - Long Boots" href="http://pastebin.com/q7pFu7pR"/>
+            <psc:chapter start="01:06:05" title="Bryan - ZFS / FreeNAS" href="http://pastebin.com/xgUnbzr7"/>
+            <psc:chapter start="01:10:50" title="Bryan - FreeNAS Security" href="http://pastebin.com/qqCvVTLB"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on the show, we've got some great stories to bring you, a look at the odder side of UNIX history from Ritchie, news about Wayland/Weston, a new &quot;syspatch&quot; binary patch tool &amp; more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 173: Carry on my Wayland son&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openbsd-tech&amp;amp;m=148058309126053&amp;amp;w=2&quot;&gt;syspatch in testing state&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Antoine Jacoutot ajacoutot@ openbsd has posted a call for testing for OpenBSD's new syspatch tool&lt;/li&gt;
+            &lt;li&gt;&quot;syspatch(8), a &quot;binary&quot; patch system for -release is now ready for early testing. This does not use binary diffing to update the system, but regular signed tarballs containing the updated files (ala installer).&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I would appreciate feedback on the tool. But please send it directly to &lt;em&gt;me&lt;/em&gt;, there's no need to pollute the list. This is obviously WIP and the tool may or may not change in drastic ways.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;These test binary patches are &lt;em&gt;not&lt;/em&gt; endorsed by the OpenBSD project and should not be trusted, I am only providing them to get early feedback on the tool. If all goes as planned, I am hoping that syspatch will make it into the 6.1 release; but for it to happen, I need to know how it breaks your systems :-)&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://syspatch.openbsd.org/pub/OpenBSD/6.0/syspatch/amd64/README.txt&quot;&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;If you test it, report back and let us know how it went&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lists.freebsd.org/pipermail/freebsd-current/2016-December/064198.html&quot;&gt;Weston working&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Over the past few years we've had some user-interest in the state of Wayland / Weston on FreeBSD. In the past day or so, Johannes Lundberg has sent in a progress report to the FreeBSD mailing lists.&lt;/li&gt;
+            &lt;li&gt;Without further ADO:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;We had some progress with Wayland that we'd like to share.&lt;/p&gt;
+
+            &lt;p&gt;Wayland (v1.12.0)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;Weston (v1.12.0)
+            Working (Porting WIP)&lt;/p&gt;
+
+            &lt;p&gt;Weston-clients (installed with wayland/weston port)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;XWayland (run X11 apps in Wayland compositor)
+            Works (maximized window only) if started manually but not when
+            launching X11 app from Weston.  Most likely problem with Weston IPC.&lt;/p&gt;
+
+            &lt;p&gt;Sway (i3-compatible Wayland compositor)
+            Working&lt;/p&gt;
+
+            &lt;p&gt;SDL20 (Wayland backend)
+            games/stonesoup-sdl briefly tested.
+            https://twitter.com/johalun/status/811334203358867456&lt;/p&gt;
+
+            &lt;p&gt;GDM (with Wayland)
+            Halted - depends on logind.&lt;/p&gt;
+
+            &lt;p&gt;GTK3
+            gtk3-demo runs fine on Weston (might have to set GDK_BACKEND=wayland
+            first.
+            GTK3 apps working (gedit, gnumeric, xfce4-terminal tested, xfce desktop
+            (4.12) does not yet support GTK3)&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Johannes goes on to give instructions on how / where you can fetch their WiP and do your own testing. At the moment you'll need Matt Macy's newer Intel video work, as well as their ports tree which includes all the necessary software bits.&lt;/li&gt;
+            &lt;li&gt;Before anybody asks, yes we are watching this for TrueOS!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/12/15/where-the-rubber-meets-the-road-part-two/&quot;&gt;Where the rubber meets the road (part two)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Continuing with our story from Brian Everly from a week ago, we have an update today on the process to dual-boot OpenBSD with Arch Linux.&lt;/li&gt;
+            &lt;li&gt;As we last left off, Arch was up and running on the laptop, but some quirks in the hardware meant OpenBSD would take a bit longer. &lt;/li&gt;
+            &lt;li&gt;With those issues resolved and the HD seen again, the next issue that reared its head was OpenBSD not seeing the partition tables on the disk. After much frustration, it was time to nuke and pave, starting with OpenBSD first this time.&lt;/li&gt;
+            &lt;li&gt;After a successful GPT partitioning and install of OpenBSD, he went back to installing Arch, and then the story got more interesting. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;I installed Arch as I detailed in my last post; however, when I fired up gdisk I got a weird error message:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! Disk size is smaller than the main header indicates! Loading secondary header from the last sector of the disk! You should use 'v' to verify disk integrity, and perhaps options on the expert's menu to repair the disk.&quot;&lt;/p&gt;
+
+            &lt;p&gt;Immediately after this, I saw a second warning:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Caution: Invalid backup GPT header, but valid main header; regenerating backup header from main header.&quot;&lt;/p&gt;
+
+            &lt;p&gt;And, not to be outdone, there was a third:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! Main and backup partition tables differ! Use the 'c' and 'e' options on the recovery &amp;amp; transformation menu to examine the two tables.&quot;&lt;/p&gt;
+
+            &lt;p&gt;Finally (not kidding), there was a fourth:&lt;/p&gt;
+
+            &lt;p&gt;&quot;Warning! One or more CRCs don't match. You should repair the disk!&quot;&lt;/p&gt;
+
+            &lt;p&gt;Given all of that, I thought to myself, &quot;This is probably why I couldn't see the disk properly when I partitioned it under Linux on the OpenBSD side.  I'll let it repair things and I should be good to go.&quot;  I then followed the recommendation and repaired things, using the primary GPT table to recreate the backup one.  I then installed Arch and figured I was good to go.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;After confirming through several additional re-installs that the behavior was reproducible, he then decided to go full on crazy,and partition with MBR. That in and of itself was a challenge, since as he mentions, not many people dual-boot OpenBSD with Linux on MBR, especially using luks and lvm!&lt;/li&gt;
+            &lt;li&gt;If you want to see the details on how that was done, check it out.&lt;/li&gt;
+            &lt;li&gt;The story ends in success though! And better yet:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Now that I have everything working, I'll restore my config and data to Arch, configure OpenBSD the way I like it and get moving.  I'll take some time and drop a note on the tech@ mailing list for OpenBSD to see if they can figure out what the GPT problem was I was running into.  Hopefully it will make that part of the code stronger to get an edge-case bug report like this.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Take note here, if you run into issues like this with any OS, be sure to document in detail what happened so developers can explore solutions to the issue. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://blog.feld.me/posts/2016/12/using-freebsd-as-a-time-capsule-for-osx/&quot;&gt;FreeBSD and ZFS as a time capsule for OS X &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Do you have any Apple users in your life? Perhaps you run FreeBSD for ZFS somewhere else in the house or office. Well today we have a blog post from Mark Felder which shows how you can use FreeBSD as a time-capsule for your OSX systems.&lt;/li&gt;
+            &lt;li&gt;The setup is quite simple, to get started you'll need packages for netatalk3 and avahi-app for service discovery.&lt;/li&gt;
+            &lt;li&gt;Next up will be your AFP configuration. He helpfully provides a nice example that you should be able to just cut-n-paste. Be sure to check the hosts allow lines and adjust to fit your network. Also of note will be the backup location and valid users to adjust.&lt;/li&gt;
+            &lt;li&gt;A little easier should be the avahi setup, which can be a straight copy-n-paste from the site, which will perform the service advertisements.&lt;/li&gt;
+            &lt;li&gt;The final piece is just enabling specific services in /etc/rc.conf and either starting them by hand, or rebooting. At this point your OSX systems should be able to discover the new time-capsule provider on the network and DTRT.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/ocochard/netbenches&quot;&gt;netbenches - FreeBSD network forwarding performance benchmark results&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Olivier Cochard-Labbé, original creator of FreeNAS, and leader of the BSD Router Project, has a github repo of network benchmarks&lt;/li&gt;
+            &lt;li&gt;There are many interesting results, and all of the scripts, documentation, and configuration files to run the tests yourself&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/ocochard/netbenches/tree/master/Atom_C2558_4Cores-Intel_i350/ipsec/results/fbsd12.projects-ipsec.equilibrium&quot;&gt;IPSec Performance on an Atom C2558, 12-head vs IPSec Performance Branch &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;Compared to: &lt;a href=&quot;https://github.com/ocochard/netbenches/tree/2f3bb1b3c51e454736f1fcc650c3328071834f8d/Xeon_L5630-4Cores-Intel_82599EB/ipsec/results/fbsd11.0&quot;&gt;Xeon L5630 2.13GHz &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;and &lt;a href=&quot;https://github.com/ocochard/netbenches/tree/305235114ba8a3748ad9681c629333f87f82613a/Atom_C2558_4Cores-Intel_i350/ipsec.ah/results/fbsd12.projects-ipsec.equilibrium&quot;&gt;IPSec with Authentication &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;I look forward to seeing tests on even more hardware, as people with access to different configurations try out these benchmarks&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://danielmiessler.com/study/tcpdump/&quot;&gt;A tcpdump Tutorial and Primer with Examples&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Most users will be familiar with the basics of using tcpdump, but this tutorial/primer is likely to fill in a lot of blanks, and advance many users understanding of tcpdump&lt;/li&gt;
+            &lt;li&gt;&quot;tcpdump is the premier network analysis tool for information security professionals. Having a solid grasp of this über-powerful application is mandatory for anyone desiring a thorough understanding of TCP/IP. Many prefer to use higher level analysis tools such as Wireshark, but I believe this to usually be a mistake.&quot;&lt;/li&gt;
+            &lt;li&gt;tcpdump is an important tool for any system or network administrator, it is not just for security. It is often the best way to figure out why the network is not behaving as expected.&lt;/li&gt;
+            &lt;li&gt;&quot;In a discipline so dependent on a true understanding of concepts vs. rote learning, it's important to stay fluent in the underlying mechanics of the TCP/IP suite. A thorough grasp of these protocols allows one to troubleshoot at a level far beyond the average analyst, but mastery of the protocols is only possible through continued exposure to them.&quot;&lt;/li&gt;
+            &lt;li&gt;Not just that, but TCP/IP is a very interesting protocol, considering how little it has changed in its 40+ year history&lt;/li&gt;
+            &lt;li&gt;&quot;First off, I like to add a few options to the tcpdump command itself, depending on what I'm looking at. The first of these is -n, which requests that names are not resolved, resulting in the IPs themselves always being displayed. The second is -X, which displays both hex and ascii content within the packet.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;It's also important to note that tcpdump only takes the first 96 bytes of data from a packet by default. If you would like to look at more, add the -s number option to the mix, where number is the number of bytes you want to capture. I recommend using 0 (zero) for a snaplength, which gets everything.&quot;&lt;/li&gt;
+            &lt;li&gt;The page has a nice table of the most useful options&lt;/li&gt;
+            &lt;li&gt;It also has a great primer on doing basic filtering&lt;/li&gt;
+            &lt;li&gt;If you are relatively new to using tcpdump, I highly recommend you spend a few minutes reading through this article&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://minnie.tuhs.org/pipermail/tuhs/2016-December/007519.html&quot;&gt;How Unix made it to the top&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Doug McIlroy gives us a nice background post on how &quot;Unix made it to the top&quot;&lt;/li&gt;
+            &lt;li&gt;It's fairly short / concise, so I felt it would be good to read in its entirety. &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;It has often been told how the Bell Labs law department became the first non-research department to use Unix, displacing a newly acquired stand-alone word-processing system that fell short of the department's hopes because it couldn't number the lines on patent applications, as USPTO required. When Joe Ossanna heard of this, he told them about roff and promised to give it line-numbering capability the next day. They tried it and were hooked. Patent secretaries became remote members of the fellowship of the Unix lab. In due time the law department got its own machine.&lt;/p&gt;
+
+            &lt;p&gt;Less well known is how Unix made it into the head office of AT&amp;amp;T. It seems that the CEO, Charlie Brown, did not like to be seen wearing glasses when he read speeches. Somehow his PR assistant learned of the CAT phototypesetter in the Unix lab and asked whether it might be possible to use it to produce scripts in large type. Of course it was. As connections to the top never hurt, the CEO's office was welcomed as another ouside user. The cost--occasionally having to develop film for the final copy of a speech--was not onerous.&lt;/p&gt;
+
+            &lt;p&gt;Having teethed on speeches, the head office realized that Unix could also be useful for things that didn't need phototypesetting. Other documents began to accumulate in their directory. By the time we became aware of it, the hoard came to include minutes of AT&amp;amp;T board meetings. It didn't seem like a very good idea for us to be keeping records from the inner sanctum of the corporation on a computer where most everybody had super-user privileges. A call to the PR guy convinced him of the wisdom of keeping such things on their own premises. And so the CEO's office bought a Unix system.&lt;/p&gt;
+
+            &lt;p&gt;Just as one hears of cars chosen for their cupholders, so were theseusers converted to Unix for trivial reasons: line numbers and vanity.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://orkinos.cmpe.boun.edu.tr/~kosar/odd.html&quot;&gt;Odd Comments and Strange Doings in Unix&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Everybody loves easter-eggs, and today we have some fun odd ones from the history throughout UNIX told by Dennis Ritchie.&lt;/li&gt;
+            &lt;li&gt;First up, was a fun one where the &quot;mv&quot; command could sometimes print the following &quot;values of b may give rise to dom!&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Like most of the messages recorded in these compilations, this one was produced in some situation that we considered unlikely or as result of abuse; the details don't matter. I'm recording why the phrase was selected.&lt;/p&gt;
+
+            &lt;p&gt;The very first use of Unix in the &quot;real business&quot; of Bell Labs was to type and produce patent applications, and for a while in the early 1970s we had three typists busily typing away in the grotty lab on the sixth floor. One day someone came in and observed on the paper sticking out of one of the Teletypes, displayed in magnificent isolation, this ominous phrase:    values of b may give rise to dom!&lt;/p&gt;
+
+            &lt;p&gt;It was of course obvious that the typist had interrupted a printout (generating the &quot;!&quot; from the ed editor) and moved up the paper, and that the context must have been something like &quot;varying values of beta may give rise to domain wall movement&quot; or some other fragment of a physically plausible patent application.But the phrase itself was just so striking! Utterly meaningless, but it looks like what... a warning? What is &quot;dom?&quot;&lt;/p&gt;
+
+            &lt;p&gt;At the same time, we were experimenting with text-to-voice software by Doug McIlroy and others, and of course the phrase was tried out with it. For whatever reason, its rendition of &quot;give rise to dom!&quot; accented the last word in a way that emphasized the phonetic similarity between &quot;doom&quot; and the first syllable of &quot;dominance.&quot; It pronounced &quot;beta&quot; in the British style, &quot;beeta.&quot; The entire occurrence became a small, shared treasure.The phrase had to be recorded somewhere, and it was, in the v6 source. Most likely it was Bob Morris who did the deed, but it could just as easily have been Ken. I hope that your browser reproduces the b as a Greek beta.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Next up is one you might have heard before: &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;blockquote&gt;
+            &lt;p&gt;Every now and then on Usenet or elsewhere I run across a reference to a certain comment in the source code of the Sixth
+            Edition Unix operating system.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;I've even been given two sweatshirts that quote it.&lt;/p&gt;
+
+            &lt;p&gt;Most probably just heard about it, but those who saw it in the flesh either had Sixth Edition Unix (ca. 1975) or read the annotated version of this system by John Lions (which was republished in 1996: ISBN 1-57298-013-7, Peer-to-Peer Communications).It's often quoted as a slur on the quantity or quality of the comments in the Bell Labs research releases of Unix. Not an unfair observation in general, I fear, but in this case unjustified. &lt;/p&gt;
+
+            &lt;p&gt;So we tried to explain what was going on. &quot;You are not expected to understand this&quot; was intended as a remark in the spirit of &quot;This won't be on the exam,&quot; rather than as an impudent challenge. &lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;There's a few other interesting stories as well, if the odd/fun side of UNIX history at all interests you, I would recommend checking it out.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/ed_maste/status/811289279611682816&quot;&gt;With patches in review the #FreeBSD base system builds 100% reproducibly&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/news-and-events/call-for-papers/bsdcan-2017/&quot;&gt;BSDCan 2017 Call for Participation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bartekrutkowski/iocell/releases&quot;&gt;ioCell 2.0 released &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/who-even-calls-link-ntoa&quot;&gt;who even calls link_ntoa?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/pr1ntf/status/809528845673996288&quot;&gt;Booting Androidx86 under bhyve&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/016BfvU9&quot;&gt; Chris - VNET&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/8JJeHuRT&quot;&gt; Brian - Package Base&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/VC0DPQUF&quot;&gt; Wim - TrueOS Desktop All-n-one&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q7pFu7pR&quot;&gt; Daniel - Long Boots&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/xgUnbzr7&quot;&gt; Bryan - ZFS / FreeNAS&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/qqCvVTLB&quot;&gt; Bryan - FreeNAS Security&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>A tale of BSD from yore</title>
+        <smi:episode>172</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_14_a_tale_of_bsd_from_yore"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_14_a_tale_of_bsd_from_yore</id>
+        <published>2016-12-15T04:09:56-08:00</published>
+        <updated>2016-12-16T17:19:00Z</updated>
+        <link length="43465551" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0172.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="43465551" duration="5409" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0172.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="65632737" duration="5409" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0172.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="315651583" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="5409" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0172.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="609139310" duration="5409" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0172.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="85193" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0172-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:15" title="Headlines"/>
+            <psc:chapter start="00:01:15" title="OpenSSH 7.4" href="http://marc.info/?l=openssh-unix-dev&amp;m=148167688911316&amp;w=2"/>
+            <psc:chapter start="00:06:35" title="Excessive Syscalls &amp; UDP Traffic" href="https://zinascii.com/2014/how-my-printer-caused-excessive-syscalls.html"/>
+            <psc:chapter start="00:13:45" title="Making Getaddrinfo Concurrent in Python" href="https://emptysqua.re/blog/getaddrinfo-cpython-mac-and-bsd/"/>
+            <psc:chapter start="00:17:10" title="Using release to create FreeBSD images for OpenStack" href="https://diegocasati.com/2016/12/13/using-release7-to-create-freebsd-images-for-openstack-yes-you-can-do-it/"/>
+            <psc:chapter start="00:20:00" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:21:50" title="Interview"/>
+            <psc:chapter start="00:52:30" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:55:40" title="News Roundup"/>
+            <psc:chapter start="00:55:40" title="FreeBSD automounter" href="http://blog.khubla.com/freebsd/configuring-the-freebsd-automounter"/>
+            <psc:chapter start="00:58:15" title="l2k16 hackathon: LibreSSL manuals in mdoc" href="http://undeadly.org/cgi?action=article&amp;sid=20161114174451"/>
+            <psc:chapter start="01:01:20" title="smenu interactive terminal" href="https://github.com/p-gen/smenu"/>
+            <psc:chapter start="01:04:30" title="Ubuntu unofficial images" href="http://mjg59.dreamwidth.org/45939.html"/>
+            <psc:chapter start="01:10:05" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:13:00" title="Beastie Bits"/>
+            <psc:chapter start="01:13:00" title="OPNsense 16.7.10 released" href="https://opnsense.org/opnsense-16-7-10-released/"/>
+            <psc:chapter start="01:13:40" title="OpenBSD Foundation First Iridium Donor: Smartisan" href="http://undeadly.org/cgi?action=article&amp;sid=20161123193708&amp;mode=expanded&amp;count=8"/>
+            <psc:chapter start="01:14:20" title="Jan Koum donates $500,000 to FreeBSD" href="https://www.freebsdfoundation.org/blog/foundation-announces-new-uranium-donor/"/>
+            <psc:chapter start="01:15:55" title="The Soviet Russia, BSD makes you" href="https://en.wikipedia.org/wiki/DEMOS"/>
+            <psc:chapter start="01:17:30" title="Feedback/Questions"/>
+            <psc:chapter start="01:17:35" title="Jason - Value" href="http://pastebin.com/gRN4Lzy8"/>
+            <psc:chapter start="01:19:00" title="Hamza - Shell Scripting" href="http://aikchar.me/blog/unix-shell-programming-lessons-learned.html"/>
+            <psc:chapter start="01:19:50" title="Dave - Migrating to FreeBSD" href="http://pastebin.com/hEBu3Drp"/>
+            <psc:chapter start="01:21:35" title="Dan - Which BSD?" href="http://pastebin.com/1HpKqCSt"/>
+            <psc:chapter start="01:26:20" title="Zach - AMD Video" href="http://pastebin.com/4Aj5ebns"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Rod Grimes</name>
+            <email>rgrimes@freebsd.org</email>
+        </contributor>
+        <summary>This week on BSDNow, we have a very special guest joining us to tell us a tale of the early days in BSD history. That plus some new OpenSSH goodness, shell scripting utilities &amp; much more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 172: A tale of BSD from yore&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://marc.info/?l=openssh-unix-dev&amp;amp;m=148167688911316&amp;amp;w=2&quot;&gt;Call For Testing: OpenSSH 7.4 &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Getting ready to head into the holidays for for the end of 2016 means some of us will have spare time on our hands. What a perfect time to get some call for testing work done!&lt;/li&gt;
+            &lt;li&gt;Damien Miller has issued a public CFT for the upcoming OpenSSH 7.4 release, which considering how much we all rely on SSH I would expect will get some eager volunteers for testing.&lt;/li&gt;
+            &lt;li&gt;What are some of the potential breakers?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;* This release removes server support for the SSH v.1 protocol.&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;ssh(1): Remove 3des-cbc from the client's default proposal. 64-bit
+            block ciphers are not safe in 2016 and we don't want to wait until
+            attacks like SWEET32 are extended to SSH. As 3des-cbc was the
+            only mandatory cipher in the SSH RFCs, this may cause problems
+            connecting to older devices using the default configuration,
+            but it's highly likely that such devices already need explicit
+            configuration for key exchange and hostkey algorithms already
+            anyway.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Remove support for pre-authentication compression.
+            Doing compression early in the protocol probably seemed reasonable
+            in the 1990s, but today it's clearly a bad idea in terms of both
+            cryptography (cf. multiple compression oracle attacks in TLS) and
+            attack surface. Pre-auth compression support has been disabled by
+            default for &amp;gt;10 years. Support remains in the client.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;ssh-agent will refuse to load PKCS#11 modules outside a whitelist
+            of trusted paths by default. The path whitelist may be specified
+            at run-time.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): When a forced-command appears in both a certificate and
+            an authorized keys/principals command= restriction, sshd will now
+            refuse to accept the certificate unless they are identical.
+            The previous (documented) behaviour of having the certificate
+            forced-command override the other could be a bit confusing and
+            error-prone.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Remove the UseLogin configuration directive and support
+            for having /bin/login manage login sessions.&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;What about new features? 7.4 has some of those to wake you up also:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;* ssh(1): Add a proxy multiplexing mode to ssh(1) inspired by the
+            version in PuTTY by Simon Tatham. This allows a multiplexing
+            client to communicate with the master process using a subset of
+            the SSH packet and channels protocol over a Unix-domain socket,
+            with the main process acting as a proxy that translates channel
+            IDs, etc.  This allows multiplexing mode to run on systems that
+            lack file- descriptor passing (used by current multiplexing
+            code) and potentially, in conjunction with Unix-domain socket
+            forwarding, with the client and multiplexing master process on
+            different machines. Multiplexing proxy mode may be invoked using
+            &quot;ssh -O proxy ...&quot;&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Add a sshd&lt;em&gt;config DisableForwaring option that disables
+            X11, agent, TCP, tunnel and Unix domain socket forwarding, as well
+            as anything else we might implement in the future. Like the
+            'restrict' authorized&lt;/em&gt;keys flag, this is intended to be a simple
+            and future-proof way of restricting an account.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8), ssh(1): Support the &quot;curve25519-sha256&quot; key exchange
+            method. This is identical to the currently-support method named
+            &quot;curve25519-sha256@libssh.org&quot;.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Improve handling of SIGHUP by checking to see if sshd is
+            already daemonised at startup and skipping the call to daemon(3)
+            if it is. This ensures that a SIGHUP restart of sshd(8) will
+            retain the same process-ID as the initial execution. sshd(8) will
+            also now unlink the PidFile prior to SIGHUP restart and re-create
+            it after a successful restart, rather than leaving a stale file in
+            the case of a configuration error. bz#2641&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Allow ClientAliveInterval and ClientAliveCountMax
+            directives to appear in sshd_config Match blocks.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;sshd(8): Add %-escapes to AuthorizedPrincipalsCommand to match
+            those supported by AuthorizedKeysCommand (key, key type,
+            fingerprint, etc.) and a few more to provide access to the
+            contents of the certificate being offered.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Added regression tests for string matching, address matching and
+            string sanitisation functions.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Improved the key exchange fuzzer harness.&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Get those tests done and be sure to send feedback, both positive and negative.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://zinascii.com/2014/how-my-printer-caused-excessive-syscalls.html&quot;&gt;How My Printer Caused Excessive Syscalls &amp;amp; UDP Traffic&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;3,000 syscalls a second, on an idle machine? That doesn't seem right. I just booted this machine. The only processes running are those required to boot the SmartOS Global Zone, which is minimal.&quot;&lt;/p&gt;
+
+            &lt;p&gt;This is a story from 2014, about debugging a machine that was being slowed down by excessive syscalls and UDP traffic. It is also an excellent walkthrough of the basics of DTrace&lt;/p&gt;
+
+            &lt;p&gt;&quot;Well, at least I have DTrace. I can use this one-liner to figure out what syscalls are being made across the entire system.&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall:::entry { @[probefunc,probename] = count(); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Wow! That is a lot of lwp&lt;em&gt;sigmask calls. Now that I know what is being called, it's time to find out who is doing the calling? I'll use another one-liner to show me the most common user stacks invoking lwp&lt;/em&gt;sigmask.&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall::lwp_sigmask:entry { @[ustack()] = count(); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Okay, so this mdnsd code is causing all the trouble. What is the distribution of syscalls for the mdnsd program?&quot;&lt;/p&gt;
+
+            &lt;p&gt;dtrace -n 'syscall:::entry /execname == &quot;mdnsd&quot;/ { @[probefunc] = count(); } tick-1s { exit(0); }'&lt;/p&gt;
+
+            &lt;p&gt;&quot;Lots of signal masking and polling. What the hell! Why is it doing this? What is mdnsd anyways? Is there a man page? Googling for mdns reveals that it is used for resolving host names in small networks, like my home network. It uses UDP, and requires zero configuration. Nothing obvious to explain why it's flipping out. I feel helpless. I turn to the only thing I can trust, the code.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Woah boy, this is some messy looking code. This would not pass illumos cstyle checks. Turns out this is code from Darwin—the kernel of OSX.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Hmmm...an idea pops into my computer animal brain. I wonder...I wonder if my MacBook is also experiencing abnormal syscall rates? Nooo, that can't be it. Why would both my SmartOS server and MacBook both have the same problem? There is no good technical reason to link these two. But, then again, I'm dealing with computers here, and I've seen a lot of strange things over the years—I switch to my laptop.&quot;&lt;/p&gt;
+
+            &lt;p&gt;sudo dtrace -n 'syscall::: { @[execname] = count(); } tick-1s { exit(0); }'&lt;/p&gt;
+
+            &lt;p&gt;Same thing, except mdns is called discoverd on OS X&lt;/p&gt;
+
+            &lt;p&gt;&quot;I ask my friend Steve Vinoski to run the same DTrace one-liner on his OSX machines. He has both Yosemite and the older Mountain Lion. But, to my dismay, neither of his machines are exhibiting high syscall rates. My search continues.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Not sure what to do next, I open the OSX Activity Monitor. In desperation I click on the Network tab.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot; HOLE—E—SHIT! Two-Hundred-and-Seventy Million packets received by discoveryd. Obviously, I need to stop looking at code and start looking at my network. I hop back onto my SmartOS machine and check network interface statistics.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Whatever is causing all this, it is sending about 200 packets a second. At this point, the only thing left to do is actually inspect some of these incoming packets. I run snoop(1M) to collect events on the e1000g0 interface, stopping at about 600 events. Then I view the first 15.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot; A constant stream of mDNS packets arriving from IP 10.0.1.8. I know that this IP is not any of my computers. The only devices left are my iPhone, AppleTV, and Canon printer. Wait a minute! The printer! Two days earlier I heard some beeping noises...&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I own a Canon PIXMA MG6120 printer. It has a touch interface with a small LCD at the top, used to set various options. Since it sits next to my desk I sometimes lay things on top of it like a book or maybe a plate after I'm done eating. If I lay things in the wrong place it will activate the touch interface and cause repeated pressing. Each press makes a beeping noise. If the object lays there long enough the printer locks up and I have to reboot it. Just such events occurred two days earlier.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I fire up dladm again to monitor incoming packets in realtime. Then I turn to the printer. I move all the crap off of it: two books, an empty plate, and the title for my Suzuki SV650 that I've been meaning to sell for the last year. I try to use the touch screen on top of the printer. It's locked up, as expected. I cut power to the printer and whip my head back to my terminal.&quot;&lt;/p&gt;
+
+            &lt;p&gt;No more packet storm&lt;/p&gt;
+
+            &lt;p&gt;&quot;Giddy, I run DTrace again to count syscalls.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I'm not sure whether to laugh or cry. I laugh, because, LOL computers. There's some new dumb shit you deal with everyday, better to roll with the punches and laugh. You live longer that way. At least I got to flex my DTrace muscles a bit. In fact, I felt a bit like Brendan Gregg when he was debugging why OSX was dropping keystrokes.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;I didn't bother to root cause why my printer turned into a UDP machine gun. I don't intend to either. I have better things to do, and if rebooting solves the problem then I'm happy. Besides, I had to get back to what I was trying to do six hours before I started debugging this damn thing.&quot;&lt;/p&gt;
+
+            &lt;p&gt;There you go. The Internet of Terror has already been on your LAN for years.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://emptysqua.re/blog/getaddrinfo-cpython-mac-and-bsd/&quot;&gt;Making Getaddrinfo Concurrent in Python on Mac OS and BSD&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We have a very fun blog post today to pass along originally authored by &quot;A. Jesse Jiryu Davis&quot;. Specifically the tale of one man's quest to unify the Getaddrinfo in Python with Mac OS and BSD.&lt;/li&gt;
+            &lt;li&gt;To give you a small taste of this tale, let us pass along just the introduction&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Tell us about the time you made DNS resolution concurrent in Python on Mac and BSD.   No, no, you do not want to hear that story, my friends. It is nothing but old lore and #ifdefs.&lt;/p&gt;
+
+            &lt;p&gt;But you made Python more scalable. The saga of Steve Jobs was sung to you by a mysterious wizard with a fanciful nickname! Tell us!&lt;/p&gt;
+
+            &lt;p&gt;Gather round, then. I will tell you how I unearthed a lost secret, unbound Python from old shackles, and banished an ancient and horrible Mutex Troll. Let us begin at the beginning.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Is your interest piqued? It should be. I'm not sure we could do this blog post justice trying to read it aloud here, but definetly recommend if you want to see how he managed to get this bit of code working cross platform. (And it's highly entertaining as well)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;A long time ago, in the 1980s, a coven of Berkeley sorcerers crafted an operating system. They named it after themselves: the Berkeley Software Distribution, or BSD. For generations they nurtured it, growing it and adding features. One night, they conjured a powerful function that could resolve hostnames to IPv4 or IPv6 addresses. It was called getaddrinfo. The function was mighty, but in years to come it would grow dangerous, for the sorcerers had not made getaddrinfo thread-safe.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;As ages passed, BSD spawned many offspring. There were FreeBSD, OpenBSD, NetBSD, and in time, Mac OS X. Each made its copy of getaddrinfo thread safe, at different times and different ways. Some operating systems retained scribes who recorded these events in the annals. Some did not.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The story continues as our hero battles the Mutex Troll and quests for ancient knowledge&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Apple engineers are not like you and me — they are a shy and secretive folk. They publish only what code they must from Darwin. Their comings and goings are recorded in no bug tracker, their works in no changelog. To learn their secrets, one must delve deep.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;There is a tiny coven of NYC BSD users who meet at the tavern called Stone Creek, near my dwelling. They are aged and fierce, but I made the Sign of the Trident and supplicated them humbly for advice, and they were kindly to me.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Spoiler: &quot;Without a word, the mercenary troll shouldered its axe and trudged off in search of other patrons on other platforms. Never again would it hold hostage the worthy smiths forging Python code on BSD.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://diegocasati.com/2016/12/13/using-release7-to-create-freebsd-images-for-openstack-yes-you-can-do-it/&quot;&gt;Using release(7) to create FreeBSD images for OpenStack &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Following a recent episode where we covered a walk through on how to create FreeBSD guest OpenStack images, we wondered if it would be possible to integrate this process into the FreeBSD release(7) process, so they images could be generated consistently and automatically&lt;/li&gt;
+            &lt;li&gt;Being the awesome audience that you are, one of you responded by doing exactly that&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;During a recent BSDNow podcast, Allan and Kris mentioned that it would be nice to have a tutorial on how to create a FreeBSD image for OpenStack using the official release(7) tools. With that, it came to me that: #1 I do have access to an OpenStack environment and #2 I am interested in having FreeBSD as a guest image in my environment. Looks like I was up for the challenge.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Previously, I've had success running FreeBSD 11.0-RELEASE on OpenStack but more could/should be done. For instance, as suggested by Allan,  wouldn't be nice to deploy the latest code from FreeBSD ? Running -STABLE or even -CURRENT ? Yes, it would. Also, wouldn't it be nice to customize these images for a specific need? I'd say 'Yes' for that as well.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;After some research I found that the current openstack.conf file, located at /usr/src/release/tools/ could use some extra tweaks to get where I wanted. I've created and attached that to a bugzilla on the same topic. You can read about that &lt;a href=&quot;https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=213396&quot;&gt;here&lt;/a&gt;.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Steps:
+
+            &lt;ul&gt;
+            &lt;li&gt;Fetch the FreeBSD source code and extract it under /usr/src&lt;/li&gt;
+            &lt;li&gt;Once the code is in place, follow the regular process of build(7) and perform a &lt;code&gt;make buildworld buildkernel&lt;/code&gt;&lt;/li&gt;
+            &lt;li&gt;Change into the release directory (/usr/src/release) and perform a make cloudware&lt;/li&gt;
+            &lt;li&gt;make cloudware-release WITH_CLOUDWARE=yes CLOUDWARE=OPENSTACK VMIMAGE=2G&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;That's it! This will generate a qcow2 image with 1.4G in size and a raw image of 2G. The entire process uses the release(7) toolchain to generate the image and should work with newer versions of FreeBSD.&quot;
+            + The patch has already been &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=310047&quot;&gt;committed to FreeBSD &lt;/a&gt; &lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Interview - Rod Grimes - &lt;a href=&quot;mailto:rgrimes@freebsd.org&quot;&gt;rgrimes@freebsd.org&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Want to help fund the development of GPU Passthru? &lt;a href=&quot;http://bhyve.org/&quot;&gt;Visit bhyve.org&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://blog.khubla.com/freebsd/configuring-the-freebsd-automounter&quot;&gt;Configuring the FreeBSD automounter&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ever had to configure the FreeBSD auto-mounting daemon? Today we have a blog post that walks us through a few of the configuration knobs you have at your disposal.&lt;/li&gt;
+            &lt;li&gt;First up, Tom shows us his /etc/fstab file, and the various UFS partitions he has setup with the 'noauto' flag so they are not mounted at system boot.&lt;/li&gt;
+            &lt;li&gt;His amd.conf file is pretty basic, with just options enabled to restart mounts, and unmount on exit.&lt;/li&gt;
+            &lt;li&gt;Where most users will most likely want to pay attention is in the crafting of an amd.map file&lt;/li&gt;
+            &lt;li&gt;Within this file, we have the various command-foo which performs mounts and unmounts of targeted disks / file-systems on demand.&lt;/li&gt;
+            &lt;li&gt;Pay special attention to all the special chars, since those all matter and a stray or missing ; could be a source of failure.&lt;/li&gt;
+            &lt;li&gt;Lastly a few knobs in rc.conf will enable the various services and a reboot should confirm the functionality.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20161114174451&quot;&gt;l2k16 hackathon report: LibreSSL manuals now in mdoc(7)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Hackathon report by Ingo Schwarze&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Back in the spring two years ago, Kristaps Dzonsons started the pod2mdoc(1) conversion utility, and less than a month later, the LibreSSL project began. During the general summer hackathon in the same year, g2k14, Anthony Bentley started using pod2mdoc(1) for converting LibreSSL manuals to mdoc(7).&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Back then, doing so still was a pain, because pod2mdoc(1) was still full of bugs and had gaping holes in functionality. For example, Anthony was forced to basically translate the SYNOPSIS sections by hand, and to fix up .Fn and .Xr in the body by hand as well. All the same, he speedily finished all of libssl, and in the autumn of the same year, he mustered the courage to commit his work.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Near the end of the following winter, i improved the pod2mdoc(1) tool to actually become convenient in practice and started work on libcrypto, converting about 50 out of the about 190 manuals. Max Fillinger also helped a bit, converting a handful of pages, but i fear i tarried too much checking and committing his work, so he quickly gave up on the task. After that, almost nothing happened for a full year.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Now i was finally fed up with the messy situation and decided to put an end to it. So i went to Toulouse and finished the conversion of the remaining 130 manual pages in libcrypto, such that you can now view the documentation of all functions&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/p-gen/smenu&quot;&gt;Interactive Terminal Utility: smenu&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ok, I've made no secret of my love for shell scripting. Well today we have a new (somewhat new to us) tool to bring your way.&lt;/li&gt;
+            &lt;li&gt;Have you ever needed to deal with large lists of data, perhaps as the result of a long specially crafted pipe?&lt;/li&gt;
+            &lt;li&gt;What if you need to select a specific value from a range and then continue processing?&lt;/li&gt;
+            &lt;li&gt;Enter 'smenu' which can help make your scripting life easier.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;smenu is a selection filter just like sed is an editing filter.&lt;/p&gt;
+
+            &lt;p&gt;This simple tool reads words from the standard input, presents them in a cool interactive window after the current line on the terminal and writes the selected word, if any, on the standard output.&lt;/p&gt;
+
+            &lt;p&gt;After having unsuccessfully searched the NET for what I wanted, I decided to try to write my own.&lt;/p&gt;
+
+            &lt;p&gt;I have tried hard to made its usage as simple as possible. It should work, even when using an old vt100 terminal and is UTF-8 aware.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;What this means, is in your interactive scripts, you can much easier present the user with a cursor driven menu to select from a range of possible choices. (Without needing to craft a bunch of dialog flags)&lt;/li&gt;
+            &lt;li&gt;Take a look, and hopefully you'll be able to find creative uses for your shell scripts in the future.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://mjg59.dreamwidth.org/45939.html&quot;&gt;Ubuntu still isn't free software&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;&quot;Any redistribution of modified versions of Ubuntu must be approved, certified or provided by Canonical if you are going to associate it with the Trademarks. Otherwise you must remove and replace the Trademarks and will need to recompile the source code to create your own binaries. This does not affect your rights under any open source licence applicable to any of the components of Ubuntu. If you need us to approve, certify or provide modified versions for redistribution you will require a licence agreement from Canonical, for which you may be required to pay. For further information, please contact us&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Mark Shuttleworth &lt;a href=&quot;http://insights.ubuntu.com/2016/12/01/taking-a-stand-against-unstable-risky-unofficial-ubuntu-images/&quot;&gt;just blogged&lt;/a&gt; about their stance against unofficial Ubuntu images. The assertion is that a cloud hoster is providing unofficial and modified Ubuntu images, and that these images are meaningfully different from upstream Ubuntu in terms of their functionality and security. Users are attempting to make use of these images, are finding that they don't work properly and are assuming that Ubuntu is a shoddy product. This is an entirely legitimate concern, and if Canonical are acting to reduce user confusion then they should be commended for that.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;The appropriate means to handle this kind of issue is trademark law. If someone claims that something is Ubuntu when it isn't, that's probably an infringement of the trademark and it's entirely reasonable for the trademark owner to take action to protect the value associated with their trademark. But Canonical's IP policy goes much further than that - it can be interpreted as meaning[1] that you can't distribute works based on Ubuntu without paying Canonical for the privilege, even if you call it something other than Ubuntu. [1]: And by &quot;interpreted as meaning&quot; I mean that's what it says and Canonical refuse to say otherwise&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;If you ask a copyright holder if you can give a copy of their work to someone else (assuming it doesn't infringe trademark law), and they say no or insist you need an additional contract, it's not free software. If they insist that you recompile source code before you can give copies to someone else, it's not free software. Asking that you remove trademarks that would otherwise infringe trademark law is fine, but if you can't use their trademarks in non-infringing ways, that's still not free software.&quot;&lt;/p&gt;
+
+            &lt;p&gt;&quot;Canonical's IP policy continues to impose restrictions on all of these things, and therefore Ubuntu is not free software.&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://opnsense.org/opnsense-16-7-10-released/&quot;&gt;OPNsense 16.7.10 released&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20161123193708&amp;amp;mode=expanded&amp;amp;count=8&quot;&gt;OpenBSD Foundation Welcomes First Iridium Donor: Smartisan&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/blog/foundation-announces-new-uranium-donor/&quot;&gt;Jan Koum donates $500,000 to FreeBSD&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/DEMOS&quot;&gt;The Soviet Russia, BSD makes you&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/gRN4Lzy8&quot;&gt; Jason - Value&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/GZYjRmSR&quot;&gt; Hamza - Shell Scripting&lt;/a&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://aikchar.me/blog/unix-shell-programming-lessons-learned.html&quot;&gt;Blog link&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/hEBu3Drp&quot;&gt; Dave - Migrating to FreeBSD&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/1HpKqCSt&quot;&gt; Dan - Which BSD?&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/4Aj5ebns&quot;&gt; Zach - AMD Video&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>The APU, BSD Style!</title>
+        <smi:episode>171</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_12_07-the_apu_bsd_style"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_07-the_apu_bsd_style</id>
+        <published>2016-12-08T01:35:13-08:00</published>
+        <updated>2016-12-09T10:58:00Z</updated>
+        <link length="42054939" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0171.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="42054939" duration="5233" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0171.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="64598951" duration="5233" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0171.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="305436508" duration="5233" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0171-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="589357484" duration="5233" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0171.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="589357484" duration="5233" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0171.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="82315" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/12/bsd-0171-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:25" title="Headlines"/>
+            <psc:chapter start="00:01:25" title="OpenBSD on PC Engines APU2" href="https://github.com/elad/openbsd-apu2"/>
+            <psc:chapter start="00:10:50" title="OpenBSD on X1 Carbon" href="https://functionallyparanoid.com/2016/11/29/where-the-rubber-meets-the-road-part-one/"/>
+            <psc:chapter start="00:14:45" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:17:30" title="FreeBSD jail server with iocage &amp; ansible" href="https://github.com/JoergFiedler/freebsd-ansible-demo"/>
+            <psc:chapter start="00:20:30" title="bsdiff reduces Android apk bandwidth usage" href="http://android-developers.blogspot.ca/2016/12/saving-data-reducing-the-size-of-app-updates-by-65-percent.html"/>
+            <psc:chapter start="00:30:15" title="News Roundup"/>
+            <psc:chapter start="00:30:15" title="In-depth review of NAS4Free" href="https://distrowatch.com/weekly.php?issue=20161114#nas4free"/>
+            <psc:chapter start="00:34:05" title="Browsix: Unix in the browser" href="https://browsix.org/"/>
+            <psc:chapter start="00:40:30" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:43:30" title="Review of PAM Mastery" href="https://www.cyberciti.biz/reviews/book-review-pam-mastery/"/>
+            <psc:chapter start="00:48:50" title="Reflections on Trusting Trust" href="http://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html"/>
+            <psc:chapter start="00:59:40" title="Beastie Bits"/>
+            <psc:chapter start="00:59:45" title="Beastie Stockings" href="https://www.etsy.com/listing/496638945/freebsd-beastie-christmas-stocking"/>
+            <psc:chapter start="01:00:40" title="Migrating ZFS from mirrored to raidz1 pool" href="http://ximalas.info/2016/12/06/migrating-zfs-from-mirrored-pool-to-raidz1-pool/"/>
+            <psc:chapter start="01:02:55" title="OpenBSD and you" href="https://home.nuug.no/~peter/blug2016/"/>
+            <psc:chapter start="01:03:25" title="Watson.org FreeBSD and Linux cross reference" href="http://fxr.watson.org/"/>
+            <psc:chapter start="01:04:50" title="OpenGrok" href="http://bxr.su/"/>
+            <psc:chapter start="01:05:00" title="FreeBSD SA-16:37: libc" href="https://www.freebsd.org/security/advisories/FreeBSD-SA-16:37.libc.asc"/>
+            <psc:chapter start="01:06:15" title="HardenedBSD issues correction for libc patch" href="https://github.com/HardenedBSD/hardenedBSD/commit/fb823297fbced336b6beeeb624e2dc65b67aa0eb"/>
+            <psc:chapter start="01:06:40" title="BSD assembly"/>
+            <psc:chapter start="01:07:25" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:09:25" title="Feedback/Questions"/>
+            <psc:chapter start="01:09:25" title="Chris - IPFW + Wifi" href="http://pastebin.com/WRiuW6nn"/>
+            <psc:chapter start="01:13:15" title="Jason - bhyve pci" href="http://pastebin.com/JgerqZZP"/>
+            <psc:chapter start="01:15:10" title="Al - pf errors" href="http://pastebin.com/3XY5MVca"/>
+            <psc:chapter start="01:18:00" title="Zach - Xorg settings" href="http://pastebin.com/Kty0qYXM"/>
+            <psc:chapter start="01:24:40" title="Bart - Wireless Support" href="http://pastebin.com/m3D81GBW"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>Today on the show, we've got a look at running OpenBSD on a APU, some BSD in your Android, managing your own FreeBSD cloud service with ansible &amp; much more. Keep it turned on your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 171 The APU - BSD Style!&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/elad/openbsd-apu2&quot;&gt;OpenBSD on PC Engines APU2&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A detailed walkthrough of building an OpenBSD firewall on a PC Engines APU2&lt;/li&gt;
+            &lt;li&gt;It starts with a breakdown of the parts that were purchases, totally around $200&lt;/li&gt;
+            &lt;li&gt;Then the reader is walked through configuring the serial console, flashing the ROM, and updating the BIOS&lt;/li&gt;
+            &lt;li&gt;The next step is actually creating a custom OpenBSD install image, and pre-configuring its serial console. Starting with OpenBSD 6.0, this step is done automatically by the installer&lt;/li&gt;
+            &lt;li&gt;Installation:
+
+            &lt;ul&gt;
+            &lt;li&gt;Power off the APU2&lt;/li&gt;
+            &lt;li&gt;Insert the bootable OpenBSD installer USB flash drive to one of the USB slots on the APU2&lt;/li&gt;
+            &lt;li&gt;Power on the APU2, press F10 to get to the boot menu, and choose to boot from USB (usually option number 1)&lt;/li&gt;
+            &lt;li&gt;At the boot&amp;gt; prompt, remember the serial console settings (see above)&lt;/li&gt;
+            &lt;li&gt;Also at the boot&amp;gt; prompt, press Enter to start the installer&lt;/li&gt;
+            &lt;li&gt;Follow the installation instructions&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The driver used for wireless networking is athn(4). It might not work properly out of the box. Once OpenBSD is installed, run fw_update with no arguments. It will figure out which firmware updates are required and will download and install them. When it finishes, reboot.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/11/29/where-the-rubber-meets-the-road-part-one/&quot;&gt;Where the rubber meets the road... (part one)&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A user describes their adventures installing OpenBSD and Arch Linux on a new Lenovo X1 Carbon (4th gen, skylake)&lt;/li&gt;
+            &lt;li&gt;They also detail why they moved away from their beloved Macbook, which while long, does describe a journey away from Apple that we've heard elsewhere.&lt;/li&gt;
+            &lt;li&gt;The journey begins with getting a new Windows laptop, shrinking the partition and creating space for a triple-boot install, of Windows / Arch / OpenBSD&lt;/li&gt;
+            &lt;li&gt;Brian then details how he setup the partitioning and performed the initial Arch installation, getting it tuned to his specifications.&lt;/li&gt;
+            &lt;li&gt;Next up was OpenBSD though, and that went sideways initially due to a new NVMe drive that wasn't fully supported (yet)&lt;/li&gt;
+            &lt;li&gt;The article is split into two parts (we will bring you the next installment at a future date), but he leaves us with the plan of attack to build a custom OpenBSD kernel with corrected PCI device identifiers.&lt;/li&gt;
+            &lt;li&gt;We wish Brian luck, and look forward to the &quot;rest of the story&quot; soon.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/JoergFiedler/freebsd-ansible-demo&quot;&gt;Howto setup a FreeBSD jail server using iocage and ansible.&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Setting up a FreeBSD jail server can be a daunting task. However when a guide comes along which shows you how to do that, including not exposing a single (non-jailed) port to the outside world, you know we had a take a closer look.&lt;/li&gt;
+            &lt;li&gt;This guide comes to us from GitHub, courtesy of Joerg Fielder. &lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;The project goals seem notable:&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Ansible playbook that creates a FreeBSD server which hosts multiple jails.&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Travis is used to run/test the playbook.&lt;/li&gt;
+            &lt;li&gt;No service on the host is exposed externally.&lt;/li&gt;
+            &lt;li&gt;All external connections terminate within a jail.&lt;/li&gt;
+            &lt;li&gt;Roles can be reused using Ansible Galaxy.&lt;/li&gt;
+            &lt;li&gt;Combine any of those roles to create FreeBSD server, which perfectly suits you.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;To get started, you'll need a machine with Ansible, Vagrant and VirtualBox, and your credentials to AWS if you want it to automatically create / destroy EC2 instances.&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;There's already an impressive list of Anisible roles created for you to start with:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;freebsd-build-server - Creates a FreeBSD poudriere build server&lt;/li&gt;
+            &lt;li&gt;freebsd-jail-host - FreeBSD Jail host&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed - Provides a jail&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-nginx - Provides a jailed nginx server&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-php-fpm - Creates a php-fpm pool and a ZFS dataset which is used as web root by php-fpm&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-sftp - Installs a SFTP server&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-sshd - Provides a jailed sshd server.&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-syslogd - Provides a jailed syslogd&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-btsync - Provides a jailed btsync instance server&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-joomla - Installs Joomla&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-mariadb - Provides a jailed MariaDB server&lt;/li&gt;
+            &lt;li&gt;freebsd-jailed-wordpress - Provides a jailed Wordpress server.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Since the machines have to be customized before starting, he mentions that cloud-init is used to do the following:&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;activate pf firewall&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;add a pass all keep state rule to pf to keep track of connection states, which in turn allows you to reload the pf service without losing the connection&lt;/li&gt;
+            &lt;li&gt;install the following packages:
+
+            &lt;ul&gt;
+            &lt;li&gt;sudo&lt;/li&gt;
+            &lt;li&gt;bash&lt;/li&gt;
+            &lt;li&gt;python27&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;allow passwordless sudo for user ec2-user
+            &quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;From there it is pretty straight-forward, just a couple commands to spin up the VM's either locally on your VirtualBox host, or in the cloud with AWS. Internally the VM's are auto-configured with iocage to create jails, where all your actual services run.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;A neat project, check it out today if you want a shake-n-bake type cloud + jail solution.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://android-developers.blogspot.ca/2016/12/saving-data-reducing-the-size-of-app-updates-by-65-percent.html&quot;&gt;Colin Percival's bsdiff helps reduce Android apk bandwidth usage by 6 petabytes per day&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A post on the official Android-Developers blog, talks about how they used bsdiff (and bspatch) to reduce the size of Android application updates by 65%&lt;/li&gt;
+            &lt;li&gt;bsdiff was developed by FreeBSD's Colin Percival&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Earlier this year, we announced that we started using the bsdiff algorithm (by Colin Percival). Using bsdiff, we were able to reduce the size of app updates on average by 47% compared to the full APK size.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This post is actually about the second generation of the code.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Today, we're excited to share a new approach that goes further — File-by-File patching. App Updates using File-by-File patching are, on average, 65% smaller than the full app, and in some cases more than 90% smaller.
+            Android apps are packaged as APKs, which are ZIP files with special conventions. Most of the content within the ZIP files (and APKs) is compressed using a technology called Deflate. Deflate is really good at compressing data but it has a drawback: it makes identifying changes in the original (uncompressed) content really hard. Even a tiny change to the original content (like changing one word in a book) can make the compressed output of deflate look completely different. Describing the differences between the original content is easy, but describing the differences between the compressed content is so hard that it leads to inefficient patches.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;So in the second generation of the code, they use bsdiff on each individual file, then package that, rather than diffing the original and new archives&lt;/li&gt;
+            &lt;li&gt;bsdiff is used in a great many other places, including shrinking the updates for the Firefox and Chrome browsers&lt;/li&gt;
+            &lt;li&gt;You can find out more about bsdiff here: http://www.daemonology.net/bsdiff/&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;A far more sophisticated algorithm, which typically provides roughly 20% smaller patches, is described in my &lt;a href=&quot;http://www.daemonology.net/papers/thesis.pdf&quot;&gt;doctoral thesis&lt;/a&gt;.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Considering the gains, it is interesting that no one has implemented Colin's more sophisticated algorithm&lt;/li&gt;
+            &lt;li&gt;Colin had an &lt;a href=&quot;https://twitter.com/cperciva/status/806426180379230208&quot;&gt;interesting observation&lt;/a&gt; last night: &quot;I just realized that bandwidth savings due to bsdiff are now roughly equal to what the &lt;em&gt;total internet traffic&lt;/em&gt; was when I wrote it in 2003.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://distrowatch.com/weekly.php?issue=20161114#nas4free&quot;&gt;Distrowatch does an in-depth review of NAS4Free&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Jesse Smith over at DistroWatch has done a pretty in-depth review of Nas4Free.&lt;/li&gt;
+            &lt;li&gt;The review starts with mentioning that NAS4Free works on 3 platforms, ARM/i386/AMD64 and for the purposes of this review he would be using AMD64 builds.&lt;/li&gt;
+            &lt;li&gt;After going through the initial install (doing typical disk management operations, such as GPT/MBR, etc) he was ready to begin using the product.&lt;/li&gt;
+            &lt;li&gt;One concern originally observed was that the initial boot seemed rather slow. Investigation revealed this was due to it loading the entire OS image into memory, and the first (long) disk read did take some time, but once loaded was super responsive.&lt;/li&gt;
+            &lt;li&gt;The next steps involved doing the initial configuration, which meant creating a new ZFS storage pool. After this process was done, he did find one puzzling UI option called &quot;VM&quot; which indicated it can be linked to VirtualBox in some way, but the Docs didn't reveal its secrets of usage.&lt;/li&gt;
+            &lt;li&gt;Additionally covered were some of the various &quot;Access&quot; methods, including traditional UNIX permissions, AD and LDAP, and then various Sharing services which are typical to a NAS, Such as NFS / Samba and others.&lt;/li&gt;
+            &lt;li&gt;One neat feature was the built-in file-browser via the web-interface, which allows you another method of getting at your data when sometimes NFS / Samba or WebDav aren't enough.&lt;/li&gt;
+            &lt;li&gt;Jesse gives us a nice round-up conclusion as well&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Most of the NAS operating systems I have used in the past were built around useful features. Some focused on making storage easy to set up and manage, others focused on services, such as making files available over multiple protocols or managing torrents. Some strive to be very easy to set up. NAS4Free does pretty well in each of the above categories. It may not be the easiest platform to set up, but it's probably a close second. It may not have the prettiest interface for managing settings, but it is quite easy to navigate. NAS4Free may not have the most add-on services and access protocols, but I suspect there are more than enough of both for most people.&lt;/p&gt;
+
+            &lt;p&gt;Where NAS4Free does better than most other solutions I have looked at is security. I don't think the project's website or documentation particularly focuses on security as a feature, but there are plenty of little security features that I liked. NAS4Free makes it very easy to lock the text console, which is good because we do not all keep our NAS boxes behind locked doors. The system is fairly easy to upgrade and appears to publish regular security updates in the form of new firmware. NAS4Free makes it fairly easy to set up user accounts, handle permissions and manage home directories. It's also pretty straight forward to switch from HTTP to HTTPS and to block people not on the local network from accessing the NAS's web interface.&lt;/p&gt;
+
+            &lt;p&gt;All in all, I like NAS4Free. It's a good, general purpose NAS operating system. While I did not feel the project did anything really amazing in any one category, nor did I run into any serious issues. The NAS ran as expected, was fairly straight forward to set up and easy to manage. This strikes me as an especially good platform for home or small business users who want an easy set up, some basic security and a solid collection of features.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://browsix.org/&quot;&gt;Browsix: Unix in the browser tab&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Browsix is a research project from the PLASMA lab at the University of Massachusetts, Amherst.&lt;/li&gt;
+            &lt;li&gt;The goal: Run C, C++, Go and Node.js programs as processes in browsers, including LaTeX, GNU Make, Go HTTP servers, and POSIX shell scripts.&lt;/li&gt;
+            &lt;li&gt;&quot;Processes are built on top of Web Workers, letting applications run in parallel and spawn subprocesses. System calls include fork, spawn, exec, and wait.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Pipes are supported with pipe(2) enabling developers to compose processes into pipelines.&lt;/p&gt;
+
+            &lt;p&gt;Sockets include support for TCP socket servers and clients, making it possible to run applications like databases and HTTP servers together with their clients in the browser.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Browsix comprises two core parts:
+
+            &lt;ul&gt;
+            &lt;li&gt;A kernel written in TypeScript that makes core Unix features (including pipes, concurrent processes, signals, sockets, and a shared file system) available to web applications.&lt;/li&gt;
+            &lt;li&gt;Extended JavaScript runtimes for C, C++, Go, and Node.js that support running programs written in these languages as processes in the browser.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;This seems like an interesting project, although I am not sure how it would be used as more than a toy&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.cyberciti.biz/reviews/book-review-pam-mastery/&quot;&gt;Book Review: PAM Mastery&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;nixCraft does a book review of Michael W. Lucas' &quot;Pam Mastery&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Linux, FreeBSD, and Unix-like systems are multi-user and need some way of authenticating individual users. Back in the old days, this was done in different ways. You need to change each Unix application to use different authentication scheme.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Before PAM, if you wanted to use an SQL database to authenticate users, you had to write specific support for that into each of your applications. Same for LDAP, etc.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;So Open Group lead to the development of PAM for the Unix-like system. Today Linux, FreeBSD, MacOS X and many other Unix-like systems are configured to use a centralized authentication mechanism called Pluggable Authentication Modules (PAM). The book &quot;PAM Mastery&quot; deals with the black magic of PAM.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Of course, each OS chose to implement PAM a little bit differently&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The book starts with the basic concepts about PAM and authentication. You learn about Multi-Factor Authentication and why use PAM instead of changing each program to authenticate the user. The author went into great details about why PAM is useful for developers and sysadmin for several reasons. The examples cover CentOS Linux (RHEL and clones), Debian Linux, and FreeBSD Unix system.&lt;/p&gt;
+
+            &lt;p&gt;I like the way the author described PAM Configuration Files and Common Modules that covers everyday scenarios for the sysadmin. PAM configuration file format and PAM Module Interfaces are discussed in easy to understand language. Control flags in PAM can be very confusing for new sysadmins. Modules can be stacked in a particular order, and the control flags determine how important the success or failure of a particular module.&lt;/p&gt;
+
+            &lt;p&gt;There is also a chapter about using one-time passwords (Google Authenticator) for your application.&lt;/p&gt;
+
+            &lt;p&gt;The final chapter is all about enforcing good password policies for users and apps using PAM.&lt;/p&gt;
+
+            &lt;p&gt;The sysadmin would find this book useful as it covers a common authentication scheme that can be used with a wide variety of applications on Unix. You will master PAM topics and take control over authentication for your organization IT infrastructure. If you are Linux or Unix sysadmin, I would highly recommend this book. Once again Michael W Lucas nailed it. The only book you may need for PAM deployment.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.michaelwlucas.com/tools/pam&quot;&gt;get &quot;PAM Mastery&quot; &lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html&quot;&gt;Reflections on Trusting Trust - Ken Thompson, co-author of UNIX&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Ken Thompson's &quot;cc hack&quot; - Presented in the journal, Communication of the ACM, Vol. 27, No. 8, August 1984, in a paper entitled &quot;Reflections on Trusting Trust&quot;, Ken Thompson, co-author of UNIX, recounted a story of how he created a version of the C compiler that, when presented with the source code for the &quot;login&quot; program, would automatically compile in a backdoor to allow him entry to the system. This is only half the story, though. In order to hide this trojan horse, Ken also added to this version of &quot;cc&quot; the ability to recognize if it was recompiling itself to make sure that the newly compiled C compiler contained both the &quot;login&quot; backdoor, and the code to insert both trojans into a newly compiled C compiler. In this way, the source code for the C compiler would never show that these trojans existed.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The article starts off by talking about a content to write a program that produces its own source code as output. Or rather, a C program, that writes a C program, that produces its own source code as output.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The C compiler is written in C. What I am about to describe is one of many &quot;chicken and egg&quot; problems that arise when compilers are written in their own language. In this case, I will use a specific example from the C compiler.&lt;/p&gt;
+
+            &lt;p&gt;Suppose we wish to alter the C compiler to include the sequence &quot;\v&quot; to represent the vertical tab character. The extension to Figure 2 is obvious and is presented in Figure 3. We then recompile the C compiler, but we get a diagnostic. Obviously, since the binary version of the compiler does not know about &quot;\v,&quot; the source is not legal C. We must &quot;train&quot; the compiler. After it &quot;knows&quot; what &quot;\v&quot; means, then our new change will become legal C. We look up on an ASCII chart that a vertical tab is decimal 11. We alter our source to look like Figure 4. Now the old compiler accepts the new source. We install the resulting binary as the new official C compiler and now we can write the portable version the way we had it in Figure 3.&lt;/p&gt;
+
+            &lt;p&gt;The actual bug I planted in the compiler would match code in the UNIX &quot;login&quot; command. The replacement code would miscompile the login command so that it would accept either the intended encrypted password or a particular known password. Thus if this code were installed in binary and the binary were used to compile the login command, I could log into that system as any user. Such blatant code would not go undetected for long. Even the most casual perusal of the source of the C compiler would raise suspicions.&lt;/p&gt;
+
+            &lt;p&gt;Next &quot;simply add a second Trojan horse to the one that already exists. The second pattern is aimed at the C compiler. The replacement code is a Stage I self-reproducing program that inserts both Trojan horses into the compiler. This requires a learning phase as in the Stage II example. First we compile the modified source with the normal C compiler to produce a bugged binary. We install this binary as the official C. We can now remove the bugs from the source of the compiler and the new binary will reinsert the bugs whenever it is compiled. Of course, the login command will remain bugged with no trace in source anywhere.&lt;/p&gt;
+
+            &lt;p&gt;So now there is a trojan'd version of cc. If you compile a clean version of cc, using the bad cc, you will get a bad cc. If you use the bad cc to compile the login program, it will have a backdoor. The source code for both backdoors no longer exists on the system. You can audit the source code of cc and login all you want, they are trustworthy.&lt;/p&gt;
+
+            &lt;p&gt;The compiler you use to compile your new compiler, is the untrustworthy bit, but you have no way to know it is untrustworthy, and no way to make a new compiler, without using the bad compiler.&lt;/p&gt;
+
+            &lt;p&gt;The moral is obvious. You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.) No amount of source-level verification or scrutiny will protect you from using untrusted code. In demonstrating the possibility of this kind of attack, I picked on the C compiler. I could have picked on any program-handling program such as an assembler, a loader, or even hardware microcode. As the level of program gets lower, these bugs will be harder and harder to detect. A well installed microcode bug will be almost impossible to detect.&lt;/p&gt;
+
+            &lt;p&gt;Acknowledgment: I first read of the possibility of such a Trojan horse in an Air Force critique of the security of an early implementation of Multics. I can- not find a more specific reference to this document. I would appreciate it if anyone who can supply this reference would let me know.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.etsy.com/listing/496638945/freebsd-beastie-christmas-stocking&quot;&gt;Custom made Beastie Stockings&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ximalas.info/2016/12/06/migrating-zfs-from-mirrored-pool-to-raidz1-pool/&quot;&gt;Migrating ZFS from mirrored pool to raidz1 pool&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://home.nuug.no/~peter/blug2016/&quot;&gt;OpenBSD and you&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://fxr.watson.org/&quot;&gt;Watson.org FreeBSD and Linux cross reference &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://bxr.su/&quot;&gt;OpenGrok&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.freebsd.org/security/advisories/FreeBSD-SA-16:37.libc.asc&quot;&gt;FreeBSD SA-16:37: libc&lt;/a&gt; -- A 26+ year old bug found in BSD's libc, all BSDs likely affected -- A specially crafted argument can trigger a static buffer overflow in the library, with possibility to rewrite following static buffers that belong to other library functions.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/HardenedBSD/hardenedBSD/commit/fb823297fbced336b6beeeb624e2dc65b67aa0eb&quot;&gt;HardenedBSD issues correction for libc patch &lt;/a&gt; -- original patch improperly calculates how many bytes are remaining in the buffer.&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;From December the 27th until the 30th there the 33rd Chaos Communication Congress[0] is going to take place in Hamburg, Germany. Think of it as the yearly gathering of the european hackerscene and their overseas friends. I am one of the persons organizing the &quot;&lt;a href=&quot;https://events.ccc.de/congress/2016/wiki/Assembly:BSD&quot;&gt;BSD assembly&lt;/a&gt;&quot; as a gathering place for BSD enthusiasts and waving the flag amidst the all the other projects / communities.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/WRiuW6nn&quot;&gt; Chris - IPFW + Wifi&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/JgerqZZP&quot;&gt; Jason - bhyve pci&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/3XY5MVca&quot;&gt; Al - pf errors&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Kty0qYXM&quot;&gt; Zach - Xorg settings&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/m3D81GBW&quot;&gt; Bart - Wireless Support&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>Sandboxing Cohabitation</title>
+        <smi:episode>170</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2016_11_30-sandboxing_cohabitation"/>
+        <id>http://www.bsdnow.tv/episodes/2016_12_01-sandboxing_cohabitataion</id>
+        <published>2016-12-01T03:57:23-08:00</published>
+        <updated>2016-12-09T10:44:00Z</updated>
+        <link length="36864304" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0170.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="36864304" duration="4584" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0170.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="56173574" duration="4584" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0170.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="267554715" duration="4584" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0170-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="516278628" duration="4584" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0170.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="516278628" duration="4584" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0170.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="85017" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2016/11/bsd-0170-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:00" title="Headlines"/>
+            <psc:chapter start="00:01:00" title="EuroBSDcon 2016 Slides" href="https://2016.eurobsdcon.org/PresentationSlides/"/>
+            <psc:chapter start="00:10:50" title="FreeBSD and Gentoo on a ZFS Volume" href="https://ericmccorkleblog.wordpress.com/2016/11/15/cohabiting-freebsd-and-gentoo-linux-on-a-common-zfs-volume/"/>
+            <psc:chapter start="00:15:50" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:20:35" title="HardenedBSD adds Safestack into base" href="https://hardenedbsd.org/article/shawn-webb/2016-11-27/introducing-safestack"/>
+            <psc:chapter start="00:23:05" title="Web application sandboxing" href="https://learnbchs.org/pledge.html"/>
+            <psc:chapter start="00:30:55" title="News Roundup"/>
+            <psc:chapter start="00:31:00" title="Unix history now on GitHub" href="http://www.osnews.com/story/29513/Unix_history_repository_now_on_GitHub"/>
+            <psc:chapter start="00:35:40" title="Yandex improves FreeBSD network stack" href="https://reviews.freebsd.org/D8526"/>
+            <psc:chapter start="00:39:40" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:42:15" title="Unix socket multiplexing history" href="https://idea.popcount.org/2016-11-01-a-brief-history-of-select2/"/>
+            <psc:chapter start="00:47:15" title="How to start CLion on FreeBSD?" href="https://intellij-support.jetbrains.com/hc/en-us/articles/206525024-How-to-start-CLion-on-FreeBSD"/>
+            <psc:chapter start="00:51:25" title="Beastie Bits"/>
+            <psc:chapter start="00:51:30" title="TrueOS Pico" href="https://www.trueos.org/trueos-pico/"/>
+            <psc:chapter start="00:52:45" title="Puppet &amp; PkgNG" href="https://github.com/xaque208/puppet-pkgng"/>
+            <psc:chapter start="00:54:00" title="Notes on November London *BSD meetup" href="http://mailman.uk.freebsd.org/pipermail/ukfreebsd/2016-November/014059.html"/>
+            <psc:chapter start="00:55:00" title="SemiBug meeting on Dec 20th" href="http://lists.nycbug.org/pipermail/semibug/2016-November/000131.html"/>
+            <psc:chapter start="00:55:25" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:57:30" title="Feedback/Questions"/>
+            <psc:chapter start="00:57:30" title="Erno – SSH without password" href="http://pastebin.com/SMvxur9v"/>
+            <psc:chapter start="00:59:35" title="Jonathan – Magical ZFS" href="http://pastebin.com/5ETL7nmj"/>
+            <psc:chapter start="01:05:05" title="George – TrueOS" href="http://pastebin.com/tSVvaV9e"/>
+            <psc:chapter start="01:10:30" title="Mohammad – Jails IP" href="http://pastebin.com/T8nUexd1"/>
+            <psc:chapter start="01:13:20" title="Gibheer – BEs" href="http://pastebin.com/YssXXp70"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on the show, we've got some new info on the talks from EuroBSDCon, a look at sharing a single ZFS pool between Linux and BSD, Sandboxing &amp; much more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 170: Sandboxing Cohabitation&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://2016.eurobsdcon.org/PresentationSlides/&quot;&gt;EuroBSDcon 2016 Presentation Slides&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Due to circumstances beyond the control of the organizers of EuroBSDCon, there were not recordings of the talks given at the event.&lt;/li&gt;
+            &lt;li&gt;However, they have collected the slide decks from each of the speakers and assembled them on this page for you&lt;/li&gt;
+            &lt;li&gt;Also, we have some stuff from MeetBSD already:&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLb87fdKUIo8TAMC2HJLZ7H54edD2BeGWv&quot;&gt;Youtube Playlist &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;Not all of the sessions are posted yet, but the rest should appear shortly&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.freebsdfoundation.org/blog/meetbsd-2016-trip-report-domagoj-stolfa/&quot;&gt;MeetBSD 2016 Trip Report: Domagoj Stolfa&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://ericmccorkleblog.wordpress.com/2016/11/15/cohabiting-freebsd-and-gentoo-linux-on-a-common-zfs-volume/&quot;&gt;Cohabiting FreeBSD and Gentoo Linux on a Common ZFS Volume&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Eric McCorkle, who has contributed ZFS support to the FreeBSD EFI boot-loader code has posted an in-depth look at how he's setup dual-boot with FreeBSD and Gentoo on the same ZFS volume.&lt;/li&gt;
+            &lt;li&gt;He starts by giving us some background on how the layout is done. First up, GRUB is used as the boot-loader, allowing boot of both Linux and BSD&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;The next non-typical thing was using /etc/fstab to manage mount-points, instead of the typical 'zfs mount' usage, (apart from /home datasets)&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;data/home is mounted to /home, with all of its child datasets using the ZFS mountpoint system&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;data/freebsd and its child datasets house the FreeBSD system, and all have their mountpoints set to legacy&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;data/gentoo and its child datasets house the Gentoo system, and have their mountpoints set to legacy as well&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;So, how did he set this up? He helpfully provides an overview of the steps:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Use the FreeBSD installer to create the GPT and ZFS pool&lt;/li&gt;
+            &lt;li&gt;Install and configure FreeBSD, with the native FreeBSD boot loader&lt;/li&gt;
+            &lt;li&gt;Boot into FreeBSD, create the Gentoo Linux datasets, install GRUB&lt;/li&gt;
+            &lt;li&gt;Boot into the Gentoo Linux installer, install Gentoo&lt;/li&gt;
+            &lt;li&gt;Boot into Gentoo, finish any configuration tasks&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;The rest of the article walks us through the individual commands that make up each of those steps, as well as how to craft a GRUB config file capable of booting both systems.&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;Personally, since we are using EFI, I would have installed rEFInd, and chain-loaded each systems EFI boot code from there, allowing the use of the BSD loader, but to each their own!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://hardenedbsd.org/article/shawn-webb/2016-11-27/introducing-safestack&quot;&gt;HardenedBSD introduces Safestack into base&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;HardenedBSD has integrated SafeStack into its base system and ports tree&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://clang.llvm.org/docs/SafeStack.html&quot;&gt;SafeStack&lt;/a&gt; is part of the Code Pointer Integrity (CPI) project within clang.&lt;/li&gt;
+            &lt;li&gt;&quot;SafeStack is an instrumentation pass that protects programs against attacks based on stack buffer overflows, without introducing any measurable performance overhead. It works by separating the program stack into two distinct regions: the safe stack and the unsafe stack. The safe stack stores return addresses, register spills, and local variables that are always accessed in a safe way, while the unsafe stack stores everything else. This separation ensures that buffer overflows on the unsafe stack cannot be used to overwrite anything on the safe stack.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;As of 28 November 2016, with clang 3.9.0, SafeStack only supports being applied to applications and not shared libraries. Multiple patches have been submitted to clang by third parties to add support for shared libraries.&quot;&lt;/li&gt;
+            &lt;li&gt;SafeStack is only enabled on AMD64&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://learnbchs.org/pledge.html&quot;&gt;pledge(2)... or, how I learned to love web application sandboxing&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We've talked about OpenBSD's sandboxing mechanism pledge() in the past, but today we have a great article by Kristaps Dzonsons, about how he grew to love it for Web Sandboxing.
+            +First up, he gives us his opening argument that should make most of you sit up and listen:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;I use application-level sandboxing a lot because I make mistakes a lot;                 and when writing web applications, the price of making mistakes is very dear.             &lt;/p&gt;
+
+            &lt;p&gt;In the early 2000s, that meant using systrace(4) on OpenBSD and NetBSD.  Then it was seccomp(2) (followed by libseccomp(3)) on Linux.     Then there was capsicum(4) on FreeBSD and sandbox_init(3) on Mac OS X.                         &lt;/p&gt;
+
+            &lt;p&gt;All of these systems are invoked differently; and for the most part, whenever it came     time to interface with one of them, I longed for sweet release from the nightmare.         Please, try reading seccomp(2). To the end. Aligning web application logic and security policy would require an arduous (and usually trial-and-error or worse, copy-and-paste) process. If there was any process at all — if the burden of writing a policy didn't cause me to abandon sandboxing at the start.                         &lt;/p&gt;
+
+            &lt;p&gt;And then there was pledge(2).                         &lt;/p&gt;
+
+            &lt;p&gt;This document is about pledge(2) and why you should use it and love it. &quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;+Not convinced yet? Maybe you should take his challenge:&lt;/p&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Let's play a drinking game.     The challenge is to stay out of the hospital.             &lt;/p&gt;
+
+            &lt;p&gt;1.Navigate to seccomp(2).&lt;br&gt;
+            2. Read it to the end.&lt;br&gt;
+            3. Drink every time you don't understand.                             &lt;/p&gt;
+
+            &lt;p&gt;For capsicum(4), the    challenge is no less difficult.     To see these in action, navigate no further than OpenSSH, which interfaces with these sandboxes: sandbox-seccomp-filter.c or sandbox-capsicum.c.     (For a history lesson, you can even see sandbox-systrace.c.)         Keep in mind that these do little more than restrict resources to open descriptors and the     usual necessities of memory, signals, timing, etc. Keep that in mind and be horrified.     &quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Now Kristaps has his theory on why these are so difficult (NS..), but perhaps there is a better way. He makes the case that pledge() sits right in that sweet-spot, being powerful enough to be useful, but easy enough to implement that developers might actually use it.&lt;/li&gt;
+            &lt;li&gt;All in all, a nice read, check it out! Would love to hear other developer success stories using pledge() as well.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.osnews.com/story/29513/Unix_history_repository_now_on_GitHub&quot;&gt;Unix history repository, now on GitHub&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;OS News has an interesting tidbit on their site today, about the entire commit history of Unix now being available online, starting all the way back in 1970 and bringing us forward to today. &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;From the README&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;The history and evolution of the Unix operating system is made available as a revision management repository, covering the period from its inception in 1970 as a 2.5 thousand line kernel and 26 commands, to 2016 as a widely-used 27 million line system. The 1.1GB repository contains about half a million commits and more than two thousand merges. The repository employs Git system for its storage and is hosted on GitHub. It has been created by synthesizing with custom software 24 snapshots of systems developed at Bell Labs, the University of California at Berkeley, and the 386BSD team, two legacy repositories, and the modern repository of the open source FreeBSD system. In total, about one thousand individual contributors are identified, the early ones through primary research. The data set can be used for empirical research in software engineering, information systems, and software archaeology.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;This is a fascinating find, especially will be of value to students and historians who wish to look back in time to see how UNIX evolved, and in this repo ultimately turned into modern FreeBSD.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://reviews.freebsd.org/D8526&quot;&gt;Yandex commits improvements to FreeBSD network stack &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;Rework ip_tryforward() to use FIB4 KPI.&quot;&lt;/li&gt;
+            &lt;li&gt;This commit brings some code from the experimental routing branch into head&lt;/li&gt;
+            &lt;li&gt;As you can see from the graphs, it offers some sizable improvements in forwarding and firewalled packets per second&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=309257&quot;&gt;commit &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://idea.popcount.org/2016-11-01-a-brief-history-of-select2/&quot;&gt;The brief history of Unix socket multiplexing – select(2) system call&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Ever wondered about the details of socket multiplexing, aka the history of select(2)?&lt;/li&gt;
+            &lt;li&gt;Well Marek today gives a treat, with a quick look back at the history that made today's modern multiplexing possible.&lt;/li&gt;
+            &lt;li&gt;First, his article starts the way all good ones do, presenting the problem in silent-movie form:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;In mid-1960's time sharing was still a recent invention. Compared to a previous paradigm - batch-processing - time sharing was truly revolutionary. It greatly reduced the time wasted between writing a program and getting its result. Batch-processing meant hours and hours of waiting often to only see a program error. See this film to better understand the problems of 1960's programmers: &quot;The trials and tribulations of batch processing&quot;.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Enter the wild world of the 1970's, and we've now reached the birth of UNIX which tried to solve the batch processing problem with time-sharing.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;These days when a program was executed, it could &quot;stall&quot; (block) only on a couple of things1:
+            + wait for CPU
+            + wait for disk I/O
+            + wait for user input (waiting for a shell command) or console (printing data too fast)&quot;&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Jump forward another dozen years or so, and the world changes yet again:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;This all changed in 1983 with the release of 4.2BSD. This revision introduced an early implementation of a TCP/IP stack and most importantly - the BSD Sockets API.Although today we take the BSD sockets API for granted, it wasn't obvious it was the right API. STREAMS were a competing API design on System V Revision 3.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Coming in along with the sockets API was the select(2) call, which our very own Kirk McKusick gives us some background on:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;Select was introduced to allow applications to multiplex their I/O.&lt;/p&gt;
+
+            &lt;p&gt;Consider a simple application like a remote login. It has descriptors for reading from and writing to the terminal and a descriptor for the (bidirectional) socket. It needs to read from the terminal keyboard and write those characters to the socket. It also needs to read from the socket and write to the terminal. Reading from a descriptor that has nothing queued causes the application to block until data arrives. The application does not know whether to read from the terminal or the socket and if it guesses wrong will incorrectly block. So select was added to let it find out which descriptor had data ready to read. If neither, select blocks until data arrives on one descriptor and then awakens telling which descriptor has data to read.&lt;/p&gt;
+
+            &lt;p&gt;[...] Non-blocking was added at the same time as select. But using non-blocking when reading descriptors does not work well. Do you go into an infinite loop trying to read each of your input descriptors? If not, do you pause after each pass and if so for how long to remain responsive to input? Select is just far more efficient.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;p&gt;Select also lets you create a single inetd daemon rather than having to have a separate daemon for every service.&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;The article then wraps up with an interesting conclusion:
+            &amp;gt; CSP = Communicating sequential processes&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;blockquote&gt;
+            &lt;p&gt;In this discussion I was afraid to phrase the core question. Were Unix processes intended to be CSP-style processes? Are file descriptors a CSP-derived &quot;channels&quot;? Is select equivalent to ALT statement?&lt;/p&gt;
+
+            &lt;p&gt;I think: no. Even if there are design similarities, they are accidental. The file-descriptor abstractions were developed well before the original CSP paper.&lt;/p&gt;
+
+            &lt;p&gt;It seems that an operating socket API's evolved totally disconnected from the userspace CSP-alike programming paradigms. It's a pity though. It would be interesting to see an operating system coherent with the programming paradigms of the user land programs.&lt;/p&gt;
+            &lt;/blockquote&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A long (but good) read, and worth your time if you are interested in the history how modern multiplexing came to be.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://intellij-support.jetbrains.com/hc/en-us/articles/206525024-How-to-start-CLion-on-FreeBSD&quot;&gt;How to start CLion on FreeBSD?&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;CLion (pronounced &quot;sea lion&quot;) is a cross-platform C and C++ IDE&lt;/li&gt;
+            &lt;li&gt;By default, the Linux version comes bundled with some binaries, which obviously won't work with the native FreeBSD build&lt;/li&gt;
+            &lt;li&gt;Rather than using Linux emulation, you can replace these components with native versions
+
+            &lt;ul&gt;
+            &lt;li&gt;pkg install openjdk8 cmake gdb&lt;/li&gt;
+            &lt;li&gt;Edit clion-2016.3/bin/idea.properties and change run.processes.with.pty=false&lt;/li&gt;
+            &lt;li&gt;Start CLion and open Settings | Build, Execution, Deployment | Toolchains&lt;/li&gt;
+            &lt;li&gt;Specify CMake path: /usr/local/bin/cmake and GDB path: /usr/local/bin/gdb&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Without a replacement for fsnotifier, you will get a warning that the IDE may be slow to detect changes to files on disk&lt;/li&gt;
+            &lt;li&gt;But, someone has already written a version of fsnotifier that works on FreeBSD and OpenBSD&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/idea4bsd/fsnotifier&quot;&gt;fsnotifier for OpenBSD and FreeBSD&lt;/a&gt; -- The fsnotifier is used by IntelliJ for detecting file changes. This version supports FreeBSD and OpenBSD via libinotify and is a replacement for the bundled Linux-only version coming with the IntelliJ IDEA Community Edition.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.trueos.org/trueos-pico/&quot;&gt;TrueOS Pico – FreeBSD ARM/RPi Thin Clients&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/xaque208/puppet-pkgng&quot;&gt;A Puppet package provider for FreeBSD's PkgNG package manager.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mailman.uk.freebsd.org/pipermail/ukfreebsd/2016-November/014059.html&quot;&gt;Notes from November London *BSD meetup&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lists.nycbug.org/pipermail/semibug/2016-November/000131.html&quot;&gt;SemiBug meeting on Dec 20th&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/SMvxur9v&quot;&gt; Erno - SSH without password&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/5ETL7nmj&quot;&gt; Jonathan - Magical ZFS&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/tSVvaV9e&quot;&gt; George - TrueOS&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/T8nUexd1&quot;&gt; Mohammad - Jails IP&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/YssXXp70&quot;&gt; Gibheer - BEs&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+</feed>
