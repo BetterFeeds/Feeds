@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info/1" xmlns:psc="http://podlove.org/simple-chapters" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
+    <title>Late Night Linux</title>
+    <subtitle>Late Night Linux is a podcast that takes a look at what’s happening with Linux and the wider tech industry. Every two weeks, Joe, Jesse, Ikey and Félim discuss the latest news and releases, and the broader issues and trends in the world of free and open source software. Expect drinking, swearing, strong opinions and Ikey being told to shut up about Solus.</subtitle>
+    <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+    <link href="http://latenightlinux.com/" rel="alternate" type="text/html"/>
+    <link href="https://itunes.apple.com/us/podcast/late-night-linux-mp3/id1189978971" rel="archives" type="text/html" title="iTunes"/>
+    <link href="http://latenightlinux.com/feed/mp3" rel="archives" type="application/rss+xml" title="Late Night Linux MP3"/>
+    <link href="http://latenightlinux.com/feed/ogg" rel="archives" type="application/rss+xml" title="Late Night Linux OGG"/>
+    <link href="https://feeds.betterfeeds.org/LateNightLinux.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Late Night Linux"/>
+    <id>tag:latenightlinux.com,2017:1</id>
+    <updated>2017-01-10T10:41:00Z</updated>
+    <smi:sequential>false</smi:sequential>
+    <category term="Technology" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Technology"/>
+    <category term="Tech News" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Tech News"/>
+    <author>
+        <name>Joe Ressington</name>
+        <email>joeressington@gmail.com</email>
+        <uri>http://joeress.com/about/</uri>
+    </author>
+    <author>
+        <name>Jesse</name>
+        <uri>https://plus.google.com/117795945865661943166</uri>
+    </author>
+    <author>
+        <name>Ikey Doherty</name>
+        <uri>https://plus.google.com/+IkeyDoherty</uri>
+    </author>
+    <author>
+        <name>Félim Whiteley</name>
+        <uri>https://twitter.com/felimwhiteley</uri>
+    </author>
+    <entry>
+        <title>Episode 1</title>
+        <smi:episode>1</smi:episode>
+        <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-01/"/>
+        <id>http://latenightlinux.com/late-night-linux-episode-01/</id>
+        <published>2017-01-10T03:37:44-00:00</published>
+        <updated>2017-01-10T10:49:00Z</updated>
+        <link length="55723603" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL01.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="54115433" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL01.ogg" type="audio/mpeg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:00:30" title="Who are we?"/>
+            <psc:chapter start="00:02:05" title="News"/>
+            <psc:chapter start="00:02:05" title="3% market share on the desktop?" href="http://cdn1b.static.pornhub.phncdn.com/insights-static//wp-content/uploads/2016/12/4-pornhub-insights-2016-year-review-operating-system.png"/>
+            <psc:chapter start="00:05:35" title="Goodbye to GNU Libreboot" href="http://lists.gnu.org/archive/html/info-gnu/2017-01/msg00001.html"/>
+            <psc:chapter start="00:07:30" title="KDE Announces SystemdGenie" href="http://news.softpedia.com/news/kde-announces-systemdgenie-a-graphical-tool-for-managing-systemd-and-user-units-511119.shtml"/>
+            <psc:chapter start="00:10:25" title="New KDE Neon releases"/>
+            <psc:chapter start="00:19:30" title="No New Ubuntu Phones on the Horizon, And No Major Updates for Existing Ones, Either" href="http://www.omgubuntu.co.uk/2017/01/ubuntu-phone-ota-15-ditched"/>
+            <psc:chapter start="00:32:00" title="2017 Predictions"/>
+            <psc:chapter start="00:32:00" title="Félim's predictions"/>
+            <psc:chapter start="00:36:30" title="Jesse's predictions"/>
+            <psc:chapter start="00:39:40" title="Joe's predictions"/>
+            <psc:chapter start="00:43:05" title="Ikey's predictions"/>
+            <psc:chapter start="01:00:55" title="Lineage OS discussion"/>
+        </psc:chapters>
+        <summary>In Episode 01 of Late Night Linux we talk about Desktop Linux market share, KDE Neon, Ubuntu Touch, what we think will happen in 2017, CyanogenMod becoming Lineage OS and loads more.</summary>
+        <content type="html">&lt;p&gt;In Episode 01 of Late Night Linux we talk about Desktop Linux market share, KDE Neon, Ubuntu Touch, what we think will happen in 2017, CyanogenMod becoming Lineage OS and loads more.&lt;p&gt;
+            &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://cdn1b.static.pornhub.phncdn.com/insights-static//wp-content/uploads/2016/12/4-pornhub-insights-2016-year-review-operating-system.png&quot;&gt;3% market share on the desktop?&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://lists.gnu.org/archive/html/info-gnu/2017-01/msg00001.html&quot;&gt;Goodbye to GNU Libreboot&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://news.softpedia.com/news/kde-announces-systemdgenie-a-graphical-tool-for-managing-systemd-and-user-units-511119.shtml&quot;&gt;KDE Announces SystemdGenie, a Graphical Tool for Managing Systemd and User Units&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;KDE Neon gets an &lt;a href=&quot;http://jriddell.org/2016/12/09/kde-neon-user-lts-edition-out-now/&quot;&gt;LTS user edition&lt;/a&gt;, a &lt;a href=&quot;http://jriddell.org/2017/01/06/kde-neon-now-available-on-docker/&quot;&gt;Docker image&lt;/a&gt; and a &lt;a href=&quot;http://jriddell.org/2017/01/09/plasma-wayland-iso/&quot;&gt;Wayland ISO&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.omgubuntu.co.uk/2017/01/ubuntu-phone-ota-15-ditched&quot;&gt;No New Ubuntu Phones on the Horizon, And No Major Updates for Existing Ones, Either&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Predictions&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;All four of us give a couple of predictions each for 2017.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Lineage OS&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://lineageos.org/&quot;&gt;New official site&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://lifehacker.com/cyanogenmod-is-dead-and-its-successor-is-lineage-os-1790554964&quot;&gt;Pretty good write up of the end of CyanogenMod and the start of Lineage&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.theandroidsoul.com/download-lineage-os/#jump-download-lineage-os-unofficial-builds&quot;&gt;List of unofficial builds&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;See our &lt;a href=&quot;http://latenightlinux.com/contact/&quot;&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <itunes:duration>1:16:44</itunes:duration>
+    </entry>
+</feed>
