@@ -30,6 +30,248 @@
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
     <entry>
+        <title>Linking your world</title>
+        <smi:episode>176</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_11-linking_your_world"/>
+        <id>http://www.bsdnow.tv/episodes/2017_1_11-linking_your_world</id>
+        <published>2017-01-12T04:36:28-08:00</published>
+        <updated>2017-01-13T06:41:00Z</updated>
+        <link length="44546394" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0176.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="44546394" duration="5544" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0176.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="69087239" duration="5544" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0176.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="323631352" duration="5544" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0176-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="624460376" duration="5544" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0176.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="624460376" duration="5544" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0176.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="81268" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0176-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:00" title="Headlines"/>
+            <psc:chapter start="00:01:00" title="FreeBSD can now be linked with lld" href="https://llvm.org/bugs/show_bug.cgi?id=23214#c40"/>
+            <psc:chapter start="00:06:15" title="NetBSD's scheduler tweaks" href="http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20170109_2108.html"/>
+            <psc:chapter start="00:12:20" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:15:05" title="FreeBSD Network Gateway on EdgeRouter Lite" href="http://codeghar.com/blog/freebsd-network-gateway-on-edgerouter-lite.html"/>
+            <psc:chapter start="00:19:45" title="Build system targeting modern UNIX systems" href="https://github.com/michipili/bsdowl"/>
+            <psc:chapter start="00:21:55" title="News Roundup"/>
+            <psc:chapter start="00:21:55" title="find -delete in OpenBSD" href="https://marc.info/?l=openbsd-tech&amp;m=148342051832692&amp;w=2"/>
+            <psc:chapter start="00:28:25" title="Lumina desktop 1.2.0 released" href="https://lumina-desktop.org/version-1-2-0-released/"/>
+            <psc:chapter start="00:31:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:33:35" title="dd is not just for disk writing" href="http://www.vidarholen.net/contents/blog/?p=479"/>
+            <psc:chapter start="00:42:40" title="Bhyve setup for tcp testing" href="https://www.strugglingcoder.info/index.php/bhyve-setup-for-tcp-testing/"/>
+            <psc:chapter start="00:48:35" title="Beastie Bits"/>
+            <psc:chapter start="00:48:40" title="Plan9 on Bhyve" href="https://twitter.com/pr1ntf/status/817895393824382976"/>
+            <psc:chapter start="00:49:35" title="Get your name in the relayd book" href="http://blather.michaelwlucas.com/archives/2832"/>
+            <psc:chapter start="00:51:40" title="Ted Unangst's 2016 Computer Reviews" href="http://www.tedunangst.com/flak/post/2016-computer-review"/>
+            <psc:chapter start="00:55:25" title="Bryan Cantrill on Developer On Fire podcast" href="http://developeronfire.com/episode-198-bryan-cantrill-persistence-and-action"/>
+            <psc:chapter start="00:55:50" title="pf/ipfw's impact on performance" href="http://dev.bsdrp.net/benchs/2016.SM5018A-FTN4-Chelsio.png"/>
+            <psc:chapter start="00:57:40" title="Weston with X and EGL clients running on FreeBSD" href="https://twitter.com/johalun/status/819039940914778112"/>
+            <psc:chapter start="00:58:50" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:01:05" title="Feedback/Questions"/>
+            <psc:chapter start="01:01:05" title="Eddy - TRIM Partitioning" href="http://pastebin.com/A0LSipCj"/>
+            <psc:chapter start="01:03:10" title="Matt - Why FreeBSD?" href="http://pastebin.com/UE1k4Q99"/>
+            <psc:chapter start="01:08:20" title="Shawn - ZFS Horror?" href="http://pastebin.com/TjTkqHA4"/>
+            <psc:chapter start="01:21:10" title="Andrew - Bootloaders" href="http://pastebin.com/Baxd6Pjy"/>
+            <psc:chapter start="01:28:25" title="Bryan - ZFS Error" href="http://pastebin.com/NygwchFD"/>
+        </psc:chapters>
+        <summary>Another exciting week on BSDNow, we're queueing up with LLVM / Linking news, a look at NetBSD's scheduler, routers, desktops, build-systems &amp; more! Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 176: Linking your world&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://llvm.org/bugs/show_bug.cgi?id=23214#c40&quot;&gt;FreeBSD Kernel and World, and many Ports, can now be linked with lld&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;With this change applied I can link the entirety of the FreeBSD/amd64 base system (userland world and kernel) with LLD.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Rafael's done an initial experimental Poudriere FreeBSD package build with lld head, and found almost 20K out of 26K ports built successfully. I'm now looking at getting CI running to test this on an ongoing basis. But, I think we're at the point where an experimental build makes sense.&quot;&lt;/li&gt;
+            &lt;li&gt;Such testing will become much easier once llvm 4.0 is imported into -current&lt;/li&gt;
+            &lt;li&gt;&quot;I suggest that during development we collect patches in a local git repo -- for example, I've started here for my Poudriere run https://github.com/emaste/freebsd-ports/commits/ports-lld&quot; &lt;/li&gt;
+            &lt;li&gt;&quot;It now looks like libtool is responsible for the majority of my failed / skipped ports. Unless we really think we'll add &quot;not GNU&quot; and other hacks to lld we're going to have to address libtool limitations upstream and in the FreeBSD tree. I did look into libtool a few weeks ago, but unfortunately haven't yet managed to produce a patch suitable for sending upstream.&quot;&lt;/li&gt;
+            &lt;li&gt;If you are interested in LLVM/Clang/LLD/LLDB etc, check out: &lt;a href=&quot;http://blog.regehr.org/archives/1453&quot;&gt;A Tourist's Guide to the LLVM Source Code &lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20170109_2108.html&quot;&gt;Documenting NetBSD's scheduler tweaks&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A followup to our previous coverage of improvements to the scheduler in NetBSD&lt;/li&gt;
+            &lt;li&gt;&quot;NetBSD's scheduler was recently changed to better distribute load of long-running processes on multiple CPUs. So far, the associated sysctl tweaks were not documented, and this was changed now, documenting the kern.sched sysctls.&quot;&lt;/li&gt;
+            &lt;li&gt;kern.sched.cacheht_time (dynamic): Cache hotness time in which a LWP is kept on one particular CPU and not moved to another CPU. This reduces the overhead of flushing and reloading caches.  Defaults to 3ms.  Needs to be given in ``hz'' units, see mstohz(9).&lt;/li&gt;
+            &lt;li&gt;kern.sched.balance_period (dynamic): Interval at which the CPU queues are checked for re-balancing.  Defaults to 300ms.&lt;/li&gt;
+            &lt;li&gt;kern.sched.min_catch (dynamic): Minimum count of migratable (runable) threads for catching (stealing) from another CPU.  Defaults to 1 but can be increased to decrease chance of thread migration between CPUs.&lt;/li&gt;
+            &lt;li&gt;It is important to have good documentation for these tunables, so that users can understand what it is they are adjusting&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://codeghar.com/blog/freebsd-network-gateway-on-edgerouter-lite.html&quot;&gt;FreeBSD Network Gateway on EdgeRouter Lite&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;EdgeRouter Lite is a great device to run at the edge of a home network. It becomes even better when it's running FreeBSD. This guide documents how to setup such a gateway. There are accompanying git repos to somewhat automate the process as well.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Colin Percival has written a great blog post on the subject, titled &lt;a href=&quot;http://www.daemonology.net/blog/2016-01-10-FreeBSD-EdgeRouter-Lite.html&quot;&gt;FreeBSD on EdgeRouter Lite - no serial port required&lt;/a&gt; . In it he provides and describes a shell script to build a bootable image of FreeBSD to be run on ERL, available from GitHub in the &lt;a href=&quot;https://github.com/cperciva/freebsd-ERL-build/&quot;&gt;freebsd-ERL-build&lt;/a&gt;  repo. I have built a Vagrant-based workflow to automate the building of the drive image. It's available on GitHub in the &lt;a href=&quot;https://github.com/hamzasheikh/freebsd-edgerouterlite-ansible&quot;&gt;freebsd-edgerouterlite-ansible&lt;/a&gt;  repo. It uses the build script Percival wrote.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Once you've built the disk image it's time to write it to a USB drive. There are two options: overwrite the original drive in the ERL or buy a new drive. I tried the second option first and wrote to a new Sandrive Ultra Fit 32GB USB 3.0 Flash Drive (SDCZ43-032G-GAM46). It did not work and I later found on some blog that those drives do not work. I have not tried another third party drive since.&quot;&lt;/li&gt;
+            &lt;li&gt;The tutorial covers all of the steps, and the configuration files, including rc.conf, IP configuration, DHCP (and v6), pf, and DNS (unbound)&lt;/li&gt;
+            &lt;li&gt;&quot;I'm pretty happy with ERL and FreeBSD. There is great community documentation on how to configure all the pieces of software that make a FreeBSD-based home network gateway possible. I can tweak things as needed and upgrade when newer versions become available.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;My plan on upgrading the base OS is to get a third party USB drive that works, write a newer FreeBSD image to it, and replace the drive in the ERL enclosure. This way I can keep a bunch of drives in rotation. Upgrades to newer builds or reverts to last known good version are as easy as swapping USB drives.&quot;&lt;/li&gt;
+            &lt;li&gt;Although something more nanobsd style with 2 partitions on the one drive might be easier.&lt;/li&gt;
+            &lt;li&gt;&quot;Configuration with Ansible means I don't have to manually do things again and again. As the configs change they'll be tracked in git so I get version control as well. ERL is simply a great piece of network hardware. I'm tempted to try Ubiquiti's WiFi products instead of a mixture of DD-WRT and OpenWRT devices I have now. But that is for another day and perhaps another blog post.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/michipili/bsdowl&quot;&gt;A highly portable build system targeting modern UNIX systems&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;An exciting new/old project is up on GitHub that we wanted to bring your attention to.&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;BSD Owl is a highly portable build-system based around BSD Make that supports a variety of popular (and not so popular) languages, such as:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;C programs, compiled for several targets&lt;/li&gt;
+            &lt;li&gt;C libraries, static and shared, compiled for several targets&lt;/li&gt;
+            &lt;li&gt;Shell scripts&lt;/li&gt;
+            &lt;li&gt;Python scripts&lt;/li&gt;
+            &lt;li&gt;OCaml programs&lt;/li&gt;
+            &lt;li&gt;OCaml libraries, with ocamldoc documentation&lt;/li&gt;
+            &lt;li&gt;OCaml plugins&lt;/li&gt;
+            &lt;li&gt;TeX documents, prepared for several printing devices&lt;/li&gt;
+            &lt;li&gt;METAPOST figures, with output as PDF, PS, SVG or PNG, either as part of a TeX document or as standalone documents&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;What about features you may ask? Well BSD Owl has plenty of those to go around:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Support of compilation profiles&lt;/li&gt;
+            &lt;li&gt;Support of the parallel mode (at the directory level)&lt;/li&gt;
+            &lt;li&gt;Support of separate trees for sources and objects&lt;/li&gt;
+            &lt;li&gt;Support of architecture-dependant compilation options&lt;/li&gt;
+            &lt;li&gt;Support GNU autoconf&lt;/li&gt;
+            &lt;li&gt;Production of GPG-signed tarballs&lt;/li&gt;
+            &lt;li&gt;Developer subshell, empowered with project-specific scripts&lt;/li&gt;
+            &lt;li&gt;Literate programming using noweb&lt;/li&gt;
+            &lt;li&gt;Preprocessing with m4&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;As far as platform support goes, BSD Owl is tested on OSX / Debian Jesse and FreeBSD &amp;gt; 9. Future support for OpenBSD and NetBSD is planned, once they update their respective BSD Make binaries to more modern versions&lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://marc.info/?l=openbsd-tech&amp;amp;m=148342051832692&amp;amp;w=2&quot;&gt;find -delete in OpenBSD. Thanks to tedu@ OpenBSD will have this very handy flag to in the future.&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;OpenBSD's find(1) utility will now support the -delete operation&lt;/li&gt;
+            &lt;li&gt;&quot;This option is not posix (not like that's stopped find accumulating a dozen extensions), but it is in gnu and freebsd (for 20 years). it's also somewhat popular among sysadmins and blogs, etc. and perhaps most importantly, it nicely solves one of the more troublesome caveats of find (which the man page actually covers twice because it's so common and easy to screw up). So I think it makes a good addition.&quot;&lt;/li&gt;
+            &lt;li&gt;The actual code was borrowed from FreeBSD&lt;/li&gt;
+            &lt;li&gt;Using the -delete option is much more performant than forking rm once for each file, and safer because there is no risk of mangling path names&lt;/li&gt;
+            &lt;li&gt;If you encounter a system without a -delete option, your best bet is to use the -print0 option of find, which will print each filename terminated by a null byte, and pipe that into xargs -0 rm&lt;/li&gt;
+            &lt;li&gt;This avoids any ambiguity caused by files with spaces in the names&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://lumina-desktop.org/version-1-2-0-released/&quot;&gt;New version of the Lumina desktop released&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Just in time to kickoff 2017 we have a new release of Lumina Desktop (1.2.0)&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;Some of the notable changes include fixes to make it easier to port to other platforms, and some features:&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;New Panel Plugins:&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;audioplayer&quot; (panel version of the desktop plugin with the same name): Allows the user to load/play audio files directly through the desktop itself.&lt;/li&gt;
+            &lt;li&gt;&quot;jsonmenu&quot; (panel version of the menu plugin with the same name): Allows an external utility/script to be used to generate a menu/contents on demand.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;New Menu Plugins:
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;lockdesktop&quot;: Menu option for instantly locking the desktop session.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;New Utilities:
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;code&gt;lumina-archiver&lt;/code&gt;: This is a pure Qt5 front-end to the &quot;tar&quot; utility for managing/creating archives. This can also use the &lt;code&gt;dd&lt;/code&gt; utility to burn a &quot;*.img&quot; file to a USB device for booting.&quot;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Looks like the news already made its rounds to a few different sites, with Phoronix and Softpedia picking it up as well&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Lumina-1.2-Released&quot;&gt;Phoronix&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://news.softpedia.com/news/lumina-1-2-desktop-environments-launches-for-trueos-with-various-enhancements-511495.shtml&quot;&gt;Softpedia &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;TrueOS users running the latest updates are already on the pre-release version of 1.2.1, so nothing has to be done there to get the latest and greatest.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.vidarholen.net/contents/blog/?p=479&quot;&gt;dd is not a disk writing tool&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;If you've ever used dd, you've probably used it to read or write disk images:&quot;
+            &amp;gt; # Write myfile.iso to a USB drive
+            &amp;gt; dd if=myfile.iso of=/dev/sdb bs=1M&lt;/li&gt;
+            &lt;li&gt;&quot;Usage of dd in this context is so pervasive that it's being hailed as the magic gatekeeper of raw devices. Want to read from a raw device? Use dd. Want to write to a raw device? Use dd. This belief can make simple tasks complicated. How do you combine dd with gzip? How do you use pv if the source is raw device? How do you dd over ssh?&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The fact of the matter is, dd is not a disk writing tool. Neither &quot;d&quot; is for &quot;disk&quot;, &quot;drive&quot; or &quot;device&quot;. It does not support &quot;low level&quot; reading or writing. It has no special dominion over any kind of device whatsoever.&quot;&lt;/li&gt;
+            &lt;li&gt;Then a number of alternatives are discussed&lt;/li&gt;
+            &lt;li&gt;&quot;However, this does not mean that dd is useless! The reason why people started using it in the first place is that it does exactly what it's told, no more and no less. If an alias specifies -a, cp might try to create a new block device rather than a copy of the file data. If using gzip without redirection, it may try to be helpful and skip the file for not being regular. Neither of them will write out a reassuring status during or after a copy.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;dd, meanwhile, has one job*: copy data from one place to another. It doesn't care about files, safeguards or user convenience. It will not try to second guess your intent, based on trailing slashes or types of files. When this is no longer a convenience, like when combining it with other tools that already read and write files, one should not feel guilty for leaving dd out entirely.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;dd is the swiss army knife of the open, read, write and seek syscalls. It's unique in its ability to issue seeks and reads of specific lengths, which enables a whole world of shell scripts that have no business being shell scripts. Want to simulate a lseek+execve? Use dd! Want to open a file with O_SYNC? Use dd! Want to read groups of three byte pixels from a PPM file? Use dd!&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;It's a flexible, unique and useful tool, and I love it. My only issue is that, far too often, this great tool is being relegated to and inappropriately hailed for its most generic and least interesting capability: simply copying a file from start to finish.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;dd actually has two jobs: Convert and Copy. Legend has it that the intended name, &quot;cc&quot;, was taken by the C compiler, so the letters were shifted by one to give &quot;dd&quot;. This is also why we ended up with a Window system called X.&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://eriknstr.github.io/utils/dd-countdown.htm&quot;&gt;dd countdown&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://www.strugglingcoder.info/index.php/bhyve-setup-for-tcp-testing/&quot;&gt;Bhyve setup for tcp testing &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;FreeBSD Developer Hiren Panchasara writes about his setup to use bhyve to test changes to the TCP stack in FreeBSD&lt;/li&gt;
+            &lt;li&gt;&quot;Here is how I test simple FreeBSD tcp changes with dummynet on bhyve. I've already wrote down &lt;a href=&quot;https://www.strugglingcoder.info/index.php/drop-a-packet/&quot;&gt;how I do dummynet&lt;/a&gt; so I'll focus on bhyve part.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;A few months back when I started looking into improving FreeBSD TCP's response to packet loss, I looked around for traffic simulators which can do deterministic packet drop for me.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I had used dummynet(4) before so I thought of using it but the problem is that it only provided probabilistic drops. You can specify dropping 10% of the total packets&quot;&lt;/li&gt;
+            &lt;li&gt;So he wrote a quick hack, hopefully he'll polish it up and get it committed&lt;/li&gt;
+            &lt;li&gt;&quot;Setup: I'll create 3 bhyve guests: client, router and server&quot; &lt;/li&gt;
+            &lt;li&gt;&quot;Both client and server need their routing tables setup correctly so that they can reach each other. The Dummynet node is the router / traffic shaping node here. We need to enable forwarding between interfaces: sysctl net.inet.ip.forwarding=1&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;We need to setup links (called 'pipes') and their parameters on dummynet node&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;For simulations, I run a lighttpd web-server on the server which serves different sized objects and I request them via curl or wget from the client. I have tcpdump running on any/all of four interfaces involved to observe traffic and I can see specified packets getting dropped by dummynet. sysctl net.inet.ip.dummynet.io&lt;em&gt;pkt&lt;/em&gt;drop is incremented with each packet that dummynet drops.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Here, 192.* addresses are for ssh and 10.* are for guests to be able to communicate within themselves.&quot;&lt;/li&gt;
+            &lt;li&gt;Create 2 tap interfaces for each end point, and 3 from the router. One each for SSH/control, and the others for the test flows. Then create 3 bridges, the first includes all of the control tap interfaces, and your hosts' real interface. This allows the guests to reach the internet to download packages etc. The other two bridges form the connections between the three VMs&lt;/li&gt;
+            &lt;li&gt;The creation and configuration of the VMs is documented in detail&lt;/li&gt;
+            &lt;li&gt;I used a setup very similar to this for teaching the basics of how TCP works when I was teaching at a local community college&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/pr1ntf/status/817895393824382976&quot;&gt;Plan9 on Bhyve&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2832&quot;&gt;Get your name in the relayd book&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/2016-computer-review&quot;&gt;Ted Unangst's 2016 Computer Reviews &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://developeronfire.com/episode-198-bryan-cantrill-persistence-and-action&quot;&gt;Bryan Cantrill on Developer On Fire podcast &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://dev.bsdrp.net/benchs/2016.SM5018A-FTN4-Chelsio.png&quot;&gt;2016 in review: pf/ipfw's impact on forwarding performance over time, on 8 core Atom &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/johalun/status/819039940914778112&quot;&gt;#Wayland Weston with X and EGL clients, running on #FreeBSD in VBox with new scfb backend. More coming soon! &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/A0LSipCj&quot;&gt; Eddy - TRIM Partitioning&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/UE1k4Q99&quot;&gt; Matt - Why FreeBSD?&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/TjTkqHA4&quot;&gt; Shawn - ZFS Horror?&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Baxd6Pjy&quot;&gt; Andrew - Bootloaders&lt;/a&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://allanjude.com/talks/AsiaBSDCon2016_geliboot_pdf1a.pdf&quot;&gt;GELIBoot Paper &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://www.freebsd.org/doc/en_US.ISO8859-1/books/arch-handbook/boot.html&quot;&gt;FreeBSD Architecture Handbook&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/NygwchFD&quot;&gt; Bryan - ZFS Error&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
         <title>How the Dtrace saved Christmas</title>
         <smi:episode>175</smi:episode>
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_04-how_dtrace_saved_christmas"/>
