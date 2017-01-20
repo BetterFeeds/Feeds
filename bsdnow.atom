@@ -32,7 +32,7 @@
     <entry>
         <title>Getting Pi on my Wi-Fi</title>
         <smi:episode>177</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106301/getting-pi-on-my-wifi-bsd-now-177/"/>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_18-getting_pi_on_my_wifi"/>
         <id>http://www.bsdnow.tv/episodes/2017_1_11-getting_pi_on_my_wifi</id>
         <published>2017-01-19T01:52:37-08:00</published>
         <updated>2017-01-20T11:46:00Z</updated>
@@ -80,7 +80,204 @@
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
         <summary>This week on BSDNow, we've got Wi-Fi galore, a new iocage and some Raspberry Pi 3 news and guides to share. Stay tuned for your place to B...SD!</summary>
-        <content type="html"></content>
+        <content type="html">&lt;h1&gt;Episode 177: Getting Pi on my Wifi&lt;/h1&gt;
+            &lt;h2&gt;Headlines&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20170109213803&quot;&gt;WiFi: 11n hostap mode added to athn(4) driver, testers wanted&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;OpenBSD as WiFi access points look set to be making a comeback in the near future&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Stefan Sperling added 802.11n hostap mode, with full support initially for the Atheros chips supported by the athn(4) driver.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Hostap performance is not perfect yet but should be no worse than 11a/b/g modes in the same environment.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;For Linux clients a fix for WME params is needed which I also posted to tech@&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;This diff does not modify the known-broken and disabled ar9003 code, apart from making sure it still builds.&quot;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&quot;I'm looking for both tests and OKs.&quot;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;There has also been a &lt;a href=&quot;http://svnweb.freebsd.org/base/head/sys/net80211/?view=log&quot;&gt;flurry of work&lt;/a&gt;  in FreeBSD on the ath10k driver, which supports 802.11ac&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;Like &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=310147&quot;&gt;this one&lt;/a&gt; and &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=311579&quot;&gt;this one&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/iocage/iocage&quot;&gt;The long-awaited iocage update has landed&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We've hinted at the new things happening behind the scenes with iocage, and this last week the code has made its first public debut. &lt;/li&gt;
+            &lt;li&gt;So what's changed you may ask. The biggest is that iocage has undergone a complete overhaul, moving from its original shell-base to python.  &lt;/li&gt;
+            &lt;li&gt;The story behind that is that the author (Brandon) works at iXsystems, and the plan is to move away from the legacy warden-based jail management which was also shell-based.  &lt;/li&gt;
+            &lt;li&gt;This new python re-write will allow it to integrate into FreeNAS (and other projects) better by exposing an API for all jail management tasks. Thats right, no more ugly CLI output parsing just to wrangle jail options either at creation or runtime. &lt;/li&gt;
+            &lt;li&gt;But what about users who just run iocage manually from the CLI? No worries, the new iocage is almost identical to the original CLI usage, making the switch over very simple.&lt;/li&gt;
+            &lt;li&gt;Just to re-cap, lets look at the new features list:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;p&gt;FEATURES:
+            + Ease of use
+            + Rapid jail creation within seconds
+            + Automatic package installation
+            + Virtual networking stacks (vnet)
+            + Shared IP based jails (non vnet)
+            + Transparent ZFS snapshot management
+            + Export and import
+            + The new iocage is available now via ports and packages under sysutils/py-iocage, give it a spin and be sure to report issues back to the developer(s).&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://smallhacks.wordpress.com/2017/01/14/reading-dht11-temperature-sensor-on-raspberry-pi-under-freebsd/&quot;&gt;Reading DHT11 temperature sensors on a Raspberry Pi under FreeBSD &lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;DHT-11 is a very cheap temperature/humidity sensor which is commonly used in the IoT devices. It is not very accurate, so for the accurate measurement i would recommend to use DHT21 instead. Anyway, i had DHT-11 in my tool box, so decided to start with it. DHT-11 using very simple 1 wire protocol – host is turning on chip by sending 18ms low signal to the data output and then reading 40 bytes of data.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;To read data from the chip it should be connected to the power (5v) and gpio pin. I used pin 2 as VCC, 6 as GND and 11 as GPIO&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;There is no support for this device out of the box on FreeBSD. I found some sample code on the github, see &lt;a href=&quot;https://github.com/lex/freebsd-gpio-dht11&quot;&gt;lex/freebsd-gpio-dht11&lt;/a&gt; repository. This code was a good starting point, but soon i found 2 issues with it:
+
+            &lt;ul&gt;
+            &lt;li&gt;Results are very unreliable, probably due to gpio decoding algorithm.&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Checksum is not validated, so sometime values are bogus.&lt;/li&gt;
+            &lt;li&gt;&quot;Initially i was thinking to fix this myself, but later found kernel module for this purpose, &lt;a href=&quot;http://www.my-tour.ru/FreeBSD/1-wire_over_gpio/&quot;&gt;1 wire over gpio&lt;/a&gt;. This module contains DHT11 kernel driver (gpio_sw) which implements DHT-11 protocol in the kernel space and exporting /dev/sw0 for the userland. Driver compiles on FreeBSD11/ARM without any changes. Use make install to install the driver.&quot;&lt;/li&gt;
+            &lt;li&gt;The articles goes into how to install and configure the driver, including a set of devfs rules to allow non-root users to read from the sensor&lt;/li&gt;
+            &lt;li&gt;&quot;Final goal was to add this sensor to the domoticz software. It is using LUA scripting to extend it functionality, e.g. to obtain data from non-supported or non standard devices. So, i decided to read /dev/sw0 from the LUA.&quot;&lt;/li&gt;
+            &lt;li&gt;They ran into some trouble with LUA trying to read too much data at once, and had to work around it&lt;/li&gt;
+            &lt;li&gt;In the end, they got the results and were able to use them in the monitoring tool&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://github.com/lattera/articles/blob/master/infosec/tor/2017-01-14_torified_home/article.md&quot;&gt;Tor-ified Home Network using HardenedBSD and a RPi3&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Shawn from HardendBSD has posted an article up on GitHub talking about his deployment of a new Tor relay on a RPi3&lt;/li&gt;
+            &lt;li&gt;This particular method was attractive, since it allows running a Relay, but without it being on a machine which may have personal data, such as SSH keys, files, etc&lt;/li&gt;
+            &lt;li&gt;While his setup is done on HardendBSD, the same applies to a traditional FreeBSD setup as well. &lt;/li&gt;
+            &lt;li&gt;First up, is the list of things needed for this project:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;p&gt;Raspberry Pi 3 Model B Rev 1.2 (aka, RPI3)
+            Serial console cable for the RPI3
+            Belkin F4U047 USB Ethernet Dongle
+            Insignia NS-CR2021 USB 2.0 SD/MMC Memory Card Reader
+            32GB SanDisk Ultra PLUS MicroSDHC
+            A separate system, running FreeBSD or HardenedBSD
+            HardenedBSD clang 4.0.0 image for the RPI3
+            An external drive to be formatted
+            A MicroUSB cable to power the RPI3
+            Two network cables
+            Optional: Edimax N150 EW-7811Un Wireless USB
+            Basic knowledge of vi&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;After getting HBSD running on the RPi3 and serial connection established, he then takes us through the process of installing and enabling the various services needed. (Don't forget to growfs your sdcard first!)&lt;/li&gt;
+            &lt;li&gt;Now the tricky part is that some of the packages needed to be compiled from ports, which is somewhat time-consuming on a RPi. He strongly recommends not compiling on the sdcard (it sounds like personal experience has taught him well) and to use iscsi or some external USB drive. &lt;/li&gt;
+            &lt;li&gt;With the compiling done, our package / software setup is nearly complete. Next up is firewalling the box, which he helpfully provides a full PF config setup that we can copy-n-paste here.&lt;/li&gt;
+            &lt;li&gt;The last bits will be enabling the torrc configuration knobs, which if you follow his example again, will result in a tor public relay, and a local transparent proxy for you.&lt;/li&gt;
+            &lt;li&gt;Bonus! Shawn helpfully provides DHCPD configurations, and even Wireless AP configurations, if you want to setup your RPi3 to proxy for devices that connect to
+            it.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;News Roundup&lt;/h2&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www-uxsup.csx.cam.ac.uk/misc/horror.txt&quot;&gt;Unix Admin. Horror Story Summary, version 1.0&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;A great collection of stories, many of which will ring true with our viewers&lt;/li&gt;
+            &lt;li&gt;The very first one, is about a user changing root's shell to /usr/local/bin/tcsh but forgetting to make it executable, resulting in not being able to login as root.&lt;/li&gt;
+            &lt;li&gt;I too have run into this issue, in a slightly different way. I had tcsh as my user shell (back before tcsh was in base), and after a major OS upgrade, but before I had a chance to recompile all of my ports. Now I couldn't ssh in to the remote machine in order to recompile my shell. Now I always use a shell included in the base system, and test it before rebooting after an upgrade.&lt;/li&gt;
+            &lt;li&gt;&quot;Our operations group, a VMS group but trying to learn UNIX, was assigned account administration. They were cleaning up a few non-used accounts like they do on VMS - backup and purge. When they came across the account &quot;sccs&quot;, which had never been accessed, away it went. The &quot;deleteuser&quot; utility from DEC asks if you would like to delete all the files in the account. Seems reasonable, huh? Well, the home directory for &quot;sccs&quot; is &quot;/&quot;. Enough said :-(&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;I was working on a line printer spooler, which lived in /etc.  I wanted to remove it, and so issued the command &quot;rm /etc/lpspl.&quot;  There was only one problem.  Out of habit, I typed &quot;passwd&quot; after &quot;/etc/&quot; and removed the password file.  Oops.&quot;&lt;/li&gt;
+            &lt;li&gt;I've done things like this as well. Finger memory can be dangerous&lt;/li&gt;
+            &lt;li&gt;&quot;I was happily churning along developing something on a Sun workstation, and was getting a number of annoying permission denieds from trying to write into a directory heirarchy that I didn't own.  Getting tired of that, I decided to set the permissions on that subtree to 777 while I was working, so I wouldn't have to worry about it.  Someone had recently told me that rather than using plain &quot;su&quot;, it was good to use &quot;su -&quot;, but the implications had not yet sunk in.  (You can probably see where this is going already, but I'll go to the bitter end.)  Anyway, I cd'd to where I wanted to be, the top of my subtree, and did su -.  Then I did chmod -R 777.  I then started to wonder why it was taking so damn long when there were only about 45 files in 20 directories under where I (thought) I was.  Well, needless to say, su - simulates a real login, and had put me into root's home directory, /, so I was proceeding to set file permissions for the whole system to wide open. I aborted it before it finished, realizing that something was wrong, but this took quite a while to straighten out.&quot;&lt;/li&gt;
+            &lt;li&gt;Where is a ZFS snapshot when you need it?&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://medium.com/@skamille/how-do-individual-contributors-get-stuck-63102ba43516&quot;&gt;How individual contributors get stuck&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;An interesting post looking at the common causes of people getting stuck when trying to create or contribute new code
+
+            &lt;ul&gt;
+            &lt;li&gt;Brainstorming/architecture: &quot;I must have thought through all edge cases of all parts of everything before I can begin this project&quot;&lt;/li&gt;
+            &lt;li&gt;Researching possible solutions forever (often accompanied by desire to do a &quot;bakeoff&quot; where they build prototypes in different platforms/languages/etc)&lt;/li&gt;
+            &lt;li&gt;Refactoring: &quot;this code could be cleaner and everything would be just so much easier if we cleaned this up... and this up... and...&quot;&lt;/li&gt;
+            &lt;li&gt;Helping other people instead of doing their assigned tasks (this one isn't a bad thing in an open source community)&lt;/li&gt;
+            &lt;li&gt;Working on side projects instead of the main project (it is your time, it is up to you how to spend it)&lt;/li&gt;
+            &lt;li&gt;Excessive testing (rare)&lt;/li&gt;
+            &lt;li&gt;Excessive automation (rare)&lt;/li&gt;
+            &lt;li&gt;Finish the last 10–20% of a project&lt;/li&gt;
+            &lt;li&gt;Start a project completely from scratch&lt;/li&gt;
+            &lt;li&gt;Do project planning (You need me to write what now? A roadmap?) (this is why FreeBSD has devsummits, some things you just need to whiteboard)&lt;/li&gt;
+            &lt;li&gt;Work with unfamiliar code/libraries/systems&lt;/li&gt;
+            &lt;li&gt;Work with other teams (please don't make me go sit with data engineering!!)&lt;/li&gt;
+            &lt;li&gt;Talk to other people&lt;/li&gt;
+            &lt;li&gt;Ask for help (far beyond the point they realized they were stuck and needed help)&lt;/li&gt;
+            &lt;li&gt;Deal with surprises or unexpected setbacks&lt;/li&gt;
+            &lt;li&gt;Deal with vendors/external partners&lt;/li&gt;
+            &lt;li&gt;Say no, because they can't seem to just say no (instead of saying no they just go into avoidance mode, or worse, always say yes)&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;&quot;Noticing how people get stuck is a super power, and one that many great tech leads (and yes, managers) rely on to get big things done. When you know how people get stuck, you can plan your projects to rely on people for their strengths and provide them help or even completely side-step their weaknesses. You know who is good to ask for which kinds of help, and who hates that particular challenge just as much as you do.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The secret is that all of us get stuck and sidetracked sometimes. There's actually nothing particularly &quot;bad&quot; about this. Knowing the ways that you get hung up is good because you can choose to either a) get over the fears that are sticking you (lack of knowledge, skills, or confidence), b) avoid such tasks as much as possible, and/or c) be aware of your habits and use extra diligence when faced with tackling these areas.&quot;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;http://www.mkdocs.org/&quot;&gt;Make Docs!&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&quot;MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;MkDocs builds completely static HTML sites that you can host on GitHub pages, Amazon S3, or anywhere else you choose&quot;&lt;/li&gt;
+            &lt;li&gt;It is an easy to install python package&lt;/li&gt;
+            &lt;li&gt;It includes a server mode that auto-refreshes the page as you write the docs, making it easy to preview your work before you post it online&lt;/li&gt;
+            &lt;li&gt;Everything needs docs, and writing docs should be as simple as possible, so that more of them will get written&lt;/li&gt;
+            &lt;li&gt;Go write some docs!&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h3&gt;&lt;a href=&quot;https://forums.freenas.org/index.php?threads/new-freenas-9-10-with-freebsd-11-12-for-testing.49696/#post-341941&quot;&gt;Experimental FreeNAS 11/12 builds&lt;/a&gt;&lt;/h3&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;We know there's a lot of FreeNAS users who listen to BSDNow, so I felt it was important to share this little tidbit.&lt;/li&gt;
+            &lt;li&gt;I've posted something to the forums last night which includes links to brand-new spins of FreeNAS 9.10 based upon FreeBSD 11/stable and 12/current. &lt;/li&gt;
+            &lt;li&gt;These builds are updated nightly via our Jenkins infrastructure and hopefully will provide a new playground for technical folks and developers to experiment with FreeBSD features in their FreeNAS environment, long before they make it into a -STABLE release. &lt;/li&gt;
+            &lt;li&gt;As usual, the notes of caution do apply, these are nightlies, and as such bugs will abound. Do NOT use these with your production data, unless you are crazy, or just want an excuse to test your backup strategy&lt;/li&gt;
+            &lt;li&gt;If you do run these builds, of course feedback is welcome via the usual channels, such as the bug tracker. &lt;/li&gt;
+            &lt;li&gt;The hope is that by testing FreeBSD code earlier, we can vet and determine what is safe / ready to go into mainline FreeNAS sooner rather than later.&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://thenewstack.io/not-expected-understand-explainer/&quot;&gt;An Explainer on Unix's Most Notorious Code Comment&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/turn-your-network-inside-out-with-one-pfconf-trick&quot;&gt;turn your network inside out with one pf.conf trick&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.grenadille.net/post/2017/01/13/A-story-of-if_get%289%29&quot;&gt;A story of if_get(9)&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://lists.llvm.org/pipermail/llvm-dev/2017-January/108953.html&quot;&gt;Apple re-affirms its commitment to LLVM/Clang &lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/python-3k17&quot;&gt;python 3k17&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2848&quot;&gt;2017 presentation proposals&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://mail-index.netbsd.org/netbsd-announce/2017/01/09/msg000259.html&quot;&gt;NetBSD 7.1_RC1 available&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;#define FS&lt;em&gt;UFS2&lt;/em&gt;MAGIC 0x19540119 (Happy Birthday to Kirk McKusick tomorrow)&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/nnQ9ZgyN&quot;&gt; J - LetsEncrypt&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/EZ4tRiVb&quot;&gt; Mike - OpenRC&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/ZqDFTsnR&quot;&gt; Timothy - ZFS Horror&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/dhZEnREM&quot;&gt; Troels&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q4F95S6h&quot;&gt; Jason - Disk Label&lt;/a&gt; &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
     </entry>
     <entry>
         <title>Linking your world</title>
