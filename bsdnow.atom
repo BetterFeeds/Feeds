@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2017-01-06T06:56:00Z</updated>
+    <updated>2017-01-20T11:01:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,59 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Getting Pi on my Wi-Fi</title>
+        <smi:episode>177</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106301/getting-pi-on-my-wifi-bsd-now-177/"/>
+        <id>http://www.bsdnow.tv/episodes/2017_1_11-getting_pi_on_my_wifi</id>
+        <published>2017-01-19T01:52:37-08:00</published>
+        <updated>2017-01-20T11:46:00Z</updated>
+        <link length="37964999" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0177.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="37964999" duration="4722" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0177.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="58414889" duration="4722" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0177.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="275618356" duration="4722" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0177-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="531792811" duration="4722" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0177.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="531792811" duration="4722" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0177.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="82642" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0177-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:05" title="Headlines"/>
+            <psc:chapter start="00:01:05" title="WiFi 802.11n hostap mode added" href="http://undeadly.org/cgi?action=article&amp;sid=20170109213803"/>
+            <psc:chapter start="00:04:50" title="iocage update has landed" href="https://github.com/iocage/iocage"/>
+            <psc:chapter start="00:08:00" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:11:05" title="Raspberry Pi and Temperature sensors under FreeBSD " href="https://smallhacks.wordpress.com/2017/01/14/reading-dht11-temperature-sensor-on-raspberry-pi-under-freebsd/"/>
+            <psc:chapter start="00:16:55" title="Tor relay and proxy with HardenedBSD on a RPi3" href="https://github.com/lattera/articles/blob/master/infosec/tor/2017-01-14_torified_home/article.md"/>
+            <psc:chapter start="00:21:40" title="News Roundup"/>
+            <psc:chapter start="00:21:40" title="Admin horror stories" href="http://www-uxsup.csx.cam.ac.uk/misc/horror.txt"/>
+            <psc:chapter start="00:32:35" title="How contributors get stuck" href="https://medium.com/@skamille/how-do-individual-contributors-get-stuck-63102ba43516"/>
+            <psc:chapter start="00:40:05" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:42:35" title="Make Docs!" href="http://www.mkdocs.org/"/>
+            <psc:chapter start="00:45:45" title="Experimental FreeNAS 11/12 builds" href="https://forums.freenas.org/index.php?threads/new-freenas-9-10-with-freebsd-11-12-for-testing.49696/#post-341941"/>
+            <psc:chapter start="00:48:40" title="Beastie Bits"/>
+            <psc:chapter start="00:48:40" title="Unix's Most Notorious Code Comment" href="http://thenewstack.io/not-expected-understand-explainer/"/>
+            <psc:chapter start="00:50:15" title="pf.conf DNS/NTP redirect trick" href="http://www.tedunangst.com/flak/post/turn-your-network-inside-out-with-one-pfconf-trick"/>
+            <psc:chapter start="00:51:50" title="A story of if_get(9)" href="http://www.grenadille.net/post/2017/01/13/A-story-of-if_get%289%29"/>
+            <psc:chapter start="00:53:50" title="Apple reaffirms its commitment to LLVM/Clang" href="http://lists.llvm.org/pipermail/llvm-dev/2017-January/108953.html"/>
+            <psc:chapter start="00:54:45" title="Python switch failure" href="http://www.tedunangst.com/flak/post/python-3k17"/>
+            <psc:chapter start="00:56:00" title="NetBSD 7.1_RC1 available" href="http://mail-index.netbsd.org/netbsd-announce/2017/01/09/msg000259.html"/>
+            <psc:chapter start="00:56:25" title="Michael Lucas presentation proposals" href="http://blather.michaelwlucas.com/archives/2848"/>
+            <psc:chapter start="00:59:00" title="Happy Birthday to Kirk McKusick"/>
+            <psc:chapter start="00:59:30" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:01:05" title="Feedback/Questions"/>
+            <psc:chapter start="01:01:05" title="J – Let's Encrypt" href="http://pastebin.com/nnQ9ZgyN"/>
+            <psc:chapter start="01:04:50" title="Mike – OpenRC" href="http://pastebin.com/EZ4tRiVb"/>
+            <psc:chapter start="01:07:45" title="Timothy – ZFS Horror" href="http://pastebin.com/ZqDFTsnR"/>
+            <psc:chapter start="01:09:50" title="Troels - backup" href="http://pastebin.com/dhZEnREM"/>
+            <psc:chapter start="01:13:25" title="Jason – Disk Label" href="http://pastebin.com/q4F95S6h"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>This week on BSDNow, we've got Wi-Fi galore, a new iocage and some Raspberry Pi 3 news and guides to share. Stay tuned for your place to B...SD!</summary>
+        <content type="html"></content>
+    </entry>
     <entry>
         <title>Linking your world</title>
         <smi:episode>176</smi:episode>
@@ -73,6 +126,10 @@
             <psc:chapter start="01:21:10" title="Andrew - Bootloaders" href="http://pastebin.com/Baxd6Pjy"/>
             <psc:chapter start="01:28:25" title="Bryan - ZFS Error" href="http://pastebin.com/NygwchFD"/>
         </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
         <summary>Another exciting week on BSDNow, we're queueing up with LLVM / Linking news, a look at NetBSD's scheduler, routers, desktops, build-systems &amp; more! Stay tuned for your place to B...SD!</summary>
         <content type="html">&lt;h1&gt;Episode 176: Linking your world&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
@@ -312,6 +369,10 @@
             <psc:chapter start="01:28:35" title="Joe - BGP" href="http://pastebin.com/jFeL8zKX"/>
             <psc:chapter start="01:31:40" title="Alejandro - BSD Router" href="http://pastebin.com/Xq9cbmfn"/>
         </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
         <summary>We've got all sorts of post-holiday goodies to share. New OpenSSL APIs, Dtrace, OpenBSD desktops, a truly paranoid start to your 2017 security &amp; more!</summary>
         <content type="html">&lt;h1&gt;Episode 175: How the Dtrace saved Christmas&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
