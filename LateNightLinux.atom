@@ -9,7 +9,7 @@
     <link href="http://latenightlinux.com/feed/ogg" rel="archives" type="application/rss+xml" title="Late Night Linux OGG"/>
     <link href="https://feeds.betterfeeds.org/LateNightLinux.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Late Night Linux"/>
     <id>tag:latenightlinux.com,2017:1</id>
-    <updated>2017-01-10T10:41:00Z</updated>
+    <updated>2017-01-24T09:12:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <category term="Technology" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Technology"/>
     <category term="Tech News" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Tech News"/>
@@ -31,6 +31,47 @@
         <uri>https://twitter.com/felimwhiteley</uri>
     </author>
     <entry>
+        <title>Episode 2</title>
+        <smi:episode>2</smi:episode>
+        <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-02/"/>
+        <id>http://latenightlinux.com/late-night-linux-episode-02/</id>
+        <published>2017-01-24T02:02:46-00:00</published>
+        <updated>2017-01-24T08:53:00Z</updated>
+        <link length="53880163" href="http://www.podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL02.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="51461636" href="http://www.podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL02.ogg" type="audio/ogg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:00:20" title="Jesse's predictions updated"/>
+            <psc:chapter start="00:02:50" title="News"/>
+            <psc:chapter start="00:02:45" title="New Dell hardware, with Linux" href="https://bartongeorge.io/2017/01/09/welcome-the-new-ubuntu-based-precision-line-up-mobile-workstations-plus-a-new-all-in-one/"/>
+            <psc:chapter start="00:06:50" title="Mycroft Raspberry Pi image available" href="https://mycroft.ai/mycroft-now-available-raspberry-pi-image/"/>
+            <psc:chapter start="00:14:00" title="A pipe dream or an excellent idea?" href="https://plus.google.com/+MathieuComandon/posts/K5j5odwTXdn"/>
+            <psc:chapter start="00:20:25" title="KDE Connect update" href="http://www.webupd8.org/2017/01/integrate-your-android-device-with.html"/>
+            <psc:chapter start="00:23:35" title="Lineage OS images available" href="https://download.lineageos.org/"/>
+            <psc:chapter start="00:27:35" title="FSF updates High Priority Projects List" href="http://www.fsf.org/news/fsf-announces-a-major-overhaul-of-free-software-high-priority-projects-list"/>
+            <psc:chapter start="00:42:45" title="Chrome OS" href="https://liliputing.com/2017/01/android-7-1-chromebooks-bring-better-multitasking-support-android-apps.html"/>
+            <psc:chapter start="00:51:55" title="Solus news" href="https://solus-project.com/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications/"/>
+        </psc:chapters>
+        <summary>New Linux hardware, a profane rant about the FSF, the Chrome OS desktop Linux question, exciting Solus news and loads more.</summary>
+        <content type="html">&lt;p&gt;New Linux hardware, a profane rant about the FSF, the Chrome OS desktop Linux question, exciting Solus news and loads more on LNL 02.&lt;/p&gt;
+            &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.omgubuntu.co.uk/2017/01/dell-precision-3520-ubuntu-laptop"&gt;Dell’s Latest Laptop is $100 Cheaper If You Buy It With Ubuntu&lt;/a&gt;; &lt;a href="https://bartongeorge.io/2017/01/09/welcome-the-new-ubuntu-based-precision-line-up-mobile-workstations-plus-a-new-all-in-one/"&gt;Other Dell Ubuntu Machines&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://mycroft.ai/mycroft-now-available-raspberry-pi-image/"&gt;Mycroft Available as Raspberry Pi Image&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://plus.google.com/+MathieuComandon/posts/K5j5odwTXdn"&gt;A pipe dream or an excellent idea? &lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.webupd8.org/2017/01/integrate-your-android-device-with.html"&gt;Integrate your Android device with Ubuntu using KDE Connect Indicator fork&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://lineageos.org/Update-and-Build-Prep/"&gt;Lineage OS update&lt;/a&gt;; &lt;a href="https://download.lineageos.org/"&gt;Some images available&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.fsf.org/news/fsf-announces-a-major-overhaul-of-free-software-high-priority-projects-list"&gt;FSF announces a major overhaul of free software High Priority Projects List&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;b&gt;Chrome OS&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;With &lt;a href="https://liliputing.com/2017/01/android-7-1-chromebooks-bring-better-multitasking-support-android-apps.html"&gt;proper windowed Android apps&lt;/a&gt;, is Chrome OS going to finally bring about the year of Linux on the desktop? Does Chrome OS even count as Linux on the desktop?&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.androidauthority.com/new-chromebooks-will-support-android-apps-744600"&gt;All new Chromebooks will support Android apps&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Solus news&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://solus-project.com/2017/01/18/adopting-flatpak-to-reassemble-third-party-applications/"&gt;Solus adopts Flatpak for 3rd party applications&lt;/a&gt;&lt;br&gt;
+            &lt;a href="https://solus-project.com/forums/viewtopic.php?t=1508"&gt;The Solus view of flatpak in June 2016&lt;/a&gt;&lt;br&gt;
+            &lt;a href="http://phoronix.com/scan.php?page=news_item&amp;amp;px=Solus-Steam-Runtime-ABI"&gt;Solus Linux Working On A Flatpak-Based, Optimized Steam Runtime&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;See our &lt;a href="//latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <itunes:duration>1:14:22</itunes:duration>
+    </entry>
+    <entry>
         <title>Episode 1</title>
         <smi:episode>1</smi:episode>
         <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-01/"/>
@@ -38,7 +79,7 @@
         <published>2017-01-10T03:37:44-00:00</published>
         <updated>2017-01-10T10:49:00Z</updated>
         <link length="55723603" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL01.mp3" type="audio/mpeg" rel="enclosure"/>
-        <link length="54115433" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL01.ogg" type="audio/mpeg" rel="enclosure"/>
+        <link length="54115433" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL01.ogg" type="audio/ogg" rel="enclosure"/>
         <psc:chapters version="1.1">
             <psc:chapter start="00:00:30" title="Who are we?"/>
             <psc:chapter start="00:02:05" title="News"/>
