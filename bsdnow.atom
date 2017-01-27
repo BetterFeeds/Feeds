@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2017-01-20T11:01:00Z</updated>
+    <updated>2017-01-27T10:39:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,53 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>Enjoy the Silence</title>
+        <smi:episode>178</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106451/enjoy-the-silence-bsd-now-178/"/>
+        <id>http://www.bsdnow.tv/episodes/2017_1_25-enjoy_the_silence</id>
+        <published>2017-01-26T07:44:43-08:00</published>
+        <updated>2017-01-27T09:07:00Z</updated>
+        <link length="38187771" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0178.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="38187771" duration="4750" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0178.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="58650979" duration="4750" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0178.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="277226310" duration="4750" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0178-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="534956700" duration="4750" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0178.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="534956700" duration="4750" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0178.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="81019" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0178-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:05" title="Headlines"/>
+            <psc:chapter start="00:01:05" title="Ports drops EOL FreeBSD versions" href="https://www.reddit.com/r/freebsd/comments/5ouvmp/ports_no_longer_build_on_eol_freebsd_versions/"/>
+            <psc:chapter start="00:08:45" title="TrueOS upgrades to OpenRC" href="https://www.trueos.org/blog/improving-trueos-openrc/"/>
+            <psc:chapter start="00:14:35" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:18:10" title="BSD Router Project 1.70" href="https://sourceforge.net/projects/bsdrp/files/BSD_Router_Project/1.70/"/>
+            <psc:chapter start="00:22:35" title="DragonFlyBSD supports UEFI" href="http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/7b1aa074fcd99442a1345fb8a695b62d01d9c7fd"/>
+            <psc:chapter start="00:24:15" title="News Roundup"/>
+            <psc:chapter start="00:24:15" title="The Rule of Silence" href="http://www.linfo.org/rule_of_silence.html"/>
+            <psc:chapter start="00:34:50" title="The Tao of tmux" href="https://leanpub.com/the-tao-of-tmux/read"/>
+            <psc:chapter start="00:41:55" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:44:55" title="SDF Celebrates 30 years of service in 2017" href="https://sdf.org/"/>
+            <psc:chapter start="00:53:30" title="Getting Minecraft to Run on NetBSD" href="https://www.reddit.com/r/NetBSD/comments/5mtsy1/getting_minecraft_to_run_on_netbsd/"/>
+            <psc:chapter start="00:56:20" title="Beastie Bits"/>
+            <psc:chapter start="00:56:20" title="UNIX on the Computer Chronicles" href="https://www.youtube.com/watch?v=g7P16mYDIJw"/>
+            <psc:chapter start="00:58:20" title="FreeBSD: Atheros AR9380 355mbit" href="https://twitter.com/erikarn/status/823298416939659264"/>
+            <psc:chapter start="00:58:50" title="Capsicumizing traceroute with casper" href="https://reviews.freebsd.org/D9303"/>
+            <psc:chapter start="01:02:15" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="01:05:25" title="Feedback/Questions"/>
+            <psc:chapter start="01:05:25" title="Jason – Tarsnap on Windows" href="http://pastebin.com/Sr1BTzVN"/>
+            <psc:chapter start="01:06:45" title="Mike – OpenRC &amp; DO" href="http://pastebin.com/zpHyhHQG"/>
+            <psc:chapter start="01:08:05" title="Anonymous – Old Machines" href="http://pastebin.com/YnjkrDmk"/>
+            <psc:chapter start="01:10:25" title="Matt – Iocage" href="http://pastebin.com/pBUXtFak"/>
+            <psc:chapter start="01:16:05" title="Hjalti – Rclone &amp; FreeNAS" href="http://pastebin.com/zNkK3epM"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <summary>We discuss a wide variety of topics including Routers, Run-Controls, the "Rule" of silence and some Minecraft just for good measure. Stay tuned for your place to B...SD!</summary>
+    </entry>
     <entry>
         <title>Getting Pi on my Wi-Fi</title>
         <smi:episode>177</smi:episode>
