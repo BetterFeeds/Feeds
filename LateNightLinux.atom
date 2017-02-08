@@ -31,6 +31,52 @@
         <uri>https://twitter.com/felimwhiteley</uri>
     </author>
     <entry>
+        <title>Episode 3</title>
+        <smi:episode>3</smi:episode>
+        <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-03/"/>
+        <id>tag:latenightlinux.com,2017-02-07:/late-night-linux-episode-03/</id>
+        <published>2017-02-07T16:40:55Z</published>
+        <updated>2017-02-08T09:14:00Z</updated>
+        <contributor>
+            <name>Martin Wimpress</name>
+            <url>https://plus.google.com/+MartinWimpress</url>
+        </contributor>
+        <link length="64911778" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL03.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="63820762" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL03.ogg" type="audio/ogg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:00:35" title="News"/>
+            <psc:chapter start="00:00:35" title="KDE and Slimbook Release a Laptop" href="https://dot.kde.org/2017/01/26/kde-and-slimbook-release-laptop-kde-fans"/>
+            <psc:chapter start="00:03:20" title="Deprecating 32-bit" href="https://tails.boum.org/news/Tails_3.0_will_require_a_64-bit_processor/index.en.html"/>
+            <psc:chapter start="00:12:45" title="Black market Blackphones get bricked" href="https://arstechnica.com/information-technology/2017/01/silent-circle-bricks-grey-market-blackphones-with-os-update/"/>
+            <psc:chapter start="00:18:15" title="Steam's Linux marketshare just 0.8%" href="http://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Marketshare-Jan-2017"/>
+            <psc:chapter start="00:24:05" title="Mozilla is shutting down the group behind Firefox OS" href="http://www.theverge.com/2017/2/2/14486812/mozilla-shutting-down-connected-devices-group"/>
+            <psc:chapter start="00:29:15" title="Chromium isn't as Free as you might think" href="https://www.reddit.com/r/SolusProject/comments/5ihxr2/i_dont_want_to_use_chrome_please_package_chromium/"/>
+            <psc:chapter start="00:40:50" title="Interview Martin Wimpress"/>
+            <psc:chapter start="00:41:10" title="Ubuntu MATE on the Raspberry Pi" href="http://ubuntu-mate.org/"/>
+            <psc:chapter start="00:59:15" title="Jesse tries Ubuntu Budgie" href="https://budgie-remix.org/"/>
+            <psc:chapter start="01:11:30" title="More Solus news" href="https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/"/>
+        </psc:chapters>
+        <summary>A packed show this time. More Linux hardware, 32 vs 64-bit, Ubuntu MATE on the Raspberry Pi, Ubuntu Budgie, yet more Solus news and loads more on LNL 03.</summary>
+        <content type="html">&lt;p&gt;A packed show this time. More Linux hardware, 32 vs 64-bit, Ubuntu MATE on the Raspberry Pi, Ubuntu Budgie, yet more Solus news and loads more on LNL 03.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://dot.kde.org/2017/01/26/kde-and-slimbook-release-laptop-kde-fans"&gt;KDE and Slimbook Release a Laptop for KDE Fans&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://lists.archlinux.org/pipermail/arch-dev-public/2017-January/028660.html"&gt;Arch&lt;/a&gt; and &lt;a href="https://tails.boum.org/news/Tails_3.0_will_require_a_64-bit_processor/index.en.html"&gt;Tails&lt;/a&gt; are dropping 32-bit but &lt;a href="http://news.softpedia.com/news/centos-7-3-1611-linux-distro-now-available-for-32-bit-i386-architectures-512400.shtml"&gt;32-bit CentOS is still available&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://arstechnica.com/information-technology/2017/01/silent-circle-bricks-grey-market-blackphones-with-os-update/"&gt;Black market Blackphones get sent a kill message that bricks them&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Steam-Marketshare-Jan-2017"&gt;Steam's Linux Marketshare For January Was 0.8%&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.theverge.com/2017/2/2/14486812/mozilla-shutting-down-connected-devices-group"&gt;Mozilla is shutting down the group behind Firefox OS&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;Chromium&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;Ikey tells us why &lt;a href="https://www.reddit.com/r/SolusProject/comments/5ihxr2/i_dont_want_to_use_chrome_please_package_chromium/"&gt;Chromium isn't as Free as some people might think&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;Ubuntu MATE on the Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;Joe spoke to &lt;a href="https://plus.google.com/+MartinWimpress"&gt;Martin Wimpress&lt;/a&gt; about the upcoming release of &lt;a href="http://ubuntu-mate.org/"&gt;Ubuntu MATE&lt;/a&gt; 16.04.02 for the Raspberry Pi.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;Ubuntu Budgie&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;Jesse has abandoned KaOS in favour of &lt;a href="https://budgie-remix.org/"&gt;Ubuntu Budgie&lt;/a&gt; on his laptop&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;(Yet more) Solus news&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/"&gt;Budgie turns its back on GTK, goes Qt&lt;/a&gt; and &lt;a href="https://budgie-desktop.org/about/"&gt;Wayland&lt;/a&gt;; &lt;a href="https://github.com/ZanderBrown/budgie-desktop"&gt;is inevitably forked&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;See our &lt;a href="//latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <itunes:duration>1:29:41</itunes:duration>
+    </entry>
+    <entry>
         <title>Episode 2</title>
         <smi:episode>2</smi:episode>
         <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-02/"/>
@@ -54,7 +100,7 @@
         <summary>New Linux hardware, a profane rant about the FSF, the Chrome OS desktop Linux question, exciting Solus news and loads more.</summary>
         <content type="html">&lt;p&gt;New Linux hardware, a profane rant about the FSF, the Chrome OS desktop Linux question, exciting Solus news and loads more on LNL 02.&lt;/p&gt;
             &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;a href="http://www.omgubuntu.co.uk/2017/01/dell-precision-3520-ubuntu-laptop"&gt;Dell’s Latest Laptop is $100 Cheaper If You Buy It With Ubuntu&lt;/a&gt;; &lt;a href="https://bartongeorge.io/2017/01/09/welcome-the-new-ubuntu-based-precision-line-up-mobile-workstations-plus-a-new-all-in-one/"&gt;Other Dell Ubuntu Machines&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="http://www.omgubuntu.co.uk/2017/01/dell-precision-3520-ubuntu-laptop"&gt;Dell's Latest Laptop is $100 Cheaper If You Buy It With Ubuntu&lt;/a&gt;; &lt;a href="https://bartongeorge.io/2017/01/09/welcome-the-new-ubuntu-based-precision-line-up-mobile-workstations-plus-a-new-all-in-one/"&gt;Other Dell Ubuntu Machines&lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;&lt;a href="https://mycroft.ai/mycroft-now-available-raspberry-pi-image/"&gt;Mycroft Available as Raspberry Pi Image&lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;&lt;a href="https://plus.google.com/+MathieuComandon/posts/K5j5odwTXdn"&gt;A pipe dream or an excellent idea? &lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;&lt;a href="http://www.webupd8.org/2017/01/integrate-your-android-device-with.html"&gt;Integrate your Android device with Ubuntu using KDE Connect Indicator fork&lt;/a&gt;&lt;/p&gt;
