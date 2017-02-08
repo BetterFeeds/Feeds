@@ -4,6 +4,8 @@
     <subtitle>A weekly show covering the latest developments in the world of the BSD family of operating systems. News, Tutorials and Interviews for new users and long time developers alike.</subtitle>
     <icon>http://www.jupiterbroadcasting.com/images/bsdnow-badge.jpg</icon>
     <link href="http://www.bsdnow.tv/" rel="alternate" type="text/html"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
     <link href="https://itunes.apple.com/us/podcast/bsd-now-mp3/id701045710" rel="archives" type="text/html" title="iTunes - Audio"/>
     <link href="https://itunes.apple.com/cn/podcast/bsd-now-hd/id850665429" rel="archives" type="text/html" title="iTunes - Video"/>
     <link href="https://www.youtube.com/user/jupiterbroadcasting/videos" rel="archives" type="text/html" title="YouTube"/>
@@ -13,9 +15,7 @@
     <link href="http://feeds.feedburner.com/BsdNowHd" rel="archives" type="application/rss+xml" title="BSD Now HD Video"/>
     <link href="http://bitlove.org/jupiterbroadcasting/bsdnowhd/feed" rel="archives" type="application/rss+xml" title="BSD Now HD Video (BitTorrent)"/>
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
-    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2016-12.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
-    <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="first" type="application/atom+xml; charset=utf-8"/>
-    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2013-09.atom" rel="last" type="application/atom+xml; charset=utf-8"/>
+    <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2017-01.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
     <updated>2017-02-08T07:37:00Z</updated>
     <smi:sequential>false</smi:sequential>
@@ -30,201 +30,218 @@
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
     <entry>
-        <title>Enjoy the Silence</title>
-        <smi:episode>178</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106451/enjoy-the-silence-bsd-now-178/"/>
-        <id>http://www.bsdnow.tv/episodes/2017_1_25-enjoy_the_silence</id>
-        <published>2017-01-26T07:44:43-08:00</published>
-        <updated>2017-02-08T07:37:00Z</updated>
-        <link length="38187771" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0178.mp3" type="audio/mpeg" rel="enclosure"/>
+        <title>The Wayland Machine</title>
+        <smi:episode>179</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_01-the_wayland_machine"/>
+        <id>http://www.bsdnow.tv/episodes/2017_02_01-the_wayland_machine</id>
+        <published>2017-02-02T00:52:58-08:00</published>
+        <updated>2017-02-08T07:48:00Z</updated>
+        <link length="27504108" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0179.mp3" type="audio/mpeg" rel="enclosure"/>
         <media:group>
-            <media:content fileSize="38187771" duration="4750" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0178.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
-            <media:content fileSize="58650979" duration="4750" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0178.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
-            <media:content fileSize="277226310" duration="4750" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0178-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="534956700" duration="4750" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0178.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="534956700" duration="4750" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0178.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
-            <media:content fileSize="81019" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0178-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+            <media:content fileSize="27504108" duration="3414" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0179.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="42232534" duration="3414" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0179.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="199303080" duration="3414" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0179-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="384586012" duration="3414" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0179.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="384586012" duration="3414" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0179.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="84622" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/02/bsd-0179-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
         </media:group>
         <psc:chapters version="1.1">
-            <psc:chapter start="00:01:05" title="Headlines"/>
-            <psc:chapter start="00:01:05" title="Ports drops EOL FreeBSD versions" href="https://www.reddit.com/r/freebsd/comments/5ouvmp/ports_no_longer_build_on_eol_freebsd_versions/"/>
-            <psc:chapter start="00:08:45" title="TrueOS upgrades to OpenRC" href="https://www.trueos.org/blog/improving-trueos-openrc/"/>
-            <psc:chapter start="00:14:35" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
-            <psc:chapter start="00:18:10" title="BSD Router Project 1.70" href="https://sourceforge.net/projects/bsdrp/files/BSD_Router_Project/1.70/"/>
-            <psc:chapter start="00:22:35" title="DragonFlyBSD supports UEFI" href="http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/7b1aa074fcd99442a1345fb8a695b62d01d9c7fd"/>
-            <psc:chapter start="00:24:15" title="News Roundup"/>
-            <psc:chapter start="00:24:15" title="The Rule of Silence" href="http://www.linfo.org/rule_of_silence.html"/>
-            <psc:chapter start="00:34:50" title="The Tao of tmux" href="https://leanpub.com/the-tao-of-tmux/read"/>
-            <psc:chapter start="00:41:55" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
-            <psc:chapter start="00:44:55" title="SDF Celebrates 30 years of service in 2017" href="https://sdf.org/"/>
-            <psc:chapter start="00:53:30" title="Getting Minecraft to Run on NetBSD" href="https://www.reddit.com/r/NetBSD/comments/5mtsy1/getting_minecraft_to_run_on_netbsd/"/>
-            <psc:chapter start="00:56:20" title="Beastie Bits"/>
-            <psc:chapter start="00:56:20" title="UNIX on the Computer Chronicles" href="https://www.youtube.com/watch?v=g7P16mYDIJw"/>
-            <psc:chapter start="00:58:20" title="FreeBSD: Atheros AR9380 355mbit" href="https://twitter.com/erikarn/status/823298416939659264"/>
-            <psc:chapter start="00:58:50" title="Capsicumizing traceroute with casper" href="https://reviews.freebsd.org/D9303"/>
-            <psc:chapter start="01:02:15" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
-            <psc:chapter start="01:05:25" title="Feedback/Questions"/>
-            <psc:chapter start="01:05:25" title="Jason – Tarsnap on Windows" href="http://pastebin.com/Sr1BTzVN"/>
-            <psc:chapter start="01:06:45" title="Mike – OpenRC &amp; DO" href="http://pastebin.com/zpHyhHQG"/>
-            <psc:chapter start="01:08:05" title="Anonymous – Old Machines" href="http://pastebin.com/YnjkrDmk"/>
-            <psc:chapter start="01:10:25" title="Matt – Iocage" href="http://pastebin.com/pBUXtFak"/>
-            <psc:chapter start="01:16:05" title="Hjalti – Rclone &amp; FreeNAS" href="http://pastebin.com/zNkK3epM"/>
+            <psc:chapter start="00:01:30" title="Headlines"/>
+            <psc:chapter start="00:01:30" title="Wayland is now in the FreeBSD Ports tree" href="https://svnweb.freebsd.org/ports?view=revision&amp;revision=432406"/>
+            <psc:chapter start="00:04:45" title="Call For Testing: xorg" href="https://lists.freebsd.org/pipermail/freebsd-x11/2017-January/018738.html"/>
+            <psc:chapter start="00:07:40" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:09:40" title="Error handling in C" href="http://www.tedunangst.com/flak/post/to-errno-or-to-error"/>
+            <psc:chapter start="00:16:35" title="Fixing POSIX Filenames" href="http://www.dwheeler.com/essays/fixing-unix-linux-filenames.html"/>
+            <psc:chapter start="00:28:40" title="News Roundup"/>
+            <psc:chapter start="00:28:40" title="OpenBSD ARM64" href="https://www.openbsd.org/arm64.html"/>
+            <psc:chapter start="00:30:50" title="The design of Chacha20" href="http://loup-vaillant.fr/tutorials/chacha20-design"/>
+            <psc:chapter start="00:34:40" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:37:10" title="CyberChef now in FreeBSD Ports" href="https://twitter.com/DLangille/status/823915729430913025"/>
+            <psc:chapter start="00:42:40" title="Building Electron and VSCode in FreeBSD11" href="https://gist.github.com/prash-wghats/89be1ee069d2acf23c289e9c606616e1"/>
+            <psc:chapter start="00:45:05" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="00:47:45" title="Beastie Bits"/>
+            <psc:chapter start="00:47:45" title="Soft Label Keys" href="http://roy.marples.name/blog/blog/soft-label-keys"/>
+            <psc:chapter start="00:49:45" title="WPA1 (TKIP) disabled by default (OpenBSD)" href="https://www.mail-archive.com/source-changes@openbsd.org/msg84599.html"/>
+            <psc:chapter start="00:50:50" title="Cool but obscure unix tools" href="https://kkovacs.eu/cool-but-obscure-unix-tools"/>
+            <psc:chapter start="00:53:00" title="KDE Frameworks and Plasma on FreeBSD" href="http://euroquis.nl/bobulate/?p=1521"/>
+            <psc:chapter start="00:54:15" title="Initiative to migrate OpenBSD mirrors to HTTPS" href="https://www.mail-archive.com/source-changes@openbsd.org/msg84904.html"/>
+            <psc:chapter start="00:55:00" title="FreeBSD has got some Star Wars fans" image="http://i.imgur.com/dC7c1y4.png" href="https://wiki.freebsd.org/PortsSubversionPrimer"/>
         </psc:chapters>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
         </contributor>
-        <summary>We discuss a wide variety of topics including Routers, Run-Controls, the "Rule" of silence and some Minecraft just for good measure. Stay tuned for your place to B...SD!</summary>
-        <content type="html">&lt;h1&gt;Episode 178: Enjoy the Silence&lt;/h1&gt;
+        <summary>We lead off with the latest news about Wayland and Xorg support on FreeBSD, then a look at OpenBSD ARM64 support, inside the chacha20 cipher &amp; much more!</summary>
+        <content type="html">&lt;h1&gt;Episode 179: The Wayland Machine&lt;/h1&gt;
             &lt;h2&gt;Headlines&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.reddit.com/r/freebsd/comments/5ouvmp/ports_no_longer_build_on_eol_freebsd_versions/&quot;&gt;Ports no longer build on EOL FreeBSD versions&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="https://svnweb.freebsd.org/ports?view=revision&amp;amp;revision=432406"&gt;Wayland is now in the FreeBSD Ports tree&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;The FreeBSD ports tree has been updated to automatically fail if you try to compile ports on EOL versions of FreeBSD (any version of 9.x or earlier, 10.0 - 10.2, or 11 from before 11.0)&lt;/li&gt;
-            &lt;li&gt;This is to prevent shooting yourself in the food, as the compatibility code for those older OSes has been removed now that they are no longer supported.&lt;/li&gt;
-            &lt;li&gt;If you use pkg, you will also run into problems on old releases. Packages are always built on the oldest supported release in a branch. Until recently, this meant packages for 10.1, 10.2, and 10.3 were compiled on 10.1. Now that 10.1 and 10.2 are EOL, packages for 10.x are compiled on 10.3.&lt;/li&gt;
-            &lt;li&gt;This matters because 10.3 supports the new openat() and various other *at() functions used by capsicum. Now that pkg and packages are built on a version that supports this new feature, they will not run on systems that do not support it. So pkg will exit with an error as soon as it tries to open a file.&lt;/li&gt;
-            &lt;li&gt;You can work around this temporarily by using the pkg-static command, but you should upgrade to a supported release immediately.&lt;/li&gt;
+            &lt;li&gt;This commit brings Wayland, the new windowing system, into the FreeBSD ports tree&lt;/li&gt;
+            &lt;li&gt;&quot;This port was first created by Koop Mast (kwm@) then updated and improved by Johannes Lundberg&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Wayland is intended as a simpler replacement for X, easier to develop and maintain. GNOME and KDE are expected to be ported to it.&quot;&lt;/li&gt;
+            &lt;li&gt;Wayland is designed for desktop and laptop use, rather than X, which was designed for use over the network, where clients were not powerful enough to run the applications locally.&lt;/li&gt;
+            &lt;li&gt;&quot;Wayland is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an X application, or a wayland client itself. The clients can be traditional applications, X servers (rootless or fullscreen) or other display servers.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Please report bugs to the FreeBSD bugtracker!&quot;&lt;/li&gt;
+            &lt;li&gt;It is good to see this project progressing, as it seems in a few generations, high performance graphics drivers may only be actively developed for Wayland.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.trueos.org/blog/improving-trueos-openrc/&quot;&gt;Improving TrueOS: OpenRC&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="https://lists.freebsd.org/pipermail/freebsd-x11/2017-January/018738.html"&gt;Call For Testing: xorg 1.18.4 and newer intel/ati DDX &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;With TrueOS moving to a rolling-release model, we’ve decided to be a bit more proactive in sharing news about new features that are landing. &lt;/li&gt;
-            &lt;li&gt;This week we’ve posted an article talking about the transition to OpenRC&lt;/li&gt;
-            &lt;li&gt;In past episodes you’ve heard me mention OpenRC, but hopefully today we can help answer any of those lingering questions you may still have about it&lt;/li&gt;
-            &lt;li&gt;The first thing always asked, is “What is OpenRC?”&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;OpenRC is a dependency-based init system working with the system provided init program. It is used with several Linux distributions, including Gentoo and Alpine Linux. However, OpenRC was created by the NetBSD developer Roy Marples in one of those interesting intersections of Linux and BSD development. OpenRC’s development history, portability, and 2-clause BSD license make its integration into TrueOS an easy decision.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Now that we know a bit about what it is, how does it behave differently than traditional RC?&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;TrueOS now uses OpenRC to manage all system services, as opposed to FreeBSD’s RC. Instead of using rc.d for base system rc scripts, OpenRC uses init.d. Also, every service in OpenRC has its own user configuration file, located in /etc/conf.d/ for the base system and /usr/local/etc.conf.d/ for ports. Finally, OpenRC uses runlevels, as opposed to the FreeBSD single- or multi- user modes. You can view the services and their runlevels by typing $ rc-update show -v in a CLI. Also, TrueOS integrates OpenRC service management into SysAdm with the Service Manager tool&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;One of the prime benefits of OpenRC is much faster boot-times, which is important in a portable world of laptops (and desktops as well). But service monitoring and crash detection are also important parts of what make OpenRC a substantial upgrade for TrueOS.&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;Lastly people have asked us about migration, what is done, what isn’t? As of now almost all FreeBSD base system services have been migrated over. In addition most desktop-facing services required to run Lumina and the like are also ported. We are still going through the ports tree and converting legacy rc.d scripts to init.d, but the process takes time. Several new folks have begun contributing OpenRC scripts and we hope to have all the roughly 1k ports converted over this year. &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;Baptiste Daroussin, and the FreeBSD X11 team, have issued a call for testing for the upgrade to Xorg 1.18.4&lt;/li&gt;
+            &lt;li&gt;Along with it comes newer ATI/AMD and Intel drivers&lt;/li&gt;
+            &lt;li&gt;&quot;Note that you will need to rebuild all the xf86-* packages to work with thatnewer xorg (hence the bump of the revision)&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Do not expect newer gpu supported as this is not the kernel part&quot;, it only provides the newer Xorg driver, not the kernel mode setting driver (this is a separate project)&lt;/li&gt;
+            &lt;li&gt;&quot;If you experience any issue with intel or radeon driver please try to use the new modesetting driver provided by xorg directly (note that fedora and debian recommend the use of the new driver instead of the ati/intel one)&quot;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://sourceforge.net/projects/bsdrp/files/BSD_Router_Project/1.70/&quot;&gt;BSDRP Releases 1.70  &lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="http://www.tedunangst.com/flak/post/to-errno-or-to-error"&gt;Error handling in C &lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;A new release of the BSD Router Project&lt;/li&gt;
-            &lt;li&gt;This distro is designed to replace high end routers, like those from Cisco and Juniper, with FreeBSD running on regular off-the-shelf server.&lt;/li&gt;
-            &lt;li&gt;Highlights:
+            &lt;li&gt;&quot;Unlike other languages which have one preferred means of signalling an error, C is a multi error paradigm language. Error handling styles in C can be organized into one of several distinct styles, such as popular or correct. Some examples of each.&quot;
 
             &lt;ul&gt;
-            &lt;li&gt;Upgraded to FreeBSD 11.0-STABLE r312663 (skip 11.0 for massive performance improvement)&lt;/li&gt;
-            &lt;li&gt;Re-Added: netmap-fwd (https://github.com/Netgate/netmap-fwd)&lt;/li&gt;
-            &lt;li&gt;Add FIBsync patch to netmap-fwd from Zollner Robert &lt;a href=&quot;mailto:wolfit_ro@yahoo.com&quot;&gt;wolfit_ro@yahoo.com&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;netmap pkt-gen supports IPv6, thanks to Andrey V. Elsukov (ae@freebsd.org)&lt;/li&gt;
-            &lt;li&gt;bird 1.6.3 (add BGP Large communities support)&lt;/li&gt;
-            &lt;li&gt;OpenVPN 2.4.0 (adds the high speed AEAD GCM cipher)&lt;/li&gt;
+            &lt;li&gt;&quot;One very popular option is the classic unix style. -1 is returned to indicate an error.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Another option seen in the standard C library is NULL for errors.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The latter has the advantage that NULL is a false value, which makes it easier to write logical conditions. File descriptor 0 is valid (stdin) but false, while -1 is invalid but true.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;And of course, there's the worst of both worlds approach requiring a special sentinel that you'll probably forget to use&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Other unix functions, those that don't need to return a file descriptor, stick to just 0 and -1&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Of course, none of these functions reveal anything about the nature of the error. For that, you need to consult the errno on the side&quot;&lt;/li&gt;
             &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;All of the other packages have also been upgraded&lt;/li&gt;
-            &lt;li&gt;A lot of great work has been done on BSDRP, and it has also generated a lot of great benchmarks and testing that have resulted in performance increases and improved understanding of how FreeBSD networking scales across different CPU types and speeds&lt;/li&gt;
+            &lt;li&gt;The article goes on to describe different ways of dealing with the issue, and return values.&lt;/li&gt;
+            &lt;li&gt;There is also coverage of more complex examples and involve a context that might contain the error message&lt;/li&gt;
+            &lt;li&gt;It is really interesting to see the differences, and the pitfalls of each approach&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/7b1aa074fcd99442a1345fb8a695b62d01d9c7fd&quot;&gt;DragonFlyBSD gets UEFI support&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="http://www.dwheeler.com/essays/fixing-unix-linux-filenames.html"&gt;Fixing POSIX Filenames&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;This commit adds support for UEFI to the Dragonfly Installer, allowing new systems to be installed to boot from UEFI&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/9d53bd00e9be53d6b893afd79111370ee0c053b0&quot;&gt;This script&lt;/a&gt; provides a way to build a HAMMER filesystem that works with UEFI&lt;/li&gt;
-            &lt;li&gt;There is also a &lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/d195d5099328849c500d4a1b94d6915d3c72c71e&quot;&gt;UEFI man page&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;The &lt;a href=&quot;http://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/5fa778d7b36ab0981ff9dcbd96c71ebf653a6a19&quot;&gt;install media&lt;/a&gt; has also been updated to support booting from either UEFI or MBR, in the same way that the FreeBSD images work&lt;/li&gt;
+            &lt;li&gt;&quot;Traditionally, Unix/Linux/POSIX pathnames and filenames can be almost any sequence of bytes. A pathname lets you select a particular file, and may
+            include zero or more &quot;/&quot; characters. Each pathname component (separated by &quot;/&quot;) is a filename; filenames cannot contain &quot;/&quot;. Neither
+            filenames nor pathnames can contain the ASCII NUL character (\0), because that is the terminator.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;This lack of limitations is flexible, but it also creates a legion of unnecessary problems. In particular, this lack of limitations makes it
+            unnecessarily difficult to write correct programs (enabling many security flaws). It also makes it impossible to consistently and accurately display filenames,
+            causes portability problems, and confuses users.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;This article will try to convince you that adding some tiny limitations on legal Unix/Linux/POSIX filenames would be an improvement. Many programs
+            already presume these limitations, the POSIX standard already permits such limitations, and many Unix/Linux filesystems already embed such limitations — so
+            it'd be better to make these (reasonable) assumptions true in the first place. This article will discuss, in particular, the three biggest problems: control
+            characters in filenames (including newline, tab, and escape), leading dashes in filenames, and the lack of a standard character encoding scheme (instead of
+            using UTF-8). These three problems impact programs written in any language on Unix/Linux/POSIX system. There are other problems, of course. Spaces in filenames
+            can cause problems; it's probably hopeless to ban them outright, but resolving some of the other issues will simplify handling spaces in filenames. For
+            example, when using a Bourne shell, you can use an IFS trick (using IFS=&lt;code&gt;printf '\n\t'&lt;/code&gt;) to eliminate some problems with spaces. Similarly, special
+            metacharacters in filenames cause some problems; I suspect few if any metacharacters could be forbidden on all POSIX systems, but it'd be great if
+            administrators could locally configure systems so that they could prevent or escape such filenames when they want to. I then discuss some other tricks that can
+            help.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;After limiting filenames slightly, creating completely-correct programs is much easier, and some vulnerabilities in existing programs disappear. This
+            article then notes some others' opinions; I knew that some people wouldn't agree with me, but I'm heartened that many do agree that something should
+            be done. Finally, I briefly discuss some methods for solving this long-term; these include forbidding creation of such names (hiding them if they already exist
+            on the underlying filesystem), implementing escaping mechanisms, or changing how tools work so that these are no longer problems (e.g., when globbing/scanning,
+            have the libraries prefix &quot;./&quot; to any filename beginning with &quot;-&quot;). Solving this is not easy, and I suspect that several solutions will be
+            needed. In fact, this paper became long over time because I kept finding new problems that needed explaining (new &quot;worms under the rocks&quot;). If I've
+            convinced you that this needs improving, I'd like your help in figuring out how to best do it!&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Filename problems affect programs written in any programming language. However, they can be especially tricky to deal with when using Bourne shells
+            (including bash and dash). If you just want to write shell programs that can handle filenames correctly, you should see the short companion article &lt;a href="http://www.dwheeler.com/essays/filenames-in-shell.html"&gt;Filenames
+            and Pathnames in Shell: How to do it correctly&lt;/a&gt;.&quot;&lt;/li&gt;
+            &lt;li&gt;Imagine that you don't know Unix/Linux/POSIX (I presume you really do), and that you're trying to do some simple tasks. For our purposes we will
+            create simple scripts on the command line (using a Bourne shell) for these tasks, though many of the underlying problems affect any program. For example,
+            let's try to print out the contents of all files in the current directory, putting the contents into a file in the parent directory:
+
+            &lt;ul&gt;
+            &lt;li&gt;cat * &amp;gt; ../collection  # WRONG&lt;/li&gt;
+            &lt;li&gt;cat ./* &amp;gt; ../collection  # CORRECT&lt;/li&gt;
+            &lt;li&gt;cat &lt;code&gt;find . -type f&lt;/code&gt; &amp;gt; ../collection  # WRONG&lt;/li&gt;
+            &lt;li&gt;( set -f ; for file in &lt;code&gt;find . -type f&lt;/code&gt; ; do  # WRONG
+            cat "$file"
+            done ) &amp;gt; ../collection&lt;/li&gt;
+            &lt;li&gt;( find . -type f | xargs cat ) &amp;gt; ../collection # WRONG, WAY WRONG&lt;/li&gt;
+            &lt;/ul&gt;&lt;/li&gt;
+            &lt;li&gt;Just think about trying to remove a file named: -rf /&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
             &lt;h2&gt;News Roundup&lt;/h2&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;http://www.linfo.org/rule_of_silence.html&quot;&gt;The Rule of Silence&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="https://www.openbsd.org/arm64.html"&gt;OpenBSD ARM64&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;“The rule of silence, also referred to as the silence is golden rule, is an important part of the Unix philosophy that states that when a program has nothing surprising, interesting or useful to say, it should say nothing. It means that well-behaved programs should treat their users' attention and concentration as being valuable and thus perform their tasks as unobtrusively as possible. That is, silence in itself is a virtue.”&lt;/li&gt;
-            &lt;li&gt;This doesn’t mean a program cannot be verbose, it just means you have to ask it for the additional output, rather than having it by default&lt;/li&gt;
-            &lt;li&gt;“There is no single, standardized statement of the Unix philosophy, but perhaps the simplest description would be: &quot;Write programs that are small, simple and transparent. Write them so that they do only one thing, but do it well and can work together with other programs.&quot; That is, the philosophy centers around the concepts of smallness, simplicity, modularity, craftsmanship, transparency, economy, diversity, portability, flexibility and extensibility.”&lt;/li&gt;
-            &lt;li&gt;“This philosophy has been fundamental to the the fact that Unix-like operating systems have been thriving for more than three decades, far longer than any other family of operating systems, and can be expected to see continued expansion of use in the years to come”&lt;/li&gt;
-            &lt;li&gt;“The rule of silence is one of the oldest and most persistent design rules of such operating systems. As intuitive as this rule might seem to experienced users of such systems, it is frequently ignored by the developers of other types of operating systems and application programs for them. The result is often distraction, annoyance and frustration for users.”&lt;/li&gt;
-            &lt;li&gt;“There are several very good reasons for the rule of silence: (1) One is to avoid cluttering the user's mind with information that might not be necessary or might not even be desired. That is, unnecessary information can be a distraction. Moreover, unnecessary messages generated by some operating systems and application programs are sometimes poorly worded, and can cause confusion or needless worry on the part of users.”&lt;/li&gt;
-            &lt;li&gt;No news is good news. When there is bad news, error messages should be descriptive, and ideally tell the user what they might do about the error.&lt;/li&gt;
-            &lt;li&gt;“A third reason is that command line programs (i.e., all-text mode programs) on Unix-like operating systems are designed to work together with pipes, i.e., the output from one program becomes the input of another program. This is a major feature of such systems, and it accounts for much of their power and flexibility. Consequently, it is important to have only the truly important information included in the output of each program, and thus in the input of the next program.”&lt;/li&gt;
-            &lt;li&gt;Have you ever had to try to strip out useless output so you could feed that data into another program?&lt;/li&gt;
-            &lt;li&gt;“The rule of silence originally applied to command line programs, because all programs were originally command line programs. However, it is just as applicable to GUI (graphical user interfaces) programs. That is, unnecessary and annoying information should be avoided regardless of the type of user interface.”&lt;/li&gt;
-            &lt;li&gt;“A example is the useless and annoying dialog boxes (i.e., small windows) that pop up on the display screen with with surprising frequency on some operating systems and programs. These dialog boxes contain some obvious, cryptic or unnecessary message and require the user to click on them in order to close them and proceed with work. This is an interruption of concentration and a waste of time for most users. Such dialog boxes should be employed only in situations in which some unexpected result might occur or to protect important data.”&lt;/li&gt;
-            &lt;li&gt;It goes on to make an analogy about Public Address systems. If too many unimportant messages, like advertisements, are sent over the PA system, people will start to ignore them, and miss the important announcements.&lt;/li&gt;
+            &lt;li&gt;A new page has appeared on the OpenBSD website, offering images for ARM64&lt;/li&gt;
+            &lt;li&gt;&quot;The current target platforms are the Pine64 and the Raspberry Pi 3.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;OpenBSD/arm64 bundles various platforms sharing the 64-bit ARM architecture. Due to the fact that there are many System on a Chips (SoC) around, OpenBSD/arm64 differentiates between various SoCs and may have a different level of support between them&quot;&lt;/li&gt;
+            &lt;li&gt;The page contains a list of the devices that are supported, and which components have working drivers&lt;/li&gt;
+            &lt;li&gt;At the time of recording, the link to download the snapshots did not work yet, but by time this airs a week from now, it should be working.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://leanpub.com/the-tao-of-tmux/read&quot;&gt;The Tao of tmux&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="http://loup-vaillant.fr/tutorials/chacha20-design"&gt;The design of Chacha20&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;An interesting article floated across my news feed a few weeks back. It’s what essentially boils down to a book called the “Tao of tmux”, which immediately piqued my interest.&lt;/li&gt;
-            &lt;li&gt;My story may be similar to many of yours. I was initially raised on using screen, and screen only for my terminal session and multiplexing needs.&lt;/li&gt;
-            &lt;li&gt;Since then I’ve only had a passing interest in tmux, but its always been one of those utilities I felt was worthy of investing some more time into. (Especially when seeing some of the neat setups some of my peers have with it)&lt;/li&gt;
-            &lt;li&gt;Needless to say, this article has been bookmarked, and I’ve started digesting some of it, but thought it would be good to share with anybody else who finds them-self in a similar situation.&lt;/li&gt;
-            &lt;li&gt;The book starts off well, explaining in the simplest terms possible what Tmux really is, by comparing and contrasting it to something we are all familiar with, GUIS!&lt;/li&gt;
-            &lt;li&gt;Helpfully they also include a chart which explains some of the terms we will be using frequently when discussing tmux (https://leanpub.com/the-tao-of-tmux/read#leanpub-auto-window-manager-for-the-terminal) &lt;/li&gt;
-            &lt;li&gt;One of the things the author does recommend is also making sure you are up to speed on your Terminal knowledge.&lt;/li&gt;
+            &lt;li&gt;Seems like every few episodes we end up discussing Ciphers (With their o-so amusing naming) and today is no exception.&lt;/li&gt;
+            &lt;li&gt;We have a great writeup on the D &amp;amp; I of the 'chacha20' cipher written by &quot;Loup Vaillant&quot;&lt;/li&gt;
+            &lt;li&gt;First of all, is this story for you? Maybe the summary will help make that call:&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;p&gt;&quot;Quick summary: Chacha20 is ARX-based hash function, keyed, running in counter mode. It embodies the idea that one can use a hash function to encrypt data.&quot;&lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;If your eyes didn't glaze over, then you are cleared to proceed. &lt;/li&gt;
+            &lt;li&gt;Chacha20 is built around stream ciphers:&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;blockquote&gt;
-            &lt;p&gt;Before getting into tmux, a few fundamentals of the command line should be reviewed. Often, we’re so used to using these out of street smarts and muscle memory a great deal of us never see the relation of where these tools stand next to each other.&lt;/p&gt;
+            &lt;p&gt;While Chacha20 is mainly used for encryption, its core is a pseudo-random number generator. The cipher text is obtained by XOR'ing the plain text with a pseudo-random stream:
+            cipher&lt;em&gt;text = plain&lt;/em&gt;text XOR chacha_stream(key, nonce)&lt;/p&gt;
 
-            &lt;p&gt;Seasoned developers are familiar with zsh, Bash, iTerm2, konsole, /dev/tty, shell scripting, and so on. If you use tmux, you’ll be around these all the time, regardless of whether you’re in a GUI on a local machine or SSH’ing into a remote server.&lt;/p&gt;
+            &lt;p&gt;Provided you never use the same nonce with the same key twice, you can treat that stream as a one time pad. This makes it very simple: unlike block ciphers, you don't have to worry about padding, and decryption is the same operation as encryption:
+            plain&lt;em&gt;text = cipher&lt;/em&gt;text XOR chacha_stream(key, nonce)&lt;/p&gt;
 
-            &lt;p&gt;If you want to learn more about how processes and TTY’s work at the kernel level (data structures and all) the book The Design and Implementation of the FreeBSD Operating System (2nd Edition) by Marshall Kirk McKusick is nice. In particular, Chapter 4, Process Management and Section 8.6, Terminal Handling. The TTY demystified by Linus Åkesson (available online) dives into the TTY and is a good read as well.&lt;/p&gt;
+            &lt;p&gt;Now we just have to get that stream.&lt;/p&gt;
             &lt;/blockquote&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;We had to get that shout-out of Kirk’s book in here ;)&lt;/li&gt;
-            &lt;li&gt;From here the boot/article takes us on a whirlwind journey of Sessions, Windows, Panes and more. Every control-&lt;x&gt; command is covered, information on how to customize your statusbar, tips, tricks and the like. There’s far more here than we can cover in a single segment, but you are highly encouraged to bookmark this one and start your own adventure into the world of tmux.&lt;/x&gt;&lt;/li&gt;
+            &lt;li&gt;The idea that the streams can mimic the concept of a one-time pad does make chacha20 very attractive, even to a non-crypto guy such as myself.&lt;/li&gt;
+            &lt;li&gt;From here the article goes into depth on how the cipher scrambles 512bit blocks using the quarter-round method (A forth of a block or 4 32bit numbers)&lt;/li&gt;
+            &lt;li&gt;Some ascii art is used here to help visualize how this done, in the quarter round-phase, then to the complete block as the 4 quarters are run in parallel over the entire 512 bit block.&lt;/li&gt;
+            &lt;li&gt;From here the article goes more into depth, looking at the complete chacha block, and the importance of a seemingly unnecessary 32byte constant (Hint: it's really important)&lt;/li&gt;
+            &lt;li&gt;If crypto is something you find fascinating, you'll want to make sure you give this one a full read-through.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://sdf.org/&quot;&gt;SDF Celebrates 30 years of service in 2017&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="https://twitter.com/DLangille/status/823915729430913025"&gt;CyberChef - Coming to a FreeBSD Ports tree near you&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=13453774&quot;&gt;HackerNews thread on SDF &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;“Super Dimension Fortress (SDF, also known as freeshell.org) is a non-profit public access UNIX shell provider on the Internet. It has been in continual operation since 1987 as a non-profit social club. The name is derived from the Japanese anime series The Super Dimension Fortress Macross; the original SDF server was a BBS for anime fans[1]. From its BBS roots, which have been well documented as part of the BBS: The Documentary project, SDF has grown into a feature-rich provider serving members around the world.”&lt;/li&gt;
-            &lt;li&gt;A public access UNIX system, it was many people’s first access to a UNIX shell.&lt;/li&gt;
-            &lt;li&gt;In the 90s, Virtual Machines were rare, the software to run them usually cost a lot of money and no one had very much memory to try to run two operating systems at the same time.&lt;/li&gt;
-            &lt;li&gt;So for many people, these type of shell accounts were the only way they could access UNIX without having to replace the OS on their only computer&lt;/li&gt;
-            &lt;li&gt;This is how I first started with UNIX, eventually moving to paying for access to bigger machines, and then buying my own servers and renting out shell accounts to host IRC servers and channel protection bots.&lt;/li&gt;
-            &lt;li&gt;“On June 16th, 1987 Ted Uhlemann (handle: charmin, later iczer) connected his Apple ][e's 300 baud modem to the phone line his mother had just given him for his birthday. He had published the number the night before on as many BBSes around the Dallas Ft. Worth area that he could and he waited for the first caller. He had a copy of Magic Micro BBS which was written in Applesoft BASIC and he named the BBS &quot;SDF-1&quot; after his favorite Japanimation series ROBOTECH (Macross). He hoped to draw users who were interested in anime, industrial music and the Church of the Subgenius.”&lt;/li&gt;
-            &lt;li&gt;I too started out in the world of BBSes before I had access to the internet. My parents got my a dedicated phone line for my birthday, so I wouldn’t tie up their line all the time. I quickly ended up running my own BBS, the Sudden Death BBS (&lt;a href=&quot;https://en.wikipedia.org/wiki/Renegade_(BBS)&quot;&gt;Renegade&lt;/a&gt; on MS DOS)&lt;/li&gt;
-            &lt;li&gt;I credit this early experience for my discovery of a passion for Systems Administration, that lead me to my current career&lt;/li&gt;
-            &lt;li&gt;“Slowly, SDF has grown over all these years, never forgetting our past and unlike many sites on the internet, we actually have a past. Some people today may come here and see us as outdated and &quot;retro&quot;. But if you get involved, you'll see it is quite alive with new ideas and a platform for opportunity to try many new things. The machines are often refreshed, the quotas are gone, the disk space is expanding as are the features (and user driven features at that) and our cabinets have plenty of space for expansion here in the USA and in Europe (Germany).”&lt;/li&gt;
-            &lt;li&gt;“Think about ways you'd like to celebrate SDF's 30th and join us on the 'bboard' to discuss what we could do. I realize many of you have likely moved on yourselves, but I just wanted you to know we're still here and we'll keep doing new and exciting things with a foundation in the UNIX shell.”&lt;/li&gt;
+            &lt;li&gt;Dan Langille tweets that he will be creating a port of GCHQ's CyberChef tool&lt;/li&gt;
+            &lt;li&gt;&quot;CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include creating hexdumps, simple encoding like XOR or Base64, more complex encryption like AES, DES and Blowfish, data compression and decompression, calculating hashes and checksums, IPv6 and X.509 parsing, and much more.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;The tool is designed to enable both technical and non-technical analysts to manipulate data in complex ways without having to deal with complex tools or algorithms. It was conceived, designed, built and incrementally improved by an analyst in their 10% innovation time over several years. Every effort has been made to structure the code in a readable and extendable format, however it should be noted that the analyst is not a professional developer and the code has not been peer-reviewed for compliance with a formal specification.&quot;&lt;/li&gt;
+            &lt;li&gt;Some handy functions, beyond stuff like base64 encoding:&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://gchq.github.io/CyberChef/?recipe=%5B%7B%22op%22%3A%22Parse%20IP%20range%22%2C%22args%22%3A%5Btrue%2Ctrue%2Cfalse%5D%7D%5D&amp;amp;input=MTcyLjIxLjAuMzIvMjcK"&gt;Network Enumeration (CIDR to list of IPS) &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Browser User Agent Parser (what browser is that, based on your HTTP logs)&lt;/li&gt;
+            &lt;li&gt;XOR Brute Force: enter some XOR'd text, and try every possible key to find plaintext. Optionally give it a regex of known plaintext to find the right key.&lt;/li&gt;
+            &lt;li&gt;Calculate the &quot;Shannon Entropy&quot; of the input (how random is this data)&lt;/li&gt;
+            &lt;li&gt;It also has a number of built in regular expressions for common things, very useful&lt;/li&gt;
+            &lt;li&gt;The project is up on github if you want to play with the code&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
-            &lt;h3&gt;&lt;a href=&quot;https://www.reddit.com/r/NetBSD/comments/5mtsy1/getting_minecraft_to_run_on_netbsd/&quot;&gt;Getting Minecraft to Run on NetBSD&lt;/a&gt;&lt;/h3&gt;
+            &lt;h3&gt;&lt;a href="https://gist.github.com/prash-wghats/89be1ee069d2acf23c289e9c606616e1"&gt;Building Electron and VSCode in FreeBSD11&lt;/a&gt;&lt;/h3&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;One thing that doesn’t come up often on BSDNow is the idea of gaming. I realize most of us are server folks, or perhaps don’t play games (The PC is for work, use your fancy-smanzy PS4 and get off my lawn you kids)&lt;/li&gt;
-            &lt;li&gt;Today I thought it would be fun to highlight this post over at Reddit talking about running MineCraft on NetBSD&lt;/li&gt;
-            &lt;li&gt;Now I realize this may not be news to some of you, but perhaps it is to others. For the record my kids have been playing Minecraft on PC-BSD / TrueOS for years. It's the primary reason they are more often booted into that instead of Windows. (Funny story behind that - Got sick of all the 3rd party mods, which more often than not came helpfully bundled with viruses and malware)&lt;/li&gt;
-            &lt;li&gt;On NetBSD the process looks a bit different than on FreeBSD. First up, you’ll need to enable Linux Emulation and install Oracle JRE (Not OpenJDK, that path leads to sadness here)&lt;/li&gt;
-            &lt;li&gt;The guide will then walk us through the process of fetching the Linux runtime packages, extracting and then enabling bits such as ‘procfs’ that is required to run the Linux binaries. &lt;/li&gt;
-            &lt;li&gt;Once that's done, minecraft is only a simple “oracle8-jre /path/to/minecraft.jar” command away from starting up, and you’ll be “crafting” in no time. (Does anybody even play survival anymore?)&lt;/li&gt;
+            &lt;li&gt;A patch and set of instructions for building Electron and VSCode on FreeBSD&lt;/li&gt;
+            &lt;li&gt;&quot;Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is also customizable, so users can change the editor's theme, keyboard shortcuts, and preferences. It is free and open-source, although the official download is under a proprietary license.&quot;&lt;/li&gt;
+            &lt;li&gt;&quot;Visual Studio Code is based on Electron, a framework which is used to deploy Node.js applications for the desktop running on the Blink layout engine. Although it uses the Electron framework, the software is not a fork of Atom, it is actually based on Visual Studio Online's editor (codename "Monaco")&quot;&lt;/li&gt;
+            &lt;li&gt;It would be interesting to see official support for VSCode on FreeBSD&lt;/li&gt;
+            &lt;li&gt;Has anyone tried VSCode on the FreeBSD Code base?&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
@@ -232,851 +249,19 @@
             &lt;h2&gt;Beastie Bits&lt;/h2&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://youtu.be/g7P16mYDIJw&quot;&gt;UNIX on the Computer Chronicals &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/erikarn/status/823298416939659264&quot;&gt;FreeBSD: Atheros AR9380 and later, maximum UDP TX goes from 250mbit to 355mbit. &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://reviews.freebsd.org/D9303&quot;&gt;Capsicumizing traceroute with casper &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Sr1BTzVN&quot;&gt; Jason - TarSnap on Windows&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/zpHyhHQG&quot;&gt; Mike - OpenRC &amp;amp; DO&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/YnjkrDmk&quot;&gt; Anonymous - Old Machines&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/pBUXtFak&quot;&gt; Matt - Iocage&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/zNkK3epM&quot;&gt; Hjalti - Rclone &amp;amp; FreeNAS&lt;/a&gt; &lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="http://roy.marples.name/blog/blog/soft-label-keys"&gt;Soft Label Keys&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="https://www.mail-archive.com/source-changes@openbsd.org/msg84599.html"&gt;WPA1 (TKIP) disabled by default (OpenBSD)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="https://kkovacs.eu/cool-but-obscure-unix-tools"&gt;Cool but obscure unix tools&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="http://euroquis.nl/bobulate/?p=1521"&gt;KDE Frameworks and Plasma on FreeBSD&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="https://www.mail-archive.com/source-changes@openbsd.org/msg84904.html"&gt;Initiative to migrate OpenBSD mirrors to HTTPS&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="http://i.imgur.com/dC7c1y4.png"&gt;That moment you realize FreeBSD has got some Star Wars fans&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;a href="https://wiki.freebsd.org/PortsSubversionPrimer"&gt;Pagelink&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
 
             &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Getting Pi on my Wi-Fi</title>
-        <smi:episode>177</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_18-getting_pi_on_my_wifi"/>
-        <id>http://www.bsdnow.tv/episodes/2017_1_11-getting_pi_on_my_wifi</id>
-        <published>2017-01-19T01:52:37-08:00</published>
-        <updated>2017-01-20T11:46:00Z</updated>
-        <link length="37964999" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0177.mp3" type="audio/mpeg" rel="enclosure"/>
-        <media:group>
-            <media:content fileSize="37964999" duration="4722" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0177.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
-            <media:content fileSize="58414889" duration="4722" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0177.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
-            <media:content fileSize="275618356" duration="4722" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0177-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="531792811" duration="4722" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0177.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="531792811" duration="4722" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0177.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
-            <media:content fileSize="82642" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0177-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
-        </media:group>
-        <psc:chapters version="1.1">
-            <psc:chapter start="00:01:05" title="Headlines"/>
-            <psc:chapter start="00:01:05" title="WiFi 802.11n hostap mode added" href="http://undeadly.org/cgi?action=article&amp;sid=20170109213803"/>
-            <psc:chapter start="00:04:50" title="iocage update has landed" href="https://github.com/iocage/iocage"/>
-            <psc:chapter start="00:08:00" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
-            <psc:chapter start="00:11:05" title="Raspberry Pi and Temperature sensors under FreeBSD " href="https://smallhacks.wordpress.com/2017/01/14/reading-dht11-temperature-sensor-on-raspberry-pi-under-freebsd/"/>
-            <psc:chapter start="00:16:55" title="Tor relay and proxy with HardenedBSD on a RPi3" href="https://github.com/lattera/articles/blob/master/infosec/tor/2017-01-14_torified_home/article.md"/>
-            <psc:chapter start="00:21:40" title="News Roundup"/>
-            <psc:chapter start="00:21:40" title="Admin horror stories" href="http://www-uxsup.csx.cam.ac.uk/misc/horror.txt"/>
-            <psc:chapter start="00:32:35" title="How contributors get stuck" href="https://medium.com/@skamille/how-do-individual-contributors-get-stuck-63102ba43516"/>
-            <psc:chapter start="00:40:05" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
-            <psc:chapter start="00:42:35" title="Make Docs!" href="http://www.mkdocs.org/"/>
-            <psc:chapter start="00:45:45" title="Experimental FreeNAS 11/12 builds" href="https://forums.freenas.org/index.php?threads/new-freenas-9-10-with-freebsd-11-12-for-testing.49696/#post-341941"/>
-            <psc:chapter start="00:48:40" title="Beastie Bits"/>
-            <psc:chapter start="00:48:40" title="Unix's Most Notorious Code Comment" href="http://thenewstack.io/not-expected-understand-explainer/"/>
-            <psc:chapter start="00:50:15" title="pf.conf DNS/NTP redirect trick" href="http://www.tedunangst.com/flak/post/turn-your-network-inside-out-with-one-pfconf-trick"/>
-            <psc:chapter start="00:51:50" title="A story of if_get(9)" href="http://www.grenadille.net/post/2017/01/13/A-story-of-if_get%289%29"/>
-            <psc:chapter start="00:53:50" title="Apple reaffirms its commitment to LLVM/Clang" href="http://lists.llvm.org/pipermail/llvm-dev/2017-January/108953.html"/>
-            <psc:chapter start="00:54:45" title="Python switch failure" href="http://www.tedunangst.com/flak/post/python-3k17"/>
-            <psc:chapter start="00:56:00" title="NetBSD 7.1_RC1 available" href="http://mail-index.netbsd.org/netbsd-announce/2017/01/09/msg000259.html"/>
-            <psc:chapter start="00:56:25" title="Michael Lucas presentation proposals" href="http://blather.michaelwlucas.com/archives/2848"/>
-            <psc:chapter start="00:59:00" title="Happy Birthday to Kirk McKusick"/>
-            <psc:chapter start="00:59:30" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
-            <psc:chapter start="01:01:05" title="Feedback/Questions"/>
-            <psc:chapter start="01:01:05" title="J – Let's Encrypt" href="http://pastebin.com/nnQ9ZgyN"/>
-            <psc:chapter start="01:04:50" title="Mike – OpenRC" href="http://pastebin.com/EZ4tRiVb"/>
-            <psc:chapter start="01:07:45" title="Timothy – ZFS Horror" href="http://pastebin.com/ZqDFTsnR"/>
-            <psc:chapter start="01:09:50" title="Troels - backup" href="http://pastebin.com/dhZEnREM"/>
-            <psc:chapter start="01:13:25" title="Jason – Disk Label" href="http://pastebin.com/q4F95S6h"/>
-        </psc:chapters>
-        <contributor>
-            <name>JT</name>
-            <uri>https://twitter.com/q5sys</uri>
-        </contributor>
-        <summary>This week on BSDNow, we've got Wi-Fi galore, a new iocage and some Raspberry Pi 3 news and guides to share. Stay tuned for your place to B...SD!</summary>
-        <content type="html">&lt;h1&gt;Episode 177: Getting Pi on my Wifi&lt;/h1&gt;
-            &lt;h2&gt;Headlines&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://undeadly.org/cgi?action=article&amp;amp;sid=20170109213803&quot;&gt;WiFi: 11n hostap mode added to athn(4) driver, testers wanted&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;OpenBSD as WiFi access points look set to be making a comeback in the near future&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Stefan Sperling added 802.11n hostap mode, with full support initially for the Atheros chips supported by the athn(4) driver.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Hostap performance is not perfect yet but should be no worse than 11a/b/g modes in the same environment.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;For Linux clients a fix for WME params is needed which I also posted to tech@&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;This diff does not modify the known-broken and disabled ar9003 code, apart from making sure it still builds.&quot;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&quot;I'm looking for both tests and OKs.&quot;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;There has also been a &lt;a href=&quot;http://svnweb.freebsd.org/base/head/sys/net80211/?view=log&quot;&gt;flurry of work&lt;/a&gt;  in FreeBSD on the ath10k driver, which supports 802.11ac&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;Like &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=310147&quot;&gt;this one&lt;/a&gt; and &lt;a href=&quot;https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=311579&quot;&gt;this one&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/iocage/iocage&quot;&gt;The long-awaited iocage update has landed&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;We've hinted at the new things happening behind the scenes with iocage, and this last week the code has made its first public debut. &lt;/li&gt;
-            &lt;li&gt;So what's changed you may ask. The biggest is that iocage has undergone a complete overhaul, moving from its original shell-base to python.  &lt;/li&gt;
-            &lt;li&gt;The story behind that is that the author (Brandon) works at iXsystems, and the plan is to move away from the legacy warden-based jail management which was also shell-based.  &lt;/li&gt;
-            &lt;li&gt;This new python re-write will allow it to integrate into FreeNAS (and other projects) better by exposing an API for all jail management tasks. Thats right, no more ugly CLI output parsing just to wrangle jail options either at creation or runtime. &lt;/li&gt;
-            &lt;li&gt;But what about users who just run iocage manually from the CLI? No worries, the new iocage is almost identical to the original CLI usage, making the switch over very simple.&lt;/li&gt;
-            &lt;li&gt;Just to re-cap, lets look at the new features list:&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;p&gt;FEATURES:
-            + Ease of use
-            + Rapid jail creation within seconds
-            + Automatic package installation
-            + Virtual networking stacks (vnet)
-            + Shared IP based jails (non vnet)
-            + Transparent ZFS snapshot management
-            + Export and import
-            + The new iocage is available now via ports and packages under sysutils/py-iocage, give it a spin and be sure to report issues back to the developer(s).&lt;/p&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://smallhacks.wordpress.com/2017/01/14/reading-dht11-temperature-sensor-on-raspberry-pi-under-freebsd/&quot;&gt;Reading DHT11 temperature sensors on a Raspberry Pi under FreeBSD &lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;DHT-11 is a very cheap temperature/humidity sensor which is commonly used in the IoT devices. It is not very accurate, so for the accurate measurement i would recommend to use DHT21 instead. Anyway, i had DHT-11 in my tool box, so decided to start with it. DHT-11 using very simple 1 wire protocol – host is turning on chip by sending 18ms low signal to the data output and then reading 40 bytes of data.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;To read data from the chip it should be connected to the power (5v) and gpio pin. I used pin 2 as VCC, 6 as GND and 11 as GPIO&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;There is no support for this device out of the box on FreeBSD. I found some sample code on the github, see &lt;a href=&quot;https://github.com/lex/freebsd-gpio-dht11&quot;&gt;lex/freebsd-gpio-dht11&lt;/a&gt; repository. This code was a good starting point, but soon i found 2 issues with it:
-
-            &lt;ul&gt;
-            &lt;li&gt;Results are very unreliable, probably due to gpio decoding algorithm.&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;Checksum is not validated, so sometime values are bogus.&lt;/li&gt;
-            &lt;li&gt;&quot;Initially i was thinking to fix this myself, but later found kernel module for this purpose, &lt;a href=&quot;http://www.my-tour.ru/FreeBSD/1-wire_over_gpio/&quot;&gt;1 wire over gpio&lt;/a&gt;. This module contains DHT11 kernel driver (gpio_sw) which implements DHT-11 protocol in the kernel space and exporting /dev/sw0 for the userland. Driver compiles on FreeBSD11/ARM without any changes. Use make install to install the driver.&quot;&lt;/li&gt;
-            &lt;li&gt;The articles goes into how to install and configure the driver, including a set of devfs rules to allow non-root users to read from the sensor&lt;/li&gt;
-            &lt;li&gt;&quot;Final goal was to add this sensor to the domoticz software. It is using LUA scripting to extend it functionality, e.g. to obtain data from non-supported or non standard devices. So, i decided to read /dev/sw0 from the LUA.&quot;&lt;/li&gt;
-            &lt;li&gt;They ran into some trouble with LUA trying to read too much data at once, and had to work around it&lt;/li&gt;
-            &lt;li&gt;In the end, they got the results and were able to use them in the monitoring tool&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/lattera/articles/blob/master/infosec/tor/2017-01-14_torified_home/article.md&quot;&gt;Tor-ified Home Network using HardenedBSD and a RPi3&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Shawn from HardendBSD has posted an article up on GitHub talking about his deployment of a new Tor relay on a RPi3&lt;/li&gt;
-            &lt;li&gt;This particular method was attractive, since it allows running a Relay, but without it being on a machine which may have personal data, such as SSH keys, files, etc&lt;/li&gt;
-            &lt;li&gt;While his setup is done on HardendBSD, the same applies to a traditional FreeBSD setup as well. &lt;/li&gt;
-            &lt;li&gt;First up, is the list of things needed for this project:&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;p&gt;Raspberry Pi 3 Model B Rev 1.2 (aka, RPI3)
-            Serial console cable for the RPI3
-            Belkin F4U047 USB Ethernet Dongle
-            Insignia NS-CR2021 USB 2.0 SD/MMC Memory Card Reader
-            32GB SanDisk Ultra PLUS MicroSDHC
-            A separate system, running FreeBSD or HardenedBSD
-            HardenedBSD clang 4.0.0 image for the RPI3
-            An external drive to be formatted
-            A MicroUSB cable to power the RPI3
-            Two network cables
-            Optional: Edimax N150 EW-7811Un Wireless USB
-            Basic knowledge of vi&lt;/p&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;After getting HBSD running on the RPi3 and serial connection established, he then takes us through the process of installing and enabling the various services needed. (Don't forget to growfs your sdcard first!)&lt;/li&gt;
-            &lt;li&gt;Now the tricky part is that some of the packages needed to be compiled from ports, which is somewhat time-consuming on a RPi. He strongly recommends not compiling on the sdcard (it sounds like personal experience has taught him well) and to use iscsi or some external USB drive. &lt;/li&gt;
-            &lt;li&gt;With the compiling done, our package / software setup is nearly complete. Next up is firewalling the box, which he helpfully provides a full PF config setup that we can copy-n-paste here.&lt;/li&gt;
-            &lt;li&gt;The last bits will be enabling the torrc configuration knobs, which if you follow his example again, will result in a tor public relay, and a local transparent proxy for you.&lt;/li&gt;
-            &lt;li&gt;Bonus! Shawn helpfully provides DHCPD configurations, and even Wireless AP configurations, if you want to setup your RPi3 to proxy for devices that connect to
-            it.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;News Roundup&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www-uxsup.csx.cam.ac.uk/misc/horror.txt&quot;&gt;Unix Admin. Horror Story Summary, version 1.0&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;A great collection of stories, many of which will ring true with our viewers&lt;/li&gt;
-            &lt;li&gt;The very first one, is about a user changing root's shell to /usr/local/bin/tcsh but forgetting to make it executable, resulting in not being able to login as root.&lt;/li&gt;
-            &lt;li&gt;I too have run into this issue, in a slightly different way. I had tcsh as my user shell (back before tcsh was in base), and after a major OS upgrade, but before I had a chance to recompile all of my ports. Now I couldn't ssh in to the remote machine in order to recompile my shell. Now I always use a shell included in the base system, and test it before rebooting after an upgrade.&lt;/li&gt;
-            &lt;li&gt;&quot;Our operations group, a VMS group but trying to learn UNIX, was assigned account administration. They were cleaning up a few non-used accounts like they do on VMS - backup and purge. When they came across the account &quot;sccs&quot;, which had never been accessed, away it went. The &quot;deleteuser&quot; utility from DEC asks if you would like to delete all the files in the account. Seems reasonable, huh? Well, the home directory for &quot;sccs&quot; is &quot;/&quot;. Enough said :-(&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;I was working on a line printer spooler, which lived in /etc.  I wanted to remove it, and so issued the command &quot;rm /etc/lpspl.&quot;  There was only one problem.  Out of habit, I typed &quot;passwd&quot; after &quot;/etc/&quot; and removed the password file.  Oops.&quot;&lt;/li&gt;
-            &lt;li&gt;I've done things like this as well. Finger memory can be dangerous&lt;/li&gt;
-            &lt;li&gt;&quot;I was happily churning along developing something on a Sun workstation, and was getting a number of annoying permission denieds from trying to write into a directory heirarchy that I didn't own.  Getting tired of that, I decided to set the permissions on that subtree to 777 while I was working, so I wouldn't have to worry about it.  Someone had recently told me that rather than using plain &quot;su&quot;, it was good to use &quot;su -&quot;, but the implications had not yet sunk in.  (You can probably see where this is going already, but I'll go to the bitter end.)  Anyway, I cd'd to where I wanted to be, the top of my subtree, and did su -.  Then I did chmod -R 777.  I then started to wonder why it was taking so damn long when there were only about 45 files in 20 directories under where I (thought) I was.  Well, needless to say, su - simulates a real login, and had put me into root's home directory, /, so I was proceeding to set file permissions for the whole system to wide open. I aborted it before it finished, realizing that something was wrong, but this took quite a while to straighten out.&quot;&lt;/li&gt;
-            &lt;li&gt;Where is a ZFS snapshot when you need it?&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://medium.com/@skamille/how-do-individual-contributors-get-stuck-63102ba43516&quot;&gt;How individual contributors get stuck&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;An interesting post looking at the common causes of people getting stuck when trying to create or contribute new code
-
-            &lt;ul&gt;
-            &lt;li&gt;Brainstorming/architecture: &quot;I must have thought through all edge cases of all parts of everything before I can begin this project&quot;&lt;/li&gt;
-            &lt;li&gt;Researching possible solutions forever (often accompanied by desire to do a &quot;bakeoff&quot; where they build prototypes in different platforms/languages/etc)&lt;/li&gt;
-            &lt;li&gt;Refactoring: &quot;this code could be cleaner and everything would be just so much easier if we cleaned this up... and this up... and...&quot;&lt;/li&gt;
-            &lt;li&gt;Helping other people instead of doing their assigned tasks (this one isn't a bad thing in an open source community)&lt;/li&gt;
-            &lt;li&gt;Working on side projects instead of the main project (it is your time, it is up to you how to spend it)&lt;/li&gt;
-            &lt;li&gt;Excessive testing (rare)&lt;/li&gt;
-            &lt;li&gt;Excessive automation (rare)&lt;/li&gt;
-            &lt;li&gt;Finish the last 10–20% of a project&lt;/li&gt;
-            &lt;li&gt;Start a project completely from scratch&lt;/li&gt;
-            &lt;li&gt;Do project planning (You need me to write what now? A roadmap?) (this is why FreeBSD has devsummits, some things you just need to whiteboard)&lt;/li&gt;
-            &lt;li&gt;Work with unfamiliar code/libraries/systems&lt;/li&gt;
-            &lt;li&gt;Work with other teams (please don't make me go sit with data engineering!!)&lt;/li&gt;
-            &lt;li&gt;Talk to other people&lt;/li&gt;
-            &lt;li&gt;Ask for help (far beyond the point they realized they were stuck and needed help)&lt;/li&gt;
-            &lt;li&gt;Deal with surprises or unexpected setbacks&lt;/li&gt;
-            &lt;li&gt;Deal with vendors/external partners&lt;/li&gt;
-            &lt;li&gt;Say no, because they can't seem to just say no (instead of saying no they just go into avoidance mode, or worse, always say yes)&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;&quot;Noticing how people get stuck is a super power, and one that many great tech leads (and yes, managers) rely on to get big things done. When you know how people get stuck, you can plan your projects to rely on people for their strengths and provide them help or even completely side-step their weaknesses. You know who is good to ask for which kinds of help, and who hates that particular challenge just as much as you do.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;The secret is that all of us get stuck and sidetracked sometimes. There's actually nothing particularly &quot;bad&quot; about this. Knowing the ways that you get hung up is good because you can choose to either a) get over the fears that are sticking you (lack of knowledge, skills, or confidence), b) avoid such tasks as much as possible, and/or c) be aware of your habits and use extra diligence when faced with tackling these areas.&quot;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www.mkdocs.org/&quot;&gt;Make Docs!&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;MkDocs builds completely static HTML sites that you can host on GitHub pages, Amazon S3, or anywhere else you choose&quot;&lt;/li&gt;
-            &lt;li&gt;It is an easy to install python package&lt;/li&gt;
-            &lt;li&gt;It includes a server mode that auto-refreshes the page as you write the docs, making it easy to preview your work before you post it online&lt;/li&gt;
-            &lt;li&gt;Everything needs docs, and writing docs should be as simple as possible, so that more of them will get written&lt;/li&gt;
-            &lt;li&gt;Go write some docs!&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://forums.freenas.org/index.php?threads/new-freenas-9-10-with-freebsd-11-12-for-testing.49696/#post-341941&quot;&gt;Experimental FreeNAS 11/12 builds&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;We know there's a lot of FreeNAS users who listen to BSDNow, so I felt it was important to share this little tidbit.&lt;/li&gt;
-            &lt;li&gt;I've posted something to the forums last night which includes links to brand-new spins of FreeNAS 9.10 based upon FreeBSD 11/stable and 12/current. &lt;/li&gt;
-            &lt;li&gt;These builds are updated nightly via our Jenkins infrastructure and hopefully will provide a new playground for technical folks and developers to experiment with FreeBSD features in their FreeNAS environment, long before they make it into a -STABLE release. &lt;/li&gt;
-            &lt;li&gt;As usual, the notes of caution do apply, these are nightlies, and as such bugs will abound. Do NOT use these with your production data, unless you are crazy, or just want an excuse to test your backup strategy&lt;/li&gt;
-            &lt;li&gt;If you do run these builds, of course feedback is welcome via the usual channels, such as the bug tracker. &lt;/li&gt;
-            &lt;li&gt;The hope is that by testing FreeBSD code earlier, we can vet and determine what is safe / ready to go into mainline FreeNAS sooner rather than later.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://thenewstack.io/not-expected-understand-explainer/&quot;&gt;An Explainer on Unix's Most Notorious Code Comment&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/turn-your-network-inside-out-with-one-pfconf-trick&quot;&gt;turn your network inside out with one pf.conf trick&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.grenadille.net/post/2017/01/13/A-story-of-if_get%289%29&quot;&gt;A story of if_get(9)&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://lists.llvm.org/pipermail/llvm-dev/2017-January/108953.html&quot;&gt;Apple re-affirms its commitment to LLVM/Clang &lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/python-3k17&quot;&gt;python 3k17&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2848&quot;&gt;2017 presentation proposals&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://mail-index.netbsd.org/netbsd-announce/2017/01/09/msg000259.html&quot;&gt;NetBSD 7.1_RC1 available&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;#define FS&lt;em&gt;UFS2&lt;/em&gt;MAGIC 0x19540119 (Happy Birthday to Kirk McKusick tomorrow)&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/nnQ9ZgyN&quot;&gt; J - LetsEncrypt&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/EZ4tRiVb&quot;&gt; Mike - OpenRC&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/ZqDFTsnR&quot;&gt; Timothy - ZFS Horror&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/dhZEnREM&quot;&gt; Troels&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/q4F95S6h&quot;&gt; Jason - Disk Label&lt;/a&gt; &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Linking your world</title>
-        <smi:episode>176</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_11-linking_your_world"/>
-        <id>http://www.bsdnow.tv/episodes/2017_1_11-linking_your_world</id>
-        <published>2017-01-12T04:36:28-08:00</published>
-        <updated>2017-01-13T06:41:00Z</updated>
-        <link length="44546394" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0176.mp3" type="audio/mpeg" rel="enclosure"/>
-        <media:group>
-            <media:content fileSize="44546394" duration="5544" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0176.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
-            <media:content fileSize="69087239" duration="5544" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0176.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
-            <media:content fileSize="323631352" duration="5544" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0176-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="624460376" duration="5544" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0176.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="624460376" duration="5544" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0176.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
-            <media:content fileSize="81268" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0176-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
-        </media:group>
-        <psc:chapters version="1.1">
-            <psc:chapter start="00:01:00" title="Headlines"/>
-            <psc:chapter start="00:01:00" title="FreeBSD can now be linked with lld" href="https://llvm.org/bugs/show_bug.cgi?id=23214#c40"/>
-            <psc:chapter start="00:06:15" title="NetBSD's scheduler tweaks" href="http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20170109_2108.html"/>
-            <psc:chapter start="00:12:20" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
-            <psc:chapter start="00:15:05" title="FreeBSD Network Gateway on EdgeRouter Lite" href="http://codeghar.com/blog/freebsd-network-gateway-on-edgerouter-lite.html"/>
-            <psc:chapter start="00:19:45" title="Build system targeting modern UNIX systems" href="https://github.com/michipili/bsdowl"/>
-            <psc:chapter start="00:21:55" title="News Roundup"/>
-            <psc:chapter start="00:21:55" title="find -delete in OpenBSD" href="https://marc.info/?l=openbsd-tech&amp;m=148342051832692&amp;w=2"/>
-            <psc:chapter start="00:28:25" title="Lumina desktop 1.2.0 released" href="https://lumina-desktop.org/version-1-2-0-released/"/>
-            <psc:chapter start="00:31:10" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
-            <psc:chapter start="00:33:35" title="dd is not just for disk writing" href="http://www.vidarholen.net/contents/blog/?p=479"/>
-            <psc:chapter start="00:42:40" title="Bhyve setup for tcp testing" href="https://www.strugglingcoder.info/index.php/bhyve-setup-for-tcp-testing/"/>
-            <psc:chapter start="00:48:35" title="Beastie Bits"/>
-            <psc:chapter start="00:48:40" title="Plan9 on Bhyve" href="https://twitter.com/pr1ntf/status/817895393824382976"/>
-            <psc:chapter start="00:49:35" title="Get your name in the relayd book" href="http://blather.michaelwlucas.com/archives/2832"/>
-            <psc:chapter start="00:51:40" title="Ted Unangst's 2016 Computer Reviews" href="http://www.tedunangst.com/flak/post/2016-computer-review"/>
-            <psc:chapter start="00:55:25" title="Bryan Cantrill on Developer On Fire podcast" href="http://developeronfire.com/episode-198-bryan-cantrill-persistence-and-action"/>
-            <psc:chapter start="00:55:50" title="pf/ipfw's impact on performance" href="http://dev.bsdrp.net/benchs/2016.SM5018A-FTN4-Chelsio.png"/>
-            <psc:chapter start="00:57:40" title="Weston with X and EGL clients running on FreeBSD" href="https://twitter.com/johalun/status/819039940914778112"/>
-            <psc:chapter start="00:58:50" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
-            <psc:chapter start="01:01:05" title="Feedback/Questions"/>
-            <psc:chapter start="01:01:05" title="Eddy - TRIM Partitioning" href="http://pastebin.com/A0LSipCj"/>
-            <psc:chapter start="01:03:10" title="Matt - Why FreeBSD?" href="http://pastebin.com/UE1k4Q99"/>
-            <psc:chapter start="01:08:20" title="Shawn - ZFS Horror?" href="http://pastebin.com/TjTkqHA4"/>
-            <psc:chapter start="01:21:10" title="Andrew - Bootloaders" href="http://pastebin.com/Baxd6Pjy"/>
-            <psc:chapter start="01:28:25" title="Bryan - ZFS Error" href="http://pastebin.com/NygwchFD"/>
-        </psc:chapters>
-        <contributor>
-            <name>JT</name>
-            <uri>https://twitter.com/q5sys</uri>
-        </contributor>
-        <summary>Another exciting week on BSDNow, we're queueing up with LLVM / Linking news, a look at NetBSD's scheduler, routers, desktops, build-systems &amp; more! Stay tuned for your place to B...SD!</summary>
-        <content type="html">&lt;h1&gt;Episode 176: Linking your world&lt;/h1&gt;
-            &lt;h2&gt;Headlines&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://llvm.org/bugs/show_bug.cgi?id=23214#c40&quot;&gt;FreeBSD Kernel and World, and many Ports, can now be linked with lld&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;With this change applied I can link the entirety of the FreeBSD/amd64 base system (userland world and kernel) with LLD.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Rafael's done an initial experimental Poudriere FreeBSD package build with lld head, and found almost 20K out of 26K ports built successfully. I'm now looking at getting CI running to test this on an ongoing basis. But, I think we're at the point where an experimental build makes sense.&quot;&lt;/li&gt;
-            &lt;li&gt;Such testing will become much easier once llvm 4.0 is imported into -current&lt;/li&gt;
-            &lt;li&gt;&quot;I suggest that during development we collect patches in a local git repo -- for example, I've started here for my Poudriere run https://github.com/emaste/freebsd-ports/commits/ports-lld&quot; &lt;/li&gt;
-            &lt;li&gt;&quot;It now looks like libtool is responsible for the majority of my failed / skipped ports. Unless we really think we'll add &quot;not GNU&quot; and other hacks to lld we're going to have to address libtool limitations upstream and in the FreeBSD tree. I did look into libtool a few weeks ago, but unfortunately haven't yet managed to produce a patch suitable for sending upstream.&quot;&lt;/li&gt;
-            &lt;li&gt;If you are interested in LLVM/Clang/LLD/LLDB etc, check out: &lt;a href=&quot;http://blog.regehr.org/archives/1453&quot;&gt;A Tourist's Guide to the LLVM Source Code &lt;/a&gt; &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20170109_2108.html&quot;&gt;Documenting NetBSD's scheduler tweaks&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;A followup to our previous coverage of improvements to the scheduler in NetBSD&lt;/li&gt;
-            &lt;li&gt;&quot;NetBSD's scheduler was recently changed to better distribute load of long-running processes on multiple CPUs. So far, the associated sysctl tweaks were not documented, and this was changed now, documenting the kern.sched sysctls.&quot;&lt;/li&gt;
-            &lt;li&gt;kern.sched.cacheht_time (dynamic): Cache hotness time in which a LWP is kept on one particular CPU and not moved to another CPU. This reduces the overhead of flushing and reloading caches.  Defaults to 3ms.  Needs to be given in ``hz'' units, see mstohz(9).&lt;/li&gt;
-            &lt;li&gt;kern.sched.balance_period (dynamic): Interval at which the CPU queues are checked for re-balancing.  Defaults to 300ms.&lt;/li&gt;
-            &lt;li&gt;kern.sched.min_catch (dynamic): Minimum count of migratable (runable) threads for catching (stealing) from another CPU.  Defaults to 1 but can be increased to decrease chance of thread migration between CPUs.&lt;/li&gt;
-            &lt;li&gt;It is important to have good documentation for these tunables, so that users can understand what it is they are adjusting&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://codeghar.com/blog/freebsd-network-gateway-on-edgerouter-lite.html&quot;&gt;FreeBSD Network Gateway on EdgeRouter Lite&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;EdgeRouter Lite is a great device to run at the edge of a home network. It becomes even better when it's running FreeBSD. This guide documents how to setup such a gateway. There are accompanying git repos to somewhat automate the process as well.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Colin Percival has written a great blog post on the subject, titled &lt;a href=&quot;http://www.daemonology.net/blog/2016-01-10-FreeBSD-EdgeRouter-Lite.html&quot;&gt;FreeBSD on EdgeRouter Lite - no serial port required&lt;/a&gt; . In it he provides and describes a shell script to build a bootable image of FreeBSD to be run on ERL, available from GitHub in the &lt;a href=&quot;https://github.com/cperciva/freebsd-ERL-build/&quot;&gt;freebsd-ERL-build&lt;/a&gt;  repo. I have built a Vagrant-based workflow to automate the building of the drive image. It's available on GitHub in the &lt;a href=&quot;https://github.com/hamzasheikh/freebsd-edgerouterlite-ansible&quot;&gt;freebsd-edgerouterlite-ansible&lt;/a&gt;  repo. It uses the build script Percival wrote.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Once you've built the disk image it's time to write it to a USB drive. There are two options: overwrite the original drive in the ERL or buy a new drive. I tried the second option first and wrote to a new Sandrive Ultra Fit 32GB USB 3.0 Flash Drive (SDCZ43-032G-GAM46). It did not work and I later found on some blog that those drives do not work. I have not tried another third party drive since.&quot;&lt;/li&gt;
-            &lt;li&gt;The tutorial covers all of the steps, and the configuration files, including rc.conf, IP configuration, DHCP (and v6), pf, and DNS (unbound)&lt;/li&gt;
-            &lt;li&gt;&quot;I'm pretty happy with ERL and FreeBSD. There is great community documentation on how to configure all the pieces of software that make a FreeBSD-based home network gateway possible. I can tweak things as needed and upgrade when newer versions become available.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;My plan on upgrading the base OS is to get a third party USB drive that works, write a newer FreeBSD image to it, and replace the drive in the ERL enclosure. This way I can keep a bunch of drives in rotation. Upgrades to newer builds or reverts to last known good version are as easy as swapping USB drives.&quot;&lt;/li&gt;
-            &lt;li&gt;Although something more nanobsd style with 2 partitions on the one drive might be easier.&lt;/li&gt;
-            &lt;li&gt;&quot;Configuration with Ansible means I don't have to manually do things again and again. As the configs change they'll be tracked in git so I get version control as well. ERL is simply a great piece of network hardware. I'm tempted to try Ubiquiti's WiFi products instead of a mixture of DD-WRT and OpenWRT devices I have now. But that is for another day and perhaps another blog post.&quot;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://github.com/michipili/bsdowl&quot;&gt;A highly portable build system targeting modern UNIX systems&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;An exciting new/old project is up on GitHub that we wanted to bring your attention to.&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;BSD Owl is a highly portable build-system based around BSD Make that supports a variety of popular (and not so popular) languages, such as:&lt;/p&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;C programs, compiled for several targets&lt;/li&gt;
-            &lt;li&gt;C libraries, static and shared, compiled for several targets&lt;/li&gt;
-            &lt;li&gt;Shell scripts&lt;/li&gt;
-            &lt;li&gt;Python scripts&lt;/li&gt;
-            &lt;li&gt;OCaml programs&lt;/li&gt;
-            &lt;li&gt;OCaml libraries, with ocamldoc documentation&lt;/li&gt;
-            &lt;li&gt;OCaml plugins&lt;/li&gt;
-            &lt;li&gt;TeX documents, prepared for several printing devices&lt;/li&gt;
-            &lt;li&gt;METAPOST figures, with output as PDF, PS, SVG or PNG, either as part of a TeX document or as standalone documents&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;What about features you may ask? Well BSD Owl has plenty of those to go around:&lt;/p&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Support of compilation profiles&lt;/li&gt;
-            &lt;li&gt;Support of the parallel mode (at the directory level)&lt;/li&gt;
-            &lt;li&gt;Support of separate trees for sources and objects&lt;/li&gt;
-            &lt;li&gt;Support of architecture-dependant compilation options&lt;/li&gt;
-            &lt;li&gt;Support GNU autoconf&lt;/li&gt;
-            &lt;li&gt;Production of GPG-signed tarballs&lt;/li&gt;
-            &lt;li&gt;Developer subshell, empowered with project-specific scripts&lt;/li&gt;
-            &lt;li&gt;Literate programming using noweb&lt;/li&gt;
-            &lt;li&gt;Preprocessing with m4&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;As far as platform support goes, BSD Owl is tested on OSX / Debian Jesse and FreeBSD &amp;gt; 9. Future support for OpenBSD and NetBSD is planned, once they update their respective BSD Make binaries to more modern versions&lt;/p&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;News Roundup&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://marc.info/?l=openbsd-tech&amp;amp;m=148342051832692&amp;amp;w=2&quot;&gt;find -delete in OpenBSD. Thanks to tedu@ OpenBSD will have this very handy flag to in the future.&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;OpenBSD's find(1) utility will now support the -delete operation&lt;/li&gt;
-            &lt;li&gt;&quot;This option is not posix (not like that's stopped find accumulating a dozen extensions), but it is in gnu and freebsd (for 20 years). it's also somewhat popular among sysadmins and blogs, etc. and perhaps most importantly, it nicely solves one of the more troublesome caveats of find (which the man page actually covers twice because it's so common and easy to screw up). So I think it makes a good addition.&quot;&lt;/li&gt;
-            &lt;li&gt;The actual code was borrowed from FreeBSD&lt;/li&gt;
-            &lt;li&gt;Using the -delete option is much more performant than forking rm once for each file, and safer because there is no risk of mangling path names&lt;/li&gt;
-            &lt;li&gt;If you encounter a system without a -delete option, your best bet is to use the -print0 option of find, which will print each filename terminated by a null byte, and pipe that into xargs -0 rm&lt;/li&gt;
-            &lt;li&gt;This avoids any ambiguity caused by files with spaces in the names&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://lumina-desktop.org/version-1-2-0-released/&quot;&gt;New version of the Lumina desktop released&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Just in time to kickoff 2017 we have a new release of Lumina Desktop (1.2.0)&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;Some of the notable changes include fixes to make it easier to port to other platforms, and some features:&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;New Panel Plugins:&lt;/p&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;audioplayer&quot; (panel version of the desktop plugin with the same name): Allows the user to load/play audio files directly through the desktop itself.&lt;/li&gt;
-            &lt;li&gt;&quot;jsonmenu&quot; (panel version of the menu plugin with the same name): Allows an external utility/script to be used to generate a menu/contents on demand.&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;New Menu Plugins:
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;lockdesktop&quot;: Menu option for instantly locking the desktop session.&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;New Utilities:
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;code&gt;lumina-archiver&lt;/code&gt;: This is a pure Qt5 front-end to the &quot;tar&quot; utility for managing/creating archives. This can also use the &lt;code&gt;dd&lt;/code&gt; utility to burn a &quot;*.img&quot; file to a USB device for booting.&quot;&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;Looks like the news already made its rounds to a few different sites, with Phoronix and Softpedia picking it up as well&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Lumina-1.2-Released&quot;&gt;Phoronix&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://news.softpedia.com/news/lumina-1-2-desktop-environments-launches-for-trueos-with-various-enhancements-511495.shtml&quot;&gt;Softpedia &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;TrueOS users running the latest updates are already on the pre-release version of 1.2.1, so nothing has to be done there to get the latest and greatest.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www.vidarholen.net/contents/blog/?p=479&quot;&gt;dd is not a disk writing tool&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;If you've ever used dd, you've probably used it to read or write disk images:&quot;
-            &amp;gt; # Write myfile.iso to a USB drive
-            &amp;gt; dd if=myfile.iso of=/dev/sdb bs=1M&lt;/li&gt;
-            &lt;li&gt;&quot;Usage of dd in this context is so pervasive that it's being hailed as the magic gatekeeper of raw devices. Want to read from a raw device? Use dd. Want to write to a raw device? Use dd. This belief can make simple tasks complicated. How do you combine dd with gzip? How do you use pv if the source is raw device? How do you dd over ssh?&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;The fact of the matter is, dd is not a disk writing tool. Neither &quot;d&quot; is for &quot;disk&quot;, &quot;drive&quot; or &quot;device&quot;. It does not support &quot;low level&quot; reading or writing. It has no special dominion over any kind of device whatsoever.&quot;&lt;/li&gt;
-            &lt;li&gt;Then a number of alternatives are discussed&lt;/li&gt;
-            &lt;li&gt;&quot;However, this does not mean that dd is useless! The reason why people started using it in the first place is that it does exactly what it's told, no more and no less. If an alias specifies -a, cp might try to create a new block device rather than a copy of the file data. If using gzip without redirection, it may try to be helpful and skip the file for not being regular. Neither of them will write out a reassuring status during or after a copy.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;dd, meanwhile, has one job*: copy data from one place to another. It doesn't care about files, safeguards or user convenience. It will not try to second guess your intent, based on trailing slashes or types of files. When this is no longer a convenience, like when combining it with other tools that already read and write files, one should not feel guilty for leaving dd out entirely.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;dd is the swiss army knife of the open, read, write and seek syscalls. It's unique in its ability to issue seeks and reads of specific lengths, which enables a whole world of shell scripts that have no business being shell scripts. Want to simulate a lseek+execve? Use dd! Want to open a file with O_SYNC? Use dd! Want to read groups of three byte pixels from a PPM file? Use dd!&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;It's a flexible, unique and useful tool, and I love it. My only issue is that, far too often, this great tool is being relegated to and inappropriately hailed for its most generic and least interesting capability: simply copying a file from start to finish.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;dd actually has two jobs: Convert and Copy. Legend has it that the intended name, &quot;cc&quot;, was taken by the C compiler, so the letters were shifted by one to give &quot;dd&quot;. This is also why we ended up with a Window system called X.&quot;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://eriknstr.github.io/utils/dd-countdown.htm&quot;&gt;dd countdown&lt;/a&gt; &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://www.strugglingcoder.info/index.php/bhyve-setup-for-tcp-testing/&quot;&gt;Bhyve setup for tcp testing &lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;FreeBSD Developer Hiren Panchasara writes about his setup to use bhyve to test changes to the TCP stack in FreeBSD&lt;/li&gt;
-            &lt;li&gt;&quot;Here is how I test simple FreeBSD tcp changes with dummynet on bhyve. I've already wrote down &lt;a href=&quot;https://www.strugglingcoder.info/index.php/drop-a-packet/&quot;&gt;how I do dummynet&lt;/a&gt; so I'll focus on bhyve part.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;A few months back when I started looking into improving FreeBSD TCP's response to packet loss, I looked around for traffic simulators which can do deterministic packet drop for me.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;I had used dummynet(4) before so I thought of using it but the problem is that it only provided probabilistic drops. You can specify dropping 10% of the total packets&quot;&lt;/li&gt;
-            &lt;li&gt;So he wrote a quick hack, hopefully he'll polish it up and get it committed&lt;/li&gt;
-            &lt;li&gt;&quot;Setup: I'll create 3 bhyve guests: client, router and server&quot; &lt;/li&gt;
-            &lt;li&gt;&quot;Both client and server need their routing tables setup correctly so that they can reach each other. The Dummynet node is the router / traffic shaping node here. We need to enable forwarding between interfaces: sysctl net.inet.ip.forwarding=1&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;We need to setup links (called 'pipes') and their parameters on dummynet node&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;For simulations, I run a lighttpd web-server on the server which serves different sized objects and I request them via curl or wget from the client. I have tcpdump running on any/all of four interfaces involved to observe traffic and I can see specified packets getting dropped by dummynet. sysctl net.inet.ip.dummynet.io&lt;em&gt;pkt&lt;/em&gt;drop is incremented with each packet that dummynet drops.&quot;&lt;/li&gt;
-            &lt;li&gt;&quot;Here, 192.* addresses are for ssh and 10.* are for guests to be able to communicate within themselves.&quot;&lt;/li&gt;
-            &lt;li&gt;Create 2 tap interfaces for each end point, and 3 from the router. One each for SSH/control, and the others for the test flows. Then create 3 bridges, the first includes all of the control tap interfaces, and your hosts' real interface. This allows the guests to reach the internet to download packages etc. The other two bridges form the connections between the three VMs&lt;/li&gt;
-            &lt;li&gt;The creation and configuration of the VMs is documented in detail&lt;/li&gt;
-            &lt;li&gt;I used a setup very similar to this for teaching the basics of how TCP works when I was teaching at a local community college&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/pr1ntf/status/817895393824382976&quot;&gt;Plan9 on Bhyve&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blather.michaelwlucas.com/archives/2832&quot;&gt;Get your name in the relayd book&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/2016-computer-review&quot;&gt;Ted Unangst's 2016 Computer Reviews &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://developeronfire.com/episode-198-bryan-cantrill-persistence-and-action&quot;&gt;Bryan Cantrill on Developer On Fire podcast &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://dev.bsdrp.net/benchs/2016.SM5018A-FTN4-Chelsio.png&quot;&gt;2016 in review: pf/ipfw's impact on forwarding performance over time, on 8 core Atom &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/johalun/status/819039940914778112&quot;&gt;#Wayland Weston with X and EGL clients, running on #FreeBSD in VBox with new scfb backend. More coming soon! &lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/A0LSipCj&quot;&gt; Eddy - TRIM Partitioning&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/UE1k4Q99&quot;&gt; Matt - Why FreeBSD?&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/TjTkqHA4&quot;&gt; Shawn - ZFS Horror?&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Baxd6Pjy&quot;&gt; Andrew - Bootloaders&lt;/a&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://allanjude.com/talks/AsiaBSDCon2016_geliboot_pdf1a.pdf&quot;&gt;GELIBoot Paper &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://www.freebsd.org/doc/en_US.ISO8859-1/books/arch-handbook/boot.html&quot;&gt;FreeBSD Architecture Handbook&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/NygwchFD&quot;&gt; Bryan - ZFS Error&lt;/a&gt; &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>How the Dtrace saved Christmas</title>
-        <smi:episode>175</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_04-how_dtrace_saved_christmas"/>
-        <id>http://www.bsdnow.tv/episodes/2017_1_04-how_dtrace_saved_christmas</id>
-        <published>2017-01-05T02:09:22-08:00</published>
-        <updated>2017-01-06T06:56:00Z</updated>
-        <link length="46981006" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0175.mp3" type="audio/mpeg" rel="enclosure"/>
-        <media:group>
-            <media:content fileSize="46981006" duration="5849" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0175.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
-            <media:content fileSize="73261773" duration="5849" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0175.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
-            <media:content fileSize="341368276" duration="5849" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0175-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="658693918" duration="5849" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2016/bsd-0175.mp4" type="video/mp4" medium="video" isDefault="false"/>
-            <media:content fileSize="658693918" duration="5849" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0175.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
-            <media:content fileSize="88172" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/01/bsd-0175-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
-        </media:group>
-        <psc:chapters version="1.1">
-            <psc:chapter start="00:02:20" title="Headlines"/>
-            <psc:chapter start="00:02:20" title="OpenSSL 1.1 new API" href="https://www.mail-archive.com/tech@openbsd.org/msg36437.html"/>
-            <psc:chapter start="00:15:05" title="Exfiltration via receive timing" href="http://www.tedunangst.com/flak/post/exfiltration-via-receive-timing"/>
-            <psc:chapter start="00:22:05" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
-            <psc:chapter start="00:25:05" title="OpenBSD Desktop install" href="https://news.ycombinator.com/item?id=13223351"/>
-            <psc:chapter start="00:29:10" title="DTrace saved Christmas" href="https://hackernoon.com/dtrace-at-home-145ba773371e"/>
-            <psc:chapter start="00:38:55" title="News Roundup"/>
-            <psc:chapter start="00:38:55" title="Security roundup" href="https://functionallyparanoid.com/2016/12/22/say-my-blogs-name/"/>
-            <psc:chapter start="00:48:40" title="Open source book: &quot;Producing Open Source Software&quot;" href="http://producingoss.com/en/producingoss.pdf"/>
-            <psc:chapter start="00:54:30" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
-            <psc:chapter start="00:59:45" title="DTrace Flamegraphs for node.js on FreeBSD" href="http://www.venshare.com/dtrace-flamegraphs-for-freebsd-and-node-js-2/"/>
-            <psc:chapter start="01:10:40" title="SSHGuard 2.0 Call for Testing" href="https://sourceforge.net/p/sshguard/mailman/message/35580961/"/>
-            <psc:chapter start="01:15:05" title="Beastie Bits"/>
-            <psc:chapter start="01:15:05" title="2007 Paper: &quot;Porting the ZFS file system to the FreeBSD operating system&quot;" href="https://2007.asiabsdcon.org/papers/P16-paper.pdf"/>
-            <psc:chapter start="01:16:00" title="A Message From the FreeBSD Foundation" href="https://vimeo.com/user60888329"/>
-            <psc:chapter start="01:17:10" title="Remembering Roger Faulkner, Unix Champion" href="http://thenewstack.io/remembering-roger-faulkner/"/>
-            <psc:chapter start="01:18:00" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
-            <psc:chapter start="01:22:30" title="Feedback/Questions"/>
-            <psc:chapter start="01:22:30" title="Peter - TrueOS Network" href="http://pastebin.com/QtyJeHMk"/>
-            <psc:chapter start="01:24:50" title="Chris - Remote Desktop" href="http://pastebin.com/ru726VTV"/>
-            <psc:chapter start="01:26:30" title="Goetz - Geli on Serial" href="http://pastebin.com/LQZPgF5g"/>
-            <psc:chapter start="01:28:35" title="Joe - BGP" href="http://pastebin.com/jFeL8zKX"/>
-            <psc:chapter start="01:31:40" title="Alejandro - BSD Router" href="http://pastebin.com/Xq9cbmfn"/>
-        </psc:chapters>
-        <contributor>
-            <name>JT</name>
-            <uri>https://twitter.com/q5sys</uri>
-        </contributor>
-        <summary>We've got all sorts of post-holiday goodies to share. New OpenSSL APIs, Dtrace, OpenBSD desktops, a truly paranoid start to your 2017 security &amp; more!</summary>
-        <content type="html">&lt;h1&gt;Episode 175: How the Dtrace saved Christmas&lt;/h1&gt;
-            &lt;h2&gt;Headlines&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://www.mail-archive.com/tech@openbsd.org/msg36437.html&quot;&gt;OpenSSL 1.1 API migration path, or the lack thereof&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;As many of you will already be aware, the OpenSSL 1.1.0 release intentionally introduced significant API changes from the previous release. In summary, a large number of data structures that were previously publically visible have been made opaque, with accessor functions being added in order to get and set some of the fields within these now opaque structs. It is worth noting that the use of opaque data structures is generally beneficial for libraries, since changes can be made to these data structures without breaking the ABI. As such, the overall direction of these changes is largely reasonable.&lt;/p&gt;
-
-            &lt;p&gt;However, while API change is generally necessary for progression, in this case it would appear that there is NO transition plan and a complete disregard for the impact that these changes would have on the overall open source ecosystem.&lt;/p&gt;
-
-            &lt;p&gt;So far it seems that the only approach is to place the migration burden onto each and every software project that uses OpenSSL, pushing significant code changes to each project that migrates to OpenSSL 1.1, while maintaining compatibility with the previous API. This is forcing each project to provide their own backwards compatibility shims, which is practically guaranteeing that there will be a proliferation of variable quality implementations; it is almost a certainty that some of these will contain bugs, potentially introducing security issues or memory leaks.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;I think this will be a bigger issue for other operating systems that do not have the flexibility of the ports tree to deliver a newer version of OpenSSL. If a project switches from the old API to the new API, and the OS only provides the older branch of OpenSSL, how can the application work?&lt;/li&gt;
-            &lt;li&gt;Of course, this leaves the issue, if application A wants OpenSSL 1.0, and application B only works with OpenSSL 1.1, how does that work?&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;Due to a number of factors, software projects that make use of OpenSSL cannot simply migrate to the 1.1 API and drop support for the 1.0 API - in most cases they will need to continue to support both. Firstly, I am not aware of any platform that has shipped a production release with OpenSSL 1.1 - any software that supported OpenSSL 1.1 only, would effectively be unusable on every platform for the time being. Secondly, the OpenSSL 1.0.2 release is supported until the 31st of December 2019, while OpenSSL 1.1.0 is only supported until the 31st of August 2018 - any LTS style release is clearly going to consider shipping with 1.0.2 as a result.&lt;/p&gt;
-
-            &lt;p&gt;Platforms that are attempting to ship with OpenSSL 1.1 are already encountering significant challenges - for example, Debian currently has 257 packages (out of 518) that do not build against OpenSSL 1.1. There are also hidden gotchas for situations where different libraries are linked against different OpenSSL versions and then share OpenSSL data structures between them - many of these problems will be difficult to detect since they only fail at runtime.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;It will be interesting to see what happens with OpenSSL, and LibreSSL&lt;/li&gt;
-            &lt;li&gt;Hopefully, most projects will decide to switch to the cleaner APIs provided by s2n or libtls, although they do not provide the entire functionality of the OpenSSL API.&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=13284648&quot;&gt;Hacker News comments&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www.tedunangst.com/flak/post/exfiltration-via-receive-timing&quot;&gt;exfiltration via receive timing&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;Another similar way to create a backchannel but without transmitting anything is to introduce delays in the receiver and measure throughput as observed by the sender. All we need is a protocol with transmission control. Hmmm. Actually, it's easier (and more reliable) to code this up using a plain pipe, but the same principle applies to networked transmissions.&lt;/p&gt;
-
-            &lt;p&gt;For every digit we want to &quot;send&quot; back, we sleep a few seconds, then drain the pipe. We don't care about the data, although if this were a video file or an OS update, we could probably do something useful with it.&lt;/p&gt;
-
-            &lt;p&gt;Continuously fill the pipe with junk data. If (when) we block, calculate the difference between before and after. This is a our secret backchannel data. (The reader and writer use different buffer sizes because on OpenBSD at least, a writer will stay blocked even after a read depending on the space that opens up. Even simple demos have real world considerations.)&lt;/p&gt;
-
-            &lt;p&gt;In this simple example, the secret data (argv) is shared by the processes, but we can see that the writer isn't printing them from its own address space. Nevertheless, it works.&lt;/p&gt;
-
-            &lt;p&gt;Time to add random delays and buffering to firewalls? Probably not.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;An interesting thought experiment that shows just how many ways there are to covertly convey a message&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=13223351&quot;&gt;OpenBSD Desktop in about 30 Minutes&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Over at hackernews we have a very non-verbose, but handy guide to getting to a OpenBSD desktop in about 30 minutes!&lt;/li&gt;
-            &lt;li&gt;First, the guide will assume you've already installed OpenBSD 6.0, so you'll need to at least be at the shell prompt of your freshly installed system to begin.&lt;/li&gt;
-            &lt;li&gt;With that, now its time to do some tuning. Editing some resource limits in login.conf will be our initial task, upping some datasize tunables to 2GB&lt;/li&gt;
-            &lt;li&gt;Next up, we will edit some of the default &quot;doas&quot; settings to something a bit more workable for desktop computing&lt;/li&gt;
-            &lt;li&gt;Another handy trick, editing your .profile to have your PKG_PATH variables set automatically will make&lt;/li&gt;
-            &lt;li&gt;One thing some folks may overlook, but disabling atime can speed disk performance (which you probably don't care about atime on your desktop anyway), so this guide will show you what knobs to tweak in /etc/fstab to do so&lt;/li&gt;
-            &lt;li&gt;After some final WPA / Wifi configuration, we then drop to &quot;mere mortal&quot; mode and begin our package installations. In this particular guide, he will be setting up Lumina Desktop (Which yes, it is on OpenBSD)&lt;/li&gt;
-            &lt;li&gt;A few small tweaks later for xscreensaver and your xinitrc file, then you are ready to run &quot;startx&quot; and begin your desktop session!&lt;/li&gt;
-            &lt;li&gt;All in all, great guide which if you are fast can probably be done in even less than 30 minutes and will result in a rock-solid OpenBSD desktop rocking Lumina none-the-less.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://hackernoon.com/dtrace-at-home-145ba773371e&quot;&gt;How DTrace saved Christmas&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Adam Leventhal, one of the co-creators of DTrace, wrote up this post about how he uses DTrace at home, to save Christmas&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;I had been procrastinating making the family holiday card. It was a combination of having a lot on my plate and dreading the formulation of our annual note recapping the year; there were some great moments, but I'm glad I don't have to do 2016 again. It was just before midnight and either I'd make the card that night or leave an empty space on our friends' refrigerators.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Adobe Illustrator had other ideas: &quot;Unable to set maximum number of files to be opened&quot;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;I'm not the first person to hit this. The problem seems to have existed since CS6 was released in 2016. None of the solutions were working for me, and — inspired by &lt;a href=&quot;https://medium.com/startup-grind/how-to-start-a-company-with-no-free-time-b70fbe7b918a#.uujdblxc6&quot;&gt;Sara Mauskopf's excellent post&lt;/a&gt; — I was rapidly running out of the time bounds for the project. Enough; I'd just DTrace it.&lt;/p&gt;
-
-            &lt;p&gt;A colleague scoffed the other day, &quot;I mean, how often do you actually use DTrace?&quot; In his mind DTrace was for big systems, critical system, when dollars and lives were at stake. My reply: I use DTrace every day. I can't imagine developing software without DTrace, and I use it when my laptop (not infrequently) does something inexplicable (I'm forever grateful to the Apple team that ported it to Mac OS X)&lt;/p&gt;
-
-            &lt;p&gt;Illustrator is failing on setrlimit(2) and blowing up as result. Let's confirm that it is in fact returning -1:$ sudo dtrace -n 'syscall::setrlimit:return/execname == &quot;Adobe Illustrato&quot;/{ printf(&quot;%d %d&quot;, arg1, errno); }'
-            dtrace: description 'syscall::setrlimit:return' matched 1 probe
-            CPU     ID                    FUNCTION:NAME
-            0    532                 setrlimit:return -1 1&lt;/p&gt;
-
-            &lt;p&gt;There it is. And setrlimit(2) is failing with errno 1 which is EPERM (value too high for non-root user). I already tuned up the files limit pretty high. Let's confirm that it is in fact setting the files limit and check the value to which it's being set. To write this script I looked at the documentation for setrlimit(2) (hooray for man pages!) to determine that the position of the resource parameter (arg0) and the type of the value parameter (struct rlimit). I needed the DTrace copyin() subroutine to grab the structure from the process's address space:
-            $ sudo dtrace -n 'syscall::setrlimit:entry/execname == &quot;Adobe Illustrato&quot;/{ this-&amp;gt;r = *(struct rlimit *)copyin(arg1, sizeof (struct rlimit)); printf(&quot;%x %x %x&quot;, arg0, this-&amp;gt;r.rlim_cur, this-&amp;gt;r.rlim_max);  }'&lt;/p&gt;
-
-            &lt;p&gt;dtrace: description 'syscall::setrlimit:entry' matched 1 probe
-            CPU     ID                FUNCTION:NAME
-            0    531              setrlimit:entry 1008 2800 7fffffffffffffff
-            Looking through /usr/include/sys/resource.h we can see that 1008 corresponds to the number of files (RLIMIT&lt;em&gt;NOFILE |
-            _RLIMIT&lt;/em&gt;POSIX_FLAG)&lt;/p&gt;
-
-            &lt;p&gt;The quickest solution was to use DTrace again to whack a smaller number into that struct rlimit. Easy:
-            $ sudo dtrace -w -n 'syscall::setrlimit:entry/execname == &quot;Adobe Illustrato&quot;/{ this-&amp;gt;i = (rlim&lt;em&gt;t *)alloca(sizeof (rlim&lt;/em&gt;t)); *this-&amp;gt;i = 10000; copyout(this-&amp;gt;i, arg1 + sizeof (rlim_t), sizeof (rlim_t)); }'&lt;/p&gt;
-
-            &lt;p&gt;dtrace: description 'syscall::setrlimit:entry' matched 1 probe
-            dtrace: could not enable tracing: Permission denied&lt;/p&gt;
-
-            &lt;p&gt;Oh right. Thank you SIP (System Integrity Protection). This is a new laptop (at least a new motherboard due to some bizarre issue) which probably contributed to Illustrator not working when once it did. Because it's new I haven't yet disabled the part of SIP that prevents you from using DTrace on the kernel or in destructive mode (e.g. copyout()). It's easy enough to disable, but I'm reboot-phobic — I hate having to restart my terminals — so I went to plan B: lldb
-            + After using DTrace to get the address of the setrlimit function, Adam used lldb to change the result before it got back to the application:
-            (lldb) break set -n _init
-            Breakpoint 1: 47 locations.
-            (lldb) run
-            ...
-            (lldb) di -s 0x1006e5b72 -c 1
-            0x1006e5b72: callq  0x1011628e0     ; symbol stub for: setrlimit
-            (lldb) memory write 0x1006e5b72 0x31 0xc0 0x90 0x90 0x90
-            (lldb) di -s 0x1006e5b72 -c 4
-            0x1006e5b72: xorl   %eax, %eax
-            0x1006e5b74: nop
-            0x1006e5b75: nop
-            0x1006e5b76: nop&lt;/p&gt;
-
-            &lt;p&gt;Next I just did a process detach and got on with making that holiday card...&lt;/p&gt;
-
-            &lt;p&gt;DTrace was designed for solving hard problems on critical systems, but the need to understand how systems behave exists in development and on consumer systems. Just because you didn't write a program doesn't mean you can't fix it.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;News Roundup&lt;/h2&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://functionallyparanoid.com/2016/12/22/say-my-blogs-name/&quot;&gt;Say my Blog's name!&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Brian Everly over at functionally paranoid has a treat for us today. Let us give you a moment to get the tin-foil hats on... Ok, done? Let's begin!&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;He starts off with a look at physical security. He begins by listing your options:&lt;/p&gt;
-
-            &lt;blockquote&gt;
-            &lt;ol&gt;
-            &lt;li&gt;BIOS passwords – Not something I'm typically impressed with.  Most can be avoided by opening up the machine, closing a jumper and powering it up to reset the NVRAM to factory defaults.  I don't even bother with them.&lt;/li&gt;
-            &lt;li&gt;Full disk encryption – This one really rings my bell in a positive way.  If you can kill power to the box (either because the bad actor has to physically steal it and they aren't carrying around a pile of car batteries and an inverter or because you can interrupt power to it some other way), then the disk will be encrypted.  The other beauty of this is that if a drive fails (and they all do eventually) you don't have to have any privacy concerns about chucking it into an electronics recycler (or if you are a bad, bad person, into a landfill) because that data is effectively gibberish without the key (or without a long time to brute force it).&lt;/li&gt;
-            &lt;li&gt;Two factor auth for logins – I like this one as well.  I'm not a fan of biometrics because if your fingerprint is compromised (yes, it can happen – &lt;a href=&quot;https://www.washingtonpost.com/news/federal-eye/wp/2015/07/09/hack-of-security-clearance-system-affected-21-5-million-people-federal-authorities-say/&quot;&gt;read&lt;/a&gt; about the department of defense background checks that were extracted by a bad agent – they included fingerprint images) you can't exactly send off for a new finger.  Things like the &lt;a href=&quot;https://www.yubico.com/&quot;&gt;YubiKey&lt;/a&gt; are pretty slick.  They require that you have the physical hardware key as well as the password so unless the bad actor lifted your physical key, they would have a much harder time with physical access to your hardware.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;/blockquote&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;Out of those options, Brian mentions that he uses disk encryption and yubi-key for all his secure network systems.&lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;Next up is network segmentation, in this case the first thing to do is change your admin password for any ISP supplied modem
-            / router. He goes on to scare us of javascript attacks being used not against your local machine, but instead non WAN exposed router admin interface. Scary Stuff!&lt;/li&gt;
-            &lt;li&gt;For added security, naturally he firewalls the router by plugging in the LAN port to a OpenBSD box which does the 2nd layer of firewall / router protection.&lt;/li&gt;
-            &lt;li&gt;What about privacy and browsing? Here's some more of his tips:&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;I use Unbound as my DNS resolver on my local network (with all UDP port 53 traffic redirected to it by pf so I don't have to configure anything on the clients) and then forward the traffic to DNSCrypt Proxy, caching the results in Unbound.  I notice ZERO performance penalty for this and it greatly enhances privacy.  This combination of Unbound and DNSCrypt Proxy works very well together.  You can even have redundancy by having multiple upstream resolvers running on different ports (basically run the DNSCrypt Proxy daemon multiple times pointing to different public resolvers).&lt;/p&gt;
-
-            &lt;p&gt;I also use Firefox exclusively for my web browsing.  By leveraging the tips on &lt;a href=&quot;https://www.privacytools.io/&quot;&gt;this page&lt;/a&gt;, you can lock it down to do a great job of privacy protection.  The fact that your laptop's battery drain rate can be used to fingerprint your browser completely trips me out but hey – that's the world we live in.'&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;What about the cloud you may ask? Well Brian has a nice solution for that as well:&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;I recently decided I would try to live a cloud-free life and I'll give you a bit of a synopsis on it.  I discovered a wonderful Open Source project called &lt;a href=&quot;http://www.freenas.org/&quot;&gt;FreeNAS&lt;/a&gt;.  What this little gem does is allow you to install a FreeBSD/zfs file server appliance on amd64 hardware and have a slick administrative web interface for managing it.  I picked up a nice SuperMicro motherboard and chassis that has 4 hot swap drive bays (and two internal bays that I used to mirror the boot volume on) and am rocking the zfs lifestyle!  (Thanks Alan Jude!)&lt;/p&gt;
-
-            &lt;p&gt;One of the nicest features of the FreeNAS is that it provides the ability to leverage the FreeBSD jail functionality in an easy to use way.  It also has plugins but the security on those is a bit sketchy (old versions of libraries, etc.) so I decided to roll my own.  I created two jails – one to run OwnCloud (yeah, I know about NextCloud and might switch at some point) and the other to run a full SMTP/IMAP email server stack.  I used &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Lets Encrypt&lt;/a&gt; to generate the SSL certificates and made sure I hit an A on &lt;a href=&quot;https://www.ssllabs.com/&quot;&gt;SSLLabs&lt;/a&gt; before I did anything else.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;His post then goes in to talk about Backups and IoT devices, something else you need to consider in this truely paranoid world we are forced to live in. We even get a nice shout-out near the end!&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;Enter &lt;a href=&quot;http://www.tarsnap.com/&quot;&gt;TarSnap&lt;/a&gt; – a company that advertises itself as &quot;Online Backups for the Truly Paranoid&quot;.  It brings a tear to my eye – a kindred spirit!  :-)  Thanks again to Alan Jude and Kris Moore from the &lt;a href=&quot;http://www.bsdnow.tv/&quot;&gt;BSD Now podcast&lt;/a&gt; for turning me onto this company.  It has a very easy command syntax (yes, it isn't a GUI tool – suck it up buttercup, you wanted to learn the shell didn't you?) and even allows you to compile the thing from source if you want to.&quot;&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;We've only covered some of the highlights here, but you really should take a few moments of your time today and read this top to bottom. Lots of good tips here, already thinking how I can secure my home network better.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://producingoss.com/en/producingoss.pdf&quot;&gt;The open source book: &quot;Producing Open Source Software&quot;&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&quot;How to Run a Successful Free Software Project&quot; by Karl Fogel&lt;/li&gt;
-            &lt;li&gt;9 chapters and over 200 pages of content, plus many appendices&lt;/li&gt;
-            &lt;li&gt;Some interesting topics include:
-
-            &lt;ul&gt;
-            &lt;li&gt;Choosing a good name&lt;/li&gt;
-            &lt;li&gt;version control&lt;/li&gt;
-            &lt;li&gt;bug tracking&lt;/li&gt;
-            &lt;li&gt;creating developer guidelines&lt;/li&gt;
-            &lt;li&gt;setting up communications channels&lt;/li&gt;
-            &lt;li&gt;choosing a license (although this guide leans heavily towards the GPL)&lt;/li&gt;
-            &lt;li&gt;setting the tone of the project&lt;/li&gt;
-            &lt;li&gt;joining or creating a Non-Profit Organization&lt;/li&gt;
-            &lt;li&gt;the economics of open source&lt;/li&gt;
-            &lt;li&gt;release engineering, packaging, nightly builds, etc&lt;/li&gt;
-            &lt;li&gt;how to deal with forks&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;A lot of good information packaged into this ebook&lt;/li&gt;
-            &lt;li&gt;This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;http://www.venshare.com/dtrace-flamegraphs-for-freebsd-and-node-js-2/&quot;&gt;DTrace Flamegraphs for node.js on FreeBSD &lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;One of the coolest tools built on top of DTrace is flamegraphs&lt;/li&gt;
-            &lt;li&gt;They are a very accurate, and visual way to see where a program is spending its time, which can tell you why it is slow, or where it could be improved. Further enhancements include off-cpu flame graphs, which tell you when the program is doing nothing, which can also be very useful
-            &amp;gt; Recently BSD UNIXes are being acknowledged by the application development community as an interesting operating system to deploy to. This is not surprising given that FreeBSD had jails, the original container system, about 17 years ago and a lot of network focused businesses such as netflix see it as the best way to deliver content. This developer interest has led to hosting providers supporting FreeBSD. e.g. Amazon, Azure, Joyent and you can get a 2 months free instance at Digital Ocean.&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;DTrace is another vital feature for anyone who has had to deal with production issues and has been in FreeBSD since version 9. As of FreeBSD 11 the operating system now contains some great work by Fedor Indutny so you can profile node applications and create flamegraphs of node.js processes without any additional runtime flags or restarting of processes.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;This is one of the most important things about DTrace. Many applications include some debugging functionality, but they require that you stop the application, and start it again in debugging mode. Some even require that you recompile the application in debugging mode.&lt;/li&gt;
-            &lt;li&gt;Being able to attach DTrace to an application, while it is under load, while the problem is actively happening, can be critical to figuring out what is going on.&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;In order to configure your FreeBSD instance to utilize this feature make the following changes to the configuration of the server.&lt;/p&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Load the DTrace module at boot&lt;/li&gt;
-            &lt;li&gt;Increase some DTrace limits&lt;/li&gt;
-            &lt;li&gt;Install node with the optional DTrace feature compiled in&lt;/li&gt;
-            &lt;li&gt;Follow the generic &lt;a href=&quot;https://nodejs.org/en/blog/uncategorized/profiling-node-js/&quot;&gt;node.js flamegraph tutorial&lt;/a&gt;
-            &amp;gt; I hope you find this article useful. The ability to look at a runtime in this manor has saved me twice this year and I hope it will save you in the future too. My next post on freeBSD and node.js will be looking at some scenarios on utilising the ZFS features.&lt;/li&gt;
-            &lt;/ul&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;Also check out Brendan Gregg's &lt;a href=&quot;http://queue.acm.org/detail.cfm?id=2927301&quot;&gt;ACM Queue Article&lt;/a&gt; &quot;The Flame Graph: This visualization of software execution is a new necessity for performance profiling and debugging&quot;&lt;/p&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h3&gt;&lt;a href=&quot;https://sourceforge.net/p/sshguard/mailman/message/35580961/&quot;&gt;SSHGuard 2.0 Call for Testing&lt;/a&gt;&lt;/h3&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;SSHGuard is a tool for monitoring brute force attempts and blocking them&lt;/li&gt;
-            &lt;li&gt;It has been a favourite of mine for a while because it runs as a pipe from syslogd, rather than reading the log files from the disk&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;blockquote&gt;
-            &lt;p&gt;A lot of work to get SSHGuard working with new log sources (journalctl, macOS log) and backends (firewalld, ipset) has happened in 2.0. The new version also uses a configuration file.&lt;/p&gt;
-
-            &lt;p&gt;Most importantly, SSHGuard has been split into several processes piped into one another (sshg-logmon | sshg-parser | sshg-blocker | sshg-fw). sshg-parser can run with capsicum(4) and pledge(2). sshg-blocker can be sandboxed in its default configuration (without pid file, whitelist, blacklisting) and has not been tested sandboxed in other configurations.&lt;/p&gt;
-            &lt;/blockquote&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Breaking the processes up so that the sensitive bits can be sandboxes is very nice to see&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Beastie Bits&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://2007.asiabsdcon.org/papers/P16-paper.pdf&quot;&gt;pjd's 2007 paper from AsiaBSDCon: &quot;Porting the ZFS file system to the FreeBSD operating system&quot;&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://vimeo.com/user60888329&quot;&gt;A Message From the FreeBSD Foundation&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://thenewstack.io/remembering-roger-faulkner/&quot;&gt;Remembering Roger Faulkner, Unix Champion&lt;/a&gt; and &lt;a href=&quot;https://news.ycombinator.com/item?id=13293596&quot;&gt;A few HN comments (including Bryan Cantrill)&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;h2&gt;Feedback/Questions&lt;/h2&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/QtyJeHMk&quot;&gt; Peter - TrueOS Network&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/ru726VTV&quot;&gt; Chris - Remote Desktop&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/LQZPgF5g&quot;&gt; Goetz - Geli on Serial&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/jFeL8zKX&quot;&gt; Joe - BGP&lt;/a&gt; &lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://pastebin.com/Xq9cbmfn&quot;&gt; Alejandro - BSD Router&lt;/a&gt; &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;hr&gt;
-
-            &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href=&quot;mailto:feedback@bsdnow.tv&quot;&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         </content>
     </entry>
