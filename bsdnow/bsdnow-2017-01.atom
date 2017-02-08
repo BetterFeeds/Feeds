@@ -33,7 +33,7 @@
     <entry>
         <title>Enjoy the Silence</title>
         <smi:episode>178</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106451/enjoy-the-silence-bsd-now-178/"/>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_1_25-enjoy_the_silence"/>
         <id>http://www.bsdnow.tv/episodes/2017_1_25-enjoy_the_silence</id>
         <published>2017-01-26T07:44:43-08:00</published>
         <updated>2017-02-08T07:37:00Z</updated>
@@ -194,7 +194,7 @@
 
             &lt;ul&gt;
             &lt;li&gt;We had to get that shout-out of Kirk's book in here ;)&lt;/li&gt;
-            &lt;li&gt;From here the boot/article takes us on a whirlwind journey of Sessions, Windows, Panes and more. Every control-&lt;x&gt; command is covered, information on how to customize your statusbar, tips, tricks and the like. There's far more here than we can cover in a single segment, but you are highly encouraged to bookmark this one and start your own adventure into the world of tmux.&lt;/x&gt;&lt;/li&gt;
+            &lt;li&gt;From here the boot/article takes us on a whirlwind journey of Sessions, Windows, Panes and more. Every control-x command is covered, information on how to customize your statusbar, tips, tricks and the like. There's far more here than we can cover in a single segment, but you are highly encouraged to bookmark this one and start your own adventure into the world of tmux.&lt;/li&gt;
             &lt;/ul&gt;
 
             &lt;hr&gt;
