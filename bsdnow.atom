@@ -30,6 +30,39 @@
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
     <entry>
+        <title>Illuminating the desktop</title>
+        <smi:episode>180</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106756/illuminating-the-desktop-bsd-now-180/"/>
+        <id>http://www.bsdnow.tv/episodes/2017_02_08-illuminating_the_desktop</id>
+        <published>2017-02-08T02:03:44-08:00</published>
+        <updated>2017-02-10T18:28:00Z</updated>
+        <link length="24897087" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="24897087" duration="3088" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="37495622" duration="3088" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jbmirror/bsd-0180.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="180257326" duration="3088" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0180-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="347864891" duration="3088" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0180.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="347864891" duration="3088" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0180.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="84458" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/02/bsd-0180-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:00" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:03:35" title="Interview"/>
+            <psc:chapter start="00:26:05" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:29:55" title="Interview (cont)"/>
+            <psc:chapter start="00:47:20" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+        </psc:chapters>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Ken Moore</name>
+            <email>ken@trueos.org</email>
+        </contributor>
+        <summary>This week on BSDNow, Kris is out of town but we have a great interview with Ken Moore, his brother, about the latest in BSD desktop computing &amp; Lumina specifically. Stay tuned to your place to B...SD.</summary>
+    </entry>
+    <entry>
         <title>The Wayland Machine</title>
         <smi:episode>179</smi:episode>
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_01-the_wayland_machine"/>
