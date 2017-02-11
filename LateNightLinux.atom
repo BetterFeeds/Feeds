@@ -74,6 +74,13 @@
             &lt;p&gt;&lt;a href="https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/"&gt;Budgie turns its back on GTK, goes Qt&lt;/a&gt; and &lt;a href="https://budgie-desktop.org/about/"&gt;Wayland&lt;/a&gt;; &lt;a href="https://github.com/ZanderBrown/budgie-desktop"&gt;is inevitably forked&lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;See our &lt;a href="//latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
         </content>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="http://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
         <itunes:duration>1:29:41</itunes:duration>
     </entry>
     <entry>
@@ -115,6 +122,13 @@
             &lt;a href="http://phoronix.com/scan.php?page=news_item&amp;amp;px=Solus-Steam-Runtime-ABI"&gt;Solus Linux Working On A Flatpak-Based, Optimized Steam Runtime&lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;See our &lt;a href="//latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
         </content>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="http://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
         <itunes:duration>1:14:22</itunes:duration>
     </entry>
     <entry>
@@ -158,5 +172,12 @@
             &lt;p&gt;See our &lt;a href=&quot;http://latenightlinux.com/contact/&quot;&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
         </content>
         <itunes:duration>1:16:44</itunes:duration>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="http://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
     </entry>
 </feed>
