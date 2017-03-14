@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2017-01.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2017-02-08T07:37:00Z</updated>
+    <updated>2017-03-14T19:47:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -32,10 +32,10 @@
     <entry>
         <title>Illuminating the desktop</title>
         <smi:episode>180</smi:episode>
-        <link rel="alternate" type="text/html" href="http://www.jupiterbroadcasting.com/106756/illuminating-the-desktop-bsd-now-180/"/>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_08-illuminating_the_desktop"/>
         <id>http://www.bsdnow.tv/episodes/2017_02_08-illuminating_the_desktop</id>
         <published>2017-02-08T02:03:44-08:00</published>
-        <updated>2017-02-10T18:28:00Z</updated>
+        <updated>2017-03-14T19:43:00Z</updated>
         <link length="24897087" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" rel="enclosure"/>
         <media:group>
             <media:content fileSize="24897087" duration="3088" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
@@ -61,6 +61,29 @@
             <email>ken@trueos.org</email>
         </contributor>
         <summary>This week on BSDNow, Kris is out of town but we have a great interview with Ken Moore, his brother, about the latest in BSD desktop computing &amp; Lumina specifically. Stay tuned to your place to B...SD.</summary>
+        <content type="html">&lt;h1&gt;Episode 180: Illuminating the desktop&lt;/h1&gt;
+            &lt;h2&gt;Interview - Ken Moore - &lt;a href="mailto:ken@trueos.org"&gt;ken@trueos.org&lt;/a&gt;&lt;/h2&gt;
+
+            &lt;p&gt;TrueOS, Lumina, Sys Admin, The BSD Desktop Ecosystem
+            + KM: Thank you for joining us again, can you believe it has been an entire year?
+            + AJ: Let’s start by getting an update on Lumina, what has happened in the last year?
+            + KM: What is the change you are most proud of in that time?
+            + AJ: What do you think of the recent introduction of Wayland to the ports tree? Do you think this will impact Lumina? Do you have any plans?
+            + KM: &lt;followup&gt;
+            + AJ: What has changed with SysAdm after a year of development?
+            + KM: What plans do you have for the future of SysAdm?
+            + AJ: How has it been working with the drm-next branch? Does it feel like that is progressing?
+            + KM: Can you tell us about some of the other TrueOS work you have been doing?
+            + AJ: What are your thoughts on how the BSD Desktop Ecosystem has changed over the last year? Do you think the future looks better or worse now?
+            + KM: Do you think systemd is going to continue to make things work? Or does it seem like there is enough resistance to it that fewer projects are going to throw out support for anything not systemd
+            + AJ: Anything else you want to add?&lt;/followup&gt;&lt;/p&gt;
+
+            &lt;hr&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
     </entry>
     <entry>
         <title>The Wayland Machine</title>
