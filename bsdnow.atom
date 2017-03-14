@@ -17,7 +17,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="self" type="application/atom+xml; charset=utf-8" title="BSD Now"/>
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2017-01.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2017-03-14T19:47:00Z</updated>
+    <updated>2017-04-14T20:05:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -29,6 +29,32 @@
         <email>kris@pcbsd.org</email>
         <uri>https://twitter.com/pcbsdkris</uri>
     </author>
+    <entry>
+        <title>The Cantrillogy</title>
+        <smi:episode>181</smi:episode>
+        <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_15-the_cantrillogy"/>
+        <id>http://www.bsdnow.tv/episodes/2017_02_15-the_cantrillogy</id>
+        <published>2017-02-15T12:02:50-08:00</published>
+        <updated>2017-03-14T19:51:00Z</updated>
+        <link length="128096643" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0181.mp3" type="audio/mpeg" rel="enclosure"/>
+        <media:group>
+            <media:content fileSize="128096643" duration="15988" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0181.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
+            <media:content fileSize="201175164" duration="15988" url="http://www.podtrac.com/pts/redirect.ogg/traffic.libsyn.com/jnite/bsd-0181.ogg" type="audio/ogg" medium="audio" isDefault="false"/>
+            <media:content fileSize="932867318" duration="15988" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0181-432p.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1800060631" duration="15988" url="http://www.podtrac.com/pts/redirect.mp4/201406.jb-dl.cdn.scaleengine.net/bsdnow/2017/bsd-0181.mp4" type="video/mp4" medium="video" isDefault="false"/>
+            <media:content fileSize="1800060631" duration="15988" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0181.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
+            <media:content fileSize="79003" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/02/bsd-0181-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
+        </media:group>
+        <contributor>
+            <name>JT</name>
+            <uri>https://twitter.com/q5sys</uri>
+        </contributor>
+        <contributor>
+            <name>Bryan Cantrill</name>
+            <uri></uri>
+        </contributor>
+        <summary>This week on BSDNow we have a Cantrill special to bring you! All three interviews back to back in their original glory, you won’t want to miss it. Stay tuned for your place to B...SD!</summary>
+    </entry>
     <entry>
         <title>Illuminating the desktop</title>
         <smi:episode>180</smi:episode>
