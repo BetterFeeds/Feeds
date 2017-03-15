@@ -18,7 +18,7 @@
     <link href="https://feeds.betterfeeds.org/bsdnow/bsdnow-2017-01.atom" rel="next" type="application/atom+xml; charset=utf-8"/>
     <link href="https://feeds.betterfeeds.org/bsdnow.atom" rel="previous" type="application/atom+xml; charset=utf-8"/>
     <id>http://www.bsdnow.tv/</id>
-    <updated>2017-03-14T20:19:00Z</updated>
+    <updated>2017-03-15T11:52:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <author>
         <name>Allan Jude</name>
@@ -270,7 +270,7 @@
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_15-the_cantrillogy"/>
         <id>http://www.bsdnow.tv/episodes/2017_02_15-the_cantrillogy</id>
         <published>2017-02-15T12:02:50-08:00</published>
-        <updated>2017-03-14T19:51:00Z</updated>
+        <updated>2017-03-15T11:51:00Z</updated>
         <link length="128096643" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0181.mp3" type="audio/mpeg" rel="enclosure"/>
         <media:group>
             <media:content fileSize="128096643" duration="15988" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0181.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
@@ -280,6 +280,15 @@
             <media:content fileSize="1800060631" duration="15988" url="http://bitlove.org/jupiterbroadcasting/bsdnowhd/bsd-0181.mp4.torrent" type="application/x-bittorrent; enclosed=&quot;video/mp4&quot;" medium="video" isDefault="false"/>
             <media:content fileSize="79003" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/02/bsd-0181-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
         </media:group>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:50" title="FOSDEM Recap" href="https://fosdem.org/2017/schedule/track/bsd/"/>
+            <psc:chapter start="00:12:35" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:15:00" title="103: Ubuntu Slaughters Kittens" href="http://www.bsdnow.tv/episodes/2015_08_19-ubuntu_slaughters_kittens"/>
+            <psc:chapter start="01:49:10" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="01:53:50" title="117: The Cantrill Strikes Back: ..." href="http://www.bsdnow.tv/episodes/2015_11_23-the_cantrill_strikes_back"/>
+            <psc:chapter start="03:03:25" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="03:06:00" title="163: Return of the Cantrill" href="http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill"/>
+        </psc:chapters>
         <contributor>
             <name>JT</name>
             <uri>https://twitter.com/q5sys</uri>
@@ -290,6 +299,16 @@
             <email>bryan@joyent.com</email>
         </contributor>
         <summary>This week on BSDNow we have a Cantrill special to bring you! All three interviews back to back in their original glory, you won’t want to miss it. Stay tuned for your place to B...SD!</summary>
+        <content type="html">&lt;h1&gt;Episode 181: The Cantrillogy (Not special edition)&lt;/h1&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href="https://fosdem.org/2017/schedule/track/bsd/"&gt;FOSDEM 2017 BSD Dev Room Videos &lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="http://www.jupiterbroadcasting.com/86662/ubuntu-slaughters-kittens-bsd-now-103/"&gt;Ubuntu Slaughters Kittens | BSD Now 103&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="http://www.jupiterbroadcasting.com/90811/the-cantrill-strikes-back-bsd-now-117/"&gt;The Cantrill Strikes Back | BSD Now 117&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="http://www.jupiterbroadcasting.com/103871/return-of-the-cantrill-bsd-now-163/"&gt;Return of the Cantrill | BSD Now 163&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;p&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/p&gt;
+        </content>
     </entry>
     <entry>
         <title>Illuminating the desktop</title>
@@ -297,7 +316,7 @@
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_02_08-illuminating_the_desktop"/>
         <id>http://www.bsdnow.tv/episodes/2017_02_08-illuminating_the_desktop</id>
         <published>2017-02-08T02:03:44-08:00</published>
-        <updated>2017-03-14T19:43:00Z</updated>
+        <updated>2017-03-15T09:37:00Z</updated>
         <link length="24897087" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" rel="enclosure"/>
         <media:group>
             <media:content fileSize="24897087" duration="3088" url="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jbmirror/bsd-0180.mp3" type="audio/mpeg" medium="audio" isDefault="true"/>
@@ -326,25 +345,22 @@
         <content type="html">&lt;h1&gt;Episode 180: Illuminating the desktop&lt;/h1&gt;
             &lt;h2&gt;Interview - Ken Moore - &lt;a href="mailto:ken@trueos.org"&gt;ken@trueos.org&lt;/a&gt;&lt;/h2&gt;
 
-            &lt;p&gt;TrueOS, Lumina, Sys Admin, The BSD Desktop Ecosystem
-            + KM: Thank you for joining us again, can you believe it has been an entire year?
-            + AJ: Let’s start by getting an update on Lumina, what has happened in the last year?
-            + KM: What is the change you are most proud of in that time?
-            + AJ: What do you think of the recent introduction of Wayland to the ports tree? Do you think this will impact Lumina? Do you have any plans?
-            + KM: &lt;followup&gt;
-            + AJ: What has changed with SysAdm after a year of development?
-            + KM: What plans do you have for the future of SysAdm?
-            + AJ: How has it been working with the drm-next branch? Does it feel like that is progressing?
-            + KM: Can you tell us about some of the other TrueOS work you have been doing?
-            + AJ: What are your thoughts on how the BSD Desktop Ecosystem has changed over the last year? Do you think the future looks better or worse now?
-            + KM: Do you think systemd is going to continue to make things work? Or does it seem like there is enough resistance to it that fewer projects are going to throw out support for anything not systemd
-            + AJ: Anything else you want to add?&lt;/followup&gt;&lt;/p&gt;
+            &lt;p&gt;TrueOS, Lumina, Sys Admin, The BSD Desktop Ecosystem&lt;/p&gt;
+            &lt;p&gt;+ KM: Thank you for joining us again, can you believe it has been an entire year?&lt;/p&gt;
+            &lt;p&gt;+ AJ: Let’s start by getting an update on Lumina, what has happened in the last year?&lt;/p&gt;
+            &lt;p&gt;+ KM: What is the change you are most proud of in that time?&lt;/p&gt;
+            &lt;p&gt;+ AJ: What do you think of the recent introduction of Wayland to the ports tree? Do you think this will impact Lumina? Do you have any plans?&lt;/p&gt;
+            &lt;p&gt;+ AJ: What has changed with SysAdm after a year of development?&lt;/p&gt;
+            &lt;p&gt;+ KM: What plans do you have for the future of SysAdm?&lt;/p&gt;
+            &lt;p&gt;+ AJ: How has it been working with the drm-next branch? Does it feel like that is progressing?&lt;/p&gt;
+            &lt;p&gt;+ KM: Can you tell us about some of the other TrueOS work you have been doing?&lt;/p&gt;
+            &lt;p&gt;+ AJ: What are your thoughts on how the BSD Desktop Ecosystem has changed over the last year? Do you think the future looks better or worse now?&lt;/p&gt;
+            &lt;p&gt;+ KM: Do you think systemd is going to continue to make things work? Or does it seem like there is enough resistance to it that fewer projects are going to throw out support for anything not systemd&lt;/p&gt;
+            &lt;p&gt;+ AJ: Anything else you want to add?&lt;/p&gt;
 
             &lt;hr&gt;
 
-            &lt;ul&gt;
-            &lt;li&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
+            &lt;p&gt;Send questions, comments, show ideas/topics, or stories you want mentioned on the show to &lt;a href="mailto:feedback@bsdnow.tv"&gt;feedback@bsdnow.tv&lt;/a&gt;&lt;/p&gt;
         </content>
     </entry>
     <entry>
