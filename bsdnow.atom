@@ -34,7 +34,7 @@
         <smi:episode>184</smi:episode>
         <link rel="alternate" type="text/html" href="http://www.bsdnow.tv/episodes/2017_03_08-tokyo_dreaming"/>
         <id>http://www.bsdnow.tv/episodes/2017_03_08-tokyo_dreaming</id>
-        <published>2017-02-08T03:48:46-08:00</published>
+        <published>2017-03-08T03:48:46-08:00</published>
         <updated>2017-03-15T07:53:00Z</updated>
         <link length="45765998" href="http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/jnite/bsd-0184.mp3" type="audio/mpeg" rel="enclosure"/>
         <media:group>
