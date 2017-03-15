@@ -281,12 +281,12 @@
             <media:content fileSize="79003" url="http://www.jupiterbroadcasting.com/wp-content/uploads/2017/02/bsd-0181-v.jpg" type="image/jpg" medium="image" width="854" height="506"/>
         </media:group>
         <psc:chapters version="1.1">
-            <psc:chapter start="00:01:50" title="FOSDEM Recap" href="https://fosdem.org/2017/schedule/track/bsd/"/>
-            <psc:chapter start="00:12:35" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
-            <psc:chapter start="00:15:00" title="103: Ubuntu Slaughters Kittens" href="http://www.bsdnow.tv/episodes/2015_08_19-ubuntu_slaughters_kittens"/>
-            <psc:chapter start="01:49:10" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
+            <psc:chapter start="00:02:20" title="FOSDEM Recap" href="https://fosdem.org/2017/schedule/track/bsd/"/>
+            <psc:chapter start="00:13:20" title="AD: DigitalOcean - Simple Cloud Hosting, Built for Developers" href="http://www.digitalocean.com/" image="http://www.bsdnow.tv/images/2.png"/>
+            <psc:chapter start="00:15:45" title="103: Ubuntu Slaughters Kittens" href="http://www.bsdnow.tv/episodes/2015_08_19-ubuntu_slaughters_kittens"/>
+            <psc:chapter start="01:49:15" title="AD: iXsystems - Enterprise Servers and Storage for Open Source" href="http://www.ixsystems.com/bsdnow/" image="http://www.bsdnow.tv/images/1.png"/>
             <psc:chapter start="01:53:50" title="117: The Cantrill Strikes Back: ..." href="http://www.bsdnow.tv/episodes/2015_11_23-the_cantrill_strikes_back"/>
-            <psc:chapter start="03:03:25" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
+            <psc:chapter start="03:03:45" title="AD: Tarsnap - Online Backups for the Truly Paranoid" href="http://www.tarsnap.com/bsdnow" image="http://www.bsdnow.tv/images/3.png"/>
             <psc:chapter start="03:06:00" title="163: Return of the Cantrill" href="http://www.bsdnow.tv/episodes/2016_10_12-return_of_the_cantrill"/>
         </psc:chapters>
         <contributor>
