@@ -9,7 +9,7 @@
     <link href="http://latenightlinux.com/feed/ogg" rel="archives" type="application/rss+xml" title="Late Night Linux OGG"/>
     <link href="https://feeds.betterfeeds.org/LateNightLinux.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Late Night Linux"/>
     <id>tag:latenightlinux.com,2017:1</id>
-    <updated>2017-01-24T09:12:00Z</updated>
+    <updated>2017-02-20T097:28:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <category term="Technology" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Technology"/>
     <category term="Tech News" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Tech News"/>
@@ -31,8 +31,75 @@
         <uri>https://twitter.com/felimwhiteley</uri>
     </author>
     <entry>
+        <title>Episode 4</title>
+        <smi:episode>4</smi:episode>
+        <link rel="alternate" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-04/"/>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-04/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-04/#comments"/>
+        <id>tag:latenightlinux.com,2017-02-07:/late-night-linux-episode-04/</id>
+        <published>2017-02-21T02:31:44Z</published>
+        <updated>2017-03-20T07:06:00Z</updated>
+        <author>
+            <name>Joe Ressington</name>
+            <email>joeressington@gmail.com</email>
+            <uri>http://joeress.com/about/</uri>
+        </author>
+        <author>
+            <name>Jesse</name>
+            <uri>https://plus.google.com/117795945865661943166</uri>
+        </author>
+        <author>
+            <name>Félim Whiteley</name>
+            <uri>https://twitter.com/felimwhiteley</uri>
+        </author>
+        <contributor>
+            <name>Richard Brown</name>
+            <uri>https://rootco.de/</uri>
+        </contributor>
+        <link length="50691239" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL04.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="48976658" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL04.ogg" type="audio/ogg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:00:45" title="News"/>
+            <psc:chapter start="00:00:45" title="7 inch Ubuntu Laptop Indiegogo" href="https://www.indiegogo.com/projects/gpd-pocket-7-0-umpc-laptop-ubuntu-or-win-10-os-laptop--2#/"/>
+            <psc:chapter start="00:06:30" title="Munich steps towards returning to Windows" href="http://www.techrepublic.com/article/linux-champion-munich-takes-decisive-step-towards-returning-to-windows/"/>
+            <psc:chapter start="00:13:30" title="Elementary OS are crowdfunding an app store" href="https://www.indiegogo.com/projects/appcenter-the-pay-what-you-want-app-store#/"/>
+            <psc:chapter start="00:19:35" title="Gaming on Ubuntu 16.10 vs Windows 10" href="http://www.phoronix.com/scan.php?page=article&amp;item=pascal-win10-linux"/>
+            <psc:chapter start="00:23:40" title="Félim's new Oneplus 3T" href="https://oneplus.net/3t"/>
+            <psc:chapter start="00:43:15" title="Jam - FOSS Google Play Music client" href="https://github.com/budkin/jam"/>
+            <psc:chapter start="00:48:20" title="Interview - Richard Brown"/>
+        </psc:chapters>
+        <summary>With Ikey languishing in his sick bed, the rest of the team discussed even more Linux hardware, Munich probably switching back to Windows, Elementary's potentially ill-fated crowdfunded app store, Félim's new phone and loads more. Plus we learn more about OpenSUSE from its chairman Richard Brown on LNL 04.</summary>
+        <content type="html">&lt;p&gt;With Ikey languishing in his sick bed, the rest of the team discussed even more Linux hardware, Munich probably switching back to Windows, Elementary's potentially ill-fated crowdfunded app store, Félim's new phone and loads more. Plus we learn more about OpenSUSE from its chairman Richard Brown on LNL 04.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.indiegogo.com/projects/gpd-pocket-7-0-umpc-laptop-ubuntu-or-win-10-os-laptop--2#/"&gt;7 inch Ubuntu Laptop Indiegogo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.techrepublic.com/article/linux-champion-munich-takes-decisive-step-towards-returning-to-windows/"&gt;Munich takes decisive step towards returning to Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.indiegogo.com/projects/appcenter-the-pay-what-you-want-app-store#/"&gt;Elementary OS are crowdfunding a pay what you want app store&lt;/a&gt;; They are writing it in &lt;a href="https://twitter.com/sil/status/830219854015823872"&gt;Vala&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.phoronix.com/scan.php?page=article&amp;amp;item=pascal-win10-linux"&gt;Gaming on Ubuntu 16.10 vs Windows 10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Félim's new &lt;a href="https://oneplus.net/3t"&gt;Oneplus 3T&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Shout out to &lt;a href="https://www.tuxedocomputers.com/"&gt;Tuxedo Computers,&lt;/a&gt; a German Linux hardware company.&lt;/p&gt;
+&lt;p&gt;Jesse tried to list the video editors we had recommended to us.&lt;/p&gt;
+&lt;p&gt;FOSS Talk Live 2017 will happen on 24th June at the Harrison in Kings Cross, London. It will be a free evening of live Linux podcasts. We will hopefully have more details about it next time. For now, save the date.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jam&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jesse checked out a&lt;a href="https://github.com/budkin/jam"&gt; FOSS Command line Google Play Music client&lt;/a&gt; called Jam&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OpenSUSE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://www.opensuse.org/"&gt;OpenSUSE&lt;/a&gt; chairman &lt;a href="https://rootco.de"&gt;Richard Brown&lt;/a&gt; tells us about some of the great features of the distro. He mentioned a &lt;a href="https://fosdem.org/2017/schedule/event/how_i_learned_to_stop_worrying_and_love_tumbleweed/"&gt;couple&lt;/a&gt; of &lt;a href="https://fosdem.org/2017/schedule/event/dinosaurs/"&gt;FOSDEM talks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See our &lt;a href="https://latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="http://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
+        <itunes:duration>1:07:25</itunes:duration>
+    </entry>
+    <entry>
         <title>Episode 3</title>
         <smi:episode>3</smi:episode>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-03/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-03/#comments"/>
         <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-03/"/>
         <id>tag:latenightlinux.com,2017-02-07:/late-night-linux-episode-03/</id>
         <published>2017-02-07T16:40:55Z</published>
@@ -51,7 +118,7 @@
             <psc:chapter start="00:18:15" title="Steam's Linux marketshare just 0.8%" href="http://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Marketshare-Jan-2017"/>
             <psc:chapter start="00:24:05" title="Mozilla is shutting down the group behind Firefox OS" href="http://www.theverge.com/2017/2/2/14486812/mozilla-shutting-down-connected-devices-group"/>
             <psc:chapter start="00:29:15" title="Chromium isn't as Free as you might think" href="https://www.reddit.com/r/SolusProject/comments/5ihxr2/i_dont_want_to_use_chrome_please_package_chromium/"/>
-            <psc:chapter start="00:40:50" title="Interview Martin Wimpress"/>
+            <psc:chapter start="00:40:50" title="Interview - Martin Wimpress"/>
             <psc:chapter start="00:41:10" title="Ubuntu MATE on the Raspberry Pi" href="http://ubuntu-mate.org/"/>
             <psc:chapter start="00:59:15" title="Jesse tries Ubuntu Budgie" href="https://budgie-remix.org/"/>
             <psc:chapter start="01:11:30" title="More Solus news" href="https://budgie-desktop.org/2017/01/25/kicking-off-budgie-11/"/>
@@ -86,6 +153,8 @@
     <entry>
         <title>Episode 2</title>
         <smi:episode>2</smi:episode>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-02/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-02/#comments"/>
         <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-02/"/>
         <id>http://latenightlinux.com/late-night-linux-episode-02/</id>
         <published>2017-01-24T02:02:46-00:00</published>
@@ -134,6 +203,8 @@
     <entry>
         <title>Episode 1</title>
         <smi:episode>1</smi:episode>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-01/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-01/#comments"/>
         <link rel="alternate" type="text/html" href="http://latenightlinux.com/late-night-linux-episode-01/"/>
         <id>http://latenightlinux.com/late-night-linux-episode-01/</id>
         <published>2017-01-10T03:37:44-00:00</published>
