@@ -9,7 +9,7 @@
     <link href="https://latenightlinux.com/feed/ogg" rel="archives" type="application/rss+xml" title="Late Night Linux OGG"/>
     <link href="https://feeds.betterfeeds.org/LateNightLinux.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Late Night Linux"/>
     <id>tag:latenightlinux.com,2017:1</id>
-    <updated>2017-03-21T16:04:00Z</updated>
+    <updated>2017-03-21T20:42:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <category term="Technology" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Technology"/>
     <category term="Tech News" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Tech News"/>
@@ -30,6 +30,62 @@
         <name>Félim Whiteley</name>
         <uri>https://twitter.com/felimwhiteley</uri>
     </author>
+    <entry>
+        <title>Episode 6</title>
+        <smi:episode>6</smi:episode>
+        <link rel="alternate" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-06/"/>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-06/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-06/#comments"/>
+        <id>tag:latenightlinux.com,2017-02-07:/late-night-linux-episode-06/</id>
+        <published>2017-03-21T02:35:52Z</published>
+        <updated>2017-03-21T20:42:00Z</updated>
+        <author>
+            <name>Joe Ressington</name>
+            <email>joeressington@gmail.com</email>
+            <uri>http://joeress.com/about/</uri>
+        </author>
+        <author>
+            <name>Jesse</name>
+            <uri>https://plus.google.com/117795945865661943166</uri>
+        </author>
+        <author>
+            <name>Ikey Doherty</name>
+            <uri>https://plus.google.com/+IkeyDoherty</uri>
+        </author>
+        <link length="46348415" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL06.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="45595742" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL06.ogg" type="audio/ogg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:00:50" title="ICE and Fingerprints"/>
+            <psc:chapter start="00:03:40" title="News"/>
+            <psc:chapter start="00:03:40" title="Nextcloud going too far?" href="https://www.reddit.com/r/selfhosted/comments/5ybmf1/nextcloud_scanning_peoples_owncloud_and_nextcloud/"/>
+            <psc:chapter start="00:19:20" title="Introducing Ubuntu 12.04 ESM" href="https://insights.ubuntu.com/2017/03/14/introducing-ubuntu-12-04-esm-extended-security-maintenance/"/>
+            <psc:chapter start="00:28:50" title="Ubuntu MATE drops PowerPC, a fork appears" href="https://plus.google.com/115515624056477014971/posts/V1NMAgqLfbV"/>
+            <psc:chapter start="00:38:10" title="HiDPI"/>
+        </psc:chapters>
+        <summary>Jesse is back but this time Félim is in his sick bed so it's a 3 man show yet again. Some heated debates about Nextcloud's actions, Ubuntu extended support and PowerPC distros, followed by a deep dive into the world of HiDPI 4k support in Linux.</summary>
+        <content type="html">&lt;p&gt;Jesse is back but this time Félim is in his sick bed so it’s a 3 man show yet again. Some heated debates about Nextcloud’s actions, Ubuntu extended support and PowerPC distros, followed by a deep dive into the world of HiDPI 4k support in Linux.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.reddit.com/r/selfhosted/comments/5ybmf1/nextcloud_scanning_peoples_owncloud_and_nextcloud/"&gt;Nextcloud going too far to ensure that people stay up to date?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://insights.ubuntu.com/2017/03/14/introducing-ubuntu-12-04-esm-extended-security-maintenance/"&gt;Introducing Ubuntu 12.04 ESM (Extended Security Maintenance)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://plus.google.com/115515624056477014971/posts/V1NMAgqLfbV"&gt;With the death of Ubuntu MATE for PowerPC, a fork appears &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to support the show by trying something for free, check out &lt;a href="https://latenightlinux.com/digitalocean"&gt;Digital Ocean&lt;/a&gt;. If you sign up using our affiliate link you’ll get $10 free credit. If you stick with them then eventually we will make a few quid and it won’t cost you any more than their normal service.&lt;/p&gt;
+&lt;p&gt;We also spoke about a couple of upcoming events:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fosstalk.com/foss-talk-live-2017"&gt;FOSS Talk Live 2017&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://oggcamp.org/oggcamp-17-is-on/"&gt;OggCamp 2017&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HiDPI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ikey has been trying out some of the big desktop environments on his new 4k monitor.&lt;/p&gt;
+&lt;p&gt;See our &lt;a href="https://latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="https://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
+        <itunes:duration>1:02:56</itunes:duration>
+    </entry>
     <entry>
         <title>Episode 5</title>
         <smi:episode>5</smi:episode>
