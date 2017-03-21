@@ -9,7 +9,7 @@
     <link href="http://latenightlinux.com/feed/ogg" rel="archives" type="application/rss+xml" title="Late Night Linux OGG"/>
     <link href="https://feeds.betterfeeds.org/LateNightLinux.atom" rel="self" type="application/atom+xml; charset=utf-8" title="Late Night Linux"/>
     <id>tag:latenightlinux.com,2017:1</id>
-    <updated>2017-02-20T097:28:00Z</updated>
+    <updated>2017-03-21T16:04:00Z</updated>
     <smi:sequential>false</smi:sequential>
     <category term="Technology" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Technology"/>
     <category term="Tech News" scheme="http://www.itunes.com/dtds/podcast-1.0.dtd" label="Tech News"/>
@@ -30,6 +30,65 @@
         <name>Félim Whiteley</name>
         <uri>https://twitter.com/felimwhiteley</uri>
     </author>
+    <entry>
+        <title>Episode 5</title>
+        <smi:episode>5</smi:episode>
+        <link rel="alternate" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-05/"/>
+        <link rel="replies" type="application/atom+xml" href="https://latenightlinux.com/late-night-linux-episode-05/feed/atom/"/>
+        <link rel="replies" type="text/html" href="https://latenightlinux.com/late-night-linux-episode-05/#comments"/>
+        <id>tag:latenightlinux.com,2017-02-07:/late-night-linux-episode-05/</id>
+        <published>2017-03-07T03:12:36Z</published>
+        <updated>2017-03-21T16:01:00Z</updated>
+        <author>
+            <name>Joe Ressington</name>
+            <email>joeressington@gmail.com</email>
+            <uri>http://joeress.com/about/</uri>
+        </author>
+        <author>
+            <name>Ikey Doherty</name>
+            <uri>https://plus.google.com/+IkeyDoherty</uri>
+        </author>
+        <author>
+            <name>Félim Whiteley</name>
+            <uri>https://twitter.com/felimwhiteley</uri>
+        </author>
+        <link length="50489678" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL05.mp3" type="audio/mpeg" rel="enclosure"/>
+        <link length="49500516" href="http://podtrac.com/pts/redirect.mp3/latenightlinux.com/media/LNL05.ogg" type="audio/ogg" rel="enclosure"/>
+        <psc:chapters version="1.1">
+            <psc:chapter start="00:01:30" title="News"/>
+            <psc:chapter start="00:01:30" title="SteamVR Is Coming to Linux and SteamOS" href="http://news.softpedia.com/news/steamvr-is-coming-to-linux-and-steamos-now-ready-for-public-beta-testing-513204.shtml"/>
+            <psc:chapter start="00:08:25" title="Raspberry Pi Zero W" href="https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/"/>
+            <psc:chapter start="00:17:35" title="RetroPie needs legal help" href="https://retropie.org.uk/2017/02/legal-help-needed/"/>
+            <psc:chapter start="00:22:50" title="Shutting down Manjaro-Arm" href="http://manjaro-arm.org/forums/announcements-and-other-news/ltimportantgt-shutting-down-manjaro-arm/"/>
+            <psc:chapter start="00:26:05" title="Mozilla acquires Pocket" href="https://blog.mozilla.org/blog/2017/02/27/mozilla-acquires-pocket/"/>
+            <psc:chapter start="00:36:10" title="FSF unimpressed with Encrypted Media Extensions" href="https://defectivebydesign.org/blog/response_tim_bernerslees_defeatist_post_about_drm_web_standards"/>
+            <psc:chapter start="00:53:10" title="Kodi's PR Problem" href="https://kodi.tv/the-piracy-box-sellers-and-youtube-promoters-are-killing-kodi/"/>
+        </psc:chapters>
+        <summary>Ikey is back but with Jesse on holiday, it's a three man show again. VR gaming on Linux, a new Raspberry Pi, Mozilla buying Pocket, Web DRM, Kodi piracy and loads more on LNL 05.</summary>
+        <content type="html">&lt;p&gt;Ikey is back but with Jesse on holiday, it's a three man show again. VR gaming on Linux, a new Raspberry Pi, Mozilla buying Pocket, Web DRM, Kodi piracy and loads more on LNL 05.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://news.softpedia.com/news/steamvr-is-coming-to-linux-and-steamos-now-ready-for-public-beta-testing-513204.shtml"&gt;SteamVR Is Coming to Linux and SteamOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/"&gt;Raspberry Pi Zero W&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://retropie.org.uk/2017/02/legal-help-needed/"&gt;RetroPie needs legal help&lt;/a&gt;; &lt;a href="https://github.com/gnunn1/terminix/issues/815"&gt;Terminix face a similar situation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://manjaro-arm.org/forums/announcements-and-other-news/ltimportantgt-shutting-down-manjaro-arm/"&gt;Shutting down Manjaro-Arm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.mozilla.org/blog/2017/02/27/mozilla-acquires-pocket/"&gt;Mozilla acquires Pocket&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://defectivebydesign.org/blog/response_tim_bernerslees_defeatist_post_about_drm_web_standards"&gt;FSF unimpressed with Encrypted Media Extensions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fosstalk.com/foss-talk-live-2017"&gt;FOSS Talk Live 2017&lt;/a&gt;. 24th June at the Harrison in London.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://oggcamp.org/oggcamp-17-is-on/"&gt;OggCamp 2017.&lt;/a&gt; 19th and 20th of August 2017 at Canterbury Christ Church University in Canterbury, Kent, UK.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kodi&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;What should Kodi do about its &lt;a href="https://www.theregister.co.uk/2017/02/08/biggest_kodi_sweep_yet_snags_five_more_stick_shifters/"&gt;PR problem&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;See our &lt;a href="https://latenightlinux.com/contact/"&gt;contact page&lt;/a&gt; for ways to get in touch.&lt;/p&gt;
+        </content>
+        <source>
+            <title>Late Night Linux</title>
+            <link href="http://latenightlinux.com/feed/mp3" rel="self" type="application/rss+xml" title="Late Night Linux MP3"/>
+            <id>http://latenightlinux.com/feed/mp3</id>
+            <subtitle>Linux After Dark</subtitle>
+            <icon>http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg</icon>
+        </source>
+        <itunes:duration>1:09:40</itunes:duration>
+    </entry>
     <entry>
         <title>Episode 4</title>
         <smi:episode>4</smi:episode>
