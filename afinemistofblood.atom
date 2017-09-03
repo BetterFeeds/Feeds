@@ -42,6 +42,7 @@
             <uri>http://www.imdb.com/name/nm0118427/</uri>
         </contributor>
         <summary>Bosch follows up on his hunch.</summary>
+        <itunes:duration>12:15</itunes:duration>
     </entry>
     <entry>
         <title>Part 2</title>
@@ -72,6 +73,7 @@
             <uri>http://www.imdb.com/name/nm0118427/</uri>
         </contributor>
         <summary>Bosch &amp; Edgar visit the common witness in two murder cases.</summary>
+        <itunes:duration>11:27</itunes:duration>
     </entry>
     <entry>
         <title>Part 1</title>
@@ -106,5 +108,6 @@
             <uri>http://www.imdb.com/name/nm0364246/</uri>
         </contributor>
         <summary>Detective Bosch receives a call from the D.E.A.T.H. squad.</summary>
+        <itunes:duration>16:14</itunes:duration>
     </entry>
 </feed>
