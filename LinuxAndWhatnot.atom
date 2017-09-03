@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:smi="https://www.betterfeeds.org/series-media-info/1" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
-    <title>Nerds &amp; Whatnot</title>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
+    <title>Linux &amp; Whatnot</title>
     <subtitle type="html">&lt;p&gt;Bryan Lunduke and Matt Hartley join forces to create a new, weekly, video show over
         on &lt;a href=&quot;https://www.youtube.com/user/BryanLunduke&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
         &lt;p&gt;Nerds &amp; Whatnot is a freaking delightful romp. These two hosts have never done a show together
@@ -14,12 +14,12 @@
     <link href="https://lundukewhatnot.wordpress.com/osd.xml" rel="search" type="application/opensearchdescription+xml" title="Nerds &amp; Whatnot"/>
     <link href="https://www.youtube.com/user/BryanLunduke/videos" rel="archives" type="text/html" title="Youtube"/>
     <id>https://lundukewhatnot.wordpress.com/</id>
-    <updated>2016-10-18T15:40:00Z</updated>
-    <smi:sequential>false</smi:sequential>
+    <updated>2017-09-03T08:21:00Z</updated>
+    <itunes:type>episodic</itunes:type>
     <itunes:block>yes</itunes:block>
     <entry>
         <title>Pete Mitchell of the band &quot;No More Kings&quot;</title>
-        <smi:episode>11</smi:episode>
+        <itunes:episode>11</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gqmGqkbd0eM"/>
         <id>https://www.youtube.com/watch?v=gqmGqkbd0eM</id>
         <published>2016-10-13T18:20:00Z</published>
@@ -36,7 +36,7 @@
     </entry>
     <entry>
         <title>Matrix/Riot Decentralized</title>
-        <smi:episode>10</smi:episode>
+        <itunes:episode>10</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=LhCfI-xdvlE"/>
         <id>https://www.youtube.com/watch?v=LhCfI-xdvlE</id>
         <published>2016-10-10T18:20:00Z</published>
@@ -61,7 +61,7 @@
     </entry>
     <entry>
         <title>FreeDOS Founder (Jim Hall)</title>
-        <smi:episode>9</smi:episode>
+        <itunes:episode>9</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=hzRZ6kgFPyY"/>
         <id>https://lundukewhatnot.wordpress.com/2016/10/04/linux-whatnot-freedos-founder-jim-hall/</id>
         <published>2016-10-04T22:21:50Z</published>
@@ -84,7 +84,7 @@
     </entry>
     <entry>
         <title>Creative Commons CEO</title>
-        <smi:episode>8</smi:episode>
+        <itunes:episode>8</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=E2QNPNyi0b0"/>
         <id>https://lundukewhatnot.wordpress.com/2016/09/20/linux-whatnot-creative-commons-ceo-ryan-merkley/</id>
         <published>2016-09-20T07:18:21Z</published>
@@ -107,7 +107,7 @@
     </entry>
     <entry>
         <title>EOMA68 PCMCIA Modular Computer</title>
-        <smi:episode>7</smi:episode>
+        <itunes:episode>7</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=7c_YTX06TL0"/>
         <id>https://lundukewhatnot.wordpress.com/2016/09/03/linux-whatnot-eoma68-pcmcia-modular-computer/</id>
         <published>2016-09-03T00:34:28Z</published>
@@ -134,7 +134,7 @@
     </entry>
     <entry>
         <title>KDE, Unity, Pantheon (Desktop Environments)</title>
-        <smi:episode>6</smi:episode>
+        <itunes:episode>6</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IspHmBsg4BA"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/26/linux-whatnot-kde-unity-pantheon-desktop-environments/</id>
         <published>2016-08-26T23:17:23Z</published>
@@ -165,7 +165,7 @@
     </entry>
     <entry>
         <title>The Linux YouTubers</title>
-        <smi:episode>5</smi:episode>
+        <itunes:episode>5</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Sb7UmXhs32M"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/20/linux-whatnot-the-linux-youtubers/</id>
         <published>2016-08-20T20:43:40Z</published>
@@ -196,7 +196,7 @@
     </entry>
     <entry>
         <title>Solus, elementary and Ubuntu-MATE</title>
-        <smi:episode>4</smi:episode>
+        <itunes:episode>4</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=OgBQ1tOvFcI"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/11/lunduke-and-whatnot-solus-elementary-and-ubuntu-mate/</id>
         <published>2016-08-11T16:58:48Z</published>
@@ -227,7 +227,7 @@
     </entry>
     <entry>
         <title>Dell. System76.</title>
-        <smi:episode>3</smi:episode>
+        <itunes:episode>3</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9OBdJq5BbFY"/>
         <id>https://lundukewhatnot.wordpress.com/2016/08/02/lunduke-and-whatnot-with-matt-episode-3-dell-system76/</id>
         <published>2016-08-02T20:21:10Z</published>
@@ -254,7 +254,7 @@
     </entry>
     <entry>
         <title>Tech Journalism Roundtable</title>
-        <smi:episode>2</smi:episode>
+        <itunes:episode>2</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1sTHTdLaSjM"/>
         <id>https://lundukewhatnot.wordpress.com/2016/07/25/lunduke-and-whatnot-tech-journalism-roundtable/</id>
         <published>2016-07-25T20:34:34Z</published>
@@ -283,7 +283,7 @@
     </entry>
     <entry>
         <title>Ubuntu 10-inch Tablet</title>
-        <smi:episode>1</smi:episode>
+        <itunes:episode>1</itunes:episode>
         <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=rFQFSxxyqwk"/>
         <id>https://lundukewhatnot.wordpress.com/2016/07/18/lunduke-and-whatnot-ubuntu-10-inch-tablet/</id>
         <published>2016-07-18T20:42:05Z</published>
